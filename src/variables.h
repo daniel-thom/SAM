@@ -142,6 +142,7 @@ public:
 	bool Read_text(wxInputStream &);
 
 	int Type() const;
+	wxString TypeAsString() const;
 	void ChangeType(int type);
 	void SetType( int t );
 	void Set( int val );
