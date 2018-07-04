@@ -1498,26 +1498,30 @@ void InputPageData::Write_text(wxOutputStream &os)
 	wxTextOutputStream out(os);
 	m_form.Write_text(os);
 	m_vars.Write_text(os);
-	size_t n = m_eqnScript.size();
+//	size_t n = m_eqnScript.size();
+	size_t n = m_eqnScript.Len();
+//	out.Write32((wxUint32)n);
+	out.SetMode(wxEOL_UNIX);
+	out.PutChar('\n');
 	out.Write32((wxUint32)n);
 	if (n > 0)
 	{
-		out.PutChar('`');
+		out.PutChar('\n');
 		for (size_t i = 0; i < n; i++)
 		{
-			if (m_eqnScript[i] != '\r')
+//			if (m_eqnScript[i] != '\r')
 				out.PutChar(m_eqnScript[i]);
 		}
 	}
-	out.PutChar('`');
-	n = m_cbScript.size();
+	out.PutChar('\n');
+	n = m_cbScript.Len();
 	out.Write32((wxUint32)n);
 	if (n > 0)
 	{
-		out.PutChar('`');
+		out.PutChar('\n');
 		for (size_t i = 0; i < n; i++)
 		{
-			if (m_cbScript[i] != '\r')
+//			if (m_cbScript[i] != '\r')
 				out.PutChar(m_cbScript[i]);
 		}
 	}
@@ -1533,13 +1537,16 @@ bool InputPageData::Read_text(wxInputStream &is)
 	size_t n = in.Read32();
 	if (n > 0)
 	{
+//		in.GetChar();
 		for (size_t i = 0; i < n; i++)
 				m_eqnScript.Append(in.GetChar());
 	}
+//	in.GetChar();
 	m_cbScript.Clear();
 	n = in.Read32();
 	if (n > 0)
 	{
+//		in.GetChar();
 		for (size_t i = 0; i < n; i++)
 			m_cbScript.Append(in.GetChar());
 	}
