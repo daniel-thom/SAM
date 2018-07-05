@@ -1529,7 +1529,7 @@ void InputPageData::Write_text(wxOutputStream &os)
 
 bool InputPageData::Read_text(wxInputStream &is)
 {
-	wxTextInputStream in(is, "`", wxConvAuto(wxFONTENCODING_UTF8));
+	wxTextInputStream in(is, "\n", wxConvAuto(wxFONTENCODING_UTF8));
 	bool ok = true;
 	ok = ok && m_form.Read_text(is);
 	ok = ok && m_vars.Read_text(is);
