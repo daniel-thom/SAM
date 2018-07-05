@@ -1341,7 +1341,7 @@ void VarInfo::Write_text(wxOutputStream &os)
 
 bool VarInfo::Read_text(wxInputStream &is)
 {
-	wxTextInputStream in(is, "`");
+	wxTextInputStream in(is, "`", wxConvAuto(wxFONTENCODING_UTF8));
 //	wxUint8 code = in.Read8();
 	int ver = in.Read8(); // ver
 
