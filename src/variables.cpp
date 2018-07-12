@@ -307,7 +307,7 @@ bool VarTable::Read( wxInputStream &_I )
 
 void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 {
-	wxTextOutputStream out(_O);
+	wxTextOutputStream out(_O, wxEOL_UNIX);
 //	out.Write8(0xf9);
 	out.Write8(1);
 	out.PutChar('\n');
@@ -653,7 +653,7 @@ bool VarValue::Read(wxInputStream &_I)
 
 void VarValue::Write_text(wxOutputStream &_O)
 {
-	wxTextOutputStream out(_O);
+	wxTextOutputStream out(_O, wxEOL_UNIX);
 
 //	out.Write8(0xf2);
 	out.Write8(1);
@@ -1299,7 +1299,7 @@ bool VarInfo::Read(wxInputStream &is)
 
 void VarInfo::Write_text(wxOutputStream &os)
 {
-	wxTextOutputStream out(os);
+	wxTextOutputStream out(os, wxEOL_UNIX);
 //	out.Write8(0xe1);
 
 	//	out.Write8(2);
@@ -1428,7 +1428,7 @@ bool VarDatabase::Read( wxInputStream &is, const wxString &page )
 
 void VarDatabase::Write_text(wxOutputStream &os)
 {
-	wxTextOutputStream out(os);
+	wxTextOutputStream out(os, wxEOL_UNIX);
 //	out.Write8(0xf8);
 	out.Write8(1);
 	out.PutChar('\n');

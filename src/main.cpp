@@ -1495,34 +1495,35 @@ bool InputPageData::Read(wxInputStream &is)
 
 void InputPageData::Write_text(wxOutputStream &os)
 {
-	wxTextOutputStream out(os);
+	wxTextOutputStream out(os, wxEOL_UNIX);
 	m_form.Write_text(os);
 	m_vars.Write_text(os);
-//	size_t n = m_eqnScript.size();
 	size_t n = m_eqnScript.Len();
-//	out.Write32((wxUint32)n);
-	out.SetMode(wxEOL_UNIX);
 	out.PutChar('\n');
+	wxString x = m_eqnScript;
+	x.Replace("\r", "");
+	n = x.Len();
 	out.Write32((wxUint32)n);
 	if (n > 0)
 	{
 		out.PutChar('\n');
 		for (size_t i = 0; i < n; i++)
 		{
-//			if (m_eqnScript[i] != '\r')
-				out.PutChar(m_eqnScript[i]);
+			out.PutChar(x[i]);
 		}
 	}
 	out.PutChar('\n');
 	n = m_cbScript.Len();
+	x = m_cbScript;
+	x.Replace("\r", "");
+	n = x.Len();
 	out.Write32((wxUint32)n);
 	if (n > 0)
 	{
 		out.PutChar('\n');
 		for (size_t i = 0; i < n; i++)
 		{
-//			if (m_cbScript[i] != '\r')
-				out.PutChar(m_cbScript[i]);
+				out.PutChar(x[i]);
 		}
 	}
 }
