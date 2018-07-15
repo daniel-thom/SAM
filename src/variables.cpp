@@ -672,11 +672,16 @@ void VarValue::Write_text(wxOutputStream &_O)
 		out.PutChar('\n');
 		out.Write32(m_val.ncols());
 		out.PutChar('\n');
-		for (size_t r = 0; r<m_val.nrows(); r++)
+		for (size_t r = 0; r < m_val.nrows(); r++)
+		{
 			for (size_t c = 0; c < m_val.ncols(); c++)
 			{
 				out.WriteDouble(m_val(r, c));
+				out.PutChar('\n');
+				//			if (m_val.nrows()*m_val.ncols() > 1) out.PutChar(' ');
 			}
+	//		if (m_val.nrows()*m_val.ncols() > 1) out.PutChar('\n');
+		}
 		out.PutChar('\n');
 		break;
 	case VV_TABLE:
@@ -724,8 +729,11 @@ bool VarValue::Read_text(wxInputStream &_I)
 		if (nr*nc < 1) return false; // big error
 		m_val.resize_fill(nr, nc, 0.0f);
 		for (size_t r = 0; r<nr; r++)
-			for (size_t c = 0; c<nc; c++)
+			for (size_t c = 0; c < nc; c++)
+			{
 				m_val(r, c) = in.ReadDouble();
+		//		if (nc*nr > 1) in.GetChar();
+			}
 		break;
 	case VV_TABLE:
 		ok = ok && m_tab.Read_text(_I);
