@@ -677,10 +677,10 @@ void VarValue::Write_text(wxOutputStream &_O)
 			for (size_t c = 0; c < m_val.ncols(); c++)
 			{
 				out.WriteDouble(m_val(r, c));
-				out.PutChar('\n');
-				//			if (m_val.nrows()*m_val.ncols() > 1) out.PutChar(' ');
+	//			out.PutChar('\n');
+				if (m_val.nrows()*m_val.ncols() > 1) out.PutChar(' ');
 			}
-	//		if (m_val.nrows()*m_val.ncols() > 1) out.PutChar('\n');
+			if (m_val.nrows()*m_val.ncols() > 1) out.PutChar('\n');
 		}
 		out.PutChar('\n');
 		break;
@@ -697,8 +697,11 @@ void VarValue::Write_text(wxOutputStream &_O)
 	case VV_BINARY:
 		out.Write32(m_bin.GetDataLen());
 		out.PutChar('\n');
-		_O.Write(m_bin.GetData(), m_bin.GetDataLen());
-		out.PutChar('`');
+		wxByte *p = (wxByte*)m_bin.GetData();
+		for (size_t i = 0; i < m_bin.GetDataLen(); i++)
+			out.Write(p[i]);
+//		_O.Write(m_bin.GetData(), m_bin.GetDataLen());
+//		out.PutChar('`');
 		break;
 	}
 
@@ -728,12 +731,32 @@ bool VarValue::Read_text(wxInputStream &_I)
 		nc = in.Read32();
 		if (nr*nc < 1) return false; // big error
 		m_val.resize_fill(nr, nc, 0.0f);
-		for (size_t r = 0; r<nr; r++)
+		if (nc*nr > 1)
+		{
+			for (size_t r = 0; r < nr; r++)
+			{
+				wxString x = in.ReadLine();
+				wxArrayString ar = wxStringTokenize(x, ' ');
+				if (nc != ar.Count()) return false;
+				for (size_t c = 0; c < nc; c++)
+				{
+					double y;
+					if (ar[c].ToDouble(&y))
+						m_val(r, c) = y;
+					else
+						return false;
+				}
+			}
+		}
+		else
+			m_val(0, 0) = in.ReadDouble();
+		/*
+		for (size_t r = 0; r < nr; r++)
 			for (size_t c = 0; c < nc; c++)
 			{
-				m_val(r, c) = in.ReadDouble();
-		//		if (nc*nr > 1) in.GetChar();
+		//		m_val(r, c) = in.ReadDouble();
 			}
+			*/
 		break;
 	case VV_TABLE:
 		ok = ok && m_tab.Read_text(_I);
@@ -743,8 +766,14 @@ bool VarValue::Read_text(wxInputStream &_I)
 		break;
 	case VV_BINARY:
 		len = in.Read32();
-		_I.Read(m_bin.GetWriteBuf(len), len);
-		m_bin.UngetWriteBuf(len);
+		m_bin.SetBufSize(len);
+		m_bin.Clear();
+//		char *p = (char*)m_bin.GetWriteBuf(len);
+		for (size_t i = 0; i <len; i++)
+			m_bin.AppendByte(in.GetChar());
+
+//		_I.Read(m_bin.GetWriteBuf(len), len);
+//		m_bin.UngetWriteBuf(len);
 		break;
 	}
 
