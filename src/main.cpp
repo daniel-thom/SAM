@@ -1495,10 +1495,11 @@ bool InputPageData::Read(wxInputStream &is)
 	return in.Read8() == code && ok;
 }
 
-void InputPageData::Write_text(wxOutputStream &os)
+void InputPageData::Write_text(wxOutputStream &os, wxString &ui_path)
 {
 	wxTextOutputStream out(os, wxEOL_UNIX);
-	m_form.Write_text(os);
+//	wxString ui_path = SamApp::GetRuntimePath() + "/ui/" + ;
+	m_form.Write_text(os,ui_path);
 	m_vars.Write_text(os);
 	size_t n = m_eqnScript.Len();
 	out.PutChar('\n');
@@ -1530,11 +1531,11 @@ void InputPageData::Write_text(wxOutputStream &os)
 	}
 }
 
-bool InputPageData::Read_text(wxInputStream &is)
+bool InputPageData::Read_text(wxInputStream &is, wxString &ui_path)
 {
 	wxTextInputStream in(is, "\n", wxConvAuto(wxFONTENCODING_UTF8));
 	bool ok = true;
-	ok = ok && m_form.Read_text(is);
+	ok = ok && m_form.Read_text(is, ui_path);
 	ok = ok && m_vars.Read_text(is);
 	m_eqnScript.Clear();
 	

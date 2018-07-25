@@ -191,8 +191,8 @@ public:
 	void Write(wxOutputStream &os);
 	bool Read(wxInputStream &is);
 
-	void Write_text(wxOutputStream &os);
-	bool Read_text(wxInputStream &is);
+	void Write_text(wxOutputStream &os, wxString &);
+	bool Read_text(wxInputStream &is, wxString &);
 
 	wxUIFormData &Form() { return m_form; }
 	VarDatabase &Variables() { return m_vars; }

@@ -1666,10 +1666,10 @@ bool UIEditorPanel::Write_text(const wxString &name)
 	// note: ipd.Variables() already up-to-date
 	m_ipd.CbScript() = m_callbackScript->GetText();
 	m_ipd.EqnScript() = m_equationScript->GetText();
-
-	wxFFileOutputStream ff(SamApp::GetRuntimePath() + "/ui/" + name + ".txt", "w");
+	wxString ui_path = SamApp::GetRuntimePath() + "/ui/" + name;
+	wxFFileOutputStream ff(ui_path + ".txt", "w");
 	if (ff.IsOk())
-		m_ipd.Write_text(ff);
+		m_ipd.Write_text(ff, ui_path);
 	else ok = false;
 
 	return ok;
@@ -1721,14 +1721,14 @@ bool UIEditorPanel::Load_text(const wxString &name)
 	m_ipd.Clear();
 
 	bool ok = true;
-
-	wxString file = SamApp::GetRuntimePath() + "/ui/" + name + ".txt";
+	wxString ui_path = SamApp::GetRuntimePath() + "/ui/" + name;
+	wxString file = ui_path + ".txt";
 
 	if (wxFileExists(file))
 	{
 		wxFFileInputStream ff(file, "r");
 		bool bff = ff.IsOk();
-		bool bread = m_ipd.Read_text(ff);
+		bool bread = m_ipd.Read_text(ff, ui_path);
 		if (bff && bread)
 		//	if (ff.IsOk() && m_ipd.Read_text(ff))
 		{
