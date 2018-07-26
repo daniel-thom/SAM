@@ -1,57 +1,7 @@
-PV Shading
+PV Shading - two_images
 861
 881
 76
-Image
-1751
-1
-7
-Name
-5
-self_shading_diagram
-X
-3
-42
-Y
-3
-663
-Width
-3
-427
-Height
-3
-112
-Image
-7
-C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV Shading_PV Shading_Image.png
-Centered
-2
-1
-Image
-1751
-1
-7
-Name
-5
-object 12
-X
-3
-492
-Y
-3
-363
-Width
-3
-334
-Height
-3
-108
-Image
-7
-C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV Shading_PV Shading_Image.png
-Centered
-2
-1
 Label
 1751
 1
@@ -191,6 +141,31 @@ State
 TabOrder
 3
 4294967295
+Image
+1751
+1
+7
+Name
+5
+self_shading_diagram
+X
+3
+42
+Y
+3
+663
+Width
+3
+427
+Height
+3
+112
+Image
+7
+C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV Shading - two_images_self_shading_diagram.png
+Centered
+2
+1
 Numeric
 1751
 1
@@ -2855,6 +2830,31 @@ BackColour
 TabOrder
 3
 4294967295
+Image
+1751
+1
+7
+Name
+5
+object 12
+X
+3
+492
+Y
+3
+363
+Width
+3
+334
+Height
+3
+108
+Image
+7
+C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV Shading - two_images_object 12.png
+Centered
+2
+1
 Numeric
 1751
 1
@@ -3469,20 +3469,6 @@ Portrait| Landscape
 1
 0.000000
 Choice
-subarray3_shade_mode
-3
-1
-Self shading mode 3
- 
-Shading and Snow
-None|Standard (Non-linear)|Thin film (Linear)
-3
-1
-1
-1
-1
-0.000000
-Choice
 subarray3_nmody
 3
 1
@@ -3525,6 +3511,20 @@ Shading and Snow
 1
 0.000000
 Default
+subarray3_shade_mode
+3
+1
+Self shading mode 3
+ 
+Shading and Snow
+None|Standard (Non-linear)|Thin film (Linear)
+3
+1
+1
+1
+1
+0.000000
+Choice
 subarray3_shading
 3
 5
@@ -3743,19 +3743,19 @@ Shading and Snow
 1
 0.300000
 Default
-subarray3_gcr_ref
+module_width
 3
 1
-GCR 3
+Module width
+m
  
-Shading and Snow
  
-9
+8
 1
 1
 1
 1
-0.300000
+0.000000
 Default
 subarray2_shade_mode
 3
@@ -3771,14 +3771,28 @@ None|Standard (Non-linear)|Thin film (Linear)
 1
 0.000000
 Choice
-module_width
+subarray3_gcr_ref
 3
 1
-Module width
-m
+GCR 3
  
+Shading and Snow
  
-8
+9
+1
+1
+1
+1
+0.300000
+Default
+ui_subarray3_length_side
+3
+1
+Length of subarray side 3
+ 
+Shading and Snow
+ 
+9
 1
 1
 1
@@ -3799,24 +3813,10 @@ None|Standard (Non-linear)|Thin film (Linear)
 1
 0.000000
 Choice
-ui_subarray3_length_side
+ui_subarray1_length_side
 3
 1
-Length of subarray side 3
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subarray2_ref_nmodules
-3
-1
-Number of modules 2
+Length of subarray side 1
  
 Shading and Snow
  
@@ -3841,10 +3841,10 @@ Portrait| Landscape
 1
 0.000000
 Choice
-ui_subarray1_length_side
+subarray2_ref_nmodules
 3
 1
-Length of subarray side 1
+Number of modules 2
  
 Shading and Snow
  
@@ -3855,34 +3855,6 @@ Shading and Snow
 1
 0.000000
 Default
-subarray4_ref_nmodules
-3
-1
-Number of modules 4
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subarray2_nmody
-3
-1
-Number of modules along side of row 2
- 
-Shading and Snow
- 
-3
-1
-1
-1
-1
-2.000000
-Numeric
 subarray1_nmodx
 3
 1
@@ -3897,10 +3869,10 @@ Shading and Snow
 1
 8.000000
 Numeric
-subarray1_nmody
+subarray2_nmody
 3
 1
-Number of modules along side of row 1
+Number of modules along side of row 2
  
 Shading and Snow
  
@@ -3911,10 +3883,10 @@ Shading and Snow
 1
 2.000000
 Numeric
-subarray4_gcr_ref
+subarray4_ref_nmodules
 3
 1
-GCR 4
+Number of modules 4
  
 Shading and Snow
  
@@ -3923,7 +3895,7 @@ Shading and Snow
 1
 1
 1
-0.300000
+0.000000
 Default
 en_snow_model
 3
@@ -3939,10 +3911,10 @@ Shading and Snow
 1
 0.000000
 Default
-ui_subarray1_nrows
+subarray4_gcr_ref
 3
 1
-Number of rows 1
+GCR 4
  
 Shading and Snow
  
@@ -3951,8 +3923,22 @@ Shading and Snow
 1
 1
 1
-0.000000
+0.300000
 Default
+subarray1_nmody
+3
+1
+Number of modules along side of row 1
+ 
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
 subarray2_mod_orient
 3
 1
@@ -3967,11 +3953,11 @@ Portrait| Landscape
 1
 0.000000
 Choice
-ui_subarray1_row_spacing
+ui_subarray1_nrows
 3
 1
-Row spacing 1
-m
+Number of rows 1
+ 
 Shading and Snow
  
 9
@@ -3995,10 +3981,10 @@ Shading and Snow
 1
 0.000000
 Default
-ui_subarray2_row_spacing
+ui_subarray1_row_spacing
 3
 1
-Row spacing 2
+Row spacing 1
 m
 Shading and Snow
  
@@ -4013,6 +3999,20 @@ ui_subarray4_row_spacing
 3
 1
 Row spacing 4
+m
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+ui_subarray2_row_spacing
+3
+1
+Row spacing 2
 m
 Shading and Snow
  

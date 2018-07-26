@@ -1359,8 +1359,32 @@ void VarInfo::Write_text(wxOutputStream &os)
 	else
 		out.WriteString(" ");
 	out.PutChar('\n');
+	/* Handle multiline equations in IndexLabels
+		e.g. PV system Design
+		Numeric
+		subarray1_nstrings
+		3
+		1
+		Number of parallel strings 1
+
+		PV System Design
+		=${pv.array.strings_in_parallel}
+		- ?${pv.subarray2.enable}[0|${pv.subarray2.num_strings}]
+		- ?${pv.subarray3.enable}[0|${pv.subarray3.num_strings}]
+		- ?${pv.subarray4.enable}[0|${pv.subarray4.num_strings}]
+		9
+		1
+		1
+		1
+		1
+		0.000000
+	*/
 	if (IndexLabels.Count() > 0)
-		out.WriteString(wxJoin(IndexLabels, '|'));
+	{
+		wxString il = wxJoin(IndexLabels, '|');
+		il.Replace("\n", " ");
+		out.WriteString(il);
+	}
 	else
 		out.WriteString(" ");
 	out.PutChar('\n');
