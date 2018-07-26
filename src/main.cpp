@@ -1531,11 +1531,11 @@ void InputPageData::Write_text(wxOutputStream &os, wxString &ui_path)
 	}
 }
 
-bool InputPageData::Read_text(wxInputStream &is, wxString &ui_path)
+bool InputPageData::Read_text(wxInputStream &is)
 {
 	wxTextInputStream in(is, "\n", wxConvAuto(wxFONTENCODING_UTF8));
 	bool ok = true;
-	ok = ok && m_form.Read_text(is, ui_path);
+	ok = ok && m_form.Read_text(is);
 	ok = ok && m_vars.Read_text(is);
 	m_eqnScript.Clear();
 	

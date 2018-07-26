@@ -1728,7 +1728,7 @@ bool UIEditorPanel::Load_text(const wxString &name)
 	{
 		wxFFileInputStream ff(file, "r");
 		bool bff = ff.IsOk();
-		bool bread = m_ipd.Read_text(ff, ui_path);
+		bool bread = m_ipd.Read_text(ff);
 		if (bff && bread)
 		//	if (ff.IsOk() && m_ipd.Read_text(ff))
 		{
