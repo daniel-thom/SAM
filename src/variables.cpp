@@ -308,7 +308,6 @@ bool VarTable::Read( wxInputStream &_I )
 void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 {
 	wxTextOutputStream out(_O, wxEOL_UNIX);
-//	out.Write8(0xf9);
 	out.Write8(1);
 	out.PutChar('\n');
 	if (maxdim == 0)
@@ -371,8 +370,6 @@ void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 			}
 		}
 	}
-
-//	out.Write8(0xf9);
 }
 
 bool VarTable::Read_text(wxInputStream &_I)
@@ -380,7 +377,6 @@ bool VarTable::Read_text(wxInputStream &_I)
 	clear();
 
 	wxTextInputStream in(_I, "\n");
-//	wxUint8 code = in.Read8();
 	in.Read8(); //ver
 
 	bool ok = true;
@@ -401,7 +397,6 @@ bool VarTable::Read_text(wxInputStream &_I)
 	}
 
 	return ok;
-//	return in.Read8() == code;
 }
 
 VarValue VarValue::Invalid; // declaration
@@ -655,7 +650,6 @@ void VarValue::Write_text(wxOutputStream &_O)
 {
 	wxTextOutputStream out(_O, wxEOL_UNIX);
 
-//	out.Write8(0xf2);
 	out.Write8(1);
 	out.PutChar('\n');
 	out.Write8(m_type);
@@ -705,14 +699,12 @@ void VarValue::Write_text(wxOutputStream &_O)
 		break;
 	}
 
-//	out.Write8(0xf2);
 }
 
 bool VarValue::Read_text(wxInputStream &_I)
 {
 	wxTextInputStream in(_I, "\n");
 
-//	wxUint8 code = in.Read8();
 	in.Read8(); // ver
 
 	m_type = in.Read8();
@@ -1337,9 +1329,6 @@ bool VarInfo::Read(wxInputStream &is)
 void VarInfo::Write_text(wxOutputStream &os)
 {
 	wxTextOutputStream out(os, wxEOL_UNIX);
-//	out.Write8(0xe1);
-
-	//	out.Write8(2);
 	out.Write8(3); // change to version 3 after wxString "UIObject" field added
 	out.PutChar('\n');
 	out.Write32(Type);
@@ -1396,14 +1385,11 @@ void VarInfo::Write_text(wxOutputStream &os)
 	else
 		out.WriteString(" ");
 	out.PutChar('\n');
-
-//	out.Write8(0xe1);
 }
 
 bool VarInfo::Read_text(wxInputStream &is)
 {
 	wxTextInputStream in(is, "\n", wxConvAuto(wxFONTENCODING_UTF8));
-//	wxUint8 code = in.Read8();
 	int ver = in.Read8(); // ver
 
 	if (ver < 2) in.ReadWord(); // formerly, name field
@@ -1421,8 +1407,6 @@ bool VarInfo::Read_text(wxInputStream &is)
 		UIObject = VUIOBJ_NONE; // wxUIObject associated with variable
 	else
 		UIObject = in.ReadWord();
-//	wxUint8 lastcode = in.Read8();
-//	return  lastcode == code && valok;
 	return  ok;
 }
 
@@ -1490,8 +1474,6 @@ bool VarDatabase::Read( wxInputStream &is, const wxString &page )
 void VarDatabase::Write_text(wxOutputStream &os)
 {
 	wxTextOutputStream out(os, wxEOL_UNIX);
-//	out.Write8(0xf8);
-	out.Write8(1);
 	out.PutChar('\n');
 	out.Write32(size());
 	out.PutChar('\n');
@@ -1503,14 +1485,11 @@ void VarDatabase::Write_text(wxOutputStream &os)
 		out.PutChar('\n');
 		it->second->Write_text(os);
 	}
-//	out.Write8(0xf8);
 }
 
 bool VarDatabase::Read_text(wxInputStream &is, const wxString &page)
 {
 	wxTextInputStream in(is, "\n");
-//	wxUint8 code = in.Read8();
-	in.Read8();
 	size_t n = in.Read32();
 	bool ok = true;
 	wxArrayString list;

@@ -1498,7 +1498,6 @@ bool InputPageData::Read(wxInputStream &is)
 void InputPageData::Write_text(wxOutputStream &os, wxString &ui_path)
 {
 	wxTextOutputStream out(os, wxEOL_UNIX);
-//	wxString ui_path = SamApp::GetRuntimePath() + "/ui/" + ;
 	m_form.Write_text(os,ui_path);
 	m_vars.Write_text(os);
 	size_t n = m_eqnScript.Len();
