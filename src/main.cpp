@@ -49,6 +49,7 @@
 
 #include "private.h"
 #include <set>
+#include <chrono>
 
 #include <wx/wx.h>
 #include <wx/frame.h>
@@ -2091,7 +2092,9 @@ void SamApp::Restart()
 {
 	// reload all forms, variables, callbacks, equations
 	SamApp::InputPages().Clear();
-	
+
+	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+
 	wxDir dir( SamApp::GetRuntimePath() + "/ui" );
 	if ( dir.IsOpened() )
 	{
@@ -2109,7 +2112,12 @@ void SamApp::Restart()
 		}
 	}
 	dir.Close();
-	
+
+	auto end = std::chrono::system_clock::now();
+	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
+	wxString ui_time(std::to_string(diff) + "ms ");
+	wxLogStatus(" binary ui load time " + ui_time);
+
 	// reload configuration map
 	SamApp::Config().Clear();
 	wxString startup_script = GetRuntimePath() + "/startup.lk";
