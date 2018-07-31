@@ -676,6 +676,7 @@ enum {
 	ID_FORM_SAVE_TEXT,
 	ID_FORM_LOAD_TEXT,
 	ID_FORM_SAVE_ALL_TEXT,
+	ID_FORM_LOAD_ALL_TEXT,
 
 
 	ID_VAR_REMAP,
@@ -735,6 +736,7 @@ BEGIN_EVENT_TABLE( UIEditorPanel, wxPanel )
 	EVT_BUTTON(ID_FORM_SAVE_TEXT, UIEditorPanel::OnCommand)
 	EVT_BUTTON(ID_FORM_LOAD_TEXT, UIEditorPanel::OnCommand)
 	EVT_BUTTON(ID_FORM_SAVE_ALL_TEXT, UIEditorPanel::OnCommand)
+	EVT_BUTTON(ID_FORM_LOAD_ALL_TEXT, UIEditorPanel::OnCommand)
 
 	EVT_BUTTON( ID_VAR_SYNC, UIEditorPanel::OnCommand )
 	EVT_BUTTON( ID_VAR_REMAP, UIEditorPanel::OnCommand )
@@ -799,6 +801,7 @@ UIEditorPanel::UIEditorPanel( wxWindow *parent )
 	sz_form_tools->Add(new wxButton(this, ID_FORM_SAVE_TEXT, "Save text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
 	sz_form_tools->Add(new wxButton(this, ID_FORM_LOAD_TEXT, "Load text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
 	sz_form_tools->Add(new wxButton(this, ID_FORM_SAVE_ALL_TEXT, "Save all text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
+	sz_form_tools->Add(new wxButton(this, ID_FORM_LOAD_ALL_TEXT, "Load all text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
 	sz_form_tools->AddStretchSpacer();
 	sz_form_tools->Add( new wxButton( this, ID_VAR_REMAP, "Remap", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL|wxEXPAND, 2 );
 	sz_form_tools->Add( new wxButton( this, ID_VAR_SYNC, "Sync", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL|wxEXPAND, 2 );
@@ -1219,7 +1222,7 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 	case ID_FORM_SAVE_ALL_TEXT:
 	{
 		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
-
+		size_t forms_saved = 0;
 		wxDir dir(SamApp::GetRuntimePath() + "/ui");
 		if (dir.IsOpened())
 		{
@@ -1232,6 +1235,8 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 
 				if (!Write_text(form_name))
 					wxLogStatus(" --> error saving .ui as text for " + form_name);
+				else
+					forms_saved++;
 
 				has_more = dir.GetNext(&file);
 			}
@@ -1241,9 +1246,41 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 		auto end = std::chrono::system_clock::now();
 		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
 		wxString ui_time(std::to_string(diff) + "ms ");
-		wxLogStatus(" binary ui save to text time " + ui_time);
+		wxLogStatus(wxString::Format(" %d binary ui forms saved as text in %s" , (int) forms_saved, (const char*)ui_time.c_str()));
 	}
 	break;
+
+	case ID_FORM_LOAD_ALL_TEXT:
+	{
+		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_loaded = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				wxLogStatus("loading .txt as text: " + form_name);
+
+				if (!Load_text(form_name))
+					wxLogStatus(" --> error loading as text for " + form_name);
+				else
+					forms_loaded++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+		auto end = std::chrono::system_clock::now();
+		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+		wxString ui_time(std::to_string(diff) + "ms ");
+		wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	}
+	break;
+
 
 
 	case ID_VAR_REMAP:

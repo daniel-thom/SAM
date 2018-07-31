@@ -1,0 +1,9 @@
+Inverter Temp Derate CEC CG
+500
+300
+0
+
+0
+
+0
+0

@@ -1,0 +1,9 @@
+Inverter Temp Derate DS
+500
+300
+0
+
+0
+
+0
+0

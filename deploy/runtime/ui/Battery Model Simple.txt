@@ -1,0 +1,9 @@
+Battery Model Simple
+500
+300
+0
+
+0
+
+0
+0

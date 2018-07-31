@@ -1,0 +1,9 @@
+Battery Current and Capacity
+500
+300
+0
+
+0
+
+0
+0

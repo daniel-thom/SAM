@@ -1903,9 +1903,9 @@ bool SamApp::OnInit()
 	SetAppName( "" );
 	SetVendorName( "" );
 	
-#ifdef _DEBUG
+//#ifdef _DEBUG
 	SamLogWindow::Setup();
-#endif
+//#endif
 	
 	wxLogStatus( "startup version %d.%d.%d with SSC version %d, %s", 
 		releases[0].major,
@@ -2094,7 +2094,7 @@ void SamApp::Restart()
 	SamApp::InputPages().Clear();
 
 	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
-
+	size_t forms_loaded = 0;
 	wxDir dir( SamApp::GetRuntimePath() + "/ui" );
 	if ( dir.IsOpened() )
 	{
@@ -2103,10 +2103,10 @@ void SamApp::Restart()
 		while( has_more )
 		{
 			wxLogStatus( "loading .ui: " + wxFileName(file).GetName() );
-			if (!SamApp::InputPages().LoadFile( SamApp::GetRuntimePath() + "/ui/" + file ))
-			  {
-				wxLogStatus( " --> error loading .ui for " + wxFileName(file).GetName() );
-			  }
+			if (!SamApp::InputPages().LoadFile(SamApp::GetRuntimePath() + "/ui/" + file))
+				wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
+			else
+				forms_loaded++;
 			
 			has_more = dir.GetNext( &file );
 		}
@@ -2116,7 +2116,7 @@ void SamApp::Restart()
 	auto end = std::chrono::system_clock::now();
 	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
 	wxString ui_time(std::to_string(diff) + "ms ");
-	wxLogStatus(" binary ui load time " + ui_time);
+	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 
 	// reload configuration map
 	SamApp::Config().Clear();

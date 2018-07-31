@@ -1,0 +1,9 @@
+Generic CSP Thermal Storage
+500
+300
+0
+
+0
+
+0
+0
