@@ -220,7 +220,8 @@ public:
 	InputPageData *Lookup( const wxString &name );
 	void Clear();
 
-	bool LoadFile( const wxString &file );
+	bool LoadFile(const wxString &file);
+	bool LoadFileText(const wxString &file);
 private:
 	InputPageDataHash m_hash;
 };

@@ -672,6 +672,8 @@ enum {
 	ID_FORM_LIST_REFRESH,
 	ID_FORM_ADD,
 	ID_FORM_SAVE,
+	ID_FORM_SAVE_ALL,
+	ID_FORM_LOAD_ALL,
 	ID_FORM_DELETE,
 	ID_FORM_SAVE_TEXT,
 	ID_FORM_LOAD_TEXT,
@@ -732,6 +734,8 @@ BEGIN_EVENT_TABLE( UIEditorPanel, wxPanel )
 	EVT_BUTTON( ID_FORM_ADD, UIEditorPanel::OnCommand )
 	EVT_BUTTON( ID_FORM_SAVE, UIEditorPanel::OnCommand )
 	EVT_BUTTON( ID_FORM_DELETE, UIEditorPanel::OnCommand )
+	EVT_BUTTON(ID_FORM_SAVE_ALL, UIEditorPanel::OnCommand)
+	EVT_BUTTON(ID_FORM_LOAD_ALL, UIEditorPanel::OnCommand)
 
 	EVT_BUTTON(ID_FORM_SAVE_TEXT, UIEditorPanel::OnCommand)
 	EVT_BUTTON(ID_FORM_LOAD_TEXT, UIEditorPanel::OnCommand)
@@ -798,6 +802,8 @@ UIEditorPanel::UIEditorPanel( wxWindow *parent )
 	sz_form_tools->Add( new wxButton( this, ID_FORM_ADD, "Add...", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL|wxEXPAND, 2 );
 	sz_form_tools->Add( new wxButton( this, ID_FORM_SAVE, "Save", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL|wxEXPAND, 2 );
 	sz_form_tools->Add( new wxButton( this, ID_FORM_DELETE, "Delete", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL|wxEXPAND, 2 );
+	sz_form_tools->Add(new wxButton(this, ID_FORM_SAVE_ALL, "Save all", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
+	sz_form_tools->Add(new wxButton(this, ID_FORM_LOAD_ALL, "Load all", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
 	sz_form_tools->Add(new wxButton(this, ID_FORM_SAVE_TEXT, "Save text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
 	sz_form_tools->Add(new wxButton(this, ID_FORM_LOAD_TEXT, "Load text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
 	sz_form_tools->Add(new wxButton(this, ID_FORM_SAVE_ALL_TEXT, "Save all text", wxDefaultPosition, wxDefaultSize, wxBU_EXACTFIT), 0, wxALL | wxEXPAND, 2);
@@ -1195,6 +1201,73 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 				wxMessageBox("error writing form: " + m_formName, "notice", wxOK, this );
 		}
 		break;
+
+
+	case ID_FORM_SAVE_ALL:
+	{
+		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_saved = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				wxLogStatus("saving UI .txt as binary: " + form_name);
+
+				if (!Write(form_name))
+					wxLogStatus(" --> error saving .txt as binary for " + form_name);
+				else
+					forms_saved++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+		auto end = std::chrono::system_clock::now();
+		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+		wxString ui_time(std::to_string(diff) + "ms ");
+		wxLogStatus(wxString::Format(" %d text ui forms saved as binary in %s", (int)forms_saved, (const char*)ui_time.c_str()));
+	}
+	break;
+
+	case ID_FORM_LOAD_ALL:
+	{
+		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_loaded = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				wxLogStatus("loading .ui as binary: " + form_name);
+
+				if (!Load(form_name))
+					wxLogStatus(" --> error loading as binary for " + form_name);
+				else
+					forms_loaded++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+		auto end = std::chrono::system_clock::now();
+		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+		wxString ui_time(std::to_string(diff) + "ms ");
+		wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	}
+	break;
+
+
+
+
 	case ID_FORM_SAVE_TEXT:
 	{
 		wxBusyInfo info("Saving form and variable data: " + m_formName);
@@ -1219,6 +1292,8 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 			wxMessageBox("error loading form: " + m_formName, "notice", wxOK, this);
 	}
 	break;
+
+
 	case ID_FORM_SAVE_ALL_TEXT:
 	{
 		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
@@ -1231,6 +1306,15 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 			while (has_more)
 			{
 				wxString form_name = wxFileName(file).GetName();
+				if (!Load(form_name))
+				{
+					wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
+					continue;
+				}
+
+				SyncFormUIToDataBeforeWriting();
+
+
 				wxLogStatus("saving .ui as text: " + form_name);
 
 				if (!Write_text(form_name))

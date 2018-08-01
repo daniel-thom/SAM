@@ -1617,6 +1617,38 @@ bool InputPageDatabase::LoadFile( const wxString &file )
 	return ok;
 }
 
+
+bool InputPageDatabase::LoadFileText(const wxString &file)
+{
+	wxFileName ff(file);
+	wxString name(ff.GetName());
+
+	InputPageData *pd = new InputPageData;
+
+	bool ok = true;
+//	wxFFileInputStream is(file);
+//	if (!is.IsOk() || !pd->Read_text(is))
+	wxFFileInputStream is(file, "r");
+	bool bff = is.IsOk();
+	bool bread = pd->Read_text(is);
+	if (bff && bread)
+		ok = false;
+
+	pd->Form().SetName(name);
+
+	if (ok) Add(name, pd);
+	else delete pd;
+
+	if (!pd->BuildDatabases())
+	{
+		wxLogStatus("failed to build equation and script databases for: " + name);
+		ok = false;
+	}
+
+	return ok;
+}
+
+
 void InputPageDatabase::Add( const wxString &name, InputPageData *ui )
 {
 	InputPageDataHash::iterator it = m_hash.find( name );
@@ -2099,12 +2131,16 @@ void SamApp::Restart()
 	if ( dir.IsOpened() )
 	{
 		wxString file;
-		bool has_more = dir.GetFirst( &file, "*.ui", wxDIR_FILES  );
+		bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
+//		bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
 		while( has_more )
 		{
-			wxLogStatus( "loading .ui: " + wxFileName(file).GetName() );
-			if (!SamApp::InputPages().LoadFile(SamApp::GetRuntimePath() + "/ui/" + file))
-				wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
+			wxLogStatus("loading .txt: " + wxFileName(file).GetName());
+			wxLogStatus("loading .ui: " + wxFileName(file).GetName());
+			if (!SamApp::InputPages().LoadFileText(SamApp::GetRuntimePath() + "/ui/" + file))
+				wxLogStatus(" --> error loading .txt for " + wxFileName(file).GetName());
+//			if (!SamApp::InputPages().LoadFile(SamApp::GetRuntimePath() + "/ui/" + file))
+//				wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
 			else
 				forms_loaded++;
 			
@@ -2116,7 +2152,8 @@ void SamApp::Restart()
 	auto end = std::chrono::system_clock::now();
 	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
 	wxString ui_time(std::to_string(diff) + "ms ");
-	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+//	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 
 	// reload configuration map
 	SamApp::Config().Clear();
