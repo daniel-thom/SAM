@@ -1631,7 +1631,7 @@ bool InputPageDatabase::LoadFileText(const wxString &file)
 	wxFFileInputStream is(file, "r");
 	bool bff = is.IsOk();
 	bool bread = pd->Read_text(is);
-	if (bff && bread)
+	if (!bff && !bread)
 		ok = false;
 
 	pd->Form().SetName(name);
@@ -2131,16 +2131,22 @@ void SamApp::Restart()
 	if ( dir.IsOpened() )
 	{
 		wxString file;
+#ifdef UI_BINARY
+		bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
+#else
 		bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
-//		bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
+#endif // UI_BINARY
 		while( has_more )
 		{
-			wxLogStatus("loading .txt: " + wxFileName(file).GetName());
+#ifdef UI_BINARY
 			wxLogStatus("loading .ui: " + wxFileName(file).GetName());
+			if (!SamApp::InputPages().LoadFile(SamApp::GetRuntimePath() + "/ui/" + file))
+				wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
+#else
+			wxLogStatus("loading .txt: " + wxFileName(file).GetName());
 			if (!SamApp::InputPages().LoadFileText(SamApp::GetRuntimePath() + "/ui/" + file))
 				wxLogStatus(" --> error loading .txt for " + wxFileName(file).GetName());
-//			if (!SamApp::InputPages().LoadFile(SamApp::GetRuntimePath() + "/ui/" + file))
-//				wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
+#endif
 			else
 				forms_loaded++;
 			
@@ -2152,8 +2158,11 @@ void SamApp::Restart()
 	auto end = std::chrono::system_clock::now();
 	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
 	wxString ui_time(std::to_string(diff) + "ms ");
+#ifdef UI_BINARY
+	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+#else	
 	wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
-//	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+#endif
 
 	// reload configuration map
 	SamApp::Config().Clear();

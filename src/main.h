@@ -50,6 +50,9 @@
 #ifndef __sammain_h
 #define __sammain_h
 
+// to load binary ui forms uncomment following
+#define UI_BINARY 1
+
 #include <exception>
 #include <memory>
 

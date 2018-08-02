@@ -3,7 +3,7 @@ PV System Design
 984
 89
 Image
-1751
+
 1
 7
 Name
@@ -28,7 +28,7 @@ Centered
 2
 1
 MultilineText
-1751
+
 1
 10
 Name
@@ -68,7 +68,7 @@ TabOrder
 3
 21
 Label
-1751
+
 1
 12
 Name
@@ -111,7 +111,7 @@ AlignTop
 2
 1
 Label
-1751
+
 1
 12
 Name
@@ -154,7 +154,7 @@ AlignTop
 2
 1
 Divider
-1751
+
 1
 9
 Name
@@ -188,7 +188,7 @@ Bold
 2
 1
 Divider
-1751
+
 1
 9
 Name
@@ -222,7 +222,7 @@ Bold
 2
 1
 Label
-1751
+
 1
 12
 Name
@@ -265,7 +265,7 @@ AlignTop
 2
 1
 RadioChoice
-1751
+
 1
 10
 Name
@@ -304,7 +304,7 @@ TabOrder
 3
 24
 RadioChoice
-1751
+
 1
 10
 Name
@@ -343,7 +343,7 @@ TabOrder
 3
 31
 RadioChoice
-1751
+
 1
 10
 Name
@@ -382,7 +382,7 @@ TabOrder
 3
 38
 RadioChoice
-1751
+
 1
 10
 Name
@@ -421,7 +421,7 @@ TabOrder
 3
 45
 CheckBox
-1751
+
 1
 8
 Name
@@ -449,7 +449,7 @@ TabOrder
 3
 46
 CheckBox
-1751
+
 1
 8
 Name
@@ -477,7 +477,7 @@ TabOrder
 3
 39
 CheckBox
-1751
+
 1
 8
 Name
@@ -505,7 +505,7 @@ TabOrder
 3
 32
 CheckBox
-1751
+
 1
 8
 Name
@@ -533,7 +533,7 @@ TabOrder
 3
 25
 Label
-1751
+
 1
 12
 Name
@@ -576,7 +576,7 @@ AlignTop
 2
 1
 Numeric
-1751
+
 1
 16
 Name
@@ -634,7 +634,7 @@ TabOrder
 3
 7
 Numeric
-1751
+
 1
 16
 Name
@@ -692,7 +692,7 @@ TabOrder
 3
 3
 Numeric
-1751
+
 1
 16
 Name
@@ -750,7 +750,7 @@ TabOrder
 3
 15
 Numeric
-1751
+
 1
 16
 Name
@@ -808,7 +808,7 @@ TabOrder
 3
 14
 Label
-1751
+
 1
 12
 Name
@@ -851,7 +851,7 @@ AlignTop
 2
 1
 GroupBox
-1751
+
 1
 7
 Name
@@ -876,7 +876,7 @@ Bold
 2
 1
 Label
-1751
+
 1
 12
 Name
@@ -919,7 +919,7 @@ AlignTop
 2
 0
 Numeric
-1751
+
 1
 16
 Name
@@ -977,7 +977,7 @@ TabOrder
 3
 17
 Numeric
-1751
+
 1
 16
 Name
@@ -1035,7 +1035,7 @@ TabOrder
 3
 44
 Numeric
-1751
+
 1
 16
 Name
@@ -1093,7 +1093,7 @@ TabOrder
 3
 37
 Numeric
-1751
+
 1
 16
 Name
@@ -1151,7 +1151,7 @@ TabOrder
 3
 30
 MonthlyFactor
-1751
+
 1
 7
 Name
@@ -1176,7 +1176,7 @@ TabOrder
 3
 4294967295
 MonthlyFactor
-1751
+
 1
 7
 Name
@@ -1201,7 +1201,7 @@ TabOrder
 3
 4294967295
 MonthlyFactor
-1751
+
 1
 7
 Name
@@ -1226,7 +1226,7 @@ TabOrder
 3
 4294967295
 MonthlyFactor
-1751
+
 1
 7
 Name
@@ -1251,7 +1251,7 @@ TabOrder
 3
 4294967295
 Numeric
-1751
+
 1
 16
 Name
@@ -1309,7 +1309,7 @@ TabOrder
 3
 23
 GroupBox
-1751
+
 1
 7
 Name
@@ -1334,7 +1334,7 @@ Bold
 2
 1
 GroupBox
-1751
+
 1
 7
 Name
@@ -1359,7 +1359,7 @@ Bold
 2
 1
 Numeric
-1751
+
 1
 16
 Name
@@ -1417,7 +1417,7 @@ TabOrder
 3
 9
 CheckBox
-1751
+
 1
 8
 Name
@@ -1445,7 +1445,7 @@ TabOrder
 3
 43
 CheckBox
-1751
+
 1
 8
 Name
@@ -1473,7 +1473,7 @@ TabOrder
 3
 36
 CheckBox
-1751
+
 1
 8
 Name
@@ -1501,7 +1501,7 @@ TabOrder
 3
 29
 Label
-1751
+
 1
 12
 Name
@@ -1544,7 +1544,7 @@ AlignTop
 2
 0
 Numeric
-1751
+
 1
 16
 Name
@@ -1602,7 +1602,7 @@ TabOrder
 3
 6
 Numeric
-1751
+
 1
 16
 Name
@@ -1660,7 +1660,7 @@ TabOrder
 3
 5
 Numeric
-1751
+
 1
 16
 Name
@@ -1718,7 +1718,7 @@ TabOrder
 3
 4
 Numeric
-1751
+
 1
 16
 Name
@@ -1776,7 +1776,7 @@ TabOrder
 3
 2
 RadioChoice
-1751
+
 1
 10
 Name
@@ -1812,7 +1812,7 @@ TabOrder
 3
 1
 Numeric
-1751
+
 1
 16
 Name
@@ -1870,7 +1870,7 @@ TabOrder
 3
 52
 Numeric
-1751
+
 1
 16
 Name
@@ -1928,7 +1928,7 @@ TabOrder
 3
 4294967295
 CheckBox
-1751
+
 1
 8
 Name
@@ -1956,7 +1956,7 @@ TabOrder
 3
 46
 Numeric
-1751
+
 1
 16
 Name
@@ -2014,7 +2014,7 @@ TabOrder
 3
 48
 Numeric
-1751
+
 1
 16
 Name
@@ -2072,7 +2072,7 @@ TabOrder
 3
 48
 Numeric
-1751
+
 1
 16
 Name
@@ -2130,7 +2130,7 @@ TabOrder
 3
 48
 Numeric
-1751
+
 1
 16
 Name
@@ -2188,7 +2188,7 @@ TabOrder
 3
 47
 CheckBox
-1751
+
 1
 8
 Name
@@ -2216,7 +2216,7 @@ TabOrder
 3
 39
 Numeric
-1751
+
 1
 16
 Name
@@ -2274,7 +2274,7 @@ TabOrder
 3
 41
 Numeric
-1751
+
 1
 16
 Name
@@ -2332,7 +2332,7 @@ TabOrder
 3
 41
 Numeric
-1751
+
 1
 16
 Name
@@ -2390,7 +2390,7 @@ TabOrder
 3
 41
 Numeric
-1751
+
 1
 16
 Name
@@ -2448,7 +2448,7 @@ TabOrder
 3
 40
 CheckBox
-1751
+
 1
 8
 Name
@@ -2476,7 +2476,7 @@ TabOrder
 3
 32
 Numeric
-1751
+
 1
 16
 Name
@@ -2534,7 +2534,7 @@ TabOrder
 3
 34
 Numeric
-1751
+
 1
 16
 Name
@@ -2592,7 +2592,7 @@ TabOrder
 3
 34
 Numeric
-1751
+
 1
 16
 Name
@@ -2650,7 +2650,7 @@ TabOrder
 3
 34
 Numeric
-1751
+
 1
 16
 Name
@@ -2708,7 +2708,7 @@ TabOrder
 3
 33
 CheckBox
-1751
+
 1
 8
 Name
@@ -2736,7 +2736,7 @@ TabOrder
 3
 25
 Numeric
-1751
+
 1
 16
 Name
@@ -2794,7 +2794,7 @@ TabOrder
 3
 27
 Numeric
-1751
+
 1
 16
 Name
@@ -2852,7 +2852,7 @@ TabOrder
 3
 27
 Numeric
-1751
+
 1
 16
 Name
@@ -2910,7 +2910,7 @@ TabOrder
 3
 27
 Numeric
-1751
+
 1
 16
 Name
@@ -2968,7 +2968,7 @@ TabOrder
 3
 26
 Numeric
-1751
+
 1
 16
 Name
@@ -3026,7 +3026,7 @@ TabOrder
 3
 10
 Numeric
-1751
+
 1
 16
 Name
@@ -3084,7 +3084,7 @@ TabOrder
 3
 19
 Numeric
-1751
+
 1
 16
 Name
@@ -3142,7 +3142,7 @@ TabOrder
 3
 18
 Numeric
-1751
+
 1
 16
 Name
@@ -3200,7 +3200,7 @@ TabOrder
 3
 16
 Label
-1751
+
 1
 12
 Name
@@ -3243,7 +3243,7 @@ AlignTop
 2
 0
 Numeric
-1751
+
 1
 16
 Name
@@ -3301,7 +3301,7 @@ TabOrder
 3
 13
 Numeric
-1751
+
 1
 16
 Name
@@ -3359,7 +3359,7 @@ TabOrder
 3
 12
 Numeric
-1751
+
 1
 16
 Name
@@ -3417,7 +3417,7 @@ TabOrder
 3
 11
 Numeric
-1751
+
 1
 16
 Name
@@ -3475,7 +3475,7 @@ TabOrder
 3
 8
 Label
-1751
+
 1
 12
 Name
@@ -3518,7 +3518,7 @@ AlignTop
 2
 0
 GroupBox
-1751
+
 1
 7
 Name
@@ -3543,7 +3543,7 @@ Bold
 2
 1
 Label
-1751
+
 1
 12
 Name
@@ -3586,7 +3586,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3629,7 +3629,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3672,7 +3672,7 @@ AlignTop
 2
 0
 Numeric
-1751
+
 1
 16
 Name
@@ -3730,7 +3730,7 @@ TabOrder
 3
 22
 Label
-1751
+
 1
 12
 Name
@@ -3773,7 +3773,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3816,7 +3816,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3859,7 +3859,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3902,7 +3902,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3945,7 +3945,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -3988,7 +3988,7 @@ AlignTop
 2
 0
 Label
-1751
+
 1
 12
 Name
@@ -4031,7 +4031,7 @@ AlignTop
 2
 0
 Numeric
-1751
+
 1
 16
 Name
@@ -4088,51 +4088,8 @@ BackColour
 TabOrder
 3
 14
-1
-65
-subarray1_monthly_tilt
-3
-2
-Subarray 1 monthly tilt input for seasonal tilt arrays
-degrees
-PV System Design
- 
-1
-1
-2
-1
-12
-0.000000 40.000000 40.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 40.000000 40.000000 40.000000 
 
-MonthlyFactor
-subarray2_enable
-3
-1
-Enable subarray 2
- 
-PV System Design
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-subarray3_nstrings
-3
-1
-Number of parallel strings 3
- 
-PV System Design
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
+65
 dcac_ratio
 3
 1
@@ -4161,6 +4118,49 @@ PV System Design
 1
 0.000000
 Numeric
+subarray1_monthly_tilt
+3
+2
+Subarray 1 monthly tilt input for seasonal tilt arrays
+degrees
+PV System Design
+ 
+1
+1
+2
+1
+12
+0.000000 40.000000 40.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 40.000000 40.000000 40.000000 
+
+MonthlyFactor
+subarray3_nstrings
+3
+1
+Number of parallel strings 3
+ 
+PV System Design
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+subarray2_enable
+3
+1
+Enable subarray 2
+ 
+PV System Design
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
 subarray2_gcr
 3
 1
@@ -4217,20 +4217,6 @@ Battery
 1
 0.000000
 Numeric
-subarray1_rotlim
-3
-1
-Tracker rotation limit 1
-degrees
-PV System Design
- 
-3
-1
-1
-1
-1
-45.000000
-Numeric
 inverter_count
 3
 1
@@ -4245,11 +4231,11 @@ PV System Design
 1
 1.000000
 Numeric
-subarray3_backtrack
+subarray1_rotlim
 3
 1
-Enable backtracking 3
- 
+Tracker rotation limit 1
+degrees
 PV System Design
  
 3
@@ -4257,8 +4243,8 @@ PV System Design
 1
 1
 1
-0.000000
-CheckBox
+45.000000
+Numeric
 subarray1_track_mode
 3
 1
@@ -4273,6 +4259,20 @@ Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
 1
 0.000000
 RadioChoice
+subarray3_backtrack
+3
+1
+Enable backtracking 3
+ 
+PV System Design
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
 user_inverter_count
 3
 1
@@ -4287,20 +4287,6 @@ PV System Design
 1
 1.000000
 Numeric
-offset
-3
-1
-Row offset
-m
-PV System Design
- 
-0
-1
-1
-1
-1
-0.000000
-Default
 subarray4_monthly_tilt
 3
 2
@@ -4316,34 +4302,20 @@ PV System Design
 0.000000 40.000000 40.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 40.000000 40.000000 40.000000 
 
 Default
-subarray2_tilt_eq_lat
+offset
 3
 1
- 
- 
+Row offset
+m
 PV System Design
  
-3
+0
 1
 1
 1
 1
 0.000000
-CheckBox
-subarray4_track_mode
-3
-1
-Tracking mode 4
- 
-PV System Design
-Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
-3
-1
-1
-1
-1
-0.000000
-RadioChoice
+Default
 subarray1_azimuth
 3
 1
@@ -4358,6 +4330,34 @@ PV System Design
 1
 180.000000
 Numeric
+subarray4_track_mode
+3
+1
+Tracking mode 4
+ 
+PV System Design
+Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
+3
+1
+1
+1
+1
+0.000000
+RadioChoice
+subarray2_tilt_eq_lat
+3
+1
+ 
+ 
+PV System Design
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
 total_modules
 3
 1
@@ -4386,6 +4386,20 @@ PV System Design
 1
 20.000000
 Numeric
+subarray2_track_mode
+3
+1
+Tracking mode 2
+ 
+PV System Design
+Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
+3
+1
+1
+1
+1
+0.000000
+RadioChoice
 total_inverter_capacity
 3
 1
@@ -4414,20 +4428,20 @@ PV System Design
 1
 180.000000
 Numeric
-subarray2_track_mode
+vmp_string
 3
 1
-Tracking mode 2
- 
+String Vmp
+V
 PV System Design
-Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
-3
+ 
+8
 1
 1
 1
 1
 0.000000
-RadioChoice
+Numeric
 subarray3_track_mode
 3
 1
@@ -4442,11 +4456,26 @@ Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
 1
 0.000000
 RadioChoice
-vmp_string
+subarray3_monthly_tilt
+3
+2
+Subarray 3 monthly tilt input for seasonal tilt arrays
+degrees
+PV System Design
+ 
+1
+1
+2
+1
+12
+0.000000 40.000000 40.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 40.000000 40.000000 40.000000 
+
+Default
+total_land_area
 3
 1
-String Vmp
-V
+Total land area
+acres
 PV System Design
  
 8
@@ -4470,35 +4499,6 @@ PV System Design
 1
 4.000000
 Numeric
-total_land_area
-3
-1
-Total land area
-acres
-PV System Design
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-subarray3_monthly_tilt
-3
-2
-Subarray 3 monthly tilt input for seasonal tilt arrays
-degrees
-PV System Design
- 
-1
-1
-2
-1
-12
-0.000000 40.000000 40.000000 20.000000 20.000000 20.000000 20.000000 20.000000 20.000000 40.000000 40.000000 40.000000 
-
-Default
 num_enabled
 3
 1
@@ -4513,20 +4513,6 @@ PV System Design
 1
 0.000000
 Default
-user_modules_per_string
-3
-1
-Modules per string
- 
-PV System Design
- 
-2
-1
-1
-1
-1
-10.000000
-Numeric
 user_strings_in_parallel
 3
 1
@@ -4540,6 +4526,20 @@ PV System Design
 1
 1
 4.000000
+Numeric
+user_modules_per_string
+3
+1
+Modules per string
+ 
+PV System Design
+ 
+2
+1
+1
+1
+1
+10.000000
 Numeric
 subarray3_gcr
 3
@@ -4721,20 +4721,6 @@ PV System Design
 1
 0.300000
 Default
-vdcmax_inverter
-3
-1
-Maximum DC voltage
-Vdc
-PV System Design
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
 subarray2_rotlim
 3
 1
@@ -4748,6 +4734,20 @@ PV System Design
 1
 1
 45.000000
+Numeric
+vdcmax_inverter
+3
+1
+Maximum DC voltage
+Vdc
+PV System Design
+ 
+8
+1
+1
+1
+1
+0.000000
 Numeric
 subarray1_tilt_eq_lat
 3
