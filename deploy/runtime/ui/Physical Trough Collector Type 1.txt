@@ -1045,34 +1045,21 @@ TabOrder
 5
 
 22
-csp_dtr_sca_ncol_per_sca_1
+IAMs_1
 3
-1
-Number of modules per assembly
+2
+Incidence angle modifier coefficients
  
 Physical Trough Collector Type 1
  
 2
 1
+2
 1
-1
-1
-12.000000
-Numeric
-csp_dtr_sca_calc_iam_1
 3
-1
-IAM at summer solstice
- 
-Physical Trough Collector Type 1
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
+1.000000 0.050600 -0.176300 
+
+DataArray
 csp_dtr_sca_ap_length_1
 3
 1
@@ -1087,70 +1074,14 @@ Physical Trough Collector Type 1
 1
 8.500000
 Numeric
-csp_dtr_sca_length_1
+csp_dtr_sca_aperture_1
 3
 1
-Length of collector assembly
-m
+Reflective aperture area
+m²
 Physical Trough Collector Type 1
  
 2
-1
-1
-1
-1
-102.000000
-Numeric
-csp_dtr_sca_calc_end_gain_1
-3
-1
-End gain factor
- 
-Physical Trough Collector Type 1
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp_dtr_sca_clean_reflectivity_1
-3
-1
-Mirror reflectance
- 
-Physical Trough Collector Type 1
- 
-2
-1
-1
-1
-1
-0.935000
-Numeric
-csp_dtr_sca_w_profile_1
-3
-1
-Aperture width, total structure
-m
-Physical Trough Collector Type 1
- 
-2
-1
-1
-1
-1
-5.000000
-Numeric
-csp_dtr_sca_calc_sca_eff_1
-3
-1
-Optical efficiency at design
- 
-Physical Trough Collector Type 1
- 
-8
 1
 1
 1
@@ -1171,11 +1102,11 @@ Physical Trough Collector Type 1
 1
 1.800000
 Numeric
-csp_dtr_sca_calc_zenith_1
+csp_dtr_sca_calc_costh_1
 3
 1
-Calculated zenith
-rad
+Calculated costheta
+ 
 Physical Trough Collector Type 1
  
 8
@@ -1185,38 +1116,10 @@ Physical Trough Collector Type 1
 1
 0.000000
 Default
-csp_dtr_sca_piping_dist_1
+csp_dtr_sca_calc_end_gain_1
 3
 1
-Piping distance between assemblies
-m
-Physical Trough Collector Type 1
- 
-2
-1
-1
-1
-1
-1.000000
-Numeric
-csp_dtr_sca_aperture_1
-3
-1
-Reflective aperture area
-m²
-Physical Trough Collector Type 1
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_sca_calc_latitude_1
-3
-1
-Latitude
+End gain factor
  
 Physical Trough Collector Type 1
  
@@ -1241,47 +1144,47 @@ Physical Trough Collector Type 1
 1
 0.000000
 Numeric
-csp_dtr_sca_tracking_error_1
+csp_dtr_sca_calc_iam_1
 3
 1
-Tracking error
+IAM at summer solstice
  
 Physical Trough Collector Type 1
  
-2
+8
 1
 1
 1
 1
-0.994000
+0.000000
 Numeric
-csp_dtr_sca_geometry_effects_1
+csp_dtr_sca_calc_latitude_1
 3
 1
-Geometry effects
+Latitude
  
 Physical Trough Collector Type 1
  
-2
+8
 1
 1
 1
 1
-0.980000
-Numeric
-csp_dtr_sca_general_error_1
+0.000000
+Default
+csp_dtr_sca_calc_sca_eff_1
 3
 1
-General optical error
+Optical efficiency at design
  
 Physical Trough Collector Type 1
  
-2
+8
 1
 1
 1
 1
-0.990000
+0.000000
 Numeric
 csp_dtr_sca_calc_theta_1
 3
@@ -1297,6 +1200,76 @@ Physical Trough Collector Type 1
 1
 0.000000
 Default
+csp_dtr_sca_calc_zenith_1
+3
+1
+Calculated zenith
+rad
+Physical Trough Collector Type 1
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp_dtr_sca_clean_reflectivity_1
+3
+1
+Mirror reflectance
+ 
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+0.935000
+Numeric
+csp_dtr_sca_general_error_1
+3
+1
+General optical error
+ 
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+0.990000
+Numeric
+csp_dtr_sca_geometry_effects_1
+3
+1
+Geometry effects
+ 
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+0.980000
+Numeric
+csp_dtr_sca_length_1
+3
+1
+Length of collector assembly
+m
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+102.000000
+Numeric
 csp_dtr_sca_mirror_dirt_1
 3
 1
@@ -1311,35 +1284,20 @@ Physical Trough Collector Type 1
 1
 0.950000
 Numeric
-IAMs_1
+csp_dtr_sca_ncol_per_sca_1
 3
-2
-Incidence angle modifier coefficients
+1
+Number of modules per assembly
  
 Physical Trough Collector Type 1
  
 2
 1
-2
-1
-3
-1.000000 0.050600 -0.176300 
-
-DataArray
-csp_dtr_sca_calc_costh_1
-3
-1
-Calculated costheta
- 
-Physical Trough Collector Type 1
- 
-8
 1
 1
 1
-1
-0.000000
-Default
+12.000000
+Numeric
 csp_dtr_sca_notify_text_1
 3
 4
@@ -1352,6 +1310,48 @@ Physical Trough Collector Type 1
 4
 Solargenix SGX-1
 TextEntry
+csp_dtr_sca_piping_dist_1
+3
+1
+Piping distance between assemblies
+m
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+1.000000
+Numeric
+csp_dtr_sca_tracking_error_1
+3
+1
+Tracking error
+ 
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+0.994000
+Numeric
+csp_dtr_sca_w_profile_1
+3
+1
+Aperture width, total structure
+m
+Physical Trough Collector Type 1
+ 
+2
+1
+1
+1
+1
+5.000000
+Numeric
 
 2082
 equations{ 'csp_dtr_sca_ap_length_1' } = define() {

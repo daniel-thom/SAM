@@ -596,20 +596,34 @@ AlignTop
 0
 
 6
-depr_sta_type
+depr_fed_custom
 3
-1
-State depreciation (0=None, 1=5-yr MACRS, 2=Straight line, 3=Custom)
+2
+Custom federal depreciation percentages by year
  
 Depreciation
-No depreciation|5-yr MACRS|Straight line|Custom
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
+depr_fed_sl_years
+3
+1
+Federal straight line depreciation years
+ 
+Depreciation
+ 
 3
 1
 1
 1
 1
-1.000000
-RadioChoice
+7.000000
+Numeric
 depr_fed_type
 3
 1
@@ -638,20 +652,6 @@ Depreciation
 1
 0.000000
 SchedNumeric
-depr_fed_custom
-3
-2
-Custom federal depreciation percentages by year
- 
-Depreciation
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
 depr_sta_sl_years
 3
 1
@@ -666,20 +666,20 @@ Depreciation
 1
 7.000000
 Numeric
-depr_fed_sl_years
+depr_sta_type
 3
 1
-Federal straight line depreciation years
+State depreciation (0=None, 1=5-yr MACRS, 2=Straight line, 3=Custom)
  
 Depreciation
- 
+No depreciation|5-yr MACRS|Straight line|Custom
 3
 1
 1
 1
 1
-7.000000
-Numeric
+1.000000
+RadioChoice
 
 0
 0

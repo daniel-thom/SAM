@@ -406,38 +406,10 @@ AlignTop
 1
 
 5
-en_ac_lifetime_losses
-3
-1
-Enable AC lifetime losses
- 
- 
- 
-3
-1
-1
-1
-1
-0.000000
-Default
 ac_lifetime_losses
 3
 2
 Lifetime daily AC losses
-%
- 
- 
-3
-1
-2
-1
-1
-0.000000
-Default
-dc_lifetime_losses
-3
-2
-Lifetime daily DC losses
 %
  
  
@@ -458,6 +430,34 @@ Degradation
 2
 1
 2
+1
+1
+0.000000
+Default
+dc_lifetime_losses
+3
+2
+Lifetime daily DC losses
+%
+ 
+ 
+3
+1
+2
+1
+1
+0.000000
+Default
+en_ac_lifetime_losses
+3
+1
+Enable AC lifetime losses
+ 
+ 
+ 
+3
+1
+1
 1
 1
 0.000000

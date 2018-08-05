@@ -509,11 +509,11 @@ Bold
 1
 
 6
-loan_term
+debt_fraction
 3
 1
-Loan term
-years
+Debt fraction
+%
 Residential Loan Parameters
  
 2
@@ -521,27 +521,13 @@ Residential Loan Parameters
 1
 1
 1
-30.000000
+100.000000
 Numeric
 loan_amount
 3
 1
 Principal
  
-Residential Loan Parameters
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-wacc
-3
-1
-WACC
-%
 Residential Loan Parameters
  
 8
@@ -565,6 +551,20 @@ Residential Loan Parameters
 1
 6.000000
 Numeric
+loan_term
+3
+1
+Loan term
+years
+Residential Loan Parameters
+ 
+2
+1
+1
+1
+1
+30.000000
+Numeric
 mortgage
 3
 1
@@ -579,19 +579,19 @@ Standard loan|Mortgage
 1
 1.000000
 RadioChoice
-debt_fraction
+wacc
 3
 1
-Debt fraction
+WACC
 %
 Residential Loan Parameters
  
-2
+8
 1
 1
 1
 1
-100.000000
+0.000000
 Numeric
 
 370

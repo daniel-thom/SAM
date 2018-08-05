@@ -3071,19 +3071,61 @@ AlignTop
 0
 
 49
-ui_disp_8_solar
+FossilFill
 3
-1
-Dispatch Fraction With Solar Period 8
+2
+Empirical trough fossil fill fraction array
  
 CSP Dispatch Control
  
+9
+1
+2
+1
+1
+0.000000
+Default
+NUMTOU
+3
+1
+Empirical trough number of TOD periods
+ 
+CSP Dispatch Control
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+TSLogic
+3
+3
+Empirical trough dispatch factors
+ 
+CSP Dispatch Control
+ 
+9
+1
 3
 1
 1
+0.000000
+Default
+diswos
+3
+2
+Generic CSP system dispatch fraction without solar array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
 1
 1
-0.100000
+0.000000
 Default
 disws
 3
@@ -3099,10 +3141,402 @@ CSP Dispatch Control
 1
 0.000000
 Default
+fdisp
+3
+2
+Generic CSP dispatch fossil fill fraction array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+ffrac
+3
+2
+Physical trough dispatch fossil fill fraction array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+qdisp
+3
+2
+Generic CSP system turbine output fraction array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+tslogic_a
+3
+2
+Physical trough dispatch fraction without solar array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+tslogic_b
+3
+2
+Physical trough dispatch fraction with solar array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+tslogic_c
+3
+2
+Physical trough dispatch turbine output fraction array
+ 
+CSP Dispatch Control
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+ui_disp_1_fossil
+3
+1
+Fossil Fill Fraction Period 1
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_1_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 1
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_1_solar
+3
+1
+Dispatch Fraction With Solar Period 1
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_1_turbout
+3
+1
+Turbine Output Fraction Period 1
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.100000
+Default
+ui_disp_2_fossil
+3
+1
+Fossil Fill Fraction Period 2
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_2_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 2
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_2_solar
+3
+1
+Dispatch Fraction With Solar Period 2
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_2_turbout
+3
+1
+Turbine Output Fraction Period 2
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+ui_disp_3_fossil
+3
+1
+Fossil Fill Fraction Period 3
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_3_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 3
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
 ui_disp_3_solar
 3
 1
 Dispatch Fraction With Solar Period 3
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_3_turbout
+3
+1
+Turbine Output Fraction Period 3
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+ui_disp_4_fossil
+3
+1
+Fossil Fill Fraction Period 4
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_4_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 4
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_4_solar
+3
+1
+Dispatch Fraction With Solar Period 4
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_4_turbout
+3
+1
+Turbine Output Fraction Period 4
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+ui_disp_5_fossil
+3
+1
+Fossil Fill Fraction Period 5
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_5_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 5
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_5_solar
+3
+1
+Dispatch Fraction With Solar Period 5
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_5_turbout
+3
+1
+Turbine Output Fraction Period 5
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+ui_disp_6_fossil
+3
+1
+Fossil Fill Fraction Period 6
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_6_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 6
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_6_solar
+3
+1
+Dispatch Fraction With Solar Period 6
  
 CSP Dispatch Control
  
@@ -3127,10 +3561,10 @@ CSP Dispatch Control
 1
 1.000000
 Default
-ui_disp_2_fossil
+ui_disp_7_fossil
 3
 1
-Fossil Fill Fraction Period 2
+Fossil Fill Fraction Period 7
  
 CSP Dispatch Control
  
@@ -3141,80 +3575,10 @@ CSP Dispatch Control
 1
 0.000000
 Default
-ui_disp_5_turbout
+ui_disp_7_nosolar
 3
 1
-Turbine Output Fraction Period 5
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-fdisp
-3
-2
-Generic CSP dispatch fossil fill fraction array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-ui_disp_3_turbout
-3
-1
-Turbine Output Fraction Period 3
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-TSLogic
-3
-3
-Empirical trough dispatch factors
- 
-CSP Dispatch Control
- 
-9
-1
-3
-1
-1
-0.000000
-Default
-ui_disp_4_turbout
-3
-1
-Turbine Output Fraction Period 4
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-ui_disp_4_solar
-3
-1
-Dispatch Fraction With Solar Period 4
+Dispatch Fraction Without Solar Period 7
  
 CSP Dispatch Control
  
@@ -3224,6 +3588,146 @@ CSP Dispatch Control
 1
 1
 0.100000
+Default
+ui_disp_7_solar
+3
+1
+Dispatch Fraction With Solar Period 7
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_7_turbout
+3
+1
+Turbine Output Fraction Period 7
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+ui_disp_8_fossil
+3
+1
+Fossil Fill Fraction Period 8
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_8_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 8
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_8_solar
+3
+1
+Dispatch Fraction With Solar Period 8
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_8_turbout
+3
+1
+Turbine Output Fraction Period 8
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+ui_disp_9_fossil
+3
+1
+Fossil Fill Fraction Period 9
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_disp_9_nosolar
+3
+1
+Dispatch Fraction Without Solar Period 9
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_9_solar
+3
+1
+Dispatch Fraction With Solar Period 9
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+0.100000
+Default
+ui_disp_9_turbout
+3
+1
+Turbine Output Fraction Period 9
+ 
+CSP Dispatch Control
+ 
+3
+1
+1
+1
+1
+1.000000
 Default
 weekday_schedule
 3
@@ -3251,132 +3755,6 @@ CSP Dispatch Control
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 
 TOUSchedule
-tslogic_c
-3
-2
-Physical trough dispatch turbine output fraction array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-tslogic_b
-3
-2
-Physical trough dispatch fraction with solar array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-ui_disp_9_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 9
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_2_solar
-3
-1
-Dispatch Fraction With Solar Period 2
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_9_turbout
-3
-1
-Turbine Output Fraction Period 9
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-tslogic_a
-3
-2
-Physical trough dispatch fraction without solar array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-ui_disp_3_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 3
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_1_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 1
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_4_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 4
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
 weekend_schedule
 3
 3
@@ -3403,384 +3781,6 @@ CSP Dispatch Control
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 
 TOUSchedule
-ui_disp_7_fossil
-3
-1
-Fossil Fill Fraction Period 7
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_1_turbout
-3
-1
-Turbine Output Fraction Period 1
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.100000
-Default
-ui_disp_6_solar
-3
-1
-Dispatch Fraction With Solar Period 6
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_8_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 8
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_8_fossil
-3
-1
-Fossil Fill Fraction Period 8
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_6_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 6
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-NUMTOU
-3
-1
-Empirical trough number of TOD periods
- 
-CSP Dispatch Control
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_2_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 2
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ffrac
-3
-2
-Physical trough dispatch fossil fill fraction array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-ui_disp_2_turbout
-3
-1
-Turbine Output Fraction Period 2
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-ui_disp_9_solar
-3
-1
-Dispatch Fraction With Solar Period 9
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_3_fossil
-3
-1
-Fossil Fill Fraction Period 3
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_7_turbout
-3
-1
-Turbine Output Fraction Period 7
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-ui_disp_1_solar
-3
-1
-Dispatch Fraction With Solar Period 1
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_7_solar
-3
-1
-Dispatch Fraction With Solar Period 7
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_5_fossil
-3
-1
-Fossil Fill Fraction Period 5
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_4_fossil
-3
-1
-Fossil Fill Fraction Period 4
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_5_solar
-3
-1
-Dispatch Fraction With Solar Period 5
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_5_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 5
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_8_turbout
-3
-1
-Turbine Output Fraction Period 8
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-ui_disp_1_fossil
-3
-1
-Fossil Fill Fraction Period 1
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-FossilFill
-3
-2
-Empirical trough fossil fill fraction array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-qdisp
-3
-2
-Generic CSP system turbine output fraction array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-diswos
-3
-2
-Generic CSP system dispatch fraction without solar array
- 
-CSP Dispatch Control
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-ui_disp_6_fossil
-3
-1
-Fossil Fill Fraction Period 6
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_disp_7_nosolar
-3
-1
-Dispatch Fraction Without Solar Period 7
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.100000
-Default
-ui_disp_9_fossil
-3
-1
-Fossil Fill Fraction Period 9
- 
-CSP Dispatch Control
- 
-3
-1
-1
-1
-1
-0.000000
-Default
 
 2977
 equations{ '$MIMO$ dispatch_vars_by_tech' } = define() {

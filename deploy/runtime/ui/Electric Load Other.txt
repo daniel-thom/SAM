@@ -2497,63 +2497,77 @@ AlignTop
 0
 
 32
-energy_6
+annual_peak
 3
 1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-energy_9
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-energy_5
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-load_user_data
-3
-2
-Energy usage
+Annual Peak
 kW
 Electric Load
  
-0
+9
 1
-2
+1
 1
 1
 0.000000
-DataArray
-peak_12
+Default
+energy_1
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_10
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_11
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_12
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_2
 3
 1
  
@@ -2581,11 +2595,123 @@ Electric Load
 1
 0.000000
 Default
-annual_peak
+energy_4
 3
 1
-Annual Peak
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_5
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_6
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_7
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_8
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+energy_9
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+escal_input_hourly
+3
+2
+Load growth rate
+%/yr
+Electric Load
+ 
+2
+1
+2
+1
+1
+0.000000
+Default
+load
+3
+2
+Electric load power
 kW
+Electric Load
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+load_annual_total
+3
+1
+Annual electric load
+kWh
 Electric Load
  
 9
@@ -2595,7 +2721,35 @@ Electric Load
 1
 0.000000
 Default
-energy_11
+load_user_data
+3
+2
+Energy usage
+kW
+Electric Load
+ 
+0
+1
+2
+1
+1
+0.000000
+DataArray
+normalize_to_utility_bill
+3
+1
+ 
+ 
+Electric Load
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+peak_1
 3
 1
  
@@ -2623,20 +2777,61 @@ Electric Load
 1
 0.000000
 Default
-utility_bill_data
+peak_11
 3
-2
-Monthly energy usage
-kWh
+1
+ 
+ 
 Electric Load
  
-0
+8
 1
-2
 1
-12
-300.000000 300.000000 300.000000 300.000000 300.000000 400.000000 500.000000 500.000000 400.000000 300.000000 300.000000 300.000000 
-
+1
+1
+0.000000
+Default
+peak_12
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+peak_2
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+peak_3
+3
+1
+ 
+ 
+Electric Load
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 peak_4
 3
@@ -2666,91 +2861,7 @@ Electric Load
 1
 0.000000
 Default
-normalize_to_utility_bill
-3
-1
- 
- 
-Electric Load
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-load_annual_total
-3
-1
-Annual electric load
-kWh
-Electric Load
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-peak_11
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-peak_8
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-load
-3
-2
-Electric load power
-kW
-Electric Load
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-energy_2
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-peak_1
+peak_6
 3
 1
  
@@ -2778,49 +2889,7 @@ Electric Load
 1
 0.000000
 Default
-energy_10
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-energy_7
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-escal_input_hourly
-3
-2
-Load growth rate
-%/yr
-Electric Load
- 
-2
-1
-2
-1
-1
-0.000000
-Default
-peak_2
+peak_8
 3
 1
  
@@ -2862,89 +2931,20 @@ Electric Load
 1
 1.000000
 Default
-energy_4
+utility_bill_data
 3
-1
- 
- 
+2
+Monthly energy usage
+kWh
 Electric Load
  
-8
+0
 1
+2
 1
-1
-1
-0.000000
-Default
-peak_6
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-peak_3
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-energy_8
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-energy_1
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-energy_12
-3
-1
- 
- 
-Electric Load
- 
-8
-1
-1
-1
-1
-0.000000
+12
+300.000000 300.000000 300.000000 300.000000 300.000000 400.000000 500.000000 500.000000 400.000000 300.000000 300.000000 300.000000 
+
 Default
 
 2966

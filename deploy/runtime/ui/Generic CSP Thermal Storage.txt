@@ -1160,6 +1160,354 @@ AlignTop
 0
 
 32
+azimuth
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.charge_loss_f0
+3
+1
+Charge-based loss adj F0
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+1.000000
+Default
+csp.gss.tes.charge_loss_f1
+3
+1
+Charge-based loss adj F1
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.charge_loss_f2
+3
+1
+Charge-based loss adj F2
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.charge_loss_f3
+3
+1
+Charge-based loss adj F3
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.max_capacity
+3
+1
+Max thermal capacity
+MWht
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.notify_text
+3
+4
+ 
+ 
+GSS Thermal Storage
+ 
+0
+1
+4
+empty
+Default
+csp.gss.tes.temp_loss_f0
+3
+1
+Temp-based loss adj F0
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+1.000000
+Default
+csp.gss.tes.temp_loss_f1
+3
+1
+Temp-based loss adj F1
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.temp_loss_f2
+3
+1
+Temp-based loss adj F2
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.tes.temp_loss_f3
+3
+1
+Temp-based loss adj F3
+ 
+GSS Thermal Storage
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+exergy_table
+3
+3
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+3
+1
+1
+0.000000
+Default
+exergy_table_ui
+3
+3
+Charge based exergy adj
+ 
+GSS Thermal Storage
+ 
+0
+1
+3
+1
+1
+0.000000
+ValueMatrix
+f_charge
+3
+1
+Charging energy derate
+ 
+GSS Thermal Storage
+ 
+0
+1
+1
+1
+1
+0.980000
+Default
+f_disch
+3
+1
+Discharging energy derate
+ 
+GSS Thermal Storage
+ 
+0
+1
+1
+1
+1
+0.980000
+Default
+f_etes_0
+3
+1
+Initial charge fraction
+ 
+GSS Thermal Storage
+ 
+0
+1
+1
+1
+1
+0.100000
+Default
+f_teshl_ref
+3
+1
+Thermal loss multiplier
+kWt/MW-hr-cap
+GSS Thermal Storage
+ 
+0
+1
+1
+1
+1
+0.350000
+Default
+hrs_tes
+3
+1
+Full load hours of TES
+hr
+GSS Thermal Storage
+ 
+2
+1
+1
+1
+1
+6.000000
+Default
+ibh
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ibn
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+itoth
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+latitude
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+longitude
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ntod
+3
+1
+ 
+ 
+GSS Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+storage_config
+3
+1
+ 
+ 
+GSS Thermal Storage
+Direct storage|Indirect storage
+1
+1
+1
+1
+1
+1.000000
+Default
 tdb
 3
 1
@@ -1188,133 +1536,21 @@ GSS Thermal Storage
 1
 0.000000
 Default
-ibn
+teshlX_coefs
 3
-1
+2
  
  
 GSS Thermal Storage
  
 8
 1
-1
-1
-1
-0.000000
-Default
-csp.gss.tes.temp_loss_f1
-3
-1
-Temp-based loss adj F1
- 
-GSS Thermal Storage
- 
-1
-1
-1
+2
 1
 1
 0.000000
 Default
-f_charge
-3
-1
-Charging energy derate
- 
-GSS Thermal Storage
- 
-0
-1
-1
-1
-1
-0.980000
-Default
-csp.gss.tes.temp_loss_f3
-3
-1
-Temp-based loss adj F3
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-latitude
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-storage_config
-3
-1
- 
- 
-GSS Thermal Storage
-Direct storage|Indirect storage
-1
-1
-1
-1
-1
-1.000000
-Default
-f_teshl_ref
-3
-1
-Thermal loss multiplier
-kWt/MW-hr-cap
-GSS Thermal Storage
- 
-0
-1
-1
-1
-1
-0.350000
-Default
-ibh
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-itoth
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-longitude
+tilt
 3
 1
  
@@ -1342,228 +1578,6 @@ GSS Thermal Storage
 1
 0.000000
 Default
-f_disch
-3
-1
-Discharging energy derate
- 
-GSS Thermal Storage
- 
-0
-1
-1
-1
-1
-0.980000
-Default
-azimuth
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ntod
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-f_etes_0
-3
-1
-Initial charge fraction
- 
-GSS Thermal Storage
- 
-0
-1
-1
-1
-1
-0.100000
-Default
-csp.gss.tes.charge_loss_f0
-3
-1
-Charge-based loss adj F0
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-1.000000
-Default
-csp.gss.tes.charge_loss_f3
-3
-1
-Charge-based loss adj F3
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-tilt
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.tes.max_capacity
-3
-1
-Max thermal capacity
-MWht
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.tes.temp_loss_f0
-3
-1
-Temp-based loss adj F0
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-1.000000
-Default
-hrs_tes
-3
-1
-Full load hours of TES
-hr
-GSS Thermal Storage
- 
-2
-1
-1
-1
-1
-6.000000
-Default
-csp.gss.tes.charge_loss_f2
-3
-1
-Charge-based loss adj F2
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-vwind
-3
-1
- 
- 
-GSS Thermal Storage
- 
-8
-1
-1
-1
-1
-1.000000
-Default
-csp.gss.tes.temp_loss_f2
-3
-1
-Temp-based loss adj F2
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.tes.notify_text
-3
-4
- 
- 
-GSS Thermal Storage
- 
-0
-1
-4
-empty
-Default
-teshlX_coefs
-3
-2
- 
- 
-GSS Thermal Storage
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.gss.tes.charge_loss_f1
-3
-1
-Charge-based loss adj F1
- 
-GSS Thermal Storage
- 
-1
-1
-1
-1
-1
-0.000000
-Default
 twb
 3
 1
@@ -1578,33 +1592,19 @@ GSS Thermal Storage
 1
 10.000000
 Default
-exergy_table_ui
-3
-3
-Charge based exergy adj
- 
-GSS Thermal Storage
- 
-0
-1
+vwind
 3
 1
-1
-0.000000
-ValueMatrix
-exergy_table
-3
-3
  
  
 GSS Thermal Storage
  
 8
 1
-3
 1
 1
-0.000000
+1
+1.000000
 Default
 
 1373

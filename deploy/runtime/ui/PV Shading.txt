@@ -3413,33 +3413,33 @@ AlignTop
 0
 
 46
-module_length
+en_snow_model
 3
 1
-Module length
-m
+Enable snow model
  
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+module_area
+3
+1
+Module area
+m²
+Shading and Snow
  
 8
 1
 1
 1
 1
-1.000000
-Default
-subarray2_gcr_ref
-3
-1
-GCR 2
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.300000
+0.000000
 Default
 module_aspect_ratio
 3
@@ -3455,10 +3455,64 @@ Module aspect ratio
 1
 1.700000
 Default
-subarray4_mod_orient
+module_length
 3
 1
-Module orientation 4
+Module length
+m
+ 
+ 
+8
+1
+1
+1
+1
+1.000000
+Default
+module_width
+3
+1
+Module width
+m
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+shading_3d_scene
+3
+6
+Open 3D shade calculator
+ 
+Shading and Snow
+ 
+0
+1
+6
+0
+Default
+subarray1_gcr_ref
+3
+1
+GCR 1
+m
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.300000
+Default
+subarray1_mod_orient
+3
+1
+Module orientation 1
  
 Shading and Snow
 Portrait| Landscape
@@ -3469,6 +3523,214 @@ Portrait| Landscape
 1
 0.000000
 Choice
+subarray1_nmodx
+3
+1
+Number of modules along bottom of row 1
+ 
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+8.000000
+Numeric
+subarray1_nmody
+3
+1
+Number of modules along side of row 1
+ 
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
+subarray1_ref_nmodules
+3
+1
+Number of modules 1
+ 
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+subarray1_shade_mode
+3
+1
+Self shading mode 1
+ 
+Shading and Snow
+None|Standard (Non-linear)|Thin film (Linear)
+3
+1
+1
+1
+1
+0.000000
+Choice
+subarray1_shading
+3
+5
+Edit shading losses 1
+ 
+Shading and Snow
+ 
+3
+1
+5
+1
+0
+ShadingFactors
+subarray2_gcr_ref
+3
+1
+GCR 2
+ 
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.300000
+Default
+subarray2_mod_orient
+3
+1
+Module orientation 2
+ 
+Shading and Snow
+Portrait| Landscape
+3
+1
+1
+1
+1
+0.000000
+Choice
+subarray2_nmodx
+3
+1
+Number of modules along bottom of row 2
+ 
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+8.000000
+Numeric
+subarray2_nmody
+3
+1
+Number of modules along side of row 2
+ 
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
+subarray2_ref_nmodules
+3
+1
+Number of modules 2
+ 
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+subarray2_shade_mode
+3
+1
+Self shading mode 2
+ 
+Shading and Snow
+None|Standard (Non-linear)|Thin film (Linear)
+3
+1
+1
+1
+1
+0.000000
+Choice
+subarray2_shading
+3
+5
+Edit shading losses 2
+ 
+Shading and Snow
+ 
+3
+1
+5
+1
+0
+ShadingFactors
+subarray3_gcr_ref
+3
+1
+GCR 3
+ 
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.300000
+Default
+subarray3_mod_orient
+3
+1
+Module orientation 3
+ 
+Shading and Snow
+Portrait| Landscape
+3
+1
+1
+1
+1
+0.000000
+Choice
+subarray3_nmodx
+3
+1
+Number of modules along bottom of row 3
+ 
+Shading and Snow
+ 
+3
+1
+1
+1
+1
+8.000000
+Numeric
 subarray3_nmody
 3
 1
@@ -3483,20 +3745,6 @@ Shading and Snow
 1
 2.000000
 Numeric
-ui_subarray4_length_side
-3
-1
-Length of subarray side 4
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
 subarray3_ref_nmodules
 3
 1
@@ -3538,48 +3786,10 @@ Shading and Snow
 1
 0
 ShadingFactors
-shading_3d_scene
-3
-6
-Open 3D shade calculator
- 
-Shading and Snow
- 
-0
-1
-6
-0
-Default
-subarray1_shading
-3
-5
-Edit shading losses 1
- 
-Shading and Snow
- 
+subarray4_gcr_ref
 3
 1
-5
-1
-0
-ShadingFactors
-subarray2_shading
-3
-5
-Edit shading losses 2
- 
-Shading and Snow
- 
-3
-1
-5
-1
-0
-ShadingFactors
-ui_subarray4_nrows
-3
-1
-Number of rows 4
+GCR 4
  
 Shading and Snow
  
@@ -3588,39 +3798,12 @@ Shading and Snow
 1
 1
 1
-0.000000
+0.300000
 Default
-subarray4_nmody
+subarray4_mod_orient
 3
 1
-Number of modules along side of row 4
- 
-Shading and Snow
- 
-3
-1
-1
-1
-1
-2.000000
-Numeric
-subarray4_shading
-3
-5
-Edit shading losses 4
- 
-Shading and Snow
- 
-3
-1
-5
-1
-0
-ShadingFactors
-subarray3_mod_orient
-3
-1
-Module orientation 3
+Module orientation 4
  
 Shading and Snow
 Portrait| Landscape
@@ -3631,34 +3814,6 @@ Portrait| Landscape
 1
 0.000000
 Choice
-ui_subarray3_row_spacing
-3
-1
-Row spacing 3
-m
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subarray1_ref_nmodules
-3
-1
-Number of modules 1
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
 subarray4_nmodx
 3
 1
@@ -3673,206 +3828,10 @@ Shading and Snow
 1
 8.000000
 Numeric
-subarray4_shade_mode
+subarray4_nmody
 3
 1
-Self shading mode 4
- 
-Shading and Snow
-None|Standard (Non-linear)|Thin film (Linear)
-3
-1
-1
-1
-1
-0.000000
-Choice
-subarray2_nmodx
-3
-1
-Number of modules along bottom of row 2
- 
-Shading and Snow
- 
-3
-1
-1
-1
-1
-8.000000
-Numeric
-ui_subarray2_nrows
-3
-1
-Number of rows 2
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-module_area
-3
-1
-Module area
-m²
-Shading and Snow
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-subarray1_gcr_ref
-3
-1
-GCR 1
-m
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.300000
-Default
-module_width
-3
-1
-Module width
-m
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-subarray2_shade_mode
-3
-1
-Self shading mode 2
- 
-Shading and Snow
-None|Standard (Non-linear)|Thin film (Linear)
-3
-1
-1
-1
-1
-0.000000
-Choice
-subarray3_gcr_ref
-3
-1
-GCR 3
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.300000
-Default
-ui_subarray3_length_side
-3
-1
-Length of subarray side 3
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subarray1_shade_mode
-3
-1
-Self shading mode 1
- 
-Shading and Snow
-None|Standard (Non-linear)|Thin film (Linear)
-3
-1
-1
-1
-1
-0.000000
-Choice
-ui_subarray1_length_side
-3
-1
-Length of subarray side 1
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subarray1_mod_orient
-3
-1
-Module orientation 1
- 
-Shading and Snow
-Portrait| Landscape
-3
-1
-1
-1
-1
-0.000000
-Choice
-subarray2_ref_nmodules
-3
-1
-Number of modules 2
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subarray1_nmodx
-3
-1
-Number of modules along bottom of row 1
- 
-Shading and Snow
- 
-3
-1
-1
-1
-1
-8.000000
-Numeric
-subarray2_nmody
-3
-1
-Number of modules along side of row 2
+Number of modules along side of row 4
  
 Shading and Snow
  
@@ -3897,55 +3856,13 @@ Shading and Snow
 1
 0.000000
 Default
-en_snow_model
+subarray4_shade_mode
 3
 1
-Enable snow model
+Self shading mode 4
  
 Shading and Snow
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-subarray4_gcr_ref
-3
-1
-GCR 4
- 
-Shading and Snow
- 
-9
-1
-1
-1
-1
-0.300000
-Default
-subarray1_nmody
-3
-1
-Number of modules along side of row 1
- 
-Shading and Snow
- 
-3
-1
-1
-1
-1
-2.000000
-Numeric
-subarray2_mod_orient
-3
-1
-Module orientation 2
- 
-Shading and Snow
-Portrait| Landscape
+None|Standard (Non-linear)|Thin film (Linear)
 3
 1
 1
@@ -3953,10 +3870,23 @@ Portrait| Landscape
 1
 0.000000
 Choice
-ui_subarray1_nrows
+subarray4_shading
+3
+5
+Edit shading losses 4
+ 
+Shading and Snow
+ 
 3
 1
-Number of rows 1
+5
+1
+0
+ShadingFactors
+ui_subarray1_length_side
+3
+1
+Length of subarray side 1
  
 Shading and Snow
  
@@ -3967,10 +3897,10 @@ Shading and Snow
 1
 0.000000
 Default
-ui_subarray2_length_side
+ui_subarray1_nrows
 3
 1
-Length of subarray side 2
+Number of rows 1
  
 Shading and Snow
  
@@ -3995,11 +3925,25 @@ Shading and Snow
 1
 0.000000
 Default
-ui_subarray4_row_spacing
+ui_subarray2_length_side
 3
 1
-Row spacing 4
-m
+Length of subarray side 2
+ 
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+ui_subarray2_nrows
+3
+1
+Number of rows 2
+ 
 Shading and Snow
  
 9
@@ -4023,6 +3967,20 @@ Shading and Snow
 1
 0.000000
 Default
+ui_subarray3_length_side
+3
+1
+Length of subarray side 3
+ 
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
 ui_subarray3_nrows
 3
 1
@@ -4037,20 +3995,62 @@ Shading and Snow
 1
 0.000000
 Default
-subarray3_nmodx
+ui_subarray3_row_spacing
 3
 1
-Number of modules along bottom of row 3
+Row spacing 3
+m
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+ui_subarray4_length_side
+3
+1
+Length of subarray side 4
  
 Shading and Snow
  
+9
+1
+1
+1
+1
+0.000000
+Default
+ui_subarray4_nrows
 3
 1
+Number of rows 4
+ 
+Shading and Snow
+ 
+9
 1
 1
 1
-8.000000
-Numeric
+1
+0.000000
+Default
+ui_subarray4_row_spacing
+3
+1
+Row spacing 4
+m
+Shading and Snow
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
 
 3660
 equations{'ui_subarray1_length_side'} = define() {

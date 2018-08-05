@@ -2771,21 +2771,21 @@ AlignTop
 0
 
 45
-csp.lf.cost.epc.fixed
+actual_aper
 3
 1
-Fixed EPC Cost
-$
-Linear Fresnel Capital Costs
  
-3
+ 
+ 
+ 
+8
 1
 1
 1
 1
 0.000000
 Default
-csp.lf.cost.epc.total
+csp.lf.cost.bop
 3
 1
  
@@ -2799,11 +2799,11 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.power_plant
+csp.lf.cost.bop_mwe
 3
 1
- 
- 
+Balance of Plant
+MWe, Gross
 Linear Fresnel Capital Costs
  
 8
@@ -2827,11 +2827,151 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.solar_field
+csp.lf.cost.contingency
 3
 1
  
  
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.contingency_percent
+3
+1
+Contingency
+ 
+Linear Fresnel Capital Costs
+ 
+2
+1
+1
+1
+1
+10.000000
+Default
+csp.lf.cost.epc.cost_per_watt
+3
+1
+ 
+per Wac
+Physical Trough Capital Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.epc.fixed
+3
+1
+Fixed EPC Cost
+$
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.epc.per_acre
+3
+1
+EPC Costs acre
+per acre
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.epc.per_watt
+3
+1
+EPC Cost Wac
+per Wac
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.epc.percent
+3
+1
+EPC Costs % direct
+% direct
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+15.000000
+Default
+csp.lf.cost.epc.total
+3
+1
+ 
+ 
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.fossil_backup
+3
+1
+ 
+ 
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.fossil_backup.cost_per_kwe
+3
+1
+Fossil Backup Cost per kWe
+$/kWe
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.fossil_backup.mwe
+3
+1
+Fossil Backup
+MWe, Gross
 Linear Fresnel Capital Costs
  
 8
@@ -2855,10 +2995,10 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.solar_field.area
+csp.lf.cost.htf_system.area
 3
 1
-Solar Field
+HTF System
 m²
 Linear Fresnel Capital Costs
  
@@ -2869,38 +3009,10 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.epc.percent
+csp.lf.cost.htf_system.cost_per_m2
 3
 1
-EPC Costs % direct
-% direct
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-15.000000
-Default
-csp.lf.cost.fossil_backup.mwe
-3
-1
-Fossil Backup
-MWe, Gross
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.solar_field.cost_per_m2
-3
-1
-Solar Field Cost per m2
+HTF System Cost Per m2
 $/m2
 Linear Fresnel Capital Costs
  
@@ -2909,40 +3021,12 @@ Linear Fresnel Capital Costs
 1
 1
 1
-350.000000
+50.000000
 Default
-system_use_lifetime_output
+csp.lf.cost.installed_per_capacity
 3
 1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.sales_tax.percent
-3
-1
-Sales Tax Percentage of Direct Cost
-%
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-80.000000
-Default
-csp.lf.cost.sales_tax.total
-3
-1
- 
+Estimated total installed cost per net capacity ($/kW)
  
 Linear Fresnel Capital Costs
  
@@ -2953,10 +3037,80 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.total_installed
+csp.lf.cost.nameplate
 3
 1
-Total installed cost
+Nameplate
+MWe
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.plm.fixed
+3
+1
+Fixed Land Cost
+$
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.plm.per_acre
+3
+1
+Land Cost acre
+per acre
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+10000.000000
+Default
+csp.lf.cost.plm.per_watt
+3
+1
+Land Cost Wac
+per Wac
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.plm.percent
+3
+1
+Land Cost % direct
+% direct
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.plm.total
+3
+1
+ 
  
 Linear Fresnel Capital Costs
  
@@ -2967,7 +3121,7 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.bop
+csp.lf.cost.power_plant
 3
 1
  
@@ -3009,21 +3163,21 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-actual_aper
+csp.lf.cost.sales_tax.percent
 3
 1
+Sales Tax Percentage of Direct Cost
+%
+Linear Fresnel Capital Costs
  
- 
- 
- 
-8
+3
 1
 1
 1
 1
-0.000000
+80.000000
 Default
-csp.lf.cost.plm.total
+csp.lf.cost.sales_tax.total
 3
 1
  
@@ -3037,66 +3191,10 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.plm.per_acre
+csp.lf.cost.sales_tax.value
 3
 1
-Land Cost acre
-per acre
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-10000.000000
-Default
-csp.lf.cost.epc.per_acre
-3
-1
-EPC Costs acre
-per acre
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-total_direct_cost
-3
-1
- 
- 
- 
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.fossil_backup.cost_per_kwe
-3
-1
-Fossil Backup Cost per kWe
-$/kWe
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.installed_per_capacity
-3
-1
-Estimated total installed cost per net capacity ($/kW)
+Sales Tax of
  
 Linear Fresnel Capital Costs
  
@@ -3107,7 +3205,7 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
-csp.lf.cost.fossil_backup
+csp.lf.cost.site_improvements
 3
 1
  
@@ -3115,90 +3213,6 @@ csp.lf.cost.fossil_backup
 Linear Fresnel Capital Costs
  
 8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.epc.per_watt
-3
-1
-EPC Cost Wac
-per Wac
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.bop_mwe
-3
-1
-Balance of Plant
-MWe, Gross
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-system_use_recapitalization
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.plm.percent
-3
-1
-Land Cost % direct
-% direct
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.nameplate
-3
-1
-Nameplate
-MWe
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.plm.fixed
-3
-1
-Fixed Land Cost
-$
-Linear Fresnel Capital Costs
- 
-3
 1
 1
 1
@@ -3219,10 +3233,94 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
+csp.lf.cost.site_improvements.cost_per_m2
+3
+1
+Site Improvement Cost per m2
+$/m2
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+20.000000
+Default
+csp.lf.cost.solar_field
+3
+1
+ 
+ 
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.solar_field.area
+3
+1
+Solar Field
+m²
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.solar_field.cost_per_m2
+3
+1
+Solar Field Cost per m2
+$/m2
+Linear Fresnel Capital Costs
+ 
+3
+1
+1
+1
+1
+350.000000
+Default
 csp.lf.cost.total_direct
 3
 1
 Total direct cost
+ 
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.total_indirect
+3
+1
+Total indirect cost
+ 
+Linear Fresnel Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.cost.total_installed
+3
+1
+Total installed cost
  
 Linear Fresnel Capital Costs
  
@@ -3247,152 +3345,54 @@ Linear Fresnel Capital Costs
 1
 0.000000
 Default
+system_use_lifetime_output
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_direct_cost
+3
+1
+ 
+ 
+ 
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
 total_installed_cost
 3
 1
  
  
  
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.epc.cost_per_watt
-3
-1
- 
-per Wac
-Physical Trough Capital Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.htf_system.area
-3
-1
-HTF System
-m²
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.contingency_percent
-3
-1
-Contingency
- 
-Linear Fresnel Capital Costs
- 
-2
-1
-1
-1
-1
-10.000000
-Default
-csp.lf.cost.total_indirect
-3
-1
-Total indirect cost
- 
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.site_improvements.cost_per_m2
-3
-1
-Site Improvement Cost per m2
-$/m2
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-20.000000
-Default
-csp.lf.cost.sales_tax.value
-3
-1
-Sales Tax of
- 
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.htf_system.cost_per_m2
-3
-1
-HTF System Cost Per m2
-$/m2
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-50.000000
-Default
-csp.lf.cost.contingency
-3
-1
- 
- 
-Linear Fresnel Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.plm.per_watt
-3
-1
-Land Cost Wac
-per Wac
-Linear Fresnel Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.cost.site_improvements
-3
-1
- 
- 
-Linear Fresnel Capital Costs
  
 8
 1

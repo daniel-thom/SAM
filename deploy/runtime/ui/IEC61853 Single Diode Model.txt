@@ -2248,370 +2248,6 @@ TabOrder
 4294967295
 
 32
-sd11par_standoff
-3
-1
-Standoff height
- 
-IEC-68153 PV Module Model
-Building integrated|Greater than 3.5 in|2.5-3.5 in|1.5-2.5 in|0.5-1.5 in|Less than 0.5 in|Ground or rack mounted
-0
-1
-1
-1
-1
-6.000000
-Choice
-sd11par_mounting
-3
-1
-Approximate mounting height
- 
-IEC-68153 PV Module Model
-One story building height or lower|Two story building height or higher
-0
-1
-1
-1
-1
-0.000000
-Choice
-sd11par_alphaIsc
-3
-1
-alpha
-A/C
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-0.000472
-Numeric
-sd11par_betaVoc
-3
-1
-beta
-V/C
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
--0.217000
-Numeric
-sd11par_c3
-3
-1
-C3
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-1.487460
-Numeric
-sd11par_gammaPmp
-3
-1
-gamma
-%/C
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
--0.258849
-Numeric
-sd11par_Vmp0
-3
-1
-Voltage (Vmp)
-V
-IEC-68153 PV Module Model
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_AMa0
-3
-1
-Air mass modifiers
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-0.941700
-Numeric
-sd11par_Isc0
-3
-1
-Short circuit current (Isc)
-A
-IEC-68153 PV Module Model
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_glass
-3
-1
-Module cover
- 
-IEC-68153 PV Module Model
-Standard glass|Anti-reflective (AR) coating
-0
-1
-1
-1
-1
-0.000000
-Choice
-sd11par_c1
-3
-1
-C1
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-1930.150024
-Numeric
-sd11par_eff
-3
-1
-Efficiency
-%
-IEC-68153 PV Module Model
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_d2
-3
-1
-D2
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
--0.076973
-Numeric
-sd11par_nser
-3
-1
-Number of cells in series
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-116.000000
-Numeric
-sd11par_Io
-3
-1
-Saturation current (Io)
-A
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_AMa2
-3
-1
- 
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
--0.020220
-Numeric
-sd11par_area
-3
-1
-Area
-m2
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-0.720000
-Numeric
-sd11par_n
-3
-1
-Diode factor (n)
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-1.450710
-Numeric
-sd11par_c2
-3
-1
-C2
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-474.640015
-Numeric
-sd11par_Voc0
-3
-1
-Open circuit voltage (Voc)
-V
-IEC-68153 PV Module Model
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_Imp0
-3
-1
-Current (Imp)
-A
-IEC-68153 PV Module Model
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_Il
-3
-1
-Light current (Il)
-A
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-1.189510
-Numeric
-sd11par_AMa3
-3
-1
- 
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-0.002190
-Numeric
-sd11par_Pmp0
-3
-1
-Power (Pmp)
-W
-IEC-68153 PV Module Model
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sd11par_d1
-3
-1
-D1
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-13.550400
-Numeric
-sd11par_AMa1
-3
-1
- 
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
-0.651600
-Numeric
 iec61853_test_data
 3
 3
@@ -2654,10 +2290,10 @@ IEC-68153 PV Module Model
 1100.000000 75.000000 64.578201 54.826500 76.631599 1.323960 
 
 DataMatrix
-sd11par_d3
+sd11par_AMa0
 3
 1
-D3
+Air mass modifiers
  
 IEC-68153 PV Module Model
  
@@ -2666,7 +2302,63 @@ IEC-68153 PV Module Model
 1
 1
 1
-0.237327
+0.941700
+Numeric
+sd11par_AMa1
+3
+1
+ 
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+0.651600
+Numeric
+sd11par_AMa2
+3
+1
+ 
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+-0.020220
+Numeric
+sd11par_AMa3
+3
+1
+ 
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+0.002190
+Numeric
+sd11par_AMa4
+3
+1
+ 
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+-0.000091
 Numeric
 sd11par_Egref
 3
@@ -2682,6 +2374,328 @@ IEC-68153 PV Module Model
 1
 0.737668
 Numeric
+sd11par_Il
+3
+1
+Light current (Il)
+A
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+1.189510
+Numeric
+sd11par_Imp0
+3
+1
+Current (Imp)
+A
+IEC-68153 PV Module Model
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_Io
+3
+1
+Saturation current (Io)
+A
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_Isc0
+3
+1
+Short circuit current (Isc)
+A
+IEC-68153 PV Module Model
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_Pmp0
+3
+1
+Power (Pmp)
+W
+IEC-68153 PV Module Model
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_Vmp0
+3
+1
+Voltage (Vmp)
+V
+IEC-68153 PV Module Model
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_Voc0
+3
+1
+Open circuit voltage (Voc)
+V
+IEC-68153 PV Module Model
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_alphaIsc
+3
+1
+alpha
+A/C
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+0.000472
+Numeric
+sd11par_area
+3
+1
+Area
+m2
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+0.720000
+Numeric
+sd11par_betaVoc
+3
+1
+beta
+V/C
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+-0.217000
+Numeric
+sd11par_c1
+3
+1
+C1
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+1930.150024
+Numeric
+sd11par_c2
+3
+1
+C2
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+474.640015
+Numeric
+sd11par_c3
+3
+1
+C3
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+1.487460
+Numeric
+sd11par_d1
+3
+1
+D1
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+13.550400
+Numeric
+sd11par_d2
+3
+1
+D2
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+-0.076973
+Numeric
+sd11par_d3
+3
+1
+D3
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+0.237327
+Numeric
+sd11par_eff
+3
+1
+Efficiency
+%
+IEC-68153 PV Module Model
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sd11par_gammaPmp
+3
+1
+gamma
+%/C
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+-0.258849
+Numeric
+sd11par_glass
+3
+1
+Module cover
+ 
+IEC-68153 PV Module Model
+Standard glass|Anti-reflective (AR) coating
+0
+1
+1
+1
+1
+0.000000
+Choice
+sd11par_mounting
+3
+1
+Approximate mounting height
+ 
+IEC-68153 PV Module Model
+One story building height or lower|Two story building height or higher
+0
+1
+1
+1
+1
+0.000000
+Choice
+sd11par_n
+3
+1
+Diode factor (n)
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+1.450710
+Numeric
+sd11par_nser
+3
+1
+Number of cells in series
+ 
+IEC-68153 PV Module Model
+ 
+0
+1
+1
+1
+1
+116.000000
+Numeric
+sd11par_standoff
+3
+1
+Standoff height
+ 
+IEC-68153 PV Module Model
+Building integrated|Greater than 3.5 in|2.5-3.5 in|1.5-2.5 in|0.5-1.5 in|Less than 0.5 in|Ground or rack mounted
+0
+1
+1
+1
+1
+6.000000
+Choice
 sd11par_tnoct
 3
 1
@@ -2695,20 +2709,6 @@ IEC-68153 PV Module Model
 1
 1
 44.900002
-Numeric
-sd11par_AMa4
-3
-1
- 
- 
-IEC-68153 PV Module Model
- 
-0
-1
-1
-1
-1
--0.000091
 Numeric
 sd11par_type
 3

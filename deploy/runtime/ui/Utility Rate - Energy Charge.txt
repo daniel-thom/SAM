@@ -261,6 +261,20 @@ Electricity Rates - Energy Charge Rates
 1
 0.000000
 DiurnalPeriod
+ur_ec_sched_weekend
+3
+3
+Energy charge TOU weekend schedule
+ 
+Electricity Rates - Energy Charge Rates
+ 
+1
+1
+3
+1
+1
+0.000000
+DiurnalPeriod
 ur_ec_tou_mat
 3
 3
@@ -291,20 +305,6 @@ Electricity Rates - Energy Charge Rates
 4.000000 4.000000 99999996802856924650656260769173209088.000000 2.000000 0.342410 0.000000 
 
 DataMatrix
-ur_ec_sched_weekend
-3
-3
-Energy charge TOU weekend schedule
- 
-Electricity Rates - Energy Charge Rates
- 
-1
-1
-3
-1
-1
-0.000000
-DiurnalPeriod
 
 0
 416

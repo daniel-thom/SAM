@@ -1322,11 +1322,11 @@ TabOrder
 26
 
 37
-rock_specific_heat
+fracture_angle
 3
 1
-Specific Heat
-J/kg-'C
+Fracture Angle
+deg from horizontal
 Geothermal Resource
  
 2
@@ -1334,9 +1334,201 @@ Geothermal Resource
 1
 1
 1
-950.000000
+15.000000
+Numeric
+fracture_aperature
+3
+1
+Fracture Aperature
+m
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+0.000400
+Numeric
+fracture_width
+3
+1
+Fracture Width
+m
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+175.000000
+Numeric
+geotherm.avg_reservoir_temp
+3
+1
+ 
+'C
+Geothermal Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+geotherm.avg_reservoir_tempF
+3
+1
+Average Reservoir Temperature
+'F
+Geothermal Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+geotherm.basecase_choice
+3
+1
+Base Case Choice
+ 
+Geothermal Resource
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+geotherm.bottom_hole_pressure
+3
+1
+Production Well Bottom Hole Pressure
+psi
+Geothermal Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+geotherm.bottom_hole_pressureBar
+3
+1
+ 
+bar
+Geothermal Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+geotherm.delta_pressure_reservoir
+3
+1
+Pressure Change Across Reservoir
+psi
+Geothermal Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+geotherm.delta_pressure_reservoirBar
+3
+1
+ 
+bar
+Geothermal Resource
+ 
+10
+1
+1
+1
+1
+0.000000
+Numeric
+geotherm.egs_ambient_temp
+3
+1
+Ambient temperature (EGS)
+'C
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+15.000000
+Default
+geotherm.errors2
+3
+4
+Messages:
+ 
+Geothermal Resource
+ 
+8
+1
+4
+No message
+TextEntry
+geotherm.lookup.depth_array
+3
+2
+ 
+ 
+ 
+ 
+0
+1
+2
+1
+1
+0.000000
 Default
 geotherm.lookup.latitude
+3
+1
+ 
+ 
+ 
+ 
+0
+1
+1
+1
+1
+-1.000000
+Default
+geotherm.lookup.location
+3
+4
+ 
+ 
+ 
+ 
+0
+1
+4
+Denver, CO
+Default
+geotherm.lookup.longitude
 3
 1
  
@@ -1364,188 +1556,18 @@ geotherm.lookup.temp_array
 1
 0.000000
 Default
-fracture_aperature
+geotherm.resource.choice
 3
-1
-Fracture Aperature
-m
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-0.000400
-Numeric
-resource_temp
-3
-1
-Resource Temperature
-'C
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-200.000000
-Numeric
-geotherm.temp_gradient
-3
-1
-Temperature Gradient
-'C/km
-Geothermal Resource
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-subsurface_water_loss
-3
-1
-Subsurface Water Loss
-% of water injected
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-2.000000
-Numeric
-geotherm.lookup.depth_array
-3
-2
- 
- 
- 
- 
-0
-1
-2
-1
-1
-0.000000
-Default
-geotherm.egs_ambient_temp
-3
-1
-Ambient temperature (EGS)
-'C
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-15.000000
-Default
-rock_thermal_conductivity
-3
-1
-Thermal Conductivity
-J/m-day-'C
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-259200.000000
-Default
-num_fractures
-3
-1
-Number of Fractures
- 
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-6.000000
-Numeric
-reservoir_pressure_change_type
-3
-1
+4
  
  
 Geothermal Resource
  
 0
 1
-1
-1
-1
-2.000000
-RadioChoice
-resource_potential
-3
-1
-Total Resource Potential
-MW
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-210.000000
-Numeric
-inj_prod_well_distance
-3
-1
-Distance From Injection to Production Wells
-m
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-1500.000000
-Numeric
-geotherm.avg_reservoir_temp
-3
-1
- 
-'C
-Geothermal Resource
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-reservoir_width
-3
-1
-Width
-m
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-500.000000
-Numeric
+4
+empty
+Default
 geotherm.resource_type
 3
 1
@@ -1560,25 +1582,37 @@ Geothermal Resource
 1
 0.000000
 Default
-geotherm.lookup.longitude
+geotherm.resource_type_name
 3
+4
+Resource Type Name
+ 
+Geothermal Resource
+ 
+8
 1
- 
- 
- 
- 
+4
 0
-1
-1
-1
-1
--1.000000
 Default
-fracture_angle
+geotherm.temp_gradient
 3
 1
-Fracture Angle
-deg from horizontal
+Temperature Gradient
+'C/km
+Geothermal Resource
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+inj_prod_well_distance
+3
+1
+Distance From Injection to Production Wells
+m
 Geothermal Resource
  
 2
@@ -1586,21 +1620,21 @@ Geothermal Resource
 1
 1
 1
-15.000000
+1500.000000
 Numeric
-geotherm.bottom_hole_pressureBar
+num_fractures
 3
 1
+Number of Fractures
  
-bar
 Geothermal Resource
  
-8
+2
 1
 1
 1
 1
-0.000000
+6.000000
 Numeric
 reservoir_height
 3
@@ -1616,60 +1650,6 @@ Geothermal Resource
 1
 100.000000
 Numeric
-geotherm.basecase_choice
-3
-1
-Base Case Choice
- 
-Geothermal Resource
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-reservoir_pressure_change_type_old_setting
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-2.000000
-Default
-geotherm.resource.choice
-3
-4
- 
- 
-Geothermal Resource
- 
-0
-1
-4
-empty
-Default
-resource_type
-3
-1
- 
- 
- 
- 
-0
-1
-1
-1
-1
-0.000000
-RadioChoice
 reservoir_permeability
 3
 1
@@ -1684,36 +1664,52 @@ Geothermal Resource
 1
 0.050000
 Numeric
-geotherm.lookup.location
+reservoir_pressure_change
 3
-4
+1
  
  
+Geothermal Resource
  
+2
+1
+1
+1
+1
+0.350000
+Numeric
+reservoir_pressure_change_type
+3
+1
+ 
+ 
+Geothermal Resource
  
 0
 1
-4
-Denver, CO
+1
+1
+1
+2.000000
+RadioChoice
+reservoir_pressure_change_type_old_setting
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+2.000000
 Default
-geotherm.delta_pressure_reservoirBar
+reservoir_width
 3
 1
- 
-bar
-Geothermal Resource
- 
-10
-1
-1
-1
-1
-0.000000
-Numeric
-fracture_width
-3
-1
-Fracture Width
+Width
 m
 Geothermal Resource
  
@@ -1722,62 +1718,8 @@ Geothermal Resource
 1
 1
 1
-175.000000
+500.000000
 Numeric
-rock_density
-3
-1
-Density
-kg/m3
-Geothermal Resource
- 
-2
-1
-1
-1
-1
-2600.000000
-Default
-geotherm.delta_pressure_reservoir
-3
-1
-Pressure Change Across Reservoir
-psi
-Geothermal Resource
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-geotherm.bottom_hole_pressure
-3
-1
-Production Well Bottom Hole Pressure
-psi
-Geothermal Resource
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-geotherm.resource_type_name
-3
-4
-Resource Type Name
- 
-Geothermal Resource
- 
-8
-1
-4
-0
-Default
 resource_depth
 3
 1
@@ -1792,37 +1734,11 @@ Geothermal Resource
 1
 6000.000000
 Numeric
-geotherm.avg_reservoir_tempF
+resource_potential
 3
 1
-Average Reservoir Temperature
-'F
-Geothermal Resource
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-geotherm.errors2
-3
-4
-Messages:
- 
-Geothermal Resource
- 
-8
-1
-4
-No message
-TextEntry
-reservoir_pressure_change
-3
-1
- 
- 
+Total Resource Potential
+MW
 Geothermal Resource
  
 2
@@ -1830,7 +1746,91 @@ Geothermal Resource
 1
 1
 1
-0.350000
+210.000000
+Numeric
+resource_temp
+3
+1
+Resource Temperature
+'C
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+200.000000
+Numeric
+resource_type
+3
+1
+ 
+ 
+ 
+ 
+0
+1
+1
+1
+1
+0.000000
+RadioChoice
+rock_density
+3
+1
+Density
+kg/m3
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+2600.000000
+Default
+rock_specific_heat
+3
+1
+Specific Heat
+J/kg-'C
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+950.000000
+Default
+rock_thermal_conductivity
+3
+1
+Thermal Conductivity
+J/m-day-'C
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+259200.000000
+Default
+subsurface_water_loss
+3
+1
+Subsurface Water Loss
+% of water injected
+Geothermal Resource
+ 
+2
+1
+1
+1
+1
+2.000000
 Numeric
 
 362

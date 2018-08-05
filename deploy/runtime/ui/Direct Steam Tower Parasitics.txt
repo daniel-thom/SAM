@@ -1361,53 +1361,11 @@ AlignTop
 0
 
 20
-p_run
+Piping_length
 3
 1
-Tracking power for a single heliostat
-kWe
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-0.055000
-Default
-piping_length_add
-3
-1
-Piping length constant
+Total piping length
 m
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-bop_par_2
-3
-1
- 
- 
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.dst.calc.bop
-3
-1
-BOP
-MWe
 Direct Steam Power Tower Parasitics
  
 8
@@ -1417,11 +1375,11 @@ Direct Steam Power Tower Parasitics
 1
 0.000000
 Default
-pb_fixed_par
+Piping_loss
 3
 1
-Fraction of rated gross power consumed at all times
-MWe/MWt
+Piping loss coefficient
+Wt/m
 Direct Steam Power Tower Parasitics
  
 2
@@ -1429,13 +1387,13 @@ Direct Steam Power Tower Parasitics
 1
 1
 1
-0.005500
+10200.000000
 Default
-aux_par_1
+aux_par
 3
 1
- 
- 
+Aux heater,boiler parasitic
+MWe/MWcap
 Direct Steam Power Tower Parasitics
  
 2
@@ -1443,21 +1401,7 @@ Direct Steam Power Tower Parasitics
 1
 1
 1
-0.517000
-Default
-bop_par_0
-3
-1
- 
- 
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-0.483000
+0.023000
 Default
 aux_par_0
 3
@@ -1473,63 +1417,7 @@ Direct Steam Power Tower Parasitics
 1
 0.483000
 Default
-bop_par
-3
-1
-Balance of plant parasitic
-MWe/MWcap
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-q_start
-3
-1
-Startup energy of a single heliostat
-kWe-hr
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-0.025000
-Default
-aux_par_f
-3
-1
- 
- 
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-piping_length_mult
-3
-1
-Piping length multiplier
- 
-Direct Steam Power Tower Parasitics
- 
-2
-1
-1
-1
-1
-2.600000
-Default
-bop_par_1
+aux_par_1
 3
 1
  
@@ -1557,10 +1445,24 @@ Direct Steam Power Tower Parasitics
 1
 0.000000
 Default
-aux_par
+aux_par_f
 3
 1
-Aux heater,boiler parasitic
+ 
+ 
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+bop_par
+3
+1
+Balance of plant parasitic
 MWe/MWcap
 Direct Steam Power Tower Parasitics
  
@@ -1569,12 +1471,12 @@ Direct Steam Power Tower Parasitics
 1
 1
 1
-0.023000
+0.000000
 Default
-eta_rec_pump
+bop_par_0
 3
 1
-Feedwater to boiler pump efficiency
+ 
  
 Direct Steam Power Tower Parasitics
  
@@ -1583,13 +1485,13 @@ Direct Steam Power Tower Parasitics
 1
 1
 1
-0.850000
+0.483000
 Default
-Piping_loss
+bop_par_1
 3
 1
-Piping loss coefficient
-Wt/m
+ 
+ 
 Direct Steam Power Tower Parasitics
  
 2
@@ -1597,16 +1499,16 @@ Direct Steam Power Tower Parasitics
 1
 1
 1
-10200.000000
+0.517000
 Default
-Piping_length
+bop_par_2
 3
 1
-Total piping length
-m
+ 
+ 
 Direct Steam Power Tower Parasitics
  
-8
+2
 1
 1
 1
@@ -1640,6 +1542,104 @@ Direct Steam Power Tower Parasitics
 1
 1
 0.000000
+Default
+csp.dst.calc.bop
+3
+1
+BOP
+MWe
+Direct Steam Power Tower Parasitics
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+eta_rec_pump
+3
+1
+Feedwater to boiler pump efficiency
+ 
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+0.850000
+Default
+p_run
+3
+1
+Tracking power for a single heliostat
+kWe
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+0.055000
+Default
+pb_fixed_par
+3
+1
+Fraction of rated gross power consumed at all times
+MWe/MWt
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+0.005500
+Default
+piping_length_add
+3
+1
+Piping length constant
+m
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+piping_length_mult
+3
+1
+Piping length multiplier
+ 
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+2.600000
+Default
+q_start
+3
+1
+Startup energy of a single heliostat
+kWe-hr
+Direct Steam Power Tower Parasitics
+ 
+2
+1
+1
+1
+1
+0.025000
 Default
 
 654

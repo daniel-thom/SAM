@@ -1497,82 +1497,6 @@ TabOrder
 6
 
 23
-country
-3
-4
-Country
- 
-Location and Resource
- 
-8
-1
-4
-<invalid>
-TextEntry
-tz
-3
-1
-Time zone
- 
-Location and Resource
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-solar_resource_file
-3
-4
-Weather file on disk
- 
-Location and Resource
- 
-8
-1
-4
- 
-Default
-lon
-3
-1
-Longitude
-°E
-Location and Resource
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-state
-3
-4
-State
- 
-Location and Resource
- 
-8
-1
-4
-<invalid>
-TextEntry
-solar_resource
-3
-4
-Location
- 
-Location and Resource
-SolarResourceData|0
-19
-1
-4
-USA AZ Phoenix (TMY2)
-Library
 annual_beam
 3
 1
@@ -1587,17 +1511,99 @@ Location and Resource
 1
 0.000000
 Numeric
-station_id
+annual_diffuse
+3
+1
+Diffuse horizontal
+kWh/m²/day
+Location and Resource
+ 
+4
+1
+1
+1
+1
+0.000000
+Numeric
+annual_global
+3
+1
+Global horizontal
+kWh/m²/day
+Location and Resource
+ 
+20
+1
+1
+1
+1
+0.000000
+Numeric
+annual_snow
+3
+1
+Maximum snow depth
+cm
+Location and Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+annual_tdry
+3
+1
+Average temperature
+°C
+Location and Resource
+ 
+4
+1
+1
+1
+1
+0.000000
+Numeric
+annual_wspd
+3
+1
+Average wind speed
+m/s
+Location and Resource
+ 
+4
+1
+1
+1
+1
+0.000000
+Numeric
+city
 3
 4
-Station ID
+City
  
 Location and Resource
  
 8
 1
 4
+<invalid>
+TextEntry
+country
+3
+4
+Country
  
+Location and Resource
+ 
+8
+1
+4
+<invalid>
 TextEntry
 elev
 3
@@ -1639,17 +1645,43 @@ Location and Resource
 1
 0.000000
 Numeric
-city
+lbl_csp
 3
 4
-City
+ 
+ 
+Location and Resource
+ 
+0
+1
+4
+ 
+Default
+lon
+3
+1
+Longitude
+°E
+Location and Resource
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+solar_data_file_name
+3
+4
+Weather file
  
 Location and Resource
  
 8
 1
 4
-<invalid>
+ 
 TextEntry
 solar_data_source
 3
@@ -1663,36 +1695,46 @@ Location and Resource
 4
  
 TextEntry
-annual_snow
+solar_resource
 3
-1
-Maximum snow depth
-cm
-Location and Resource
+4
+Location
  
-8
+Location and Resource
+SolarResourceData|0
+19
 1
-1
-1
-1
-0.000000
-Default
-user_specified_weather_file
+4
+USA AZ Phoenix (TMY2)
+Library
+solar_resource_file
 3
 4
 Weather file on disk
  
 Location and Resource
  
-3
+8
 1
 4
  
-TextEntry
-solar_data_file_name
+Default
+state
 3
 4
-Weather file
+State
+ 
+Location and Resource
+ 
+8
+1
+4
+<invalid>
+TextEntry
+station_id
+3
+4
+Station ID
  
 Location and Resource
  
@@ -1701,40 +1743,14 @@ Location and Resource
 4
  
 TextEntry
-annual_global
+tz
 3
 1
-Global horizontal
-kWh/m²/day
-Location and Resource
- 
-20
-1
-1
-1
-1
-0.000000
-Numeric
-lbl_csp
-3
-4
- 
+Time zone
  
 Location and Resource
  
-0
-1
-4
- 
-Default
-annual_tdry
-3
-1
-Average temperature
-°C
-Location and Resource
- 
-4
+8
 1
 1
 1
@@ -1755,6 +1771,18 @@ Location and Resource
 1
 0.000000
 CheckBox
+user_specified_weather_file
+3
+4
+Weather file on disk
+ 
+Location and Resource
+ 
+3
+1
+4
+ 
+TextEntry
 wf_nrecords
 3
 1
@@ -1769,34 +1797,6 @@ Location and Resource
 1
 8760.000000
 Default
-annual_diffuse
-3
-1
-Diffuse horizontal
-kWh/m²/day
-Location and Resource
- 
-4
-1
-1
-1
-1
-0.000000
-Numeric
-annual_wspd
-3
-1
-Average wind speed
-m/s
-Location and Resource
- 
-4
-1
-1
-1
-1
-0.000000
-Numeric
 
 275
 equations{'solar_resource_file'} = define() {

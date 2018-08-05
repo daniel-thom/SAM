@@ -632,20 +632,6 @@ Bold
 1
 
 7
-loss_model_3d
-3
-1
-Loss model
- 
- 
-Linear| beam ~ f(area) and diffuse|Nonlinear via shading database
-0
-1
-1
-1
-1
-0.000000
-Choice
 en_3d_shading
 3
 1
@@ -660,20 +646,34 @@ en_3d_shading
 1
 0.000000
 CheckBox
-soiling_annual_average
+en_snow_model
 3
 1
-Annual average soiling loss
-%
  
  
-8
+ 
+ 
+0
 1
 1
 1
 1
 0.000000
-Numeric
+CheckBox
+loss_model_3d
+3
+1
+Loss model
+ 
+ 
+Linear| beam ~ f(area) and diffuse|Nonlinear via shading database
+0
+1
+1
+1
+1
+0.000000
+Choice
 soiling
 3
 2
@@ -689,21 +689,21 @@ Monthly soiling loss
 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 2.000000 
 
 MonthlyFactor
-en_snow_model
+soiling_annual_average
 3
 1
+Annual average soiling loss
+%
  
  
- 
- 
-0
+8
 1
 1
 1
 1
 0.000000
-CheckBox
-total_land_area
+Numeric
+total_area
 3
 1
  
@@ -717,7 +717,7 @@ total_land_area
 1
 0.000000
 Numeric
-total_area
+total_land_area
 3
 1
  

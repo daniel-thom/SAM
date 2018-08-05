@@ -1209,90 +1209,19 @@ TabOrder
 9
 
 26
-wind_farm_xCoordinates
+adjust
 3
-2
- 
+5
+Performance adjustment
  
 Wind Farm
  
-8
-1
-2
 1
 1
-0.000000
-Default
-wind_farm_yCoord_file
-3
-2
- 
- 
-Wind Farm
- 
-4
+5
 1
-2
-1
-1
-0.000000
-Default
-windfarm.farm.layout_angle
-3
-1
-Row Orientation
-deg
-Wind Farm
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-windfarm.farm.row_spacing
-3
-1
-Row spacing
-rotor diameters
-Wind Farm
- 
-2
-1
-1
-1
-1
-750.000000
-Numeric
-sizing_warning
-3
-1
- 
- 
-Wind Farm
- 
-4
-1
-1
-1
-1
-0.000000
-Default
-wind_farm_sizing_mode
-3
-1
- 
- 
-Wind Farm
- 
 0
-1
-1
-1
-1
-0.000000
-Default
+LossAdjustment
 cols
 3
 1
@@ -1301,6 +1230,20 @@ Internal variable for plotting on the wind farm page
 Wind Farm
  
 12
+1
+1
+1
+1
+0.000000
+Default
+desired_farm_size
+3
+1
+Desired farm size
+kW
+Wind Farm
+ 
+0
 1
 1
 1
@@ -1321,20 +1264,34 @@ Wind Farm
 1
 0.000000
 Default
-windfarm.farm.offset
+sizing_warning
 3
 1
-Offset for rows
-rotor diameters
+ 
+ 
 Wind Farm
  
-2
+4
 1
 1
 1
 1
-250.000000
-Numeric
+0.000000
+Default
+specify_label
+3
+1
+ 
+ 
+Wind Farm
+ 
+4
+1
+1
+1
+1
+0.000000
+Default
 system_capacity
 3
 1
@@ -1363,90 +1320,6 @@ Wind Farm
 1
 0.000000
 Numeric
-desired_farm_size
-3
-1
-Desired farm size
-kW
-Wind Farm
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-windfarm.farm.layout_slider
-3
-1
- 
- 
-Wind Farm
- 
-0
-1
-1
-1
-1
-0.000000
-Slider
-windfarm.farm.offset_type
-3
-1
-Offset type
- 
-Wind Farm
-Every Other Row|Each Row
-2
-1
-1
-1
-1
-1.000000
-Choice
-windfarm.farm.shape
-3
-1
-Shape
- 
-Wind Farm
- 
-2
-1
-1
-1
-1
-0.000000
-Choice
-windfarm.layout.file_or_controls
-3
-1
- 
- 
-Wind Farm
-Import wind turbine location data file|Define wind farm using layout generator (below)
-0
-1
-1
-1
-1
-1.000000
-RadioChoice
-windfarm.farm.number_of_rows
-3
-1
-Number of rows
- 
-Wind Farm
- 
-2
-1
-1
-1
-1
-4.000000
-Numeric
 wind_farm_num_turbines
 3
 1
@@ -1461,6 +1334,76 @@ Wind Farm
 1
 0.000000
 Numeric
+wind_farm_sizing_mode
+3
+1
+ 
+ 
+Wind Farm
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+wind_farm_wake_model
+3
+1
+Wake Model
+ 
+Wind Farm
+Simple Wake Model|Park (WAsP)|Eddy-Viscosity
+2
+1
+1
+1
+1
+0.000000
+Choice
+wind_farm_xCoord_file
+3
+2
+ 
+ 
+Wind Farm
+ 
+4
+1
+2
+1
+1
+0.000000
+Default
+wind_farm_xCoordinates
+3
+2
+ 
+ 
+Wind Farm
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+wind_farm_yCoord_file
+3
+2
+ 
+ 
+Wind Farm
+ 
+4
+1
+2
+1
+1
+0.000000
+Default
 wind_farm_yCoordinates
 3
 2
@@ -1475,26 +1418,111 @@ Wind Farm
 1
 0.000000
 Default
-adjust
+wind_resource_turbulence_coeff
 3
-5
-Performance adjustment
+1
+Turbulence Coefficient
  
 Wind Farm
  
+2
 1
 1
-5
 1
+1
+0.100000
+Numeric
+windfarm.farm.layout_angle
+3
+1
+Row Orientation
+deg
+Wind Farm
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+windfarm.farm.layout_slider
+3
+1
+ 
+ 
+Wind Farm
+ 
 0
-LossAdjustment
-wind_farm_wake_model
+1
+1
+1
+1
+0.000000
+Slider
+windfarm.farm.number_of_rows
 3
 1
-Wake Model
+Number of rows
  
 Wind Farm
-Simple Wake Model|Park (WAsP)|Eddy-Viscosity
+ 
+2
+1
+1
+1
+1
+4.000000
+Numeric
+windfarm.farm.offset
+3
+1
+Offset for rows
+rotor diameters
+Wind Farm
+ 
+2
+1
+1
+1
+1
+250.000000
+Numeric
+windfarm.farm.offset_type
+3
+1
+Offset type
+ 
+Wind Farm
+Every Other Row|Each Row
+2
+1
+1
+1
+1
+1.000000
+Choice
+windfarm.farm.row_spacing
+3
+1
+Row spacing
+rotor diameters
+Wind Farm
+ 
+2
+1
+1
+1
+1
+750.000000
+Numeric
+windfarm.farm.shape
+3
+1
+Shape
+ 
+Wind Farm
+ 
 2
 1
 1
@@ -1516,20 +1544,6 @@ Wind Farm
 1
 500.000000
 Numeric
-specify_label
-3
-1
- 
- 
-Wind Farm
- 
-4
-1
-1
-1
-1
-0.000000
-Default
 windfarm.farm.turbines_per_row
 3
 1
@@ -1544,34 +1558,20 @@ Wind Farm
 1
 8.000000
 Numeric
-wind_resource_turbulence_coeff
+windfarm.layout.file_or_controls
 3
 1
-Turbulence Coefficient
- 
-Wind Farm
- 
-2
-1
-1
-1
-1
-0.100000
-Numeric
-wind_farm_xCoord_file
-3
-2
  
  
 Wind Farm
- 
-4
-1
-2
+Import wind turbine location data file|Define wind farm using layout generator (below)
+0
 1
 1
-0.000000
-Default
+1
+1
+1.000000
+RadioChoice
 
 3423
 //calculates number of turbines, xCoordinates, and yCoordinates

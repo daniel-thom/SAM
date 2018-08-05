@@ -1197,6 +1197,34 @@ AlignTop
 0
 
 16
+ud_COPY_T_HTF_des
+3
+1
+Design HTF temperature
+°C
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ud_COPY_T_amb_des
+3
+1
+Design ambient temperature
+°C
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 ud_T_amb_des
 3
 1
@@ -1211,24 +1239,24 @@ Power Cycle
 1
 27.000000
 Default
-ud_f_W_dot_cool_des
+ud_T_amb_high
 3
 1
-Gross power consumed by cooling system
-%
+High ambient temperature
+°C
 Power Cycle
  
-2
+0
 1
 1
 1
 1
-0.000000
+55.000000
 Default
-ud_m_dot_htf_ind_od
+ud_T_amb_ind_od
 3
 3
-Off-design parametric on HTF mass flow rate
+Off-design parametric on ambient temperature
  
 Power Cycle
  
@@ -1242,6 +1270,34 @@ Power Cycle
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 
 DataMatrix
+ud_T_amb_low
+3
+1
+Low ambient temperature
+°C
+Power Cycle
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+ud_T_htf_high
+3
+1
+High HTF temperature
+°C
+Power Cycle
+ 
+0
+1
+1
+1
+1
+580.000000
+Default
 ud_T_htf_ind_od
 3
 3
@@ -1259,6 +1315,20 @@ Power Cycle
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 
 DataMatrix
+ud_T_htf_low
+3
+1
+Low HTF temperature
+°C
+Power Cycle
+ 
+0
+1
+1
+1
+1
+500.000000
+Default
 ud_W_dot_cool_calc
 3
 1
@@ -1273,11 +1343,11 @@ Power Cycle
 1
 0.000000
 Default
-ud_m_dot_water_cool_des
+ud_f_W_dot_cool_des
 3
 1
-Cooling system water usage
-kg/s
+Gross power consumed by cooling system
+%
 Power Cycle
  
 2
@@ -1287,10 +1357,38 @@ Power Cycle
 1
 0.000000
 Default
-ud_T_amb_ind_od
+ud_m_dot_design
+3
+1
+Design normalized HTF ṁ
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+1.000000
+Default
+ud_m_dot_htf_high
+3
+1
+High normalized HTF ṁ
+ 
+Power Cycle
+ 
+0
+1
+1
+1
+1
+1.200000
+Default
+ud_m_dot_htf_ind_od
 3
 3
-Off-design parametric on ambient temperature
+Off-design parametric on HTF mass flow rate
  
 Power Cycle
  
@@ -1318,112 +1416,14 @@ Power Cycle
 1
 0.300000
 Default
-ud_m_dot_htf_high
+ud_m_dot_water_cool_des
 3
 1
-High normalized HTF ṁ
- 
+Cooling system water usage
+kg/s
 Power Cycle
  
-0
-1
-1
-1
-1
-1.200000
-Default
-ud_T_amb_low
-3
-1
-Low ambient temperature
-°C
-Power Cycle
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-ud_T_amb_high
-3
-1
-High ambient temperature
-°C
-Power Cycle
- 
-0
-1
-1
-1
-1
-55.000000
-Default
-ud_T_htf_low
-3
-1
-Low HTF temperature
-°C
-Power Cycle
- 
-0
-1
-1
-1
-1
-500.000000
-Default
-ud_T_htf_high
-3
-1
-High HTF temperature
-°C
-Power Cycle
- 
-0
-1
-1
-1
-1
-580.000000
-Default
-ud_m_dot_design
-3
-1
-Design normalized HTF ṁ
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-1.000000
-Default
-ud_COPY_T_amb_des
-3
-1
-Design ambient temperature
-°C
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ud_COPY_T_HTF_des
-3
-1
-Design HTF temperature
-°C
-Power Cycle
- 
-8
+2
 1
 1
 1

@@ -653,104 +653,6 @@ TabOrder
 1
 
 9
-loan_term
-3
-1
-Loan term
-years
-Residential Loan
- 
-2
-1
-1
-1
-1
-30.000000
-Numeric
-ui_wacc
-3
-1
-WACC
-%
-Residential Loan
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-loan_amount
-3
-1
-Debt
- 
-Residential Loan
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-mortgage
-3
-1
-Residential loan type (0=standard, 1=mortgage)
- 
-Residential Loan
-Standard loan|Mortgage
-3
-1
-1
-1
-1
-1.000000
-RadioChoice
-loan_rate
-3
-1
-Loan rate
-%/year
-Residential Loan
- 
-2
-1
-1
-1
-1
-6.000000
-Numeric
-ui_net_capital_cost
-3
-1
-Net capital cost
- 
-Residential Loan
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-market
-3
-1
-Residential market
- 
-Residential Loan
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 debt_fraction
 3
 1
@@ -777,6 +679,104 @@ Residential Loan
 4
  
 MultilineText
+loan_amount
+3
+1
+Debt
+ 
+Residential Loan
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+loan_rate
+3
+1
+Loan rate
+%/year
+Residential Loan
+ 
+2
+1
+1
+1
+1
+6.000000
+Numeric
+loan_term
+3
+1
+Loan term
+years
+Residential Loan
+ 
+2
+1
+1
+1
+1
+30.000000
+Numeric
+market
+3
+1
+Residential market
+ 
+Residential Loan
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+mortgage
+3
+1
+Residential loan type (0=standard, 1=mortgage)
+ 
+Residential Loan
+Standard loan|Mortgage
+3
+1
+1
+1
+1
+1.000000
+RadioChoice
+ui_net_capital_cost
+3
+1
+Net capital cost
+ 
+Residential Loan
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+ui_wacc
+3
+1
+WACC
+%
+Residential Loan
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
 
 1732
 equations{ 'ui_net_capital_cost' } = define() {

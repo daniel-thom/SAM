@@ -921,6 +921,72 @@ TabOrder
 4
 
 17
+ur_demand_history
+3
+1
+Demand history
+months
+Electricity Rates - Description Metadata
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+ur_demand_max
+3
+1
+Demand maximum
+kW
+Electricity Rates - Description Metadata
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+ur_demand_min
+3
+1
+Demand minimum
+kW
+Electricity Rates - Description Metadata
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+ur_description
+3
+4
+Description
+ 
+Electricity Rates - Description Metadata
+ 
+0
+1
+4
+empty
+MultilineText
+ur_end_date
+3
+4
+ 
+ 
+Electricity Rates - Description Metadata
+ 
+0
+1
+4
+empty
+TextEntry
 ur_energy_history
 3
 1
@@ -949,132 +1015,6 @@ Electricity Rates - Description Metadata
 1
 0.000000
 Numeric
-ur_demand_history
-3
-1
-Demand history
-months
-Electricity Rates - Description Metadata
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-ur_phase_wiring
-3
-4
-Phase wiring
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
- 
-TextEntry
-ur_voltage_category
-3
-4
-Voltage category
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
- 
-TextEntry
-ur_demand_min
-3
-1
-Demand minimum
-kW
-Electricity Rates - Description Metadata
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-ur_source
-3
-4
-Source
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
-empty
-TextEntry
-ur_schedule_name
-3
-4
-Schedule
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
-empty
-TextEntry
-ur_name
-3
-4
-Name
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
-empty
-TextEntry
-ur_description
-3
-4
-Description
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
-empty
-MultilineText
-ur_voltage_min
-3
-1
-Voltage minimum
-V
-Electricity Rates - Description Metadata
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-ur_end_date
-3
-4
- 
- 
-Electricity Rates - Description Metadata
- 
-0
-1
-4
-empty
-TextEntry
 ur_energy_min
 3
 1
@@ -1089,34 +1029,54 @@ Electricity Rates - Description Metadata
 1
 0.000000
 Numeric
-ur_voltage_max
+ur_name
 3
-1
-Voltage maximum
-V
+4
+Name
+ 
 Electricity Rates - Description Metadata
  
 0
 1
-1
-1
-1
-0.000000
-Numeric
-ur_demand_max
+4
+empty
+TextEntry
+ur_phase_wiring
 3
-1
-Demand maximum
-kW
+4
+Phase wiring
+ 
 Electricity Rates - Description Metadata
  
 0
 1
+4
+ 
+TextEntry
+ur_schedule_name
+3
+4
+Schedule
+ 
+Electricity Rates - Description Metadata
+ 
+0
 1
+4
+empty
+TextEntry
+ur_source
+3
+4
+Source
+ 
+Electricity Rates - Description Metadata
+ 
+0
 1
-1
-0.000000
-Numeric
+4
+empty
+TextEntry
 ur_start_date
 3
 4
@@ -1141,6 +1101,46 @@ Electricity Rates - Description Metadata
 4
 empty
 TextEntry
+ur_voltage_category
+3
+4
+Voltage category
+ 
+Electricity Rates - Description Metadata
+ 
+0
+1
+4
+ 
+TextEntry
+ur_voltage_max
+3
+1
+Voltage maximum
+V
+Electricity Rates - Description Metadata
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+ur_voltage_min
+3
+1
+Voltage minimum
+V
+Electricity Rates - Description Metadata
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
 
 0
 0

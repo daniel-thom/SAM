@@ -660,20 +660,6 @@ Bold
 1
 
 11
-specified_solar_multiple
-3
-1
-Target solar multiple
- 
-LF DSG System Design
- 
-2
-1
-1
-1
-1
-1.900000
-Default
 I_bn_des
 3
 1
@@ -687,6 +673,89 @@ LF DSG System Design
 1
 1
 950.000000
+Default
+P_turb_des
+3
+1
+Heat sink inlet pressure
+bar
+LF DSG System Design
+ 
+2
+1
+1
+1
+1
+70.000000
+Numeric
+T_cold_ref
+3
+1
+Field inlet temperature
+°C
+LF DSG System Design
+ 
+2
+1
+1
+1
+1
+290.000000
+Default
+T_hot
+3
+1
+Field outlet temperature
+°C
+LF DSG System Design
+ 
+2
+1
+1
+1
+1
+393.000000
+Default
+adjust
+3
+5
+ 
+ 
+LF DSG System Design
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+heat_sink_dP_frac
+3
+1
+Heat sink fractional pressure drop
+ 
+LF DSG System Design
+ 
+2
+1
+1
+1
+1
+0.010000
+Numeric
+q_pb_des
+3
+1
+Heat sink power
+MWt
+LF DSG System Design
+ 
+2
+1
+1
+1
+1
+100.000000
 Default
 specified_q_dot_rec_des
 3
@@ -702,19 +771,20 @@ LF DSG System Design
 1
 0.000000
 Default
-adjust
+specified_solar_multiple
 3
-5
- 
+1
+Target solar multiple
  
 LF DSG System Design
  
+2
 1
 1
-5
 1
-0
-LossAdjustment
+1
+1.900000
+Default
 system_capacity
 3
 1
@@ -729,62 +799,6 @@ Phys Trough System Design
 1
 0.000000
 Numeric
-P_turb_des
-3
-1
-Heat sink inlet pressure
-bar
-LF DSG System Design
- 
-2
-1
-1
-1
-1
-70.000000
-Numeric
-T_hot
-3
-1
-Field outlet temperature
-°C
-LF DSG System Design
- 
-2
-1
-1
-1
-1
-393.000000
-Default
-q_pb_des
-3
-1
-Heat sink power
-MWt
-LF DSG System Design
- 
-2
-1
-1
-1
-1
-100.000000
-Default
-T_cold_ref
-3
-1
-Field inlet temperature
-°C
-LF DSG System Design
- 
-2
-1
-1
-1
-1
-290.000000
-Default
 x_b_des
 3
 1
@@ -798,20 +812,6 @@ LF DSG System Design
 1
 1
 0.500000
-Numeric
-heat_sink_dP_frac
-3
-1
-Heat sink fractional pressure drop
- 
-LF DSG System Design
- 
-2
-1
-1
-1
-1
-0.010000
 Numeric
 
 308

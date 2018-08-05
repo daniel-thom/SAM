@@ -304,34 +304,18 @@ TabOrder
 4
 
 5
-tax_investor_required_lease_reserve
+sale_leaseback_message
 3
-1
-Tax investor (lessor) required lease payment reserve
-months of reserve
-Sale Leaseback
+4
  
-2
-1
-1
-1
-1
-0.000000
-Numeric
-sponsor_operating_margin_escalation
-3
-1
-Developer (lessee) margin escalation
-%/year
-Sale Leaseback
  
-2
+ 
+ 
+5
 1
-1
-1
-1
-0.000000
-Numeric
+4
+ 
+MultilineText
 sponsor_operating_margin
 3
 1
@@ -360,18 +344,34 @@ Sale Leaseback
 1
 0.000000
 Numeric
-sale_leaseback_message
+sponsor_operating_margin_escalation
 3
-4
- 
- 
- 
- 
-5
 1
-4
+Developer (lessee) margin escalation
+%/year
+Sale Leaseback
  
-MultilineText
+2
+1
+1
+1
+1
+0.000000
+Numeric
+tax_investor_required_lease_reserve
+3
+1
+Tax investor (lessor) required lease payment reserve
+months of reserve
+Sale Leaseback
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
 
 121
 

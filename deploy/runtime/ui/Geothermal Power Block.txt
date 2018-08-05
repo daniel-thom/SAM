@@ -1888,24 +1888,80 @@ AlignTop
 0
 
 32
-hc_ctl6
+CT
 3
 1
-Hybrid Dispatch Fraction Period 6
+ 
  
 Geothermal Power Block
  
-3
+8
 1
 1
 1
 1
 0.000000
-Numeric
-dT_cw_ref
+Default
+HTF
 3
 1
-Ref. Condenser Water dT
+HTF
+ 
+Geothermal Power Block
+ 
+8
+1
+1
+1
+1
+3.000000
+Default
+P_boil
+3
+1
+Boiler Operating Pressure
+bar
+Geothermal Power Block
+ 
+2
+1
+1
+1
+1
+100.000000
+Numeric
+P_cond_min
+3
+1
+Minimum Condenser Pressure
+inHg
+Geothermal Power Block
+ 
+2
+1
+1
+1
+1
+1.250000
+Numeric
+P_cond_ratio
+3
+1
+Condenser Pressure Ratio
+ 
+Geothermal Power Block
+ 
+2
+1
+1
+1
+1
+1.002800
+Numeric
+T_ITD_des
+3
+1
+ITD at Design Point
 'C
 Geothermal Power Block
  
@@ -1914,13 +1970,13 @@ Geothermal Power Block
 1
 1
 1
-10.000000
+16.000000
 Numeric
-startup_frac
+T_amb_des
 3
 1
-Fraction of thermal power needed for startup
- 
+Ambient Temperature at Design
+'C
 Geothermal Power Block
  
 2
@@ -1928,21 +1984,7 @@ Geothermal Power Block
 1
 1
 1
-0.200000
-Default
-pb_bd_frac
-3
-1
-Steam Cycle Blowdown Fraction
- 
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-0.013000
+27.000000
 Numeric
 T_approach
 3
@@ -1958,20 +2000,6 @@ Geothermal Power Block
 1
 5.000000
 Numeric
-hc_ctl4
-3
-1
-Hybrid Dispatch Fraction Period 4
- 
-Geothermal Power Block
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 T_htf_cold_ref
 3
 1
@@ -1986,19 +2014,33 @@ Geothermal Power Block
 1
 90.000000
 Numeric
-hc_ctl8
+T_htf_hot_ref
 3
 1
-Hybrid Dispatch Fraction Period 8
- 
+Design Inlet Temperature
+'C
 Geothermal Power Block
  
+8
+1
+1
+1
+1
+175.000000
+Numeric
+dT_cw_ref
 3
 1
+Ref. Condenser Water dT
+'C
+Geothermal Power Block
+ 
+2
 1
 1
 1
-0.000000
+1
+10.000000
 Numeric
 degradation
 3
@@ -2014,11 +2056,11 @@ degradation
 1
 0.000000
 Default
-startup_time
+eta_ref
 3
 1
-Power block startup time
-hr
+Rated Cycle Conversion Efficiency
+ 
 Geothermal Power Block
  
 2
@@ -2026,36 +2068,34 @@ Geothermal Power Block
 1
 1
 1
-1.000000
+0.377400
+Numeric
+geopowerblock.pwrb.condenser_type
+3
+1
+Condenser type
+ 
+Geothermal Power Block
+Evaporative|Air-cooled|Hybrid
+2
+1
+1
+1
+1
+0.000000
+Choice
+geopowerblock.pwrb.model_name
+3
+4
+Model Name
+ 
+Geothermal Power Block
+ 
+8
+1
+4
+0
 Default
-T_ITD_des
-3
-1
-ITD at Design Point
-'C
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-16.000000
-Numeric
-P_boil
-3
-1
-Boiler Operating Pressure
-bar
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-100.000000
-Numeric
 geothermal_analysis_period
 3
 1
@@ -2070,10 +2110,10 @@ geothermal_analysis_period
 1
 30.000000
 Default
-hc_ctl3
+hc_ctl1
 3
 1
-Hybrid Dispatch Fraction Period 3
+Hybrid Dispatch Fraction Period 1
  
 Geothermal Power Block
  
@@ -2098,50 +2138,24 @@ Geothermal Power Block
 1
 0.000000
 Numeric
-hr_pl_nlev
+hc_ctl3
 3
 1
-Cooling System Part Load Levels
+Hybrid Dispatch Fraction Period 3
  
 Geothermal Power Block
  
-2
+3
 1
 1
 1
 1
-8.000000
+0.000000
 Numeric
-T_amb_des
+hc_ctl4
 3
 1
-Ambient Temperature at Design
-'C
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-27.000000
-Numeric
-hybrid_dispatch_schedule
-3
-4
- 
- 
-Geothermal Power Block
- 
-0
-1
-4
-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-TOUSchedule
-hc_ctl9
-3
-1
-Hybrid Dispatch Fraction Period 9
+Hybrid Dispatch Fraction Period 4
  
 Geothermal Power Block
  
@@ -2166,115 +2180,19 @@ Geothermal Power Block
 1
 0.000000
 Numeric
-P_cond_min
+hc_ctl6
 3
 1
-Minimum Condenser Pressure
-inHg
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-1.250000
-Numeric
-HTF
-3
-1
-HTF
+Hybrid Dispatch Fraction Period 6
  
 Geothermal Power Block
  
-8
-1
-1
-1
-1
-3.000000
-Default
-model_choice
 3
-1
-Model:
- 
-Geothermal Power Block
-GETEM|Power Block Monthly|Power Block Hourly
-2
 1
 1
 1
 1
 0.000000
-Choice
-T_htf_hot_ref
-3
-1
-Design Inlet Temperature
-'C
-Geothermal Power Block
- 
-8
-1
-1
-1
-1
-175.000000
-Numeric
-CT
-3
-1
- 
- 
-Geothermal Power Block
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-geopowerblock.pwrb.model_name
-3
-4
-Model Name
- 
-Geothermal Power Block
- 
-8
-1
-4
-0
-Default
-q_sby_frac
-3
-1
-Fraction of thermal power needed for standby
- 
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-0.200000
-Default
-eta_ref
-3
-1
-Rated Cycle Conversion Efficiency
- 
-Geothermal Power Block
- 
-2
-1
-1
-1
-1
-0.377400
 Numeric
 hc_ctl7
 3
@@ -2290,13 +2208,67 @@ Geothermal Power Block
 1
 0.000000
 Numeric
-geopowerblock.pwrb.condenser_type
+hc_ctl8
 3
 1
-Condenser type
+Hybrid Dispatch Fraction Period 8
  
 Geothermal Power Block
-Evaporative|Air-cooled|Hybrid
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+hc_ctl9
+3
+1
+Hybrid Dispatch Fraction Period 9
+ 
+Geothermal Power Block
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+hr_pl_nlev
+3
+1
+Cooling System Part Load Levels
+ 
+Geothermal Power Block
+ 
+2
+1
+1
+1
+1
+8.000000
+Numeric
+hybrid_dispatch_schedule
+3
+4
+ 
+ 
+Geothermal Power Block
+ 
+0
+1
+4
+111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+TOUSchedule
+model_choice
+3
+1
+Model:
+ 
+Geothermal Power Block
+GETEM|Power Block Monthly|Power Block Hourly
 2
 1
 1
@@ -2304,10 +2276,10 @@ Evaporative|Air-cooled|Hybrid
 1
 0.000000
 Choice
-P_cond_ratio
+pb_bd_frac
 3
 1
-Condenser Pressure Ratio
+Steam Cycle Blowdown Fraction
  
 Geothermal Power Block
  
@@ -2316,22 +2288,50 @@ Geothermal Power Block
 1
 1
 1
-1.002800
+0.013000
 Numeric
-hc_ctl1
+q_sby_frac
 3
 1
-Hybrid Dispatch Fraction Period 1
+Fraction of thermal power needed for standby
  
 Geothermal Power Block
  
+2
+1
+1
+1
+1
+0.200000
+Default
+startup_frac
 3
 1
+Fraction of thermal power needed for startup
+ 
+Geothermal Power Block
+ 
+2
 1
 1
 1
-0.000000
-Numeric
+1
+0.200000
+Default
+startup_time
+3
+1
+Power block startup time
+hr
+Geothermal Power Block
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
 
 428
 equations{ 'T_htf_hot_ref' } = define() {

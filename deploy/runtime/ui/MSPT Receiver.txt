@@ -2047,48 +2047,6 @@ Centered
 1
 
 47
-csp.pt.rec.flow_pattern
-3
-1
-Flow pattern
- 
-Tower and Receiver
-1|2|3|4|5|6|7|8
-2
-1
-1
-1
-1
-0.000000
-Default
-rec_aspect
-3
-1
- 
- 
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-rec_height
-3
-1
-Receiver height
-m
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-15.490000
-Default
 D_rec
 3
 1
@@ -2103,11 +2061,25 @@ Tower and Receiver
 1
 12.440000
 Default
-rec_d_spec
+Flow_type
 3
 1
-Aperture width
-m
+Receiver flow pattern
+ 
+Tower and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+N_panels
+3
+1
+Number of panels
+ 
 Tower and Receiver
  
 2
@@ -2115,13 +2087,27 @@ Tower and Receiver
 1
 1
 1
-15.000000
+24.000000
 Default
-csp.pt.rec.cav_ap_height
+REC_COPY_Q_rec_des
 3
 1
-Aperture height
+Receiver thermal power
+MWt
+Tower and Receiver
  
+8
+1
+1
+1
+1
+0.000000
+Default
+REC_COPY_T_htf_cold_des
+3
+1
+HTF cold temperature
+°C
 Tower and Receiver
  
 8
@@ -2145,19 +2131,33 @@ Tower and Receiver
 1
 0.000000
 Default
-th_tube
+REC_COPY_solarm
 3
 1
-Tube wall thickness
-mm
+Solar multiple
+ 
 Tower and Receiver
  
-2
+8
 1
 1
 1
 1
-1.250000
+0.000000
+Default
+csp.pt.rec.cav_ap_height
+3
+1
+Aperture height
+ 
+Tower and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 csp.pt.rec.cav_ap_hw_ratio
 3
@@ -2173,11 +2173,11 @@ Tower and Receiver
 1
 1.200000
 Default
-rec_hl_perm2
+csp.pt.rec.cav_lip_height_ratio
 3
 1
-Estimated receiver heat loss
-kWt/m²
+Lip to height ratio
+m
 Tower and Receiver
  
 2
@@ -2185,74 +2185,32 @@ Tower and Receiver
 1
 1
 1
-30.000000
+0.100000
 Default
-eta_pump
+csp.pt.rec.flow_pattern
 3
 1
-Receiver HTF pump efficiency
+Flow pattern
  
 Tower and Receiver
- 
+1|2|3|4|5|6|7|8
 2
-1
-1
-1
-1
-0.850000
-Default
-receiver_type
-3
-1
-Receiver type
- 
-Tower and Receiver
-External receiver|Cavity receiver
-9
 1
 1
 1
 1
 0.000000
 Default
-REC_COPY_Q_rec_des
+csp.pt.rec.htf_c_avg
 3
 1
-Receiver thermal power
-MWt
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-flux_max
-3
-1
-Maximum receiver flux
-kWt/m²
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-1200.000000
-Default
-user_fluid
-3
-3
-User fluid
+cavg
  
 Tower and Receiver
  
 8
 1
-3
+1
 1
 1
 0.000000
@@ -2265,6 +2223,20 @@ tavg
 Tower and Receiver
  
 8
+1
+1
+1
+1
+0.000000
+Default
+csp.pt.rec.htf_type
+3
+1
+HTF type
+ 
+Tower and Receiver
+Salt (60% NaNO3 40% KNO3)|Salt (46.5% LiF 11.5% NaF 42% KF)|User-defined...
+2
 1
 1
 1
@@ -2285,166 +2257,11 @@ Stainless AISI316
 1
 0.000000
 Default
-rec_absorptance
+csp.pt.rec.max_flow_to_rec
 3
 1
-Coating absorptance
- 
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-0.940000
-Default
-hl_ffact
-3
-1
-Heat loss factor
- 
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-piping_length
-3
-1
-Piping length
-m
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-REC_COPY_solarm
-3
-1
-Solar multiple
- 
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-piping_length_const
-3
-1
-Piping length constant
-m
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-field_fl_props
-3
-3
-Property table for user-defined HTF
- 
-Tower and Receiver
- 
-0
-1
-3
-1
-9
-1.000000 7.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
-
-MaterialProperties
-piping_loss
-3
-1
-Piping heat loss coefficient
-Wt/m
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-35.000000
-Default
-d_tube_out
-3
-1
-Tube outer diameter
-mm
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-40.000000
-Default
-rec_su_delay
-3
-1
-Receiver startup delay time
-hr
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-0.200000
-Default
-epsilon
-3
-1
-Coating emittance
- 
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-0.880000
-Default
-piping_length_mult
-3
-1
-Piping length multiplier
- 
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-piping_loss_tot
-3
-1
-Total piping loss
-kWt
+Maximum flow rate to receiver
+kg/s
 Tower and Receiver
  
 8
@@ -2468,11 +2285,11 @@ Tower and Receiver
 1
 1.200000
 Default
-n_flux_days
+d_tube_out
 3
 1
-Number of days in flux map lookup
- 
+Tube outer diameter
+mm
 Tower and Receiver
  
 2
@@ -2480,21 +2297,7 @@ Tower and Receiver
 1
 1
 1
-8.000000
-Default
-Flow_type
-3
-1
-Receiver flow pattern
- 
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
+40.000000
 Default
 delta_flux_hrs
 3
@@ -2510,19 +2313,33 @@ Tower and Receiver
 1
 1.000000
 Default
-csp.pt.rec.htf_type
+epsilon
 3
 1
-HTF type
+Coating emittance
  
 Tower and Receiver
-Salt (60% NaNO3 40% KNO3)|Salt (46.5% LiF 11.5% NaF 42% KF)|User-defined...
+ 
 2
 1
 1
 1
 1
-0.000000
+0.880000
+Default
+eta_pump
+3
+1
+Receiver HTF pump efficiency
+ 
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+0.850000
 Default
 f_rec_min
 3
@@ -2538,11 +2355,26 @@ Tower and Receiver
 1
 0.250000
 Default
-rec_qf_delay
+field_fl_props
+3
+3
+Property table for user-defined HTF
+ 
+Tower and Receiver
+ 
+0
+1
 3
 1
-Receiver startup delay energy fraction
- 
+9
+1.000000 7.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+
+MaterialProperties
+flux_max
+3
+1
+Maximum receiver flux
+kWt/m²
 Tower and Receiver
  
 2
@@ -2550,54 +2382,12 @@ Tower and Receiver
 1
 1
 1
-0.250000
+1200.000000
 Default
-is_iscc
+h_tower
 3
 1
-is receiver page used with iscc
- 
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-tower_technology
-3
-1
-Tower technology type (0=MSPT,1=DSG)
- 
-Tower and Receiver
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-rec_htf
-3
-1
-Receiver HTF type
- 
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.pt.rec.cav_lip_height_ratio
-3
-1
-Lip to height ratio
+Tower height
 m
 Tower and Receiver
  
@@ -2606,26 +2396,26 @@ Tower and Receiver
 1
 1
 1
-0.100000
+183.330002
 Default
-csp.pt.rec.max_flow_to_rec
+hl_ffact
 3
 1
-Maximum flow rate to receiver
-kg/s
+Heat loss factor
+ 
 Tower and Receiver
  
-8
+2
 1
 1
 1
 1
-0.000000
+1.000000
 Default
-csp.pt.rec.htf_c_avg
+is_iscc
 3
 1
-cavg
+is receiver page used with iscc
  
 Tower and Receiver
  
@@ -2650,24 +2440,10 @@ Tower and Receiver
 1
 0.000000
 Default
-REC_COPY_T_htf_cold_des
+n_flux_days
 3
 1
-HTF cold temperature
-°C
-Tower and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-N_panels
-3
-1
-Number of panels
+Number of days in flux map lookup
  
 Tower and Receiver
  
@@ -2676,21 +2452,7 @@ Tower and Receiver
 1
 1
 1
-24.000000
-Default
-h_tower
-3
-1
-Tower height
-m
-Tower and Receiver
- 
-2
-1
-1
-1
-1
-183.330002
+8.000000
 Default
 n_flux_x
 3
@@ -2705,6 +2467,244 @@ Receiver flux map resolution
 1
 1
 12.000000
+Default
+piping_length
+3
+1
+Piping length
+m
+Tower and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+piping_length_const
+3
+1
+Piping length constant
+m
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+piping_length_mult
+3
+1
+Piping length multiplier
+ 
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+piping_loss
+3
+1
+Piping heat loss coefficient
+Wt/m
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+35.000000
+Default
+piping_loss_tot
+3
+1
+Total piping loss
+kWt
+Tower and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_absorptance
+3
+1
+Coating absorptance
+ 
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+0.940000
+Default
+rec_aspect
+3
+1
+ 
+ 
+Tower and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_d_spec
+3
+1
+Aperture width
+m
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+15.000000
+Default
+rec_height
+3
+1
+Receiver height
+m
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+15.490000
+Default
+rec_hl_perm2
+3
+1
+Estimated receiver heat loss
+kWt/m²
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+30.000000
+Default
+rec_htf
+3
+1
+Receiver HTF type
+ 
+Tower and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_qf_delay
+3
+1
+Receiver startup delay energy fraction
+ 
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+0.250000
+Default
+rec_su_delay
+3
+1
+Receiver startup delay time
+hr
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+0.200000
+Default
+receiver_type
+3
+1
+Receiver type
+ 
+Tower and Receiver
+External receiver|Cavity receiver
+9
+1
+1
+1
+1
+0.000000
+Default
+th_tube
+3
+1
+Tube wall thickness
+mm
+Tower and Receiver
+ 
+2
+1
+1
+1
+1
+1.250000
+Default
+tower_technology
+3
+1
+Tower technology type (0=MSPT,1=DSG)
+ 
+Tower and Receiver
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+user_fluid
+3
+3
+User fluid
+ 
+Tower and Receiver
+ 
+8
+1
+3
+1
+1
+0.000000
 Default
 
 2399

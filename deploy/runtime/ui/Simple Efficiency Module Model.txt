@@ -2011,188 +2011,6 @@ AlignTop
 0
 
 26
-spe_eff1
-3
-1
-Efficiency 1
-%
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-13.500000
-Numeric
-spe_rad3
-3
-1
-Radiation level 3
-W/m²
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-800.000000
-Numeric
-spe_eff0
-3
-1
-Efficiency 0
-%
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-13.500000
-Numeric
-spe_reference
-3
-1
-Reference Radiation and Efficiency
- 
-PV Module (Simple Efficiency)
- 
-1
-1
-1
-1
-1
-4.000000
-RadioChoice
-spe_area
-3
-1
-Area
-m²
-PV Module (Simple Efficiency)
- 
-2
-1
-1
-1
-1
-0.740740
-Numeric
-spe_bifacial_transmission_factor
-3
-1
-Transmission Fraction
-[0-1]
-PV Module (Simple Efficiency)
- 
-2
-1
-1
-1
-1
-0.013000
-Default
-spe_rad4
-3
-1
-Radiation level 4
-W/m²
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-1000.000000
-Numeric
-spe_eff4
-3
-1
-Efficiency 4
-%
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-13.500000
-Numeric
-spe_power
-3
-1
-Maximum power (Pmp)
-Wdc
-PV Module (Simple Efficiency)
- 
-8
-1
-1
-1
-1
-100.000000
-Numeric
-spe_temp_coeff
-3
-1
-Temperature coefficient (Pmp)
-%/°C
-PV Module (Simple Efficiency)
- 
-2
-1
-1
-1
-1
--0.500000
-Numeric
-spe_dT
-3
-1
-dT
-°C
-PV Module (Simple Efficiency)
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-spe_vmp
-3
-1
-Maximum power voltage (Vmp)
-Vdc
-PV Module (Simple Efficiency)
- 
-2
-1
-1
-1
-1
-30.000000
-Numeric
-spe_rad1
-3
-1
-Radiation level 1
-W/m²
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-400.000000
-Numeric
 spe_a
 3
 1
@@ -2207,53 +2025,11 @@ PV Module (Simple Efficiency)
 1
 0.000000
 Numeric
-spe_rad2
+spe_area
 3
 1
-Radiation level 2
-W/m²
-PV Module (Simple Efficiency)
- 
-3
-1
-1
-1
-1
-600.000000
-Numeric
-spe_fd
-3
-1
-Diffuse utilization factor
-0..1
-PV Module (Simple Efficiency)
- 
-0
-1
-1
-1
-1
-1.000000
-Numeric
-spe_module_structure
-3
-1
-Module structure and mounting
- 
-PV Module (Simple Efficiency)
-Glass/Cell/Polymer Sheet - Open Rack|Glass/Cell/Glass - Open Rack|Polymer/Thin Film/Steel - Open Rack|Glass/Cell/Polymer Sheet - Insulated Back|Glass/Cell/Glass - Close Roof Mount|User Defined
-2
-1
-1
-1
-1
-0.000000
-Choice
-spe_voc
-3
-1
-Open circuit voltage (Voc)
-Vdc
+Area
+m²
 PV Module (Simple Efficiency)
  
 2
@@ -2261,7 +2037,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-36.000000
+0.740740
 Numeric
 spe_b
 3
@@ -2276,6 +2052,102 @@ PV Module (Simple Efficiency)
 1
 1
 0.000000
+Numeric
+spe_bifacial_ground_clearance_height
+3
+1
+Ground clearance height
+m
+PV Module (Simple Efficiency)
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+spe_bifacial_transmission_factor
+3
+1
+Transmission Fraction
+[0-1]
+PV Module (Simple Efficiency)
+ 
+2
+1
+1
+1
+1
+0.013000
+Default
+spe_bifaciality
+3
+1
+Bifaciality
+[0-1]
+PV Module (Simple Efficiency)
+ 
+2
+1
+1
+1
+1
+0.650000
+Default
+spe_dT
+3
+1
+dT
+°C
+PV Module (Simple Efficiency)
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+spe_data_filename
+3
+4
+ 
+ 
+ 
+ 
+0
+1
+4
+<invalid>
+TextEntry
+spe_eff0
+3
+1
+Efficiency 0
+%
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+13.500000
+Numeric
+spe_eff1
+3
+1
+Efficiency 1
+%
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+13.500000
 Numeric
 spe_eff2
 3
@@ -2305,11 +2177,11 @@ PV Module (Simple Efficiency)
 1
 13.500000
 Numeric
-spe_rad0
+spe_eff4
 3
 1
-Radiation level 0
-W/m²
+Efficiency 4
+%
 PV Module (Simple Efficiency)
  
 3
@@ -2317,48 +2189,22 @@ PV Module (Simple Efficiency)
 1
 1
 1
-200.000000
+13.500000
 Numeric
-spe_data_filename
+spe_fd
 3
-4
- 
- 
- 
+1
+Diffuse utilization factor
+0..1
+PV Module (Simple Efficiency)
  
 0
-1
-4
-<invalid>
-TextEntry
-spe_bifacial_ground_clearance_height
-3
-1
-Ground clearance height
-m
-PV Module (Simple Efficiency)
- 
-2
 1
 1
 1
 1
 1.000000
-Default
-spe_bifaciality
-3
-1
-Bifaciality
-[0-1]
-PV Module (Simple Efficiency)
- 
-2
-1
-1
-1
-1
-0.650000
-Default
+Numeric
 spe_is_bifacial
 3
 1
@@ -2373,6 +2219,160 @@ PV Module (Simple Efficiency)
 1
 0.000000
 Default
+spe_module_structure
+3
+1
+Module structure and mounting
+ 
+PV Module (Simple Efficiency)
+Glass/Cell/Polymer Sheet - Open Rack|Glass/Cell/Glass - Open Rack|Polymer/Thin Film/Steel - Open Rack|Glass/Cell/Polymer Sheet - Insulated Back|Glass/Cell/Glass - Close Roof Mount|User Defined
+2
+1
+1
+1
+1
+0.000000
+Choice
+spe_power
+3
+1
+Maximum power (Pmp)
+Wdc
+PV Module (Simple Efficiency)
+ 
+8
+1
+1
+1
+1
+100.000000
+Numeric
+spe_rad0
+3
+1
+Radiation level 0
+W/m²
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+200.000000
+Numeric
+spe_rad1
+3
+1
+Radiation level 1
+W/m²
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+400.000000
+Numeric
+spe_rad2
+3
+1
+Radiation level 2
+W/m²
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+600.000000
+Numeric
+spe_rad3
+3
+1
+Radiation level 3
+W/m²
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+800.000000
+Numeric
+spe_rad4
+3
+1
+Radiation level 4
+W/m²
+PV Module (Simple Efficiency)
+ 
+3
+1
+1
+1
+1
+1000.000000
+Numeric
+spe_reference
+3
+1
+Reference Radiation and Efficiency
+ 
+PV Module (Simple Efficiency)
+ 
+1
+1
+1
+1
+1
+4.000000
+RadioChoice
+spe_temp_coeff
+3
+1
+Temperature coefficient (Pmp)
+%/°C
+PV Module (Simple Efficiency)
+ 
+2
+1
+1
+1
+1
+-0.500000
+Numeric
+spe_vmp
+3
+1
+Maximum power voltage (Vmp)
+Vdc
+PV Module (Simple Efficiency)
+ 
+2
+1
+1
+1
+1
+30.000000
+Numeric
+spe_voc
+3
+1
+Open circuit voltage (Voc)
+Vdc
+PV Module (Simple Efficiency)
+ 
+2
+1
+1
+1
+1
+36.000000
+Numeric
 
 236
 equations{ 'spe_power' } = define() {

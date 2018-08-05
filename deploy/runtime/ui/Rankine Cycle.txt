@@ -655,10 +655,10 @@ Bold
 1
 
 13
-tech_type
+CT
 3
 1
-1: Fixed (tower) 3: Sliding
+Condenser type
  
 Power Cycle
  
@@ -667,21 +667,7 @@ Power Cycle
 1
 1
 1
-0.000000
-Default
-pb_bd_frac
-3
-1
-Steam cycle blowdown fraction
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.013000
+1.000000
 Default
 P_boil
 3
@@ -697,20 +683,6 @@ Power Cycle
 1
 100.000000
 Default
-dT_cw_ref
-3
-1
-Reference condenser water dT
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-20.000000
-Default
 P_cond_min
 3
 1
@@ -724,62 +696,6 @@ Power Cycle
 1
 1
 1.250000
-Default
-T_amb_des
-3
-1
-Ambient temperature at design
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-27.000000
-Default
-csp.pt.pwrb.condenser_type
-3
-1
-Condenser type
- 
-Power Cycle
-Evaporative|Air-cooled|Hybrid
-2
-1
-1
-1
-1
-0.000000
-Choice
-csp.pt.pwrb.pressure_mode
-3
-1
-Turbine inlet pressure control
- 
-Power Cycle
-Fixed pressure|Sliding pressure
-2
-1
-1
-1
-1
-0.000000
-Default
-n_pl_inc
-3
-1
-Cooling system part load levels
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-8.000000
 Default
 P_cond_ratio
 3
@@ -809,19 +725,19 @@ Power Cycle
 1
 16.000000
 Default
-CT
+T_amb_des
 3
 1
-Condenser type
- 
+Ambient temperature at design
+°C
 Power Cycle
  
-8
+2
 1
 1
 1
 1
-1.000000
+27.000000
 Default
 T_approach
 3
@@ -836,6 +752,90 @@ Power Cycle
 1
 1
 5.000000
+Default
+csp.pt.pwrb.condenser_type
+3
+1
+Condenser type
+ 
+Power Cycle
+Evaporative|Air-cooled|Hybrid
+2
+1
+1
+1
+1
+0.000000
+Choice
+csp.pt.pwrb.pressure_mode
+3
+1
+Turbine inlet pressure control
+ 
+Power Cycle
+Fixed pressure|Sliding pressure
+2
+1
+1
+1
+1
+0.000000
+Default
+dT_cw_ref
+3
+1
+Reference condenser water dT
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+20.000000
+Default
+n_pl_inc
+3
+1
+Cooling system part load levels
+ 
+Power Cycle
+ 
+2
+1
+1
+1
+1
+8.000000
+Default
+pb_bd_frac
+3
+1
+Steam cycle blowdown fraction
+ 
+Power Cycle
+ 
+2
+1
+1
+1
+1
+0.013000
+Default
+tech_type
+3
+1
+1: Fixed (tower) 3: Sliding
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 
 251

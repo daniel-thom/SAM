@@ -1395,10 +1395,164 @@ TabOrder
 4
 
 43
+TES_cap
+3
+1
+TES Thermal capacity
+MWht
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+T_field_in_des
+3
+1
+ 
+ 
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+T_tank_cold_ini
+3
+1
+ 
+ 
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+T_tank_hot_ini
+3
+1
+ 
+ 
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+V_tank_hot_ini
+3
+1
+ 
+ 
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+cold_tank_Thtr
+3
+1
+Cold tank heater set point
+°C
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+250.000000
+Default
+csp.mslf.control.ffrac1
+3
+1
+Fossil Fill Fraction Period 1
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.ffrac2
+3
+1
+Fossil Fill Fraction Period 2
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
 csp.mslf.control.ffrac3
 3
 1
 Fossil Fill Fraction Period 3
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.ffrac4
+3
+1
+Fossil Fill Fraction Period 4
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.ffrac5
+3
+1
+Fossil Fill Fraction Period 5
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.ffrac6
+3
+1
+Fossil Fill Fraction Period 6
  
 MSLF Thermal Storage
  
@@ -1423,11 +1577,177 @@ MSLF Thermal Storage
 1
 0.000000
 Default
-u_tank
+csp.mslf.control.ffrac8
 3
 1
-Loss coefficient from the tank
-W/m2-K
+Fossil Fill Fraction Period 8
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.ffrac9
+3
+1
+Fossil Fill Fraction Period 9
+ 
+MSLF Thermal Storage
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.store_fluid
+3
+1
+Storage HTF
+ 
+MSLF Thermal Storage
+Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined...
+2
+1
+1
+1
+1
+3.000000
+Default
+csp.mslf.control.tes_cp
+3
+1
+TES specific heat
+kJ/kg-K
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.control.tes_dens
+3
+1
+TES fluid density
+kg/m3
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.enet.tes_fp_mode
+3
+1
+HTF freeze protection mode
+ 
+MSLF Thermal Storage
+Electric heating|Fossil heating
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.mslf.tes.estimated_heat_loss
+3
+1
+Estimated tank heat loss
+MWt
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.tes.htf_max_opt_temp
+3
+1
+Storage HTF max operating temp
+°C
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.tes.htf_min_opt_temp
+3
+1
+Storage HTF min operating temp
+°C
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.tes.notify_text
+3
+4
+ 
+ 
+MSLF Thermal Storage
+ 
+0
+1
+4
+empty
+Default
+d_tank
+3
+1
+Tank diameter
+m
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+dt_cold
+3
+1
+Cold side HX approach temp
+°C
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+5.000000
+Default
+dt_hot
+3
+1
+Hot side HX approach temp
+°C
 MSLF Thermal Storage
  
 2
@@ -1435,7 +1755,77 @@ MSLF Thermal Storage
 1
 1
 1
-0.400000
+5.000000
+Default
+eta_tes_htr
+3
+1
+Tank heater efficiency
+ 
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+0.980000
+Default
+fp_mode
+3
+1
+ 
+ 
+MSLF Thermal Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+h_tank
+3
+1
+Height of HTF when tank is full
+m
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+20.000000
+Default
+h_tank_min
+3
+1
+Minimum tank fluid height
+m
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+hot_tank_Thtr
+3
+1
+Hot tank heater set point
+°C
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+450.000000
 Default
 hx_derate
 3
@@ -1451,14 +1841,14 @@ MSLF Thermal Storage
 1
 0.000000
 Default
-V_tank_hot_ini
+mslf_is_hx
 3
 1
- 
- 
+Heat exchanger no/yes flag
+0/1
 MSLF Thermal Storage
  
-8
+9
 1
 1
 1
@@ -1494,11 +1884,11 @@ MSLF Thermal Storage
 1.000000 7.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
 
 Default
-TES_cap
+store_fluid
 3
 1
-TES Thermal capacity
-MWht
+ 
+ 
 MSLF Thermal Storage
  
 8
@@ -1508,10 +1898,38 @@ MSLF Thermal Storage
 1
 0.000000
 Default
-csp.mslf.tes.htf_max_opt_temp
+tank_max_heat
 3
 1
-Storage HTF max operating temp
+Tank heater capacity
+MWe
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+25.000000
+Default
+tank_pairs
+3
+1
+Number of equivalent tank pairs
+ 
+MSLF Thermal Storage
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+tes_temp
+3
+1
+Fluid Temperature
 °C
 MSLF Thermal Storage
  
@@ -1536,11 +1954,11 @@ MSLF Thermal Storage
 1
 6.000000
 Default
-h_tank
+u_tank
 3
 1
-Height of HTF when tank is full
-m
+Loss coefficient from the tank
+W/m2-K
 MSLF Thermal Storage
  
 2
@@ -1548,119 +1966,7 @@ MSLF Thermal Storage
 1
 1
 1
-20.000000
-Default
-store_fluid
-3
-1
- 
- 
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.ffrac1
-3
-1
-Fossil Fill Fraction Period 1
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.tes_dens
-3
-1
-TES fluid density
-kg/m3
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-T_tank_hot_ini
-3
-1
- 
- 
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.tes_cp
-3
-1
-TES specific heat
-kJ/kg-K
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.store_fluid
-3
-1
-Storage HTF
- 
-MSLF Thermal Storage
-Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined...
-2
-1
-1
-1
-1
-3.000000
-Default
-d_tank
-3
-1
-Tank diameter
-m
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-dt_hot
-3
-1
-Hot side HX approach temp
-°C
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-5.000000
+0.400000
 Default
 vol_min
 3
@@ -1676,317 +1982,11 @@ MSLF Thermal Storage
 1
 0.000000
 Default
-csp.mslf.control.ffrac8
-3
-1
-Fossil Fill Fraction Period 8
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.ffrac5
-3
-1
-Fossil Fill Fraction Period 5
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.ffrac4
-3
-1
-Fossil Fill Fraction Period 4
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-T_field_in_des
-3
-1
- 
- 
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.tes.notify_text
-3
-4
- 
- 
-MSLF Thermal Storage
- 
-0
-1
-4
-empty
-Default
-tes_temp
-3
-1
-Fluid Temperature
-°C
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 vol_tank
 3
 1
 Total tank volume
 m³
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.ffrac9
-3
-1
-Fossil Fill Fraction Period 9
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.enet.tes_fp_mode
-3
-1
-HTF freeze protection mode
- 
-MSLF Thermal Storage
-Electric heating|Fossil heating
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.mslf.control.ffrac2
-3
-1
-Fossil Fill Fraction Period 2
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-mslf_is_hx
-3
-1
-Heat exchanger no/yes flag
-0/1
-MSLF Thermal Storage
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.ffrac6
-3
-1
-Fossil Fill Fraction Period 6
- 
-MSLF Thermal Storage
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.tes.htf_min_opt_temp
-3
-1
-Storage HTF min operating temp
-°C
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-eta_tes_htr
-3
-1
-Tank heater efficiency
- 
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-0.980000
-Default
-hot_tank_Thtr
-3
-1
-Hot tank heater set point
-°C
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-450.000000
-Default
-h_tank_min
-3
-1
-Minimum tank fluid height
-m
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-dt_cold
-3
-1
-Cold side HX approach temp
-°C
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-5.000000
-Default
-cold_tank_Thtr
-3
-1
-Cold tank heater set point
-°C
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-250.000000
-Default
-T_tank_cold_ini
-3
-1
- 
- 
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-tank_pairs
-3
-1
-Number of equivalent tank pairs
- 
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-tank_max_heat
-3
-1
-Tank heater capacity
-MWe
-MSLF Thermal Storage
- 
-2
-1
-1
-1
-1
-25.000000
-Default
-fp_mode
-3
-1
- 
- 
-MSLF Thermal Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.tes.estimated_heat_loss
-3
-1
-Estimated tank heat loss
-MWt
 MSLF Thermal Storage
  
 8

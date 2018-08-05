@@ -684,48 +684,6 @@ AlignTop
 1
 
 13
-biopwr.emissions.grid_intensity
-3
-1
-Electricity grid carbon intensity
-g CO2 eq/kWh
-Life-Cycle Impacts
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-biopwr.emissions.transport_longmiles
-3
-1
- 
-miles
-Life-Cycle Impacts
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-biopwr.emissions.transport_long
-3
-1
- 
- 
-Life-Cycle Impacts
- 
-0
-1
-1
-1
-1
-0.000000
-Default
 biopwr.emissions.avoided_cred
 3
 1
@@ -739,6 +697,34 @@ Life-Cycle Impacts
 1
 1
 1.000000
+Default
+biopwr.emissions.collection_fuel
+3
+1
+ 
+ 
+Life-Cycle Impacts
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+biopwr.emissions.grid_intensity
+3
+1
+Electricity grid carbon intensity
+g CO2 eq/kWh
+Life-Cycle Impacts
+ 
+2
+1
+1
+1
+1
+0.000000
 Default
 biopwr.emissions.grid_region
 3
@@ -754,77 +740,7 @@ Life-Cycle Impacts
 1
 0.000000
 Default
-biopwr.emissions.transport_longopt
-3
-1
- 
- 
-Life-Cycle Impacts
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-biopwr.emissions.transport_predist
-3
-1
- 
-miles from farmgate)
-Life-Cycle Impacts
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-biopwr.emissions.transport_legs
-3
-1
- 
- 
-Life-Cycle Impacts
- 
-0
-1
-1
-1
-1
-1.000000
-Default
 biopwr.emissions.pre_chipopt
-3
-1
- 
- 
-Life-Cycle Impacts
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-biopwr.emissions.transport_fuel
-3
-1
- 
- 
-Life-Cycle Impacts
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-biopwr.emissions.collection_fuel
 3
 1
  
@@ -860,6 +776,90 @@ biopwr.emissions.pre_pelletopt
 Life-Cycle Impacts
  
 0
+1
+1
+1
+1
+0.000000
+Default
+biopwr.emissions.transport_fuel
+3
+1
+ 
+ 
+Life-Cycle Impacts
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+biopwr.emissions.transport_legs
+3
+1
+ 
+ 
+Life-Cycle Impacts
+ 
+0
+1
+1
+1
+1
+1.000000
+Default
+biopwr.emissions.transport_long
+3
+1
+ 
+ 
+Life-Cycle Impacts
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+biopwr.emissions.transport_longmiles
+3
+1
+ 
+miles
+Life-Cycle Impacts
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+biopwr.emissions.transport_longopt
+3
+1
+ 
+ 
+Life-Cycle Impacts
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+biopwr.emissions.transport_predist
+3
+1
+ 
+miles from farmgate)
+Life-Cycle Impacts
+ 
+2
 1
 1
 1

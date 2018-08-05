@@ -282,24 +282,10 @@ TabOrder
 4294967295
 
 4
-batt_dc_ac_efficiency
+batt_ac_dc_efficiency
 3
 1
-DC to AC conversion efficiency
-%
-Battery
- 
-2
-1
-1
-1
-1
-99.000000
-Numeric
-batt_dc_dc_efficiency
-3
-1
-DC to DC conversion efficiency
+AC to DC conversion efficiency
 %
 Battery
  
@@ -324,10 +310,24 @@ Battery
 1
 1.000000
 RadioChoice
-batt_ac_dc_efficiency
+batt_dc_ac_efficiency
 3
 1
-AC to DC conversion efficiency
+DC to AC conversion efficiency
+%
+Battery
+ 
+2
+1
+1
+1
+1
+99.000000
+Numeric
+batt_dc_dc_efficiency
+3
+1
+DC to DC conversion efficiency
 %
 Battery
  

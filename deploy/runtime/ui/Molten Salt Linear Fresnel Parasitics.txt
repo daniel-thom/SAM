@@ -1346,19 +1346,89 @@ AlignTop
 0
 
 21
-csp.mslf.par.calc.aux
+Pipe_hl_coef
 3
 1
-Aux
-MWe
+Non-receiver piping thermal loss coefficient
+W/m²-K
+MSLF Parasitics
+ 
+2
+1
+1
+1
+1
+0.450000
+Default
+SCA_drives_elec
+3
+1
+Tracking power in Watts per SCA drive
+W/module
+MSLF Parasitics
+ 
+2
+1
+1
+1
+1
+125.000000
+Default
+aux_array
+3
+2
+ 
+ 
 MSLF Parasitics
  
 8
 1
-1
+2
 1
 1
 0.000000
+Default
+bop_array
+3
+2
+ 
+ 
+MSLF Parasitics
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+csp.mslf.control.aux_array_c0
+3
+1
+Aux Coeff 0
+ 
+MSLF Parasitics
+ 
+3
+1
+1
+1
+1
+0.483000
+Default
+csp.mslf.control.aux_array_c1
+3
+1
+Aux Coeff 1
+ 
+MSLF Parasitics
+ 
+3
+1
+1
+1
+1
+0.517000
 Default
 csp.mslf.control.aux_array_c2
 3
@@ -1374,6 +1444,34 @@ MSLF Parasitics
 1
 0.000000
 Default
+csp.mslf.control.aux_array_mult
+3
+1
+Aux heater,boiler parasitic
+MWe/MWcap
+MSLF Parasitics
+ 
+2
+1
+1
+1
+1
+0.022730
+Default
+csp.mslf.control.aux_array_pf
+3
+1
+Aux Multiplier Factor
+ 
+MSLF Parasitics
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
 csp.mslf.control.bop_array_c0
 3
 1
@@ -1388,14 +1486,28 @@ MSLF Parasitics
 1
 0.483000
 Default
-csp.mslf.par.calc.frac_gross
+csp.mslf.control.bop_array_c1
 3
 1
-Fixed parasitic loss
-MWe
+BOP Coeff 1
+ 
 MSLF Parasitics
  
-8
+3
+1
+1
+1
+1
+0.517000
+Default
+csp.mslf.control.bop_array_c2
+3
+1
+BOP Coeff 2
+ 
+MSLF Parasitics
+ 
+3
 1
 1
 1
@@ -1416,10 +1528,10 @@ MSLF Parasitics
 1
 0.000000
 Default
-csp.mslf.control.aux_array_c0
+csp.mslf.control.bop_array_pf
 3
 1
-Aux Coeff 0
+BOP Multiplier Factor
  
 MSLF Parasitics
  
@@ -1428,21 +1540,21 @@ MSLF Parasitics
 1
 1
 1
-0.483000
+1.000000
 Default
-Pipe_hl_coef
+csp.mslf.par.calc.aux
 3
 1
-Non-receiver piping thermal loss coefficient
-W/m²-K
+Aux
+MWe
 MSLF Parasitics
  
-2
+8
 1
 1
 1
 1
-0.450000
+0.000000
 Default
 csp.mslf.par.calc.bop
 3
@@ -1458,19 +1570,19 @@ MSLF Parasitics
 1
 0.000000
 Default
-csp.mslf.control.aux_array_c1
+csp.mslf.par.calc.frac_gross
 3
 1
-Aux Coeff 1
- 
+Fixed parasitic loss
+MWe
 MSLF Parasitics
  
-3
+8
 1
 1
 1
 1
-0.517000
+0.000000
 Default
 csp.mslf.par.calc.tracking
 3
@@ -1486,39 +1598,11 @@ MSLF Parasitics
 1
 0.000000
 Default
-csp.mslf.control.bop_array_c2
+pb_fixed_par
 3
 1
-BOP Coeff 2
+Fraction of rated gross power constantly consumed
  
-MSLF Parasitics
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.aux_array_pf
-3
-1
-Aux Multiplier Factor
- 
-MSLF Parasitics
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-tes_pump_coef
-3
-1
-Pumping power to move 1kg of HTF through tes loop
-kJ/kg
 MSLF Parasitics
  
 2
@@ -1526,21 +1610,7 @@ MSLF Parasitics
 1
 1
 1
-0.150000
-Default
-csp.mslf.control.aux_array_mult
-3
-1
-Aux heater,boiler parasitic
-MWe/MWcap
-MSLF Parasitics
- 
-2
-1
-1
-1
-1
-0.022730
+0.005500
 Default
 pb_pump_coef
 3
@@ -1556,11 +1626,11 @@ MSLF Parasitics
 1
 0.550000
 Default
-pb_fixed_par
+tes_pump_coef
 3
 1
-Fraction of rated gross power constantly consumed
- 
+Pumping power to move 1kg of HTF through tes loop
+kJ/kg
 MSLF Parasitics
  
 2
@@ -1568,77 +1638,7 @@ MSLF Parasitics
 1
 1
 1
-0.005500
-Default
-csp.mslf.control.bop_array_pf
-3
-1
-BOP Multiplier Factor
- 
-MSLF Parasitics
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-aux_array
-3
-2
- 
- 
-MSLF Parasitics
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-SCA_drives_elec
-3
-1
-Tracking power in Watts per SCA drive
-W/module
-MSLF Parasitics
- 
-2
-1
-1
-1
-1
-125.000000
-Default
-bop_array
-3
-2
- 
- 
-MSLF Parasitics
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.mslf.control.bop_array_c1
-3
-1
-BOP Coeff 1
- 
-MSLF Parasitics
- 
-3
-1
-1
-1
-1
-0.517000
+0.150000
 Default
 
 1226

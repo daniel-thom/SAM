@@ -964,20 +964,6 @@ Battery
 1
 0.100000
 Default
-batt_voltage_choice
-3
-1
-Battery voltage model choice
- 
-Battery
- 
-1
-1
-1
-1
-1
-0.000000
-Default
 batt_Qexp_percent
 3
 1
@@ -1006,20 +992,6 @@ Battery
 1
 95.000000
  
-batt_Vnom_default
-3
-1
-Cell nominal voltage
-V (DC)
-Battery
- 
-2
-1
-1
-1
-1
-2.000000
-Default
 batt_Vexp
 3
 1
@@ -1062,6 +1034,34 @@ Battery
 1
 2.040000
  
+batt_Vnom_default
+3
+1
+Cell nominal voltage
+V (DC)
+Battery
+ 
+2
+1
+1
+1
+1
+2.000000
+Default
+batt_bank_voltage
+3
+1
+Desired bank voltage
+V (DC)
+Battery
+ 
+2
+1
+1
+1
+1
+450.000000
+Default
 batt_resistance
 3
 1
@@ -1075,6 +1075,20 @@ Battery
 1
 1
 0.100000
+Default
+batt_voltage_choice
+3
+1
+Battery voltage model choice
+ 
+Battery
+ 
+1
+1
+1
+1
+1
+0.000000
 Default
 batt_voltage_matrix
 3
@@ -1095,20 +1109,6 @@ Depth of discharge [%]| Cell voltage [V]
 80.000000 0.950000 
 100.000000 0.500000 
 
-Default
-batt_bank_voltage
-3
-1
-Desired bank voltage
-V (DC)
-Battery
- 
-2
-1
-1
-1
-1
-450.000000
 Default
 
 0

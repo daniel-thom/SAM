@@ -785,6 +785,34 @@ TabOrder
 4294967295
 
 14
+T_htf_cold_des
+3
+1
+Receiver Inlet Temperature
+°C
+ISCC
+ 
+8
+1
+1
+1
+1
+317.399994
+Default
+T_htf_hot_des
+3
+1
+Receiver Outlet Temperature
+°C
+ISCC
+ 
+8
+1
+1
+1
+1
+364.500000
+Default
 T_steam_sh_out_des
 3
 1
@@ -813,20 +841,6 @@ ISCC
 1
 64.500000
 Default
-system_capacity
-3
-1
-nameplate in kw for other pages
-kWe
-ISCC
- 
-8
-1
-1
-1
-1
-100.000000
-Default
 adjust
 3
 5
@@ -840,11 +854,11 @@ ISCC
 1
 0
 LossAdjustment
-ngcc_model
+fossil_output
 3
 1
-1: NREL, 2: GE
- 
+Fossil-only Cycle Output
+MWe
 ISCC
  
 8
@@ -852,7 +866,7 @@ ISCC
 1
 1
 1
-1.000000
+465.200012
 Default
 max_solar_design
 3
@@ -882,6 +896,20 @@ MWe
 1
 100.000000
 Default
+ngcc_model
+3
+1
+1: NREL, 2: GE
+ 
+ISCC
+ 
+8
+1
+1
+1
+1
+1.000000
+Default
 pb_pump_coef
 3
 1
@@ -895,62 +923,6 @@ kW/kg/s
 1
 1
 0.550000
-Default
-fossil_output
-3
-1
-Fossil-only Cycle Output
-MWe
-ISCC
- 
-8
-1
-1
-1
-1
-465.200012
-Default
-q_pb_design
-3
-1
-Solar Thermal Power to Cycle
-MWt
-ISCC
- 
-2
-1
-1
-1
-1
-150.000000
-Default
-T_htf_cold_des
-3
-1
-Receiver Inlet Temperature
-°C
-ISCC
- 
-8
-1
-1
-1
-1
-317.399994
-Default
-T_htf_hot_des
-3
-1
-Receiver Outlet Temperature
-°C
-ISCC
- 
-8
-1
-1
-1
-1
-364.500000
 Default
 pinch_point_coldside
 3
@@ -979,6 +951,34 @@ ISCC
 1
 1
 30.000000
+Default
+q_pb_design
+3
+1
+Solar Thermal Power to Cycle
+MWt
+ISCC
+ 
+2
+1
+1
+1
+1
+150.000000
+Default
+system_capacity
+3
+1
+nameplate in kw for other pages
+kWe
+ISCC
+ 
+8
+1
+1
+1
+1
+100.000000
 Default
 
 1404

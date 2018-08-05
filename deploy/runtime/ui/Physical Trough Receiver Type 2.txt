@@ -4150,172 +4150,20 @@ AlignTop
 0
 
 59
-csp_dtr_hce_var1_broken_glass_2
+csp_dtr_hce_absorber_material_2
 3
 1
-Variation 1 Broken Glass
+Absorber material type
  
 Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-csp_dtr_hce_var1_env_emis_2
-3
-1
-Variation 1 Envelope Emittance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.860000
-Numeric
-csp_dtr_hce_var1_hce_dirt_2
-3
-1
-Variation 1 Dirt on receiver
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.980000
-Numeric
-csp_dtr_hce_inner_roughness_2
-3
-1
-Internal surface roughness
- 
-Physical Trough Receiver Type 2
- 
-2
-1
-1
-1
-1
-0.000046
-Numeric
-csp_dtr_hce_var4_hce_dirt_2
-3
-1
-Variation 4 Dirt on receiver
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.980000
-Numeric
-csp_dtr_hce_notify_text_2
-3
-4
-Receiver name from library
- 
-Physical Trough Receiver Type 2
- 
-0
-1
-4
-Schott PTR70 2008
-TextEntry
-csp_dtr_hce_diam_envelope_inner_2
-3
-1
-Glass envelope inner diameter
-m
-Physical Trough Receiver Type 2
- 
-2
-1
-1
-1
-1
-0.109000
-Numeric
-csp_dtr_hce_var1_env_trans_2
-3
-1
-Variation 1 Envelope Transmittance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.963000
-Numeric
-csp_dtr_hce_var4_env_trans_2
-3
-1
-Variation 4 Envelope Transmittance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-epsilon_3_22
-3
-3
-Variation 2 Absorber Emittance Matrix
- 
-Physical Trough Receiver Type 2
- 
-1
-1
-3
-1
-1
-0.000000
-ValueMatrix
-csp_dtr_hce_diam_absorber_plug_2
-3
-1
-Absorber flow plug diameter
-m
-Physical Trough Receiver Type 2
- 
+304L|216L|321H|B42 Copper
 2
 1
 1
 1
 1
 0.000000
-Numeric
-csp_dtr_hce_var2_annulus_pressure_2
-3
-1
-Variation 2 Annulus Pressure
-torr
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
+Choice
 csp_dtr_hce_design_heat_loss_2
 3
 1
@@ -4324,62 +4172,6 @@ csp_dtr_hce_design_heat_loss_2
 Physical Trough Receiver Type 2
  
 8
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var4_broken_glass_2
-3
-1
-Variation 4 Broken Glass
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-csp_dtr_hce_var1_bellows_shadowing_2
-3
-1
-Variation 1 Bellows Shadowing
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.963000
-Numeric
-epsilon_3_21
-3
-3
-Variation 1 Absorber Emittance Matrix
- 
-Physical Trough Receiver Type 2
- 
-1
-1
-3
-1
-1
-0.138400
-ValueMatrix
-csp_dtr_hce_var2_env_abs_2
-3
-1
-Variation 2 Envelope Absorptance
- 
-Physical Trough Receiver Type 2
- 
-3
 1
 1
 1
@@ -4400,6 +4192,116 @@ Physical Trough Receiver Type 2
 1
 0.066000
 Numeric
+csp_dtr_hce_diam_absorber_outer_2
+3
+1
+Absorber tube outer diameter
+m
+Physical Trough Receiver Type 2
+ 
+2
+1
+1
+1
+1
+0.070000
+Numeric
+csp_dtr_hce_diam_absorber_plug_2
+3
+1
+Absorber flow plug diameter
+m
+Physical Trough Receiver Type 2
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_diam_envelope_inner_2
+3
+1
+Glass envelope inner diameter
+m
+Physical Trough Receiver Type 2
+ 
+2
+1
+1
+1
+1
+0.109000
+Numeric
+csp_dtr_hce_diam_envelope_outer_2
+3
+1
+Glass envelope outer diameter
+m
+Physical Trough Receiver Type 2
+ 
+2
+1
+1
+1
+1
+0.115000
+Numeric
+csp_dtr_hce_flow_type_2
+3
+1
+Absorber flow pattern
+ 
+Physical Trough Receiver Type 2
+Tube flow|Annular flow
+2
+1
+1
+1
+1
+0.000000
+Choice
+csp_dtr_hce_inner_roughness_2
+3
+1
+Internal surface roughness
+ 
+Physical Trough Receiver Type 2
+ 
+2
+1
+1
+1
+1
+0.000046
+Numeric
+csp_dtr_hce_notify_text_2
+3
+4
+Receiver name from library
+ 
+Physical Trough Receiver Type 2
+ 
+0
+1
+4
+Schott PTR70 2008
+TextEntry
+csp_dtr_hce_optical_eff_2
+3
+1
+ 
+ 
+Physical Trough Receiver Type 2
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
 csp_dtr_hce_var1_abs_abs_2
 3
 1
@@ -4414,10 +4316,10 @@ Physical Trough Receiver Type 2
 1
 0.950000
 Numeric
-csp_dtr_hce_var3_annulus_pressure_2
+csp_dtr_hce_var1_annulus_pressure_2
 3
 1
-Variation 3 Annulus Pressure
+Variation 1 Annulus Pressure
 torr
 Physical Trough Receiver Type 2
  
@@ -4426,12 +4328,12 @@ Physical Trough Receiver Type 2
 1
 1
 1
-0.000000
+0.000100
 Numeric
-csp_dtr_hce_var4_env_abs_2
+csp_dtr_hce_var1_bellows_shadowing_2
 3
 1
-Variation 4 Envelope Absorptance
+Variation 1 Bellows Shadowing
  
 Physical Trough Receiver Type 2
  
@@ -4440,40 +4342,12 @@ Physical Trough Receiver Type 2
 1
 1
 1
-0.000000
+0.963000
 Numeric
-epsilon_3_23
-3
-3
-Variation 3 Absorber Emittance Matrix
- 
-Physical Trough Receiver Type 2
- 
-1
-1
+csp_dtr_hce_var1_broken_glass_2
 3
 1
-1
-0.000000
-ValueMatrix
-csp_dtr_hce_var2_gas_type_2
-3
-1
-Variation 2 Gas Type
- 
-Physical Trough Receiver Type 2
-Air|Argon|Hydrogen
-3
-1
-1
-1
-1
-2.000000
-Choice
-csp_dtr_hce_var3_env_trans_2
-3
-1
-Variation 3 Envelope Transmittance
+Variation 1 Broken Glass
  
 Physical Trough Receiver Type 2
  
@@ -4483,11 +4357,25 @@ Physical Trough Receiver Type 2
 1
 1
 0.000000
+CheckBox
+csp_dtr_hce_var1_env_abs_2
+3
+1
+Variation 1 Envelope Absorptance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.020000
 Numeric
-csp_dtr_hce_var4_field_fraction_2
+csp_dtr_hce_var1_env_emis_2
 3
 1
-Variation 4 Field Fraction
+Variation 1 Envelope Emittance
  
 Physical Trough Receiver Type 2
  
@@ -4496,26 +4384,12 @@ Physical Trough Receiver Type 2
 1
 1
 1
-0.000000
+0.860000
 Numeric
-csp_dtr_hce_absorber_material_2
+csp_dtr_hce_var1_env_trans_2
 3
 1
-Absorber material type
- 
-Physical Trough Receiver Type 2
-304L|216L|321H|B42 Copper
-2
-1
-1
-1
-1
-0.000000
-Choice
-csp_dtr_hce_var2_env_emis_2
-3
-1
-Variation 2 Envelope Emittance
+Variation 1 Envelope Transmittance
  
 Physical Trough Receiver Type 2
  
@@ -4524,7 +4398,21 @@ Physical Trough Receiver Type 2
 1
 1
 1
-0.000000
+0.963000
+Numeric
+csp_dtr_hce_var1_field_fraction_2
+3
+1
+Variation 1 Field Fraction
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+1.000000
 Numeric
 csp_dtr_hce_var1_gas_type_2
 3
@@ -4540,14 +4428,126 @@ Air|Argon|Hydrogen
 1
 2.000000
 Choice
-csp_dtr_hce_optical_eff_2
+csp_dtr_hce_var1_hce_dirt_2
 3
 1
- 
+Variation 1 Dirt on receiver
  
 Physical Trough Receiver Type 2
  
-8
+3
+1
+1
+1
+1
+0.980000
+Numeric
+csp_dtr_hce_var1_rated_heat_loss_2
+3
+1
+Variation 1 Rated Heat Loss
+W/m
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+250.000000
+Numeric
+csp_dtr_hce_var2_abs_abs_2
+3
+1
+Variation 2 Absorber Absorptance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var2_annulus_pressure_2
+3
+1
+Variation 2 Annulus Pressure
+torr
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var2_bellows_shadowing_2
+3
+1
+Variation 2 Bellows Shadowing
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.963000
+Numeric
+csp_dtr_hce_var2_broken_glass_2
+3
+1
+Variation 2 Broken Glass
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
+csp_dtr_hce_var2_env_abs_2
+3
+1
+Variation 2 Envelope Absorptance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var2_env_emis_2
+3
+1
+Variation 2 Envelope Emittance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var2_env_trans_2
+3
+1
+Variation 2 Envelope Transmittance
+ 
+Physical Trough Receiver Type 2
+ 
+3
 1
 1
 1
@@ -4568,360 +4568,10 @@ Physical Trough Receiver Type 2
 1
 0.000000
 Numeric
-csp_dtr_hce_var4_abs_abs_2
+csp_dtr_hce_var2_gas_type_2
 3
 1
-Variation 4 Absorber Absorptance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var3_field_fraction_2
-3
-1
-Variation 3 Field Fraction
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var4_annulus_pressure_2
-3
-1
-Variation 4 Annulus Pressure
-torr
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var3_rated_heat_loss_2
-3
-1
-Variation 3 Rated Heat Loss
-W/m
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var3_bellows_shadowing_2
-3
-1
-Variation 3 Bellows Shadowing
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.963000
-Numeric
-epsilon_3_24
-3
-3
-Variation 4 Absorber Emittance Matrix
- 
-Physical Trough Receiver Type 2
- 
-1
-1
-3
-1
-1
-0.000000
-ValueMatrix
-csp_dtr_hce_var3_env_abs_2
-3
-1
-Variation 3 Envelope Absorptance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var1_annulus_pressure_2
-3
-1
-Variation 1 Annulus Pressure
-torr
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000100
-Numeric
-csp_dtr_hce_var4_env_emis_2
-3
-1
-Variation 4 Envelope Emittance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var1_env_abs_2
-3
-1
-Variation 1 Envelope Absorptance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.020000
-Numeric
-csp_dtr_hce_var2_abs_abs_2
-3
-1
-Variation 2 Absorber Absorptance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var3_abs_abs_2
-3
-1
-Variation 3 Absorber Absorption
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var3_gas_type_2
-3
-1
-Variation 3 Gas Type
- 
-Physical Trough Receiver Type 2
-Air|Argon|Hydrogen
-3
-1
-1
-1
-1
-2.000000
-Choice
-csp_dtr_hce_var4_bellows_shadowing_2
-3
-1
-Variation 4 Bellows Shadowing
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.963000
-Numeric
-csp_dtr_hce_var1_rated_heat_loss_2
-3
-1
-Variation 1 Rated Heat Loss
-W/m
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-250.000000
-Numeric
-csp_dtr_hce_var3_hce_dirt_2
-3
-1
-Variation 3 Dirt on receiver
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.980000
-Numeric
-csp_dtr_hce_var2_bellows_shadowing_2
-3
-1
-Variation 2 Bellows Shadowing
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.963000
-Numeric
-csp_dtr_hce_var3_broken_glass_2
-3
-1
-Variation 3 Broken Glass
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-csp_dtr_hce_var2_rated_heat_loss_2
-3
-1
-Variation 2 Rated Heat Loss
-W/m
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var3_env_emis_2
-3
-1
-Variation 3 Envelope Emittance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var1_field_fraction_2
-3
-1
-Variation 1 Field Fraction
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-1.000000
-Numeric
-csp_dtr_hce_var2_broken_glass_2
-3
-1
-Variation 2 Broken Glass
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-csp_dtr_hce_var2_env_trans_2
-3
-1
-Variation 2 Envelope Transmittance
- 
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_var4_rated_heat_loss_2
-3
-1
-Variation 4 Rated Heat Loss
-W/m
-Physical Trough Receiver Type 2
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_hce_flow_type_2
-3
-1
-Absorber flow pattern
- 
-Physical Trough Receiver Type 2
-Tube flow|Annular flow
-2
-1
-1
-1
-1
-0.000000
-Choice
-csp_dtr_hce_var4_gas_type_2
-3
-1
-Variation 4 Gas Type
+Variation 2 Gas Type
  
 Physical Trough Receiver Type 2
 Air|Argon|Hydrogen
@@ -4946,34 +4596,384 @@ Physical Trough Receiver Type 2
 1
 0.980000
 Numeric
-csp_dtr_hce_diam_envelope_outer_2
+csp_dtr_hce_var2_rated_heat_loss_2
 3
 1
-Glass envelope outer diameter
-m
+Variation 2 Rated Heat Loss
+W/m
 Physical Trough Receiver Type 2
  
-2
-1
-1
-1
-1
-0.115000
-Numeric
-csp_dtr_hce_diam_absorber_outer_2
 3
 1
-Absorber tube outer diameter
-m
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var3_abs_abs_2
+3
+1
+Variation 3 Absorber Absorption
+ 
 Physical Trough Receiver Type 2
  
-2
+3
 1
 1
 1
 1
-0.070000
+0.000000
 Numeric
+csp_dtr_hce_var3_annulus_pressure_2
+3
+1
+Variation 3 Annulus Pressure
+torr
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var3_bellows_shadowing_2
+3
+1
+Variation 3 Bellows Shadowing
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.963000
+Numeric
+csp_dtr_hce_var3_broken_glass_2
+3
+1
+Variation 3 Broken Glass
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
+csp_dtr_hce_var3_env_abs_2
+3
+1
+Variation 3 Envelope Absorptance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var3_env_emis_2
+3
+1
+Variation 3 Envelope Emittance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var3_env_trans_2
+3
+1
+Variation 3 Envelope Transmittance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var3_field_fraction_2
+3
+1
+Variation 3 Field Fraction
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var3_gas_type_2
+3
+1
+Variation 3 Gas Type
+ 
+Physical Trough Receiver Type 2
+Air|Argon|Hydrogen
+3
+1
+1
+1
+1
+2.000000
+Choice
+csp_dtr_hce_var3_hce_dirt_2
+3
+1
+Variation 3 Dirt on receiver
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.980000
+Numeric
+csp_dtr_hce_var3_rated_heat_loss_2
+3
+1
+Variation 3 Rated Heat Loss
+W/m
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_abs_abs_2
+3
+1
+Variation 4 Absorber Absorptance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_annulus_pressure_2
+3
+1
+Variation 4 Annulus Pressure
+torr
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_bellows_shadowing_2
+3
+1
+Variation 4 Bellows Shadowing
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.963000
+Numeric
+csp_dtr_hce_var4_broken_glass_2
+3
+1
+Variation 4 Broken Glass
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
+csp_dtr_hce_var4_env_abs_2
+3
+1
+Variation 4 Envelope Absorptance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_env_emis_2
+3
+1
+Variation 4 Envelope Emittance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_env_trans_2
+3
+1
+Variation 4 Envelope Transmittance
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_field_fraction_2
+3
+1
+Variation 4 Field Fraction
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_hce_var4_gas_type_2
+3
+1
+Variation 4 Gas Type
+ 
+Physical Trough Receiver Type 2
+Air|Argon|Hydrogen
+3
+1
+1
+1
+1
+2.000000
+Choice
+csp_dtr_hce_var4_hce_dirt_2
+3
+1
+Variation 4 Dirt on receiver
+ 
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.980000
+Numeric
+csp_dtr_hce_var4_rated_heat_loss_2
+3
+1
+Variation 4 Rated Heat Loss
+W/m
+Physical Trough Receiver Type 2
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+epsilon_3_21
+3
+3
+Variation 1 Absorber Emittance Matrix
+ 
+Physical Trough Receiver Type 2
+ 
+1
+1
+3
+1
+1
+0.138400
+ValueMatrix
+epsilon_3_22
+3
+3
+Variation 2 Absorber Emittance Matrix
+ 
+Physical Trough Receiver Type 2
+ 
+1
+1
+3
+1
+1
+0.000000
+ValueMatrix
+epsilon_3_23
+3
+3
+Variation 3 Absorber Emittance Matrix
+ 
+Physical Trough Receiver Type 2
+ 
+1
+1
+3
+1
+1
+0.000000
+ValueMatrix
+epsilon_3_24
+3
+3
+Variation 4 Absorber Emittance Matrix
+ 
+Physical Trough Receiver Type 2
+ 
+1
+1
+3
+1
+1
+0.000000
+ValueMatrix
 
 1232
 equations{ 'csp_dtr_hce_optical_eff_2' } = define() {

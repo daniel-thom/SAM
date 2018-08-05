@@ -2945,34 +2945,6 @@ AlignTop
 0
 
 44
-csp.tr.cost.storage.mwht
-3
-1
-Storage
-MWht
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-total_installed_cost
-3
-1
-Total installed cost
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 csp.tr.cost.bop
 3
 1
@@ -2987,25 +2959,11 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.power_plant.cost_per_kwe
+csp.tr.cost.bop_mwe
 3
 1
-Power Plant Cost per kWe
-$/kWe
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-880.000000
-Default
-total_direct_cost
-3
-1
-Total direct cost
- 
+Balance of Plant
+MWe, Gross
 Empirical Trough Capital Costs
  
 8
@@ -3015,108 +2973,10 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.plm.fixed
+csp.tr.cost.bop_per_kwe
 3
 1
-Fixed PLM Cost
-$
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-total_indirect_cost
-3
-1
-Total indirect cost
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-system_use_recapitalization
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.power_plant
-3
-1
- 
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.sales_tax.total
-3
-1
- 
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.site_improvements.area
-3
-1
-Site Improvements
-m2
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.htf_system.cost_per_m2
-3
-1
-HTF System Cost Per m2
-$/m2
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-50.000000
-Default
-csp.tr.cost.fossil_backup.cost_per_kwe
-3
-1
-Fossil Backup Cost per kWe
+Balance of Plant Cost per kWe
 $/kWe
 Empirical Trough Capital Costs
  
@@ -3127,26 +2987,12 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.solar_field
+csp.tr.cost.contingency
 3
 1
  
  
 Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.nameplate
-3
-1
-Nameplate
-MWe
-Trough Capital Costs
  
 8
 1
@@ -3169,67 +3015,39 @@ Empirical Trough Capital Costs
 1
 10.000000
 Default
-csp.tr.cost.bop_mwe
+csp.tr.cost.epc.fixed
 3
 1
-Balance of Plant
-MWe, Gross
+Fixed EPC Cost
+$
 Empirical Trough Capital Costs
  
-8
+3
 1
 1
 1
 1
 0.000000
 Default
-csp.tr.cost.fossil_backup
+csp.tr.cost.epc.per_acre
 3
 1
- 
- 
+EPC Costs acre
+per acre
 Empirical Trough Capital Costs
  
-8
+3
 1
 1
 1
 1
 0.000000
 Default
-csp.tr.cost.site_improvements
+csp.tr.cost.epc.per_watt
 3
 1
- 
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.solar_field.cost_per_m2
-3
-1
-Solar Field Cost per m2
-$/m2
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-350.000000
-Default
-csp.tr.cost.bop_per_kwe
-3
-1
-Balance of Plant Cost per kWe
-$/kWe
+EPC Cost Wac
+per Wac
 Empirical Trough Capital Costs
  
 3
@@ -3253,14 +3071,42 @@ Empirical Trough Capital Costs
 1
 15.000000
 Default
-system_use_lifetime_output
+csp.tr.cost.epc.total
 3
 1
  
  
- 
+Empirical Trough Capital Costs
  
 8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.fossil_backup
+3
+1
+ 
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.fossil_backup.cost_per_kwe
+3
+1
+Fossil Backup Cost per kWe
+$/kWe
+Empirical Trough Capital Costs
+ 
+3
 1
 1
 1
@@ -3281,178 +3127,10 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.total_land_area
-3
-1
-Total Land Area
-acres
-Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.contingency
+csp.tr.cost.htf_system
 3
 1
  
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.sales_tax.percent
-3
-1
-Sales Tax Percentage of Direct Cost
-%
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-80.000000
-Default
-csp.tr.cost.site_improvements.cost_per_m2
-3
-1
-Site Improvement Cost per m2
-$/m2
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-20.000000
-Default
-csp.tr.cost.sales_tax.value
-3
-1
-Sales Tax of
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.epc.fixed
-3
-1
-Fixed EPC Cost
-$
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.storage.cost_per_kwht
-3
-1
-Storage System Cost per kWht
-$/kWht
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-70.000000
-Default
-csp.tr.cost.epc.per_watt
-3
-1
-EPC Cost Wac
-per Wac
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.power_plant.mwe
-3
-1
-Power Plant
-MWe, Gross
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.storage
-3
-1
- 
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.plm.total
-3
-1
- 
- 
-Empirical Trough Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.epc.per_acre
-3
-1
-EPC Costs acre
-per acre
-Empirical Trough Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.tr.cost.installed_per_capacity
-3
-1
-Total estimated installed cost per net capacity ($/kW)
  
 Empirical Trough Capital Costs
  
@@ -3477,11 +3155,25 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.solar_field.area
+csp.tr.cost.htf_system.cost_per_m2
 3
 1
-Solar Field
-m2
+HTF System Cost Per m2
+$/m2
+Empirical Trough Capital Costs
+ 
+3
+1
+1
+1
+1
+50.000000
+Default
+csp.tr.cost.installed_per_capacity
+3
+1
+Total estimated installed cost per net capacity ($/kW)
+ 
 Empirical Trough Capital Costs
  
 8
@@ -3491,14 +3183,28 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.htf_system
+csp.tr.cost.nameplate
 3
 1
- 
- 
-Empirical Trough Capital Costs
+Nameplate
+MWe
+Trough Capital Costs
  
 8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.plm.fixed
+3
+1
+Fixed PLM Cost
+$
+Empirical Trough Capital Costs
+ 
+3
 1
 1
 1
@@ -3547,10 +3253,304 @@ Empirical Trough Capital Costs
 1
 0.000000
 Default
-csp.tr.cost.epc.total
+csp.tr.cost.plm.total
 3
 1
  
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.power_plant
+3
+1
+ 
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.power_plant.cost_per_kwe
+3
+1
+Power Plant Cost per kWe
+$/kWe
+Empirical Trough Capital Costs
+ 
+3
+1
+1
+1
+1
+880.000000
+Default
+csp.tr.cost.power_plant.mwe
+3
+1
+Power Plant
+MWe, Gross
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.sales_tax.percent
+3
+1
+Sales Tax Percentage of Direct Cost
+%
+Empirical Trough Capital Costs
+ 
+3
+1
+1
+1
+1
+80.000000
+Default
+csp.tr.cost.sales_tax.total
+3
+1
+ 
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.sales_tax.value
+3
+1
+Sales Tax of
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.site_improvements
+3
+1
+ 
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.site_improvements.area
+3
+1
+Site Improvements
+m2
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.site_improvements.cost_per_m2
+3
+1
+Site Improvement Cost per m2
+$/m2
+Empirical Trough Capital Costs
+ 
+3
+1
+1
+1
+1
+20.000000
+Default
+csp.tr.cost.solar_field
+3
+1
+ 
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.solar_field.area
+3
+1
+Solar Field
+m2
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.solar_field.cost_per_m2
+3
+1
+Solar Field Cost per m2
+$/m2
+Empirical Trough Capital Costs
+ 
+3
+1
+1
+1
+1
+350.000000
+Default
+csp.tr.cost.storage
+3
+1
+ 
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.storage.cost_per_kwht
+3
+1
+Storage System Cost per kWht
+$/kWht
+Empirical Trough Capital Costs
+ 
+3
+1
+1
+1
+1
+70.000000
+Default
+csp.tr.cost.storage.mwht
+3
+1
+Storage
+MWht
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.tr.cost.total_land_area
+3
+1
+Total Land Area
+acres
+Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_lifetime_output
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_direct_cost
+3
+1
+Total direct cost
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_indirect_cost
+3
+1
+Total indirect cost
+ 
+Empirical Trough Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_installed_cost
+3
+1
+Total installed cost
  
 Empirical Trough Capital Costs
  

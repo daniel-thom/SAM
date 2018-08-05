@@ -2754,174 +2754,6 @@ Bold
 1
 
 40
-system_use_recapitalization
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-total_indirect_cost
-3
-1
-Total indirect cost
-$
-Biopower System Cost
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-total_direct_cost
-3
-1
-Total direct cost
-$
-Biopower System Cost
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.prep
-3
-1
-Preparation cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.bop_per_kw
-3
-1
-Balance of cost per kW
-$/kW
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.total_direct
-3
-1
-Total direct capital cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.bop_capacity
-3
-1
-Balance of plant
-kW
-Biopower System Cost
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.prep_capacity
-3
-1
-Fuel Handling Equipment
-kW
-Biopower System Cost
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-system_use_lifetime_output
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.sales_tax.percent
-3
-1
-Sales tax percentage of direct cost
-%
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-80.000000
-Default
-biopwr.cost.epc.percent
-3
-1
-EPC cost as percent of direct cost
-% of direct cost
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-16.000000
-Default
-total_installed_cost
-3
-1
-Total installed cost
-$
-Biopower System Cost
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 biopwr.cost.boiler
 3
 1
@@ -2936,14 +2768,14 @@ Biopower System Cost
 1
 0.000000
 Default
-biopwr.cost.sales_tax.value
+biopwr.cost.boiler.cost_per_kw
 3
 1
-Sales tax rate
-%
+Boiler cost per kW
+$/kW
 Biopower System Cost
  
-9
+3
 1
 1
 1
@@ -2978,38 +2810,10 @@ Biopower System Cost
 1
 0.000000
 Default
-biopwr.cost.installed_per_capacity
+biopwr.cost.bop_capacity
 3
 1
-Total installed cost per capacity
-$/kW
-Biopower System Cost
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.plm.fixed
-3
-1
-PLM fixed cost
-$
-Biopower System Cost
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.turbine_capacity
-3
-1
-Turbine and generator capacity
+Balance of plant
 kW
 Biopower System Cost
  
@@ -3020,182 +2824,14 @@ Biopower System Cost
 1
 0.000000
 Default
-biopwr.cost.epc.fixed
+biopwr.cost.bop_per_kw
 3
 1
-EPC fixed cost
-$
-Biopower System Cost
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.plm.percent
-3
-1
-PLM cost as percent of direct cost
-% of direct cost
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-3.500000
-Default
-biopwr.cost.plm.nonfixed
-3
-1
-PLM non-fixed cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.equipment
-3
-1
-Other equipment cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.epc.total
-3
-1
-EPC cost total
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.turbine_per_kw
-3
-1
-Turbine cost per kW
+Balance of cost per kW
 $/kW
 Biopower System Cost
  
 3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.equipment.cost_per_kw
-3
-1
-Equipment cost per kW
-$/kW
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.plm.total
-3
-1
-PLM total cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.sales_tax.total
-3
-1
-Sales tax amount
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.turbine
-3
-1
-Turbine and generator cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.epc.nonfixed
-3
-1
-EPC non-fixed cost
-$
-Biopower System Cost
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.dryer_per_kw
-3
-1
-Dryer cost per kW
-$/kW
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.cost.dryer
-3
-1
-Drier cost
-$
-Biopower System Cost
- 
-9
 1
 1
 1
@@ -3230,20 +2866,6 @@ Biopower System Cost
 1
 0.000000
 Default
-biopwr.cost.boiler.cost_per_kw
-3
-1
-Boiler cost per kW
-$/kW
-Biopower System Cost
- 
-3
-1
-1
-1
-1
-0.000000
-Default
 biopwr.cost.contingency_percent
 3
 1
@@ -3258,14 +2880,14 @@ Biopower System Cost
 1
 15.000000
 Default
-biopwr.cost.prep_per_cap
+biopwr.cost.dryer
 3
 1
-Fuel Handling cost per kW
-$/kW
+Drier cost
+$
 Biopower System Cost
  
-3
+9
 1
 1
 1
@@ -3286,6 +2908,286 @@ Biopower System Cost
 1
 0.000000
 Default
+biopwr.cost.dryer_per_kw
+3
+1
+Dryer cost per kW
+$/kW
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.epc.fixed
+3
+1
+EPC fixed cost
+$
+Biopower System Cost
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.epc.nonfixed
+3
+1
+EPC non-fixed cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.epc.percent
+3
+1
+EPC cost as percent of direct cost
+% of direct cost
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+16.000000
+Default
+biopwr.cost.epc.total
+3
+1
+EPC cost total
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.equipment
+3
+1
+Other equipment cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.equipment.cost_per_kw
+3
+1
+Equipment cost per kW
+$/kW
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.equipment_capacity
+3
+1
+Other equipment cost
+kW
+Biopower System Cost
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.installed_per_capacity
+3
+1
+Total installed cost per capacity
+$/kW
+Biopower System Cost
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.plm.fixed
+3
+1
+PLM fixed cost
+$
+Biopower System Cost
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.plm.nonfixed
+3
+1
+PLM non-fixed cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.plm.percent
+3
+1
+PLM cost as percent of direct cost
+% of direct cost
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+3.500000
+Default
+biopwr.cost.plm.total
+3
+1
+PLM total cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.prep
+3
+1
+Preparation cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.prep_capacity
+3
+1
+Fuel Handling Equipment
+kW
+Biopower System Cost
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.prep_per_cap
+3
+1
+Fuel Handling cost per kW
+$/kW
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.sales_tax.percent
+3
+1
+Sales tax percentage of direct cost
+%
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+80.000000
+Default
+biopwr.cost.sales_tax.total
+3
+1
+Sales tax amount
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.sales_tax.value
+3
+1
+Sales tax rate
+%
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.total_direct
+3
+1
+Total direct capital cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
 biopwr.cost.total_indirect
 3
 1
@@ -3300,11 +3202,109 @@ Biopower System Cost
 1
 0.000000
 Default
-biopwr.cost.equipment_capacity
+biopwr.cost.turbine
 3
 1
-Other equipment cost
+Turbine and generator cost
+$
+Biopower System Cost
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.turbine_capacity
+3
+1
+Turbine and generator capacity
 kW
+Biopower System Cost
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.cost.turbine_per_kw
+3
+1
+Turbine cost per kW
+$/kW
+Biopower System Cost
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+system_use_lifetime_output
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_direct_cost
+3
+1
+Total direct cost
+$
+Biopower System Cost
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_indirect_cost
+3
+1
+Total indirect cost
+$
+Biopower System Cost
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_installed_cost
+3
+1
+Total installed cost
+$
 Biopower System Cost
  
 8

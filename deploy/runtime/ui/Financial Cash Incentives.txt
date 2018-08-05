@@ -5294,20 +5294,6 @@ AlignTop
 0
 
 92
-cbi_fed_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
 cbi_fed_amount
 3
 1
@@ -5322,105 +5308,7 @@ Cash Incentives
 1
 0.000000
 Numeric
-pbi_fed_escal
-3
-1
-Federal PBI escalation
-%/year
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_uti_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-cbi_sta_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_oth_percent
-3
-1
-Other IBI percentage
-%
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-pbi_sta_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_oth_term
-3
-1
-Other PBI term
-years
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-pbi_oth_for_ds
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-ibi_oth_percent_deprbas_sta
+cbi_fed_deprbas_fed
 3
 1
  
@@ -5434,370 +5322,6 @@ Cash Incentives
 1
 0.000000
 CheckBox
-ibi_sta_percent_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_oth_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_uti_percent_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_oth_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-cbi_sta_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_fed_amount_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-cbi_fed_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_sta_amount_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_fed_amount
-3
-2
-Federal PBI amount
-$/kWh
-Cash Incentives
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
-cbi_uti_amount
-3
-1
-Utility CBI amount
-$/W
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_sta_percent_maxvalue
-3
-1
-State IBI maximum limit
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_oth_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_oth_amount_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-pbi_oth_amount
-3
-2
-Other PBI amount
-$/kWh
-Cash Incentives
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
-ibi_sta_percent_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_uti_amount_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_uti_percent_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_uti_percent_maxvalue
-3
-1
-Utility IBI maximum limit
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_uti_amount
-3
-1
-Utility IBI amount
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_uti_percent_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-cbi_oth_maxvalue
-3
-1
-Other CBI maximum limit
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_oth_amount
-3
-1
-Other IBI amount
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_sta_amount_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-cbi_oth_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-cbi_uti_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_uti_percent
-3
-1
-Utility IBI percentage
-%
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 cbi_fed_deprbas_sta
 3
 1
@@ -5812,7 +5336,21 @@ Cash Incentives
 1
 0.000000
 CheckBox
-cbi_oth_deprbas_fed
+cbi_fed_maxvalue
+3
+1
+Federal CBI maximum limit
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+cbi_fed_tax_fed
 3
 1
  
@@ -5824,23 +5362,9 @@ Cash Incentives
 1
 1
 1
-0.000000
+1.000000
 CheckBox
-ibi_fed_percent_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_oth_percent_tax_sta
+cbi_fed_tax_sta
 3
 1
  
@@ -5868,10 +5392,38 @@ Cash Incentives
 1
 0.000000
 Numeric
-cbi_fed_maxvalue
+cbi_oth_deprbas_fed
 3
 1
-Federal CBI maximum limit
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+cbi_oth_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+cbi_oth_maxvalue
+3
+1
+Other CBI maximum limit
 $
 Cash Incentives
  
@@ -5882,105 +5434,7 @@ Cash Incentives
 1
 0.000000
 Numeric
-pbi_uti_term
-3
-1
-Utility PBI term
-years
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_uti_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-pbi_uti_escal
-3
-1
-Utility PBI escalation
-%/year
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_fed_amount_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_fed_percent_deprbas_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-pbi_sta_for_ds
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-pbi_oth_escal
-3
-1
-Other PBI escalation
-%/year
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_fed_amount_tax_sta
+cbi_oth_tax_fed
 3
 1
  
@@ -5994,7 +5448,49 @@ Cash Incentives
 1
 1.000000
 CheckBox
-ibi_oth_amount_deprbas_fed
+cbi_oth_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+cbi_sta_amount
+3
+1
+State CBI amount
+$/W
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+cbi_sta_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+cbi_sta_deprbas_sta
 3
 1
  
@@ -6022,10 +5518,500 @@ Cash Incentives
 1
 0.000000
 Numeric
+cbi_sta_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+cbi_sta_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+cbi_uti_amount
+3
+1
+Utility CBI amount
+$/W
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+cbi_uti_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+cbi_uti_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+cbi_uti_maxvalue
+3
+1
+Utility CBI maximum limit
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+cbi_uti_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+cbi_uti_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_fed_amount
+3
+1
+Federal IBI amount
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_fed_amount_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_fed_amount_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_fed_amount_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_fed_amount_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
 ibi_fed_percent
 3
 1
 Federal IBI percentage
+%
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_fed_percent_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_fed_percent_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_fed_percent_maxvalue
+3
+1
+Federal IBI maximum limit
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_fed_percent_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_fed_percent_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_oth_amount
+3
+1
+Other IBI amount
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_oth_amount_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_oth_amount_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_oth_amount_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_oth_amount_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_oth_percent
+3
+1
+Other IBI percentage
+%
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_oth_percent_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_oth_percent_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_oth_percent_maxvalue
+3
+1
+Other IBI maximum limit
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_oth_percent_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_oth_percent_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_sta_amount
+3
+1
+State IBI amount
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_sta_amount_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_sta_amount_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_sta_amount_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_sta_amount_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_sta_percent
+3
+1
+State IBI percentage
 %
 Cash Incentives
  
@@ -6050,118 +6036,6 @@ Cash Incentives
 1
 0.000000
 CheckBox
-ibi_sta_percent
-3
-1
-State IBI percentage
-%
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_sta_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-cbi_sta_amount
-3
-1
-State CBI amount
-$/W
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_oth_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_fed_percent_maxvalue
-3
-1
-Federal IBI maximum limit
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_uti_maxvalue
-3
-1
-Utility CBI maximum limit
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-pbi_fed_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_uti_for_ds
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-Default
 ibi_sta_percent_deprbas_sta
 3
 1
@@ -6176,7 +6050,21 @@ Cash Incentives
 1
 0.000000
 CheckBox
-ibi_oth_percent_tax_fed
+ibi_sta_percent_maxvalue
+3
+1
+State IBI maximum limit
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_sta_percent_tax_fed
 3
 1
  
@@ -6190,6 +6078,202 @@ Cash Incentives
 1
 1.000000
 CheckBox
+ibi_sta_percent_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_uti_amount
+3
+1
+Utility IBI amount
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_uti_amount_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_uti_amount_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_uti_amount_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_uti_amount_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_uti_percent
+3
+1
+Utility IBI percentage
+%
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_uti_percent_deprbas_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_uti_percent_deprbas_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+ibi_uti_percent_maxvalue
+3
+1
+Utility IBI maximum limit
+$
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ibi_uti_percent_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+ibi_uti_percent_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+pbi_fed_amount
+3
+2
+Federal PBI amount
+$/kWh
+Cash Incentives
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
+pbi_fed_escal
+3
+1
+Federal PBI escalation
+%/year
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
 pbi_fed_for_ds
 3
 1
@@ -6204,6 +6288,146 @@ Cash Incentives
 1
 0.000000
 Default
+pbi_fed_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+pbi_fed_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+pbi_fed_term
+3
+1
+Federal PBI term
+years
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+pbi_oth_amount
+3
+2
+Other PBI amount
+$/kWh
+Cash Incentives
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
+pbi_oth_escal
+3
+1
+Other PBI escalation
+%/year
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+pbi_oth_for_ds
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+pbi_oth_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+pbi_oth_tax_sta
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+pbi_oth_term
+3
+1
+Other PBI term
+years
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+pbi_sta_amount
+3
+2
+State PBI amount
+$/kWh
+Cash Incentives
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
 pbi_sta_escal
 3
 1
@@ -6218,6 +6442,34 @@ Cash Incentives
 1
 0.000000
 Numeric
+pbi_sta_for_ds
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+pbi_sta_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
 pbi_sta_tax_sta
 3
 1
@@ -6246,7 +6498,35 @@ Cash Incentives
 1
 0.000000
 Numeric
-ibi_uti_amount_deprbas_sta
+pbi_uti_amount
+3
+2
+Utility PBI amount
+$/kWh
+Cash Incentives
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
+pbi_uti_escal
+3
+1
+Utility PBI escalation
+%/year
+Cash Incentives
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+pbi_uti_for_ds
 3
 1
  
@@ -6259,6 +6539,20 @@ Cash Incentives
 1
 1
 0.000000
+Default
+pbi_uti_tax_fed
+3
+1
+ 
+ 
+Cash Incentives
+ 
+0
+1
+1
+1
+1
+1.000000
 CheckBox
 pbi_uti_tax_sta
 3
@@ -6274,234 +6568,10 @@ Cash Incentives
 1
 1.000000
 CheckBox
-ibi_oth_amount_tax_fed
+pbi_uti_term
 3
 1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_fed_percent_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_oth_percent_maxvalue
-3
-1
-Other IBI maximum limit
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cbi_sta_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-cbi_uti_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_uti_amount
-3
-2
-Utility PBI amount
-$/kWh
-Cash Incentives
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
-ibi_uti_amount_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_fed_percent_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_sta_amount_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_sta_amount
-3
-1
-State IBI amount
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_fed_amount
-3
-1
-Federal IBI amount
-$
-Cash Incentives
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ibi_uti_amount_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_fed_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_uti_percent_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_uti_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-ibi_oth_amount_tax_sta
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-pbi_fed_term
-3
-1
-Federal PBI term
+Utility PBI term
 years
 Cash Incentives
  
@@ -6512,76 +6582,6 @@ Cash Incentives
 1
 0.000000
 Numeric
-ibi_sta_amount_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-pbi_sta_amount
-3
-2
-State PBI amount
-$/kWh
-Cash Incentives
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
-cbi_fed_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_oth_percent_deprbas_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ibi_fed_amount_tax_fed
-3
-1
- 
- 
-Cash Incentives
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
 
 0
 2708

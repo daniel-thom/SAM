@@ -1935,9 +1935,9 @@ bool SamApp::OnInit()
 	SetAppName( "" );
 	SetVendorName( "" );
 	
-#ifdef _DEBUG
+//#ifdef _DEBUG
 	SamLogWindow::Setup();
-#endif
+//#endif
 	
 	wxLogStatus( "startup version %d.%d.%d with SSC version %d, %s", 
 		releases[0].major,
@@ -2125,7 +2125,7 @@ void SamApp::Restart()
 	// reload all forms, variables, callbacks, equations
 	SamApp::InputPages().Clear();
 
-//	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
 	size_t forms_loaded = 0;
 	wxDir dir( SamApp::GetRuntimePath() + "/ui" );
 	if ( dir.IsOpened() )
@@ -2155,13 +2155,13 @@ void SamApp::Restart()
 	}
 	dir.Close();
 
-//	auto end = std::chrono::system_clock::now();
-//	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
-//	wxString ui_time(std::to_string(diff) + "ms ");
+	auto end = std::chrono::system_clock::now();
+	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
+	wxString ui_time(std::to_string(diff) + "ms ");
 #ifdef UI_BINARY
-//	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 #else	
-//	wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 #endif
 
 	// reload configuration map

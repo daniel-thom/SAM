@@ -304,34 +304,6 @@ TabOrder
 2
 
 5
-real_discount_rate
-3
-1
-Real discount rate
-%/year
-Financial Analysis Parameters
- 
-2
-1
-1
-1
-1
-5.500000
-Default
-nominal_discount_rate
-3
-1
-Nominal discount rate
-%/year
-Financial Analysis Parameters
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 analysis_period
 3
 1
@@ -371,6 +343,34 @@ Financial Analysis Parameters
 1
 1
 2.500000
+Default
+nominal_discount_rate
+3
+1
+Nominal discount rate
+%/year
+Financial Analysis Parameters
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+real_discount_rate
+3
+1
+Real discount rate
+%/year
+Financial Analysis Parameters
+ 
+2
+1
+1
+1
+1
+5.500000
 Default
 
 152

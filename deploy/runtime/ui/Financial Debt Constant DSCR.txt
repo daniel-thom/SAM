@@ -362,25 +362,11 @@ Bold
 1
 
 5
-term_int_rate
+cost_debt_closing
 3
 1
-Annual all-in interest rate
-%
-Project Term Debt (Constant DSCR)
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-term_tenor
-3
-1
-Tenor
-years
+Debt closing costs
+$
 Project Term Debt (Constant DSCR)
  
 2
@@ -418,11 +404,25 @@ Project Term Debt (Constant DSCR)
 1
 0.000000
 Numeric
-cost_debt_closing
+term_int_rate
 3
 1
-Debt closing costs
-$
+Annual all-in interest rate
+%
+Project Term Debt (Constant DSCR)
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+term_tenor
+3
+1
+Tenor
+years
 Project Term Debt (Constant DSCR)
  
 2

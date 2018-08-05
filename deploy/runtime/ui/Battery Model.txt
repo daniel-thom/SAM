@@ -68,20 +68,34 @@ TabOrder
 6
 
 12
-batt_chem
+LeadAcid_q10
 3
 1
-Choose battery chemistry type
- 
+10 hour discharge rate
+%
 Battery
  
-9
+2
 1
 1
 1
 1
-1.000000
+93.000000
 Default
+LeadAcid_q10_computed
+3
+1
+ 
+Ah
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
 LeadAcid_q20
 3
 1
@@ -96,20 +110,6 @@ Battery
 1
 100.000000
 Default
-batt_Qnom
-3
-1
- 
-Ah
-battery
- 
-9
-1
-1
-1
-1
-56.000000
-Numeric
 LeadAcid_q20_computed
 3
 1
@@ -124,19 +124,19 @@ Battery
 1
 0.000000
 Numeric
-LeadAcid_q10
+LeadAcid_qn
 3
 1
-10 hour discharge rate
+Capacity at n-hour discharge rate
 %
 Battery
  
-2
 1
 1
 1
 1
-93.000000
+1
+60.000000
 Default
 LeadAcid_qn_computed
 3
@@ -166,20 +166,48 @@ Battery
 1
 1.000000
 Default
-LeadAcid_q10_computed
+batt_Qexp
 3
 1
  
 Ah
+battery
  
- 
-8
+9
 1
 1
 1
 1
-0.000000
+1.000000
 Numeric
+batt_Qnom
+3
+1
+ 
+Ah
+battery
+ 
+9
+1
+1
+1
+1
+56.000000
+Numeric
+batt_chem
+3
+1
+Choose battery chemistry type
+ 
+Battery
+ 
+9
+1
+1
+1
+1
+1.000000
+Default
 batt_meter_position
 3
 1
@@ -208,34 +236,6 @@ Lead Acid: Flooded|Lead Acid: VRLA Gel|Lead Acid: VRLA AGM|Lead Acid: Custom|Lit
 1
 0.000000
 Choice
-LeadAcid_qn
-3
-1
-Capacity at n-hour discharge rate
-%
-Battery
- 
-1
-1
-1
-1
-1
-60.000000
-Default
-batt_Qexp
-3
-1
- 
-Ah
-battery
- 
-9
-1
-1
-1
-1
-1.000000
-Numeric
 
 269
 equations{ 'batt_chem' } = define(){

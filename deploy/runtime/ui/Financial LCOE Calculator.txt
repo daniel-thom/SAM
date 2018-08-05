@@ -1839,42 +1839,28 @@ TabOrder
 4294967295
 
 29
-ui_system_capacity
+c_construction_cost
 3
-1
-System capacity
-kW
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-c_equity_return
-3
-1
-Internal rate of return (nominal)
-%/year
+2
+Annual cost during construction
+% of capital cost
 LCOE Calculator
  
 2
 1
-1
+2
 1
 1
 0.000000
-Default
-ui_operating_cost_capacity
+SchedNumeric
+c_construction_duration
 3
 1
-Operating cost
-$/kW-yr
+Construction period
+years
 LCOE Calculator
  
-3
+2
 1
 1
 1
@@ -1895,67 +1881,11 @@ LCOE Calculator
 1
 0.000000
 Default
-ui_cfin
+c_debt_percent
 3
 1
-Construction financing factor (CFF)
- 
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ui_capital_cost_capacity
-3
-1
-Capital cost
-$/kW
-LCOE Calculator
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_cost_input_option
-3
-1
-Cost input option (0=$,1=$/kW)
- 
-LCOE Calculator
-Enter costs in $|Enter costs in $/kW
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_fcr_input_option
-3
-1
-FCR input option (0=FCR,1=details)
- 
-LCOE Calculator
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-ui_variable_operating_cost
-3
-1
-Variable operating cost
-$/kWh
+Project term debt
+% of capital cost
 LCOE Calculator
  
 2
@@ -1965,42 +1895,29 @@ LCOE Calculator
 1
 0.000000
 Default
-c_lifetime
+c_depreciation_schedule
 3
-1
-Analysis period
-years
+2
+Depreciation schedule
+% of capital cost
 LCOE Calculator
  
 2
 1
+2
 1
-1
-1
-0.000000
-Default
-fixed_operating_cost
+6
+20.000000 32.000000 19.200001 11.520000 11.520000 5.760000 
+
+SchedNumeric
+c_equity_return
 3
 1
-Fixed operating cost (FOC)
-$
+Internal rate of return (nominal)
+%/year
 LCOE Calculator
  
-8
-1
-1
-1
-1
-0.000000
-Default
-ui_capital_cost_fixed
-3
-1
-Capital cost
-$
-LCOE Calculator
- 
-3
+2
 1
 1
 1
@@ -2021,52 +1938,10 @@ LCOE Calculator
 1
 0.000000
 Default
-c_tax_rate
+c_lifetime
 3
 1
-Effective tax rate
-%/year
-LCOE Calculator
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-ui_ireal
-3
-1
-Real debt interest rate
- 
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ui_wacc
-3
-1
-WACC (for reference only)
- 
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-c_construction_duration
-3
-1
-Construction period
+Analysis period
 years
 LCOE Calculator
  
@@ -2091,11 +1966,137 @@ LCOE Calculator
 1
 0.000000
 Default
-ui_operating_cost_fixed
+c_tax_rate
 3
 1
-Operating cost
+Effective tax rate
+%/year
+LCOE Calculator
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+capital_cost
+3
+1
+Capital cost (CC)
 $
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+fixed_charge_rate
+3
+1
+Fixed charge rate (FCR)
+ 
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+fixed_operating_cost
+3
+1
+Fixed operating cost (FOC)
+$
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_capital_cost_capacity
+3
+1
+Capital cost
+$/kW
+LCOE Calculator
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_capital_cost_fixed
+3
+1
+Capital cost
+$
+LCOE Calculator
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_cfin
+3
+1
+Construction financing factor (CFF)
+ 
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_cost_input_option
+3
+1
+Cost input option (0=$,1=$/kW)
+ 
+LCOE Calculator
+Enter costs in $|Enter costs in $/kW
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_crf
+3
+1
+Capital recovery factor (CRF)
+ 
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_fcr_input_option
+3
+1
+FCR input option (0=FCR,1=details)
+ 
 LCOE Calculator
  
 3
@@ -2119,11 +2120,93 @@ LCOE Calculator
 1
 1.000000
 Default
-c_debt_percent
+ui_ireal
 3
 1
-Project term debt
-% of capital cost
+Real debt interest rate
+ 
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_lbl_cff_msg
+3
+4
+Construction financing message
+ 
+LCOE Calculator
+ 
+1
+1
+4
+ 
+Default
+ui_operating_cost_capacity
+3
+1
+Operating cost
+$/kW-yr
+LCOE Calculator
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_operating_cost_fixed
+3
+1
+Operating cost
+$
+LCOE Calculator
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+ui_pfin
+3
+1
+Project financing factor (PFF)
+ 
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_system_capacity
+3
+1
+System capacity
+kW
+LCOE Calculator
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_variable_operating_cost
+3
+1
+Variable operating cost
+$/kWh
 LCOE Calculator
  
 2
@@ -2133,24 +2216,10 @@ LCOE Calculator
 1
 0.000000
 Default
-c_construction_cost
-3
-2
-Annual cost during construction
-% of capital cost
-LCOE Calculator
- 
-2
-1
-2
-1
-1
-0.000000
-SchedNumeric
-ui_crf
+ui_wacc
 3
 1
-Capital recovery factor (CRF)
+WACC (for reference only)
  
 LCOE Calculator
  
@@ -2174,75 +2243,6 @@ LCOE Calculator
 1
 1
 0.000000
-Default
-capital_cost
-3
-1
-Capital cost (CC)
-$
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ui_pfin
-3
-1
-Project financing factor (PFF)
- 
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-c_depreciation_schedule
-3
-2
-Depreciation schedule
-% of capital cost
-LCOE Calculator
- 
-2
-1
-2
-1
-6
-20.000000 32.000000 19.200001 11.520000 11.520000 5.760000 
-
-SchedNumeric
-fixed_charge_rate
-3
-1
-Fixed charge rate (FCR)
- 
-LCOE Calculator
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ui_lbl_cff_msg
-3
-4
-Construction financing message
- 
-LCOE Calculator
- 
-1
-1
-4
- 
 Default
 
 1770

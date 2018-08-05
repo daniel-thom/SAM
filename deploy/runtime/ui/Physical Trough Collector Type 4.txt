@@ -1045,6 +1045,63 @@ TabOrder
 8
 
 22
+IAMs_4
+3
+2
+Incidence angle modifier coefficients
+ 
+Physical Trough Collector Type 3
+ 
+2
+1
+2
+1
+3
+1.000000 0.050600 -0.176300 
+
+DataArray
+csp_dtr_sca_ap_length_4
+3
+1
+Length of single module
+m
+Physical Trough Collector Type 4
+ 
+8
+1
+1
+1
+1
+8.500000
+Numeric
+csp_dtr_sca_aperture_4
+3
+1
+Reflective aperture area
+m²
+Physical Trough Collector Type 4
+ 
+2
+1
+1
+1
+1
+470.299988
+Numeric
+csp_dtr_sca_ave_focal_len_4
+3
+1
+Average surface-to-focus path length
+m
+Physical Trough Collector Type 4
+ 
+2
+1
+1
+1
+1
+1.800000
+Numeric
 csp_dtr_sca_calc_costh_4
 3
 1
@@ -1073,21 +1130,6 @@ Physical Trough Collector Type 4
 1
 0.000000
 Default
-IAMs_4
-3
-2
-Incidence angle modifier coefficients
- 
-Physical Trough Collector Type 3
- 
-2
-1
-2
-1
-3
-1.000000 0.050600 -0.176300 
-
-DataArray
 csp_dtr_sca_calc_end_loss_4
 3
 1
@@ -1101,34 +1143,6 @@ Physical Trough Collector Type 4
 1
 1
 0.000000
-Numeric
-csp_dtr_sca_w_profile_4
-3
-1
-Aperture width, total structure
-m
-Physical Trough Collector Type 4
- 
-2
-1
-1
-1
-1
-5.000000
-Numeric
-csp_dtr_sca_clean_reflectivity_4
-3
-1
-Mirror reflectance
- 
-Physical Trough Collector Type 4
- 
-2
-1
-1
-1
-1
-0.935000
 Numeric
 csp_dtr_sca_calc_iam_4
 3
@@ -1144,11 +1158,67 @@ Physical Trough Collector Type 4
 1
 0.000000
 Numeric
-csp_dtr_sca_piping_dist_4
+csp_dtr_sca_calc_latitude_4
 3
 1
-Piping distance between assemblies
-m
+Latitude
+ 
+Physical Trough Collector Type 4
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp_dtr_sca_calc_sca_eff_4
+3
+1
+Optical efficiency at design
+ 
+Physical Trough Collector Type 4
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+csp_dtr_sca_calc_theta_4
+3
+1
+Calculated theta
+ 
+Physical Trough Collector Type 4
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp_dtr_sca_calc_zenith_4
+3
+1
+Calculated zenith
+rad
+Physical Trough Collector Type 4
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp_dtr_sca_clean_reflectivity_4
+3
+1
+Mirror reflectance
+ 
 Physical Trough Collector Type 4
  
 2
@@ -1156,7 +1226,7 @@ Physical Trough Collector Type 4
 1
 1
 1
-1.000000
+0.935000
 Numeric
 csp_dtr_sca_general_error_4
 3
@@ -1172,20 +1242,6 @@ Physical Trough Collector Type 4
 1
 0.990000
 Numeric
-csp_dtr_sca_calc_latitude_4
-3
-1
-Latitude
- 
-Physical Trough Collector Type 4
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 csp_dtr_sca_geometry_effects_4
 3
 1
@@ -1199,20 +1255,6 @@ Physical Trough Collector Type 4
 1
 1
 0.980000
-Numeric
-csp_dtr_sca_aperture_4
-3
-1
-Reflective aperture area
-m²
-Physical Trough Collector Type 4
- 
-2
-1
-1
-1
-1
-470.299988
 Numeric
 csp_dtr_sca_length_4
 3
@@ -1228,39 +1270,11 @@ Physical Trough Collector Type 4
 1
 102.000000
 Numeric
-csp_dtr_sca_calc_sca_eff_4
+csp_dtr_sca_mirror_dirt_4
 3
 1
-Optical efficiency at design
+Dirt on mirror
  
-Physical Trough Collector Type 4
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-csp_dtr_sca_ap_length_4
-3
-1
-Length of single module
-m
-Physical Trough Collector Type 4
- 
-8
-1
-1
-1
-1
-8.500000
-Numeric
-csp_dtr_sca_ave_focal_len_4
-3
-1
-Average surface-to-focus path length
-m
 Physical Trough Collector Type 4
  
 2
@@ -1268,7 +1282,7 @@ Physical Trough Collector Type 4
 1
 1
 1
-1.800000
+0.950000
 Numeric
 csp_dtr_sca_ncol_per_sca_4
 3
@@ -1284,11 +1298,23 @@ Physical Trough Collector Type 4
 1
 12.000000
 Numeric
-csp_dtr_sca_mirror_dirt_4
+csp_dtr_sca_notify_text_4
+3
+4
+Collector name from library
+ 
+Physical Trough Collector Type 4
+ 
+0
+1
+4
+Solargenix SGX-1
+TextEntry
+csp_dtr_sca_piping_dist_4
 3
 1
-Dirt on mirror
- 
+Piping distance between assemblies
+m
 Physical Trough Collector Type 4
  
 2
@@ -1296,7 +1322,7 @@ Physical Trough Collector Type 4
 1
 1
 1
-0.950000
+1.000000
 Numeric
 csp_dtr_sca_tracking_error_4
 3
@@ -1312,46 +1338,20 @@ Physical Trough Collector Type 4
 1
 0.994000
 Numeric
-csp_dtr_sca_notify_text_4
-3
-4
-Collector name from library
- 
-Physical Trough Collector Type 4
- 
-0
-1
-4
-Solargenix SGX-1
-TextEntry
-csp_dtr_sca_calc_zenith_4
+csp_dtr_sca_w_profile_4
 3
 1
-Calculated zenith
-rad
+Aperture width, total structure
+m
 Physical Trough Collector Type 4
  
-8
+2
 1
 1
 1
 1
-0.000000
-Default
-csp_dtr_sca_calc_theta_4
-3
-1
-Calculated theta
- 
-Physical Trough Collector Type 4
- 
-8
-1
-1
-1
-1
-0.000000
-Default
+5.000000
+Numeric
 
 1826
 equations{ 'csp_dtr_sca_calc_end_loss_4' } = define() {

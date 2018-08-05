@@ -1246,78 +1246,6 @@ TabOrder
 10
 
 19
-inv_cec_cg_test_samples
-3
-3
- 
- 
-PV Inverter (CEC Coefficient Generator)
- 
-0
-1
-3
-2
-30
-10210.000000 283.890015 87.279999 10210.000000 283.390015 87.290001 10200.000000 284.190002 87.290001 10200.000000 284.420013 87.290001 10210.000000 283.790009 87.209999 10200.000000 283.450012 87.150002 10200.000000 284.089996 87.269997 98050.000000 284.339996 83.809998 10200.000000 283.619995 87.339996 10190.000000 283.410004 87.349998 
-0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
-
-DataMatrix
-inv_cec_cg_pnt
-3
-1
-Pnt
-W
-PV Inverter (CEC Coefficient Generator)
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-inv_cec_cg_c1
-3
-1
-C1
-1/V
-PV Inverter (CEC Coefficient Generator)
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-inv_cec_cg_idcmax
-3
-1
-Idcmax
-Adc
-PV Inverter (CEC Coefficient Generator)
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-inv_cec_cg_psco
-3
-1
-Psco
-W
-PV Inverter (CEC Coefficient Generator)
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
 inv_cec_cg_c0
 3
 1
@@ -1332,25 +1260,11 @@ PV Inverter (CEC Coefficient Generator)
 1
 0.000000
 Numeric
-inv_cec_cg_eff_cec
+inv_cec_cg_c1
 3
 1
-CEC efficiency
- 
-PV Inverter (CEC Coefficient Generator)
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-inv_cec_cg_eff_euro
-3
-1
-European efficiency
- 
+C1
+1/V
 PV Inverter (CEC Coefficient Generator)
  
 8
@@ -1388,11 +1302,11 @@ PV Inverter (CEC Coefficient Generator)
 1
 0.000000
 Numeric
-inv_cec_cg_pdco
+inv_cec_cg_eff_cec
 3
 1
-Pdco
-Wdc
+CEC efficiency
+ 
 PV Inverter (CEC Coefficient Generator)
  
 8
@@ -1402,11 +1316,37 @@ PV Inverter (CEC Coefficient Generator)
 1
 0.000000
 Numeric
-inv_cec_cg_paco
+inv_cec_cg_eff_euro
 3
 1
-Maximum AC power
-Wac
+European efficiency
+ 
+PV Inverter (CEC Coefficient Generator)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inv_cec_cg_filename
+3
+4
+ 
+ 
+ 
+ 
+0
+1
+4
+<invalid>
+TextEntry
+inv_cec_cg_idcmax
+3
+1
+Idcmax
+Adc
 PV Inverter (CEC Coefficient Generator)
  
 0
@@ -1444,6 +1384,106 @@ PV Inverter (CEC Coefficient Generator)
 1
 0.000000
 Numeric
+inv_cec_cg_num_samples
+3
+1
+Number samples
+ 
+PV Inverter (CEC Coefficient Generator)
+ 
+0
+1
+1
+1
+1
+0.000000
+Choice
+inv_cec_cg_paco
+3
+1
+Maximum AC power
+Wac
+PV Inverter (CEC Coefficient Generator)
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+inv_cec_cg_pdco
+3
+1
+Pdco
+Wdc
+PV Inverter (CEC Coefficient Generator)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inv_cec_cg_pnt
+3
+1
+Pnt
+W
+PV Inverter (CEC Coefficient Generator)
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+inv_cec_cg_psco
+3
+1
+Psco
+W
+PV Inverter (CEC Coefficient Generator)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inv_cec_cg_sample_power_units
+3
+1
+Power units
+ 
+PV Inverter (CEC Coefficient Generator)
+ 
+0
+1
+1
+1
+1
+0.000000
+Choice
+inv_cec_cg_test_samples
+3
+3
+ 
+ 
+PV Inverter (CEC Coefficient Generator)
+ 
+0
+1
+3
+2
+30
+10210.000000 283.890015 87.279999 10210.000000 283.390015 87.290001 10200.000000 284.190002 87.290001 10200.000000 284.420013 87.290001 10210.000000 283.790009 87.209999 10200.000000 283.450012 87.150002 10200.000000 284.089996 87.269997 98050.000000 284.339996 83.809998 10200.000000 283.619995 87.339996 10190.000000 283.410004 87.349998 
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+
+DataMatrix
 inv_cec_cg_vdcmax
 3
 1
@@ -1472,46 +1512,6 @@ PV Inverter (CEC Coefficient Generator)
 1
 0.000000
 Numeric
-inv_cec_cg_sample_power_units
-3
-1
-Power units
- 
-PV Inverter (CEC Coefficient Generator)
- 
-0
-1
-1
-1
-1
-0.000000
-Choice
-inv_cec_cg_num_samples
-3
-1
-Number samples
- 
-PV Inverter (CEC Coefficient Generator)
- 
-0
-1
-1
-1
-1
-0.000000
-Choice
-inv_cec_cg_filename
-3
-4
- 
- 
- 
- 
-0
-1
-4
-<invalid>
-TextEntry
 
 1804
 equations{ '$MIMO$ CEC_CG_InverterEfficiencies' } = define()

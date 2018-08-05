@@ -286,20 +286,6 @@ Bold
 1
 
 4
-I_cut_in
-3
-1
-Insolation Cut-In
-W/m2
-Dish Collector
- 
-2
-1
-1
-1
-1
-275.000000
-Default
 A_proj
 3
 1
@@ -327,6 +313,20 @@ Dish Collector
 1
 1
 42.900002
+Default
+I_cut_in
+3
+1
+Insolation Cut-In
+W/m2
+Dish Collector
+ 
+2
+1
+1
+1
+1
+275.000000
 Default
 rho
 3

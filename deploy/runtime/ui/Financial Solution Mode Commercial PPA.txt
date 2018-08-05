@@ -525,48 +525,6 @@ PPA Price and IRR
 1
 0.150000
 SchedNumeric
-mode
-3
-1
-PPA solution mode (0=Specify IRR target, 1=Specify PPA price)
- 
-PPA Price and IRR
-Specify IRR target|Specify PPA price
-3
-1
-1
-1
-1
-0.000000
-RadioChoice
-min_irr_target
-3
-1
-Minimum required IRR
-%
-PPA Price and IRR
- 
-2
-1
-1
-1
-1
-15.000000
-Numeric
-optimize_lcoe_wrt_ppa_escalation
-3
-1
- 
- 
-PPA Price and IRR
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
 bid_price_esc
 3
 1
@@ -581,7 +539,49 @@ PPA Price and IRR
 1
 1.000000
 Numeric
+min_irr_target
+3
+1
+Minimum required IRR
+%
+PPA Price and IRR
+ 
+2
+1
+1
+1
+1
+15.000000
+Numeric
+mode
+3
+1
+PPA solution mode (0=Specify IRR target, 1=Specify PPA price)
+ 
+PPA Price and IRR
+Specify IRR target|Specify PPA price
+3
+1
+1
+1
+1
+0.000000
+RadioChoice
 optimize_lcoe_wrt_debt_fraction
+3
+1
+ 
+ 
+PPA Price and IRR
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+optimize_lcoe_wrt_ppa_escalation
 3
 1
  

@@ -1736,384 +1736,6 @@ AlignTop
 0
 
 32
-disp_time_weighting
-3
-1
-Objective function time weighting exponent
- 
-System Control
- 
-2
-1
-1
-1
-1
-0.990000
-Default
-bop_par_f
-3
-1
- 
- 
-System Control
- 
-0
-1
-1
-1
-1
-1.000000
-Default
-disp_csu_cost
-3
-1
-Cycle startup cost penalty
-$/start
-System Control
- 
-2
-1
-1
-1
-1
-10000.000000
-Default
-wlim_series
-3
-2
-Max. net power limit by time step
- 
-System Control
- 
-0
-1
-2
-1
-1
-0.000000
-Default
-disp_mip_gap
-3
-1
-Solution optimality gap tolerance
- 
-System Control
- 
-2
-1
-1
-1
-1
-0.055000
-Default
-is_wlim_series
-3
-1
-Enable maximum net power limit
- 
-System Control
- 
-0
-1
-1
-1
-1
-1.000000
-Default
-time_start
-3
-1
-Simulation start time
-sec
-System Control
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-dispatch_series
-3
-2
-Dispatch TOD series
- 
-System Control
- 
-0
-1
-2
-1
-1
-0.000000
-Default
-disp_pen_delta_w
-3
-1
-Power generation ramping penalty
-$/ΔkWe
-System Control
- 
-2
-1
-1
-1
-1
-0.100000
-Default
-disp_max_iter
-3
-1
-Maximum branch and bound iterations
- 
-System Control
- 
-2
-1
-1
-1
-1
-10000.000000
-Default
-bop_par_0
-3
-1
- 
- 
-System Control
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-aux_par_f
-3
-1
- 
- 
-System Control
- 
-0
-1
-1
-1
-1
-1.000000
-Default
-bop_par_2
-3
-1
- 
- 
-System Control
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-aux_par_1
-3
-1
- 
- 
-System Control
- 
-0
-1
-1
-1
-1
-0.571000
-Default
-disp_wlim_max
-3
-1
-Max. net power to the grid (incl. availability)
-MWe
-System Control
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-bop_par
-3
-1
-Balance of plant parasitic
-MWe/MWcap
-System Control
- 
-0
-1
-1
-1
-1
-0.025000
-Default
-aux_par_0
-3
-1
- 
- 
-System Control
- 
-0
-1
-1
-1
-1
-0.483000
-Default
-time_stop
-3
-1
-Simulation stop time
-sec
-System Control
- 
-0
-1
-1
-1
-1
-31536000.000000
-Default
-csp.pt.par.calc.aux
-3
-1
-Aux
-MWe
-System Control
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-disp_wlim_maxspec
-3
-1
-Max. net power to the grid
-MWe
-System Control
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-disp_timeout
-3
-1
-Optimization solver timeout limit
-sec
-System Control
- 
-2
-1
-1
-1
-1
-5.000000
-Default
-disp_horizon
-3
-1
-Time horizon for dispatch optimization
-hour
-System Control
- 
-2
-1
-1
-1
-1
-48.000000
-Default
-is_dispatch
-3
-1
-Enable dispatch optimization
- 
-System Control
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-disp_frequency
-3
-1
-Frequency for dispatch reoptimization
-hour
-System Control
- 
-2
-1
-1
-1
-1
-24.000000
-Default
-disp_rsu_cost
-3
-1
-Receiver startup cost penalty
-$/start
-System Control
- 
-2
-1
-1
-1
-1
-952.000000
-Default
-pb_fixed_par
-3
-1
-Fraction of rated gross power consumed all times
-MWe/MWcap
-System Control
- 
-2
-1
-1
-1
-1
-0.005500
-Default
-csp.pt.par.calc.bop
-3
-1
-BOP
-MWe
-System Control
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 adjust
 3
 5
@@ -2141,6 +1763,34 @@ System Control
 1
 0.023000
 Default
+aux_par_0
+3
+1
+ 
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+0.483000
+Default
+aux_par_1
+3
+1
+ 
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+0.571000
+Default
 aux_par_2
 3
 1
@@ -2155,6 +1805,48 @@ System Control
 1
 0.000000
 Default
+aux_par_f
+3
+1
+ 
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+1.000000
+Default
+bop_par
+3
+1
+Balance of plant parasitic
+MWe/MWcap
+System Control
+ 
+0
+1
+1
+1
+1
+0.025000
+Default
+bop_par_0
+3
+1
+ 
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
 bop_par_1
 3
 1
@@ -2169,6 +1861,244 @@ System Control
 1
 0.483000
 Default
+bop_par_2
+3
+1
+ 
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+bop_par_f
+3
+1
+ 
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+1.000000
+Default
+csp.pt.par.calc.aux
+3
+1
+Aux
+MWe
+System Control
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.pt.par.calc.bop
+3
+1
+BOP
+MWe
+System Control
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+disp_csu_cost
+3
+1
+Cycle startup cost penalty
+$/start
+System Control
+ 
+2
+1
+1
+1
+1
+10000.000000
+Default
+disp_frequency
+3
+1
+Frequency for dispatch reoptimization
+hour
+System Control
+ 
+2
+1
+1
+1
+1
+24.000000
+Default
+disp_horizon
+3
+1
+Time horizon for dispatch optimization
+hour
+System Control
+ 
+2
+1
+1
+1
+1
+48.000000
+Default
+disp_max_iter
+3
+1
+Maximum branch and bound iterations
+ 
+System Control
+ 
+2
+1
+1
+1
+1
+10000.000000
+Default
+disp_mip_gap
+3
+1
+Solution optimality gap tolerance
+ 
+System Control
+ 
+2
+1
+1
+1
+1
+0.055000
+Default
+disp_pen_delta_w
+3
+1
+Power generation ramping penalty
+$/ΔkWe
+System Control
+ 
+2
+1
+1
+1
+1
+0.100000
+Default
+disp_rsu_cost
+3
+1
+Receiver startup cost penalty
+$/start
+System Control
+ 
+2
+1
+1
+1
+1
+952.000000
+Default
+disp_time_weighting
+3
+1
+Objective function time weighting exponent
+ 
+System Control
+ 
+2
+1
+1
+1
+1
+0.990000
+Default
+disp_timeout
+3
+1
+Optimization solver timeout limit
+sec
+System Control
+ 
+2
+1
+1
+1
+1
+5.000000
+Default
+disp_wlim_max
+3
+1
+Max. net power to the grid (incl. availability)
+MWe
+System Control
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+disp_wlim_maxspec
+3
+1
+Max. net power to the grid
+MWe
+System Control
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+dispatch_series
+3
+2
+Dispatch TOD series
+ 
+System Control
+ 
+0
+1
+2
+1
+1
+0.000000
+Default
+is_dispatch
+3
+1
+Enable dispatch optimization
+ 
+System Control
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
 is_dispatch_series
 3
 1
@@ -2179,6 +2109,76 @@ System Control
 0
 1
 1
+1
+1
+0.000000
+Default
+is_wlim_series
+3
+1
+Enable maximum net power limit
+ 
+System Control
+ 
+0
+1
+1
+1
+1
+1.000000
+Default
+pb_fixed_par
+3
+1
+Fraction of rated gross power consumed all times
+MWe/MWcap
+System Control
+ 
+2
+1
+1
+1
+1
+0.005500
+Default
+time_start
+3
+1
+Simulation start time
+sec
+System Control
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+time_stop
+3
+1
+Simulation stop time
+sec
+System Control
+ 
+0
+1
+1
+1
+1
+31536000.000000
+Default
+wlim_series
+3
+2
+Max. net power limit by time step
+ 
+System Control
+ 
+0
+1
+2
 1
 1
 0.000000

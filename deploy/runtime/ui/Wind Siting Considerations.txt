@@ -416,6 +416,18 @@ AlignTop
 1
 
 4
+lstBarriers
+3
+4
+ 
+ 
+Wind Siting Considerations
+ 
+0
+1
+4
+ 
+ListBox
 radLocation
 3
 1
@@ -456,18 +468,6 @@ Wind Siting Considerations
 1
 10.000000
 Numeric
-lstBarriers
-3
-4
- 
- 
-Wind Siting Considerations
- 
-0
-1
-4
- 
-ListBox
 
 0
 0

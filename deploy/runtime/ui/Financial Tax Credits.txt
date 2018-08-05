@@ -1620,76 +1620,6 @@ AlignTop
 0
 
 20
-ptc_sta_amount
-3
-2
-State PTC amount
-$/kWh
-Tax Credits
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
-itc_fed_percent_maxvalue
-3
-1
-Federal ITC maximum limit
-$
-Tax Credits
- 
-3
-1
-1
-1
-1
-1.000000
-Numeric
-ptc_sta_escal
-3
-1
-State PTC escalation
-%/year
-Tax Credits
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ptc_fed_escal
-3
-1
-Federal PTC escalation
-%/year
-Tax Credits
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-itc_sta_percent_deprbas_sta
-3
-1
- 
- 
-Tax Credits
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
 itc_fed_amount
 3
 1
@@ -1704,104 +1634,6 @@ Tax Credits
 1
 0.000000
 Numeric
-itc_fed_percent_deprbas_sta
-3
-1
- 
- 
-Tax Credits
- 
-0
-1
-1
-1
-1
-1.000000
-CheckBox
-itc_sta_amount_deprbas_fed
-3
-1
- 
- 
-Tax Credits
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-ptc_sta_term
-3
-1
-State PTC term
-years
-Tax Credits
- 
-3
-1
-1
-1
-1
-10.000000
-Numeric
-itc_sta_percent
-3
-1
-State ITC percentage
-% of installed cost
-Tax Credits
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-ptc_fed_amount
-3
-2
-Federal PTC amount
-$/kWh
-Tax Credits
- 
-3
-1
-2
-1
-1
-0.000000
-SchedNumeric
-ptc_fed_term
-3
-1
-Federal PTC term
-years
-Tax Credits
- 
-3
-1
-1
-1
-1
-10.000000
-Numeric
-itc_sta_amount_deprbas_sta
-3
-1
- 
- 
-Tax Credits
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
 itc_fed_amount_deprbas_fed
 3
 1
@@ -1816,34 +1648,6 @@ Tax Credits
 1
 1.000000
 CheckBox
-itc_sta_percent_deprbas_fed
-3
-1
- 
- 
-Tax Credits
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-itc_sta_percent_maxvalue
-3
-1
-State ITC maximum limit
- 
-Tax Credits
- 
-3
-1
-1
-1
-1
-1.000000
-Numeric
 itc_fed_amount_deprbas_sta
 3
 1
@@ -1858,20 +1662,6 @@ Tax Credits
 1
 1.000000
 CheckBox
-itc_sta_amount
-3
-1
-State ITC amount
-$
-Tax Credits
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 itc_fed_percent
 3
 1
@@ -1900,6 +1690,216 @@ Tax Credits
 1
 1.000000
 CheckBox
+itc_fed_percent_deprbas_sta
+3
+1
+ 
+ 
+Tax Credits
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
+itc_fed_percent_maxvalue
+3
+1
+Federal ITC maximum limit
+$
+Tax Credits
+ 
+3
+1
+1
+1
+1
+1.000000
+Numeric
+itc_sta_amount
+3
+1
+State ITC amount
+$
+Tax Credits
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+itc_sta_amount_deprbas_fed
+3
+1
+ 
+ 
+Tax Credits
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+itc_sta_amount_deprbas_sta
+3
+1
+ 
+ 
+Tax Credits
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
+itc_sta_percent
+3
+1
+State ITC percentage
+% of installed cost
+Tax Credits
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+itc_sta_percent_deprbas_fed
+3
+1
+ 
+ 
+Tax Credits
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+itc_sta_percent_deprbas_sta
+3
+1
+ 
+ 
+Tax Credits
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+itc_sta_percent_maxvalue
+3
+1
+State ITC maximum limit
+ 
+Tax Credits
+ 
+3
+1
+1
+1
+1
+1.000000
+Numeric
+ptc_fed_amount
+3
+2
+Federal PTC amount
+$/kWh
+Tax Credits
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
+ptc_fed_escal
+3
+1
+Federal PTC escalation
+%/year
+Tax Credits
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ptc_fed_term
+3
+1
+Federal PTC term
+years
+Tax Credits
+ 
+3
+1
+1
+1
+1
+10.000000
+Numeric
+ptc_sta_amount
+3
+2
+State PTC amount
+$/kWh
+Tax Credits
+ 
+3
+1
+2
+1
+1
+0.000000
+SchedNumeric
+ptc_sta_escal
+3
+1
+State PTC escalation
+%/year
+Tax Credits
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+ptc_sta_term
+3
+1
+State PTC term
+years
+Tax Credits
+ 
+3
+1
+1
+1
+1
+10.000000
+Numeric
 
 0
 661

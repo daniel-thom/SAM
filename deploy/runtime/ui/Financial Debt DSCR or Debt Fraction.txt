@@ -823,11 +823,11 @@ AlignTop
 0
 
 11
-term_tenor
+cost_debt_closing
 3
 1
-Tenor
-years
+Debt closing costs
+$
 Project Term Debt
  
 2
@@ -836,96 +836,12 @@ Project Term Debt
 1
 1
 0.000000
-Numeric
-debt_option
-3
-1
-Debt mode (0=debt percent input,1=DSCR input)
- 
-Project Term Debt
-Debt percent|DSCR
-3
-1
-1
-1
-1
-1.000000
-RadioChoice
-ui_wacc
-3
-1
-WACC
-%
-Project Term Debt
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-term_int_rate
-3
-1
-Annual interest rate
-%
-Project Term Debt
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-debt_percent
-3
-1
-Debt percent
-% of total capital cost
-Project Term Debt
- 
-3
-1
-1
-1
-1
-50.000000
 Numeric
 cost_debt_fee
 3
 1
 Up-front fee
 % of total debt
-Project Term Debt
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-dscr
-3
-1
-DSCR
- 
-Project Term Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-cost_debt_closing
-3
-1
-Debt closing costs
-$
 Project Term Debt
  
 2
@@ -947,6 +863,62 @@ Project Term Debt
 4
  
 MultilineText
+debt_option
+3
+1
+Debt mode (0=debt percent input,1=DSCR input)
+ 
+Project Term Debt
+Debt percent|DSCR
+3
+1
+1
+1
+1
+1.000000
+RadioChoice
+debt_percent
+3
+1
+Debt percent
+% of total capital cost
+Project Term Debt
+ 
+3
+1
+1
+1
+1
+50.000000
+Numeric
+dscr
+3
+1
+DSCR
+ 
+Project Term Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+loan_moratorium
+3
+1
+Moratorium
+years
+Project Term Debt
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
 payment_option
 3
 1
@@ -961,14 +933,42 @@ Equal payments (standard amortization)|Fixed principal declining interest
 1
 0.000000
 RadioChoice
-loan_moratorium
+term_int_rate
 3
 1
-Moratorium
+Annual interest rate
+%
+Project Term Debt
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+term_tenor
+3
+1
+Tenor
 years
 Project Term Debt
  
 2
+1
+1
+1
+1
+0.000000
+Numeric
+ui_wacc
+3
+1
+WACC
+%
+Project Term Debt
+ 
+8
 1
 1
 1

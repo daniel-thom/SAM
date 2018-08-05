@@ -1299,130 +1299,6 @@ TabOrder
 1
 
 18
-months_working_reserve
-3
-1
-Working capital reserve
-months of operating costs
-Reserve Accounts
- 
-2
-1
-1
-1
-1
-6.000000
-Numeric
-mera_name3
-3
-4
- 
- 
-Reserve Accounts
- 
-0
-1
-4
-Replacement Reserve 3
-TextEntry
-mera_cost1
-3
-1
-Replacement reserve 1 calculated cost
-$
-Reserve Accounts
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-equip1_reserve_freq
-3
-1
-Replacement reserve 1 frequency
- 
-Reserve Accounts
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-months_receivables_reserve
-3
-1
-Receivables reserve
-months of PPA revenue
-Reserve Accounts
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-equip3_reserve_cost
-3
-1
-Replacement reserve 3 cost
-$/W
-Reserve Accounts
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-mera_cost3
-3
-1
-Replacement reserve 3 calculated cost
-$
-Reserve Accounts
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-reserves_interest
-3
-1
-Interest on reserves
-%/year
-Reserve Accounts
- 
-2
-1
-1
-1
-1
-1.750000
-Numeric
-equip_reserve_depr_fed
-3
-1
-Replacement reserves federal depreciation method
- 
-Reserve Accounts
-5-yr MACRS|15-yr MACRS|5-yr Straight Line|15-yr Straight Line|20-yr Straight Line|39-yr Straight Line|Custom
-3
-1
-1
-1
-1
-0.000000
-Choice
 dscr_reserve_months
 3
 1
@@ -1431,20 +1307,6 @@ months of principal and interest (P&I) payments
 Reserve Accounts
  
 2
-1
-1
-1
-1
-0.000000
-Numeric
-mera_cost2
-3
-1
-Replacement reserve 2 calculated cost
-$
-Reserve Accounts
- 
-9
 1
 1
 1
@@ -1465,37 +1327,53 @@ Reserve Accounts
 1
 0.000000
 Numeric
-mera_name1
+equip1_reserve_freq
 3
-4
- 
+1
+Replacement reserve 1 frequency
  
 Reserve Accounts
  
-0
-1
-4
-Replacement Reserve 1
-TextEntry
-equip_reserve_depr_sta
-3
-1
-Replacement reserves state depreciation method
- 
-Reserve Accounts
-5-yr MACRS|15-yr MACRS|5-yr Straight Line|15-yr Straight Line|20-yr Straight Line|39-yr Straight Line|Custom
 3
 1
 1
 1
 1
 0.000000
-Choice
+Numeric
+equip2_reserve_cost
+3
+1
+Replacement reserve 2 cost
+$/W
+Reserve Accounts
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
 equip2_reserve_freq
 3
 1
 Replacement reserve 2 frequency
  
+Reserve Accounts
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+equip3_reserve_cost
+3
+1
+Replacement reserve 3 cost
+$/W
 Reserve Accounts
  
 3
@@ -1519,6 +1397,88 @@ Reserve Accounts
 1
 0.000000
 Numeric
+equip_reserve_depr_fed
+3
+1
+Replacement reserves federal depreciation method
+ 
+Reserve Accounts
+5-yr MACRS|15-yr MACRS|5-yr Straight Line|15-yr Straight Line|20-yr Straight Line|39-yr Straight Line|Custom
+3
+1
+1
+1
+1
+0.000000
+Choice
+equip_reserve_depr_sta
+3
+1
+Replacement reserves state depreciation method
+ 
+Reserve Accounts
+5-yr MACRS|15-yr MACRS|5-yr Straight Line|15-yr Straight Line|20-yr Straight Line|39-yr Straight Line|Custom
+3
+1
+1
+1
+1
+0.000000
+Choice
+mera_cost1
+3
+1
+Replacement reserve 1 calculated cost
+$
+Reserve Accounts
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+mera_cost2
+3
+1
+Replacement reserve 2 calculated cost
+$
+Reserve Accounts
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+mera_cost3
+3
+1
+Replacement reserve 3 calculated cost
+$
+Reserve Accounts
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+mera_name1
+3
+4
+ 
+ 
+Reserve Accounts
+ 
+0
+1
+4
+Replacement Reserve 1
+TextEntry
 mera_name2
 3
 4
@@ -1531,19 +1491,59 @@ Reserve Accounts
 4
 Replacement Reserve 2
 TextEntry
-equip2_reserve_cost
+mera_name3
 3
-1
-Replacement reserve 2 cost
-$/W
+4
+ 
+ 
 Reserve Accounts
  
+0
+1
+4
+Replacement Reserve 3
+TextEntry
+months_receivables_reserve
 3
+1
+Receivables reserve
+months of PPA revenue
+Reserve Accounts
+ 
+0
 1
 1
 1
 1
 0.000000
+Numeric
+months_working_reserve
+3
+1
+Working capital reserve
+months of operating costs
+Reserve Accounts
+ 
+2
+1
+1
+1
+1
+6.000000
+Numeric
+reserves_interest
+3
+1
+Interest on reserves
+%/year
+Reserve Accounts
+ 
+2
+1
+1
+1
+1
+1.750000
 Numeric
 
 298

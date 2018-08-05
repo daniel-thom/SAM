@@ -679,6 +679,104 @@ ISCC Parasitics
 1
 0.000000
 Default
+bop_par
+3
+1
+Balance of plant parasitic
+MWe/MWcap, solar
+ISCC Parasitics
+ 
+0
+1
+1
+1
+1
+0.025000
+Default
+bop_par_0
+3
+1
+ 
+ 
+ISCC Parasitics
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+bop_par_1
+3
+1
+ 
+ 
+ISCC Parasitics
+ 
+0
+1
+1
+1
+1
+0.483000
+Default
+bop_par_2
+3
+1
+ 
+ 
+ISCC Parasitics
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+bop_par_f
+3
+1
+ 
+ 
+ISCC Parasitics
+ 
+0
+1
+1
+1
+1
+1.000000
+Default
+csp.pt.par.bop_c1
+3
+1
+ 
+ 
+ISCC Parasitics
+ 
+0
+1
+1
+1
+1
+0.571000
+Default
+csp.pt.par.calc.bop
+3
+1
+BOP
+MWe
+ISCC Parasitics
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 pb_fixed_par
 3
 1
@@ -701,104 +799,6 @@ MWe
  
  
 8
-1
-1
-1
-1
-0.000000
-Default
-bop_par_f
-3
-1
- 
- 
-ISCC Parasitics
- 
-0
-1
-1
-1
-1
-1.000000
-Default
-bop_par_0
-3
-1
- 
- 
-ISCC Parasitics
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-bop_par
-3
-1
-Balance of plant parasitic
-MWe/MWcap, solar
-ISCC Parasitics
- 
-0
-1
-1
-1
-1
-0.025000
-Default
-csp.pt.par.calc.bop
-3
-1
-BOP
-MWe
-ISCC Parasitics
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-bop_par_1
-3
-1
- 
- 
-ISCC Parasitics
- 
-0
-1
-1
-1
-1
-0.483000
-Default
-csp.pt.par.bop_c1
-3
-1
- 
- 
-ISCC Parasitics
- 
-0
-1
-1
-1
-1
-0.571000
-Default
-bop_par_2
-3
-1
- 
- 
-ISCC Parasitics
- 
-0
 1
 1
 1

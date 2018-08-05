@@ -1833,10 +1833,10 @@ AlignTop
 0
 
 28
-per_storage
+bos
 3
 1
-Storage cost
+Balance of system
  
 SHW Capital Costs
  
@@ -1845,35 +1845,7 @@ SHW Capital Costs
 1
 1
 1
-990.000000
-Numeric
-storage
-3
-1
- 
- 
-SHW Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sales_tax_total
-3
-1
- 
- 
-SHW Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
+4000.000000
 Numeric
 collector
 3
@@ -1889,20 +1861,6 @@ SHW Capital Costs
 1
 0.000000
 Numeric
-system_use_lifetime_output
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 collector_cost_units
 3
 1
@@ -1917,62 +1875,6 @@ $/m2|$/W|$/unit
 1
 0.000000
 Choice
-plm_fixed
-3
-1
- 
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-epc_total
-3
-1
- 
- 
-SHW Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-plm_total
-3
-1
- 
- 
-SHW Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sales_tax_value
-3
-1
-Sales tax of
- 
-SHW Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
 contingency
 3
 1
@@ -1987,48 +1889,6 @@ SHW Capital Costs
 1
 0.000000
 Numeric
-epc_percent
-3
-1
-Engineer, Procure, Construct
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-system_use_recapitalization
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-storage_cost_units
-3
-1
- 
- 
-SHW Capital Costs
-$/m3|$/unit
-0
-1
-1
-1
-1
-1.000000
-Choice
 contingency_percent
 3
 1
@@ -2057,10 +1917,10 @@ SHW Capital Costs
 1
 0.000000
 Numeric
-total_direct
+epc_nonfixed
 3
 1
-Total direct cost
+ 
  
 SHW Capital Costs
  
@@ -2071,10 +1931,52 @@ SHW Capital Costs
 1
 0.000000
 Numeric
-epc_nonfixed
+epc_percent
+3
+1
+Engineer, Procure, Construct
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+epc_total
 3
 1
  
+ 
+SHW Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+installation
+3
+1
+Installation cost
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+1000.000000
+Numeric
+installed_per_capacity
+3
+1
+Total installed cost per capacity ($/Wt)
  
 SHW Capital Costs
  
@@ -2099,10 +2001,192 @@ SHW Capital Costs
 1
 0.000000
 Numeric
-installed_per_capacity
+per_collector
 3
 1
-Total installed cost per capacity ($/Wt)
+Collector cost
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+6.000000
+Numeric
+per_storage
+3
+1
+Storage cost
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+990.000000
+Numeric
+plm_fixed
+3
+1
+ 
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+plm_nonfixed
+3
+1
+ 
+ 
+SHW Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+plm_percent
+3
+1
+Project, Land, Miscellaneous
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+plm_total
+3
+1
+ 
+ 
+SHW Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sales_tax_percent
+3
+1
+ 
+ 
+SHW Capital Costs
+ 
+2
+1
+1
+1
+1
+100.000000
+Numeric
+sales_tax_total
+3
+1
+ 
+ 
+SHW Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sales_tax_value
+3
+1
+Sales tax of
+ 
+SHW Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+storage
+3
+1
+ 
+ 
+SHW Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+storage_cost_units
+3
+1
+ 
+ 
+SHW Capital Costs
+$/m3|$/unit
+0
+1
+1
+1
+1
+1.000000
+Choice
+system_use_lifetime_output
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_direct
+3
+1
+Total direct cost
  
 SHW Capital Costs
  
@@ -2140,90 +2224,6 @@ SHW Capital Costs
 1
 1
 0.000000
-Numeric
-plm_percent
-3
-1
-Project, Land, Miscellaneous
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-sales_tax_percent
-3
-1
- 
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-100.000000
-Numeric
-plm_nonfixed
-3
-1
- 
- 
-SHW Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-installation
-3
-1
-Installation cost
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-1000.000000
-Numeric
-per_collector
-3
-1
-Collector cost
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-6.000000
-Numeric
-bos
-3
-1
-Balance of system
- 
-SHW Capital Costs
- 
-2
-1
-1
-1
-1
-4000.000000
 Numeric
 
 1574

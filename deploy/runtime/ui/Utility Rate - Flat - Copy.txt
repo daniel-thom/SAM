@@ -778,6 +778,20 @@ Electricity Rates - General
 1
 0.000000
 Numeric
+ur_en_ts_sell_rate
+3
+1
+Enable time step sell rates
+ 
+Electricity Rates - General
+ 
+1
+1
+1
+1
+1
+0.000000
+CheckBox
 ur_metering_option
 3
 1
@@ -792,20 +806,6 @@ Monthly total excess rolled over to next month bill in kWh|Monthly total excess 
 1
 0.000000
 RadioChoice
-ur_nm_yearend_sell_rate
-3
-1
-Sell rate for kWh rolled over at end of year
-$/kWh
-Electricity Rates - General
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
 ur_monthly_fixed_charge
 3
 1
@@ -825,6 +825,20 @@ ur_monthly_min_charge
 1
 Monthly minimum charge
 $
+Electricity Rates - General
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+ur_nm_yearend_sell_rate
+3
+1
+Sell rate for kWh rolled over at end of year
+$/kWh
 Electricity Rates - General
  
 2
@@ -860,20 +874,6 @@ Electricity Rates - General
 1
 0.000000
 DataArray
-ur_en_ts_sell_rate
-3
-1
-Enable time step sell rates
- 
-Electricity Rates - General
- 
-1
-1
-1
-1
-1
-0.000000
-CheckBox
 
 0
 4166

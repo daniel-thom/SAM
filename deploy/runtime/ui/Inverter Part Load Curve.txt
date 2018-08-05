@@ -1154,25 +1154,11 @@ AlignTop
 0
 
 17
-inv_pd_efficiency
-3
-2
- 
- 
-PV Inverter (Part Load Curve)
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-inv_pd_pnt
+inv_pd_ac_voltage
 3
 1
-Power consumption at night
-Wac
+Nominal AC voltage
+Vac
 PV Inverter (Part Load Curve)
  
 2
@@ -1180,35 +1166,7 @@ PV Inverter (Part Load Curve)
 1
 1
 1
-0.000000
-Numeric
-inv_pd_vdcmax
-3
-1
-Maximum DC voltage
-Vdc
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-600.000000
-Numeric
-inv_pd_idcmax
-3
-1
-Maximum DC current
-Adc
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-18.000000
+240.000000
 Numeric
 inv_pd_data
 3
@@ -1475,90 +1433,6 @@ PV Inverter (Part Load Curve)
 101.000000 96.120003 
 
 DataMatrix
-inv_pd_vdco
-3
-1
-Nominal DC voltage
-Vdc
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-310.000000
-Numeric
-inv_pd_pdco
-3
-1
-Maximum DC input power
-Wdc
-PV Inverter (Part Load Curve)
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-inv_pd_paco
-3
-1
-Maximum AC output power
-Wac
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-4000.000000
-Numeric
-inv_pd_eff_type
-3
-1
-Weighted efficiency type (0=CEC efficiency,1=European efficiency)
- 
-PV Inverter (Part Load Curve)
-CEC efficiency|European efficiency
-3
-1
-1
-1
-1
-0.000000
-RadioChoice
-inv_pd_ac_voltage
-3
-1
-Nominal AC voltage
-Vac
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-240.000000
-Numeric
-inv_pd_mppt_low
-3
-1
-Minimum MPPT DC voltage
-Vdc
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-250.000000
-Numeric
 inv_pd_data_filename
 3
 4
@@ -1571,48 +1445,6 @@ inv_pd_data_filename
 4
  
 TextEntry
-inv_pd_mppt_hi
-3
-1
-Maximum MPPT DC voltage
-Vdc
-PV Inverter (Part Load Curve)
- 
-2
-1
-1
-1
-1
-480.000000
-Numeric
-inv_pd_eff_euro
-3
-1
-European Weighted Efficiency
-%
-PV Inverter (Part Load Curve)
- 
-9
-1
-1
-1
-1
-95.000000
-Numeric
-inv_pd_partload
-3
-2
- 
- 
-PV Inverter (Part Load Curve)
- 
-8
-1
-2
-1
-1
-0.000000
-Default
 inv_pd_eff
 3
 1
@@ -1640,6 +1472,174 @@ PV Inverter (Part Load Curve)
 1
 1
 95.000000
+Numeric
+inv_pd_eff_euro
+3
+1
+European Weighted Efficiency
+%
+PV Inverter (Part Load Curve)
+ 
+9
+1
+1
+1
+1
+95.000000
+Numeric
+inv_pd_eff_type
+3
+1
+Weighted efficiency type (0=CEC efficiency,1=European efficiency)
+ 
+PV Inverter (Part Load Curve)
+CEC efficiency|European efficiency
+3
+1
+1
+1
+1
+0.000000
+RadioChoice
+inv_pd_efficiency
+3
+2
+ 
+ 
+PV Inverter (Part Load Curve)
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+inv_pd_idcmax
+3
+1
+Maximum DC current
+Adc
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+18.000000
+Numeric
+inv_pd_mppt_hi
+3
+1
+Maximum MPPT DC voltage
+Vdc
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+480.000000
+Numeric
+inv_pd_mppt_low
+3
+1
+Minimum MPPT DC voltage
+Vdc
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+250.000000
+Numeric
+inv_pd_paco
+3
+1
+Maximum AC output power
+Wac
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+4000.000000
+Numeric
+inv_pd_partload
+3
+2
+ 
+ 
+PV Inverter (Part Load Curve)
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+inv_pd_pdco
+3
+1
+Maximum DC input power
+Wdc
+PV Inverter (Part Load Curve)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inv_pd_pnt
+3
+1
+Power consumption at night
+Wac
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+inv_pd_vdcmax
+3
+1
+Maximum DC voltage
+Vdc
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+600.000000
+Numeric
+inv_pd_vdco
+3
+1
+Nominal DC voltage
+Vdc
+PV Inverter (Part Load Curve)
+ 
+2
+1
+1
+1
+1
+310.000000
 Numeric
 
 517

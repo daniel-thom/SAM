@@ -6657,328 +6657,6 @@ AlignTop
 0
 
 94
-csp.lf.geom2.diam_absorber_outer
-3
-1
-Absorber tube outer diameter
-m
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.070000
-Default
-csp.lf.geom2.var1.abs_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.960000
-Default
-csp.lf.geom2.diam_envelope_inner
-3
-1
-Glass envelope inner diameter
-m
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.115000
-Default
-csp.lf.geom2.var4.env_trans
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var2.annulus_pressure
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-750.000000
-Default
-csp.lf.geom2.var4.broken_glass
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.iaml4
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.722200
-Default
-csp.lf.geom2.track_error
-3
-1
-Tracking error
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.lf.geom2.var1.hce_dirt
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.980000
-Default
-csp.lf.geom2.var3.abs_emis
-3
-2
- 
- 
- 
- 
-0
-1
-2
-1
-1
-0.650000
-Default
-csp.lf.geom2.hlpolyt0
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var1.broken_glass
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var3.env_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var1.env_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.020000
-Default
-csp.lf.geom2.var1.field_fraction
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.985000
-Default
-csp.lf.geom2.hlpolyt3
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.iaml3
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
--1.643400
-Default
-csp.lf.geom2.var1.env_trans
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.963000
-Default
-csp.lf.geom2.var3.env_trans
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.lf.geom2.general_error
-3
-1
-General optical error
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.lf.geom2.var3.env_emis
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.lf.geom2.hlpolyt4
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var4.hce_dirt
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
 csp.lf.geom2.absorber_material
 3
 1
@@ -6993,10 +6671,24 @@ Linear Fresnel Superheater Geometry
 1
 0.000000
 Default
-csp.lf.geom2.diam_envelope_outer
+csp.lf.geom2.annulus_gas
+3
+2
+ 
+ 
+ 
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+csp.lf.geom2.aper_width
 3
 1
-Glass envelope outer diameter
+Aperture width, total structure
 m
 Linear Fresnel Superheater Geometry
  
@@ -7005,441 +6697,7 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.120000
-Default
-csp.lf.geom2.var3.field_fraction
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.005000
-Default
-csp.lf.geom2.iaml0
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.003100
-Default
-csp.lf.geom2.var1.env_emis
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.860000
-Default
-csp.lf.geom2.var3.broken_glass
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.lf.geom2.var1.rated_heat_loss
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-150.000000
-Default
-csp.lf.geom2.soiling
-3
-1
-Mirror soiling
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.950000
-Default
-csp.lf.geom2.heat_loss_at_design
-3
-1
-Heat loss at design
-W/m
-Linear Fresnel Superheater Geometry
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var4.abs_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var2.hce_dirt
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.980000
-Default
-csp.lf.geom2.var3.abs_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.800000
-Default
-csp.lf.geom2.flow_type
-3
-1
-Absorber flow pattern
- 
-Linear Fresnel Superheater Geometry
-Tube flow|Annular flow
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.hlpolyw2
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var2.gas_type
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
-Air|Argon|Hydrogen
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var3.hce_dirt
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.lf.geom2.iamt0
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.989600
-Default
-csp.lf.geom2.iamt2
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
--0.072100
-Default
-csp.lf.geom2.var4.gas_type
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
-Air|Argon|Hydrogen
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var4.env_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var2.abs_abs
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.960000
-Default
-csp.lf.geom2.var3.gas_type
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
-Air|Argon|Hydrogen
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var3.bellows_shadowing
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.960000
-Default
-csp.lf.geom2.var4.field_fraction
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var4.abs_emis
-3
-2
- 
- 
- 
- 
-0
-1
-2
-1
-1
-0.138400
-Default
-csp.lf.geom2.var1.gas_type
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
-Air|Argon|Hydrogen
-2
-1
-1
-1
-1
-2.000000
-Default
-csp.lf.geom2.rec_optical_derate
-3
-1
-Receiver optical derate
- 
-Linear Fresnel Superheater Geometry
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var1.annulus_pressure
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000100
-Default
-csp.lf.geom2.iaml2
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.536800
-Default
-csp.lf.geom2.opt_mode
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.var2.bellows_shadowing
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.960000
-Default
-csp.lf.geom2.mirror_refl
-3
-1
-Mirror reflectivity
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.935000
-Default
-csp.lf.geom2.var4.annulus_pressure
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
+16.559999
 Default
 csp.lf.geom2.avg_field_temp_dt_design
 3
@@ -7455,34 +6713,6 @@ Linear Fresnel Superheater Geometry
 1
 0.000000
 Default
-csp.lf.geom2.var2.env_trans
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.963000
-Default
-csp.lf.geom2.hlpolyt1
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.672000
-Default
 csp.lf.geom2.coll_length
 3
 1
@@ -7496,6 +6726,160 @@ Linear Fresnel Superheater Geometry
 1
 1
 44.799999
+Default
+csp.lf.geom2.coll_opt_loss_norm_inc
+3
+1
+Collector optical loss at normal incidence
+ 
+Linear Fresnel Superheater Geometry
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.diam_absorber_inner
+3
+1
+Absorber tube inner diameter
+m
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.066000
+Default
+csp.lf.geom2.diam_absorber_outer
+3
+1
+Absorber tube outer diameter
+m
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.070000
+Default
+csp.lf.geom2.diam_absorber_plug
+3
+1
+Absorber flow plug diameter
+m
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.diam_envelope_inner
+3
+1
+Glass envelope inner diameter
+m
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.115000
+Default
+csp.lf.geom2.diam_envelope_outer
+3
+1
+Glass envelope outer diameter
+m
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.120000
+Default
+csp.lf.geom2.flow_type
+3
+1
+Absorber flow pattern
+ 
+Linear Fresnel Superheater Geometry
+Tube flow|Annular flow
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.general_error
+3
+1
+General optical error
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.geom_error
+3
+1
+Geometry effects
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.724000
+Default
+csp.lf.geom2.glazing_intact
+3
+2
+ 
+ 
+ 
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+csp.lf.geom2.heat_loss_at_design
+3
+1
+Heat loss at design
+W/m
+Linear Fresnel Superheater Geometry
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 csp.lf.geom2.hl_mode
 3
@@ -7511,7 +6895,105 @@ Polynomial heat loss model|Evacuated tube model
 1
 0.000000
 Default
-csp.lf.geom2.iamt4
+csp.lf.geom2.hlpolyt0
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.hlpolyt1
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.672000
+Default
+csp.lf.geom2.hlpolyt2
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.002556
+Default
+csp.lf.geom2.hlpolyt3
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.hlpolyt4
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.hlpolyw0
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.hlpolyw1
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.hlpolyw2
 3
 1
  
@@ -7539,20 +7021,6 @@ Linear Fresnel Superheater Geometry
 1
 0.000000
 Default
-csp.lf.geom2.var2.env_emis
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.860000
-Default
 csp.lf.geom2.hlpolyw4
 3
 1
@@ -7567,7 +7035,7 @@ Linear Fresnel Superheater Geometry
 1
 0.000000
 Default
-csp.lf.geom2.var2.broken_glass
+csp.lf.geom2.iaml0
 3
 1
  
@@ -7579,133 +7047,7 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.000000
-Default
-csp.lf.geom2.diam_absorber_inner
-3
-1
-Absorber tube inner diameter
-m
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.066000
-Default
-csp.lf.geom2.inner_roughness
-3
-1
-Internal surface roughness
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000045
-Default
-csp.lf.geom2.var1.bellows_shadowing
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.960000
-Default
-csp.lf.geom2.var3.rated_heat_loss
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1500.000000
-Default
-csp.lf.geom2.var4.env_emis
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.aper_width
-3
-1
-Aperture width, total structure
-m
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-16.559999
-Default
-csp.lf.geom2.refl_aper_area
-3
-1
-Reflective aperture area
-m²
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-513.599976
-Default
-csp.lf.geom2.var2.rated_heat_loss
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-1100.000000
-Default
-csp.lf.geom2.var1.abs_emis
-3
-2
- 
- 
- 
- 
-0
-1
-2
-1
-1
-0.138400
+1.003100
 Default
 csp.lf.geom2.iaml1
 3
@@ -7721,7 +7063,7 @@ Linear Fresnel Superheater Geometry
 1
 -0.225900
 Default
-csp.lf.geom2.hlpolyt2
+csp.lf.geom2.iaml2
 3
 1
  
@@ -7733,7 +7075,49 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.002556
+0.536800
+Default
+csp.lf.geom2.iaml3
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+-1.643400
+Default
+csp.lf.geom2.iaml4
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.722200
+Default
+csp.lf.geom2.iamt0
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.989600
 Default
 csp.lf.geom2.iamt1
 3
@@ -7749,7 +7133,35 @@ Linear Fresnel Superheater Geometry
 1
 0.044000
 Default
-csp.lf.geom2.hlpolyw1
+csp.lf.geom2.iamt2
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+-0.072100
+Default
+csp.lf.geom2.iamt3
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+-0.232700
+Default
+csp.lf.geom2.iamt4
 3
 1
  
@@ -7763,10 +7175,10 @@ Linear Fresnel Superheater Geometry
 1
 0.000000
 Default
-csp.lf.geom2.var2.field_fraction
+csp.lf.geom2.inner_roughness
 3
 1
- 
+Internal surface roughness
  
 Linear Fresnel Superheater Geometry
  
@@ -7775,12 +7187,12 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.010000
+0.000045
 Default
-csp.lf.geom2.geom_error
+csp.lf.geom2.mirror_refl
 3
 1
-Geometry effects
+Mirror reflectivity
  
 Linear Fresnel Superheater Geometry
  
@@ -7789,56 +7201,26 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.724000
+0.935000
 Default
-csp.lf.geom2.var3.annulus_pressure
+csp.lf.geom2.opt_mode
 3
 1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-750.000000
-Default
-csp.lf.geom2.var4.rated_heat_loss
-3
-1
- 
- 
-Linear Fresnel Superheater Geometry
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.lf.geom2.solpos_collinc_table
-3
-3
  
  
 Linear Fresnel Superheater Geometry
  
 0
 1
-3
-2
-2
-0.000000 0.000000 
-0.000000 0.000000 
-
-DataMatrix
-csp.lf.geom2.coll_opt_loss_norm_inc
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.rec_optical_derate
 3
 1
-Collector optical loss at normal incidence
+Receiver optical derate
  
 Linear Fresnel Superheater Geometry
  
@@ -7863,7 +7245,65 @@ Linear Fresnel Superheater Geometry
 1
 0.000000
 Default
-csp.lf.geom2.iamt3
+csp.lf.geom2.refl_aper_area
+3
+1
+Reflective aperture area
+m²
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+513.599976
+Default
+csp.lf.geom2.soiling
+3
+1
+Mirror soiling
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.950000
+Default
+csp.lf.geom2.solpos_collinc_table
+3
+3
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+0
+1
+3
+2
+2
+0.000000 0.000000 
+0.000000 0.000000 
+
+DataMatrix
+csp.lf.geom2.track_error
+3
+1
+Tracking error
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.var1.abs_abs
 3
 1
  
@@ -7875,9 +7315,65 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
--0.232700
+0.960000
 Default
-csp.lf.geom2.var2.env_abs
+csp.lf.geom2.var1.abs_emis
+3
+2
+ 
+ 
+ 
+ 
+0
+1
+2
+1
+1
+0.138400
+Default
+csp.lf.geom2.var1.annulus_pressure
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000100
+Default
+csp.lf.geom2.var1.bellows_shadowing
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.960000
+Default
+csp.lf.geom2.var1.broken_glass
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var1.env_abs
 3
 1
  
@@ -7891,11 +7387,11 @@ Linear Fresnel Superheater Geometry
 1
 0.020000
 Default
-csp.lf.geom2.diam_absorber_plug
+csp.lf.geom2.var1.env_emis
 3
 1
-Absorber flow plug diameter
-m
+ 
+ 
 Linear Fresnel Superheater Geometry
  
 2
@@ -7903,9 +7399,9 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.000000
+0.860000
 Default
-csp.lf.geom2.hlpolyw0
+csp.lf.geom2.var1.env_trans
 3
 1
  
@@ -7917,9 +7413,9 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-1.000000
+0.963000
 Default
-csp.lf.geom2.var4.bellows_shadowing
+csp.lf.geom2.var1.field_fraction
 3
 1
  
@@ -7931,7 +7427,63 @@ Linear Fresnel Superheater Geometry
 1
 1
 1
-0.000000
+0.985000
+Default
+csp.lf.geom2.var1.gas_type
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+Air|Argon|Hydrogen
+2
+1
+1
+1
+1
+2.000000
+Default
+csp.lf.geom2.var1.hce_dirt
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.980000
+Default
+csp.lf.geom2.var1.rated_heat_loss
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+150.000000
+Default
+csp.lf.geom2.var2.abs_abs
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.960000
 Default
 csp.lf.geom2.var2.abs_emis
 3
@@ -7947,30 +7499,478 @@ csp.lf.geom2.var2.abs_emis
 1
 0.650000
 Default
-csp.lf.geom2.annulus_gas
+csp.lf.geom2.var2.annulus_pressure
 3
-2
- 
- 
- 
- 
-8
 1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
 2
+1
+1
+1
+1
+750.000000
+Default
+csp.lf.geom2.var2.bellows_shadowing
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.960000
+Default
+csp.lf.geom2.var2.broken_glass
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
 1
 1
 0.000000
 Default
-csp.lf.geom2.glazing_intact
+csp.lf.geom2.var2.env_abs
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.020000
+Default
+csp.lf.geom2.var2.env_emis
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.860000
+Default
+csp.lf.geom2.var2.env_trans
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.963000
+Default
+csp.lf.geom2.var2.field_fraction
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.010000
+Default
+csp.lf.geom2.var2.gas_type
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+Air|Argon|Hydrogen
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var2.hce_dirt
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.980000
+Default
+csp.lf.geom2.var2.rated_heat_loss
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1100.000000
+Default
+csp.lf.geom2.var3.abs_abs
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.800000
+Default
+csp.lf.geom2.var3.abs_emis
 3
 2
  
  
  
  
-8
+0
 1
 2
+1
+1
+0.650000
+Default
+csp.lf.geom2.var3.annulus_pressure
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+750.000000
+Default
+csp.lf.geom2.var3.bellows_shadowing
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.960000
+Default
+csp.lf.geom2.var3.broken_glass
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.var3.env_abs
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var3.env_emis
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.var3.env_trans
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.var3.field_fraction
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.005000
+Default
+csp.lf.geom2.var3.gas_type
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+Air|Argon|Hydrogen
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var3.hce_dirt
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.geom2.var3.rated_heat_loss
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+1500.000000
+Default
+csp.lf.geom2.var4.abs_abs
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.abs_emis
+3
+2
+ 
+ 
+ 
+ 
+0
+1
+2
+1
+1
+0.138400
+Default
+csp.lf.geom2.var4.annulus_pressure
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.bellows_shadowing
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.broken_glass
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.env_abs
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.env_emis
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.env_trans
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.field_fraction
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.gas_type
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+Air|Argon|Hydrogen
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.hce_dirt
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.lf.geom2.var4.rated_heat_loss
+3
+1
+ 
+ 
+Linear Fresnel Superheater Geometry
+ 
+2
+1
+1
 1
 1
 0.000000

@@ -919,200 +919,6 @@ TabOrder
 12
 
 33
-lib_ConcFac
-3
-1
-Library Concentrator Factor
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-GeoAcc
-3
-1
-Geometric Accuracy
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-0.980000
-Numeric
-MirRef
-3
-1
-Mirror Reflectance
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-0.935000
-Numeric
-lib_SfAvail
-3
-1
-Library Solar Field Availability
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ConcFac
-3
-1
-Concentrator Factor
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-1.000000
-Numeric
-TrkTwstErr
-3
-1
-Tracking Error and Twist
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-0.994000
-Numeric
-IamF0
-3
-1
-Incidence Angle Modifier Coef. F0
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-1.000000
-Numeric
-sca_library
-3
-4
- 
- 
-Empirical Trough SCA
-Empirical Trough SCAs|0
-17
-1
-4
-Solargenix SGX-1
-Library
-lib_GeoAcc
-3
-1
-Library Geometric Accuracy
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ScaLen
-3
-1
-SCA Length
-m
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-100.000000
-Numeric
-ui_sca_aperture_area
-3
-1
-SCA Aperture Reflective Area
-m2
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-470.299988
-Numeric
-lib_SCA_aper
-3
-1
-Library SCA Aperture
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-RefMirrAper
-3
-2
- 
- 
- 
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-lib_ui_sca_aperture_area
-3
-1
-Library Aperture Reflective Area
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 Ave_Focal_Length
 3
 1
@@ -1127,234 +933,24 @@ Empirical Trough SCA HCE
 1
 1.800000
 Numeric
-lib_ScaLen
+ConcFac
 3
 1
-Library SCA Length
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-lib_IamF0
-3
-1
-Library IAM F0
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-MirCln
-3
-1
-Mirror Cleanliness Factor (avg)
+Concentrator Factor
  
 Empirical Trough SCA HCE
  
 2
-1
-1
-1
-1
-0.950000
-Numeric
-lib_MirCln
-3
-1
-Library Mirror Cleanliness Factor (avg)
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-IamF1
-3
-1
-Incidence Angle Modifier Coef. F1
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-0.050600
-Numeric
-SfAvail
-3
-1
-Solar Field Availability
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-0.990000
-Numeric
-IamF2
-3
-1
-Incidence Angle Modifier Coef. F2
- 
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
--0.176300
-Numeric
-lib_MirRef
-3
-1
-Library Mirror Reflectance
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-use_sca_library_values
-3
-1
-Use library values
- 
- 
- 
-0
 1
 1
 1
 1
 1.000000
-CheckBox
-SCA_aper
-3
-1
-SCA Aperture
-m
-Empirical Trough SCA HCE
- 
-2
-1
-1
-1
-1
-5.000000
 Numeric
-lib_IamF2
+GeoAcc
 3
 1
-Library IAM F2
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-calc_col_factor
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-lib_TrkTwstErr
-3
-1
-Library Tacking Error and Twist
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-lib_HCEdust
-3
-1
-LIbrary Dust on Envelope (avg)
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-lib_IamF1
-3
-1
-Library IAM F1
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-lib_Ave_Focal_Length
-3
-1
-Library Average Focal Length
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ui_HCEdust
-3
-1
-Dust on Envelope (avg)
+Geometric Accuracy
  
 Empirical Trough SCA HCE
  
@@ -1380,6 +976,410 @@ HCEdust
 0.980000 0.980000 0.980000 0.980000 
 
 Default
+IamF0
+3
+1
+Incidence Angle Modifier Coef. F0
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+1.000000
+Numeric
+IamF1
+3
+1
+Incidence Angle Modifier Coef. F1
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+0.050600
+Numeric
+IamF2
+3
+1
+Incidence Angle Modifier Coef. F2
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+-0.176300
+Numeric
+MirCln
+3
+1
+Mirror Cleanliness Factor (avg)
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+0.950000
+Numeric
+MirRef
+3
+1
+Mirror Reflectance
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+0.935000
+Numeric
+RefMirrAper
+3
+2
+ 
+ 
+ 
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+SCA_aper
+3
+1
+SCA Aperture
+m
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+5.000000
+Numeric
+ScaLen
+3
+1
+SCA Length
+m
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+100.000000
+Numeric
+SfAvail
+3
+1
+Solar Field Availability
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+0.990000
+Numeric
+TrkTwstErr
+3
+1
+Tracking Error and Twist
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+0.994000
+Numeric
+calc_col_factor
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_Ave_Focal_Length
+3
+1
+Library Average Focal Length
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_ConcFac
+3
+1
+Library Concentrator Factor
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_GeoAcc
+3
+1
+Library Geometric Accuracy
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_HCEdust
+3
+1
+LIbrary Dust on Envelope (avg)
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_IamF0
+3
+1
+Library IAM F0
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_IamF1
+3
+1
+Library IAM F1
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_IamF2
+3
+1
+Library IAM F2
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_MirCln
+3
+1
+Library Mirror Cleanliness Factor (avg)
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_MirRef
+3
+1
+Library Mirror Reflectance
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_SCA_aper
+3
+1
+Library SCA Aperture
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_ScaLen
+3
+1
+Library SCA Length
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_SfAvail
+3
+1
+Library Solar Field Availability
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_TrkTwstErr
+3
+1
+Library Tacking Error and Twist
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lib_ui_sca_aperture_area
+3
+1
+Library Aperture Reflective Area
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+sca_library
+3
+4
+ 
+ 
+Empirical Trough SCA
+Empirical Trough SCAs|0
+17
+1
+4
+Solargenix SGX-1
+Library
+ui_HCEdust
+3
+1
+Dust on Envelope (avg)
+ 
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+0.980000
+Numeric
+ui_sca_aperture_area
+3
+1
+SCA Aperture Reflective Area
+m2
+Empirical Trough SCA HCE
+ 
+2
+1
+1
+1
+1
+470.299988
+Numeric
+use_sca_library_values
+3
+1
+Use library values
+ 
+ 
+ 
+0
+1
+1
+1
+1
+1.000000
+CheckBox
 
 412
 equations{ 'calc_col_factor' } = define() {

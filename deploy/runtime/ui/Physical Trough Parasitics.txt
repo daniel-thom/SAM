@@ -1346,48 +1346,6 @@ AlignTop
 0
 
 21
-csp.dtr.par.calc.bop
-3
-1
-BOP
-MWe
-Physical Trough Parasitics
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-pb_pump_coef
-3
-1
-Required pumping power for HTF through power block
-kJ/kg
-Physical Trough Parasitics
- 
-2
-1
-1
-1
-1
-0.550000
-Numeric
-tes_pump_coef
-3
-1
-Required pumping power for HTF through storage
-kJ/kg
-Physical Trough Parasitics
- 
-2
-1
-1
-1
-1
-0.150000
-Numeric
 Pipe_hl_coef
 3
 1
@@ -1401,104 +1359,6 @@ Physical Trough Parasitics
 1
 1
 0.250000
-Numeric
-aux_array
-3
-2
-Coefficients for auxiliary heater parasitics calcs
- 
-Physical Trough Parasitics
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-csp.dtr.par.calc.aux
-3
-1
-Aux
-MWe
-Physical Trough Parasitics
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-csp.dtr.par.aux_c0
-3
-1
-Aux heater parasitic coeff 0
- 
-Physical Trough Parasitics
- 
-3
-1
-1
-1
-1
-0.483000
-Numeric
-csp.dtr.par.bop_val
-3
-1
-BOP parasitic value
-MWe/MWcap
-Physical Trough Parasitics
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-csp.dtr.par.calc.tracking
-3
-1
-Tracking
-W
-Physical Trough Parasitics
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-bop_array
-3
-2
-Coefficients for balance of plant parasitics calcs
- 
-Physical Trough Parasitics
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-pb_fixed_par
-3
-1
-Fraction of rated gross power consumed at all times
- 
-Physical Trough Parasitics
- 
-2
-1
-1
-1
-1
-0.005500
 Numeric
 SCA_drives_elec
 3
@@ -1514,10 +1374,38 @@ Physical Trough Parasitics
 1
 125.000000
 Numeric
-csp.dtr.par.bop_c0
+aux_array
+3
+2
+Coefficients for auxiliary heater parasitics calcs
+ 
+Physical Trough Parasitics
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+bop_array
+3
+2
+Coefficients for balance of plant parasitics calcs
+ 
+Physical Trough Parasitics
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+csp.dtr.par.aux_c0
 3
 1
-BOP parasitic coeff 0
+Aux heater parasitic coeff 0
  
 Physical Trough Parasitics
  
@@ -1528,66 +1416,10 @@ Physical Trough Parasitics
 1
 0.483000
 Numeric
-csp.dtr.par.calc.frac_gross
-3
-1
-Fixed
-MWe
-Physical Trough Parasitics
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-csp.dtr.par.bop_c2
-3
-1
-BOP parasitic coeff 2
- 
-Physical Trough Parasitics
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 csp.dtr.par.aux_c1
 3
 1
 Aux heater parasitic coeff 1
- 
-Physical Trough Parasitics
- 
-3
-1
-1
-1
-1
-0.517000
-Numeric
-csp.dtr.par.bop_pf
-3
-1
-BOP parasitic factor
- 
-Physical Trough Parasitics
- 
-3
-1
-1
-1
-1
-1.000000
-Numeric
-csp.dtr.par.bop_c1
-3
-1
-BOP parasitic coeff 1
  
 Physical Trough Parasitics
  
@@ -1639,6 +1471,174 @@ Physical Trough Parasitics
 1
 1
 0.022730
+Numeric
+csp.dtr.par.bop_c0
+3
+1
+BOP parasitic coeff 0
+ 
+Physical Trough Parasitics
+ 
+3
+1
+1
+1
+1
+0.483000
+Numeric
+csp.dtr.par.bop_c1
+3
+1
+BOP parasitic coeff 1
+ 
+Physical Trough Parasitics
+ 
+3
+1
+1
+1
+1
+0.517000
+Numeric
+csp.dtr.par.bop_c2
+3
+1
+BOP parasitic coeff 2
+ 
+Physical Trough Parasitics
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+csp.dtr.par.bop_pf
+3
+1
+BOP parasitic factor
+ 
+Physical Trough Parasitics
+ 
+3
+1
+1
+1
+1
+1.000000
+Numeric
+csp.dtr.par.bop_val
+3
+1
+BOP parasitic value
+MWe/MWcap
+Physical Trough Parasitics
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+csp.dtr.par.calc.aux
+3
+1
+Aux
+MWe
+Physical Trough Parasitics
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+csp.dtr.par.calc.bop
+3
+1
+BOP
+MWe
+Physical Trough Parasitics
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+csp.dtr.par.calc.frac_gross
+3
+1
+Fixed
+MWe
+Physical Trough Parasitics
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+csp.dtr.par.calc.tracking
+3
+1
+Tracking
+W
+Physical Trough Parasitics
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+pb_fixed_par
+3
+1
+Fraction of rated gross power consumed at all times
+ 
+Physical Trough Parasitics
+ 
+2
+1
+1
+1
+1
+0.005500
+Numeric
+pb_pump_coef
+3
+1
+Required pumping power for HTF through power block
+kJ/kg
+Physical Trough Parasitics
+ 
+2
+1
+1
+1
+1
+0.550000
+Numeric
+tes_pump_coef
+3
+1
+Required pumping power for HTF through storage
+kJ/kg
+Physical Trough Parasitics
+ 
+2
+1
+1
+1
+1
+0.150000
 Numeric
 
 983

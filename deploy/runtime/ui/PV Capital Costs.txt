@@ -5041,6 +5041,146 @@ AlignTop
 0
 
 63
+battery_energy
+3
+1
+Battery bank
+kWh dc
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+battery_per_kWh
+3
+1
+Battery cost per kWh
+$/kWh
+Capital Costs
+ 
+3
+1
+1
+1
+1
+600.000000
+Numeric
+battery_total
+3
+1
+Total battery cost
+$
+Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+bos_equip_fixed
+3
+1
+Balance of system equipment, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+bos_equip_perarea
+3
+1
+Balance of system equipment, area
+$/m2
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+bos_equip_perwatt
+3
+1
+Balance of system equipment, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+bos_equip_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+contingency
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+contingency_percent
+3
+1
+Contingency
+% of direct costs
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+engr_fixed
+3
+1
+Engineering, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
 engr_per_watt
 3
 1
@@ -5049,6 +5189,258 @@ $/Wdc
 Capital Costs
  
 3
+1
+1
+1
+1
+0.000000
+Numeric
+engr_percent
+3
+1
+Engineering, percent of direct cost
+%
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+engr_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+grid_fixed
+3
+1
+Grid interconnection, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+grid_per_watt
+3
+1
+Grid interconnection, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+grid_percent
+3
+1
+Grid interconnection, percent of direct cost
+%
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+grid_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+install_labor_fixed
+3
+1
+Installation labor, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+install_labor_perarea
+3
+1
+Installation labor, area
+$/m2
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+install_labor_perwatt
+3
+1
+Installation labor, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+install_labor_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+install_margin_fixed
+3
+1
+Installer margin and overhead, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+install_margin_perarea
+3
+1
+Installer margin and overhead, area
+$/m2
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+install_margin_perwatt
+3
+1
+Installer margin and overhead, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+install_margin_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+installed_per_capacity
+3
+1
+Total installed cost per capacity
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inverter_costunits
+3
+1
+Inverter cost units
+0=$/Wac,1=$/Wdc,2=$/Unit
+Capital Costs
+$/Wac|$/Wdc|$/Unit
+1
+1
+1
+1
+1
+0.000000
+Choice
+inverter_num_units
+3
+1
+Inverter
+units
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inverter_power
+3
+1
+ 
+kWac/unit
+Capital Costs
+ 
+8
 1
 1
 1
@@ -5069,6 +5461,286 @@ Capital Costs
 1
 0.000000
 Numeric
+inverterarray_power
+3
+1
+ 
+kWac
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+land_area_value
+3
+1
+Land area
+acres
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+land_fixed
+3
+1
+Land, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+land_per_acre
+3
+1
+Land, per acre
+$/acre
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+land_per_watt
+3
+1
+Land, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+land_percent
+3
+1
+Land, percent of direct cost
+%
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+land_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+landprep_fixed
+3
+1
+Land preparation, fixed
+$
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+landprep_per_acre
+3
+1
+Land preparation, per acre
+$/acre
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+landprep_per_watt
+3
+1
+Land preparation, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+landprep_percent
+3
+1
+Land preparation, percent of direct cost
+%
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+landprep_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+module_costunits
+3
+1
+Module cost units
+0=$/Wdc,1=$/Unit
+Capital Costs
+$/Wdc|$/Unit
+1
+1
+1
+1
+1
+0.000000
+Choice
+module_num_units
+3
+1
+Module
+units
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+module_power
+3
+1
+ 
+kWdc/unit
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+module_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+modulearray_area
+3
+1
+ 
+m2
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+modulearray_power
+3
+1
+ 
+kWdc
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+per_inverter
+3
+1
+Inverter Cost
+$/Wac or $/Unit
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.710000
+Numeric
+per_module
+3
+1
+Module Cost
+$/Wdc or $/Unit
+Capital Costs
+ 
+3
+1
+1
+1
+1
+4.840000
+Numeric
 permitting_fixed
 3
 1
@@ -5083,6 +5755,132 @@ Capital Costs
 1
 0.000000
 Numeric
+permitting_per_watt
+3
+1
+Permitting, capacity
+$/Wdc
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+permitting_percent
+3
+1
+Permitting, percent of direct cost
+%
+Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+permitting_total
+3
+1
+Permitting, Environmental Studies
+$
+Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+sales_tax_percent
+3
+1
+Sales tax basis, percent of direct cost
+%
+Capital Costs
+ 
+2
+1
+1
+1
+1
+100.000000
+Numeric
+sales_tax_total
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sales_tax_value
+3
+1
+Sales tax rate
+%
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+subtotal_direct
+3
+1
+Subtotal
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_lifetime_output
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 total_direct_cost
 3
 1
@@ -5111,734 +5909,6 @@ Capital Costs
 1
 0.000000
 Numeric
-system_use_recapitalization
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-inverter_power
-3
-1
- 
-kWac/unit
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-inverterarray_power
-3
-1
- 
-kWac
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-per_inverter
-3
-1
-Inverter Cost
-$/Wac or $/Unit
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.710000
-Numeric
-sales_tax_percent
-3
-1
-Sales tax basis, percent of direct cost
-%
-Capital Costs
- 
-2
-1
-1
-1
-1
-100.000000
-Numeric
-module_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-engr_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-battery_energy
-3
-1
-Battery bank
-kWh dc
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-permitting_per_watt
-3
-1
-Permitting, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-sales_tax_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-permitting_total
-3
-1
-Permitting, Environmental Studies
-$
-Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-subtotal_direct
-3
-1
-Subtotal
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-engr_percent
-3
-1
-Engineering, percent of direct cost
-%
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-inverter_costunits
-3
-1
-Inverter cost units
-0=$/Wac,1=$/Wdc,2=$/Unit
-Capital Costs
-$/Wac|$/Wdc|$/Unit
-1
-1
-1
-1
-1
-0.000000
-Choice
-engr_fixed
-3
-1
-Engineering, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-grid_fixed
-3
-1
-Grid interconnection, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-system_use_lifetime_output
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-install_margin_fixed
-3
-1
-Installer margin and overhead, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-install_margin_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-inverter_num_units
-3
-1
-Inverter
-units
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-land_per_watt
-3
-1
-Land, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-modulearray_power
-3
-1
- 
-kWdc
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-landprep_fixed
-3
-1
-Land preparation, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-install_labor_perarea
-3
-1
-Installation labor, area
-$/m2
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-contingency_percent
-3
-1
-Contingency
-% of direct costs
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-landprep_per_acre
-3
-1
-Land preparation, per acre
-$/acre
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-sales_tax_value
-3
-1
-Sales tax rate
-%
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-contingency
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-grid_per_watt
-3
-1
-Grid interconnection, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-bos_equip_perarea
-3
-1
-Balance of system equipment, area
-$/m2
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-landprep_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-install_margin_perarea
-3
-1
-Installer margin and overhead, area
-$/m2
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-landprep_percent
-3
-1
-Land preparation, percent of direct cost
-%
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-land_area_value
-3
-1
-Land area
-acres
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-module_power
-3
-1
- 
-kWdc/unit
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-battery_per_kWh
-3
-1
-Battery cost per kWh
-$/kWh
-Capital Costs
- 
-3
-1
-1
-1
-1
-600.000000
-Numeric
-install_labor_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-bos_equip_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-grid_percent
-3
-1
-Grid interconnection, percent of direct cost
-%
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-permitting_percent
-3
-1
-Permitting, percent of direct cost
-%
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-battery_total
-3
-1
-Total battery cost
-$
-Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-install_labor_fixed
-3
-1
-Installation labor, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-bos_equip_perwatt
-3
-1
-Balance of system equipment, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-land_percent
-3
-1
-Land, percent of direct cost
-%
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-installed_per_capacity
-3
-1
-Total installed cost per capacity
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-land_fixed
-3
-1
-Land, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-landprep_per_watt
-3
-1
-Land preparation, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-install_margin_perwatt
-3
-1
-Installer margin and overhead, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-land_per_acre
-3
-1
-Land, per acre
-$/acre
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-bos_equip_fixed
-3
-1
-Balance of system equipment, fixed
-$
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-modulearray_area
-3
-1
- 
-m2
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-grid_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
 total_installed_cost
 3
 1
@@ -5853,76 +5923,6 @@ Capital Costs
 1
 0.000000
 Numeric
-install_labor_perwatt
-3
-1
-Installation labor, capacity
-$/Wdc
-Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-module_num_units
-3
-1
-Module
-units
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-land_total
-3
-1
- 
- 
-Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-per_module
-3
-1
-Module Cost
-$/Wdc or $/Unit
-Capital Costs
- 
-3
-1
-1
-1
-1
-4.840000
-Numeric
-module_costunits
-3
-1
-Module cost units
-0=$/Wdc,1=$/Unit
-Capital Costs
-$/Wdc|$/Unit
-1
-1
-1
-1
-1
-0.000000
-Choice
 
 5660
 

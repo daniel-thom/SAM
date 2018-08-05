@@ -3378,39 +3378,78 @@ AlignTop
 0
 
 40
-subarray4_soiling
+acwiring_loss
 3
+1
+AC wiring
+%
+Losses
+ 
 2
-Monthly soiling losses array 4
+1
+1
+1
+1
+1.000000
+Numeric
+adjust
+3
+5
+Performance adjustment losses
  
 Losses
  
-3
 1
-2
 1
-12
-5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
-
-MonthlyFactor
-transformer_rating
-3
+5
 1
-Transformer rating
-kVA
-Losses
- 
 0
+LossAdjustment
+dc_adjust
+3
+5
+DC performance adjustment losses
+ 
+Losses
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+dcoptimizer_loss
+3
+1
+DC power optimizer loss
+%
+Losses
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+subarray1_dcloss
+3
+1
+Total DC power loss 1
+%
+Losses
+ 
+9
 1
 1
 1
 1
 0.000000
 Numeric
-subarray4_dcwiring_loss
+subarray1_dcwiring_loss
 3
 1
-DC wiring loss 4
+DC wiring loss 1
 %
 Losses
  
@@ -3421,25 +3460,24 @@ Losses
 1
 2.000000
 Numeric
-subarray2_soiling
+subarray1_diodeconn_loss
 3
-2
-Monthly soiling losses 2
- 
+1
+Diodes and connections loss 1
+%
 Losses
  
 3
 1
-2
 1
-12
-5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
-
-MonthlyFactor
-subarray2_mismatch_loss
+1
+1
+0.500000
+Numeric
+subarray1_mismatch_loss
 3
 1
-Module mismatch loss 2
+Module mismatch loss 1
 %
 Losses
  
@@ -3464,37 +3502,39 @@ Losses
 1
 0.000000
 Numeric
-subarray1_tracking_loss
+subarray1_soiling
 3
-1
-Tracking error loss 1
-%
+2
+Monthly soiling losses 1
+ 
 Losses
  
 3
+1
+2
+1
+12
+5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
+
+MonthlyFactor
+subarray1_soiling_annual_average
+3
+1
+Average annual soiling 1
+%
+Losses
+ 
+9
 1
 1
 1
 1
 0.000000
 Numeric
-dc_adjust
-3
-5
-DC performance adjustment losses
- 
-Losses
- 
-1
-1
-5
-1
-0
-LossAdjustment
-subarray3_tracking_loss
+subarray1_tracking_loss
 3
 1
-Tracking error loss 3
+Tracking error loss 1
 %
 Losses
  
@@ -3519,10 +3559,24 @@ Losses
 1
 0.000000
 Numeric
-subarray1_diodeconn_loss
+subarray2_dcwiring_loss
 3
 1
-Diodes and connections loss 1
+DC wiring loss 2
+%
+Losses
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
+subarray2_diodeconn_loss
+3
+1
+Diodes and connections loss 2
 %
 Losses
  
@@ -3533,6 +3587,49 @@ Losses
 1
 0.500000
 Numeric
+subarray2_mismatch_loss
+3
+1
+Module mismatch loss 2
+%
+Losses
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
+subarray2_nameplate_loss
+3
+1
+Nameplate loss 2
+%
+Losses
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+subarray2_soiling
+3
+2
+Monthly soiling losses 2
+ 
+Losses
+ 
+3
+1
+2
+1
+12
+5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
+
+MonthlyFactor
 subarray2_soiling_annual_average
 3
 1
@@ -3541,6 +3638,90 @@ Average annual soiling 2
 Losses
  
 9
+1
+1
+1
+1
+0.000000
+Numeric
+subarray2_tracking_loss
+3
+1
+Tracking error loss 2
+%
+Losses
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+subarray3_dcloss
+3
+1
+Total DC power loss 3
+%
+Losses
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+subarray3_dcwiring_loss
+3
+1
+DC wiring loss 3
+%
+Losses
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
+subarray3_diodeconn_loss
+3
+1
+Diodes and connections loss 3
+%
+Losses
+ 
+3
+1
+1
+1
+1
+0.500000
+Numeric
+subarray3_mismatch_loss
+3
+1
+Module mismatch loss 3
+%
+Losses
+ 
+3
+1
+1
+1
+1
+2.000000
+Numeric
+subarray3_nameplate_loss
+3
+1
+Nameplate loss 3
+%
+Losses
+ 
+3
 1
 1
 1
@@ -3562,10 +3743,24 @@ Losses
 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
 
 MonthlyFactor
-subarray2_dcwiring_loss
+subarray3_soiling_annual_average
 3
 1
-DC wiring loss 2
+Average annual soiling 3
+%
+Losses
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+subarray3_tracking_loss
+3
+1
+Tracking error loss 3
 %
 Losses
  
@@ -3574,7 +3769,7 @@ Losses
 1
 1
 1
-2.000000
+0.000000
 Numeric
 subarray4_dcloss
 3
@@ -3590,37 +3785,10 @@ Losses
 1
 0.000000
 Numeric
-adjust
-3
-5
-Performance adjustment losses
- 
-Losses
- 
-1
-1
-5
-1
-0
-LossAdjustment
-transformer_no_load_loss
+subarray4_dcwiring_loss
 3
 1
-Transformer no load loss
-%
-Losses
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-subarray1_dcwiring_loss
-3
-1
-DC wiring loss 1
+DC wiring loss 4
 %
 Losses
  
@@ -3659,10 +3827,10 @@ Losses
 1
 2.000000
 Numeric
-subarray2_nameplate_loss
+subarray4_nameplate_loss
 3
 1
-Nameplate loss 2
+Nameplate loss 4
 %
 Losses
  
@@ -3673,24 +3841,25 @@ Losses
 1
 0.000000
 Numeric
-subarray3_diodeconn_loss
+subarray4_soiling
 3
-1
-Diodes and connections loss 3
-%
+2
+Monthly soiling losses array 4
+ 
 Losses
  
 3
 1
+2
 1
-1
-1
-0.500000
-Numeric
-subarray1_dcloss
+12
+5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
+
+MonthlyFactor
+subarray4_soiling_annual_average
 3
 1
-Total DC power loss 1
+Average annual soiling 4
 %
 Losses
  
@@ -3715,48 +3884,6 @@ Losses
 1
 0.000000
 Numeric
-subarray3_dcwiring_loss
-3
-1
-DC wiring loss 3
-%
-Losses
- 
-3
-1
-1
-1
-1
-2.000000
-Numeric
-subarray4_nameplate_loss
-3
-1
-Nameplate loss 4
-%
-Losses
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-subarray3_nameplate_loss
-3
-1
-Nameplate loss 3
-%
-Losses
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 transformer_load_loss
 3
 1
@@ -3771,147 +3898,34 @@ Losses
 1
 0.000000
 Numeric
-subarray4_soiling_annual_average
+transformer_no_load_loss
 3
 1
-Average annual soiling 4
+Transformer no load loss
 %
 Losses
  
-9
+0
 1
 1
 1
 1
 0.000000
 Numeric
-subarray3_dcloss
+transformer_rating
 3
 1
-Total DC power loss 3
-%
+Transformer rating
+kVA
 Losses
  
-9
+0
 1
 1
 1
 1
 0.000000
 Numeric
-subarray3_mismatch_loss
-3
-1
-Module mismatch loss 3
-%
-Losses
- 
-3
-1
-1
-1
-1
-2.000000
-Numeric
-subarray1_mismatch_loss
-3
-1
-Module mismatch loss 1
-%
-Losses
- 
-3
-1
-1
-1
-1
-2.000000
-Numeric
-subarray1_soiling
-3
-2
-Monthly soiling losses 1
- 
-Losses
- 
-3
-1
-2
-1
-12
-5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
-
-MonthlyFactor
-subarray3_soiling_annual_average
-3
-1
-Average annual soiling 3
-%
-Losses
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-subarray1_soiling_annual_average
-3
-1
-Average annual soiling 1
-%
-Losses
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-subarray2_tracking_loss
-3
-1
-Tracking error loss 2
-%
-Losses
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-subarray2_diodeconn_loss
-3
-1
-Diodes and connections loss 2
-%
-Losses
- 
-3
-1
-1
-1
-1
-0.500000
-Numeric
-dcoptimizer_loss
-3
-1
-DC power optimizer loss
-%
-Losses
- 
-3
-1
-1
-1
-1
-0.000000
-Default
 transmission_loss
 3
 1
@@ -3925,20 +3939,6 @@ Losses
 1
 1
 0.000000
-Numeric
-acwiring_loss
-3
-1
-AC wiring
-%
-Losses
- 
-2
-1
-1
-1
-1
-1.000000
 Numeric
 
 1555

@@ -1477,6 +1477,8 @@ void VarDatabase::Write_text(wxOutputStream &os)
 	out.PutChar('\n');
 	out.Write32(size());
 	out.PutChar('\n');
+	// Sort for consistent order
+	/*
 	for (VarInfoHash::iterator it = begin();
 		it != end();
 		++it)
@@ -1484,6 +1486,19 @@ void VarDatabase::Write_text(wxOutputStream &os)
 		out.WriteString(it->first);
 		out.PutChar('\n');
 		it->second->Write_text(os);
+	}
+	*/
+	VarInfo *v;
+	wxArrayString as = ListAll();
+	as.Sort();
+	for (size_t i = 0; i < as.Count(); i++)
+	{
+		if (v = Lookup(as[i]))
+		{
+			out.WriteString(as[i]);
+			out.PutChar('\n');
+			v->Write_text(os);
+		}
 	}
 }
 

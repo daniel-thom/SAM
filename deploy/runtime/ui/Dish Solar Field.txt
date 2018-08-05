@@ -908,6 +908,47 @@ AlignTop
 1
 
 14
+adjust
+3
+5
+Performance adjustment
+ 
+Dish Solar Field
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+csp.ds.field_area
+3
+1
+Total Solar Field Area
+m2
+Dish Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.ncollectors
+3
+1
+Number of Collectors
+ 
+Dish Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 csp.ds.total_capacity
 3
 1
@@ -936,24 +977,11 @@ Dish Solar Field
 1
 15.000000
 Default
-adjust
-3
-5
-Performance adjustment
- 
-Dish Solar Field
- 
-1
-1
-5
-1
-0
-LossAdjustment
-wind_stow_speed
+h_slot_gap
 3
 1
-Wind Stow Speed
-m/s
+Slot Gap Height
+m
 Dish Solar Field
  
 2
@@ -961,7 +989,7 @@ Dish Solar Field
 1
 1
 1
-16.000000
+1.000000
 Default
 n_ew
 3
@@ -977,20 +1005,6 @@ Dish Solar Field
 1
 80.000000
 Default
-slope_ns
-3
-1
-Ground Slope, North-South
-deg
-Dish Solar Field
- 
-2
-1
-1
-1
-1
-0.000000
-Default
 n_ns
 3
 1
@@ -1004,76 +1018,6 @@ Dish Solar Field
 1
 1
 50.000000
-Default
-csp.ds.ncollectors
-3
-1
-Number of Collectors
- 
-Dish Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-slope_ew
-3
-1
-Ground Slope, East-West
-deg
-Dish Solar Field
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-h_slot_gap
-3
-1
-Slot Gap Height
-m
-Dish Solar Field
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-system_capacity
-3
-1
-System Capacity
-kW
-Dish Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.field_area
-3
-1
-Total Solar Field Area
-m2
-Dish Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
 Default
 ns_dish_sep
 3
@@ -1089,6 +1033,48 @@ Dish Solar Field
 1
 15.000000
 Default
+slope_ew
+3
+1
+Ground Slope, East-West
+deg
+Dish Solar Field
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+slope_ns
+3
+1
+Ground Slope, North-South
+deg
+Dish Solar Field
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+system_capacity
+3
+1
+System Capacity
+kW
+Dish Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 w_slot_gap
 3
 1
@@ -1102,6 +1088,20 @@ Dish Solar Field
 1
 1
 1.000000
+Default
+wind_stow_speed
+3
+1
+Wind Stow Speed
+m/s
+Dish Solar Field
+ 
+2
+1
+1
+1
+1
+16.000000
 Default
 
 385

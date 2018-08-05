@@ -376,20 +376,6 @@ Cost of Acquiring Financing
 1
 0.000000
 Numeric
-cost_equity_closing
-3
-1
-Equity closing cost
- 
-Cost of Acquiring Financing
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
 cost_dev_fee_tax_liability
 3
 1
@@ -404,10 +390,24 @@ Tax on development fee in Year 1
 1
 0.000000
 Default
-cost_other_financing
+cost_dev_fee_value
 3
 1
-Other financing cost
+Development fee
+ 
+Cost of Acquiring Financing
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+cost_equity_closing
+3
+1
+Equity closing cost
  
 Cost of Acquiring Financing
  
@@ -418,14 +418,14 @@ Cost of Acquiring Financing
 1
 0.000000
 Numeric
-cost_dev_fee_value
+cost_other_financing
 3
 1
-Development fee
+Other financing cost
  
 Cost of Acquiring Financing
  
-8
+2
 1
 1
 1

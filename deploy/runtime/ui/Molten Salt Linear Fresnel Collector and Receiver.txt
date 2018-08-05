@@ -7394,300 +7394,6 @@ AlignTop
 0
 
 139
-D_plug
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-P_amb
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-D_glass_in
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-GlazingIntactIn
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.mslf.sf.HCE_FieldFrac1
-3
-1
-Variant weighting fraction 1
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.985000
-Default
-D_glass_out
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.mslf.sf.IAM_L_coefs3
-3
-1
-Longitudinal incidence angle modifier C3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
--1.643400
-Default
-L_mod_spacing
-3
-1
-Piping distance between sequential modules
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-1.000000
-Default
-csp.mslf.sf.D_abs_in
-3
-1
-Absorber tube inner diameter
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.066000
-Default
-AnnulusGas
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-alpha_abs
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-P_a
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-HL_T_coefs
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-epsilon_abs_1
-3
-3
-Absorber emittance - HCE variation 1
- 
-MSLF Collector and Receiver
- 
-1
-1
-3
-1
-1
-0.000000
-ValueMatrix
-csp.mslf.sf.DP_coefs1
-3
-1
-Part-load pressure loss adjustment C1
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.HCE_FieldFrac3
-3
-1
-Variant weighting fraction 3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.005000
-Default
-HL_w_coefs
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-Shadowing
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-DP_nominal
-3
-1
-Pressure drop at design
-bar
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-2.500000
-Default
-csp.mslf.sf.P_a1
-3
-1
-Annulus gas pressure 1
-torr
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000100
-Default
-csp.mslf.sf.IAM_T_coefs3
-3
-1
-Transverse incidence angle modifier C3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
--0.232700
-Default
 A_aperture
 3
 1
@@ -7702,161 +7408,21 @@ MSLF Collector and Receiver
 1
 470.299988
 Default
-T_dp
+AbsorberMaterial
 3
-1
+2
  
  
 MSLF Collector and Receiver
  
 8
 1
-1
-1
-1
-0.000000
-Default
-T_db
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.IAM_T_coefs4
-3
-1
-Transverse incidence angle modifier C4
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-q_pb_design
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.alpha_env2
-3
-1
-Envelope absorptance 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.020000
-Default
-csp.mslf.sf.DP_coefs0
-3
-1
-Part-load pressure loss adjustment C0
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.HL_T_coefs1
-3
-1
-HTF temperature adjustment C1
-W/m-K
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.672000
-Default
-csp.mslf.sf.alpha_abs1
-3
-1
-Absorber absorptance 1
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.960000
-Default
-csp.mslf.sf.Design_loss2
-3
-1
-Receiver heat loss at design 2
-W/m
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1100.000000
-Default
-hl_derate
-3
-1
-Receiver thermal derate
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-reflectivity
-3
-1
-Solar-weighted mirror reflectivity
- 
-MSLF Collector and Receiver
- 
 2
 1
 1
-1
-1
-0.935000
+0.000000
 Default
-D_abs_out
+AnnulusGas
 3
 2
  
@@ -7884,21 +7450,7 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.HL_w_coefs2
-3
-1
-Wind velocity adjustment C2
-W/m-(m/s)^2
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-Flow_type
+DP_coefs
 3
 2
  
@@ -7912,67 +7464,11 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.epsilon_glass4
+DP_nominal
 3
 1
-Glass envelope emissivity 4
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-opt_normal
-3
-1
-Collector optical loss at normal incidence
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.AnnulusGas2
-3
-1
-Annulus gas type 2
- 
-MSLF Collector and Receiver
-Air|Argon|Hydrogen
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.Tau_envelope2
-3
-1
-Envelope transmittance 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.963000
-Default
-GeomEffects
-3
-1
-Geometry effects derate
- 
+Pressure drop at design
+bar
 MSLF Collector and Receiver
  
 2
@@ -7980,13 +7476,13 @@ MSLF Collector and Receiver
 1
 1
 1
-0.980000
+2.500000
 Default
-I_b
+DP_pressure_loss
 3
 1
- 
- 
+Total loop pressure loss at design
+bar
 MSLF Collector and Receiver
  
 8
@@ -7996,7 +7492,7 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-IAM_T_coefs
+D_abs_in
 3
 2
  
@@ -8010,189 +7506,7 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-epsilon_abs_3
-3
-3
-Absorber emittance - HCE variation 3
- 
-MSLF Collector and Receiver
-Temp ('C)|Emittance
-1
-1
-3
-1
-1
-0.000000
-ValueMatrix
-T_cold_in
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.AnnulusGas3
-3
-1
-Annulus gas type 3
- 
-MSLF Collector and Receiver
-Air|Argon|Hydrogen
-3
-1
-1
-1
-1
-2.000000
-Default
-csp.mslf.sf.Shadowing4
-3
-1
-Receiver bellows shadowing loss factor 4
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.963000
-Default
-csp.mslf.sf.alpha_abs4
-3
-1
-Absorber absorptance 4
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-defocus
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.P_a3
-3
-1
-Annulus gas pressure 3
-torr
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-750.000000
-Default
-csp.mslf.sf.AbsorberMaterial
-3
-1
-Absorber material type
- 
-MSLF Collector and Receiver
-304L|216L|321H|B42 Copper
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.Rough
-3
-1
-Internal surface roughness
- 
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.000045
-Default
-csp.mslf.sf.AnnulusGas1
-3
-1
-Annulus gas type 1
- 
-MSLF Collector and Receiver
-Air|Argon|Hydrogen
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.rec_model
-3
-1
-Receiver model type
- 
-MSLF Collector and Receiver
-Polynomial heat loss model|Evacuated tube model
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.D_abs_out
-3
-1
-Absorber tube outer diameter
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.070000
-Default
-hl_des
-3
-1
-Heat loss at design
-W/m
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-dirt_env
+D_abs_out
 3
 2
  
@@ -8206,21 +7520,35 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.alpha_env3
+D_glass_in
 3
-1
-Envelope absorptance 3
+2
+ 
  
 MSLF Collector and Receiver
  
-3
+8
 1
-1
+2
 1
 1
 0.000000
 Default
-alpha_env
+D_glass_out
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+D_plug
 3
 2
  
@@ -8248,35 +7576,35 @@ Design_loss
 1
 0.000000
 Default
-csp.mslf.sf.HCE_FieldFrac4
+Dirt_mirror
 3
 1
-Variant weighting fraction 4
+Dirt on mirror derate
  
 MSLF Collector and Receiver
  
-3
+2
 1
 1
 1
 1
-0.000000
+0.950000
 Default
-csp.mslf.sf.epsilon_glass1
+Error
 3
 1
-Glass envelope emissivity 1
+General optical derate
  
 MSLF Collector and Receiver
  
-3
+2
 1
 1
 1
 1
-0.860000
+0.990000
 Default
-DP_coefs
+Flow_type
 3
 2
  
@@ -8290,117 +7618,75 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.IAM_T_coefs1
+GeomEffects
 3
 1
-Transverse incidence angle modifier C1
+Geometry effects derate
  
 MSLF Collector and Receiver
  
-3
+2
 1
 1
 1
 1
-0.044000
+0.980000
 Default
-csp.mslf.sf.Tau_envelope1
+GlazingIntactIn
 3
-1
-Envelope transmittance 1
+2
  
-MSLF Collector and Receiver
  
-3
-1
-1
-1
-1
-0.963000
-Default
-csp.mslf.sf.DP_coefs2
-3
-1
-Part-load pressure loss adjustment C2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.IAM_T_coefs0
-3
-1
-Transverse incidence angle modifier C0
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.989600
-Default
-csp.mslf.sf.alpha_abs3
-3
-1
-Absorber absorptance 3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.800000
-Default
-csp.mslf.sf.epsilon_glass3
-3
-1
-Glass envelope emissivity 3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-DP_pressure_loss
-3
-1
-Total loop pressure loss at design
-bar
 MSLF Collector and Receiver
  
 8
 1
-1
+2
 1
 1
 0.000000
 Default
-csp.mslf.sf.IAM_L_coefs4
+HCE_FieldFrac
 3
-1
-Longitudinal incidence angle modifier C4
+2
+ 
  
 MSLF Collector and Receiver
  
+8
+1
+2
+1
+1
+0.000000
+Default
+HL_T_coefs
 3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
 1
 1
+0.000000
+Default
+HL_w_coefs
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
 1
 1
-0.722200
+0.000000
 Default
 IAM_L_coefs
 3
@@ -8416,11 +7702,530 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.HL_T_coefs3
+IAM_T_coefs
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+I_b
 3
 1
-HTF temperature adjustment C3
-W/m-K^3
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+L_crossover
+3
+1
+Length of crossover piping in a loop
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+15.000000
+Default
+L_mod
+3
+1
+The length of the collector module
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+44.799999
+Default
+L_mod_spacing
+3
+1
+Piping distance between sequential modules
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+OpticalTable
+3
+3
+ 
+ 
+MSLF Collector and Receiver
+ 
+0
+1
+3
+1
+4
+2.000000 1.000000 2.000000 1.000000 
+
+Default
+P_a
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+P_amb
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+Rough
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+Shadowing
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+T_cold_in
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+T_db
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+T_dp
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+Tau_envelope
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+TrackingError
+3
+1
+Tracking error derate
+ 
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+0.994000
+Default
+V_wind
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+W_pb_design
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+alpha_abs
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+alpha_env
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+azimuth
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.AbsorberMaterial
+3
+1
+Absorber material type
+ 
+MSLF Collector and Receiver
+304L|216L|321H|B42 Copper
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.AnnulusGas1
+3
+1
+Annulus gas type 1
+ 
+MSLF Collector and Receiver
+Air|Argon|Hydrogen
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.AnnulusGas2
+3
+1
+Annulus gas type 2
+ 
+MSLF Collector and Receiver
+Air|Argon|Hydrogen
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.AnnulusGas3
+3
+1
+Annulus gas type 3
+ 
+MSLF Collector and Receiver
+Air|Argon|Hydrogen
+3
+1
+1
+1
+1
+2.000000
+Default
+csp.mslf.sf.AnnulusGas4
+3
+1
+Annulus gas type 4
+ 
+MSLF Collector and Receiver
+Air|Argon|Hydrogen
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.DP_coefs0
+3
+1
+Part-load pressure loss adjustment C0
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.DP_coefs1
+3
+1
+Part-load pressure loss adjustment C1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.DP_coefs2
+3
+1
+Part-load pressure loss adjustment C2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.DP_coefs3
+3
+1
+Part-load pressure loss adjustment C3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.D_abs_in
+3
+1
+Absorber tube inner diameter
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+0.066000
+Default
+csp.mslf.sf.D_abs_out
+3
+1
+Absorber tube outer diameter
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+0.070000
+Default
+csp.mslf.sf.D_glass_in
+3
+1
+Glass envelope inner diameter
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+0.115000
+Default
+csp.mslf.sf.D_glass_out
+3
+1
+Glass envelope outer diameter
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+0.120000
+Default
+csp.mslf.sf.D_plug
+3
+1
+Absorber flow plug diameter
+m
+MSLF Collector and Receiver
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.Design_loss1
+3
+1
+Receiver heat loss at design 1
+W/m
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+150.000000
+Default
+csp.mslf.sf.Design_loss2
+3
+1
+Receiver heat loss at design 2
+W/m
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+1100.000000
+Default
+csp.mslf.sf.Design_loss3
+3
+1
+Receiver heat loss at design 3
+W/m
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+1500.000000
+Default
+csp.mslf.sf.Design_loss4
+3
+1
+Receiver heat loss at design 4
+W/m
 MSLF Collector and Receiver
  
 3
@@ -8444,20 +8249,6 @@ Tube flow|Annular flow
 1
 0.000000
 Default
-csp.mslf.sf.IAM_L_coefs0
-3
-1
-Longitudinal incidence angle modifier C0
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1.003100
-Default
 csp.mslf.sf.GlazingIntactIn1
 3
 1
@@ -8472,38 +8263,10 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-Rough
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-epsilon_abs_2
-3
-3
-Absorber emittance - HCE variation 2
- 
-MSLF Collector and Receiver
-Temp ('C)|Emittance
-1
-1
+csp.mslf.sf.GlazingIntactIn2
 3
 1
-1
-0.000000
-ValueMatrix
-csp.mslf.sf.alpha_env4
-3
-1
-Envelope absorptance 4
+Broken glass 2
  
 MSLF Collector and Receiver
  
@@ -8514,52 +8277,10 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.D_plug
+csp.mslf.sf.GlazingIntactIn3
 3
 1
-Absorber flow plug diameter
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.avg_dt_des
-3
-1
-Average field temp difference at design
-'C
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-V_wind
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.dirt_env4
-3
-1
-Loss due to dirt on the receiver envelope 4
+Broken glass 3
  
 MSLF Collector and Receiver
  
@@ -8568,7 +8289,7 @@ MSLF Collector and Receiver
 1
 1
 1
-0.980000
+1.000000
 Default
 csp.mslf.sf.GlazingIntactIn4
 3
@@ -8584,145 +8305,61 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-azimuth
+csp.mslf.sf.HCE_FieldFrac1
 3
 1
- 
+Variant weighting fraction 1
  
 MSLF Collector and Receiver
  
-8
+3
+1
+1
+1
+1
+0.985000
+Default
+csp.mslf.sf.HCE_FieldFrac2
+3
+1
+Variant weighting fraction 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.010000
+Default
+csp.mslf.sf.HCE_FieldFrac3
+3
+1
+Variant weighting fraction 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.005000
+Default
+csp.mslf.sf.HCE_FieldFrac4
+3
+1
+Variant weighting fraction 4
+ 
+MSLF Collector and Receiver
+ 
+3
 1
 1
 1
 1
 0.000000
-Default
-csp.mslf.sf.D_glass_out
-3
-1
-Glass envelope outer diameter
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.120000
-Default
-TrackingError
-3
-1
-Tracking error derate
- 
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.994000
-Default
-L_crossover
-3
-1
-Length of crossover piping in a loop
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-15.000000
-Default
-csp.mslf.sf.dirt_env1
-3
-1
-Loss due to dirt on the receiver envelope 1
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.980000
-Default
-csp.mslf.sf.epsilon_glass2
-3
-1
-Glass envelope emissivity 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.860000
-Default
-AbsorberMaterial
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-Tau_envelope
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.mslf.sf.IAM_T_coefs2
-3
-1
-Transverse incidence angle modifier C2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
--0.072100
-Default
-csp.mslf.sf.dirt_env2
-3
-1
-Loss due to dirt on the receiver envelope 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.980000
 Default
 csp.mslf.sf.HL_T_coefs0
 3
@@ -8738,53 +8375,11 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-Error
+csp.mslf.sf.HL_T_coefs1
 3
 1
-General optical derate
- 
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.990000
-Default
-epsilon_abs_4
-3
-3
-Absorber emittance - HCE variation 4
- 
-MSLF Collector and Receiver
-Temp ('C)|Emittance
-1
-1
-3
-1
-1
-0.000000
-ValueMatrix
-opt_model
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.Shadowing3
-3
-1
-Receiver bellows shadowing loss factor 3
- 
+HTF temperature adjustment C1
+W/m-K
 MSLF Collector and Receiver
  
 3
@@ -8792,21 +8387,7 @@ MSLF Collector and Receiver
 1
 1
 1
-0.960000
-Default
-csp.mslf.sf.Design_loss4
-3
-1
-Receiver heat loss at design 4
-W/m
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
+0.672000
 Default
 csp.mslf.sf.HL_T_coefs2
 3
@@ -8822,47 +8403,19 @@ MSLF Collector and Receiver
 1
 0.002556
 Default
-csp.mslf.sf.alpha_abs2
+csp.mslf.sf.HL_T_coefs3
 3
 1
-Absorber absorptance 2
- 
+HTF temperature adjustment C3
+W/m-K^3
 MSLF Collector and Receiver
  
 3
-1
-1
-1
-1
-0.960000
-Default
-opt_derate
-3
-1
-Receiver optical derate
- 
-MSLF Collector and Receiver
- 
-8
 1
 1
 1
 1
 0.000000
-Default
-csp.mslf.sf.Shadowing1
-3
-1
-Receiver bellows shadowing loss factor 1
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.960000
 Default
 csp.mslf.sf.HL_T_coefs4
 3
@@ -8872,35 +8425,6 @@ W/m-K^4
 MSLF Collector and Receiver
  
 3
-1
-1
-1
-1
-0.000000
-Default
-OpticalTable
-3
-3
- 
- 
-MSLF Collector and Receiver
- 
-0
-1
-3
-1
-4
-2.000000 1.000000 2.000000 1.000000 
-
-Default
-track_mode
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
 1
 1
 1
@@ -8921,67 +8445,11 @@ MSLF Collector and Receiver
 1
 1.000000
 Default
-csp.mslf.sf.AnnulusGas4
+csp.mslf.sf.HL_w_coefs1
 3
 1
-Annulus gas type 4
- 
-MSLF Collector and Receiver
-Air|Argon|Hydrogen
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.P_a2
-3
-1
-Annulus gas pressure 2
-torr
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-750.000000
-Default
-HCE_FieldFrac
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-Dirt_mirror
-3
-1
-Dirt on mirror derate
- 
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-0.950000
-Default
-csp.mslf.sf.HL_w_coefs4
-3
-1
-Wind velocity adjustment C4
-W/m-(m/s)^4
+Wind velocity adjustment C1
+W/m-(m/s)
 MSLF Collector and Receiver
  
 3
@@ -8991,67 +8459,11 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-csp.mslf.sf.Design_loss1
+csp.mslf.sf.HL_w_coefs2
 3
 1
-Receiver heat loss at design 1
-W/m
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-150.000000
-Default
-L_mod
-3
-1
-The length of the collector module
-m
-MSLF Collector and Receiver
- 
-2
-1
-1
-1
-1
-44.799999
-Default
-csp.mslf.sf.DP_coefs3
-3
-1
-Part-load pressure loss adjustment C3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.HCE_FieldFrac2
-3
-1
-Variant weighting fraction 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.010000
-Default
-csp.mslf.sf.P_a4
-3
-1
-Annulus gas pressure 4
-torr
+Wind velocity adjustment C2
+W/m-(m/s)^2
 MSLF Collector and Receiver
  
 3
@@ -9075,16 +8487,576 @@ MSLF Collector and Receiver
 1
 0.000000
 Default
-D_abs_in
+csp.mslf.sf.HL_w_coefs4
 3
+1
+Wind velocity adjustment C4
+W/m-(m/s)^4
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.IAM_L_coefs0
+3
+1
+Longitudinal incidence angle modifier C0
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+1.003100
+Default
+csp.mslf.sf.IAM_L_coefs1
+3
+1
+Longitudinal incidence angle modifier C1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+-0.225900
+Default
+csp.mslf.sf.IAM_L_coefs2
+3
+1
+Longitudinal incidence angle modifier C2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.536800
+Default
+csp.mslf.sf.IAM_L_coefs3
+3
+1
+Longitudinal incidence angle modifier C3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+-1.643400
+Default
+csp.mslf.sf.IAM_L_coefs4
+3
+1
+Longitudinal incidence angle modifier C4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.722200
+Default
+csp.mslf.sf.IAM_T_coefs0
+3
+1
+Transverse incidence angle modifier C0
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.989600
+Default
+csp.mslf.sf.IAM_T_coefs1
+3
+1
+Transverse incidence angle modifier C1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.044000
+Default
+csp.mslf.sf.IAM_T_coefs2
+3
+1
+Transverse incidence angle modifier C2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+-0.072100
+Default
+csp.mslf.sf.IAM_T_coefs3
+3
+1
+Transverse incidence angle modifier C3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+-0.232700
+Default
+csp.mslf.sf.IAM_T_coefs4
+3
+1
+Transverse incidence angle modifier C4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.P_a1
+3
+1
+Annulus gas pressure 1
+torr
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000100
+Default
+csp.mslf.sf.P_a2
+3
+1
+Annulus gas pressure 2
+torr
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+750.000000
+Default
+csp.mslf.sf.P_a3
+3
+1
+Annulus gas pressure 3
+torr
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+750.000000
+Default
+csp.mslf.sf.P_a4
+3
+1
+Annulus gas pressure 4
+torr
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.Rough
+3
+1
+Internal surface roughness
+ 
+MSLF Collector and Receiver
+ 
 2
+1
+1
+1
+1
+0.000045
+Default
+csp.mslf.sf.Shadowing1
+3
+1
+Receiver bellows shadowing loss factor 1
  
+MSLF Collector and Receiver
  
+3
+1
+1
+1
+1
+0.960000
+Default
+csp.mslf.sf.Shadowing2
+3
+1
+Receiver bellows shadowing loss factor 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.960000
+Default
+csp.mslf.sf.Shadowing3
+3
+1
+Receiver bellows shadowing loss factor 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.960000
+Default
+csp.mslf.sf.Shadowing4
+3
+1
+Receiver bellows shadowing loss factor 4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.963000
+Default
+csp.mslf.sf.Tau_envelope1
+3
+1
+Envelope transmittance 1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.963000
+Default
+csp.mslf.sf.Tau_envelope2
+3
+1
+Envelope transmittance 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.963000
+Default
+csp.mslf.sf.Tau_envelope3
+3
+1
+Envelope transmittance 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.mslf.sf.Tau_envelope4
+3
+1
+Envelope transmittance 4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.alpha_abs1
+3
+1
+Absorber absorptance 1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.960000
+Default
+csp.mslf.sf.alpha_abs2
+3
+1
+Absorber absorptance 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.960000
+Default
+csp.mslf.sf.alpha_abs3
+3
+1
+Absorber absorptance 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.800000
+Default
+csp.mslf.sf.alpha_abs4
+3
+1
+Absorber absorptance 4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.alpha_env1
+3
+1
+Envelope absorptance 1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.020000
+Default
+csp.mslf.sf.alpha_env2
+3
+1
+Envelope absorptance 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.020000
+Default
+csp.mslf.sf.alpha_env3
+3
+1
+Envelope absorptance 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.alpha_env4
+3
+1
+Envelope absorptance 4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.avg_dt_des
+3
+1
+Average field temp difference at design
+'C
 MSLF Collector and Receiver
  
 8
 1
-2
+1
+1
+1
+0.000000
+Default
+csp.mslf.sf.dirt_env1
+3
+1
+Loss due to dirt on the receiver envelope 1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.980000
+Default
+csp.mslf.sf.dirt_env2
+3
+1
+Loss due to dirt on the receiver envelope 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.980000
+Default
+csp.mslf.sf.dirt_env3
+3
+1
+Loss due to dirt on the receiver envelope 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.mslf.sf.dirt_env4
+3
+1
+Loss due to dirt on the receiver envelope 4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.980000
+Default
+csp.mslf.sf.epsilon_glass1
+3
+1
+Glass envelope emissivity 1
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.860000
+Default
+csp.mslf.sf.epsilon_glass2
+3
+1
+Glass envelope emissivity 2
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+0.860000
+Default
+csp.mslf.sf.epsilon_glass3
+3
+1
+Glass envelope emissivity 3
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.mslf.sf.epsilon_glass4
+3
+1
+Glass envelope emissivity 4
+ 
+MSLF Collector and Receiver
+ 
+3
+1
+1
 1
 1
 0.000000
@@ -9103,180 +9075,26 @@ Solar position|Collector incidence table|IAM polys
 1
 0.000000
 Default
-csp.mslf.sf.Tau_envelope4
+csp.mslf.sf.rec_model
 3
 1
-Envelope transmittance 4
+Receiver model type
  
 MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-tilt
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-rec_model
-3
-1
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.IAM_L_coefs2
-3
-1
-Longitudinal incidence angle modifier C2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.536800
-Default
-csp.mslf.sf.GlazingIntactIn2
-3
-1
-Broken glass 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.HL_w_coefs1
-3
-1
-Wind velocity adjustment C1
-W/m-(m/s)
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.sf.Design_loss3
-3
-1
-Receiver heat loss at design 3
-W/m
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1500.000000
-Default
-csp.mslf.sf.GlazingIntactIn3
-3
-1
-Broken glass 3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-csp.mslf.sf.dirt_env3
-3
-1
-Loss due to dirt on the receiver envelope 3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-csp.mslf.sf.Tau_envelope3
-3
-1
-Envelope transmittance 3
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-csp.mslf.sf.Shadowing2
-3
-1
-Receiver bellows shadowing loss factor 2
- 
-MSLF Collector and Receiver
- 
-3
-1
-1
-1
-1
-0.960000
-Default
-epsilon_glass
-3
-2
- 
- 
-MSLF Collector and Receiver
- 
-8
-1
+Polynomial heat loss model|Evacuated tube model
 2
 1
 1
+1
+1
 0.000000
 Default
-W_pb_design
+defocus
 3
 1
  
  
- 
+MSLF Collector and Receiver
  
 8
 1
@@ -9299,25 +9117,193 @@ demand_var
 1
 0.000000
 Default
-csp.mslf.sf.IAM_L_coefs1
+dirt_env
 3
-1
-Longitudinal incidence angle modifier C1
+2
+ 
  
 MSLF Collector and Receiver
  
-3
+8
+1
+2
 1
 1
-1
-1
--0.225900
+0.000000
 Default
-csp.mslf.sf.D_glass_in
+epsilon_abs_1
+3
+3
+Absorber emittance - HCE variation 1
+ 
+MSLF Collector and Receiver
+ 
+1
+1
 3
 1
-Glass envelope inner diameter
-m
+1
+0.000000
+ValueMatrix
+epsilon_abs_2
+3
+3
+Absorber emittance - HCE variation 2
+ 
+MSLF Collector and Receiver
+Temp ('C)|Emittance
+1
+1
+3
+1
+1
+0.000000
+ValueMatrix
+epsilon_abs_3
+3
+3
+Absorber emittance - HCE variation 3
+ 
+MSLF Collector and Receiver
+Temp ('C)|Emittance
+1
+1
+3
+1
+1
+0.000000
+ValueMatrix
+epsilon_abs_4
+3
+3
+Absorber emittance - HCE variation 4
+ 
+MSLF Collector and Receiver
+Temp ('C)|Emittance
+1
+1
+3
+1
+1
+0.000000
+ValueMatrix
+epsilon_glass
+3
+2
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+hl_derate
+3
+1
+Receiver thermal derate
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+hl_des
+3
+1
+Heat loss at design
+W/m
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+opt_derate
+3
+1
+Receiver optical derate
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+opt_model
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+opt_normal
+3
+1
+Collector optical loss at normal incidence
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+q_pb_design
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_model
+3
+1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+reflectivity
+3
+1
+Solar-weighted mirror reflectivity
+ 
 MSLF Collector and Receiver
  
 2
@@ -9325,21 +9311,35 @@ MSLF Collector and Receiver
 1
 1
 1
-0.115000
+0.935000
 Default
-csp.mslf.sf.alpha_env1
+tilt
 3
 1
-Envelope absorptance 1
+ 
  
 MSLF Collector and Receiver
  
+8
+1
+1
+1
+1
+0.000000
+Default
+track_mode
 3
 1
+ 
+ 
+MSLF Collector and Receiver
+ 
+8
 1
 1
 1
-0.020000
+1
+0.000000
 Default
 
 8539

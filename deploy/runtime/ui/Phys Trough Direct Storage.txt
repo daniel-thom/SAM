@@ -1214,11 +1214,53 @@ TabOrder
 5
 
 23
-csp.pt.tes.htf_density
+Q_tes
 3
 1
-HTF density
-kg/m³
+TES thermal capacity
+MWt-hr
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+TES_COPY_T_htf_cold_des
+3
+1
+Loop inlet HTF temperature
+°C
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+TES_COPY_T_htf_hot_des
+3
+1
+Loop outlet HTF temperature
+°C
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+TES_COPY_q_pb_design
+3
+1
+Heat sink power
+MWt
 Thermal Energy Storage
  
 8
@@ -1242,39 +1284,11 @@ Thermal Energy Storage
 1
 0.000000
 Default
-tes_type
+cold_tank_Thtr
 3
 1
-Storage type
- 
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-1.000000
-Default
-csp.pt.tes.htf_calc_temp
-3
-1
-TC
- 
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-init_hot_htf_percent
-3
-1
-Initial hot HTF percent
-%
+Cold tank heater temperature set point
+°C
 Thermal Energy Storage
  
 2
@@ -1282,7 +1296,7 @@ Thermal Energy Storage
 1
 1
 1
-30.000000
+280.000000
 Default
 cold_tank_max_heat
 3
@@ -1298,34 +1312,6 @@ Thermal Energy Storage
 1
 15.000000
 Default
-u_tank
-3
-1
-Wetted loss coefficient
-Wt/m²-K
-Thermal Energy Storage
- 
-2
-1
-1
-1
-1
-1.200000
-Default
-Q_tes
-3
-1
-TES thermal capacity
-MWt-hr
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 csp.pt.tes.heater_eff
 3
 1
@@ -1339,6 +1325,48 @@ Thermal Energy Storage
 1
 1
 0.990000
+Default
+csp.pt.tes.htf_calc_temp
+3
+1
+TC
+ 
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.pt.tes.htf_density
+3
+1
+HTF density
+kg/m³
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.pt.tes.tank_diameter
+3
+1
+Tank diameter
+m
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+20.000000
 Default
 h_tank
 3
@@ -1354,89 +1382,19 @@ Thermal Energy Storage
 1
 20.906500
 Default
-tes_avail_vol
+h_tank_min
 3
 1
-Available HTF volume
-m³
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-vol_tank
-3
-1
-Storage tank volume
-m³
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-csp.pt.tes.tank_diameter
-3
-1
-Tank diameter
+Tank fluid minimum height
 m
 Thermal Energy Storage
  
-8
+2
 1
 1
 1
 1
-20.000000
-Default
-TES_COPY_T_htf_hot_des
-3
-1
-Loop outlet HTF temperature
-°C
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-tc_fill
-3
-1
-Filler material
- 
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-8.000000
-Default
-q_dot_tes_est
-3
-1
-Estimated heat loss
-MWt
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
+1.000000
 Default
 hot_tank_Thtr
 3
@@ -1452,25 +1410,11 @@ Thermal Energy Storage
 1
 500.000000
 Default
-TES_COPY_T_htf_cold_des
+hot_tank_max_heat
 3
 1
-Loop inlet HTF temperature
-°C
-Thermal Energy Storage
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-h_tank_min
-3
-1
-Tank fluid minimum height
-m
+Hot tank heater capacity
+MWe
 Thermal Energy Storage
  
 2
@@ -1478,12 +1422,26 @@ Thermal Energy Storage
 1
 1
 1
-1.000000
+30.000000
 Default
-TES_COPY_q_pb_design
+init_hot_htf_percent
 3
 1
-Heat sink power
+Initial hot HTF percent
+%
+Thermal Energy Storage
+ 
+2
+1
+1
+1
+1
+30.000000
+Default
+q_dot_tes_est
+3
+1
+Estimated heat loss
 MWt
 Thermal Energy Storage
  
@@ -1493,20 +1451,6 @@ Thermal Energy Storage
 1
 1
 0.000000
-Default
-cold_tank_Thtr
-3
-1
-Cold tank heater temperature set point
-°C
-Thermal Energy Storage
- 
-2
-1
-1
-1
-1
-280.000000
 Default
 tank_pairs
 3
@@ -1522,11 +1466,53 @@ Thermal Energy Storage
 1
 1.000000
 Default
-hot_tank_max_heat
+tc_fill
 3
 1
-Hot tank heater capacity
-MWe
+Filler material
+ 
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+8.000000
+Default
+tes_avail_vol
+3
+1
+Available HTF volume
+m³
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+tes_type
+3
+1
+Storage type
+ 
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+1.000000
+Default
+u_tank
+3
+1
+Wetted loss coefficient
+Wt/m²-K
 Thermal Energy Storage
  
 2
@@ -1534,8 +1520,22 @@ Thermal Energy Storage
 1
 1
 1
-30.000000
+1.200000
 Default
+vol_tank
+3
+1
+Storage tank volume
+m³
+Thermal Energy Storage
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
 
 1768
 

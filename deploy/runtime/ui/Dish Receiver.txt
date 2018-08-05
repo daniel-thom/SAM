@@ -684,25 +684,11 @@ Bold
 1
 
 13
-rec_type
+A_absorber
 3
 1
- 
- 
- 
- 
-0
-1
-1
-1
-1
-1.000000
-Default
-alpha_wall
-3
-1
-Cavity Absorptance
- 
+Absorber Surface Area
+m2
 Dish Receiver
  
 2
@@ -710,105 +696,7 @@ Dish Receiver
 1
 1
 1
-0.600000
-Default
-P_cav
-3
-1
-Internal Cavity Pressure With Aperture Covered
-kPa
-Dish Receiver
- 
-2
-1
-1
-1
-1
-101.000000
-Default
-transmittance_cover
-3
-1
- 
- 
- 
- 
-0
-1
-1
-1
-1
-1.000000
-Default
-L_insulation
-3
-1
-Thickness
-m
-Dish Receiver
- 
-2
-1
-1
-1
-1
-0.075000
-Default
-DELTA_T_REFLUX
-3
-1
- 
- 
- 
- 
-0
-1
-1
-1
-1
-40.000000
-Default
-k_insulation
-3
-1
-Thermal Conductivity
-W/mK
-Dish Receiver
- 
-2
-1
-1
-1
-1
-0.060000
-Default
-L_cav
-3
-1
-Internal Depth of Cavity Perp. to Aperture
-m
-Dish Receiver
- 
-2
-1
-1
-1
-1
-0.350000
-Default
-alpha_absorber
-3
-1
-Absorber Absorptance
- 
-Dish Receiver
- 
-2
-1
-1
-1
-1
-0.900000
+0.150000
 Default
 A_wall
 3
@@ -824,6 +712,90 @@ Dish Receiver
 1
 0.150000
 Default
+DELTA_T_REFLUX
+3
+1
+ 
+ 
+ 
+ 
+0
+1
+1
+1
+1
+40.000000
+Default
+L_cav
+3
+1
+Internal Depth of Cavity Perp. to Aperture
+m
+Dish Receiver
+ 
+2
+1
+1
+1
+1
+0.350000
+Default
+L_insulation
+3
+1
+Thickness
+m
+Dish Receiver
+ 
+2
+1
+1
+1
+1
+0.075000
+Default
+P_cav
+3
+1
+Internal Cavity Pressure With Aperture Covered
+kPa
+Dish Receiver
+ 
+2
+1
+1
+1
+1
+101.000000
+Default
+alpha_absorber
+3
+1
+Absorber Absorptance
+ 
+Dish Receiver
+ 
+2
+1
+1
+1
+1
+0.900000
+Default
+alpha_wall
+3
+1
+Cavity Absorptance
+ 
+Dish Receiver
+ 
+2
+1
+1
+1
+1
+0.600000
+Default
 d_ap
 3
 1
@@ -838,20 +810,6 @@ Dish Receiver
 1
 0.140000
 Default
-A_absorber
-3
-1
-Absorber Surface Area
-m2
-Dish Receiver
- 
-2
-1
-1
-1
-1
-0.150000
-Default
 d_cav
 3
 1
@@ -865,6 +823,48 @@ Dish Receiver
 1
 1
 0.350000
+Default
+k_insulation
+3
+1
+Thermal Conductivity
+W/mK
+Dish Receiver
+ 
+2
+1
+1
+1
+1
+0.060000
+Default
+rec_type
+3
+1
+ 
+ 
+ 
+ 
+0
+1
+1
+1
+1
+1.000000
+Default
+transmittance_cover
+3
+1
+ 
+ 
+ 
+ 
+0
+1
+1
+1
+1
+1.000000
 Default
 
 0

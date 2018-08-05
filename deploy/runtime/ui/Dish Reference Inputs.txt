@@ -937,6 +937,20 @@ AlignTop
 0
 
 14
+DELTA_T_DIR
+3
+1
+Delta Temp. for Receiver (DIR Type)
+Kelvin
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+70.000000
+Default
 csp.ds.refc.coolfluid
 3
 1
@@ -950,20 +964,6 @@ Water|V50%EG|V25%EG|V40%PG|V40%EG
 1
 1
 1.000000
-Default
-test_T_fluid
-3
-1
-Cooling Fluid Temperature
-Kelvin
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-288.000000
 Default
 d_ap_test
 3
@@ -979,34 +979,6 @@ Dish Reference Inputs
 1
 0.140000
 Default
-test_if
-3
-1
-Intercept Factor
-(0..1)
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-0.998000
-Default
-test_V_dot_fluid
-3
-1
-Cooling Fluid Volumetric Flow Rate
-gal/min
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-7.500000
-Default
 test_L_focal
 3
 1
@@ -1020,76 +992,6 @@ Dish Reference Inputs
 1
 1
 5.450000
-Default
-DELTA_T_DIR
-3
-1
-Delta Temp. for Receiver (DIR Type)
-Kelvin
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-70.000000
-Default
-test_fan_cfm
-3
-1
-Fan Volumetric Flow Rate
-CFM
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-4000.000000
-Default
-test_pump_speed
-3
-1
-Pump Speed
-rpm
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-1800.000000
-Default
-test_fan_speed
-3
-1
-Cooling System Fan Speed
-rpm
-Dish Reference Inputs
- 
-2
-1
-1
-1
-1
-890.000000
-Default
-test_cooling_fluid
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
 Default
 test_P_fan
 3
@@ -1119,6 +1021,62 @@ Dish Reference Inputs
 1
 75.000000
 Default
+test_T_fluid
+3
+1
+Cooling Fluid Temperature
+Kelvin
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+288.000000
+Default
+test_V_dot_fluid
+3
+1
+Cooling Fluid Volumetric Flow Rate
+gal/min
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+7.500000
+Default
+test_cooling_fluid
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+test_fan_cfm
+3
+1
+Fan Volumetric Flow Rate
+CFM
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+4000.000000
+Default
 test_fan_rho_air
 3
 1
@@ -1132,6 +1090,48 @@ Dish Reference Inputs
 1
 1
 1.200000
+Default
+test_fan_speed
+3
+1
+Cooling System Fan Speed
+rpm
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+890.000000
+Default
+test_if
+3
+1
+Intercept Factor
+(0..1)
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+0.998000
+Default
+test_pump_speed
+3
+1
+Pump Speed
+rpm
+Dish Reference Inputs
+ 
+2
+1
+1
+1
+1
+1800.000000
 Default
 
 86

@@ -554,62 +554,6 @@ Bold
 1
 
 9
-ppa_price
-3
-1
-First year PPA price
-$/kWh
-Third Party Ownership
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-real_discount_rate
-3
-1
-Real discount rate
-%/year
-Third Party Ownership
- 
-2
-1
-1
-1
-1
-5.500000
-Default
-nominal_discount_rate
-3
-1
-Nominal discount rate
-%/year
-Third Party Ownership
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-ppa_escalation
-3
-1
-PPA price escalation rate
-%/year
-Third Party Ownership
- 
-0
-1
-1
-1
-1
-0.000000
-Default
 analysis_period
 3
 1
@@ -623,6 +567,20 @@ Third Party Ownership
 1
 1
 30.000000
+Default
+inflation_rate
+3
+1
+Inflation rate
+%/year
+Third Party Ownership
+ 
+2
+1
+1
+1
+1
+2.500000
 Default
 lease_escalation
 3
@@ -652,20 +610,6 @@ Third Party Ownership
 1
 0.000000
 Default
-inflation_rate
-3
-1
-Inflation rate
-%/year
-Third Party Ownership
- 
-2
-1
-1
-1
-1
-2.500000
-Default
 lease_price
 3
 1
@@ -679,6 +623,62 @@ Third Party Ownership
 1
 1
 0.000000
+Default
+nominal_discount_rate
+3
+1
+Nominal discount rate
+%/year
+Third Party Ownership
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ppa_escalation
+3
+1
+PPA price escalation rate
+%/year
+Third Party Ownership
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+ppa_price
+3
+1
+First year PPA price
+$/kWh
+Third Party Ownership
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+real_discount_rate
+3
+1
+Real discount rate
+%/year
+Third Party Ownership
+ 
+2
+1
+1
+1
+1
+5.500000
 Default
 
 152

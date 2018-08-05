@@ -1230,33 +1230,19 @@ AlignTop
 0
 
 19
-csp.lf.par.aux_pf
+PB_fixed_par
 3
 1
-AUX factor
+Fraction of rated gross power consumed at all times
  
 Linear Fresnel Parasitics
  
-3
+2
 1
 1
 1
 1
-1.000000
-Default
-csp.lf.par.bop_c1
-3
-1
-BOP coeff 1
- 
-Linear Fresnel Parasitics
- 
-3
-1
-1
-1
-1
-0.571000
+0.005500
 Default
 Pipe_hl_coef
 3
@@ -1272,30 +1258,44 @@ Linear Fresnel Parasitics
 1
 0.003500
 Default
-csp.lf.par.aux_total
+SCA_drives_elec
 3
 1
-AUX total loss
-MW
+Tracking power
+W/m²
 Linear Fresnel Parasitics
+ 
+2
+1
+1
+1
+1
+0.200000
+Default
+aux_array
+3
+2
+Coefficients for auxiliary heater parasitics calcs
+ 
+Physical Trough Parasitics
  
 9
 1
-1
+2
 1
 1
 0.000000
 Default
-csp.lf.par.bop_total
+bop_array
 3
-1
-BOP total loss
-MW
-Linear Fresnel Parasitics
+2
+Coefficients for balance of plant parasitics calcs
+ 
+Physical Trough Parasitics
  
 9
 1
-1
+2
 1
 1
 0.000000
@@ -1314,24 +1314,10 @@ Linear Fresnel Parasitics
 1
 0.483000
 Default
-bop_array
-3
-2
-Coefficients for balance of plant parasitics calcs
- 
-Physical Trough Parasitics
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-csp.lf.par.bop_c0
+csp.lf.par.aux_c1
 3
 1
-BOP coeff 0
+AUX coeff 1
  
 Linear Fresnel Parasitics
  
@@ -1340,35 +1326,7 @@ Linear Fresnel Parasitics
 1
 1
 1
-0.483000
-Default
-PB_fixed_par
-3
-1
-Fraction of rated gross power consumed at all times
- 
-Linear Fresnel Parasitics
- 
-2
-1
-1
-1
-1
-0.005500
-Default
-csp.lf.par.fixed_total
-3
-1
-Fixed parasitic loss
-MWe
-Linear Fresnel Parasitics
- 
-8
-1
-1
-1
-1
-0.000000
+0.571000
 Default
 csp.lf.par.aux_c2
 3
@@ -1384,10 +1342,10 @@ Linear Fresnel Parasitics
 1
 0.000000
 Default
-csp.lf.par.bop_pf
+csp.lf.par.aux_pf
 3
 1
-BOP factor
+AUX factor
  
 Linear Fresnel Parasitics
  
@@ -1398,24 +1356,52 @@ Linear Fresnel Parasitics
 1
 1.000000
 Default
-csp.lf.par.tracking_total
+csp.lf.par.aux_total
 3
 1
-Total tracking power loss
-W
+AUX total loss
+MW
 Linear Fresnel Parasitics
  
-8
+9
 1
 1
 1
 1
 0.000000
 Default
-csp.lf.par.aux_c1
+csp.lf.par.aux_val
 3
 1
-AUX coeff 1
+Auxiliary heater, boiler parasitic
+MW/MWcap
+Linear Fresnel Parasitics
+ 
+2
+1
+1
+1
+1
+0.023000
+Default
+csp.lf.par.bop_c0
+3
+1
+BOP coeff 0
+ 
+Linear Fresnel Parasitics
+ 
+3
+1
+1
+1
+1
+0.483000
+Default
+csp.lf.par.bop_c1
+3
+1
+BOP coeff 1
  
 Linear Fresnel Parasitics
  
@@ -1440,16 +1426,30 @@ Linear Fresnel Parasitics
 1
 0.000000
 Default
-aux_array
+csp.lf.par.bop_pf
 3
-2
-Coefficients for auxiliary heater parasitics calcs
+1
+BOP factor
  
-Physical Trough Parasitics
+Linear Fresnel Parasitics
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.lf.par.bop_total
+3
+1
+BOP total loss
+MW
+Linear Fresnel Parasitics
  
 9
 1
-2
+1
 1
 1
 0.000000
@@ -1468,33 +1468,33 @@ Linear Fresnel Parasitics
 1
 0.000000
 Default
-SCA_drives_elec
+csp.lf.par.fixed_total
 3
 1
-Tracking power
-W/m²
+Fixed parasitic loss
+MWe
 Linear Fresnel Parasitics
  
-2
+8
 1
 1
 1
 1
-0.200000
+0.000000
 Default
-csp.lf.par.aux_val
+csp.lf.par.tracking_total
 3
 1
-Auxiliary heater, boiler parasitic
-MW/MWcap
+Total tracking power loss
+W
 Linear Fresnel Parasitics
  
-2
+8
 1
 1
 1
 1
-0.023000
+0.000000
 Default
 
 998

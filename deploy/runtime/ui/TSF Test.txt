@@ -2618,594 +2618,6 @@ TabOrder
 4294967295
 
 71
-rec_height
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-check_max_flux
-3
-1
-check_max_flux (not used in UI)
- 
-Heliostat Field
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-c_atm_1
-3
-1
-Polynomial coefficient 1
-1/km
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.104600
-Default
-rec_cost_exp
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-focus_type
-3
-1
-Heliostat focusing method
- 
-Heliostat Field
-Flat|Ideal
-2
-1
-1
-1
-1
-1.000000
-Default
-water_usage_per_wash
-3
-1
-Water usage per wash
-L/m²,aper.
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.700000
-Numeric
-helio_reflectance
-3
-1
-Mirror reflectance and soiling
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.950000
-Default
-sf_adjust
-3
-5
-Field output adjustment
- 
-Heliostat Field
- 
-1
-1
-5
-1
-0
-LossAdjustment
-rec_ref_area
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-opt_flux_penalty
-3
-1
-Over-flux objective penalty factor
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.350000
-Default
-washing_frequency
-3
-1
-Washes per year
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-63.000000
-Numeric
-c_atm_3
-3
-1
-Polynomial coefficient 3
-1/km³
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.002845
-Default
-c_atm_2
-3
-1
-Polynomial coefficient 2
-1/km²
-Heliostat Field
- 
-2
-1
-1
-1
-1
--0.017000
-Default
-hel_stow_deploy
-3
-1
-Heliostat stow/deploy angle
-deg
-Heliostat Field
- 
-2
-1
-1
-1
-1
-8.000000
-Default
-n_hel
-3
-1
-Number of heliostats
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-8629.000000
-Default
-helio_optical_error_mrad
-3
-1
-Image error (slope, single-axis)
-mrad
-Heliostat Field
- 
-2
-1
-1
-1
-1
-1.530000
-Default
-dni_des_calc
-3
-1
-Design-point DNI
-W/m²
-Heliostat Field
- 
-8
-1
-1
-1
-1
-950.000000
-Default
-is_optimize
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-land_area_base
-3
-1
-Base land area
-acres
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-V_wind_10
-3
-1
-Ambient wind velocity at ground level
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.pt.sf.fixed_land_area
-3
-1
-Non-solar field land area
-acres
-Heliostat Field
- 
-2
-1
-1
-1
-1
-44.500000
-Default
-run_type
-3
-1
-0=auto, 1=user-field, 2=user data
- 
-Heliostat Field
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-helio_active_fraction
-3
-1
-Heliostat availability
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.990000
-Default
-n_zen
-3
-1
-Number of zenith angle data points in file
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-opt_max_iter
-3
-1
-Maximum optimization iterations
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-200.000000
-Default
-land_min
-3
-1
-Min. heliostat distance to tower height ratio
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.750000
-Default
-n_azi
-3
-1
-Number of azimuth angle data points in file
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.pt.sf.land_overhead_factor
-3
-1
-Solar field land area multiplier
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-1.300000
-Default
-fossil_spec_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-override_layout
-3
-1
-Always layout automatically
- 
-Heliostat Field
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-field_control
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-1.000000
-Default
-tower_fixed_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-v_wind_max
-3
-1
-Wind stow speed
-m/s
-Heliostat Field
- 
-2
-1
-1
-1
-1
-15.000000
-Default
-land_min_calc
-3
-1
-Minimum distance from tower
-m
-Heliostat Field
- 
-8
-1
-1
-1
-1
-75.000000
-Default
-helio_positions
-3
-3
-User-specified field
- 
-Heliostat Field
- 
-1
-1
-3
-1
-3
-0.000000 0.000000 0.000000 
-
-DataMatrix
-override_opt
-3
-1
-Always optimize
- 
-Heliostat Field
- 
-3
-1
-1
-1
-1
-0.000000
-CheckBox
-cant_type
-3
-1
-Heliostat canting method
- 
-Heliostat Field
-None|On-axis|Equinox|Summer Solstice|Winter Solstice
-2
-1
-1
-1
-1
-1.000000
-Default
-heliostat_spec_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-land_max
-3
-1
-Max. heliostat distance to tower height ratio
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-7.500000
-Default
-tower_exp
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-q_design
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-opt_algorithm
-3
-1
-Optimization algorithm
- 
-Heliostat Field
-BOBYQA|COBYLA|NEWOUA|Nelder-Mead|Subplex|RSGS
-2
-1
-1
-1
-1
-1.000000
-Default
 A_sf
 3
 1
@@ -3219,62 +2631,6 @@ Heliostat Field
 1
 1
 0.000000
-Default
-c_atm_info
-3
-1
-Average attenuation loss
-%
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-land_max_calc
-3
-1
-Maximum distance from tower
-m
-Heliostat Field
- 
-8
-1
-1
-1
-1
-1150.000000
-Default
-land_spec_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.pt.sf.heliostat_area
-3
-1
-Single heliostat area
-m²
-Heliostat Field
- 
-8
-1
-1
-1
-1
-148.550003
 Default
 I_bn_des
 3
@@ -3290,80 +2646,10 @@ Heliostat Field
 1
 950.000000
 Default
-helio_height
+V_wind_10
 3
 1
-Heliostat height
-m
-Heliostat Field
- 
-2
-1
-1
-1
-1
-12.188000
-Default
-n_facet_y
-3
-1
-Number of heliostat facets - Y
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-8.000000
-Default
-helio_optical_error
-3
-1
-Image error (slope, single-axis)
-rad
-Heliostat Field
- 
-8
-1
-1
-1
-1
-1.530000
-Default
-dens_mirror
-3
-1
-Ratio of reflective area to profile
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-p_track
-3
-1
-Heliostat tracking power
-kWe
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.055000
-Numeric
-site_spec_cost
-3
-1
- 
+Ambient wind velocity at ground level
  
 Heliostat Field
  
@@ -3373,174 +2659,6 @@ Heliostat Field
 1
 1
 0.000000
-Default
-rec_ref_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-tes_spec_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-contingency_rate
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-p_start
-3
-1
-Heliostat startup energy
-kWe-hr
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.025000
-Numeric
-helio_width
-3
-1
-Heliostat width
-m
-Heliostat Field
- 
-2
-1
-1
-1
-1
-12.188000
-Default
-sales_tax_frac
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-plant_spec_cost
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.pt.sf.tower_height
-3
-1
-Tower height
-m
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-opt_conv_tol
-3
-1
-Optimization convergence tolerance
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-0.001000
-Default
-cost_sf_fixed
-3
-1
- 
- 
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.pt.sf.total_land_area
-3
-1
-Total land area
-acres
-Heliostat Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-n_facet_x
-3
-1
-Number of heliostat facets - X
- 
-Heliostat Field
- 
-2
-1
-1
-1
-1
-2.000000
 Default
 bop_spec_cost
 3
@@ -3570,6 +2688,216 @@ Heliostat Field
 1
 0.006789
 Default
+c_atm_1
+3
+1
+Polynomial coefficient 1
+1/km
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.104600
+Default
+c_atm_2
+3
+1
+Polynomial coefficient 2
+1/km²
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+-0.017000
+Default
+c_atm_3
+3
+1
+Polynomial coefficient 3
+1/km³
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.002845
+Default
+c_atm_info
+3
+1
+Average attenuation loss
+%
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+cant_type
+3
+1
+Heliostat canting method
+ 
+Heliostat Field
+None|On-axis|Equinox|Summer Solstice|Winter Solstice
+2
+1
+1
+1
+1
+1.000000
+Default
+check_max_flux
+3
+1
+check_max_flux (not used in UI)
+ 
+Heliostat Field
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+contingency_rate
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+cost_sf_fixed
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.pt.sf.fixed_land_area
+3
+1
+Non-solar field land area
+acres
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+44.500000
+Default
+csp.pt.sf.heliostat_area
+3
+1
+Single heliostat area
+m²
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+148.550003
+Default
+csp.pt.sf.land_overhead_factor
+3
+1
+Solar field land area multiplier
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+1.300000
+Default
+csp.pt.sf.total_land_area
+3
+1
+Total land area
+acres
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.pt.sf.tower_height
+3
+1
+Tower height
+m
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+dens_mirror
+3
+1
+Ratio of reflective area to profile
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+dni_des_calc
+3
+1
+Design-point DNI
+W/m²
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+950.000000
+Default
 error_equiv
 3
 1
@@ -3583,6 +2911,76 @@ Heliostat Field
 1
 1
 0.000000
+Default
+field_control
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+1.000000
+Default
+focus_type
+3
+1
+Heliostat focusing method
+ 
+Heliostat Field
+Flat|Ideal
+2
+1
+1
+1
+1
+1.000000
+Default
+fossil_spec_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+hel_stow_deploy
+3
+1
+Heliostat stow/deploy angle
+deg
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+8.000000
+Default
+helio_active_fraction
+3
+1
+Heliostat availability
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.990000
 Default
 helio_area_tot
 3
@@ -3598,6 +2996,315 @@ Heliostat Field
 1
 0.000000
 Default
+helio_height
+3
+1
+Heliostat height
+m
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+12.188000
+Default
+helio_optical_error
+3
+1
+Image error (slope, single-axis)
+rad
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+1.530000
+Default
+helio_optical_error_mrad
+3
+1
+Image error (slope, single-axis)
+mrad
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+1.530000
+Default
+helio_positions
+3
+3
+User-specified field
+ 
+Heliostat Field
+ 
+1
+1
+3
+1
+3
+0.000000 0.000000 0.000000 
+
+DataMatrix
+helio_reflectance
+3
+1
+Mirror reflectance and soiling
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.950000
+Default
+helio_width
+3
+1
+Heliostat width
+m
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+12.188000
+Default
+heliostat_spec_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+is_optimize
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+land_area_base
+3
+1
+Base land area
+acres
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+land_max
+3
+1
+Max. heliostat distance to tower height ratio
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+7.500000
+Default
+land_max_calc
+3
+1
+Maximum distance from tower
+m
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+1150.000000
+Default
+land_min
+3
+1
+Min. heliostat distance to tower height ratio
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.750000
+Default
+land_min_calc
+3
+1
+Minimum distance from tower
+m
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+75.000000
+Default
+land_spec_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+n_azi
+3
+1
+Number of azimuth angle data points in file
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+n_facet_x
+3
+1
+Number of heliostat facets - X
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+2.000000
+Default
+n_facet_y
+3
+1
+Number of heliostat facets - Y
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+8.000000
+Default
+n_hel
+3
+1
+Number of heliostats
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+8629.000000
+Default
+n_zen
+3
+1
+Number of zenith angle data points in file
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+opt_algorithm
+3
+1
+Optimization algorithm
+ 
+Heliostat Field
+BOBYQA|COBYLA|NEWOUA|Nelder-Mead|Subplex|RSGS
+2
+1
+1
+1
+1
+1.000000
+Default
+opt_conv_tol
+3
+1
+Optimization convergence tolerance
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.001000
+Default
+opt_flux_penalty
+3
+1
+Over-flux objective penalty factor
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.350000
+Default
 opt_init_step
 3
 1
@@ -3612,6 +3319,299 @@ Heliostat Field
 1
 0.050000
 Default
+opt_max_iter
+3
+1
+Maximum optimization iterations
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+200.000000
+Default
+override_layout
+3
+1
+Always layout automatically
+ 
+Heliostat Field
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
+override_opt
+3
+1
+Always optimize
+ 
+Heliostat Field
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
+p_start
+3
+1
+Heliostat startup energy
+kWe-hr
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.025000
+Numeric
+p_track
+3
+1
+Heliostat tracking power
+kWe
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.055000
+Numeric
+plant_spec_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+q_design
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_cost_exp
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_height
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_ref_area
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rec_ref_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+run_type
+3
+1
+0=auto, 1=user-field, 2=user data
+ 
+Heliostat Field
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+sales_tax_frac
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+sf_adjust
+3
+5
+Field output adjustment
+ 
+Heliostat Field
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+site_spec_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+tes_spec_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+tower_exp
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+tower_fixed_cost
+3
+1
+ 
+ 
+Heliostat Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+v_wind_max
+3
+1
+Wind stow speed
+m/s
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+15.000000
+Default
+washing_frequency
+3
+1
+Washes per year
+ 
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+63.000000
+Numeric
+water_usage_per_wash
+3
+1
+Water usage per wash
+L/m²,aper.
+Heliostat Field
+ 
+2
+1
+1
+1
+1
+0.700000
+Numeric
 
 3546
 equations{ 'land_max_calc' } = define() {

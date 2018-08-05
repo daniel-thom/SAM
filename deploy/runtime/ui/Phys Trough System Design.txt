@@ -1019,6 +1019,20 @@ TabOrder
 1
 
 14
+I_bn_des
+3
+1
+Design point DNI
+W/m²
+Phys Trough System Design
+ 
+2
+1
+1
+1
+1
+950.000000
+Default
 SD_COPY_field_thermal_output
 3
 1
@@ -1033,11 +1047,11 @@ MWt
 1
 0.000000
 Numeric
-system_capacity
+SD_COPY_nLoops
 3
 1
-system capacity for financial models
-kWt
+Actual number of loops
+ 
 Phys Trough System Design
  
 8
@@ -1045,7 +1059,7 @@ Phys Trough System Design
 1
 1
 1
-0.000000
+1.000000
 Numeric
 SD_COPY_solar_mult
 3
@@ -1061,20 +1075,6 @@ Phys Trough System Design
 1
 0.000000
 Numeric
-I_bn_des
-3
-1
-Design point DNI
-W/m²
-Phys Trough System Design
- 
-2
-1
-1
-1
-1
-950.000000
-Default
 SD_COPY_total_aperture
 3
 1
@@ -1089,6 +1089,34 @@ Phys Trough System Design
 1
 0.000000
 Numeric
+T_loop_in_des
+3
+1
+Loop inlet HTF temperature
+°C
+Phys Trough System Design
+ 
+2
+1
+1
+1
+1
+290.000000
+Default
+T_loop_out
+3
+1
+Loop outlet HTF temperature
+°C
+Phys Trough System Design
+ 
+2
+1
+1
+1
+1
+393.000000
+Default
 adjust
 3
 5
@@ -1102,34 +1130,6 @@ adjust
 1
 0
 LossAdjustment
-specified_q_dot_rec_des
-3
-1
-Target receiver thermal power
-MWt
-Phys Trough System Design
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-q_pb_design
-3
-1
-Heat sink power
-MWt
-Phys Trough System Design
- 
-2
-1
-1
-1
-1
-100.000000
-Default
 pb_pump_coef
 3
 1
@@ -1144,11 +1144,11 @@ Phys Trough System Design
 1
 0.550000
 Numeric
-tshours
+q_pb_design
 3
 1
-Hours of storage at design point
-hours
+Heat sink power
+MWt
 Phys Trough System Design
  
 2
@@ -1156,7 +1156,21 @@ Phys Trough System Design
 1
 1
 1
-6.000000
+100.000000
+Default
+specified_q_dot_rec_des
+3
+1
+Target receiver thermal power
+MWt
+Phys Trough System Design
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 specified_solar_multiple
 3
@@ -1172,25 +1186,11 @@ Phys Trough System Design
 1
 1.900000
 Default
-T_loop_in_des
+system_capacity
 3
 1
-Loop inlet HTF temperature
-°C
-Phys Trough System Design
- 
-2
-1
-1
-1
-1
-290.000000
-Default
-SD_COPY_nLoops
-3
-1
-Actual number of loops
- 
+system capacity for financial models
+kWt
 Phys Trough System Design
  
 8
@@ -1198,13 +1198,13 @@ Phys Trough System Design
 1
 1
 1
-1.000000
+0.000000
 Numeric
-T_loop_out
+tshours
 3
 1
-Loop outlet HTF temperature
-°C
+Hours of storage at design point
+hours
 Phys Trough System Design
  
 2
@@ -1212,7 +1212,7 @@ Phys Trough System Design
 1
 1
 1
-393.000000
+6.000000
 Default
 
 518

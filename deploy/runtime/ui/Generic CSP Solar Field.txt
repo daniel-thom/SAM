@@ -2696,454 +2696,6 @@ AlignTop
 1
 
 44
-csp.gss.sf.irr_loss_f0
-3
-1
-Irradiation loss F0
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-csp.gss.sf.field_area
-3
-1
-Estimated solar field area
-m2
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-f_sfhl_ref
-3
-1
-Reference thermal loss fraction
-MWt/MWtcap
-GSS Solar Field
- 
-2
-1
-1
-1
-1
-0.070000
-Default
-csp.gss.sf.ambt_loss_f0
-3
-1
-Ambient temp loss F0
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-csp.gss.sf.wspd_loss_f3
-3
-1
-Wind speed loss F3
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-sfhlQ_coefs
-3
-2
- 
- 
-GSS Solar Field
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-irr_des
-3
-1
-Solar resource at design
-W/m2
-GSS Solar Field
- 
-2
-1
-1
-1
-1
-950.000000
-Default
-track_mode
-3
-1
- 
- 
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.sf.ambt_loss_f2
-3
-1
-Ambient temp loss F2
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.sf.rad_type
-3
-1
-Irradiation basis
- 
-GSS Solar Field
-DNI|Horiz. Beam|Total Horiz.
-0
-1
-1
-1
-1
-0.000000
-Default
-sfhlT_coefs
-3
-2
- 
- 
-GSS Solar Field
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.gss.sf.ambt_loss_f3
-3
-1
-Ambient temp loss F3
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.sf.peak_opt_eff
-3
-1
-Peak optical efficiency
- 
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-T_sfdes
-3
-1
-Ambient temp at design
-'C
-GSS Solar Field
- 
-2
-1
-1
-1
-1
-25.000000
-Default
-interp_arr
-3
-1
-Interpolate table
- 
-GSS Solar Field
- 
-9
-1
-1
-1
-1
-1.000000
-Default
-istableunsorted
-3
-1
- 
- 
-GSS Solar Field
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-istableunsorted0
-3
-1
- 
- 
-GSS Solar Field
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.sf.wspd_loss_f1
-3
-1
-Wind speed loss F1
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.010000
-Default
-csp.gss.sf.irr_loss_f1
-3
-1
-Irradiation loss F1
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
--0.100000
-Default
-f_dni_loss_des
-3
-1
- 
- 
- 
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-csp.gss.sf.wspd_loss_f2
-3
-1
-Wind speed loss F2
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-sfhlV_coefs
-3
-2
- 
- 
-GSS Solar Field
- 
-8
-1
-2
-1
-1
-0.000000
-Default
-csp.gss.solf.fixed_land_area
-3
-1
-Solar Field Area
-acres
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.sf.irr_loss_f3
-3
-1
-Irradiation loss F3
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-rad_type
-3
-1
- 
- 
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-theta_stow
-3
-1
-Stow angle
-deg
-GSS Solar Field
- 
-2
-1
-1
-1
-1
-170.000000
-Default
-csp.gss.sf.wspd_loss_f0
-3
-1
-Wind speed loss F0
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-qsf_des
-3
-1
-Solar field design output
-MWt
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.solf.total_land_area
-3
-1
-Total Land Area
-acres
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.gss.solf.land_overhead_factor
-3
-1
-Non-Solar Field Land Area Multiplier
- 
-GSS Solar Field
- 
-2
-1
-1
-1
-1
-1.500000
-Default
-csp.gss.sf.ambt_loss_f1
-3
-1
-Ambient temp loss F1
- 
-GSS Solar Field
- 
-3
-1
-1
-1
-1
-0.005000
-Default
-csp.gss.sf.total_opt_eff
-3
-1
-Total optical efficiency
- 
-GSS Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 OpticalTable
 3
 3
@@ -3225,11 +2777,11 @@ GSS Solar Field
 53.455601 81.414803 0.487000 
 
 Default
-solarm
+T_sfdes
 3
 1
-Solar multiple
- 
+Ambient temp at design
+'C
 GSS Solar Field
  
 2
@@ -3237,12 +2789,40 @@ GSS Solar Field
 1
 1
 1
-2.000000
+25.000000
 Default
-csp.gss.sf.irr_loss_f2
+csp.gss.sf.ambt_loss_f0
 3
 1
-Irradiation loss F2
+Ambient temp loss F0
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.gss.sf.ambt_loss_f1
+3
+1
+Ambient temp loss F1
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+0.005000
+Default
+csp.gss.sf.ambt_loss_f2
+3
+1
+Ambient temp loss F2
  
 GSS Solar Field
  
@@ -3253,19 +2833,19 @@ GSS Solar Field
 1
 0.000000
 Default
-eta_opt_soil
+csp.gss.sf.ambt_loss_f3
 3
 1
-Cleanliness factor
+Ambient temp loss F3
  
 GSS Solar Field
  
-2
+3
 1
 1
 1
 1
-0.950000
+0.000000
 Default
 csp.gss.sf.design_thermal_loss
 3
@@ -3281,25 +2861,193 @@ GSS Solar Field
 1
 0.000000
 Default
-f_loss_tot_des
+csp.gss.sf.field_area
 3
 1
+Estimated solar field area
+m2
+GSS Solar Field
  
- 
- 
- 
-9
+8
 1
 1
 1
 1
 0.000000
-Numeric
-theta_dep
+Default
+csp.gss.sf.irr_loss_f0
 3
 1
-Deploy angle
-deg
+Irradiation loss F0
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.gss.sf.irr_loss_f1
+3
+1
+Irradiation loss F1
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+-0.100000
+Default
+csp.gss.sf.irr_loss_f2
+3
+1
+Irradiation loss F2
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.sf.irr_loss_f3
+3
+1
+Irradiation loss F3
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.sf.peak_opt_eff
+3
+1
+Peak optical efficiency
+ 
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.sf.rad_type
+3
+1
+Irradiation basis
+ 
+GSS Solar Field
+DNI|Horiz. Beam|Total Horiz.
+0
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.sf.total_opt_eff
+3
+1
+Total optical efficiency
+ 
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.sf.wspd_loss_f0
+3
+1
+Wind speed loss F0
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+csp.gss.sf.wspd_loss_f1
+3
+1
+Wind speed loss F1
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+0.010000
+Default
+csp.gss.sf.wspd_loss_f2
+3
+1
+Wind speed loss F2
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.sf.wspd_loss_f3
+3
+1
+Wind speed loss F3
+ 
+GSS Solar Field
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.solf.fixed_land_area
+3
+1
+Solar Field Area
+acres
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.gss.solf.land_overhead_factor
+3
+1
+Non-Solar Field Land Area Multiplier
+ 
 GSS Solar Field
  
 2
@@ -3307,7 +3055,21 @@ GSS Solar Field
 1
 1
 1
-10.000000
+1.500000
+Default
+csp.gss.solf.total_land_area
+3
+1
+Total Land Area
+acres
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 eta_opt_gen
 3
@@ -3323,19 +3085,62 @@ GSS Solar Field
 1
 0.600000
 Default
-sf_adjust
+eta_opt_soil
 3
-5
-Performance adjustment
+1
+Cleanliness factor
  
 GSS Solar Field
  
+2
 1
 1
-5
 1
-0
-LossAdjustment
+1
+0.950000
+Default
+f_dni_loss_des
+3
+1
+ 
+ 
+ 
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+f_loss_tot_des
+3
+1
+ 
+ 
+ 
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+f_sfhl_ref
+3
+1
+Reference thermal loss fraction
+MWt/MWtcap
+GSS Solar Field
+ 
+2
+1
+1
+1
+1
+0.070000
+Default
 f_t_amb_loss_des
 3
 1
@@ -3364,6 +3169,201 @@ f_v_wind_loss_des
 1
 0.000000
 Numeric
+interp_arr
+3
+1
+Interpolate table
+ 
+GSS Solar Field
+ 
+9
+1
+1
+1
+1
+1.000000
+Default
+irr_des
+3
+1
+Solar resource at design
+W/m2
+GSS Solar Field
+ 
+2
+1
+1
+1
+1
+950.000000
+Default
+istableunsorted
+3
+1
+ 
+ 
+GSS Solar Field
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+istableunsorted0
+3
+1
+ 
+ 
+GSS Solar Field
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+qsf_des
+3
+1
+Solar field design output
+MWt
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+rad_type
+3
+1
+ 
+ 
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+sf_adjust
+3
+5
+Performance adjustment
+ 
+GSS Solar Field
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+sfhlQ_coefs
+3
+2
+ 
+ 
+GSS Solar Field
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+sfhlT_coefs
+3
+2
+ 
+ 
+GSS Solar Field
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+sfhlV_coefs
+3
+2
+ 
+ 
+GSS Solar Field
+ 
+8
+1
+2
+1
+1
+0.000000
+Default
+solarm
+3
+1
+Solar multiple
+ 
+GSS Solar Field
+ 
+2
+1
+1
+1
+1
+2.000000
+Default
+theta_dep
+3
+1
+Deploy angle
+deg
+GSS Solar Field
+ 
+2
+1
+1
+1
+1
+10.000000
+Default
+theta_stow
+3
+1
+Stow angle
+deg
+GSS Solar Field
+ 
+2
+1
+1
+1
+1
+170.000000
+Default
+track_mode
+3
+1
+ 
+ 
+GSS Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 
 2594
 equations{ 'csp.gss.sf.total_opt_eff' } = define() {

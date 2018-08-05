@@ -4150,7 +4150,7 @@ TabOrder
 4294967295
 
 74
-quantity_test_met_towers
+access_road_entrances
 3
 1
  
@@ -4163,188 +4163,6 @@ Wind BOS Costs
 1
 1
 0.000000
-Numeric
-overhead
-3
-1
-Overhead
-%
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-5.000000
-Numeric
-weather_delay_days_input
-3
-1
-Wind/Weather Delay Days
-days
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-20.000000
-Numeric
-quantity_test_met_towers_choice
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Choice
-development_cost
-3
-1
-Development cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sales_and_use_tax
-3
-1
-Sales and Use Tax
-%
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-tower_top_mass
-3
-1
- 
-tonnes
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-88.000000
-Default
-soil_condition
-3
-1
-Soil Condition
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Choice
-new_switchyard_required
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-1.000000
-CheckBox
-construction_time
-3
-1
- 
-months
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-substation_cost
-3
-1
-Collector substation cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-foundation_cost
-3
-1
-Turbine foundation cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-delivery_assist_required
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-CheckBox
-construction_time_input
-3
-1
-Construction Time
-months
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-19.000000
 Numeric
 access_road_entrances_choice
 3
@@ -4360,160 +4178,6 @@ Wind BOS Costs
 1
 0.000000
 Choice
-building_cost
-3
-1
-Control - O&M building cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-project_total_budgeted_cost
-3
-1
- 
- 
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-site_terrain
-3
-1
-Site Terrain
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Choice
-access_roads_cost
-3
-1
-Access road & site improvement cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-turbine_layout
-3
-1
-Turbine Layout
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-1.000000
-Choice
-electrical_materials_cost
-3
-1
-MV electrical material cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-rock_trenching_required
-3
-1
-Rock trenching required (% of collector cable length)
-%
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-10.000000
-Numeric
-markup_cost
-3
-1
-Markup & contingency cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-crane_breakdowns
-3
-1
- 
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-warranty_management
-3
-1
-Warranty management
-%
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.020000
-Numeric
-mv_overhead_collector
-3
-1
-MV overhead collector
-miles
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
 access_road_entrances_input
 3
 1
@@ -4527,538 +4191,6 @@ Wind BOS Costs
 1
 1
 8.000000
-Numeric
-project_mgmt_cost
-3
-1
-Project management cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-quantity_permanent_met_towers_choice
-3
-1
- 
- 
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Choice
-interconnect_voltage
-3
-1
-Interconnect Voltage
-kV
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-137.000000
-Numeric
-bos_total_cost_per_kw
-3
-1
-Balance of system cost per capacity
-$/kW
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-development_fee_input
-3
-1
-Development Fee
-$
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-5000000.000000
-Numeric
-performance_bond
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-CheckBox
-quantity_permanent_met_towers
-3
-1
- 
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-access_road_entrances
-3
-1
- 
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-rotor_diameter
-3
-1
-Roter Diameter
-m
-Wind BOS Costs
- 
-10
-1
-1
-1
-1
-110.000000
-Numeric
-insurance_cost
-3
-1
-Insurance, bonds, & permit cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-number_of_turbines
-3
-1
-Number of Turbines
- 
-Wind BOS Costs
- 
-10
-1
-1
-1
-1
-100.000000
-Numeric
-quantity_test_met_towers_input
-3
-1
-Number of Temporary Met Towers
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-3.000000
-Numeric
-pad_mount_transformer_required
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-1.000000
-CheckBox
-transportation_cost
-3
-1
-Turbine transportation cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-quantity_permanent_met_towers_input
-3
-1
-Number of Permanent Met Towers
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-2.000000
-Numeric
-mv_thermal_backfill
-3
-1
-MV thermal backfill
-miles
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-contingency
-3
-1
-Contingency
-%
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-3.000000
-Numeric
-transmission_cost
-3
-1
-Transmission & interconnection cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-quantity_permanent_met_towers_sugg
-3
-1
- 
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-development_fee
-3
-1
- 
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-5.000000
-Default
-crane_breakdowns_input
-3
-1
-Crane Breakdowns
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-8.000000
-Numeric
-construction_time_sugg
-3
-1
- 
-months
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-om_building_size_choice
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Choice
-crane_breakdowns_choice
-3
-1
- 
- 
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Choice
-construction_time_choice
-3
-1
- 
- 
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Choice
-hub_height
-3
-1
-Hub Height
-m
-Wind BOS Costs
- 
-10
-1
-1
-1
-1
-100.000000
-Numeric
-om_building_size
-3
-1
- 
-ft²
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-turbine_capital_cost
-3
-1
- 
-$/kW
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-machine_rating
-3
-1
-Machine Rating
-kW
-Wind BOS Costs
- 
-10
-1
-1
-1
-1
-2000.000000
-Numeric
-farm_size_MW
-3
-1
-Wind Farm Size
-MW
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-weather_delay_days_sugg
-3
-1
- 
-days
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-profit_margin
-3
-1
-Profit Margin
-%
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-5.000000
-Numeric
-site_compound_security_cost
-3
-1
-Site compound & security cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-weather_delay_days_choice
-3
-1
- 
- 
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Choice
-om_building_size_input
-3
-1
-O&M Building Size
-ft²
-Wind BOS Costs
- 
-2
-1
-1
-1
-1
-5000.000000
-Numeric
-turbine_transportation
-3
-1
-Turbine Transportation
-miles
-Wind BOS Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Numeric
-om_building_size_sugg
-3
-1
- 
-ft²
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-weather_delay_days
-3
-1
- 
-days
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
 Numeric
 access_road_entrances_sugg
 3
@@ -5074,38 +4206,10 @@ Wind BOS Costs
 1
 0.000000
 Default
-engineering_cost
+access_roads_cost
 3
 1
-Engineering cost
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-crane_breakdowns_sugg
-3
-1
- 
- 
-Wind BOS Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-erection_cost
-3
-1
-Turbine erection cost
+Access road & site improvement cost
  
 Wind BOS Costs
  
@@ -5130,10 +4234,24 @@ Wind BOS Costs
 1
 0.000000
 Numeric
-power_performance_cost
+bos_total_cost_per_kw
 3
 1
-Met mast & power perf. engineering cost
+Balance of system cost per capacity
+$/kW
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+building_cost
+3
+1
+Control - O&M building cost
  
 Wind BOS Costs
  
@@ -5143,6 +4261,202 @@ Wind BOS Costs
 1
 1
 0.000000
+Numeric
+construction_time
+3
+1
+ 
+months
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+construction_time_choice
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Choice
+construction_time_input
+3
+1
+Construction Time
+months
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+19.000000
+Numeric
+construction_time_sugg
+3
+1
+ 
+months
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+contingency
+3
+1
+Contingency
+%
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+3.000000
+Numeric
+crane_breakdowns
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+crane_breakdowns_choice
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Choice
+crane_breakdowns_input
+3
+1
+Crane Breakdowns
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+8.000000
+Numeric
+crane_breakdowns_sugg
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+delivery_assist_required
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+CheckBox
+development_cost
+3
+1
+Development cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+development_fee
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+5.000000
+Default
+development_fee_input
+3
+1
+Development Fee
+$
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+5000000.000000
+Numeric
+distance_to_interconnect
+3
+1
+Distance to Interconnect
+miles
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+5.000000
 Numeric
 electrical_installation_cost
 3
@@ -5158,6 +4472,454 @@ Wind BOS Costs
 1
 0.000000
 Numeric
+electrical_materials_cost
+3
+1
+MV electrical material cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+engineering_cost
+3
+1
+Engineering cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+erection_cost
+3
+1
+Turbine erection cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+farm_size_MW
+3
+1
+Wind Farm Size
+MW
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+foundation_cost
+3
+1
+Turbine foundation cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+hub_height
+3
+1
+Hub Height
+m
+Wind BOS Costs
+ 
+10
+1
+1
+1
+1
+100.000000
+Numeric
+insurance_cost
+3
+1
+Insurance, bonds, & permit cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+interconnect_voltage
+3
+1
+Interconnect Voltage
+kV
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+137.000000
+Numeric
+machine_rating
+3
+1
+Machine Rating
+kW
+Wind BOS Costs
+ 
+10
+1
+1
+1
+1
+2000.000000
+Numeric
+markup_cost
+3
+1
+Markup & contingency cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+mv_overhead_collector
+3
+1
+MV overhead collector
+miles
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+mv_thermal_backfill
+3
+1
+MV thermal backfill
+miles
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+new_switchyard_required
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+1.000000
+CheckBox
+number_of_turbines
+3
+1
+Number of Turbines
+ 
+Wind BOS Costs
+ 
+10
+1
+1
+1
+1
+100.000000
+Numeric
+om_building_size
+3
+1
+ 
+ft²
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+om_building_size_choice
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Choice
+om_building_size_input
+3
+1
+O&M Building Size
+ft²
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+5000.000000
+Numeric
+om_building_size_sugg
+3
+1
+ 
+ft²
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+overhead
+3
+1
+Overhead
+%
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+5.000000
+Numeric
+pad_mount_transformer_required
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+1.000000
+CheckBox
+performance_bond
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+CheckBox
+power_performance_cost
+3
+1
+Met mast & power perf. engineering cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+profit_margin
+3
+1
+Profit Margin
+%
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+5.000000
+Numeric
+project_mgmt_cost
+3
+1
+Project management cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+project_total_budgeted_cost
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+quantity_permanent_met_towers
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+quantity_permanent_met_towers_choice
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Choice
+quantity_permanent_met_towers_input
+3
+1
+Number of Permanent Met Towers
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+2.000000
+Numeric
+quantity_permanent_met_towers_sugg
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+quantity_test_met_towers
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+quantity_test_met_towers_choice
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Choice
+quantity_test_met_towers_input
+3
+1
+Number of Temporary Met Towers
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+3.000000
+Numeric
 quantity_test_met_towers_sugg
 3
 1
@@ -5172,11 +4934,67 @@ Wind BOS Costs
 1
 0.000000
 Default
-distance_to_interconnect
+rock_trenching_required
 3
 1
-Distance to Interconnect
-miles
+Rock trenching required (% of collector cable length)
+%
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+10.000000
+Numeric
+rotor_diameter
+3
+1
+Roter Diameter
+m
+Wind BOS Costs
+ 
+10
+1
+1
+1
+1
+110.000000
+Numeric
+sales_and_use_tax
+3
+1
+Sales and Use Tax
+%
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+site_compound_security_cost
+3
+1
+Site compound & security cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+site_terrain
+3
+1
+Site Terrain
+ 
 Wind BOS Costs
  
 2
@@ -5184,8 +5002,190 @@ Wind BOS Costs
 1
 1
 1
-5.000000
+0.000000
+Choice
+soil_condition
+3
+1
+Soil Condition
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Choice
+substation_cost
+3
+1
+Collector substation cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
 Numeric
+tower_top_mass
+3
+1
+ 
+tonnes
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+88.000000
+Default
+transmission_cost
+3
+1
+Transmission & interconnection cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+transportation_cost
+3
+1
+Turbine transportation cost
+ 
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+turbine_capital_cost
+3
+1
+ 
+$/kW
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+turbine_layout
+3
+1
+Turbine Layout
+ 
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+1.000000
+Choice
+turbine_transportation
+3
+1
+Turbine Transportation
+miles
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Numeric
+warranty_management
+3
+1
+Warranty management
+%
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.020000
+Numeric
+weather_delay_days
+3
+1
+ 
+days
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+weather_delay_days_choice
+3
+1
+ 
+ 
+Wind BOS Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Choice
+weather_delay_days_input
+3
+1
+Wind/Weather Delay Days
+days
+Wind BOS Costs
+ 
+2
+1
+1
+1
+1
+20.000000
+Numeric
+weather_delay_days_sugg
+3
+1
+ 
+days
+Wind BOS Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 
 7404
 equations{ 'machine_rating' } = define() {

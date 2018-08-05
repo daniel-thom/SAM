@@ -1634,38 +1634,38 @@ AlignTop
 0
 
 21
-reference_sales_tax_percent
+bos_cost_fixed
 3
 1
-Sales tax rate
-%
+BOS fixed costs
+$
 Wind Farm Costs
  
-8
+3
 1
 1
 1
 1
 0.000000
 Default
-total_installed_cost
+bos_cost_per_kw
 3
 1
-Total installed cost
- 
+BOS cost per kW
+$/kW
 Wind Farm Costs
  
-8
+3
 1
 1
 1
 1
 0.000000
 Default
-turbine_cost_per_turbine
+bos_cost_per_turbine
 3
 1
-Turbine cost per turbine
+BOS cost per turbine
 $/turbine
 Wind Farm Costs
  
@@ -1690,101 +1690,16 @@ Wind Farm Costs
 1
 0.000000
 Default
-sales_tax_total
+est_bos_cost
 3
-1
-Total sales tax amount
-$
-Wind Farm Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-bos_cost_per_kw
-3
-1
-BOS cost per kW
-$/kW
-Wind Farm Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-total_installed_cost_per_kw
-3
-1
-Total installed cost per kW
- 
-Wind Farm Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-reference_resource_file
-3
-4
+0
  
  
 Wind Farm Costs
  
-8
+0
 1
-4
-""
-Default
-system_use_recapitalization
-3
-1
- 
- 
-Wind Farm Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-turbine_cost_total
-3
-1
-Total turbine cost
-$
-Wind Farm Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-turbine_cost_fixed
-3
-1
-Turbine fixed costs
-$
-Wind Farm Costs
- 
-3
-1
-1
-1
-1
-0.000000
+0
 Default
 est_turbine_cost
 3
@@ -1800,31 +1715,6 @@ Wind Farm Costs
 1
 0.000000
 Default
-bos_cost_fixed
-3
-1
-BOS fixed costs
-$
-Wind Farm Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-est_bos_cost
-3
-0
- 
- 
-Wind Farm Costs
- 
-0
-1
-0
-Default
 install_type
 3
 1
@@ -1833,48 +1723,6 @@ Land based or offshore installation
 Wind Farm Costs
  
 1
-1
-1
-1
-1
-0.000000
-Default
-bos_cost_per_turbine
-3
-1
-BOS cost per turbine
-$/turbine
-Wind Farm Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-system_use_lifetime_output
-3
-1
- 
- 
-Wind Farm Costs
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-turbine_cost_per_kw
-3
-1
-Turbine cost per kW
-$/kW
-Wind Farm Costs
- 
-3
 1
 1
 1
@@ -1909,6 +1757,32 @@ Wind Farm Costs
 1
 0.000000
 Default
+reference_resource_file
+3
+4
+ 
+ 
+Wind Farm Costs
+ 
+8
+1
+4
+""
+Default
+reference_sales_tax_percent
+3
+1
+Sales tax rate
+%
+Wind Farm Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 sales_tax_basis
 3
 1
@@ -1917,6 +1791,132 @@ Sales tax basis, % of total equipment costs
 Wind Farm Costs
  
 2
+1
+1
+1
+1
+0.000000
+Default
+sales_tax_total
+3
+1
+Total sales tax amount
+$
+Wind Farm Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
+system_use_lifetime_output
+3
+1
+ 
+ 
+Wind Farm Costs
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+Wind Farm Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_installed_cost
+3
+1
+Total installed cost
+ 
+Wind Farm Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_installed_cost_per_kw
+3
+1
+Total installed cost per kW
+ 
+Wind Farm Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+turbine_cost_fixed
+3
+1
+Turbine fixed costs
+$
+Wind Farm Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+turbine_cost_per_kw
+3
+1
+Turbine cost per kW
+$/kW
+Wind Farm Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+turbine_cost_per_turbine
+3
+1
+Turbine cost per turbine
+$/turbine
+Wind Farm Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+turbine_cost_total
+3
+1
+Total turbine cost
+$
+Wind Farm Costs
+ 
+9
 1
 1
 1

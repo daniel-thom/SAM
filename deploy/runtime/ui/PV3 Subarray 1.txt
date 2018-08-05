@@ -2602,20 +2602,6 @@ TabOrder
 4294967295
 
 25
-module
-3
-1
-Module
- 
- 
- 
-1
-1
-1
-1
-1
-0.000000
-Default
 inverter
 3
 1
@@ -2629,48 +2615,6 @@ Inverter type
 1
 1
 0.000000
-Default
-num_mppt
-3
-1
-Number of MPPT inputs
- 
- 
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-strings_in_parallel
-3
-1
-Strings in parallel
- 
-PV System Design
- 
-3
-1
-1
-1
-1
-4.000000
-Default
-subarray1_rotlim
-3
-1
-Tracker rotation limit
-deg
-PV System Design
- 
-3
-1
-1
-1
-1
-45.000000
 Default
 inverter_count
 3
@@ -2686,6 +2630,20 @@ PV System Design
 1
 1.000000
 Default
+module
+3
+1
+Module
+ 
+ 
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
 modules_per_string
 3
 1
@@ -2699,20 +2657,6 @@ PV System Design
 1
 1
 10.000000
-Default
-vmp_string
-3
-1
-String Vmp
-V
-PV System Design
- 
-8
-1
-1
-1
-1
-0.000000
 Default
 mppt_hi_inverter
 3
@@ -2742,12 +2686,26 @@ PV System Design
 1
 0.000000
 Default
-vdcmax_inverter
+num_mppt
 3
 1
-Inverter Maximum DC voltage
-Vdc
-PV System Design
+Number of MPPT inputs
+ 
+ 
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+section1_ac_capacity
+3
+1
+Section 1 AC Capacity
+kW AC
+ 
  
 8
 1
@@ -2756,39 +2714,11 @@ PV System Design
 1
 0.000000
 Default
-subarray_track_mode
+section1_dc_capacity
 3
 1
-Tracking type
- 
- 
-Fixed|1 Axis |2 Axis|Azimuth Axis|Seasonal Tilt
-3
-1
-1
-1
-1
-0.000000
-Default
-voc_string
-3
-1
-String Voc
-V
-PV System Design
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-system_num_inv
-3
-1
-Total System Inverters
- 
+Section 1 DC Capacity
+kW DC
  
  
 8
@@ -2811,6 +2741,20 @@ Section 1 DC to AC Ratio
 1
 1
 0.000000
+Default
+strings_in_parallel
+3
+1
+Strings in parallel
+ 
+PV System Design
+ 
+3
+1
+1
+1
+1
+4.000000
 Default
 subarray1_azimuth
 3
@@ -2840,6 +2784,20 @@ PV System Design
 1
 0.000000
 Default
+subarray1_rotlim
+3
+1
+Tracker rotation limit
+deg
+PV System Design
+ 
+3
+1
+1
+1
+1
+45.000000
+Default
 subarray1_tilt
 3
 1
@@ -2854,14 +2812,14 @@ PV System Design
 1
 0.000000
 Default
-total_modules
+subarray_track_mode
 3
 1
-Number of modules
+Tracking type
  
-PV System Design
  
-1
+Fixed|1 Axis |2 Axis|Azimuth Axis|Seasonal Tilt
+3
 1
 1
 1
@@ -2901,25 +2859,11 @@ kW DC
 1
 0
 Default
-section1_ac_capacity
+system_num_inv
 3
 1
-Section 1 AC Capacity
-kW AC
+Total System Inverters
  
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-section1_dc_capacity
-3
-1
-Section 1 DC Capacity
-kW DC
  
  
 8
@@ -2935,6 +2879,62 @@ system_num_mod
 Total System Modules
  
  
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_modules
+3
+1
+Number of modules
+ 
+PV System Design
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+vdcmax_inverter
+3
+1
+Inverter Maximum DC voltage
+Vdc
+PV System Design
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+vmp_string
+3
+1
+String Vmp
+V
+PV System Design
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+voc_string
+3
+1
+String Voc
+V
+PV System Design
  
 8
 1

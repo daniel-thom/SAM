@@ -750,42 +750,20 @@ AlignTop
 1
 
 23
-wind_resource.state
+use_specific_wf_wind
 3
-4
-State
+1
+Wind resource enable user-specified file
  
 Wind Resource by Location
  
-8
+5
 1
-4
- 
-TextEntry
-wind_resource_filename
-3
-4
-Wind resource file for simulation
- 
-Wind Resource by Location
- 
-9
 1
-4
- 
-Default
-wind_resource.location
-3
-4
-Wind Resource
- 
-Wind Resource by Location
-WindResourceData|0
-19
 1
-4
-WY Cheyenne_2006
-Library
+1
+0.000000
+CheckBox
 user_specified_wf_wind
 3
 4
@@ -798,36 +776,10 @@ Wind Resource by Location
 4
  
 Default
-wind_resource.location_id
-3
-4
- 
- 
-Wind Resource by Location
- 
-8
-1
-4
- 
-Default
-wind_resource.lon_requested
+wind_climate.avg_wind_speed_closest_to_hub_ht
 3
 1
-Longitude
-deg
-Wind Resource by Location
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-wind_resource.lon
-3
-1
-Longitude
+Average wind speed nearest hub height
  
 Wind Resource by Location
  
@@ -838,6 +790,134 @@ Wind Resource by Location
 1
 0.000000
 Numeric
+wind_climate.msg
+3
+4
+ 
+ 
+Wind Resource by Location
+ 
+0
+1
+4
+ 
+Default
+wind_climate.msg_is_error
+3
+1
+ 
+ 
+Wind Resource by Location
+=\wind_resource_info
+0
+1
+1
+1
+1
+0.000000
+Default
+wind_climate.url_info
+3
+4
+Data source
+ 
+Wind Resource by Location
+ 
+0
+1
+4
+empty
+Default
+wind_resource.city
+3
+4
+City
+ 
+Wind Resource by Location
+ 
+8
+1
+4
+ 
+TextEntry
+wind_resource.closest_dir_meas_ht
+3
+1
+Height of direction data closest to hub height
+ 
+Wind Resource by Location
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+wind_resource.closest_speed_meas_ht
+3
+1
+Height of speed data closest to hub height
+ 
+Wind Resource by Location
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+wind_resource.country
+3
+4
+Country
+ 
+Wind Resource by Location
+ 
+8
+1
+4
+ 
+TextEntry
+wind_resource.description
+3
+4
+Description
+ 
+Wind Resource by Location
+ 
+8
+1
+4
+ 
+TextEntry
+wind_resource.elev
+3
+1
+Elevation above sea level
+ 
+Wind Resource by Location
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+wind_resource.file
+3
+4
+Wind resource file name from library
+ 
+Wind Resource by Location
+ 
+8
+1
+4
+ 
+TextEntry
 wind_resource.lat
 3
 1
@@ -866,34 +946,34 @@ Wind Resource by Location
 1
 0.000000
 Default
-wind_resource.country
+wind_resource.location
 3
 4
-Country
+Wind Resource
+ 
+Wind Resource by Location
+WindResourceData|0
+19
+1
+4
+WY Cheyenne_2006
+Library
+wind_resource.location_id
+3
+4
+ 
  
 Wind Resource by Location
  
 8
-1
-4
- 
-TextEntry
-wind_climate.msg
-3
-4
- 
- 
-Wind Resource by Location
- 
-0
 1
 4
  
 Default
-wind_resource.elev
+wind_resource.lon
 3
 1
-Elevation above sea level
+Longitude
  
 Wind Resource by Location
  
@@ -904,27 +984,13 @@ Wind Resource by Location
 1
 0.000000
 Numeric
-wind_climate.avg_wind_speed_closest_to_hub_ht
+wind_resource.lon_requested
 3
 1
-Average wind speed nearest hub height
- 
+Longitude
+deg
 Wind Resource by Location
  
-8
-1
-1
-1
-1
-0.000000
-Numeric
-wind_climate.msg_is_error
-3
-1
- 
- 
-Wind Resource by Location
-=\wind_resource_info
 0
 1
 1
@@ -932,10 +998,10 @@ Wind Resource by Location
 1
 0.000000
 Default
-wind_resource.closest_dir_meas_ht
+wind_resource.requested_ht
 3
 1
-Height of direction data closest to hub height
+Turbine hub height
  
 Wind Resource by Location
  
@@ -946,10 +1012,10 @@ Wind Resource by Location
 1
 0.000000
 Numeric
-wind_resource.file
+wind_resource.state
 3
 4
-Wind resource file name from library
+State
  
 Wind Resource by Location
  
@@ -972,84 +1038,18 @@ Wind Resource by Location
 1
 0.000000
 Default
-wind_resource.description
+wind_resource_filename
 3
 4
-Description
+Wind resource file for simulation
  
 Wind Resource by Location
  
-8
+9
 1
 4
  
-TextEntry
-wind_resource.city
-3
-4
-City
- 
-Wind Resource by Location
- 
-8
-1
-4
- 
-TextEntry
-use_specific_wf_wind
-3
-1
-Wind resource enable user-specified file
- 
-Wind Resource by Location
- 
-5
-1
-1
-1
-1
-0.000000
-CheckBox
-wind_climate.url_info
-3
-4
-Data source
- 
-Wind Resource by Location
- 
-0
-1
-4
-empty
 Default
-wind_resource.closest_speed_meas_ht
-3
-1
-Height of speed data closest to hub height
- 
-Wind Resource by Location
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-wind_resource.requested_ht
-3
-1
-Turbine hub height
- 
-Wind Resource by Location
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
 
 244
 equations{ 'wind_resource.requested_ht' } = define() {

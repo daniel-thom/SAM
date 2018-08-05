@@ -2715,119 +2715,7 @@ AlignTop
 0
 
 50
-csp.mslf.cycle.F_wc4
-3
-1
-Hybrid dispatch fraction period 4
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-hx_config
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-T_startup
-3
-1
-Startup temperature
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-400.000000
-Default
-sliding_pres
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.cycle.F_wc7
-3
-1
-Hybrid dispatch fraction period 7
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.cycle.gr_to_net
-3
-1
-Estimated gross to net conversion factor
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.900000
-Default
-n_pl_inc
-3
-1
-Number of part-load increments for heat rejection
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-2.000000
-Default
-pb_bd_frac
-3
-1
-Power block blowdown steam fraction
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.020000
-Default
-tech_type
+CT
 3
 1
  
@@ -2855,257 +2743,6 @@ Power Cycle
 1
 0.000000
 Default
-T_htf_cold_ref
-3
-1
-Reference HTF inlet temperature at design
-°C
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.cycle.F_wc2
-3
-1
-Hybrid dispatch fraction period 2
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-dT_cw_ref
-3
-1
-Reference condenser cooling water inlet/outlet T diff
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-10.000000
-Default
-startup_frac
-3
-1
-Fraction of thermal power needed for startup
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.200000
-Default
-T_set_aux
-3
-1
-Aux heater outlet set temp
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-525.000000
-Default
-T_ITD_des
-3
-1
-ITD at design for dry system
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-16.000000
-Default
-csp.mslf.cycle.F_wc9
-3
-1
-Hybrid dispatch fraction period 9
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.control.fossil_mode
-3
-1
-Fossil backup mode
- 
-Power Cycle
-Minimum backup level|Supplemental operation
-2
-1
-1
-1
-1
-0.000000
-Default
-cycle_cutoff_frac
-3
-1
-Minimum turbine operation fraction before shutdown
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.250000
-Default
-T_approach
-3
-1
-Cooling tower approach temperature
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-5.000000
-Default
-startup_time
-3
-1
-Time needed for power block startup
-hours
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.500000
-Default
-q_design
-3
-1
-Estimated net output at design (nameplate)
-MWe
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.cycle.F_wc5
-3
-1
-Hybrid dispatch fraction period 5
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-adjust
-3
-5
-Performance adjustment
- 
-Power Cycle
- 
-1
-1
-5
-1
-0
-LossAdjustment
-csp.mslf.cycle.F_wc6
-3
-1
-Hybrid dispatch fraction period 6
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-cycle_max_frac
-3
-1
-Maximum turbine over design operation fraction
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-1.050000
-Default
-t_standby_reset
-3
-1
-Low resource standby period
-hours
-Power Cycle
- 
-2
-1
-1
-1
-1
-2.000000
-Default
-csp.mslf.cycle.F_wc3
-3
-1
-Hybrid dispatch fraction period 3
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
 P_boil
 3
 1
@@ -3119,90 +2756,6 @@ Power Cycle
 1
 1
 100.000000
-Default
-m_dot_in
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.mslf.cycle.F_wc8
-3
-1
-Hybrid dispatch fraction period 8
- 
-Power Cycle
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-is_hx
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-P_ref
-3
-1
-Reference output electric power at design condition
-MWe
-Power Cycle
- 
-2
-1
-1
-1
-1
-111.000000
-Default
-lhv_eff
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.900000
-Default
-T_amb_des
-3
-1
-Reference ambient temperature at design point
-°C
-Power Cycle
- 
-2
-1
-1
-1
-1
-20.000000
 Default
 P_cond_min
 3
@@ -3218,14 +2771,153 @@ Power Cycle
 1
 1.250000
 Default
-system_capacity
+P_cond_ratio
 3
 1
- 
+Condenser pressure ratio
  
 Power Cycle
  
+2
+1
+1
+1
+1
+1.002800
+Default
+P_ref
+3
+1
+Reference output electric power at design condition
+MWe
+Power Cycle
+ 
+2
+1
+1
+1
+1
+111.000000
+Default
+T_ITD_des
+3
+1
+ITD at design for dry system
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+16.000000
+Default
+T_amb_des
+3
+1
+Reference ambient temperature at design point
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+20.000000
+Default
+T_approach
+3
+1
+Cooling tower approach temperature
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+5.000000
+Default
+T_htf_cold_ref
+3
+1
+Reference HTF inlet temperature at design
+°C
+Power Cycle
+ 
 8
+1
+1
+1
+1
+0.000000
+Default
+T_htf_hot_ref
+3
+1
+Reference HTF outlet temperature at design
+°C
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+T_set_aux
+3
+1
+Aux heater outlet set temp
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+525.000000
+Default
+T_startup
+3
+1
+Startup temperature
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+400.000000
+Default
+adjust
+3
+5
+Performance adjustment
+ 
+Power Cycle
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+csp.mslf.control.fossil_mode
+3
+1
+Fossil backup mode
+ 
+Power Cycle
+Minimum backup level|Supplemental operation
+2
 1
 1
 1
@@ -3246,24 +2938,136 @@ Evaporative|Air-cooled|Hybrid
 1
 0.000000
 Default
-pb_tech_type
+csp.mslf.cycle.F_wc1
 3
 1
- 
+Hybrid dispatch fraction period 1
  
 Power Cycle
  
-8
-1
-1
-1
-1
-2.000000
-Default
-eta_lhv
 3
 1
-Fossil backup boiler LHV efficiency
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc2
+3
+1
+Hybrid dispatch fraction period 2
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc3
+3
+1
+Hybrid dispatch fraction period 3
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc4
+3
+1
+Hybrid dispatch fraction period 4
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc5
+3
+1
+Hybrid dispatch fraction period 5
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc6
+3
+1
+Hybrid dispatch fraction period 6
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc7
+3
+1
+Hybrid dispatch fraction period 7
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc8
+3
+1
+Hybrid dispatch fraction period 8
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.F_wc9
+3
+1
+Hybrid dispatch fraction period 9
+ 
+Power Cycle
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.mslf.cycle.gr_to_net
+3
+1
+Estimated gross to net conversion factor
  
 Power Cycle
  
@@ -3273,48 +3077,6 @@ Power Cycle
 1
 1
 0.900000
-Default
-CT
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-q_sby_frac
-3
-1
-Fraction of thermal power needed for standby
- 
-Power Cycle
- 
-2
-1
-1
-1
-1
-0.200000
-Default
-pb_rated_cap
-3
-1
- 
- 
-Power Cycle
- 
-8
-1
-1
-1
-1
-0.000000
 Default
 csp.mslf.cycle.sliding_pres
 3
@@ -3330,19 +3092,61 @@ Fixed pressure|Sliding pressure
 1
 1.000000
 Default
-csp.mslf.cycle.F_wc1
+cycle_cutoff_frac
 3
 1
-Hybrid dispatch fraction period 1
+Minimum turbine operation fraction before shutdown
  
 Power Cycle
  
+2
+1
+1
+1
+1
+0.250000
+Default
+cycle_max_frac
 3
 1
+Maximum turbine over design operation fraction
+ 
+Power Cycle
+ 
+2
 1
 1
 1
-0.000000
+1
+1.050000
+Default
+dT_cw_ref
+3
+1
+Reference condenser cooling water inlet/outlet T diff
+°C
+Power Cycle
+ 
+2
+1
+1
+1
+1
+10.000000
+Default
+eta_lhv
+3
+1
+Fossil backup boiler LHV efficiency
+ 
+Power Cycle
+ 
+2
+1
+1
+1
+1
+0.900000
 Default
 eta_ref
 3
@@ -3372,6 +3176,76 @@ Power Cycle
 1
 0.000000
 Default
+hx_config
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+is_hx
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+lhv_eff
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.900000
+Default
+m_dot_in
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+n_pl_inc
+3
+1
+Number of part-load increments for heat rejection
+ 
+Power Cycle
+ 
+2
+1
+1
+1
+1
+2.000000
+Default
 nameplate
 3
 1
@@ -3386,11 +3260,25 @@ Power Cycle
 1
 0.000000
 Default
-T_htf_hot_ref
+pb_bd_frac
 3
 1
-Reference HTF outlet temperature at design
-°C
+Power block blowdown steam fraction
+ 
+Power Cycle
+ 
+2
+1
+1
+1
+1
+0.020000
+Default
+pb_rated_cap
+3
+1
+ 
+ 
 Power Cycle
  
 8
@@ -3400,10 +3288,38 @@ Power Cycle
 1
 0.000000
 Default
-P_cond_ratio
+pb_tech_type
 3
 1
-Condenser pressure ratio
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+2.000000
+Default
+q_design
+3
+1
+Estimated net output at design (nameplate)
+MWe
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+q_sby_frac
+3
+1
+Fraction of thermal power needed for standby
  
 Power Cycle
  
@@ -3412,7 +3328,91 @@ Power Cycle
 1
 1
 1
-1.002800
+0.200000
+Default
+sliding_pres
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+startup_frac
+3
+1
+Fraction of thermal power needed for startup
+ 
+Power Cycle
+ 
+2
+1
+1
+1
+1
+0.200000
+Default
+startup_time
+3
+1
+Time needed for power block startup
+hours
+Power Cycle
+ 
+2
+1
+1
+1
+1
+0.500000
+Default
+system_capacity
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+t_standby_reset
+3
+1
+Low resource standby period
+hours
+Power Cycle
+ 
+2
+1
+1
+1
+1
+2.000000
+Default
+tech_type
+3
+1
+ 
+ 
+Power Cycle
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 
 1513

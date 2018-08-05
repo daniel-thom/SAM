@@ -820,47 +820,32 @@ Bold
 1
 
 12
-user_capacity_factor
+adjust
+3
+5
+Performance adjustment
+ 
+Generic System Plant
+ 
+1
+1
+5
+1
+0
+LossAdjustment
+capacity_factor_calc
 3
 1
-Nominal capacity factor
+Capacity factor after plant loss
 %
-Generic System Plant
  
-2
-1
-1
-1
-1
-100.000000
-Numeric
-heat_rate
-3
-1
-Heat rate
-MMBTUs/MWhe
-Generic System Plant
  
-2
+8
 1
 1
 1
 1
-10.000000
-Numeric
-derate
-3
-1
-Plant loss
-%
-Generic System Plant
- 
-2
-1
-1
-1
-1
-9.000000
+0.000000
 Numeric
 conv_eff
 3
@@ -876,38 +861,11 @@ Generic System Plant
 1
 0.000000
 Numeric
-first_year_output
+derate
 3
 1
-Total annual generation
-kWhe
-Generic System Plant
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-adjust
-3
-5
-Performance adjustment
- 
-Generic System Plant
- 
-1
-1
-5
-1
-0
-LossAdjustment
-system_capacity
-3
-1
-Nameplate capacity
-kWe
+Plant loss
+%
 Generic System Plant
  
 2
@@ -915,21 +873,7 @@ Generic System Plant
 1
 1
 1
-1000.000000
-Numeric
-first_year_output_peak
-3
-1
-Peak annual generation
-kW
-Generic System Plant
- 
-8
-1
-1
-1
-1
-0.000000
+9.000000
 Numeric
 energy_output_array
 3
@@ -945,12 +889,12 @@ Generic System Plant
 1
 0.000000
 DataArray
-capacity_factor_calc
+first_year_output
 3
 1
-Capacity factor after plant loss
-%
- 
+Total annual generation
+kWhe
+Generic System Plant
  
 8
 1
@@ -959,6 +903,46 @@ Capacity factor after plant loss
 1
 0.000000
 Numeric
+first_year_output_peak
+3
+1
+Peak annual generation
+kW
+Generic System Plant
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+heat_rate
+3
+1
+Heat rate
+MMBTUs/MWhe
+Generic System Plant
+ 
+2
+1
+1
+1
+1
+10.000000
+Numeric
+import_message
+3
+4
+ 
+ 
+ 
+ 
+5
+1
+4
+ 
+MultilineText
 spec_mode
 3
 1
@@ -973,18 +957,34 @@ Constant generation profile from nameplate capacity and capacity factor|Import h
 1
 0.000000
 RadioChoice
-import_message
+system_capacity
 3
-4
- 
- 
- 
- 
-5
 1
-4
+Nameplate capacity
+kWe
+Generic System Plant
  
-MultilineText
+2
+1
+1
+1
+1
+1000.000000
+Numeric
+user_capacity_factor
+3
+1
+Nominal capacity factor
+%
+Generic System Plant
+ 
+2
+1
+1
+1
+1
+100.000000
+Numeric
 
 1123
 equations{ 'conv_eff' } = define() {

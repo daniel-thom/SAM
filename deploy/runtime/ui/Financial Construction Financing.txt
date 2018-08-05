@@ -2921,142 +2921,6 @@ TabOrder
 33
 
 44
-const_per_percent4
-3
-1
-Construction Loan 4 percent of installed cost
-%
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_percent_total
-3
-1
- 
- 
-Construction Period Debt
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-construction_financing_cost
-3
-1
-Total construction financing cost
- 
-Construction Period Debt
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_name2
-3
-4
- 
- 
-Construction Period Debt
- 
-0
-1
-4
-Loan 2
-TextEntry
-const_per_upfront_rate5
-3
-1
-Construction Loan 5 up-front fee
-%
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_months1
-3
-1
-Construction Loan 1 months
-months
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_percent5
-3
-1
-Construction Loan 5 percent of installed cost
-%
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_total2
-3
-1
-Construction Loan 2 Total
- 
-Construction Period Debt
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_name5
-3
-4
- 
- 
-Construction Period Debt
- 
-0
-1
-4
-Loan 5
-TextEntry
-const_per_interest_rate3
-3
-1
-Construction Loan 3 interest rate
-%/year
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 const_per_interest1
 3
 1
@@ -3065,34 +2929,6 @@ Construction Loan 1 Interest
 Construction Period Debt
  
 9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_interest_rate1
-3
-1
-Construction Loan 1 interest rate
-%/year
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_upfront_rate1
-3
-1
-Construction Loan 1 up-front fee
-%
-Construction Period Debt
- 
-3
 1
 1
 1
@@ -3113,38 +2949,10 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_principal_total
+const_per_interest3
 3
 1
- 
- 
-Construction Period Debt
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_months4
-3
-1
-Construction Loan 4 months
-months
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_principal4
-3
-1
-Construction Loan 4 Principal
+Construction Loan 3 Interest
  
 Construction Period Debt
  
@@ -3155,24 +2963,10 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_interest_rate4
+const_per_interest4
 3
 1
-Construction Loan 4 interest rate
-%/year
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_principal1
-3
-1
-Construction Loan 1 Principal
+Construction Loan 4 Interest
  
 Construction Period Debt
  
@@ -3197,121 +2991,11 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_total3
+const_per_interest_rate1
 3
 1
-Construction Loan 3 Total
- 
-Construction Period Debt
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_upfront_rate3
-3
-1
-Construction Loan 3 up-front fee
-%
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_months2
-3
-1
-Construction Loan 2 months
-months
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_total4
-3
-1
-Construction Loan 4 Total
- 
-Construction Period Debt
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_name3
-3
-4
- 
- 
-Construction Period Debt
- 
-0
-1
-4
-Loan 3
-TextEntry
-const_per_interest4
-3
-1
-Construction Loan 4 Interest
- 
-Construction Period Debt
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_upfront_rate2
-3
-1
-Construction Loan 2 up-front fee
-%
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_principal2
-3
-1
-Construction Loan 2 Principal
- 
-Construction Period Debt
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_upfront_rate4
-3
-1
-Construction Loan 4 up-front fee
-%
+Construction Loan 1 interest rate
+%/year
 Construction Period Debt
  
 3
@@ -3335,14 +3019,112 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_total1
+const_per_interest_rate3
 3
 1
-Construction Loan 1 Total
+Construction Loan 3 interest rate
+%/year
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_interest_rate4
+3
+1
+Construction Loan 4 interest rate
+%/year
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_interest_rate5
+3
+1
+Construction Loan 5 interest rate
+%/year
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_interest_total
+3
+1
+ 
  
 Construction Period Debt
  
-9
+8
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_months1
+3
+1
+Construction Loan 1 months
+months
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_months2
+3
+1
+Construction Loan 2 months
+months
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_months3
+3
+1
+Construction Loan 3 months
+months
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_months4
+3
+1
+Construction Loan 4 months
+months
+Construction Period Debt
+ 
+3
 1
 1
 1
@@ -3354,6 +3136,80 @@ const_per_months5
 1
 Construction Loan 5 months
 months
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_name1
+3
+4
+ 
+ 
+Construction Period Debt
+ 
+0
+1
+4
+Loan 1
+TextEntry
+const_per_name2
+3
+4
+ 
+ 
+Construction Period Debt
+ 
+0
+1
+4
+Loan 2
+TextEntry
+const_per_name3
+3
+4
+ 
+ 
+Construction Period Debt
+ 
+0
+1
+4
+Loan 3
+TextEntry
+const_per_name4
+3
+4
+ 
+ 
+Construction Period Debt
+ 
+0
+1
+4
+Loan 4
+TextEntry
+const_per_name5
+3
+4
+ 
+ 
+Construction Period Debt
+ 
+0
+1
+4
+Loan 5
+TextEntry
+const_per_percent1
+3
+1
+Construction Loan 1 percent of installed cost
+%
 Construction Period Debt
  
 3
@@ -3377,6 +3233,90 @@ Construction Period Debt
 1
 0.000000
 Numeric
+const_per_percent3
+3
+1
+Construction Loan 3 percent of installed cost
+%
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_percent4
+3
+1
+Construction Loan 4 percent of installed cost
+%
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_percent5
+3
+1
+Construction Loan 5 percent of installed cost
+%
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_percent_total
+3
+1
+ 
+ 
+Construction Period Debt
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_principal1
+3
+1
+Construction Loan 1 Principal
+ 
+Construction Period Debt
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_principal2
+3
+1
+Construction Loan 2 Principal
+ 
+Construction Period Debt
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
 const_per_principal3
 3
 1
@@ -3391,42 +3331,14 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_percent1
+const_per_principal4
 3
 1
-Construction Loan 1 percent of installed cost
-%
-Construction Period Debt
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_total5
-3
-1
-Construction Loan 5 Total
+Construction Loan 4 Principal
  
 Construction Period Debt
  
 9
-1
-1
-1
-1
-0.000000
-Numeric
-const_per_months3
-3
-1
-Construction Loan 3 months
-months
-Construction Period Debt
- 
-3
 1
 1
 1
@@ -3447,24 +3359,24 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_interest_rate5
+const_per_principal_total
 3
 1
-Construction Loan 5 interest rate
-%/year
+ 
+ 
 Construction Period Debt
  
-3
+8
 1
 1
 1
 1
 0.000000
 Numeric
-const_per_interest3
+const_per_total1
 3
 1
-Construction Loan 3 Interest
+Construction Loan 1 Total
  
 Construction Period Debt
  
@@ -3475,22 +3387,66 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_name1
+const_per_total2
 3
-4
- 
+1
+Construction Loan 2 Total
  
 Construction Period Debt
  
-0
+9
 1
-4
-Loan 1
-TextEntry
-const_per_percent3
+1
+1
+1
+0.000000
+Numeric
+const_per_total3
 3
 1
-Construction Loan 3 percent of installed cost
+Construction Loan 3 Total
+ 
+Construction Period Debt
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_total4
+3
+1
+Construction Loan 4 Total
+ 
+Construction Period Debt
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_total5
+3
+1
+Construction Loan 5 Total
+ 
+Construction Period Debt
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_upfront_rate1
+3
+1
+Construction Loan 1 up-front fee
 %
 Construction Period Debt
  
@@ -3501,26 +3457,70 @@ Construction Period Debt
 1
 0.000000
 Numeric
-const_per_name4
+const_per_upfront_rate2
 3
-4
+1
+Construction Loan 2 up-front fee
+%
+Construction Period Debt
  
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_upfront_rate3
+3
+1
+Construction Loan 3 up-front fee
+%
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_upfront_rate4
+3
+1
+Construction Loan 4 up-front fee
+%
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+const_per_upfront_rate5
+3
+1
+Construction Loan 5 up-front fee
+%
+Construction Period Debt
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+construction_financing_cost
+3
+1
+Total construction financing cost
  
 Construction Period Debt
  
-0
-1
-4
-Loan 4
-TextEntry
-const_per_interest_total
-3
-1
- 
- 
-Construction Period Debt
- 
-8
+9
 1
 1
 1

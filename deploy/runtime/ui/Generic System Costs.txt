@@ -2231,6 +2231,20 @@ AlignTop
 1
 
 24
+fixed_plant_input
+3
+1
+Plant cost
+$
+Direct Capital Costs
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
 genericsys.cost.contingency
 3
 1
@@ -2239,258 +2253,6 @@ Total
 Direct Capital Costs
  
 9
-1
-1
-1
-1
-0.000000
-Numeric
-system_use_recapitalization
-3
-1
- 
- 
-Direct Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-total_indirect_cost
-3
-1
-Total indirect cost
-$
-Indirect Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.per_watt
-3
-1
-Plant cost per capacity
-$/W
-Direct Capital Costs
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.plm.total
-3
-1
-Engineering EPC costs
-Total
-Indirect Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.epc.fixed
-3
-1
-Permitting EPC costs
-$
-Indirect Capital Costs
- 
-1
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.epc.total
-3
-1
-Permitting EPC costs
-Total
-Indirect Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-nameplate_capacity
-3
-1
-Nameplate capacity
-kW
-Direct Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.plant
-3
-1
-Fixed plant cost
-$
-Direct Capital Costs
- 
-9
-1
-1
-1
-1
-100000.000000
-Numeric
-genericsys.cost.sales_tax.total
-3
-1
-Sales tax
-Total
-Indirect Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-system_use_lifetime_output
-3
-1
- 
- 
-Direct Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-genericsys.cost.sales_tax.percent
-3
-1
-Sales tax basis as percent of direct cost
-%
-Indirect Capital Costs
- 
-2
-1
-1
-1
-1
-80.000000
-Numeric
-genericsys.cost.epc.percent
-3
-1
-Permitting EPC costs
-% of direct cost
-Indirect Capital Costs
- 
-3
-1
-1
-1
-1
-16.000000
-Numeric
-total_direct_cost
-3
-1
-Total direct cost
-$
-Direct Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-total_installed_cost
-3
-1
-Total installed cost
-$
-Total Installed Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.plm.fixed
-3
-1
-Engineering EPC costs
-$
-Indirect Capital Costs
- 
-1
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.plant_scaled
-3
-1
-Non-fixed system cost
-$
-Direct Capital Costs
- 
-9
-1
-1
-1
-1
-0.000000
-Numeric
-genericsys.cost.plm.percent
-3
-1
-Engineering EPC costs
-% of direct cost
-Indirect Capital Costs
- 
-3
-1
-1
-1
-1
-3.500000
-Numeric
-genericsys.cost.sales_tax.value
-3
-1
-Sales tax rate
-%
-Indirect Capital Costs
- 
-8
 1
 1
 1
@@ -2511,6 +2273,20 @@ Direct Capital Costs
 1
 8.400000
 Numeric
+genericsys.cost.epc.fixed
+3
+1
+Permitting EPC costs
+$
+Indirect Capital Costs
+ 
+1
+1
+1
+1
+1
+0.000000
+Numeric
 genericsys.cost.epc.nonfixed
 3
 1
@@ -2525,11 +2301,25 @@ Indirect Capital Costs
 1
 0.000000
 Numeric
-genericsys.cost.plm.nonfixed
+genericsys.cost.epc.percent
 3
 1
-Engineering EPC costs
-Calculated
+Permitting EPC costs
+% of direct cost
+Indirect Capital Costs
+ 
+3
+1
+1
+1
+1
+16.000000
+Numeric
+genericsys.cost.epc.total
+3
+1
+Permitting EPC costs
+Total
 Indirect Capital Costs
  
 9
@@ -2553,14 +2343,224 @@ Total Installed Costs
 1
 0.000000
 Numeric
-fixed_plant_input
+genericsys.cost.per_watt
 3
 1
-Plant cost
-$
+Plant cost per capacity
+$/W
 Direct Capital Costs
  
 2
+1
+1
+1
+1
+0.000000
+Numeric
+genericsys.cost.plant
+3
+1
+Fixed plant cost
+$
+Direct Capital Costs
+ 
+9
+1
+1
+1
+1
+100000.000000
+Numeric
+genericsys.cost.plant_scaled
+3
+1
+Non-fixed system cost
+$
+Direct Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+genericsys.cost.plm.fixed
+3
+1
+Engineering EPC costs
+$
+Indirect Capital Costs
+ 
+1
+1
+1
+1
+1
+0.000000
+Numeric
+genericsys.cost.plm.nonfixed
+3
+1
+Engineering EPC costs
+Calculated
+Indirect Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+genericsys.cost.plm.percent
+3
+1
+Engineering EPC costs
+% of direct cost
+Indirect Capital Costs
+ 
+3
+1
+1
+1
+1
+3.500000
+Numeric
+genericsys.cost.plm.total
+3
+1
+Engineering EPC costs
+Total
+Indirect Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+genericsys.cost.sales_tax.percent
+3
+1
+Sales tax basis as percent of direct cost
+%
+Indirect Capital Costs
+ 
+2
+1
+1
+1
+1
+80.000000
+Numeric
+genericsys.cost.sales_tax.total
+3
+1
+Sales tax
+Total
+Indirect Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+genericsys.cost.sales_tax.value
+3
+1
+Sales tax rate
+%
+Indirect Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+nameplate_capacity
+3
+1
+Nameplate capacity
+kW
+Direct Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+system_use_lifetime_output
+3
+1
+ 
+ 
+Direct Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+Direct Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+total_direct_cost
+3
+1
+Total direct cost
+$
+Direct Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+total_indirect_cost
+3
+1
+Total indirect cost
+$
+Indirect Capital Costs
+ 
+9
+1
+1
+1
+1
+0.000000
+Numeric
+total_installed_cost
+3
+1
+Total installed cost
+$
+Total Installed Costs
+ 
+9
 1
 1
 1

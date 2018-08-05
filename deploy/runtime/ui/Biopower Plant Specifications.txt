@@ -3658,53 +3658,24 @@ AlignTop
 0
 
 64
-biopwr.plant.disp5.power
+adjust
 3
-1
-Period 5 Fractional Generation
+5
+Performance adjustment
  
 Plant Specs
  
-3
 1
 1
+5
 1
-1
-0.000000
-Default
-biopwr.plant.boiler.steam_produced
-3
-1
-Estimated steam produced
-lb/hr steam
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.combustor_type
-3
-1
-Combustion System
- 
-Plant Specs
-Grate Stoker Furnace|Fluidized Bed Combustor|Cyclone Furnace
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.ramp_rate
+0
+LossAdjustment
+biopwr.plant.boiler.air_feed
 3
 1
  
- 
+lb air/10,000 btu
 Plant Specs
  
 8
@@ -3728,25 +3699,11 @@ Plant Specs
 1
 0.000000
 Default
-biopwr.plant.rated_eff
+biopwr.plant.boiler.cap_per_boiler
 3
 1
-Rated cycle conversion efficiency
-frac
-Plant Specs
- 
-2
-1
-1
-1
-1
-0.350000
-Default
-biopwr.plant.boiler.ref_temp
-3
-1
- 
- 
+Design capacity of each boiler
+lb/hr steam
 Plant Specs
  
 8
@@ -3754,138 +3711,13 @@ Plant Specs
 1
 1
 1
-0.000000
+250000.000000
 Default
-adjust
-3
-5
-Performance adjustment
- 
-Plant Specs
- 
-1
-1
-5
-1
-0
-LossAdjustment
-biopwr.plant.min_load
+biopwr.plant.boiler.efficiency
 3
 1
-Minimum load
-frac
-Plant Specs
+Total Boiler Efficiency (HHV basis)
  
-2
-1
-1
-1
-1
-0.250000
-Default
-biopwr.plant.max_over_design
-3
-1
-Max over design operation
-frac
-Plant Specs
- 
-2
-1
-1
-1
-1
-1.100000
-Default
-biopwr.plant.boiler.over_design
-3
-1
-Boiler overdesign factor
- 
-Plant Specs
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.temp_corr_mode
-3
-1
-Temperature Correction Mode
- 
-Plant Specs
-Dry bulb|Wet bulb
-0
-1
-1
-1
-1
-1.000000
-Default
-biopwr.plant.tou_option
-3
-1
- 
- 
-Plant Specs
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.cycle_design_temp
-3
-1
-Power cycle design temperature
-'F
-Plant Specs
- 
-2
-1
-1
-1
-1
-77.000000
-Default
-biopwr.plant.temp_eff_f0
-3
-1
-Temperature efficiency adjustment (F0)
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-biopwr.plant.temp_eff_f1
-3
-1
-Temperature efficiency adjustment (F1)
- 
-Plant Specs
- 
-1
-1
-1
-1
-1
--0.002000
-Default
-biopwr.plant.boiler.steam_temp
-3
-1
- 
-'F
 Plant Specs
  
 8
@@ -3909,90 +3741,6 @@ Plant Specs
 1
 15.000000
 Default
-biopwr.plant.drying_method
-3
-1
-Feedstock Handling Option
- 
-Plant Specs
-Fed as received|Allow feedstock to air-dry to atmospheric Equilibrium Moisture Content (EMC)|Dry to specified moisture content
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.eff.moisture_loss
-3
-1
-Moisture in fuel
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.disp7.power
-3
-1
-Period 7 Fractional Generation
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.pl_eff_f0
-3
-1
-Part load efficiency adjustment (F0)
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.900000
-Default
-biopwr.plant.boiler.num
-3
-1
-Number of boilers
- 
-Plant Specs
- 
-0
-1
-1
-1
-1
-2.000000
-Default
-biopwr.plant.boiler.moisture_enth_in
-3
-1
- 
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 biopwr.plant.boiler.flue_temp
 3
 1
@@ -4007,313 +3755,7 @@ Plant Specs
 1
 390.000000
 Default
-biopwr.plant.par_bfw_pump
-3
-1
-Boiler feedwater pump & combustion air blower requirement
-kWe
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.ramp_opt
-3
-1
- 
- 
-Plant Specs
- 
-0
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.boiler.efficiency
-3
-1
-Total Boiler Efficiency (HHV basis)
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.pl_eff_f1
-3
-1
-Part load efficiency adjustment (F1)
- 
-Plant Specs
- 
-1
-1
-1
-1
-1
-0.100000
-Default
-biopwr.plant.eff.latent
-3
-1
-Latent Heat
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.tou_grid
-3
-4
- 
- 
-Plant Specs
- 
-0
-1
-4
-empty
-Default
-biopwr.plant.pl_eff_f4
-3
-1
-Part load efficiency adjustment (F4)
- 
-Plant Specs
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.ramp_opt2
-3
-1
-Ramp Rate
-%/hr
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.boiler.steam_grade
-3
-1
-Steam Grade
- 
-Plant Specs
- 
-0
-1
-1
-1
-1
-2.000000
-Default
-biopwr.plant.boiler.air_feed
-3
-1
- 
-lb air/10,000 btu
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.disp3.power
-3
-1
-Period 3 Fractional Generation
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.par_percent
-3
-1
-Parasitic load (% of nameplate)
-%
-Plant Specs
- 
-2
-1
-1
-1
-1
-10.000000
-Default
-biopwr.plant.temp_eff_f2
-3
-1
-Temperature efficiency adjustment (F2)
- 
-Plant Specs
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.pl_eff_f3
-3
-1
-Part load efficiency adjustment (F3)
- 
-Plant Specs
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.eff.fuel_loss
-3
-1
-Unburned fuel
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.par
-3
-1
-Total plant parasitic load
-kWe
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.disp1.power
-3
-1
-Period 1 Fractional Generation
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.disp4.power
-3
-1
-Period 4 Fractional Generation
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.eff.rad_loss
-3
-1
-Radiation and miscellaneous
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.ramp_opt1
-3
-1
-Ramp Rate
-kW/hr
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.disp.power
-3
-2
-Fractional Generation Array
- 
-Plant Specs
- 
-9
-1
-2
-1
-1
-0.000000
-Default
-biopwr.plant.disp6.power
-3
-1
-Period 6 Fractional Generation
- 
-Plant Specs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-system_capacity
+biopwr.plant.boiler.moisture_enth_in
 3
 1
  
@@ -4321,48 +3763,6 @@ system_capacity
 Plant Specs
  
 8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.boiler.steam_pressure
-3
-1
- 
-psig
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.nameplate
-3
-1
-Estimated max gross nameplate capacity
-kW
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.temp_eff_f3
-3
-1
-Temperature efficiency adjustment (F3)
- 
-Plant Specs
- 
-1
 1
 1
 1
@@ -4383,24 +3783,10 @@ Plant Specs
 1
 0.000000
 Default
-biopwr.plant.boiler.cap_per_boiler
+biopwr.plant.boiler.moisture_in_fuel
 3
 1
-Design capacity of each boiler
-lb/hr steam
-Plant Specs
- 
-8
-1
-1
-1
-1
-250000.000000
-Default
-biopwr.plant.drying_spec
-3
-1
- 
+lb/10,000 Btu
  
 Plant Specs
  
@@ -4411,10 +3797,38 @@ Plant Specs
 1
 0.000000
 Default
-biopwr.plant.eff.flue_loss
+biopwr.plant.boiler.num
 3
 1
-Dry flue gas losses
+Number of boilers
+ 
+Plant Specs
+ 
+0
+1
+1
+1
+1
+2.000000
+Default
+biopwr.plant.boiler.over_design
+3
+1
+Boiler overdesign factor
+ 
+Plant Specs
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.boiler.ref_temp
+3
+1
+ 
  
 Plant Specs
  
@@ -4439,14 +3853,196 @@ Plant Specs
 1
 0.000000
 Default
-biopwr.plant.temp_eff_f4
+biopwr.plant.boiler.steam_grade
 3
 1
-Temperature efficiency adjustment (F4)
+Steam Grade
  
 Plant Specs
  
+0
 1
+1
+1
+1
+2.000000
+Default
+biopwr.plant.boiler.steam_pressure
+3
+1
+ 
+psig
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.boiler.steam_produced
+3
+1
+Estimated steam produced
+lb/hr steam
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.boiler.steam_temp
+3
+1
+ 
+'F
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.combustor_type
+3
+1
+Combustion System
+ 
+Plant Specs
+Grate Stoker Furnace|Fluidized Bed Combustor|Cyclone Furnace
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.cycle_design_temp
+3
+1
+Power cycle design temperature
+'F
+Plant Specs
+ 
+2
+1
+1
+1
+1
+77.000000
+Default
+biopwr.plant.disp.power
+3
+2
+Fractional Generation Array
+ 
+Plant Specs
+ 
+9
+1
+2
+1
+1
+0.000000
+Default
+biopwr.plant.disp1.power
+3
+1
+Period 1 Fractional Generation
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.disp2.power
+3
+1
+Period 2 Fractional Generation
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.disp3.power
+3
+1
+Period 3 Fractional Generation
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.disp4.power
+3
+1
+Period 4 Fractional Generation
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.disp5.power
+3
+1
+Period 5 Fractional Generation
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.disp6.power
+3
+1
+Period 6 Fractional Generation
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.disp7.power
+3
+1
+Period 7 Fractional Generation
+ 
+Plant Specs
+ 
+3
 1
 1
 1
@@ -4481,56 +4077,28 @@ Plant Specs
 1
 0.000000
 Default
-biopwr.plant.par_air_blower
+biopwr.plant.drying_method
 3
 1
-Combustion air blower power requirement
-kWe
+Feedstock Handling Option
+ 
+Plant Specs
+Fed as received|Allow feedstock to air-dry to atmospheric Equilibrium Moisture Content (EMC)|Dry to specified moisture content
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.drying_spec
+3
+1
+ 
+ 
 Plant Specs
  
 8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.boiler.moisture_in_fuel
-3
-1
-lb/10,000 Btu
- 
-Plant Specs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.pl_eff_f2
-3
-1
-Part load efficiency adjustment (F2)
- 
-Plant Specs
- 
-1
-1
-1
-1
-1
-0.000000
-Default
-biopwr.plant.disp2.power
-3
-1
-Period 2 Fractional Generation
- 
-Plant Specs
- 
-3
 1
 1
 1
@@ -4550,6 +4118,438 @@ Plant Specs
 1
 1
 10.000000
+Default
+biopwr.plant.eff.flue_loss
+3
+1
+Dry flue gas losses
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.eff.fuel_loss
+3
+1
+Unburned fuel
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.eff.latent
+3
+1
+Latent Heat
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.eff.moisture_loss
+3
+1
+Moisture in fuel
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.eff.rad_loss
+3
+1
+Radiation and miscellaneous
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.max_over_design
+3
+1
+Max over design operation
+frac
+Plant Specs
+ 
+2
+1
+1
+1
+1
+1.100000
+Default
+biopwr.plant.min_load
+3
+1
+Minimum load
+frac
+Plant Specs
+ 
+2
+1
+1
+1
+1
+0.250000
+Default
+biopwr.plant.nameplate
+3
+1
+Estimated max gross nameplate capacity
+kW
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.par
+3
+1
+Total plant parasitic load
+kWe
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.par_air_blower
+3
+1
+Combustion air blower power requirement
+kWe
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.par_bfw_pump
+3
+1
+Boiler feedwater pump & combustion air blower requirement
+kWe
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.par_percent
+3
+1
+Parasitic load (% of nameplate)
+%
+Plant Specs
+ 
+2
+1
+1
+1
+1
+10.000000
+Default
+biopwr.plant.pl_eff_f0
+3
+1
+Part load efficiency adjustment (F0)
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.900000
+Default
+biopwr.plant.pl_eff_f1
+3
+1
+Part load efficiency adjustment (F1)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.100000
+Default
+biopwr.plant.pl_eff_f2
+3
+1
+Part load efficiency adjustment (F2)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.pl_eff_f3
+3
+1
+Part load efficiency adjustment (F3)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.pl_eff_f4
+3
+1
+Part load efficiency adjustment (F4)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.ramp_opt
+3
+1
+ 
+ 
+Plant Specs
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.ramp_opt1
+3
+1
+Ramp Rate
+kW/hr
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.ramp_opt2
+3
+1
+Ramp Rate
+%/hr
+Plant Specs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.ramp_rate
+3
+1
+ 
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.rated_eff
+3
+1
+Rated cycle conversion efficiency
+frac
+Plant Specs
+ 
+2
+1
+1
+1
+1
+0.350000
+Default
+biopwr.plant.temp_corr_mode
+3
+1
+Temperature Correction Mode
+ 
+Plant Specs
+Dry bulb|Wet bulb
+0
+1
+1
+1
+1
+1.000000
+Default
+biopwr.plant.temp_eff_f0
+3
+1
+Temperature efficiency adjustment (F0)
+ 
+Plant Specs
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+biopwr.plant.temp_eff_f1
+3
+1
+Temperature efficiency adjustment (F1)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+-0.002000
+Default
+biopwr.plant.temp_eff_f2
+3
+1
+Temperature efficiency adjustment (F2)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.temp_eff_f3
+3
+1
+Temperature efficiency adjustment (F3)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.temp_eff_f4
+3
+1
+Temperature efficiency adjustment (F4)
+ 
+Plant Specs
+ 
+1
+1
+1
+1
+1
+0.000000
+Default
+biopwr.plant.tou_grid
+3
+4
+ 
+ 
+Plant Specs
+ 
+0
+1
+4
+empty
+Default
+biopwr.plant.tou_option
+3
+1
+ 
+ 
+Plant Specs
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+system_capacity
+3
+1
+ 
+ 
+Plant Specs
+ 
+8
+1
+1
+1
+1
+0.000000
 Default
 
 6315

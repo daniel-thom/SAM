@@ -1055,23 +1055,25 @@ Bold
 1
 
 14
-ui_msg
+P_ref
 3
-4
-System design message
- 
+1
+Design turbine gross output
+MWe
 System Design
  
+2
 1
 1
-4
- 
-Label
-tshours_sf
+1
+1
+110.000000
+Default
+Q_rec_des
 3
 1
-Solar field hours of storage
-hours
+Receiver thermal power
+MWt
 System Design
  
 8
@@ -1095,19 +1097,33 @@ System Design
 1
 290.000000
 Default
-Q_rec_des
+T_htf_hot_des
 3
 1
-Receiver thermal power
-MWt
+HTF hot temperature
+°C
 System Design
  
-8
+2
 1
 1
 1
 1
-0.000000
+574.000000
+Default
+design_eff
+3
+1
+Cycle thermal efficiency
+ 
+System Design
+ 
+2
+1
+1
+1
+1
+0.450000
 Default
 dni_des
 3
@@ -1123,11 +1139,11 @@ System Design
 1
 950.000000
 Default
-P_ref
+gross_net_conversion_factor
 3
 1
-Design turbine gross output
-MWe
+Estimated gross to net conversion factor
+ 
 System Design
  
 2
@@ -1135,21 +1151,7 @@ System Design
 1
 1
 1
-110.000000
-Default
-tshours
-3
-1
-Full load hours of storage
-hours
-System Design
- 
-2
-1
-1
-1
-1
-6.000000
+0.900000
 Default
 nameplate
 3
@@ -1179,10 +1181,10 @@ System Design
 1
 0.000000
 Default
-design_eff
+sf_excess
 3
 1
-Cycle thermal efficiency
+Heliostat field multiple
  
 System Design
  
@@ -1191,21 +1193,7 @@ System Design
 1
 1
 1
-0.450000
-Default
-gross_net_conversion_factor
-3
-1
-Estimated gross to net conversion factor
- 
-System Design
- 
-2
-1
-1
-1
-1
-0.900000
+1.000000
 Default
 solarm
 3
@@ -1221,11 +1209,11 @@ System Design
 1
 1.900000
 Default
-T_htf_hot_des
+tshours
 3
 1
-HTF hot temperature
-°C
+Full load hours of storage
+hours
 System Design
  
 2
@@ -1233,22 +1221,34 @@ System Design
 1
 1
 1
-574.000000
+6.000000
 Default
-sf_excess
+tshours_sf
 3
 1
-Heliostat field multiple
+Solar field hours of storage
+hours
+System Design
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+ui_msg
+3
+4
+System design message
  
 System Design
  
-2
 1
 1
-1
-1
-1.000000
-Default
+4
+ 
+Label
 
 324
 equations{ 'nameplate' } = define() {

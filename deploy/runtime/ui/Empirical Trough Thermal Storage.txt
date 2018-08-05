@@ -792,25 +792,11 @@ TabOrder
 9
 
 14
-ui_tes_system_configuration
+E_tes_ini
 3
 1
-Storage System Configuration
- 
-Empirical Trough Thermal Storage
-Two Tank
-0
-1
-1
-1
-1
-0.000000
-Choice
-TurTesOutAdj
-3
-1
-Turbine TES Adj. - Gross Output
- 
+Initial Energy as Fraction of Maximum
+MWht
 Empirical Trough Thermal Storage
  
 2
@@ -818,7 +804,7 @@ Empirical Trough Thermal Storage
 1
 1
 1
-0.998000
+0.000000
 Numeric
 PFSmax
 3
@@ -834,19 +820,19 @@ Empirical Trough Thermal Storage
 1
 0.000000
 Numeric
-TnkHL
+PTSmax
 3
 1
-Tank Heat Losses
+Max. Power To Storage
 MWt
 Empirical Trough Thermal Storage
  
-2
+8
 1
 1
 1
 1
-0.970000
+0.000000
 Numeric
 TSHOURS
 3
@@ -862,11 +848,11 @@ Empirical Trough Thermal Storage
 1
 6.000000
 Numeric
-E_tes_ini
+TnkHL
 3
 1
-Initial Energy as Fraction of Maximum
-MWht
+Tank Heat Losses
+MWt
 Empirical Trough Thermal Storage
  
 2
@@ -874,21 +860,35 @@ Empirical Trough Thermal Storage
 1
 1
 1
-0.000000
+0.970000
 Numeric
-calc_htf_min_opt_temp
+TurTesEffAdj
 3
 1
-Storage HTF min operating temp
-'C
+Turbine TES Adj. - Efficiency
+ 
 Empirical Trough Thermal Storage
  
-8
+2
 1
 1
 1
 1
-0.000000
+0.985000
+Numeric
+TurTesOutAdj
+3
+1
+Turbine TES Adj. - Gross Output
+ 
+Empirical Trough Thermal Storage
+ 
+2
+1
+1
+1
+1
+0.998000
 Numeric
 calc_heat_ex_duty
 3
@@ -918,11 +918,11 @@ Empirical Trough Thermal Storage
 1
 0.000000
 Numeric
-ui_tes_q_design
+calc_htf_min_opt_temp
 3
 1
-Design Turbine Thermal Input
-MWt
+Storage HTF min operating temp
+'C
 Empirical Trough Thermal Storage
  
 8
@@ -946,24 +946,24 @@ Empirical Trough Thermal Storage
 1
 0.000000
 Numeric
-TurTesEffAdj
+ui_tes_htf_type
 3
 1
-Turbine TES Adj. - Efficiency
+Storage Fluid Type
  
 Empirical Trough Thermal Storage
- 
+Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined
 2
 1
 1
 1
 1
-0.985000
-Numeric
-PTSmax
+0.000000
+Choice
+ui_tes_q_design
 3
 1
-Max. Power To Storage
+Design Turbine Thermal Input
 MWt
 Empirical Trough Thermal Storage
  
@@ -974,14 +974,14 @@ Empirical Trough Thermal Storage
 1
 0.000000
 Numeric
-ui_tes_htf_type
+ui_tes_system_configuration
 3
 1
-Storage Fluid Type
+Storage System Configuration
  
 Empirical Trough Thermal Storage
-Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined
-2
+Two Tank
+0
 1
 1
 1

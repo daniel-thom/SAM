@@ -2423,20 +2423,6 @@ AlignTop
 0
 
 35
-total_installed_cost
-3
-1
-Total installed cost
- 
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
 csp.ds.cost.collector
 3
 1
@@ -2451,81 +2437,39 @@ Dish Capital Costs
 1
 0.000000
 Default
-csp.ds.cost.site_improvements
-3
-1
- 
- 
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.epc.total
-3
-1
- 
- 
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.total_land_area
-3
-1
-Total Land Area
-acres
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.sales_tax.value
-3
-1
-Sales Tax of
- 
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.epc.fixed
-3
-1
-Fixed EPC Cost
-$
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
 csp.ds.cost.collector.area
 3
 1
 Collector Cost (Projected Area)
 m2/unit
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.collector.cost_per_m2
+3
+1
+Collector Cost per m2
+$/unit
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+900.000000
+Default
+csp.ds.cost.contingency
+3
+1
+ 
+ 
 Dish Capital Costs
  
 8
@@ -2549,14 +2493,84 @@ Dish Capital Costs
 1
 10.000000
 Default
-csp.ds.cost.site_improvements.area
+csp.ds.cost.engine
 3
 1
-Site Improvements
-m2
+ 
+ 
 Dish Capital Costs
  
 8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.engine.cost_per_kw
+3
+1
+Engine Cost per kW
+$/kW
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+2000.000000
+Default
+csp.ds.cost.engine.kw
+3
+1
+Engine Cost
+kW/unit
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.epc.fixed
+3
+1
+Fixed EPC Cost
+$
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.epc.per_acre
+3
+1
+EPC Costs acre
+per acre
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.epc.per_watt
+3
+1
+EPC Cost Wac
+per Wac
+Dish Capital Costs
+ 
+3
 1
 1
 1
@@ -2577,7 +2591,119 @@ Dish Capital Costs
 1
 16.000000
 Default
+csp.ds.cost.epc.total
+3
+1
+ 
+ 
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.installed_per_capacity
+3
+1
+Total installed cost per capacity ($/kW)
+ 
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.nameplate
+3
+1
+Nameplate
+kWe
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.plm.fixed
+3
+1
+Fixed Land Cost
+$
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.plm.per_acre
+3
+1
+Land Costs acre
+per acre
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.plm.per_watt
+3
+1
+Land Cost Wac
+per Wac
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.plm.percent
+3
+1
+Land Costs % direct
+% direct
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Default
 csp.ds.cost.plm.total
+3
+1
+ 
+ 
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.receiver
 3
 1
  
@@ -2605,11 +2731,81 @@ Dish Capital Costs
 1
 1000.000000
 Default
+csp.ds.cost.receiver.kw
+3
+1
+Receiver Cost
+kW/unit
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.sales_tax.percent
+3
+1
+Sales Tax Percentage of Direct Cost
+%
+Dish Capital Costs
+ 
+3
+1
+1
+1
+1
+80.000000
+Default
 csp.ds.cost.sales_tax.total
 3
 1
  
  
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.sales_tax.value
+3
+1
+Sales Tax of
+ 
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.site_improvements
+3
+1
+ 
+ 
+Dish Capital Costs
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+csp.ds.cost.site_improvements.area
+3
+1
+Site Improvements
+m2
 Dish Capital Costs
  
 8
@@ -2633,25 +2829,11 @@ Dish Capital Costs
 1
 3.000000
 Default
-csp.ds.cost.plm.per_acre
+csp.ds.cost.total_land_area
 3
 1
-Land Costs acre
-per acre
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.engine
-3
-1
- 
- 
+Total Land Area
+acres
 Dish Capital Costs
  
 8
@@ -2661,12 +2843,26 @@ Dish Capital Costs
 1
 0.000000
 Default
-csp.ds.cost.receiver.kw
+system_use_lifetime_output
 3
 1
-Receiver Cost
-kW/unit
-Dish Capital Costs
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+system_use_recapitalization
+3
+1
+ 
+ 
+ 
  
 8
 1
@@ -2703,207 +2899,11 @@ Dish Capital Costs
 1
 0.000000
 Default
-csp.ds.cost.installed_per_capacity
+total_installed_cost
 3
 1
-Total installed cost per capacity ($/kW)
+Total installed cost
  
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-system_use_recapitalization
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.collector.cost_per_m2
-3
-1
-Collector Cost per m2
-$/unit
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-900.000000
-Default
-system_use_lifetime_output
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.plm.per_watt
-3
-1
-Land Cost Wac
-per Wac
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.engine.kw
-3
-1
-Engine Cost
-kW/unit
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.epc.per_acre
-3
-1
-EPC Costs acre
-per acre
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.plm.fixed
-3
-1
-Fixed Land Cost
-$
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.engine.cost_per_kw
-3
-1
-Engine Cost per kW
-$/kW
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-2000.000000
-Default
-csp.ds.cost.sales_tax.percent
-3
-1
-Sales Tax Percentage of Direct Cost
-%
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-80.000000
-Default
-csp.ds.cost.contingency
-3
-1
- 
- 
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.receiver
-3
-1
- 
- 
-Dish Capital Costs
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.epc.per_watt
-3
-1
-EPC Cost Wac
-per Wac
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.plm.percent
-3
-1
-Land Costs % direct
-% direct
-Dish Capital Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Default
-csp.ds.cost.nameplate
-3
-1
-Nameplate
-kWe
 Dish Capital Costs
  
 8

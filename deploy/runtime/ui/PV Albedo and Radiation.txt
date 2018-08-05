@@ -208,20 +208,6 @@ Bold
 1
 
 4
-irrad_mode
-3
-1
-Weather file irradiance data
-0=beam&diffuse,1=total&beam,2=total&diffuse,3=poa_reference,4=poa_pyranometer
-Location and Resource
- 
-3
-1
-1
-1
-1
-0.000000
-RadioChoice
 albedo
 3
 2
@@ -237,11 +223,11 @@ Location and Resource
 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 0.200000 
 
 MonthlyFactor
-use_wf_albedo
+irrad_mode
 3
 1
-Use albedo in weather file if it exists
- 
+Weather file irradiance data
+0=beam&diffuse,1=total&beam,2=total&diffuse,3=poa_reference,4=poa_pyranometer
 Location and Resource
  
 3
@@ -250,7 +236,7 @@ Location and Resource
 1
 1
 0.000000
-CheckBox
+RadioChoice
 sky_model
 3
 1
@@ -265,6 +251,20 @@ Isotropic|HDKR|Perez
 1
 2.000000
 RadioChoice
+use_wf_albedo
+3
+1
+Use albedo in weather file if it exists
+ 
+Location and Resource
+ 
+3
+1
+1
+1
+1
+0.000000
+CheckBox
 
 0
 279

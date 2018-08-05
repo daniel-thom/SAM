@@ -1507,18 +1507,61 @@ TabOrder
 4294967295
 
 29
-obos_warning
+anchor
 3
-4
- 
+1
+Anchor type
  
 Wind OBOS
  
+0
+1
+1
+1
+1
+0.000000
+Default
+buryDepth
+3
+1
+Electical cable burial depth
+m
+Wind OBOS
+ 
+0
+1
+1
+1
+1
+2.000000
+Default
+cableOptimizer
+3
+1
+Electrical cable cost optimizer
+ 
+Wind OBOS
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+detailed_obos_assembly
+3
+5
+Assembly & Installation
+ 
+Wind OBOS
+anchor_mooring_water_depth_time_factor|anchor_mooring_loadout_time|survey_mooring_lines_anchor_positions_time|prepare_inshore_assembly_area_for_turbine_installation|prepare_spar_for_tow_to_inshore_assembly_area|upend_and_ballast_spar|prepare_semi_submersible_for_turbine_installation|prepare_and_fasten_turbine_for_transport|lift_and_bolt_tower_section|lift_and_bolt_nacelle_individual_components_method|lift_and_bolt_nacelle_bunny_ears_method|lift_and_bolt_nacelle_fully_assembled_rotor_method|lift_and_bolt_blade_individual_components_method|lift_and_bolt_blade_bunny_ears_method|lift_and_bolt_rotor_fully_assembled_rotor_method|vessel_positioning_time_turbine_installation|vessel_positioning_time_jacket_installation|vessel_positioning_time_monopile_installation|vessel_positioning_time_offshore_substation_installation|prepare_and_fasten_monopile_for_transport|prepare_and_fasten_jacket_for_transport|prepare_monopile_gripper_and_upender|prepare_jacket_gripper_and_upender|place_jacket_piles|prepare_hammer_for_monopile_installation|prepare_hammer_for_jacket_piles_installation|remove_hammer_for_monopile_installation|remove_hammer_for_jacket_piles_installation|place_jacket_pile_template_on_seabed|place_jacket_main_lattice_onto_piles|level_jacket_main_lattice|pile_hammer_rate|lift_and_place_monopile_for_hammering|install_scour_protection_around_monopile_base|place_transition_piece_onto_monopile|grout_transition_piece_monopile_interface|install_transition_piece_cover|prepare_floating_substructure_for_tow_to_site|connect_mooring_lines_to_spar|connect_mooring_lines_to_semi_submersible|survey_spar_mooring_lines_and_connections|survey_semi_submersible_mooing_lines_and_connections|ballast_semi_submersible|cable_surface_lay_rate|array_cable_pull_in_to_interfaces|cable_termination_and_testing|array_cable_loadout_for_installation|cable_burial_rate|cable_pull_in_to_offshore_substation|cable_pull_in_to_onshore_infrastructure|onshore_infrastructure_construction|export_cable_loadout_for_installation|offshore_substation_loadout_for_installation|lift_and_place_offshore_substation_topside|number_of_feeder_barges|piling_spread_day_rate|piling_spread_mobilization_cost|grouting_spread_day_rate|grouting_spread_mobilization_cost|suction_pile_anchor_spread_day_rate|suction_pile_anchor_spread_mobilization_cost|component_racks_cost|cable_route_survey_cost|horizontal_drilling_distance_for_cable_landfall|cost_rate_for_horizontal_drilling|mpv_rental_day_rate|cable_landfall_dive_team_day_rate|cable_landfall_winch_day_rate|onshore_infrastructure_civil_work_cost|onshore_infrastructure_electrical_work_cost
+0
+1
 5
 1
-4
- 
-Label
+0
+TableData
 detailed_obos_development
 3
 5
@@ -1545,6 +1588,32 @@ power_transfer_efficiency_factor|cable_burial_depth_factor|catenary_cable_length
 1
 0
 TableData
+detailed_obos_general
+3
+5
+General
+ 
+Wind OBOS
+project_economic_life_years|inspection_clearance_meters|plant_commissioning_cost_factor|estimated_engineering_management_cost_factor
+0
+1
+5
+1
+0
+TableData
+detailed_obos_port
+3
+5
+Port & Staging
+ 
+Wind OBOS
+number_of_600_tonne_crawler_cranes|number_of_1000_tonne_crawler_cranes|day_rate_600_tonne_crawler_crane|day_rate_1000_tonne_crawler_crane|port_crane_mobilization_demobilization_cost|port_entrance_and_exit_cost_rate|quayside_docking_cost_rate|wharf_loading_and_unloading_cost_rate|laydown_and_storage_cost_rate
+0
+1
+5
+1
+0
+TableData
 detailed_obos_substructure
 3
 5
@@ -1558,39 +1627,11 @@ monopile_cost_rate|monopile_transition_piece_cost_rate|monopile_diameter|monopil
 1
 0
 TableData
-total_obos_cost_per_kw
+distAtoS
 3
 1
-Total Offshore Balance of System Cost per kW
-$/kW
-Wind OBOS
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-total_obos_cost
-3
-1
-Total Offshore Balance of System Cost
- 
-Wind OBOS
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-scrapVal
-3
-1
-Total scrap value of decommissioned components
-$
+Distance from inshore assembly area to site
+km
 Wind OBOS
  
 0
@@ -1598,7 +1639,7 @@ Wind OBOS
 1
 1
 1
-0.000000
+90.000000
 Default
 distInterCon
 3
@@ -1614,11 +1655,11 @@ Wind OBOS
 1
 3.000000
 Default
-interConVolt
+distPort
 3
 1
-Grid interconnect voltage
-kV
+Distance from installation port to site
+km
 Wind OBOS
  
 0
@@ -1626,12 +1667,40 @@ Wind OBOS
 1
 1
 1
-345.000000
+90.000000
 Default
-turbCont
+distPtoA
 3
 1
-Turbine install weather contingency
+Distance from installation port to inshore assembly area
+km
+Wind OBOS
+ 
+0
+1
+1
+1
+1
+90.000000
+Default
+distShore
+3
+1
+Distance to landfall
+km
+Wind OBOS
+ 
+0
+1
+1
+1
+1
+90.000000
+Default
+elecCont
+3
+1
+Electrical install weather contingency
 %
 Wind OBOS
  
@@ -1641,61 +1710,6 @@ Wind OBOS
 1
 1
 0.300000
-Default
-detailed_obos_port
-3
-5
-Port & Staging
- 
-Wind OBOS
-number_of_600_tonne_crawler_cranes|number_of_1000_tonne_crawler_cranes|day_rate_600_tonne_crawler_crane|day_rate_1000_tonne_crawler_crane|port_crane_mobilization_demobilization_cost|port_entrance_and_exit_cost_rate|quayside_docking_cost_rate|wharf_loading_and_unloading_cost_rate|laydown_and_storage_cost_rate
-0
-1
-5
-1
-0
-TableData
-buryDepth
-3
-1
-Electical cable burial depth
-m
-Wind OBOS
- 
-0
-1
-1
-1
-1
-2.000000
-Default
-moorLines
-3
-1
-Number of mooring lines
- 
-Wind OBOS
- 
-0
-1
-1
-1
-1
-3.000000
-Default
-cableOptimizer
-3
-1
-Electrical cable cost optimizer
- 
-Wind OBOS
- 
-0
-1
-1
-1
-1
-0.000000
 Default
 installStrategy
 3
@@ -1711,10 +1725,24 @@ Wind OBOS
 1
 0.000000
 Default
-towerInstallMethod
+interConVolt
 3
 1
-Tower installation method
+Grid interconnect voltage
+kV
+Wind OBOS
+ 
+0
+1
+1
+1
+1
+345.000000
+Default
+moorLines
+3
+1
+Number of mooring lines
  
 Wind OBOS
  
@@ -1723,12 +1751,12 @@ Wind OBOS
 1
 1
 1
-0.000000
+3.000000
 Default
-turbInstallMethod
+number_install_seasons
 3
 1
-Turbine installation method
+Number of installation seasons
  
 Wind OBOS
  
@@ -1737,13 +1765,25 @@ Wind OBOS
 1
 1
 1
-0.000000
+1.000000
 Default
-anchor
+obos_warning
+3
+4
+ 
+ 
+Wind OBOS
+ 
+5
+1
+4
+ 
+Label
+scrapVal
 3
 1
-Anchor type
- 
+Total scrap value of decommissioned components
+$
 Wind OBOS
  
 0
@@ -1781,51 +1821,52 @@ Wind OBOS
 1
 0.000000
 Default
-number_install_seasons
+total_obos_cost
 3
 1
-Number of installation seasons
+Total Offshore Balance of System Cost
  
 Wind OBOS
  
-0
+8
 1
 1
 1
 1
-1.000000
+0.000000
 Default
-detailed_obos_assembly
-3
-5
-Assembly & Installation
- 
-Wind OBOS
-anchor_mooring_water_depth_time_factor|anchor_mooring_loadout_time|survey_mooring_lines_anchor_positions_time|prepare_inshore_assembly_area_for_turbine_installation|prepare_spar_for_tow_to_inshore_assembly_area|upend_and_ballast_spar|prepare_semi_submersible_for_turbine_installation|prepare_and_fasten_turbine_for_transport|lift_and_bolt_tower_section|lift_and_bolt_nacelle_individual_components_method|lift_and_bolt_nacelle_bunny_ears_method|lift_and_bolt_nacelle_fully_assembled_rotor_method|lift_and_bolt_blade_individual_components_method|lift_and_bolt_blade_bunny_ears_method|lift_and_bolt_rotor_fully_assembled_rotor_method|vessel_positioning_time_turbine_installation|vessel_positioning_time_jacket_installation|vessel_positioning_time_monopile_installation|vessel_positioning_time_offshore_substation_installation|prepare_and_fasten_monopile_for_transport|prepare_and_fasten_jacket_for_transport|prepare_monopile_gripper_and_upender|prepare_jacket_gripper_and_upender|place_jacket_piles|prepare_hammer_for_monopile_installation|prepare_hammer_for_jacket_piles_installation|remove_hammer_for_monopile_installation|remove_hammer_for_jacket_piles_installation|place_jacket_pile_template_on_seabed|place_jacket_main_lattice_onto_piles|level_jacket_main_lattice|pile_hammer_rate|lift_and_place_monopile_for_hammering|install_scour_protection_around_monopile_base|place_transition_piece_onto_monopile|grout_transition_piece_monopile_interface|install_transition_piece_cover|prepare_floating_substructure_for_tow_to_site|connect_mooring_lines_to_spar|connect_mooring_lines_to_semi_submersible|survey_spar_mooring_lines_and_connections|survey_semi_submersible_mooing_lines_and_connections|ballast_semi_submersible|cable_surface_lay_rate|array_cable_pull_in_to_interfaces|cable_termination_and_testing|array_cable_loadout_for_installation|cable_burial_rate|cable_pull_in_to_offshore_substation|cable_pull_in_to_onshore_infrastructure|onshore_infrastructure_construction|export_cable_loadout_for_installation|offshore_substation_loadout_for_installation|lift_and_place_offshore_substation_topside|number_of_feeder_barges|piling_spread_day_rate|piling_spread_mobilization_cost|grouting_spread_day_rate|grouting_spread_mobilization_cost|suction_pile_anchor_spread_day_rate|suction_pile_anchor_spread_mobilization_cost|component_racks_cost|cable_route_survey_cost|horizontal_drilling_distance_for_cable_landfall|cost_rate_for_horizontal_drilling|mpv_rental_day_rate|cable_landfall_dive_team_day_rate|cable_landfall_winch_day_rate|onshore_infrastructure_civil_work_cost|onshore_infrastructure_electrical_work_cost
-0
-1
-5
-1
-0
-TableData
-distPtoA
+total_obos_cost_per_kw
 3
 1
-Distance from installation port to inshore assembly area
-km
+Total Offshore Balance of System Cost per kW
+$/kW
 Wind OBOS
  
-0
+8
 1
 1
 1
 1
-90.000000
+0.000000
 Default
-elecCont
+towerInstallMethod
 3
 1
-Electrical install weather contingency
+Tower installation method
+ 
+Wind OBOS
+ 
+0
+1
+1
+1
+1
+0.000000
+Default
+turbCont
+3
+1
+Turbine install weather contingency
 %
 Wind OBOS
  
@@ -1836,11 +1877,11 @@ Wind OBOS
 1
 0.300000
 Default
-distPort
+turbInstallMethod
 3
 1
-Distance from installation port to site
-km
+Turbine installation method
+ 
 Wind OBOS
  
 0
@@ -1848,48 +1889,7 @@ Wind OBOS
 1
 1
 1
-90.000000
-Default
-distShore
-3
-1
-Distance to landfall
-km
-Wind OBOS
- 
-0
-1
-1
-1
-1
-90.000000
-Default
-detailed_obos_general
-3
-5
-General
- 
-Wind OBOS
-project_economic_life_years|inspection_clearance_meters|plant_commissioning_cost_factor|estimated_engineering_management_cost_factor
-0
-1
-5
-1
-0
-TableData
-distAtoS
-3
-1
-Distance from inshore assembly area to site
-km
-Wind OBOS
- 
-0
-1
-1
-1
-1
-90.000000
+0.000000
 Default
 waterD
 3

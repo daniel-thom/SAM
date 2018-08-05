@@ -538,20 +538,6 @@ TabOrder
 2
 
 8
-om_production_escal
-3
-1
-Variable cost by generation escalation
-%/yr
-Operation and Maintenance Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
 om_capacity
 3
 2
@@ -566,52 +552,10 @@ Operation and Maintenance Costs
 1
 50.000000
 SchedNumeric
-om_fuel_cost
-3
-2
-Fossil fuel cost
-$/MMBTU
-Operation and Maintenance Costs
- 
-2
-1
-2
-1
-1
-0.000000
-SchedNumeric
-om_production
-3
-2
-Variable cost by generation
-$/MWh
-Operation and Maintenance Costs
- 
-2
-1
-2
-1
-1
-0.000000
-SchedNumeric
-om_fuel_cost_escal
+om_capacity_escal
 3
 1
-Fossil fuel cost escalation
-%/yr
-Operation and Maintenance Costs
- 
-3
-1
-1
-1
-1
-0.000000
-Numeric
-om_fixed_escal
-3
-1
-Fixed annual cost escalation
+Fixed cost per capacity escalation
 %/yr
 Operation and Maintenance Costs
  
@@ -636,10 +580,66 @@ Operation and Maintenance Costs
 1
 0.000000
 SchedNumeric
-om_capacity_escal
+om_fixed_escal
 3
 1
-Fixed cost per capacity escalation
+Fixed annual cost escalation
+%/yr
+Operation and Maintenance Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+om_fuel_cost
+3
+2
+Fossil fuel cost
+$/MMBTU
+Operation and Maintenance Costs
+ 
+2
+1
+2
+1
+1
+0.000000
+SchedNumeric
+om_fuel_cost_escal
+3
+1
+Fossil fuel cost escalation
+%/yr
+Operation and Maintenance Costs
+ 
+3
+1
+1
+1
+1
+0.000000
+Numeric
+om_production
+3
+2
+Variable cost by generation
+$/MWh
+Operation and Maintenance Costs
+ 
+2
+1
+2
+1
+1
+0.000000
+SchedNumeric
+om_production_escal
+3
+1
+Variable cost by generation escalation
 %/yr
 Operation and Maintenance Costs
  

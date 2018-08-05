@@ -408,25 +408,25 @@ TabOrder
 5
 
 6
-ppa_soln_mode
-3
-1
-PPA solution mode (0=Specify investor IRR target, 1=Specify PPA price)
- 
-PPA Price and IRR
-Specify tax investor IRR target|Specify PPA price
-3
-1
-1
-1
-1
-0.000000
-Default
 flip_target_percent
 3
 1
 IRR target
 %
+PPA Price and IRR
+ 
+2
+1
+1
+1
+1
+10.000000
+Numeric
+flip_target_year
+3
+1
+IRR target year
+ 
 PPA Price and IRR
  
 2
@@ -450,20 +450,6 @@ PPA Price and IRR
 1
 1.000000
 Numeric
-flip_target_year
-3
-1
-IRR target year
- 
-PPA Price and IRR
- 
-2
-1
-1
-1
-1
-10.000000
-Numeric
 ppa_price_input
 3
 1
@@ -478,6 +464,20 @@ PPA Price and IRR
 1
 0.000000
 Numeric
+ppa_soln_mode
+3
+1
+PPA solution mode (0=Specify investor IRR target, 1=Specify PPA price)
+ 
+PPA Price and IRR
+Specify tax investor IRR target|Specify PPA price
+3
+1
+1
+1
+1
+0.000000
+Default
 solution_mode_message
 3
 4

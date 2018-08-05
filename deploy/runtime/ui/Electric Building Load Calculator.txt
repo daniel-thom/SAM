@@ -2813,6 +2813,90 @@ AlignTop
 0
 
 34
+Monthly_util
+3
+2
+Monthly Utility Load
+kWh
+Residential Load Calculator
+ 
+0
+1
+2
+1
+1
+0.000000
+Default
+Occ_Schedule
+3
+2
+Occupancy schedule
+fraction/hr
+Residential Load Calculator
+ 
+2
+1
+2
+1
+1
+1.000000
+Default
+Occupants
+3
+1
+Number of occupants
+ 
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+4.000000
+Default
+Retrofits
+3
+1
+Energy retrofitted
+ 
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+Stories
+3
+1
+Number of stories
+ 
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+2.000000
+Default
+TCool
+3
+1
+Cooling setpoint
+°F
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+76.000000
+Default
 TCoolSB
 3
 1
@@ -2827,10 +2911,150 @@ Residential Load Calculator
 1
 76.000000
 Default
+THeat
+3
+1
+Heating setpoint
+°F
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+68.000000
+Default
+THeatSB
+3
+1
+Heating setback point
+°F
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+68.000000
+Default
+T_Sched
+3
+2
+Temperature schedule
+on/off
+Residential Load Calculator
+ 
+2
+1
+2
+1
+1
+1.000000
+Default
+YrBuilt
+3
+1
+Year built
+ 
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+1980.000000
+Default
+en_belpe
+3
+1
+en_belpe
+ 
+Residential Load Calculator
+ 
+0
+1
+1
+1
+1
+0.000000
+ 
+en_cool
+3
+1
+Cooling system
+ 
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+en_dish
+3
+1
+Dishwasher
+ 
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
 en_dry
 3
 1
 Dryer
+ 
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+en_fridge
+3
+1
+Refrigerator
+ 
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+en_heat
+3
+1
+Heating system
+ 
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+en_mels
+3
+1
+Misc. electric loads
  
 Residential Load Calculator
  
@@ -2855,10 +3079,136 @@ Residential Load Calculator
 1
 1.000000
 Default
+en_wash
+3
+1
+Washing machine
+ 
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+1.000000
+Default
+escal_input_belpe
+3
+2
+Load growth rate
+%/yr
+Residential Load Calculator
+ 
+2
+1
+2
+1
+1
+0.000000
+Default
+floor_area
+3
+1
+Floor area
+sq ft
+Residential Load Calculator
+ 
+2
+1
+1
+1
+1
+500.000000
+Default
+load_1
+3
+1
+Utility load 1: January
+kWh
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+100.000000
+Default
+load_10
+3
+1
+Utility load 10: October
+kWh
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+100.000000
+Default
+load_11
+3
+1
+Utility load 11: November
+kWh
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+100.000000
+Default
+load_12
+3
+1
+Utility load 12: December
+kWh
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+100.000000
+Default
+load_2
+3
+1
+Utility load 2: February
+kWh
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+100.000000
+Default
 load_3
 3
 1
 Utility load 3: March
+kWh
+Residential Load Calculator
+ 
+3
+1
+1
+1
+1
+100.000000
+Default
+load_4
+3
+1
+Utility load 4: April
 kWh
 Residential Load Calculator
  
@@ -2897,178 +3247,10 @@ Residential Load Calculator
 1
 100.000000
 Default
-YrBuilt
-3
-1
-Year built
- 
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-1980.000000
-Default
-THeatSB
-3
-1
-Heating setback point
-°F
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-68.000000
-Default
-load_2
-3
-1
-Utility load 2: February
-kWh
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-100.000000
-Default
-escal_input_belpe
-3
-2
-Load growth rate
-%/yr
-Residential Load Calculator
- 
-2
-1
-2
-1
-1
-0.000000
-Default
-Stories
-3
-1
-Number of stories
- 
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-2.000000
-Default
-en_cool
-3
-1
-Cooling system
- 
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-load_12
-3
-1
-Utility load 12: December
-kWh
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-100.000000
-Default
 load_7
 3
 1
 Utility load 7: July
-kWh
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-100.000000
-Default
-T_Sched
-3
-2
-Temperature schedule
-on/off
-Residential Load Calculator
- 
-2
-1
-2
-1
-1
-1.000000
-Default
-Retrofits
-3
-1
-Energy retrofitted
- 
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-THeat
-3
-1
-Heating setpoint
-°F
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-68.000000
-Default
-load_9
-3
-1
-Utility load 9: September
-kWh
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-100.000000
-Default
-load_11
-3
-1
-Utility load 11: November
 kWh
 Residential Load Calculator
  
@@ -3093,24 +3275,10 @@ Residential Load Calculator
 1
 100.000000
 Default
-floor_area
+load_9
 3
 1
-Floor area
-sq ft
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-500.000000
-Default
-load_1
-3
-1
-Utility load 1: January
+Utility load 9: September
 kWh
 Residential Load Calculator
  
@@ -3120,174 +3288,6 @@ Residential Load Calculator
 1
 1
 100.000000
-Default
-en_fridge
-3
-1
-Refrigerator
- 
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-Monthly_util
-3
-2
-Monthly Utility Load
-kWh
-Residential Load Calculator
- 
-0
-1
-2
-1
-1
-0.000000
-Default
-en_wash
-3
-1
-Washing machine
- 
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-en_belpe
-3
-1
-en_belpe
- 
-Residential Load Calculator
- 
-0
-1
-1
-1
-1
-0.000000
- 
-load_10
-3
-1
-Utility load 10: October
-kWh
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-100.000000
-Default
-load_4
-3
-1
-Utility load 4: April
-kWh
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-100.000000
-Default
-Occupants
-3
-1
-Number of occupants
- 
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-4.000000
-Default
-TCool
-3
-1
-Cooling setpoint
-°F
-Residential Load Calculator
- 
-2
-1
-1
-1
-1
-76.000000
-Default
-en_mels
-3
-1
-Misc. electric loads
- 
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-en_heat
-3
-1
-Heating system
- 
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-en_dish
-3
-1
-Dishwasher
- 
-Residential Load Calculator
- 
-3
-1
-1
-1
-1
-1.000000
-Default
-Occ_Schedule
-3
-2
-Occupancy schedule
-fraction/hr
-Residential Load Calculator
- 
-2
-1
-2
-1
-1
-1.000000
 Default
 
 592

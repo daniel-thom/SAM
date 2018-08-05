@@ -137,38 +137,10 @@ Bold
 1
 
 110
-lib_Dirt_HCE_2
-3
-1
-Loss due to dirt on receiver envelope var 2 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_epsilon_3_1
+AbsorberMaterial
 3
 3
-Absorber emittance var 1 UI matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-1.000000
-Default
-P_a
-3
-3
-Receiver annulus pressure matrix
+Absorber material matrix
  
 Physical Trough Receiver Library
  
@@ -179,10 +151,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-alpha_abs
+AnnulusGas
 3
 3
-Absorber absorptance matrix
+Annulus gas matrix
  
 Physical Trough Receiver Library
  
@@ -193,86 +165,16 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-lib_alpha_env_3
-3
-1
-Envelope absorbtance var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_alpha_env_1
-3
-1
-Envelope absorbtance var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_Shadowing_1
-3
-1
-Receiver bellows shadowing loss factor var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_Design_loss_1
-3
-1
-Receiver heat loss at design var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-GlazingIntactIn
+D_2
 3
 3
-Glazing intact (broken glass) matrix
- 
+Inner absorber tube diameter matrix
+m
 Physical Trough Receiver Library
  
 13
 1
 3
-1
-1
-0.000000
-Default
-lib_D_p
-3
-1
-Absorber flow plug diameter from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
 1
 1
 0.000000
@@ -291,10 +193,66 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-Shadowing
+D_4
 3
 3
-Receiver bellows shadowing loss factor matrix
+Inner glass envelope diameter matrix
+m
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+D_5
+3
+3
+Outer glass envelope diameter matrix
+m
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+D_p
+3
+3
+Absorber flow plug diameter matrix
+m
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+Design_loss
+3
+3
+Receiver heat loss at design matrix
+W/m
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+Dirt_HCE
+3
+3
+Loss due to dirt on receiver envelope matrix
  
 Physical Trough Receiver Library
  
@@ -319,10 +277,192 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-lib_GlazingIntactIn_2
+EPSILON_5
+3
+3
+Outer glass envelope emissivities matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
 3
 1
-Glazing intact (broken glass) var 2 from library
+1
+0.000000
+Default
+Flow_type
+3
+3
+Flow type trough the absorber matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+GlazingIntactIn
+3
+3
+Glazing intact (broken glass) matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+HCE_FieldFrac
+3
+3
+Fraction of the field occupied by HCE type matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+P_a
+3
+3
+Receiver annulus pressure matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+Rough
+3
+3
+Roughness of internal surface matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+SCADefocusArray
+3
+2
+SCA defocus order array
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+2
+1
+1
+0.000000
+Default
+SCAInfoArray
+3
+3
+Collector types in loop matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+Shadowing
+3
+3
+Receiver bellows shadowing loss factor matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+Tau_envelope
+3
+3
+Envelope transmittance matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+alpha_abs
+3
+3
+Absorber absorptance matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+alpha_env
+3
+3
+Envelope absorbtance matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+lib_AbsorberMaterial
+3
+1
+Absorber material from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_AnnulusGas_1
+3
+1
+Annulus gas var 1 from library
  
 Physical Trough Receiver Library
  
@@ -347,10 +487,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_Shadowing_2
+lib_AnnulusGas_3
 3
 1
-Receiver bellows shadowing loss factor var 2 UI variable
+Annulus gas var 3 from library
  
 Physical Trough Receiver Library
  
@@ -361,34 +501,24 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-receiver_library
+lib_D_2
 3
-4
-Receiver Library
- 
-Physical Trough Receiver Library
-Physical Trough Receivers|0
-19
 1
-4
-Schott PTR70 2008
-Library
-receivers_in_field
-3
-4
-Receiver types in loop configuration
+Inner absorber tube diameter from library
  
 Physical Trough Receiver Library
  
-12
+13
 1
-4
-0
+1
+1
+1
+0.000000
 Default
-lib_Tau_envelope_1
+lib_D_3
 3
 1
-Envelope transmittance var 1 from library
+Outer absorber tube diameter from library
  
 Physical Trough Receiver Library
  
@@ -413,6 +543,216 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
+lib_D_5
+3
+1
+Outer glass envelope diameter from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_D_p
+3
+1
+Absorber flow plug diameter from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Design_loss_1
+3
+1
+Receiver heat loss at design var 1 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Design_loss_2
+3
+1
+Receiver heat loss at design var 1 from libraryReceiver heat loss at design var 2 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Design_loss_3
+3
+1
+Receiver heat loss at design var 1 from libraryReceiver heat loss at design var 3 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Dirt_HCE_1
+3
+1
+Loss due to dirt on receiver envelope var 1 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Dirt_HCE_2
+3
+1
+Loss due to dirt on receiver envelope var 2 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Dirt_HCE_3
+3
+1
+Loss due to dirt on receiver envelope var 3 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_Flow_type
+3
+1
+Flow type trough the absorber from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_GlazingIntactIn_1
+3
+1
+Glazing intact (broken glass) var 1 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_GlazingIntactIn_2
+3
+1
+Glazing intact (broken glass) var 2 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_GlazingIntactIn_3
+3
+1
+Glazing intact (broken glass) var 3 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_P_a_1
+3
+1
+Receiver annulus pressure var 1 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_P_a_2
+3
+1
+Receiver annulus pressure var 2 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_P_a_3
+3
+1
+Receiver annulus pressure var 3 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
 lib_Rough
 3
 1
@@ -427,10 +767,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_epsilon_4_1
+lib_Shadowing_1
 3
 1
-Inner glass envelope emissivity var 1 UI variable
+Receiver bellows shadowing loss factor var 1 from library
  
 Physical Trough Receiver Library
  
@@ -441,10 +781,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_AnnulusGas_3
+lib_Shadowing_2
 3
 1
-Annulus gas var 3 UI variable
+Receiver bellows shadowing loss factor var 2 from library
  
 Physical Trough Receiver Library
  
@@ -455,10 +795,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-lib_alpha_abs_1
+lib_Shadowing_3
 3
 1
-Absorber absorptance var 1 from library
+Receiver bellows shadowing loss factor var 3 from library
  
 Physical Trough Receiver Library
  
@@ -469,24 +809,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-lib_epsilon_3_1
-3
-3
-Absorber emittance var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
+lib_Tau_envelope_1
 3
 1
-1
-0.000000
-Default
-ui_AnnulusGas_2
-3
-1
-Annulus gas var 2 UI variable
+Envelope transmittance var 1 from library
  
 Physical Trough Receiver Library
  
@@ -497,136 +823,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-D_5
-3
-3
-Outer glass envelope diameter matrix
-m
-Physical Trough Receiver Library
- 
-13
-1
+lib_Tau_envelope_2
 3
 1
-1
-0.000000
-Default
-ui_alpha_abs_1
-3
-1
-Absorber absorptance var 1 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-Rough
-3
-3
-Roughness of internal surface matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_alpha_env_1
-3
-1
-Envelope absorbtance var 1 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-nHCEVar
-3
-1
-Variations per type of receiver
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-4.000000
-Default
-lib_epsilon_4_1
-3
-1
-Inner glass envelope emissivity var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_GlazingIntactIn_1
-3
-1
-Glazing intact (broken glass) var 1 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_alpha_env_3
-3
-1
-Envelope absorbtance var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-EPSILON_5
-3
-3
-Outer glass envelope emissivities matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-lib_D_2
-3
-1
-Inner absorber tube diameter from library
+Envelope transmittance var 2 from library
  
 Physical Trough Receiver Library
  
@@ -651,24 +851,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-nHCEt
+lib_alpha_abs_1
 3
 1
-Number of HCE types
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-4.000000
-Default
-lib_epsilon_4_2
-3
-1
-Inner glass envelope emissivity var 2 from library
+Absorber absorptance var 1 from library
  
 Physical Trough Receiver Library
  
@@ -679,10 +865,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_P_a_1
+lib_alpha_abs_2
 3
 1
-Receiver annulus pressure var 1 UI variable
+Absorber absorptance var 2 from library
  
 Physical Trough Receiver Library
  
@@ -693,10 +879,24 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_Shadowing_1
+lib_alpha_abs_3
 3
 1
-Receiver bellows shadowing loss factor var 1 UI variable
+Absorber absorptance var 3 from library
+ 
+Physical Trough Receiver Library
+ 
+12
+1
+1
+1
+1
+0.000000
+Default
+lib_alpha_env_1
+3
+1
+Envelope absorbtance var 1 from library
  
 Physical Trough Receiver Library
  
@@ -721,10 +921,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_alpha_abs_3
+lib_alpha_env_3
 3
 1
-Absorber absorptance var 3 UI variable
+Envelope absorbtance var 3 from library
  
 Physical Trough Receiver Library
  
@@ -735,24 +935,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-lib_AnnulusGas_3
-3
-1
-Annulus gas var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-Tau_envelope
+lib_epsilon_3_1
 3
 3
-Envelope transmittance matrix
+Absorber emittance var 1 from library
  
 Physical Trough Receiver Library
  
@@ -763,10 +949,52 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-ui_alpha_env_2
+lib_epsilon_3_2
+3
+3
+Absorber emittance var 2 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
 3
 1
-Envelope absorbtance var 2 UI variable
+1
+0.000000
+Default
+lib_epsilon_3_3
+3
+3
+Absorber emittance var 3 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+lib_epsilon_4_1
+3
+1
+Inner glass envelope emissivity var 1 from library
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+lib_epsilon_4_2
+3
+1
+Inner glass envelope emissivity var 2 from library
  
 Physical Trough Receiver Library
  
@@ -803,10 +1031,10 @@ Physical Trough Receiver Library
 4
 lib default
 Default
-ui_Flow_type
+nHCEVar
 3
 1
-Flow type trough the absorber UI  variable
+Variations per type of receiver
  
 Physical Trough Receiver Library
  
@@ -815,26 +1043,12 @@ Physical Trough Receiver Library
 1
 1
 1
-0.000000
+4.000000
 Default
-AbsorberMaterial
-3
-3
-Absorber material matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
+nHCEt
 3
 1
-1
-0.000000
-Default
-lib_Shadowing_3
-3
-1
-Receiver bellows shadowing loss factor var 3 from library
+Number of HCE types
  
 Physical Trough Receiver Library
  
@@ -843,766 +1057,36 @@ Physical Trough Receiver Library
 1
 1
 1
-0.000000
+4.000000
 Default
-ui_epsilon_3_3
+receiver_library
 3
-3
-Absorber emittance var 3 UI matrix
+4
+Receiver Library
  
 Physical Trough Receiver Library
- 
-13
+Physical Trough Receivers|0
+19
 1
+4
+Schott PTR70 2008
+Library
+receivers_in_field
 3
-1
-1
-0.000000
-Default
-D_p
-3
-3
-Absorber flow plug diameter matrix
-m
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_GlazingIntactIn_3
-3
-1
-Glazing intact (broken glass) var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_D_3
-3
-1
-Outer absorber tube diameter UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_GlazingIntactIn_2
-3
-1
-Glazing intact (broken glass) var 2 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-Dirt_HCE
-3
-3
-Loss due to dirt on receiver envelope matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_P_a_2
-3
-1
-Receiver annulus pressure var 2 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_epsilon_3_2
-3
-3
-Absorber emittance var 2 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_Tau_envelope_3
-3
-1
-Envelope transmittance var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_epsilon_3_2
-3
-3
-Absorber emittance var 2 UI matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_P_a_3
-3
-1
-Receiver annulus pressure var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Design_loss_1
-3
-1
-Receiver heat loss at design var 1 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_Tau_envelope_2
-3
-1
-Envelope transmittance var 2 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_AbsorberMaterial
-3
-1
-Absorber material UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_D_2
-3
-1
-Inner absorber tube diameter UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Shadowing_3
-3
-1
-Receiver bellows shadowing loss factor var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-Flow_type
-3
-3
-Flow type trough the absorber matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-lib_GlazingIntactIn_1
-3
-1
-Glazing intact (broken glass) var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Rough
-3
-1
-Roughness of internal surface UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Tau_envelope_2
-3
-1
-Envelope transmittance var 2 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_D_5
-3
-1
-Outer glass envelope diameter UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-SCADefocusArray
-3
-2
-SCA defocus order array
- 
-Physical Trough Receiver Library
- 
-13
-1
-2
-1
-1
-0.000000
-Default
-lib_alpha_abs_3
-3
-1
-Absorber absorptance var 3 from library
+4
+Receiver types in loop configuration
  
 Physical Trough Receiver Library
  
 12
 1
-1
-1
-1
-0.000000
-Default
-lib_AnnulusGas_1
-3
-1
-Annulus gas var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-AnnulusGas
-3
-3
-Annulus gas matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_Design_loss_3
-3
-1
-Receiver heat loss at design var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_Design_loss_2
-3
-1
-Receiver heat loss at design var 1 from libraryReceiver heat loss at design var 2 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_D_p
-3
-1
-Absorber flow plug diameter UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_Flow_type
-3
-1
-Flow type trough the absorber from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_P_a_3
-3
-1
-Receiver annulus pressure var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_D_3
-3
-1
-Outer absorber tube diameter from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Dirt_HCE_1
-3
-1
-Loss due to dirt on receiver envelope var 1 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Dirt_HCE_3
-3
-1
-Loss due to dirt on receiver envelope var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Dirt_HCE_2
-3
-1
-Loss due to dirt on receiver envelope var 2 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_GlazingIntactIn_3
-3
-1
-Glazing intact (broken glass) var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_epsilon_3_3
-3
-3
-Absorber emittance var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-lib_Shadowing_2
-3
-1
-Receiver bellows shadowing loss factor var 2 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_D_4
-3
-1
-Inner glass envelope diameter UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_P_a_1
-3
-1
-Receiver annulus pressure var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_Dirt_HCE_3
-3
-1
-Loss due to dirt on receiver envelope var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-D_4
-3
-3
-Inner glass envelope diameter matrix
-m
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-Design_loss
-3
-3
-Receiver heat loss at design matrix
-W/m
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-lib_Dirt_HCE_1
-3
-1
-Loss due to dirt on receiver envelope var 1 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_Design_loss_2
-3
-1
-Receiver heat loss at design var 2 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_D_5
-3
-1
-Outer glass envelope diameter from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_receiver_description
-3
 4
-Receiver description UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-4
-ui default
-TextEntry
-ui_epsilon_4_3
-3
-1
-Inner glass envelope emissivity var 3 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
+0
 Default
-D_2
-3
-3
-Inner absorber tube diameter matrix
-m
-Physical Trough Receiver Library
- 
-13
-1
+ui_AbsorberMaterial
 3
 1
-1
-0.000000
-Default
-alpha_env
-3
-3
-Envelope absorbtance matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-ui_Tau_envelope_1
-3
-1
-Envelope transmittance var 1 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-HCE_FieldFrac
-3
-3
-Fraction of the field occupied by HCE type matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
-3
-1
-1
-0.000000
-Default
-lib_Design_loss_3
-3
-1
-Receiver heat loss at design var 1 from libraryReceiver heat loss at design var 3 from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_epsilon_4_2
-3
-1
-Inner glass envelope emissivity var 2 UI variable
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-lib_AbsorberMaterial
-3
-1
-Absorber material from library
- 
-Physical Trough Receiver Library
- 
-13
-1
-1
-1
-1
-0.000000
-Default
-ui_alpha_abs_2
-3
-1
-Absorber absorptance var 2 UI variable
+Absorber material UI variable
  
 Physical Trough Receiver Library
  
@@ -1627,24 +1111,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-SCAInfoArray
-3
-3
-Collector types in loop matrix
- 
-Physical Trough Receiver Library
- 
-13
-1
+ui_AnnulusGas_2
 3
 1
-1
-0.000000
-Default
-lib_P_a_2
-3
-1
-Receiver annulus pressure var 2 from library
+Annulus gas var 2 UI variable
  
 Physical Trough Receiver Library
  
@@ -1655,10 +1125,10 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
-lib_alpha_abs_2
+ui_AnnulusGas_3
 3
 1
-Absorber absorptance var 2 from library
+Annulus gas var 3 UI variable
  
 Physical Trough Receiver Library
  
@@ -1669,6 +1139,536 @@ Physical Trough Receiver Library
 1
 0.000000
 Default
+ui_D_2
+3
+1
+Inner absorber tube diameter UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_D_3
+3
+1
+Outer absorber tube diameter UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_D_4
+3
+1
+Inner glass envelope diameter UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_D_5
+3
+1
+Outer glass envelope diameter UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_D_p
+3
+1
+Absorber flow plug diameter UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Design_loss_1
+3
+1
+Receiver heat loss at design var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Design_loss_2
+3
+1
+Receiver heat loss at design var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Design_loss_3
+3
+1
+Receiver heat loss at design var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Dirt_HCE_1
+3
+1
+Loss due to dirt on receiver envelope var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Dirt_HCE_2
+3
+1
+Loss due to dirt on receiver envelope var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Dirt_HCE_3
+3
+1
+Loss due to dirt on receiver envelope var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Flow_type
+3
+1
+Flow type trough the absorber UI  variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_GlazingIntactIn_1
+3
+1
+Glazing intact (broken glass) var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_GlazingIntactIn_2
+3
+1
+Glazing intact (broken glass) var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_GlazingIntactIn_3
+3
+1
+Glazing intact (broken glass) var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_P_a_1
+3
+1
+Receiver annulus pressure var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_P_a_2
+3
+1
+Receiver annulus pressure var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_P_a_3
+3
+1
+Receiver annulus pressure var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Rough
+3
+1
+Roughness of internal surface UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Shadowing_1
+3
+1
+Receiver bellows shadowing loss factor var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Shadowing_2
+3
+1
+Receiver bellows shadowing loss factor var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Shadowing_3
+3
+1
+Receiver bellows shadowing loss factor var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Tau_envelope_1
+3
+1
+Envelope transmittance var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Tau_envelope_2
+3
+1
+Envelope transmittance var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_Tau_envelope_3
+3
+1
+Envelope transmittance var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_alpha_abs_1
+3
+1
+Absorber absorptance var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_alpha_abs_2
+3
+1
+Absorber absorptance var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_alpha_abs_3
+3
+1
+Absorber absorptance var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_alpha_env_1
+3
+1
+Envelope absorbtance var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_alpha_env_2
+3
+1
+Envelope absorbtance var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_alpha_env_3
+3
+1
+Envelope absorbtance var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_epsilon_3_1
+3
+3
+Absorber emittance var 1 UI matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+1.000000
+Default
+ui_epsilon_3_2
+3
+3
+Absorber emittance var 2 UI matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+ui_epsilon_3_3
+3
+3
+Absorber emittance var 3 UI matrix
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+3
+1
+1
+0.000000
+Default
+ui_epsilon_4_1
+3
+1
+Inner glass envelope emissivity var 1 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_epsilon_4_2
+3
+1
+Inner glass envelope emissivity var 2 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_epsilon_4_3
+3
+1
+Inner glass envelope emissivity var 3 UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+1
+1
+1
+0.000000
+Default
+ui_receiver_description
+3
+4
+Receiver description UI variable
+ 
+Physical Trough Receiver Library
+ 
+13
+1
+4
+ui default
+TextEntry
 
 18391
 equations{ 'receivers_in_field' } = define () {

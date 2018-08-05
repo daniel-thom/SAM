@@ -1506,34 +1506,104 @@ TabOrder
 1
 
 25
-6par_mpeff
+6par_aisc
 3
 1
-Efficiency
-%
+Temperature coefficient of Isc
+ 
 PV Module (CEC User Specified)
  
-8
+10
+1
+1
+1
+1
+0.004000
+Numeric
+6par_aisc_display
+3
+1
+Temperature coefficient of Isc
+ 
+PV Module (CEC User Specified)
+ 
+0
+1
+1
+1
+1
+0.004000
+Default
+6par_aisc_units
+3
+1
+aIsc Temp Coeff Units
+ 
+PV Module (CEC User Specified)
+A/°C|%/°C
+1
 1
 1
 1
 1
 0.000000
-Numeric
-6par_standoff
+Choice
+6par_area
 3
 1
-Standoff height
- 
+Module area
+m²
 PV Module (CEC User Specified)
-Building integrated|Greater than 3.5 in|2.5-3.5 in|1.5-2.5 in|0.5-1.5 in|Less than 0.5 in|Ground or rack mounted
+ 
 2
 1
 1
 1
 1
-6.000000
-Choice
+1.300000
+Numeric
+6par_bifacial_ground_clearance_height
+3
+1
+Ground clearance height
+m
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+1.000000
+Numeric
+6par_bifacial_transmission_factor
+3
+1
+Transmission Fraction
+0-1
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+0.013000
+Default
+6par_bifaciality
+3
+1
+Bifaciality
+0-1
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+0.650000
+Default
 6par_bvoc
 3
 1
@@ -1562,152 +1632,14 @@ PV Module (CEC User Specified)
 1
 -0.110000
 Default
-6par_nser
+6par_bvoc_units
 3
 1
-Number of cells in series
+bVoc Temp Coeff Units
  
 PV Module (CEC User Specified)
- 
-2
+V/°C|%/°C
 1
-1
-1
-1
-60.000000
-Numeric
-6par_isc
-3
-1
-Short circuit current (Isc)
-A
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-7.000000
-Numeric
-6par_pmp
-3
-1
-Power
-Wdc
-PV Module (CEC User Specified)
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-6par_voc
-3
-1
-Open circuit voltage (Voc)
-V
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-37.000000
-Numeric
-6par_tnoct
-3
-1
-Nominal operating cell temperature
-°C
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-46.000000
-Numeric
-6par_module_name
-3
-4
-Module description
- 
-PV Module (CEC User Specified)
- 
-0
-1
-4
-Generic polycrystalline silicon module
-TextEntry
-6par_aisc
-3
-1
-Temperature coefficient of Isc
- 
-PV Module (CEC User Specified)
- 
-10
-1
-1
-1
-1
-0.004000
-Numeric
-6par_aisc_units
-3
-1
-aIsc Temp Coeff Units
- 
-PV Module (CEC User Specified)
-A/°C|%/°C
-1
-1
-1
-1
-1
-0.000000
-Choice
-6par_gpmp
-3
-1
-Temperature coefficient of max. power point
-%/°C
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
--0.410000
-Numeric
-6par_vmp
-3
-1
-Maximum power point voltage (Vmp)
-V
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-30.000000
-Numeric
-6par_mounting
-3
-1
-Approximate installation height
- 
-PV Module (CEC User Specified)
-One story building height or lower|Two story building height or higher
-2
 1
 1
 1
@@ -1728,20 +1660,32 @@ monoSi|multiSi|CdTe|CIS|CIGS|Amorphous
 1
 1.000000
 Choice
-6par_bvoc_units
+6par_data_filename
+3
+4
+ 
+ 
+ 
+ 
+0
+1
+4
+ 
+TextEntry
+6par_gpmp
 3
 1
-bVoc Temp Coeff Units
- 
+Temperature coefficient of max. power point
+%/°C
 PV Module (CEC User Specified)
-V/°C|%/°C
+ 
+2
 1
 1
 1
 1
-1
-0.000000
-Choice
+-0.410000
+Numeric
 6par_imp
 3
 1
@@ -1756,74 +1700,6 @@ PV Module (CEC User Specified)
 1
 6.000000
 Numeric
-6par_area
-3
-1
-Module area
-m²
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-1.300000
-Numeric
-6par_aisc_display
-3
-1
-Temperature coefficient of Isc
- 
-PV Module (CEC User Specified)
- 
-0
-1
-1
-1
-1
-0.004000
-Default
-6par_bifaciality
-3
-1
-Bifaciality
-0-1
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-0.650000
-Default
-6par_data_filename
-3
-4
- 
- 
- 
- 
-0
-1
-4
- 
-TextEntry
-6par_bifacial_transmission_factor
-3
-1
-Transmission Fraction
-0-1
-PV Module (CEC User Specified)
- 
-2
-1
-1
-1
-1
-0.013000
-Default
 6par_is_bifacial
 3
 1
@@ -1838,11 +1714,11 @@ PV Module (CEC User Specified)
 1
 0.000000
 Default
-6par_bifacial_ground_clearance_height
+6par_isc
 3
 1
-Ground clearance height
-m
+Short circuit current (Isc)
+A
 PV Module (CEC User Specified)
  
 2
@@ -1850,7 +1726,131 @@ PV Module (CEC User Specified)
 1
 1
 1
-1.000000
+7.000000
+Numeric
+6par_module_name
+3
+4
+Module description
+ 
+PV Module (CEC User Specified)
+ 
+0
+1
+4
+Generic polycrystalline silicon module
+TextEntry
+6par_mounting
+3
+1
+Approximate installation height
+ 
+PV Module (CEC User Specified)
+One story building height or lower|Two story building height or higher
+2
+1
+1
+1
+1
+0.000000
+Choice
+6par_mpeff
+3
+1
+Efficiency
+%
+PV Module (CEC User Specified)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+6par_nser
+3
+1
+Number of cells in series
+ 
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+60.000000
+Numeric
+6par_pmp
+3
+1
+Power
+Wdc
+PV Module (CEC User Specified)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+6par_standoff
+3
+1
+Standoff height
+ 
+PV Module (CEC User Specified)
+Building integrated|Greater than 3.5 in|2.5-3.5 in|1.5-2.5 in|0.5-1.5 in|Less than 0.5 in|Ground or rack mounted
+2
+1
+1
+1
+1
+6.000000
+Choice
+6par_tnoct
+3
+1
+Nominal operating cell temperature
+°C
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+46.000000
+Numeric
+6par_vmp
+3
+1
+Maximum power point voltage (Vmp)
+V
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+30.000000
+Numeric
+6par_voc
+3
+1
+Open circuit voltage (Voc)
+V
+PV Module (CEC User Specified)
+ 
+2
+1
+1
+1
+1
+37.000000
 Numeric
 
 456

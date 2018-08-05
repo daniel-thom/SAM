@@ -1314,48 +1314,32 @@ PV Inverter (Datasheet)
 1
 240.000000
 Numeric
-inv_ds_pnt
+inv_ds_data_filename
+3
+4
+ 
+ 
+ 
+ 
+0
+1
+4
+ 
+TextEntry
+inv_ds_eff
 3
 1
-Power consumption at night
-Wac
+Inverter Efficiency
+%
 PV Inverter (Datasheet)
  
-2
+8
 1
 1
 1
 1
 1.000000
-Numeric
-inv_ds_eff_weighted
-3
-1
-Weighted efficiency
-%
-PV Inverter (Datasheet)
- 
-3
-1
-1
-1
-1
-96.000000
-Numeric
-inv_ds_pso
-3
-1
-Power consumption during operation
-Wdc
-PV Inverter (Datasheet)
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
+Default
 inv_ds_eff_peak_or_nom
 3
 1
@@ -1369,20 +1353,6 @@ PV Inverter (Datasheet)
 1
 1
 96.000000
-Numeric
-inv_ds_paco
-3
-1
-Maximum AC output power
-Wac
-PV Inverter (Datasheet)
- 
-2
-1
-1
-1
-1
-4000.000000
 Numeric
 inv_ds_eff_type
 3
@@ -1398,33 +1368,33 @@ PV Inverter (Datasheet)
 1
 0.000000
 RadioChoice
-inv_ds_pnt_suggested
+inv_ds_eff_weighted
 3
 1
- 
-Wac
+Weighted efficiency
+%
 PV Inverter (Datasheet)
  
-8
+3
 1
 1
 1
 1
-0.000000
+96.000000
 Numeric
-inv_ds_pso_suggested
+inv_ds_idcmax
 3
 1
- 
-Wdc
+Maximum DC current
+Adc
 PV Inverter (Datasheet)
  
-8
+2
 1
 1
 1
 1
-0.000000
+18.000000
 Numeric
 inv_ds_mppt_hi
 3
@@ -1440,10 +1410,94 @@ PV Inverter (Datasheet)
 1
 480.000000
 Numeric
+inv_ds_mppt_low
+3
+1
+Minimum MPPT DC voltage
+Vdc
+PV Inverter (Datasheet)
+ 
+2
+1
+1
+1
+1
+250.000000
+Numeric
+inv_ds_paco
+3
+1
+Maximum AC output power
+Wac
+PV Inverter (Datasheet)
+ 
+2
+1
+1
+1
+1
+4000.000000
+Numeric
 inv_ds_pdco
 3
 1
 Maximum DC input power
+Wdc
+PV Inverter (Datasheet)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inv_ds_pnt
+3
+1
+Power consumption at night
+Wac
+PV Inverter (Datasheet)
+ 
+2
+1
+1
+1
+1
+1.000000
+Numeric
+inv_ds_pnt_suggested
+3
+1
+ 
+Wac
+PV Inverter (Datasheet)
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+inv_ds_pso
+3
+1
+Power consumption during operation
+Wdc
+PV Inverter (Datasheet)
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
+inv_ds_pso_suggested
+3
+1
+ 
 Wdc
 PV Inverter (Datasheet)
  
@@ -1468,18 +1522,6 @@ PV Inverter (Datasheet)
 1
 600.000000
 Numeric
-inv_ds_data_filename
-3
-4
- 
- 
- 
- 
-0
-1
-4
- 
-TextEntry
 inv_ds_vdco
 3
 1
@@ -1494,48 +1536,6 @@ PV Inverter (Datasheet)
 1
 310.000000
 Numeric
-inv_ds_idcmax
-3
-1
-Maximum DC current
-Adc
-PV Inverter (Datasheet)
- 
-2
-1
-1
-1
-1
-18.000000
-Numeric
-inv_ds_mppt_low
-3
-1
-Minimum MPPT DC voltage
-Vdc
-PV Inverter (Datasheet)
- 
-2
-1
-1
-1
-1
-250.000000
-Numeric
-inv_ds_eff
-3
-1
-Inverter Efficiency
-%
-PV Inverter (Datasheet)
- 
-8
-1
-1
-1
-1
-1.000000
-Default
 
 413
 equations{ 'inv_ds_pnt_suggested' } = define() {

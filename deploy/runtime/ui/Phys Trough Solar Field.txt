@@ -3036,6 +3036,202 @@ AlignTop
 0
 
 65
+DISCARD_UNUSED_latitude
+3
+1
+Site latitude
+deg
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+FieldConfig
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+Fluid
+3
+1
+ 
+ 
+ 
+ 
+8
+1
+1
+1
+1
+18.000000
+Default
+HDR_rough
+3
+1
+Header pipe roughness
+m
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.000046
+Numeric
+L_heat_sink_piping
+3
+1
+Length of piping through heat sink
+m
+Phys Trough Solar Field
+ 
+2
+1
+1
+1
+1
+50.000000
+Numeric
+Pipe_hl_coef
+3
+1
+Piping thermal loss coefficient
+W/m²-K
+Phys Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.250000
+Numeric
+Row_Distance
+3
+1
+Row spacing
+m
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+15.000000
+Numeric
+SCA_drives_elec
+3
+1
+Tracking power per SCA
+W/sca
+Phys Trough Solar Field
+ 
+2
+1
+1
+1
+1
+125.000000
+Numeric
+SF_COPY_I_bn_des
+3
+1
+Design Point DNI
+W/m²
+Phys Trough Solar Field
+ 
+8
+1
+1
+1
+1
+950.000000
+Numeric
+SF_COPY_T_loop_in_des
+3
+1
+Loop inlet HTF temperature
+°C
+Phys Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+SF_COPY_T_loop_out_des
+3
+1
+Loop outlet HTF temperature
+°C
+Phys Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+SF_COPY_specified_q_dot_rec_des
+3
+1
+Target receiver thermal power
+MWt
+Phys Trough Solar Field
+ 
+8
+1
+1
+1
+1
+100.000000
+Numeric
+SF_COPY_specified_solar_multiple
+3
+1
+Target solar multiple
+ 
+Phys Trough Solar Field
+ 
+8
+1
+1
+1
+1
+2.000000
+Numeric
+SolarAz
+3
+1
+Initial condition for solar azimuth angle
+ 
+ 
+ 
+9
+1
+1
+1
+1
+0.000000
+Default
 T_fp
 3
 1
@@ -3050,10 +3246,38 @@ Physical Trough Solar Field
 1
 50.000000
 Numeric
-fthrctrl
+V_hdr_max
 3
 1
-Defocusing strategy input
+Header design max flow velocity
+m/s
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+3.000000
+Numeric
+V_hdr_min
+3
+1
+Header design min flow velocity
+m/s
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+2.000000
+Numeric
+accept_init
+3
+1
+In acceptance testing mode - require steady-state startup
  
  
  
@@ -3064,12 +3288,26 @@ Defocusing strategy input
 1
 0.000000
 Default
-max_field_flow_velocity
+accept_loc
 3
 1
-Max field flow velocity
-m/s
-Physical Trough Solar Field
+In acceptance testing mode - temperature sensor location (1=hx,2=loop)
+ 
+ 
+ 
+8
+1
+1
+1
+1
+1.000000
+Default
+accept_mode
+3
+1
+Acceptance testing mode? (1=yes, 0=no)
+ 
+ 
  
 8
 1
@@ -3077,21 +3315,92 @@ Physical Trough Solar Field
 1
 1
 0.000000
-Numeric
-total_required_aperture_for_SM1
+Default
+azimuth
 3
 1
-Total required aperture, SM=1
-m²
+Collector azimuth
+deg
 Physical Trough Solar Field
  
-8
+2
 1
 1
 1
 1
 0.000000
 Numeric
+combo_FieldConfig
+3
+1
+Number of field subsections
+ 
+Physical Trough Solar Field
+1|2|4|6|8|10|12
+2
+1
+1
+1
+1
+0.000000
+Choice
+combo_htf_type
+3
+1
+Field HTF fluid
+ 
+Physical Trough Solar Field
+Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|Pressurized Water|User-defined...
+2
+1
+1
+1
+1
+9.000000
+Choice
+cspdtr_loop_hce_heat_loss
+3
+1
+Loop receiver heat loss
+ 
+ 
+ 
+9
+1
+1
+1
+1
+1.000000
+Default
+eta_pump
+3
+1
+HTF pump efficiency
+ 
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.850000
+Numeric
+field_fl_props
+3
+3
+User-defined HTF fluid
+ 
+ 
+ 
+0
+1
+3
+1
+9
+1.000000 7.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+
+Default
 field_htf_cp_avg
 3
 1
@@ -3106,6 +3415,20 @@ kJ/kg-K
 1
 0.000000
 Default
+field_htf_max_operating_temp
+3
+1
+Field HTF max operating temp
+°C
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
 field_htf_min_operating_temp
 3
 1
@@ -3120,6 +3443,48 @@ Physical Trough Solar Field
 1
 0.000000
 Numeric
+field_thermal_output
+3
+1
+Actual field thermal output
+MWt
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+fixed_land_area
+3
+1
+Solar field area
+acres
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+fluid_dens_inlet_temp
+3
+1
+ 
+ 
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
 fluid_dens_outlet_temp
 3
 1
@@ -3134,10 +3499,360 @@ Physical Trough Solar Field
 1
 0.000000
 Default
+fthrctrl
+3
+1
+Defocusing strategy input
+ 
+ 
+ 
+8
+1
+1
+1
+1
+0.000000
+Default
+is_model_heat_sink_piping
+3
+1
+Model piping through heat sink?
+ 
+Phys Trough Solar Field
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+loop_optical_efficiency
+3
+1
+Loop optical efficiency
+ 
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+m_dot_htfmax
+3
+1
+Max single loop flow rate
+kg/s
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+12.000000
+Numeric
+m_dot_htfmin
+3
+1
+Min single loop flow rate
+kg/s
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.200000
+Numeric
+max_field_flow_velocity
+3
+1
+Max field flow velocity
+m/s
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+mc_bal_cold
+3
+1
+Cold piping thermal inertia
+kWht/K-MWt
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.200000
+Numeric
+mc_bal_hot
+3
+1
+Hot piping thermal inertia
+kWht/K-MWt
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.200000
+Numeric
+mc_bal_sca
+3
+1
+Field loop piping thermal inertia
+Wht/K-m
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+4.500000
+Numeric
+min_field_flow_velocity
+3
+1
+Min field flow velocity
+m/s
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+min_inner_diameter
+3
+1
+Minimum absorber inner diameter in loop
+ 
+ 
+ 
+9
+1
+1
+1
+1
+0.066000
+Default
+nLoops
+3
+1
+Actual number of loops
+ 
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+8.000000
+Numeric
+nSCA
+3
+1
+Number of assemblies per loop
+ 
+ 
+ 
+9
+1
+1
+1
+1
+8.000000
+Default
+non_solar_field_land_area_multiplier
+3
+1
+Non-solar field land area multiplier
+ 
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+1.400000
+Numeric
+radio_sm_or_area
+3
+1
+Solar field mode (0=SM, 1=area)
+ 
+Physical Trough Solar Field
+ 
+9
+1
+1
+1
+1
+0.000000
+RadioChoice
+required_number_of_loops_for_SM1
+3
+1
+Required number of loops, SM=1
+ 
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+sf_type
+3
+1
+Solar field type, 1 = trough, 2 = tower
+1/2
+ 
+ 
+9
+1
+1
+1
+1
+1.000000
+Default
+single_loop_aperature
+3
+1
+Single loop aperture
+m²
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+solar_mult
+3
+1
+Actual solar multiple
+ 
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+2.000000
+Numeric
+theta_dep
+3
+1
+Deploy angle
+deg
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+10.000000
+Numeric
+theta_stow
+3
+1
+Stow angle
+deg
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+170.000000
+Numeric
+tilt
+3
+1
+Collector tilt
+deg
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.000000
+Numeric
 total_aperture
 3
 1
 Total aperture reflective area
+m²
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+total_land_area
+3
+1
+Total land area
+acres
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+total_loop_conversion_efficiency
+3
+1
+Total loop conversion efficiency
+ 
+Physical Trough Solar Field
+ 
+8
+1
+1
+1
+1
+0.000000
+Numeric
+total_required_aperture_for_SM1
+3
+1
+Total required aperture, SM=1
 m²
 Physical Trough Solar Field
  
@@ -3162,412 +3877,6 @@ Phys Trough Solar Field
 1
 100.000000
 Numeric
-nLoops
-3
-1
-Actual number of loops
- 
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-8.000000
-Numeric
-azimuth
-3
-1
-Collector azimuth
-deg
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-tilt
-3
-1
-Collector tilt
-deg
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.000000
-Numeric
-combo_htf_type
-3
-1
-Field HTF fluid
- 
-Physical Trough Solar Field
-Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|Pressurized Water|User-defined...
-2
-1
-1
-1
-1
-9.000000
-Choice
-mc_bal_hot
-3
-1
-Hot piping thermal inertia
-kWht/K-MWt
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.200000
-Numeric
-field_thermal_output
-3
-1
-Actual field thermal output
-MWt
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-m_dot_htfmin
-3
-1
-Min single loop flow rate
-kg/s
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.200000
-Numeric
-HDR_rough
-3
-1
-Header pipe roughness
-m
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.000046
-Numeric
-min_field_flow_velocity
-3
-1
-Min field flow velocity
-m/s
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-SF_COPY_I_bn_des
-3
-1
-Design Point DNI
-W/m²
-Phys Trough Solar Field
- 
-8
-1
-1
-1
-1
-950.000000
-Numeric
-DISCARD_UNUSED_latitude
-3
-1
-Site latitude
-deg
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-accept_mode
-3
-1
-Acceptance testing mode? (1=yes, 0=no)
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-FieldConfig
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-eta_pump
-3
-1
-HTF pump efficiency
- 
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.850000
-Numeric
-theta_dep
-3
-1
-Deploy angle
-deg
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-10.000000
-Numeric
-wind_stow_speed
-3
-1
-Wind stow speed
-m/s
-Phys Trough Solar Field
- 
-2
-1
-1
-1
-1
-25.000000
-Numeric
-is_model_heat_sink_piping
-3
-1
-Model piping through heat sink?
- 
-Phys Trough Solar Field
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
-fluid_dens_inlet_temp
-3
-1
- 
- 
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Default
-field_htf_max_operating_temp
-3
-1
-Field HTF max operating temp
-°C
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-single_loop_aperature
-3
-1
-Single loop aperture
-m²
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-L_heat_sink_piping
-3
-1
-Length of piping through heat sink
-m
-Phys Trough Solar Field
- 
-2
-1
-1
-1
-1
-50.000000
-Numeric
-SF_COPY_specified_solar_multiple
-3
-1
-Target solar multiple
- 
-Phys Trough Solar Field
- 
-8
-1
-1
-1
-1
-2.000000
-Numeric
-combo_FieldConfig
-3
-1
-Number of field subsections
- 
-Physical Trough Solar Field
-1|2|4|6|8|10|12
-2
-1
-1
-1
-1
-0.000000
-Choice
-V_hdr_max
-3
-1
-Header design max flow velocity
-m/s
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-3.000000
-Numeric
-mc_bal_sca
-3
-1
-Field loop piping thermal inertia
-Wht/K-m
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-4.500000
-Numeric
-solar_mult
-3
-1
-Actual solar multiple
- 
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-2.000000
-Numeric
-SolarAz
-3
-1
-Initial condition for solar azimuth angle
- 
- 
- 
-9
-1
-1
-1
-1
-0.000000
-Default
-mc_bal_cold
-3
-1
-Cold piping thermal inertia
-kWht/K-MWt
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.200000
-Numeric
-accept_loc
-3
-1
-In acceptance testing mode - temperature sensor location (1=hx,2=loop)
- 
- 
- 
-8
-1
-1
-1
-1
-1.000000
-Default
 track_mode
 3
 1
@@ -3581,301 +3890,6 @@ track_mode
 1
 1
 1.000000
-Default
-total_loop_conversion_efficiency
-3
-1
-Total loop conversion efficiency
- 
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-non_solar_field_land_area_multiplier
-3
-1
-Non-solar field land area multiplier
- 
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-1.400000
-Numeric
-V_hdr_min
-3
-1
-Header design min flow velocity
-m/s
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-2.000000
-Numeric
-field_fl_props
-3
-3
-User-defined HTF fluid
- 
- 
- 
-0
-1
-3
-1
-9
-1.000000 7.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
-
-Default
-loop_optical_efficiency
-3
-1
-Loop optical efficiency
- 
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-Row_Distance
-3
-1
-Row spacing
-m
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-15.000000
-Numeric
-theta_stow
-3
-1
-Stow angle
-deg
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-170.000000
-Numeric
-total_land_area
-3
-1
-Total land area
-acres
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-Fluid
-3
-1
- 
- 
- 
- 
-8
-1
-1
-1
-1
-18.000000
-Default
-required_number_of_loops_for_SM1
-3
-1
-Required number of loops, SM=1
- 
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-washing_frequency
-3
-1
-Washes per year
- 
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-63.000000
-Numeric
-fixed_land_area
-3
-1
-Solar field area
-acres
-Physical Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-SF_COPY_T_loop_out_des
-3
-1
-Loop outlet HTF temperature
-°C
-Phys Trough Solar Field
- 
-8
-1
-1
-1
-1
-0.000000
-Numeric
-sf_type
-3
-1
-Solar field type, 1 = trough, 2 = tower
-1/2
- 
- 
-9
-1
-1
-1
-1
-1.000000
-Default
-min_inner_diameter
-3
-1
-Minimum absorber inner diameter in loop
- 
- 
- 
-9
-1
-1
-1
-1
-0.066000
-Default
-radio_sm_or_area
-3
-1
-Solar field mode (0=SM, 1=area)
- 
-Physical Trough Solar Field
- 
-9
-1
-1
-1
-1
-0.000000
-RadioChoice
-nSCA
-3
-1
-Number of assemblies per loop
- 
- 
- 
-9
-1
-1
-1
-1
-8.000000
-Default
-water_usage_per_wash
-3
-1
-Water usage per wash
-L/m²,aper.
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-0.275000
-Numeric
-m_dot_htfmax
-3
-1
-Max single loop flow rate
-kg/s
-Physical Trough Solar Field
- 
-2
-1
-1
-1
-1
-12.000000
-Numeric
-cspdtr_loop_hce_heat_loss
-3
-1
-Loop receiver heat loss
- 
- 
- 
-9
-1
-1
-1
-1
-1.000000
-Default
-accept_init
-3
-1
-In acceptance testing mode - require steady-state startup
- 
- 
- 
-8
-1
-1
-1
-1
-0.000000
 Default
 trough_loop_control
 3
@@ -3892,39 +3906,39 @@ Physical Trough Solar Field
 8.000000 1.000000 1.000000 8.000000 1.000000 1.000000 7.000000 1.000000 1.000000 6.000000 1.000000 1.000000 5.000000 1.000000 1.000000 4.000000 1.000000 1.000000 3.000000 1.000000 1.000000 2.000000 1.000000 1.000000 1.000000 
 
 TroughLoop
-SF_COPY_specified_q_dot_rec_des
+washing_frequency
 3
 1
-Target receiver thermal power
-MWt
-Phys Trough Solar Field
+Washes per year
  
-8
-1
-1
-1
-1
-100.000000
-Numeric
-SF_COPY_T_loop_in_des
-3
-1
-Loop inlet HTF temperature
-°C
-Phys Trough Solar Field
+Physical Trough Solar Field
  
-8
+2
 1
 1
 1
 1
-0.000000
+63.000000
 Numeric
-Pipe_hl_coef
+water_usage_per_wash
 3
 1
-Piping thermal loss coefficient
-W/m²-K
+Water usage per wash
+L/m²,aper.
+Physical Trough Solar Field
+ 
+2
+1
+1
+1
+1
+0.275000
+Numeric
+wind_stow_speed
+3
+1
+Wind stow speed
+m/s
 Phys Trough Solar Field
  
 2
@@ -3932,21 +3946,7 @@ Phys Trough Solar Field
 1
 1
 1
-0.250000
-Numeric
-SCA_drives_elec
-3
-1
-Tracking power per SCA
-W/sca
-Phys Trough Solar Field
- 
-2
-1
-1
-1
-1
-125.000000
+25.000000
 Numeric
 
 7424

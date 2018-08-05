@@ -682,48 +682,6 @@ PPA Price and IRR
 1
 0.150000
 SchedNumeric
-min_irr_target
-3
-1
-Minimum required IRR
-%
-PPA Price and IRR
- 
-2
-1
-1
-1
-1
-15.000000
-Numeric
-soln_mode
-3
-1
-PPA solution mode (0=Specify IRR target, 1=Specify PPA price)
- 
-PPA Price and IRR
-Specify IRR target|Specify PPA price
-3
-1
-1
-1
-1
-0.000000
-RadioChoice
-optimize_lcoe_wrt_ppa_escalation
-3
-1
- 
- 
-PPA Price and IRR
- 
-0
-1
-1
-1
-1
-0.000000
-CheckBox
 bid_price_esc
 3
 1
@@ -738,7 +696,7 @@ PPA Price and IRR
 1
 1.000000
 Numeric
-positive_cashflow_required
+min_dscr_required
 3
 1
  
@@ -752,6 +710,34 @@ PPA Price and IRR
 1
 1.000000
 CheckBox
+min_dscr_target
+3
+1
+Minimum required DSCR
+ 
+PPA Price and IRR
+ 
+2
+1
+1
+1
+1
+1.400000
+Numeric
+min_irr_target
+3
+1
+Minimum required IRR
+%
+PPA Price and IRR
+ 
+2
+1
+1
+1
+1
+15.000000
+Numeric
 optimize_lcoe_wrt_debt_fraction
 3
 1
@@ -766,7 +752,21 @@ PPA Price and IRR
 1
 0.000000
 CheckBox
-min_dscr_required
+optimize_lcoe_wrt_ppa_escalation
+3
+1
+ 
+ 
+PPA Price and IRR
+ 
+0
+1
+1
+1
+1
+0.000000
+CheckBox
+positive_cashflow_required
 3
 1
  
@@ -794,20 +794,20 @@ PPA Price and IRR
 1
 1.000000
 Numeric
-min_dscr_target
+soln_mode
 3
 1
-Minimum required DSCR
+PPA solution mode (0=Specify IRR target, 1=Specify PPA price)
  
 PPA Price and IRR
- 
-2
+Specify IRR target|Specify PPA price
+3
 1
 1
 1
 1
-1.400000
-Numeric
+0.000000
+RadioChoice
 
 0
 1222

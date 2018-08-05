@@ -488,6 +488,34 @@ TabOrder
 4294967295
 
 7
+batt_custom_dispatch
+3
+2
+Input battery dispatch
+kWdc
+Battery
+ 
+2
+1
+2
+1
+1
+0.000000
+DataArray
+batt_dispatch_auto_can_charge
+3
+1
+Battery can charge from grid?
+ 
+Battery
+ 
+3
+1
+1
+1
+1
+1.000000
+CheckBox
 batt_dispatch_auto_can_gridcharge
 3
 1
@@ -558,34 +586,6 @@ Battery
 1
 0.000000
 MonthlyFactor
-batt_custom_dispatch
-3
-2
-Input battery dispatch
-kWdc
-Battery
- 
-2
-1
-2
-1
-1
-0.000000
-DataArray
-batt_dispatch_auto_can_charge
-3
-1
-Battery can charge from grid?
- 
-Battery
- 
-3
-1
-1
-1
-1
-1.000000
-CheckBox
 
 0
 1093

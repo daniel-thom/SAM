@@ -485,6 +485,62 @@ TabOrder
 7
 
 8
+federal_tax_rate
+3
+2
+Federal income tax rate
+%/year
+Tax and Insurance Rates
+ 
+2
+1
+2
+1
+1
+0.000000
+SchedNumeric
+insurance_rate
+3
+1
+Insurance rate (annual)
+% of installed cost
+Tax and Insurance Rates
+ 
+2
+1
+1
+1
+1
+1.000000
+Default
+prop_tax_assessed_decline
+3
+1
+Annual decline
+%/year
+Tax and Insurance Rates
+ 
+2
+1
+1
+1
+1
+0.000000
+Default
+prop_tax_cost_assessed_percent
+3
+1
+Assessed percentage
+% of installed cost
+Tax and Insurance Rates
+ 
+2
+1
+1
+1
+1
+100.000000
+Default
 property_assessed_value
 3
 1
@@ -513,11 +569,11 @@ Tax and Insurance Rates
 1
 1.000000
 Default
-insurance_rate
+sales_tax_rate
 3
 1
-Insurance rate (annual)
-% of installed cost
+Sales tax
+% of total direct cost
 Tax and Insurance Rates
  
 2
@@ -525,7 +581,7 @@ Tax and Insurance Rates
 1
 1
 1
-1.000000
+0.000000
 Default
 state_tax_rate
 3
@@ -541,62 +597,6 @@ Tax and Insurance Rates
 1
 0.000000
 SchedNumeric
-prop_tax_cost_assessed_percent
-3
-1
-Assessed percentage
-% of installed cost
-Tax and Insurance Rates
- 
-2
-1
-1
-1
-1
-100.000000
-Default
-prop_tax_assessed_decline
-3
-1
-Annual decline
-%/year
-Tax and Insurance Rates
- 
-2
-1
-1
-1
-1
-0.000000
-Default
-federal_tax_rate
-3
-2
-Federal income tax rate
-%/year
-Tax and Insurance Rates
- 
-2
-1
-2
-1
-1
-0.000000
-SchedNumeric
-sales_tax_rate
-3
-1
-Sales tax
-% of total direct cost
-Tax and Insurance Rates
- 
-2
-1
-1
-1
-1
-0.000000
-Default
 
 133
 equations{ 'property_assessed_value' } = define() {
