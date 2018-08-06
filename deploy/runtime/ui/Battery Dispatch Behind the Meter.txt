@@ -2,7 +2,7 @@ Battery Dispatch Behind the Meter
 1001
 285
 15
-BatteryChargeOptions
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 1
-DispatchTimingControl
+GroupBox
 
 1
 7
@@ -70,7 +70,7 @@ Storage Dispatch Controller
 Bold
 2
 1
-GridPowerTargetBox
+GroupBox
 
 1
 7
@@ -95,7 +95,7 @@ Input grid power target
 Bold
 2
 1
-InputDispatchBox
+GroupBox
 
 1
 7
@@ -120,7 +120,7 @@ Input battery dispatch
 Bold
 2
 1
-batt_custom_dispatch
+DataArray
 
 1
 9
@@ -151,7 +151,7 @@ Custom battery dispatch allows a user to get the dispatch from another tool and 
 TabOrder
 3
 4294967295
-batt_dispatch_auto_can_charge
+CheckBox
 
 1
 8
@@ -179,7 +179,7 @@ State
 TabOrder
 3
 4294967295
-batt_dispatch_auto_can_gridcharge
+CheckBox
 
 1
 8
@@ -207,7 +207,7 @@ State
 TabOrder
 3
 4294967295
-batt_dispatch_choice
+RadioChoice
 
 1
 10
@@ -246,7 +246,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_dispatch_label
+Label
 
 1
 12
@@ -289,7 +289,7 @@ AlignRight
 AlignTop
 2
 1
-batt_grid_options
+Divider
 
 1
 9
@@ -323,7 +323,7 @@ Grid options
 Bold
 2
 1
-batt_target_choice
+Choice
 
 1
 8
@@ -353,7 +353,7 @@ Selection
 TabOrder
 3
 4294967295
-batt_target_label
+Label
 
 1
 12
@@ -396,7 +396,7 @@ AlignRight
 AlignTop
 2
 1
-batt_target_power
+DataArray
 
 1
 9
@@ -427,7 +427,7 @@ The grid target power is the maximum desired power drawn from the grid over each
 TabOrder
 3
 4294967295
-batt_target_power_monthly
+MonthlyFactor
 
 1
 7
@@ -452,7 +452,7 @@ Single or monthly
 TabOrder
 3
 4294967295
-object 21
+Divider
 
 1
 9

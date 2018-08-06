@@ -2,7 +2,7 @@ Electric Load
 795
 256
 6
-group box
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Electric Load
 Bold
 2
 1
-loadinfo1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-loadinfo2
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 1
-loadinfo3
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 1
-ui_annual_load
+Numeric
 
 1
 16

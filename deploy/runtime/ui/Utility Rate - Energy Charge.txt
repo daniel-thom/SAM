@@ -2,7 +2,7 @@ Utility Rate - Energy Charge
 1185
 668
 6
-GroupBox3
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Rates for Energy Charges
 Bold
 2
 1
-Label6
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label61
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-ur_ec_sched_weekday
+DiurnalPeriod
 
 1
 9
@@ -144,7 +144,7 @@ Max
 Min
 3
 1
-ur_ec_sched_weekend
+DiurnalPeriod
 
 1
 9
@@ -175,7 +175,7 @@ Max
 Min
 3
 1
-ur_ec_tou_mat
+DataMatrix
 
 1
 22

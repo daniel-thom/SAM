@@ -2,7 +2,7 @@ Battery Voltage
 1007
 558
 20
-Voltage Properties
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Voltage Properties
 Bold
 2
 1
-batt_C_rate
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 9
-batt_Qexp_percent
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 13
-batt_Qnom_percent
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 14
-batt_Vexp
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 11
-batt_Vfull
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 10
-batt_Vnom
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 12
-batt_Vnom_default
+Numeric
 
 1
 16
@@ -433,7 +433,7 @@ BackColour
 TabOrder
 3
 7
-batt_bank_voltage
+Numeric
 
 1
 16
@@ -491,7 +491,7 @@ BackColour
 TabOrder
 3
 3
-batt_chem_message
+Label
 
 1
 12
@@ -534,7 +534,7 @@ AlignRight
 AlignTop
 2
 1
-batt_modeled_voltage
+Divider
 
 1
 9
@@ -568,7 +568,7 @@ Voltage table
 Bold
 2
 1
-batt_modeled_voltage
+Divider
 
 1
 9
@@ -602,7 +602,7 @@ Voltage table
 Bold
 2
 1
-batt_resistance
+Numeric
 
 1
 16
@@ -660,7 +660,7 @@ BackColour
 TabOrder
 3
 8
-batt_voltage_choice
+RadioChoice
 
 1
 10
@@ -696,7 +696,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_voltage_choice
+RadioChoice
 
 1
 10
@@ -732,7 +732,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_voltage_label
+Label
 
 1
 12
@@ -775,7 +775,7 @@ AlignRight
 AlignTop
 2
 1
-batt_voltage_matrix
+DataMatrix
 
 1
 22
@@ -845,7 +845,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-batt_voltage_message
+Label
 
 1
 12
@@ -888,7 +888,7 @@ AlignRight
 AlignTop
 2
 1
-batt_voltage_message
+Label
 
 1
 12
@@ -931,7 +931,7 @@ AlignRight
 AlignTop
 2
 1
-batt_voltage_plot
+Plot
 
 1
 5

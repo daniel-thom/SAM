@@ -2,7 +2,7 @@ Geothermal Plant and Equipment
 826
 705
 41
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Plant Configuration
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Temperature Decline
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Flash Technology
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Pumping Parameters
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -170,7 +170,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -213,7 +213,7 @@ AlignRight
 AlignTop
 2
 0
-adjust
+LossAdjustment
 
 1
 6
@@ -235,7 +235,7 @@ Height
 TabOrder
 3
 24
-ambient_pressure
+Numeric
 
 1
 16
@@ -293,7 +293,7 @@ BackColour
 TabOrder
 3
 11
-analysis_type
+RadioChoice
 
 1
 10
@@ -329,7 +329,7 @@ Horizontal
 TabOrder
 3
 4294967295
-casing_size
+Numeric
 
 1
 16
@@ -387,7 +387,7 @@ BackColour
 TabOrder
 3
 17
-conversion_subtype
+Choice
 
 1
 8
@@ -419,7 +419,7 @@ Selection
 TabOrder
 3
 4
-conversion_type
+RadioChoice
 
 1
 10
@@ -455,7 +455,7 @@ Horizontal
 TabOrder
 3
 4294967295
-decline_type
+RadioChoice
 
 1
 10
@@ -491,7 +491,7 @@ Horizontal
 TabOrder
 3
 4294967295
-delta_pressure_equip
+Numeric
 
 1
 16
@@ -549,7 +549,7 @@ BackColour
 TabOrder
 3
 14
-design_temp
+Numeric
 
 1
 16
@@ -607,7 +607,7 @@ BackColour
 TabOrder
 3
 7
-excess_pressure_pump
+Numeric
 
 1
 16
@@ -665,7 +665,7 @@ BackColour
 TabOrder
 3
 15
-geotherm.egs_design_temp_autoselect
+CheckBox
 
 1
 8
@@ -693,7 +693,7 @@ State
 TabOrder
 3
 5
-geotherm.egs_design_temp_input
+Numeric
 
 1
 16
@@ -751,7 +751,7 @@ BackColour
 TabOrder
 3
 6
-geotherm.errors1
+TextEntry
 
 1
 10
@@ -791,7 +791,7 @@ BackColour
 TabOrder
 3
 4294967295
-geotherm.net_output
+Numeric
 
 1
 16
@@ -849,7 +849,7 @@ BackColour
 TabOrder
 3
 4294967295
-geotherm.plant_efficiency_used
+Numeric
 
 1
 16
@@ -907,7 +907,7 @@ BackColour
 TabOrder
 3
 4294967295
-gross_output
+Numeric
 
 1
 16
@@ -965,7 +965,7 @@ BackColour
 TabOrder
 3
 4294967295
-inj_well_diam
+Numeric
 
 1
 16
@@ -1023,7 +1023,7 @@ BackColour
 TabOrder
 3
 18
-nameplate
+Numeric
 
 1
 16
@@ -1081,7 +1081,7 @@ BackColour
 TabOrder
 3
 1
-num_wells
+Numeric
 
 1
 16
@@ -1139,7 +1139,7 @@ BackColour
 TabOrder
 3
 2
-num_wells_getem
+Numeric
 
 1
 16
@@ -1197,7 +1197,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 7
+Label
 
 1
 12
@@ -1240,7 +1240,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1283,7 +1283,7 @@ AlignRight
 AlignTop
 2
 1
-plant_efficiency_input
+Numeric
 
 1
 16
@@ -1341,7 +1341,7 @@ BackColour
 TabOrder
 3
 3
-pump_depth
+Numeric
 
 1
 16
@@ -1399,7 +1399,7 @@ BackColour
 TabOrder
 3
 4294967295
-pump_efficiency
+Numeric
 
 1
 16
@@ -1457,7 +1457,7 @@ BackColour
 TabOrder
 3
 13
-pump_size_hp
+Numeric
 
 1
 16
@@ -1515,7 +1515,7 @@ BackColour
 TabOrder
 3
 4294967295
-pump_work
+Numeric
 
 1
 16
@@ -1573,7 +1573,7 @@ BackColour
 TabOrder
 3
 4294967295
-specified_pump_work_amount
+Numeric
 
 1
 16
@@ -1631,7 +1631,7 @@ BackColour
 TabOrder
 3
 4294967295
-specify_pump_work
+CheckBox
 
 1
 8
@@ -1659,7 +1659,7 @@ State
 TabOrder
 3
 5
-temp_decline_max
+Numeric
 
 1
 16
@@ -1717,7 +1717,7 @@ BackColour
 TabOrder
 3
 9
-temp_decline_rate
+Numeric
 
 1
 16
@@ -1775,7 +1775,7 @@ BackColour
 TabOrder
 3
 8
-well_diameter
+Numeric
 
 1
 16
@@ -1833,7 +1833,7 @@ BackColour
 TabOrder
 3
 16
-well_flow_rate
+Numeric
 
 1
 16
@@ -1891,7 +1891,7 @@ BackColour
 TabOrder
 3
 12
-wet_bulb_temp
+Numeric
 
 1
 16

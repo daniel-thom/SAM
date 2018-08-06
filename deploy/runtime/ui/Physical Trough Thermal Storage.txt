@@ -2,7 +2,7 @@ Physical Trough Thermal Storage
 916
 358
 26
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Storage System
 Bold
 2
 1
-T_tank_cold_ini
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 20
-cold_tank_Thtr
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 11
-combo_tes_htf_type
+Choice
 
 1
 8
@@ -181,7 +181,7 @@ Selection
 TabOrder
 3
 21
-csp.dtr.tes.estimated_heat_loss
+Numeric
 
 1
 16
@@ -239,7 +239,7 @@ BackColour
 TabOrder
 3
 10
-csp.dtr.tes.fluid_dens
+Numeric
 
 1
 16
@@ -297,7 +297,7 @@ BackColour
 TabOrder
 3
 24
-csp.dtr.tes.fluid_sph
+Numeric
 
 1
 16
@@ -355,7 +355,7 @@ BackColour
 TabOrder
 3
 25
-csp.dtr.tes.htf_calc_temp
+Numeric
 
 1
 16
@@ -413,7 +413,7 @@ BackColour
 TabOrder
 3
 23
-csp.dtr.tes.htf_max_opt_temp
+Numeric
 
 1
 16
@@ -471,7 +471,7 @@ BackColour
 TabOrder
 3
 16
-csp.dtr.tes.htf_min_opt_temp
+Numeric
 
 1
 16
@@ -529,7 +529,7 @@ BackColour
 TabOrder
 3
 16
-csp.dtr.tes.hx_derate
+Numeric
 
 1
 16
@@ -587,7 +587,7 @@ BackColour
 TabOrder
 3
 19
-csp.dtr.tes.min_fluid_volume
+Numeric
 
 1
 16
@@ -645,7 +645,7 @@ BackColour
 TabOrder
 3
 8
-csp.dtr.tes.tank_diameter
+Numeric
 
 1
 16
@@ -703,7 +703,7 @@ BackColour
 TabOrder
 3
 7
-csp.dtr.tes.thermal_capacity
+Numeric
 
 1
 16
@@ -761,7 +761,7 @@ BackColour
 TabOrder
 3
 3
-dt_cold
+Numeric
 
 1
 16
@@ -819,7 +819,7 @@ BackColour
 TabOrder
 3
 18
-dt_hot
+Numeric
 
 1
 16
@@ -877,7 +877,7 @@ BackColour
 TabOrder
 3
 17
-eta_tes_htr
+Numeric
 
 1
 16
@@ -935,7 +935,7 @@ BackColour
 TabOrder
 3
 16
-h_tank
+Numeric
 
 1
 16
@@ -993,7 +993,7 @@ BackColour
 TabOrder
 3
 5
-h_tank_min
+Numeric
 
 1
 16
@@ -1051,7 +1051,7 @@ BackColour
 TabOrder
 3
 6
-hot_tank_Thtr
+Numeric
 
 1
 16
@@ -1109,7 +1109,7 @@ BackColour
 TabOrder
 3
 12
-store_fl_props
+MaterialProperties
 
 1
 6
@@ -1131,7 +1131,7 @@ Height
 TabOrder
 3
 22
-tank_max_heat
+Numeric
 
 1
 16
@@ -1189,7 +1189,7 @@ BackColour
 TabOrder
 3
 15
-tank_pairs
+Numeric
 
 1
 16
@@ -1247,7 +1247,7 @@ BackColour
 TabOrder
 3
 4
-tshours
+Numeric
 
 1
 16
@@ -1305,7 +1305,7 @@ BackColour
 TabOrder
 3
 1
-u_tank
+Numeric
 
 1
 16
@@ -1363,7 +1363,7 @@ BackColour
 TabOrder
 3
 9
-vol_tank
+Numeric
 
 1
 16

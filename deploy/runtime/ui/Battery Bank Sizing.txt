@@ -2,7 +2,7 @@ Battery Bank Sizing
 1000
 257
 15
-Battery Bank Sizing
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Battery Bank Sizing
 Bold
 2
 1
-batt_C_rate_max_charge_input
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_C_rate_max_discharge_input
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_bank_ncells_serial
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 4
-batt_bank_nseries_stacks
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 5
-batt_bank_nstrings
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 5
-batt_bank_power
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 3
-batt_bank_power_dc_ac
+Choice
 
 1
 8
@@ -405,7 +405,7 @@ Selection
 TabOrder
 3
 4294967295
-batt_bank_size
+Numeric
 
 1
 16
@@ -463,7 +463,7 @@ BackColour
 TabOrder
 3
 2
-batt_bank_size_dc_ac
+Choice
 
 1
 8
@@ -493,7 +493,7 @@ Selection
 TabOrder
 3
 4294967295
-batt_bank_size_specify
+Numeric
 
 1
 16
@@ -551,7 +551,7 @@ BackColour
 TabOrder
 3
 2
-batt_parallel_label
+Label
 
 1
 12
@@ -594,7 +594,7 @@ AlignRight
 AlignTop
 2
 0
-batt_series_label
+Label
 
 1
 12
@@ -637,7 +637,7 @@ AlignRight
 AlignTop
 2
 0
-batt_size_choice
+RadioChoice
 
 1
 10
@@ -673,7 +673,7 @@ Horizontal
 TabOrder
 3
 1
-batt_size_label
+Label
 
 1
 12

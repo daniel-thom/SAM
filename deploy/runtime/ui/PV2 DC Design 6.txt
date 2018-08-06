@@ -2,7 +2,7 @@ PV2 DC Design 6
 773
 935
 93
-Label12
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -88,7 +88,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -131,7 +131,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -174,7 +174,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -217,7 +217,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -260,7 +260,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -303,7 +303,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -346,7 +346,7 @@ AlignRight
 AlignTop
 2
 0
-Label1213
+Label
 
 1
 12
@@ -389,7 +389,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -432,7 +432,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -475,7 +475,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -518,7 +518,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -561,50 +561,7 @@ AlignRight
 AlignTop
 2
 0
-Label123
-
-1
-12
-Name
-5
-Label123
-X
-3
-390
-Y
-3
-744
-Width
-3
-218
-Height
-3
-21
-Caption
-5
-DC power optimizer loss (%)
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-1
-AlignTop
-2
-0
-Label123
+Label
 
 1
 12
@@ -647,7 +604,50 @@ AlignRight
 AlignTop
 2
 0
-Label1231
+Label
+
+1
+12
+Name
+5
+Label123
+X
+3
+390
+Y
+3
+744
+Width
+3
+218
+Height
+3
+21
+Caption
+5
+DC power optimizer loss (%)
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+0
+AlignRight
+2
+1
+AlignTop
+2
+0
+Label
 
 1
 12
@@ -690,7 +690,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -733,7 +733,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -776,7 +776,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -819,7 +819,7 @@ AlignRight
 AlignTop
 2
 0
-Label14
+Label
 
 1
 12
@@ -862,7 +862,7 @@ AlignRight
 AlignTop
 2
 0
-Label14
+Label
 
 1
 12
@@ -905,7 +905,7 @@ AlignRight
 AlignTop
 2
 0
-Picture1
+Image
 
 1
 7
@@ -930,7 +930,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV2 DC Design 6_Pictur
 Centered
 2
 1
-array_type
+Choice
 
 1
 8
@@ -964,7 +964,7 @@ Selection
 TabOrder
 3
 6
-btn_dc_opt
+Button
 
 1
 7
@@ -989,7 +989,7 @@ DC optimizers
 TabOrder
 3
 4294967295
-btn_microinverter
+Button
 
 1
 7
@@ -1014,7 +1014,7 @@ Microinverters
 TabOrder
 3
 4294967295
-btn_string_inv
+Button
 
 1
 7
@@ -1039,7 +1039,7 @@ String inverters
 TabOrder
 3
 4294967295
-dcoptimizer_loss
+Numeric
 
 1
 16
@@ -1097,7 +1097,7 @@ BackColour
 TabOrder
 3
 7
-gcr_label
+Label
 
 1
 12
@@ -1140,7 +1140,7 @@ AlignRight
 AlignTop
 2
 0
-gcr_label
+Label
 
 1
 12
@@ -1183,7 +1183,7 @@ AlignRight
 AlignTop
 2
 0
-gcr_label
+Label
 
 1
 12
@@ -1226,7 +1226,7 @@ AlignRight
 AlignTop
 2
 0
-object 11
+Numeric
 
 1
 16
@@ -1284,7 +1284,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1342,7 +1342,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1400,7 +1400,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1458,7 +1458,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1516,7 +1516,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1574,7 +1574,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1632,7 +1632,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 21
+Divider
 
 1
 9
@@ -1666,7 +1666,7 @@ Components
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1700,7 +1700,7 @@ Components
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1734,7 +1734,7 @@ Components
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1768,7 +1768,7 @@ Components
 Bold
 2
 1
-object 26
+ShadingFactors
 
 1
 8
@@ -1796,7 +1796,7 @@ Description
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -1827,7 +1827,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -1858,7 +1858,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -1889,7 +1889,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -1920,7 +1920,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -1951,7 +1951,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -1982,7 +1982,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -2013,7 +2013,7 @@ Selection
 TabOrder
 3
 4294967295
-object 3
+Choice
 
 1
 8
@@ -2044,7 +2044,7 @@ Selection
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -2069,7 +2069,7 @@ Thermal model
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2094,7 +2094,7 @@ Thermal model
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2119,7 +2119,7 @@ Thermal model
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2144,7 +2144,7 @@ Thermal model
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -2187,7 +2187,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2230,7 +2230,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2273,7 +2273,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2316,7 +2316,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2359,7 +2359,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2402,7 +2402,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2445,7 +2445,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2488,7 +2488,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2531,7 +2531,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2574,7 +2574,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2617,7 +2617,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2660,7 +2660,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2703,7 +2703,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2746,7 +2746,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2789,7 +2789,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2832,7 +2832,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2875,7 +2875,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2918,7 +2918,7 @@ AlignRight
 AlignTop
 2
 1
-object 8
+RadioChoice
 
 1
 10
@@ -2954,7 +2954,7 @@ Horizontal
 TabOrder
 3
 4294967295
-object 8
+RadioChoice
 
 1
 10
@@ -2990,7 +2990,7 @@ Horizontal
 TabOrder
 3
 4294967295
-self_shading_diagram
+Image
 
 1
 7
@@ -3015,7 +3015,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV2 DC Design 6_self_s
 Centered
 2
 1
-subarray1_azimuth
+Numeric
 
 1
 16
@@ -3073,7 +3073,7 @@ BackColour
 TabOrder
 3
 27
-subarray1_dcloss
+Numeric
 
 1
 16
@@ -3131,7 +3131,7 @@ BackColour
 TabOrder
 3
 8
-subarray1_dcwiring_loss
+Numeric
 
 1
 16
@@ -3189,7 +3189,7 @@ BackColour
 TabOrder
 3
 5
-subarray1_dcwiring_loss
+Numeric
 
 1
 16
@@ -3247,7 +3247,7 @@ BackColour
 TabOrder
 3
 5
-subarray1_diodeconn_loss
+Numeric
 
 1
 16
@@ -3305,7 +3305,7 @@ BackColour
 TabOrder
 3
 4
-subarray1_diodeconn_loss
+Numeric
 
 1
 16
@@ -3363,7 +3363,7 @@ BackColour
 TabOrder
 3
 4
-subarray1_diodeconn_loss
+Numeric
 
 1
 16
@@ -3421,7 +3421,7 @@ BackColour
 TabOrder
 3
 4
-subarray1_gcr
+Numeric
 
 1
 16
@@ -3479,7 +3479,7 @@ BackColour
 TabOrder
 3
 27
-subarray1_mismatch_loss
+Numeric
 
 1
 16
@@ -3537,7 +3537,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_mismatch_loss
+Numeric
 
 1
 16
@@ -3595,7 +3595,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_mismatch_loss
+Numeric
 
 1
 16
@@ -3653,7 +3653,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_nameplate_loss
+Numeric
 
 1
 16
@@ -3711,7 +3711,7 @@ BackColour
 TabOrder
 3
 7
-subarray1_nmodx
+Numeric
 
 1
 16
@@ -3769,7 +3769,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_nmody
+Numeric
 
 1
 16
@@ -3827,7 +3827,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_rotlim
+Numeric
 
 1
 16
@@ -3885,7 +3885,7 @@ BackColour
 TabOrder
 3
 27
-subarray1_tilt
+Numeric
 
 1
 16
@@ -3943,7 +3943,7 @@ BackColour
 TabOrder
 3
 26
-subarray1_tilt_eq_lat
+CheckBox
 
 1
 8
@@ -3971,7 +3971,7 @@ State
 TabOrder
 3
 25
-subarray1_tracking_loss
+Numeric
 
 1
 16

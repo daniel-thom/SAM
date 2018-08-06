@@ -2,7 +2,7 @@ Molten Salt Tower Storage
 917
 515
 30
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Storage System
 Bold
 2
 1
-Q_tes
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 4294967295
-TES_COPY_T_htf_cold_des
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 4294967295
-TES_COPY_T_htf_hot_des
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 4294967295
-TES_COPY_q_pb_design
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 4294967295
-TES_COPY_tshours
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 4294967295
-cold_tank_Thtr
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 18
-cold_tank_max_heat
+Numeric
 
 1
 16
@@ -433,7 +433,7 @@ BackColour
 TabOrder
 3
 19
-csp.pt.tes.heater_eff
+Numeric
 
 1
 16
@@ -491,7 +491,7 @@ BackColour
 TabOrder
 3
 22
-csp.pt.tes.htf_density
+Numeric
 
 1
 16
@@ -549,7 +549,7 @@ BackColour
 TabOrder
 3
 4294967295
-csp.pt.tes.init_hot_htf_percent
+Numeric
 
 1
 16
@@ -607,7 +607,7 @@ BackColour
 TabOrder
 3
 15
-csp.pt.tes.storage_type
+Choice
 
 1
 8
@@ -636,7 +636,7 @@ Selection
 TabOrder
 3
 1
-csp.pt.tes.tank_diameter
+Numeric
 
 1
 16
@@ -694,7 +694,7 @@ BackColour
 TabOrder
 3
 4
-csp.pt.tes.tc_fill_dens
+Numeric
 
 1
 16
@@ -752,7 +752,7 @@ BackColour
 TabOrder
 3
 29
-csp.pt.tes.tc_fill_sph
+Numeric
 
 1
 16
@@ -810,7 +810,7 @@ BackColour
 TabOrder
 3
 28
-csp.pt.tes.tc_fill_type
+Choice
 
 1
 8
@@ -838,7 +838,7 @@ Selection
 TabOrder
 3
 27
-h_tank
+Numeric
 
 1
 16
@@ -896,7 +896,7 @@ BackColour
 TabOrder
 3
 5
-h_tank_min
+Numeric
 
 1
 16
@@ -954,7 +954,7 @@ BackColour
 TabOrder
 3
 6
-hot_tank_Thtr
+Numeric
 
 1
 16
@@ -1012,7 +1012,7 @@ BackColour
 TabOrder
 3
 20
-hot_tank_max_heat
+Numeric
 
 1
 16
@@ -1070,7 +1070,7 @@ BackColour
 TabOrder
 3
 21
-nodes
+Numeric
 
 1
 16
@@ -1128,7 +1128,7 @@ BackColour
 TabOrder
 3
 30
-object 4
+GroupBox
 
 1
 7
@@ -1153,7 +1153,7 @@ System Design Parameters
 Bold
 2
 1
-q_dot_tes_est
+Numeric
 
 1
 16
@@ -1211,7 +1211,7 @@ BackColour
 TabOrder
 3
 4294967295
-t_ch_out_max
+Numeric
 
 1
 16
@@ -1269,7 +1269,7 @@ BackColour
 TabOrder
 3
 26
-t_dis_out_min
+Numeric
 
 1
 16
@@ -1327,7 +1327,7 @@ BackColour
 TabOrder
 3
 25
-tank_pairs
+Numeric
 
 1
 16
@@ -1385,7 +1385,7 @@ BackColour
 TabOrder
 3
 7
-tc_void
+Numeric
 
 1
 16
@@ -1443,7 +1443,7 @@ BackColour
 TabOrder
 3
 24
-tes_avail_vol
+Numeric
 
 1
 16
@@ -1501,7 +1501,7 @@ BackColour
 TabOrder
 3
 4294967295
-u_tank
+Numeric
 
 1
 16
@@ -1559,7 +1559,7 @@ BackColour
 TabOrder
 3
 10
-vol_tank
+Numeric
 
 1
 16

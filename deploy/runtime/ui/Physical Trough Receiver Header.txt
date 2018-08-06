@@ -2,7 +2,7 @@ Physical Trough Receiver Header
 807
 251
 4
-lblHeader
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 0
-object 4
+GroupBox
 
 1
 7
@@ -70,7 +70,7 @@ Receiver Library
 Bold
 2
 1
-receiver_library
+Library
 
 1
 7
@@ -95,7 +95,7 @@ Physical Trough Receivers
 Fields
 5
 Name,Absorber tube inner diameter,Absorber tube outer diameter,Glass envelope inner diameter,Glass envelope outer diameter,Absorber flow plug diameter,Inner surface roughness,Absorber flow pattern (0=tube 1=annular),Absorber material type (0=304L 1=216L 2=321H 3=B42 Copper),Var 1 Absorber absorptance,Var 1 Absorber emittance,Var 1 Envelope absorptance,Var 1 Envelope emittance,Var 1 Envelope transmittance,Var 1 Is broken glass,Var 1 Annuslus gas type (0=air 1=argon 2=hydrogen),Var 1 Annulus pressure,Var 1 Estimated avg heat loss,Var 1 Bellows shadowing,Var 1 Dirt on receiver,Var 2 Absorber absorptance,Var 2 Absorber emittance,Var 2 Envelope absorptance,Var 2 Envelope emittance,Var 2 Envelope transmittance,Var 2 Is broken glass,Var 2 Annulus gas type (0=air 1=argon 2=hydrogen),Var 2 Annulus pressure,Var 2 Estimated avg heat loss,Var 2 Bellows shadowing,Var 2 Dirt on receiver,Var 3 Absorber absorptance,Var 3 Absorber emittance,Var 3 Envelope absorptance,Var 3 Envelope emittance,Var 3 Envelope transmittance,Var 3 Is broken glass,Var 3 Annulus gas type (0=air 1=argon 2=hydrogen),Var 3 Annulus pressure,Var 3 Estimated avg heat loss,Var 3 Bellows shadowing,Var 3 Dirt on receiver
-receivers_in_field
+TextEntry
 
 1
 10

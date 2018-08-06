@@ -2,32 +2,7 @@ Empirical Trough HCE
 887
 979
 108
-
-
-1
-7
-Name
-5
- 
-X
-3
-3
-Y
-3
-324
-Width
-3
-870
-Height
-3
-642
-Caption
-5
-Heat Collection Element (HCE) / Receiver Properties
-Bold
-2
-1
-
+GroupBox
 
 1
 7
@@ -52,7 +27,32 @@ Heat Collection Element (HCE) / Receiver Properties
 Bold
 2
 1
-HCEA0_1
+GroupBox
+
+1
+7
+Name
+5
+ 
+X
+3
+3
+Y
+3
+324
+Width
+3
+870
+Height
+3
+642
+Caption
+5
+Heat Collection Element (HCE) / Receiver Properties
+Bold
+2
+1
+Numeric
 
 1
 16
@@ -110,7 +110,7 @@ BackColour
 TabOrder
 3
 47
-HCEA0_2
+Numeric
 
 1
 16
@@ -168,7 +168,7 @@ BackColour
 TabOrder
 3
 48
-HCEA0_3
+Numeric
 
 1
 16
@@ -226,7 +226,7 @@ BackColour
 TabOrder
 3
 49
-HCEA0_4
+Numeric
 
 1
 16
@@ -284,7 +284,7 @@ BackColour
 TabOrder
 3
 50
-HCEA1_1
+Numeric
 
 1
 16
@@ -342,7 +342,7 @@ BackColour
 TabOrder
 3
 51
-HCEA1_2
+Numeric
 
 1
 16
@@ -400,7 +400,7 @@ BackColour
 TabOrder
 3
 52
-HCEA1_3
+Numeric
 
 1
 16
@@ -458,7 +458,7 @@ BackColour
 TabOrder
 3
 53
-HCEA1_4
+Numeric
 
 1
 16
@@ -516,7 +516,7 @@ BackColour
 TabOrder
 3
 54
-HCEA2_1
+Numeric
 
 1
 16
@@ -574,7 +574,7 @@ BackColour
 TabOrder
 3
 55
-HCEA2_2
+Numeric
 
 1
 16
@@ -632,7 +632,7 @@ BackColour
 TabOrder
 3
 56
-HCEA2_3
+Numeric
 
 1
 16
@@ -690,7 +690,7 @@ BackColour
 TabOrder
 3
 57
-HCEA2_4
+Numeric
 
 1
 16
@@ -748,7 +748,7 @@ BackColour
 TabOrder
 3
 58
-HCEA3_1
+Numeric
 
 1
 16
@@ -806,7 +806,7 @@ BackColour
 TabOrder
 3
 59
-HCEA3_2
+Numeric
 
 1
 16
@@ -864,7 +864,7 @@ BackColour
 TabOrder
 3
 60
-HCEA3_3
+Numeric
 
 1
 16
@@ -922,7 +922,7 @@ BackColour
 TabOrder
 3
 61
-HCEA3_4
+Numeric
 
 1
 16
@@ -980,7 +980,7 @@ BackColour
 TabOrder
 3
 62
-HCEA4_1
+Numeric
 
 1
 16
@@ -1038,7 +1038,7 @@ BackColour
 TabOrder
 3
 63
-HCEA4_2
+Numeric
 
 1
 16
@@ -1096,7 +1096,7 @@ BackColour
 TabOrder
 3
 64
-HCEA4_3
+Numeric
 
 1
 16
@@ -1154,7 +1154,7 @@ BackColour
 TabOrder
 3
 65
-HCEA4_4
+Numeric
 
 1
 16
@@ -1212,7 +1212,7 @@ BackColour
 TabOrder
 3
 66
-HCEA5_1
+Numeric
 
 1
 16
@@ -1270,7 +1270,7 @@ BackColour
 TabOrder
 3
 67
-HCEA5_2
+Numeric
 
 1
 16
@@ -1328,7 +1328,7 @@ BackColour
 TabOrder
 3
 68
-HCEA5_3
+Numeric
 
 1
 16
@@ -1386,7 +1386,7 @@ BackColour
 TabOrder
 3
 69
-HCEA5_4
+Numeric
 
 1
 16
@@ -1444,7 +1444,7 @@ BackColour
 TabOrder
 3
 70
-HCEA6_1
+Numeric
 
 1
 16
@@ -1502,7 +1502,7 @@ BackColour
 TabOrder
 3
 71
-HCEA6_2
+Numeric
 
 1
 16
@@ -1560,7 +1560,7 @@ BackColour
 TabOrder
 3
 72
-HCEA6_3
+Numeric
 
 1
 16
@@ -1618,7 +1618,7 @@ BackColour
 TabOrder
 3
 73
-HCEA6_4
+Numeric
 
 1
 16
@@ -1676,7 +1676,7 @@ BackColour
 TabOrder
 3
 74
-HCEBelShad_1
+Numeric
 
 1
 16
@@ -1734,7 +1734,7 @@ BackColour
 TabOrder
 3
 26
-HCEBelShad_2
+Numeric
 
 1
 16
@@ -1792,7 +1792,7 @@ BackColour
 TabOrder
 3
 27
-HCEBelShad_3
+Numeric
 
 1
 16
@@ -1850,7 +1850,7 @@ BackColour
 TabOrder
 3
 28
-HCEBelShad_4
+Numeric
 
 1
 16
@@ -1908,7 +1908,7 @@ BackColour
 TabOrder
 3
 29
-HCEEnvTrans_1
+Numeric
 
 1
 16
@@ -1966,7 +1966,7 @@ BackColour
 TabOrder
 3
 30
-HCEEnvTrans_2
+Numeric
 
 1
 16
@@ -2024,7 +2024,7 @@ BackColour
 TabOrder
 3
 31
-HCEEnvTrans_3
+Numeric
 
 1
 16
@@ -2082,7 +2082,7 @@ BackColour
 TabOrder
 3
 32
-HCEEnvTrans_4
+Numeric
 
 1
 16
@@ -2140,7 +2140,7 @@ BackColour
 TabOrder
 3
 33
-HCEFrac_1
+Numeric
 
 1
 16
@@ -2198,7 +2198,7 @@ BackColour
 TabOrder
 3
 22
-HCEFrac_2
+Numeric
 
 1
 16
@@ -2256,7 +2256,7 @@ BackColour
 TabOrder
 3
 23
-HCEFrac_3
+Numeric
 
 1
 16
@@ -2314,7 +2314,7 @@ BackColour
 TabOrder
 3
 24
-HCEFrac_4
+Numeric
 
 1
 16
@@ -2372,7 +2372,7 @@ BackColour
 TabOrder
 3
 25
-HCEabs_1
+Numeric
 
 1
 16
@@ -2430,7 +2430,7 @@ BackColour
 TabOrder
 3
 34
-HCEabs_2
+Numeric
 
 1
 16
@@ -2488,7 +2488,7 @@ BackColour
 TabOrder
 3
 35
-HCEabs_3
+Numeric
 
 1
 16
@@ -2546,7 +2546,7 @@ BackColour
 TabOrder
 3
 36
-HCEabs_4
+Numeric
 
 1
 16
@@ -2604,7 +2604,7 @@ BackColour
 TabOrder
 3
 37
-HCEmisc_1
+Numeric
 
 1
 16
@@ -2662,7 +2662,7 @@ BackColour
 TabOrder
 3
 38
-HCEmisc_2
+Numeric
 
 1
 16
@@ -2720,7 +2720,7 @@ BackColour
 TabOrder
 3
 39
-HCEmisc_3
+Numeric
 
 1
 16
@@ -2778,7 +2778,7 @@ BackColour
 TabOrder
 3
 40
-HCEmisc_4
+Numeric
 
 1
 16
@@ -2836,7 +2836,7 @@ BackColour
 TabOrder
 3
 41
-Label1
+Label
 
 1
 12
@@ -2879,7 +2879,7 @@ AlignRight
 AlignTop
 2
 0
-Label10
+Label
 
 1
 12
@@ -2922,7 +2922,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -2965,7 +2965,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -3008,7 +3008,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -3051,7 +3051,7 @@ AlignRight
 AlignTop
 2
 0
-Label14
+Label
 
 1
 12
@@ -3094,7 +3094,7 @@ AlignRight
 AlignTop
 2
 0
-Label15
+Label
 
 1
 12
@@ -3137,7 +3137,7 @@ AlignRight
 AlignTop
 2
 0
-Label16
+Label
 
 1
 12
@@ -3180,7 +3180,7 @@ AlignRight
 AlignTop
 2
 0
-Label17
+Label
 
 1
 12
@@ -3223,7 +3223,7 @@ AlignRight
 AlignTop
 2
 0
-Label18
+Label
 
 1
 12
@@ -3266,7 +3266,7 @@ AlignRight
 AlignTop
 2
 0
-Label19
+Label
 
 1
 12
@@ -3309,7 +3309,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -3352,7 +3352,7 @@ AlignRight
 AlignTop
 2
 0
-Label20
+Label
 
 1
 12
@@ -3395,7 +3395,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -3438,7 +3438,7 @@ AlignRight
 AlignTop
 2
 0
-Label23
+Label
 
 1
 12
@@ -3481,7 +3481,7 @@ AlignRight
 AlignTop
 2
 0
-Label24
+Label
 
 1
 12
@@ -3524,7 +3524,7 @@ AlignRight
 AlignTop
 2
 0
-Label26
+Label
 
 1
 12
@@ -3567,7 +3567,7 @@ AlignRight
 AlignTop
 2
 0
-Label261
+Label
 
 1
 12
@@ -3610,7 +3610,7 @@ AlignRight
 AlignTop
 2
 0
-Label261
+Label
 
 1
 12
@@ -3653,7 +3653,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -3696,7 +3696,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -3739,7 +3739,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -3782,7 +3782,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -3825,7 +3825,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -3868,7 +3868,7 @@ AlignRight
 AlignTop
 2
 0
-Label8
+Label
 
 1
 12
@@ -3911,7 +3911,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -3954,7 +3954,7 @@ AlignRight
 AlignTop
 2
 0
-PerfFac_1
+Numeric
 
 1
 16
@@ -4012,7 +4012,7 @@ BackColour
 TabOrder
 3
 75
-PerfFac_2
+Numeric
 
 1
 16
@@ -4070,7 +4070,7 @@ BackColour
 TabOrder
 3
 76
-PerfFac_3
+Numeric
 
 1
 16
@@ -4128,7 +4128,7 @@ BackColour
 TabOrder
 3
 77
-PerfFac_4
+Numeric
 
 1
 16
@@ -4186,7 +4186,7 @@ BackColour
 TabOrder
 3
 78
-apply_hce_library_1
+Button
 
 1
 7
@@ -4211,7 +4211,7 @@ Apply Library
 TabOrder
 3
 4294967295
-apply_hce_library_2
+Button
 
 1
 7
@@ -4236,7 +4236,7 @@ Apply Library
 TabOrder
 3
 4294967295
-apply_hce_library_3
+Button
 
 1
 7
@@ -4261,7 +4261,7 @@ Apply Library
 TabOrder
 3
 4294967295
-apply_hce_library_4
+Button
 
 1
 7
@@ -4286,7 +4286,7 @@ Apply Library
 TabOrder
 3
 4294967295
-hce_library
+Library
 
 1
 7
@@ -4311,7 +4311,7 @@ Empirical Trough HCEs
 Fields
 5
 Name,Broken,Bellows,Transmissivity,Absorption,Unaccounted,A0,A1,A2,A3,A4,A5,A6,Factor
-ui_hce_broken_glass_1
+CheckBox
 
 1
 8
@@ -4339,7 +4339,7 @@ State
 TabOrder
 3
 4294967295
-ui_hce_broken_glass_2
+CheckBox
 
 1
 8
@@ -4367,7 +4367,7 @@ State
 TabOrder
 3
 4294967295
-ui_hce_broken_glass_3
+CheckBox
 
 1
 8
@@ -4395,7 +4395,7 @@ State
 TabOrder
 3
 4294967295
-ui_hce_broken_glass_4
+CheckBox
 
 1
 8
@@ -4423,7 +4423,7 @@ State
 TabOrder
 3
 4294967295
-ui_hce_condition_1
+TextEntry
 
 1
 10
@@ -4463,7 +4463,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_condition_2
+TextEntry
 
 1
 10
@@ -4503,7 +4503,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_condition_3
+TextEntry
 
 1
 10
@@ -4543,7 +4543,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_condition_4
+TextEntry
 
 1
 10
@@ -4583,7 +4583,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_heat_losses_1
+Numeric
 
 1
 16
@@ -4641,7 +4641,7 @@ BackColour
 TabOrder
 3
 83
-ui_hce_heat_losses_2
+Numeric
 
 1
 16
@@ -4699,7 +4699,7 @@ BackColour
 TabOrder
 3
 84
-ui_hce_heat_losses_3
+Numeric
 
 1
 16
@@ -4757,7 +4757,7 @@ BackColour
 TabOrder
 3
 85
-ui_hce_heat_losses_4
+Numeric
 
 1
 16
@@ -4815,7 +4815,7 @@ BackColour
 TabOrder
 3
 86
-ui_hce_name_1
+TextEntry
 
 1
 10
@@ -4855,7 +4855,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_name_2
+TextEntry
 
 1
 10
@@ -4895,7 +4895,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_name_3
+TextEntry
 
 1
 10
@@ -4935,7 +4935,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_name_4
+TextEntry
 
 1
 10
@@ -4975,7 +4975,7 @@ BackColour
 TabOrder
 3
 0
-ui_hce_opt_eff_1
+Numeric
 
 1
 16
@@ -5033,7 +5033,7 @@ BackColour
 TabOrder
 3
 42
-ui_hce_opt_eff_2
+Numeric
 
 1
 16
@@ -5091,7 +5091,7 @@ BackColour
 TabOrder
 3
 43
-ui_hce_opt_eff_3
+Numeric
 
 1
 16
@@ -5149,7 +5149,7 @@ BackColour
 TabOrder
 3
 44
-ui_hce_opt_eff_4
+Numeric
 
 1
 16
@@ -5207,7 +5207,7 @@ BackColour
 TabOrder
 3
 45
-ui_hce_opt_eff_weighted
+Numeric
 
 1
 16
@@ -5265,7 +5265,7 @@ BackColour
 TabOrder
 3
 46
-ui_hce_thermloss_weighted_m
+Numeric
 
 1
 16
@@ -5323,7 +5323,7 @@ BackColour
 TabOrder
 3
 87
-ui_hce_thermloss_weighted_m2
+Numeric
 
 1
 16

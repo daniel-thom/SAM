@@ -2,7 +2,7 @@ Tower Solar Field
 845
 1042
 55
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Heliostat Field
 Bold
 2
 1
-GroupBox1
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Heliostat Field
 Bold
 2
 1
-GroupBox1a
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Atmospheric Attenuation
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Solar Field Layout Constraints
 Bold
 2
 1
-GroupBox51
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Land Area
 Bold
 2
 1
-btn_optimize
+Button
 
 1
 7
@@ -152,7 +152,7 @@ Optimize solar field geometry
 TabOrder
 3
 4294967295
-btn_solarpilot
+Button
 
 1
 7
@@ -177,7 +177,7 @@ Generate heliostat layout
 TabOrder
 3
 4294967295
-c_atm_0
+Numeric
 
 1
 16
@@ -235,7 +235,7 @@ BackColour
 TabOrder
 3
 4294967295
-c_atm_1
+Numeric
 
 1
 16
@@ -293,7 +293,7 @@ BackColour
 TabOrder
 3
 4294967295
-c_atm_2
+Numeric
 
 1
 16
@@ -351,7 +351,7 @@ BackColour
 TabOrder
 3
 4294967295
-c_atm_3
+Numeric
 
 1
 16
@@ -409,7 +409,7 @@ BackColour
 TabOrder
 3
 4294967295
-c_atm_info
+Numeric
 
 1
 16
@@ -467,7 +467,7 @@ BackColour
 TabOrder
 3
 4294967295
-cant_type
+Choice
 
 1
 8
@@ -495,7 +495,7 @@ Selection
 TabOrder
 3
 4294967295
-csp.pt.sf.fixed_land_area
+Numeric
 
 1
 16
@@ -553,7 +553,7 @@ BackColour
 TabOrder
 3
 23
-csp.pt.sf.heliostat_area
+Numeric
 
 1
 16
@@ -611,7 +611,7 @@ BackColour
 TabOrder
 3
 5
-csp.pt.sf.land_overhead_factor
+Numeric
 
 1
 16
@@ -669,7 +669,7 @@ BackColour
 TabOrder
 3
 24
-csp.pt.sf.total_land_area
+Numeric
 
 1
 16
@@ -727,7 +727,7 @@ BackColour
 TabOrder
 3
 25
-csp.pt.sf.tower_height
+Numeric
 
 1
 16
@@ -785,7 +785,7 @@ BackColour
 TabOrder
 3
 17
-dens_mirror
+Numeric
 
 1
 16
@@ -843,7 +843,7 @@ BackColour
 TabOrder
 3
 3
-dni_des_calc
+Numeric
 
 1
 16
@@ -901,7 +901,7 @@ BackColour
 TabOrder
 3
 4294967295
-error_equiv
+Numeric
 
 1
 16
@@ -959,7 +959,7 @@ BackColour
 TabOrder
 3
 4294967295
-focus_type
+Choice
 
 1
 8
@@ -987,7 +987,7 @@ Selection
 TabOrder
 3
 4294967295
-hel_stow_deploy
+Numeric
 
 1
 16
@@ -1045,7 +1045,7 @@ BackColour
 TabOrder
 3
 9
-helio_active_fraction
+Numeric
 
 1
 16
@@ -1103,7 +1103,7 @@ BackColour
 TabOrder
 3
 7
-helio_area_tot
+Numeric
 
 1
 16
@@ -1161,7 +1161,7 @@ BackColour
 TabOrder
 3
 25
-helio_height
+Numeric
 
 1
 16
@@ -1219,7 +1219,7 @@ BackColour
 TabOrder
 3
 2
-helio_ops
+GroupBox
 
 1
 7
@@ -1244,7 +1244,7 @@ Heliostat Operation
 Bold
 2
 1
-helio_optical_error_mrad
+Numeric
 
 1
 16
@@ -1302,7 +1302,7 @@ BackColour
 TabOrder
 3
 8
-helio_positions
+DataMatrix
 
 1
 22
@@ -1372,7 +1372,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-helio_reflectance
+Numeric
 
 1
 16
@@ -1430,7 +1430,7 @@ BackColour
 TabOrder
 3
 6
-helio_width
+Numeric
 
 1
 16
@@ -1488,7 +1488,7 @@ BackColour
 TabOrder
 3
 1
-land_area_base
+Numeric
 
 1
 16
@@ -1546,7 +1546,7 @@ BackColour
 TabOrder
 3
 4294967295
-land_max
+Numeric
 
 1
 16
@@ -1604,7 +1604,7 @@ BackColour
 TabOrder
 3
 15
-land_max_calc
+Numeric
 
 1
 16
@@ -1662,7 +1662,7 @@ BackColour
 TabOrder
 3
 18
-land_min
+Numeric
 
 1
 16
@@ -1720,7 +1720,7 @@ BackColour
 TabOrder
 3
 16
-land_min_calc
+Numeric
 
 1
 16
@@ -1778,7 +1778,7 @@ BackColour
 TabOrder
 3
 19
-n_facet_x
+Numeric
 
 1
 16
@@ -1836,7 +1836,7 @@ BackColour
 TabOrder
 3
 4294967295
-n_facet_y
+Numeric
 
 1
 16
@@ -1894,7 +1894,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -1919,7 +1919,7 @@ Heliostat field availability
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1944,7 +1944,7 @@ Heliostat field availability
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1987,7 +1987,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2030,7 +2030,7 @@ AlignRight
 AlignTop
 2
 1
-opt_box
+GroupBox
 
 1
 7
@@ -2055,7 +2055,7 @@ Optimization Settings
 Bold
 2
 1
-opt_conv_tol
+Numeric
 
 1
 16
@@ -2113,7 +2113,7 @@ BackColour
 TabOrder
 3
 4294967295
-opt_init_step
+Numeric
 
 1
 16
@@ -2171,7 +2171,7 @@ BackColour
 TabOrder
 3
 4294967295
-opt_max_iter
+Numeric
 
 1
 16
@@ -2229,7 +2229,7 @@ BackColour
 TabOrder
 3
 4294967295
-override_layout
+CheckBox
 
 1
 8
@@ -2257,7 +2257,7 @@ State
 TabOrder
 3
 4294967295
-override_opt
+CheckBox
 
 1
 8
@@ -2285,7 +2285,7 @@ State
 TabOrder
 3
 4294967295
-p_start
+Numeric
 
 1
 16
@@ -2343,7 +2343,7 @@ BackColour
 TabOrder
 3
 10
-p_track
+Numeric
 
 1
 16
@@ -2401,7 +2401,7 @@ BackColour
 TabOrder
 3
 10
-sf_adjust
+LossAdjustment
 
 1
 6
@@ -2423,7 +2423,7 @@ Height
 TabOrder
 3
 4294967295
-sfplot
+Plot
 
 1
 5
@@ -2442,7 +2442,7 @@ Width
 Height
 3
 285
-v_wind_max
+Numeric
 
 1
 16
@@ -2500,7 +2500,7 @@ BackColour
 TabOrder
 3
 10
-washing_frequency
+Numeric
 
 1
 16
@@ -2558,7 +2558,7 @@ BackColour
 TabOrder
 3
 4294967295
-water_usage_per_wash
+Numeric
 
 1
 16

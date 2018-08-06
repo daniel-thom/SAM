@@ -2,7 +2,7 @@ Financial LCOE Calc IPH Add
 866
 170
 3
-electricity_rate
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 10
+MultilineText
 
 1
 10
@@ -100,7 +100,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7

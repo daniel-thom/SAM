@@ -2,7 +2,7 @@ Direct Steam Tower Receiver
 873
 776
 48
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Direct Steam Receiver
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Tower
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Thermal Design & Operation
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Flow
 Bold
 2
 1
-HLine1
+Divider
 
 1
 9
@@ -136,7 +136,7 @@ Boiler
 Bold
 2
 1
-HLine11
+Divider
 
 1
 9
@@ -170,7 +170,7 @@ Superheater
 Bold
 2
 1
-HLine111
+Divider
 
 1
 9
@@ -204,7 +204,7 @@ Reheater
 Bold
 2
 1
-H_rec
+Numeric
 
 1
 16
@@ -262,7 +262,7 @@ BackColour
 TabOrder
 3
 2
-T_rh_out_des
+Numeric
 
 1
 16
@@ -320,7 +320,7 @@ BackColour
 TabOrder
 3
 29
-T_sh_out_des
+Numeric
 
 1
 16
@@ -378,7 +378,7 @@ BackColour
 TabOrder
 3
 20
-b_q_loss_flux
+Numeric
 
 1
 16
@@ -436,7 +436,7 @@ BackColour
 TabOrder
 3
 12
-csp.dst.flow_pattern
+Choice
 
 1
 8
@@ -466,7 +466,7 @@ Selection
 TabOrder
 3
 0
-csp.dst.mat_boiler
+Choice
 
 1
 8
@@ -494,7 +494,7 @@ Selection
 TabOrder
 3
 10
-csp.dst.mat_rh
+Choice
 
 1
 8
@@ -522,7 +522,7 @@ Selection
 TabOrder
 3
 28
-csp.dst.mat_sh
+Choice
 
 1
 8
@@ -550,7 +550,7 @@ Selection
 TabOrder
 3
 19
-csp.dst.max_b_flux
+Numeric
 
 1
 16
@@ -608,7 +608,7 @@ BackColour
 TabOrder
 3
 5
-csp.dst.max_rh_flux
+Numeric
 
 1
 16
@@ -666,7 +666,7 @@ BackColour
 TabOrder
 3
 23
-csp.dst.max_sh_flux
+Numeric
 
 1
 16
@@ -724,7 +724,7 @@ BackColour
 TabOrder
 3
 14
-csp.dst.num_2panelgroups
+Numeric
 
 1
 16
@@ -782,7 +782,7 @@ BackColour
 TabOrder
 3
 3
-csp.dst.solar_multiple
+Numeric
 
 1
 16
@@ -840,7 +840,7 @@ BackColour
 TabOrder
 3
 32
-d_rec
+Numeric
 
 1
 16
@@ -898,7 +898,7 @@ BackColour
 TabOrder
 3
 1
-d_rh
+Numeric
 
 1
 16
@@ -956,7 +956,7 @@ BackColour
 TabOrder
 3
 24
-d_sh
+Numeric
 
 1
 16
@@ -1014,7 +1014,7 @@ BackColour
 TabOrder
 3
 15
-d_t_boiler
+Numeric
 
 1
 16
@@ -1072,7 +1072,7 @@ BackColour
 TabOrder
 3
 6
-delta_flux_hrs
+Numeric
 
 1
 16
@@ -1130,7 +1130,7 @@ BackColour
 TabOrder
 3
 4294967295
-dni_des
+Numeric
 
 1
 16
@@ -1188,7 +1188,7 @@ BackColour
 TabOrder
 3
 4294967295
-f_rec_min
+Numeric
 
 1
 16
@@ -1246,7 +1246,7 @@ BackColour
 TabOrder
 3
 33
-flux_box
+GroupBox
 
 1
 7
@@ -1271,7 +1271,7 @@ Flux Calculation Settings
 Bold
 2
 1
-h_boiler
+Numeric
 
 1
 16
@@ -1329,7 +1329,7 @@ BackColour
 TabOrder
 3
 4
-h_rh
+Numeric
 
 1
 16
@@ -1387,7 +1387,7 @@ BackColour
 TabOrder
 3
 22
-h_sh
+Numeric
 
 1
 16
@@ -1445,7 +1445,7 @@ BackColour
 TabOrder
 3
 13
-h_tower
+Numeric
 
 1
 16
@@ -1503,7 +1503,7 @@ BackColour
 TabOrder
 3
 31
-hl_ffact
+Numeric
 
 1
 16
@@ -1561,7 +1561,7 @@ BackColour
 TabOrder
 3
 38
-n_flux_days
+Numeric
 
 1
 16
@@ -1619,7 +1619,7 @@ BackColour
 TabOrder
 3
 4294967295
-n_flux_x
+Numeric
 
 1
 16
@@ -1677,7 +1677,7 @@ BackColour
 TabOrder
 3
 4294967295
-n_panels
+Numeric
 
 1
 16
@@ -1735,7 +1735,7 @@ BackColour
 TabOrder
 3
 3
-pct
+Image
 
 1
 7
@@ -1760,7 +1760,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/Direct Steam Tower Rec
 Centered
 2
 1
-q_rec_des
+Numeric
 
 1
 16
@@ -1818,7 +1818,7 @@ BackColour
 TabOrder
 3
 35
-rec_absorptance
+Numeric
 
 1
 16
@@ -1876,7 +1876,7 @@ BackColour
 TabOrder
 3
 9
-rec_emis
+Numeric
 
 1
 16
@@ -1934,7 +1934,7 @@ BackColour
 TabOrder
 3
 8
-rec_qf_delay
+Numeric
 
 1
 16
@@ -1992,7 +1992,7 @@ BackColour
 TabOrder
 3
 37
-rec_su_delay
+Numeric
 
 1
 16
@@ -2050,7 +2050,7 @@ BackColour
 TabOrder
 3
 36
-rh_q_loss_flux
+Numeric
 
 1
 16
@@ -2108,7 +2108,7 @@ BackColour
 TabOrder
 3
 30
-sh_q_loss_flux
+Numeric
 
 1
 16
@@ -2166,7 +2166,7 @@ BackColour
 TabOrder
 3
 21
-th_rh
+Numeric
 
 1
 16
@@ -2224,7 +2224,7 @@ BackColour
 TabOrder
 3
 25
-th_sh
+Numeric
 
 1
 16
@@ -2282,7 +2282,7 @@ BackColour
 TabOrder
 3
 16
-th_t_boiler
+Numeric
 
 1
 16
@@ -2340,7 +2340,7 @@ BackColour
 TabOrder
 3
 7
-x_b_target
+Numeric
 
 1
 16

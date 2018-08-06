@@ -2,7 +2,7 @@ Sandia PV Array Performance Model with Module Database
 1016
 727
 44
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ References
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Physical Characteristics
 Bold
 2
 1
-Hyperlink11
+Hyperlink
 
 1
 8
@@ -80,7 +80,7 @@ https://sam.nrel.gov/performance
 TabOrder
 3
 0
-Hyperlink11
+Hyperlink
 
 1
 8
@@ -108,7 +108,7 @@ https://sam.nrel.gov/performance
 TabOrder
 3
 0
-Label1
+Label
 
 1
 12
@@ -151,7 +151,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -194,7 +194,7 @@ AlignRight
 AlignTop
 2
 1
-Label2
+Label
 
 1
 12
@@ -237,7 +237,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -280,7 +280,7 @@ AlignRight
 AlignTop
 2
 0
-Label32
+Label
 
 1
 12
@@ -323,7 +323,7 @@ AlignRight
 AlignTop
 2
 1
-Label4
+Label
 
 1
 12
@@ -366,7 +366,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -409,7 +409,7 @@ AlignRight
 AlignTop
 2
 0
-Module Characteristics
+GroupBox
 
 1
 7
@@ -434,7 +434,7 @@ Module Characteristics at Reference Conditions
 Bold
 2
 1
-snl_area
+Numeric
 
 1
 16
@@ -492,7 +492,7 @@ BackColour
 TabOrder
 3
 0
-snl_imp_temp_1
+Numeric
 
 1
 16
@@ -550,7 +550,7 @@ BackColour
 TabOrder
 3
 0
-snl_material
+TextEntry
 
 1
 10
@@ -590,7 +590,7 @@ BackColour
 TabOrder
 3
 0
-snl_module_name
+Library
 
 1
 7
@@ -615,7 +615,7 @@ Sandia Modules
 Fields
 5
 Name,Impo,Vmpo,Area,#Series,Isco,Voco,a,b,dT,Material
-snl_module_structure
+Choice
 
 1
 8
@@ -650,7 +650,7 @@ Selection
 TabOrder
 3
 2
-snl_n_cells
+Numeric
 
 1
 16
@@ -708,7 +708,7 @@ BackColour
 TabOrder
 3
 0
-snl_parallel_cells
+Numeric
 
 1
 16
@@ -766,7 +766,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_a
+Numeric
 
 1
 16
@@ -824,7 +824,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_b
+Numeric
 
 1
 16
@@ -882,7 +882,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_conditions
+TextEntry
 
 1
 10
@@ -922,7 +922,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_dT
+Numeric
 
 1
 16
@@ -980,7 +980,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_eff
+Numeric
 
 1
 16
@@ -1038,7 +1038,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_imp
+Numeric
 
 1
 16
@@ -1096,7 +1096,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_imp_temp_0
+Numeric
 
 1
 16
@@ -1154,7 +1154,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_isc
+Numeric
 
 1
 16
@@ -1212,7 +1212,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_isc_temp_0
+Numeric
 
 1
 16
@@ -1270,7 +1270,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_isc_temp_1
+Numeric
 
 1
 16
@@ -1328,7 +1328,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_pmp
+Numeric
 
 1
 16
@@ -1386,7 +1386,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_pmp_temp_0
+Numeric
 
 1
 16
@@ -1444,7 +1444,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_pmp_temp_1
+Numeric
 
 1
 16
@@ -1502,7 +1502,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_vmp
+Numeric
 
 1
 16
@@ -1560,7 +1560,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_vmp_temp_0
+Numeric
 
 1
 16
@@ -1618,7 +1618,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_vmp_temp_1
+Numeric
 
 1
 16
@@ -1676,7 +1676,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_voc
+Numeric
 
 1
 16
@@ -1734,7 +1734,7 @@ BackColour
 TabOrder
 3
 0
-snl_ref_voc_temp_0
+Numeric
 
 1
 16
@@ -1792,7 +1792,7 @@ BackColour
 TabOrder
 3
 0
-snl_sandia_notes
+TextEntry
 
 1
 10
@@ -1832,7 +1832,7 @@ BackColour
 TabOrder
 3
 0
-snl_sandia_vintage
+TextEntry
 
 1
 10
@@ -1872,7 +1872,7 @@ BackColour
 TabOrder
 3
 0
-snl_series_cells
+Numeric
 
 1
 16
@@ -1930,7 +1930,7 @@ BackColour
 TabOrder
 3
 0
-snl_specified_a
+Numeric
 
 1
 16
@@ -1988,7 +1988,7 @@ BackColour
 TabOrder
 3
 0
-snl_specified_b
+Numeric
 
 1
 16
@@ -2046,7 +2046,7 @@ BackColour
 TabOrder
 3
 0
-snl_specified_dT
+Numeric
 
 1
 16
@@ -2104,7 +2104,7 @@ BackColour
 TabOrder
 3
 0
-snl_voc_temp_1
+Numeric
 
 1
 16

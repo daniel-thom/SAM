@@ -2,7 +2,7 @@ Rankine Cycle and Hybrid Cooling
 640
 371
 32
-P_boil
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 6
-P_cond_min
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 24
-P_cond_ratio
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 23
-T_ITD_des
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 22
-T_amb_des
+Numeric
 
 1
 16
@@ -292,7 +292,7 @@ BackColour
 TabOrder
 3
 19
-T_approach
+Numeric
 
 1
 16
@@ -350,7 +350,7 @@ BackColour
 TabOrder
 3
 21
-combo_condenser_type
+Choice
 
 1
 8
@@ -381,7 +381,7 @@ Selection
 TabOrder
 3
 18
-cycle_technology_group_box
+GroupBox
 
 1
 7
@@ -406,7 +406,7 @@ Rankine Cycle Parameters
 Bold
 2
 1
-dT_cw_ref
+Numeric
 
 1
 16
@@ -464,7 +464,7 @@ BackColour
 TabOrder
 3
 20
-hybrid_tou1
+Numeric
 
 1
 16
@@ -522,7 +522,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou2
+Numeric
 
 1
 16
@@ -580,7 +580,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou3
+Numeric
 
 1
 16
@@ -638,7 +638,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou4
+Numeric
 
 1
 16
@@ -696,7 +696,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou5
+Numeric
 
 1
 16
@@ -754,7 +754,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou6
+Numeric
 
 1
 16
@@ -812,7 +812,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou7
+Numeric
 
 1
 16
@@ -870,7 +870,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou8
+Numeric
 
 1
 16
@@ -928,7 +928,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou9
+Numeric
 
 1
 16
@@ -986,7 +986,7 @@ BackColour
 TabOrder
 3
 4294967295
-label_hybrid_cooling
+Label
 
 1
 12
@@ -1029,7 +1029,7 @@ AlignRight
 AlignTop
 2
 1
-n_pl_inc
+Numeric
 
 1
 16
@@ -1087,7 +1087,7 @@ BackColour
 TabOrder
 3
 25
-object 7
+Label
 
 1
 12
@@ -1130,7 +1130,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1173,7 +1173,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1216,7 +1216,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1259,7 +1259,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1302,7 +1302,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1345,7 +1345,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1388,7 +1388,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1431,7 +1431,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1474,7 +1474,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1517,7 +1517,7 @@ AlignRight
 AlignTop
 2
 0
-pb_bd_frac
+Numeric
 
 1
 16
@@ -1575,7 +1575,7 @@ BackColour
 TabOrder
 3
 8
-pressure_mode
+Choice
 
 1
 8

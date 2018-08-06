@@ -2,7 +2,7 @@ LF DSG System Design
 874
 318
 14
-I_bn_des
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 1
-P_turb_des
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_cold_ref
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 3
-adjust
+LossAdjustment
 
 1
 6
@@ -198,7 +198,7 @@ Height
 TabOrder
 3
 4294967295
-heat_sink_dP_frac
+Numeric
 
 1
 16
@@ -256,7 +256,7 @@ BackColour
 TabOrder
 3
 4294967295
-label3
+Divider
 
 1
 9
@@ -290,7 +290,7 @@ System Availability and Curtailment
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -324,7 +324,7 @@ Heat Sink
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -358,7 +358,7 @@ Heat Sink
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -383,7 +383,7 @@ Design Point Parameters
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -426,7 +426,7 @@ AlignRight
 AlignTop
 2
 1
-q_pb_des
+Numeric
 
 1
 16
@@ -484,7 +484,7 @@ BackColour
 TabOrder
 3
 6
-specified_q_dot_rec_des
+Numeric
 
 1
 16
@@ -542,7 +542,7 @@ BackColour
 TabOrder
 3
 3
-specified_solar_multiple
+Numeric
 
 1
 16
@@ -600,7 +600,7 @@ BackColour
 TabOrder
 3
 2
-x_b_des
+Numeric
 
 1
 16

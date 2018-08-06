@@ -2,7 +2,7 @@ Financial Reserve Accounts
 865
 327
 27
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Reserve Accounts
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Major Equipment Replacement Reserve Accounts
 Bold
 2
 1
-Label111
+Label
 
 1
 12
@@ -95,7 +95,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -138,7 +138,7 @@ AlignRight
 AlignTop
 2
 1
-Label112
+Label
 
 1
 12
@@ -181,7 +181,7 @@ AlignRight
 AlignTop
 2
 1
-Label12
+Label
 
 1
 12
@@ -224,7 +224,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -267,7 +267,7 @@ AlignRight
 AlignTop
 2
 1
-Label9112
+Label
 
 1
 12
@@ -310,7 +310,7 @@ AlignRight
 AlignTop
 2
 0
-Label922
+Label
 
 1
 12
@@ -353,7 +353,7 @@ AlignRight
 AlignTop
 2
 0
-dscr_reserve_months
+Numeric
 
 1
 16
@@ -411,7 +411,7 @@ BackColour
 TabOrder
 3
 3
-equip1_reserve_cost
+Numeric
 
 1
 16
@@ -469,7 +469,7 @@ BackColour
 TabOrder
 3
 5
-equip1_reserve_freq
+Numeric
 
 1
 16
@@ -527,7 +527,7 @@ BackColour
 TabOrder
 3
 7
-equip2_reserve_cost
+Numeric
 
 1
 16
@@ -585,7 +585,7 @@ BackColour
 TabOrder
 3
 9
-equip2_reserve_freq
+Numeric
 
 1
 16
@@ -643,7 +643,7 @@ BackColour
 TabOrder
 3
 11
-equip3_reserve_cost
+Numeric
 
 1
 16
@@ -701,7 +701,7 @@ BackColour
 TabOrder
 3
 13
-equip3_reserve_freq
+Numeric
 
 1
 16
@@ -759,7 +759,7 @@ BackColour
 TabOrder
 3
 15
-equip_reserve_depr_fed
+Choice
 
 1
 8
@@ -794,7 +794,7 @@ Selection
 TabOrder
 3
 16
-equip_reserve_depr_sta
+Choice
 
 1
 8
@@ -829,7 +829,7 @@ Selection
 TabOrder
 3
 17
-mera_cost1
+Numeric
 
 1
 16
@@ -887,7 +887,7 @@ BackColour
 TabOrder
 3
 6
-mera_cost2
+Numeric
 
 1
 16
@@ -945,7 +945,7 @@ BackColour
 TabOrder
 3
 10
-mera_cost3
+Numeric
 
 1
 16
@@ -1003,7 +1003,7 @@ BackColour
 TabOrder
 3
 14
-mera_name1
+TextEntry
 
 1
 10
@@ -1043,7 +1043,7 @@ BackColour
 TabOrder
 3
 4
-mera_name2
+TextEntry
 
 1
 10
@@ -1083,7 +1083,7 @@ BackColour
 TabOrder
 3
 8
-mera_name3
+TextEntry
 
 1
 10
@@ -1123,7 +1123,7 @@ BackColour
 TabOrder
 3
 12
-months_receivables_reserve
+Numeric
 
 1
 16
@@ -1181,7 +1181,7 @@ BackColour
 TabOrder
 3
 2
-months_working_reserve
+Numeric
 
 1
 16
@@ -1239,7 +1239,7 @@ BackColour
 TabOrder
 3
 2
-reserves_interest
+Numeric
 
 1
 16

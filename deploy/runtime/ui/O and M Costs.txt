@@ -2,7 +2,7 @@ O and M Costs
 795
 202
 12
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Operation and Maintenance Costs
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 1
-om_capacity
+SchedNumeric
 
 1
 11
@@ -193,7 +193,7 @@ Type a fixed cost ($/kW) for each year. SAM does not apply inflation or escalati
 TabOrder
 3
 3
-om_capacity_escal
+Numeric
 
 1
 16
@@ -251,7 +251,7 @@ BackColour
 TabOrder
 3
 4
-om_fixed
+SchedNumeric
 
 1
 11
@@ -288,7 +288,7 @@ Type a fixed cost ($) for each year. SAM does not apply inflation or escalation 
 TabOrder
 3
 1
-om_fixed_escal
+Numeric
 
 1
 16
@@ -346,7 +346,7 @@ BackColour
 TabOrder
 3
 2
-om_fuel_cost
+SchedNumeric
 
 1
 11
@@ -383,7 +383,7 @@ Type a variable fuel cost ($/MMBTU) for each year. SAM does not apply inflation 
 TabOrder
 3
 7
-om_fuel_cost_escal
+Numeric
 
 1
 16
@@ -441,7 +441,7 @@ BackColour
 TabOrder
 3
 8
-om_production
+SchedNumeric
 
 1
 11
@@ -478,7 +478,7 @@ Type a variable cost ($/kWh) for each year. SAM does not apply inflation or esca
 TabOrder
 3
 5
-om_production_escal
+Numeric
 
 1
 16

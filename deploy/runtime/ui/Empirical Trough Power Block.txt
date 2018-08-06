@@ -2,7 +2,7 @@ Empirical Trough Power Block
 890
 675
 48
-E2TPLF0
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 19
-E2TPLF1
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 20
-E2TPLF2
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 21
-E2TPLF3
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 22
-E2TPLF4
+Numeric
 
 1
 16
@@ -292,7 +292,7 @@ BackColour
 TabOrder
 3
 23
-GroupBox1
+GroupBox
 
 1
 7
@@ -317,7 +317,7 @@ Plant Characteristics
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -342,7 +342,7 @@ Power Cycle Properties
 Bold
 2
 1
-LHVBoilEff
+Numeric
 
 1
 16
@@ -400,7 +400,7 @@ BackColour
 TabOrder
 3
 13
-Label10
+Label
 
 1
 12
@@ -443,7 +443,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -486,7 +486,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -529,7 +529,7 @@ AlignRight
 AlignTop
 2
 1
-Label2
+Label
 
 1
 12
@@ -572,7 +572,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -615,7 +615,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -658,7 +658,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -701,7 +701,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -744,7 +744,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -787,7 +787,7 @@ AlignRight
 AlignTop
 2
 0
-Label8
+Label
 
 1
 12
@@ -830,7 +830,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -873,7 +873,7 @@ AlignRight
 AlignTop
 2
 0
-MaxGrOut
+Numeric
 
 1
 16
@@ -931,7 +931,7 @@ BackColour
 TabOrder
 3
 10
-MinGrOut
+Numeric
 
 1
 16
@@ -989,7 +989,7 @@ BackColour
 TabOrder
 3
 11
-T2EPLF0
+Numeric
 
 1
 16
@@ -1047,7 +1047,7 @@ BackColour
 TabOrder
 3
 14
-T2EPLF1
+Numeric
 
 1
 16
@@ -1105,7 +1105,7 @@ BackColour
 TabOrder
 3
 15
-T2EPLF2
+Numeric
 
 1
 16
@@ -1163,7 +1163,7 @@ BackColour
 TabOrder
 3
 16
-T2EPLF3
+Numeric
 
 1
 16
@@ -1221,7 +1221,7 @@ BackColour
 TabOrder
 3
 17
-T2EPLF4
+Numeric
 
 1
 16
@@ -1279,7 +1279,7 @@ BackColour
 TabOrder
 3
 18
-TempCorr0
+Numeric
 
 1
 16
@@ -1337,7 +1337,7 @@ BackColour
 TabOrder
 3
 24
-TempCorr1
+Numeric
 
 1
 16
@@ -1395,7 +1395,7 @@ BackColour
 TabOrder
 3
 25
-TempCorr2
+Numeric
 
 1
 16
@@ -1453,7 +1453,7 @@ BackColour
 TabOrder
 3
 26
-TempCorr3
+Numeric
 
 1
 16
@@ -1511,7 +1511,7 @@ BackColour
 TabOrder
 3
 27
-TempCorr4
+Numeric
 
 1
 16
@@ -1569,7 +1569,7 @@ BackColour
 TabOrder
 3
 28
-TempCorrF
+Choice
 
 1
 8
@@ -1599,7 +1599,7 @@ Selection
 TabOrder
 3
 29
-TurSUE
+Numeric
 
 1
 16
@@ -1657,7 +1657,7 @@ BackColour
 TabOrder
 3
 12
-TurbEffG
+Numeric
 
 1
 16
@@ -1715,7 +1715,7 @@ BackColour
 TabOrder
 3
 9
-TurbOutG
+Numeric
 
 1
 16
@@ -1773,7 +1773,7 @@ BackColour
 TabOrder
 3
 2
-adjust
+LossAdjustment
 
 1
 6
@@ -1795,7 +1795,7 @@ Height
 TabOrder
 3
 24
-object 22
+Divider
 
 1
 9
@@ -1829,7 +1829,7 @@ Availability and Curtailment
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1854,7 +1854,7 @@ Power Cycle Library
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1897,7 +1897,7 @@ AlignRight
 AlignTop
 2
 1
-pb_library
+Library
 
 1
 7
@@ -1922,7 +1922,7 @@ Empirical Trough Power Cycles
 Fields
 5
 Description,Type,Efficiency,Max Output,Min Output,Startup Energy,TEF0,TEF1,TEF2,TEF3,TEF4,TFF0,TFF1,TFF2,TFF3,TFF4,CTC F0,CTC F1,CTC F2,CTC F3,CTC F4,Temp.Corr Mode
-ui_gross_net_conversion_factor
+Numeric
 
 1
 16
@@ -1980,7 +1980,7 @@ BackColour
 TabOrder
 3
 0
-ui_max_therm_input
+Numeric
 
 1
 16
@@ -2038,7 +2038,7 @@ BackColour
 TabOrder
 3
 0
-ui_min_therm_input
+Numeric
 
 1
 16
@@ -2096,7 +2096,7 @@ BackColour
 TabOrder
 3
 0
-ui_net_capacity
+Numeric
 
 1
 16
@@ -2154,7 +2154,7 @@ BackColour
 TabOrder
 3
 1
-ui_pb_description
+TextEntry
 
 1
 10
@@ -2194,7 +2194,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_pb_type
+TextEntry
 
 1
 10
@@ -2234,7 +2234,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_q_design
+Numeric
 
 1
 16
@@ -2292,7 +2292,7 @@ BackColour
 TabOrder
 3
 8
-use_pb_library_values
+CheckBox
 
 1
 8

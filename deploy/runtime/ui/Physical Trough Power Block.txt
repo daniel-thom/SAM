@@ -2,7 +2,7 @@ Physical Trough Power Block
 582
 980
 55
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Power Block Design Point
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Plant Capacity
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Cooling System
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -170,7 +170,7 @@ AlignRight
 AlignTop
 2
 0
-Label10
+Label
 
 1
 12
@@ -213,7 +213,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -256,7 +256,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -299,7 +299,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -342,7 +342,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -385,7 +385,7 @@ AlignRight
 AlignTop
 2
 1
-Label121
+Label
 
 1
 12
@@ -428,7 +428,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -471,7 +471,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -514,7 +514,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -557,7 +557,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -600,7 +600,7 @@ AlignRight
 AlignTop
 2
 1
-Label9
+Label
 
 1
 12
@@ -643,7 +643,7 @@ AlignRight
 AlignTop
 2
 0
-P_boil
+Numeric
 
 1
 16
@@ -701,7 +701,7 @@ BackColour
 TabOrder
 3
 7
-P_cond_min
+Numeric
 
 1
 16
@@ -759,7 +759,7 @@ BackColour
 TabOrder
 3
 24
-P_cond_ratio
+Numeric
 
 1
 16
@@ -817,7 +817,7 @@ BackColour
 TabOrder
 3
 23
-T_ITD_des
+Numeric
 
 1
 16
@@ -875,7 +875,7 @@ BackColour
 TabOrder
 3
 22
-T_amb_des
+Numeric
 
 1
 16
@@ -933,7 +933,7 @@ BackColour
 TabOrder
 3
 19
-T_approach
+Numeric
 
 1
 16
@@ -991,7 +991,7 @@ BackColour
 TabOrder
 3
 21
-T_set_aux
+Numeric
 
 1
 16
@@ -1049,7 +1049,7 @@ BackColour
 TabOrder
 3
 14
-T_startup
+Numeric
 
 1
 16
@@ -1107,7 +1107,7 @@ BackColour
 TabOrder
 3
 14
-adjust
+LossAdjustment
 
 1
 6
@@ -1129,7 +1129,7 @@ Height
 TabOrder
 3
 24
-comb_fossil_mode
+Choice
 
 1
 8
@@ -1159,7 +1159,7 @@ Selection
 TabOrder
 3
 13
-combo_condenser_type
+Choice
 
 1
 8
@@ -1190,7 +1190,7 @@ Selection
 TabOrder
 3
 18
-csp.dtr.pwrb.design_inlet_temp
+Numeric
 
 1
 16
@@ -1248,7 +1248,7 @@ BackColour
 TabOrder
 3
 5
-csp.dtr.pwrb.design_outlet_temp
+Numeric
 
 1
 16
@@ -1306,7 +1306,7 @@ BackColour
 TabOrder
 3
 6
-csp.dtr.pwrb.gross_net_conversion_factor
+Numeric
 
 1
 16
@@ -1364,7 +1364,7 @@ BackColour
 TabOrder
 3
 2
-csp.dtr.pwrb.hc_ctl1
+Numeric
 
 1
 16
@@ -1422,7 +1422,7 @@ BackColour
 TabOrder
 3
 26
-csp.dtr.pwrb.hc_ctl2
+Numeric
 
 1
 16
@@ -1480,7 +1480,7 @@ BackColour
 TabOrder
 3
 27
-csp.dtr.pwrb.hc_ctl3
+Numeric
 
 1
 16
@@ -1538,7 +1538,7 @@ BackColour
 TabOrder
 3
 28
-csp.dtr.pwrb.hc_ctl4
+Numeric
 
 1
 16
@@ -1596,7 +1596,7 @@ BackColour
 TabOrder
 3
 29
-csp.dtr.pwrb.hc_ctl5
+Numeric
 
 1
 16
@@ -1654,7 +1654,7 @@ BackColour
 TabOrder
 3
 30
-csp.dtr.pwrb.hc_ctl6
+Numeric
 
 1
 16
@@ -1712,7 +1712,7 @@ BackColour
 TabOrder
 3
 31
-csp.dtr.pwrb.hc_ctl7
+Numeric
 
 1
 16
@@ -1770,7 +1770,7 @@ BackColour
 TabOrder
 3
 32
-csp.dtr.pwrb.hc_ctl8
+Numeric
 
 1
 16
@@ -1828,7 +1828,7 @@ BackColour
 TabOrder
 3
 33
-csp.dtr.pwrb.hc_ctl9
+Numeric
 
 1
 16
@@ -1886,7 +1886,7 @@ BackColour
 TabOrder
 3
 34
-csp.dtr.pwrb.nameplate
+Numeric
 
 1
 16
@@ -1944,7 +1944,7 @@ BackColour
 TabOrder
 3
 3
-csp.dtr.pwrb.pressure_mode
+Choice
 
 1
 8
@@ -1974,7 +1974,7 @@ Selection
 TabOrder
 3
 17
-cycle_cutoff_frac
+Numeric
 
 1
 16
@@ -2032,7 +2032,7 @@ BackColour
 TabOrder
 3
 15
-cycle_max_frac
+Numeric
 
 1
 16
@@ -2090,7 +2090,7 @@ BackColour
 TabOrder
 3
 15
-dT_cw_ref
+Numeric
 
 1
 16
@@ -2148,7 +2148,7 @@ BackColour
 TabOrder
 3
 20
-eta_lhv
+Numeric
 
 1
 16
@@ -2206,7 +2206,7 @@ BackColour
 TabOrder
 3
 8
-eta_ref
+Numeric
 
 1
 16
@@ -2264,7 +2264,7 @@ BackColour
 TabOrder
 3
 4
-n_pl_inc
+Numeric
 
 1
 16
@@ -2322,7 +2322,7 @@ BackColour
 TabOrder
 3
 25
-object 7
+Label
 
 1
 12
@@ -2365,7 +2365,7 @@ AlignRight
 AlignTop
 2
 1
-pb_bd_frac
+Numeric
 
 1
 16
@@ -2423,7 +2423,7 @@ BackColour
 TabOrder
 3
 9
-pb_rated_cap
+Numeric
 
 1
 16
@@ -2481,7 +2481,7 @@ BackColour
 TabOrder
 3
 1
-q_sby_frac
+Numeric
 
 1
 16
@@ -2539,7 +2539,7 @@ BackColour
 TabOrder
 3
 11
-startup_frac
+Numeric
 
 1
 16
@@ -2597,7 +2597,7 @@ BackColour
 TabOrder
 3
 13
-startup_time
+Numeric
 
 1
 16
@@ -2655,7 +2655,7 @@ BackColour
 TabOrder
 3
 12
-t_standby_reset
+Numeric
 
 1
 16

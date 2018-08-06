@@ -2,7 +2,7 @@ PV Shading
 861
 881
 76
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ External Shading
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Array Dimensions for Self Shading and Snow Losses
 Bold
 2
 1
-Label121112
+Label
 
 1
 12
@@ -95,7 +95,7 @@ AlignRight
 AlignTop
 2
 0
-Label121112
+Label
 
 1
 12
@@ -138,7 +138,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -181,7 +181,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -224,7 +224,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -267,7 +267,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -310,7 +310,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -353,7 +353,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -396,7 +396,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -439,7 +439,7 @@ AlignRight
 AlignTop
 2
 0
-Label121113
+Label
 
 1
 12
@@ -482,7 +482,7 @@ AlignRight
 AlignTop
 2
 0
-edit_3d_scene
+Button
 
 1
 7
@@ -507,7 +507,7 @@ Open 3D shade calculator...
 TabOrder
 3
 4294967295
-en_snow_model
+CheckBox
 
 1
 8
@@ -535,7 +535,7 @@ State
 TabOrder
 3
 4294967295
-lbl_subarray1
+Label
 
 1
 12
@@ -578,7 +578,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_subarray2
+Label
 
 1
 12
@@ -621,7 +621,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_subarray3
+Label
 
 1
 12
@@ -664,7 +664,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_subarray4
+Label
 
 1
 12
@@ -707,7 +707,7 @@ AlignRight
 AlignTop
 2
 0
-module_area
+Numeric
 
 1
 16
@@ -765,7 +765,7 @@ BackColour
 TabOrder
 3
 4294967295
-module_aspect_ratio
+Numeric
 
 1
 16
@@ -823,7 +823,7 @@ BackColour
 TabOrder
 3
 4294967295
-module_length
+Numeric
 
 1
 16
@@ -881,7 +881,7 @@ BackColour
 TabOrder
 3
 4294967295
-module_width
+Numeric
 
 1
 16
@@ -939,7 +939,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 10
+Label
 
 1
 12
@@ -982,7 +982,7 @@ AlignRight
 AlignTop
 2
 1
-object 12
+Image
 
 1
 7
@@ -1007,7 +1007,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV Shading_object 12.p
 Centered
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1041,7 +1041,7 @@ Caption
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1075,7 +1075,7 @@ Caption
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1100,7 +1100,7 @@ Snow Losses
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1125,7 +1125,7 @@ Snow Losses
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1168,7 +1168,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1211,7 +1211,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1254,7 +1254,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1297,7 +1297,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1340,7 +1340,7 @@ AlignRight
 AlignTop
 2
 1
-self_shading_diagram
+Image
 
 1
 7
@@ -1365,7 +1365,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV Shading_self_shadin
 Centered
 2
 1
-subarray1_gcr_ref
+Numeric
 
 1
 16
@@ -1423,7 +1423,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_mod_orient
+Choice
 
 1
 8
@@ -1451,7 +1451,7 @@ Selection
 TabOrder
 3
 2
-subarray1_nmodx
+Numeric
 
 1
 16
@@ -1509,7 +1509,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_nmody
+Numeric
 
 1
 16
@@ -1567,7 +1567,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_ref_nmodules
+Numeric
 
 1
 16
@@ -1625,7 +1625,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_shade_mode
+Choice
 
 1
 8
@@ -1653,7 +1653,7 @@ Selection
 TabOrder
 3
 4294967295
-subarray1_shading
+ShadingFactors
 
 1
 8
@@ -1681,7 +1681,7 @@ Subarray 1
 TabOrder
 3
 1
-subarray2_gcr_ref
+Numeric
 
 1
 16
@@ -1739,7 +1739,7 @@ BackColour
 TabOrder
 3
 6
-subarray2_mod_orient
+Choice
 
 1
 8
@@ -1767,7 +1767,7 @@ Selection
 TabOrder
 3
 5
-subarray2_nmodx
+Numeric
 
 1
 16
@@ -1825,7 +1825,7 @@ BackColour
 TabOrder
 3
 6
-subarray2_nmody
+Numeric
 
 1
 16
@@ -1883,7 +1883,7 @@ BackColour
 TabOrder
 3
 6
-subarray2_ref_nmodules
+Numeric
 
 1
 16
@@ -1941,7 +1941,7 @@ BackColour
 TabOrder
 3
 6
-subarray2_shade_mode
+Choice
 
 1
 8
@@ -1969,7 +1969,7 @@ Selection
 TabOrder
 3
 4294967295
-subarray2_shading
+ShadingFactors
 
 1
 8
@@ -1997,7 +1997,7 @@ Subarray 2
 TabOrder
 3
 4
-subarray3_gcr_ref
+Numeric
 
 1
 16
@@ -2055,7 +2055,7 @@ BackColour
 TabOrder
 3
 10
-subarray3_mod_orient
+Choice
 
 1
 8
@@ -2083,7 +2083,7 @@ Selection
 TabOrder
 3
 8
-subarray3_nmodx
+Numeric
 
 1
 16
@@ -2141,7 +2141,7 @@ BackColour
 TabOrder
 3
 10
-subarray3_nmody
+Numeric
 
 1
 16
@@ -2199,7 +2199,7 @@ BackColour
 TabOrder
 3
 10
-subarray3_ref_nmodules
+Numeric
 
 1
 16
@@ -2257,7 +2257,7 @@ BackColour
 TabOrder
 3
 10
-subarray3_shade_mode
+Choice
 
 1
 8
@@ -2285,7 +2285,7 @@ Selection
 TabOrder
 3
 4294967295
-subarray3_shading
+ShadingFactors
 
 1
 8
@@ -2313,7 +2313,7 @@ Subarray 3
 TabOrder
 3
 7
-subarray4_gcr_ref
+Numeric
 
 1
 16
@@ -2371,7 +2371,7 @@ BackColour
 TabOrder
 3
 13
-subarray4_mod_orient
+Choice
 
 1
 8
@@ -2399,7 +2399,7 @@ Selection
 TabOrder
 3
 12
-subarray4_nmodx
+Numeric
 
 1
 16
@@ -2457,7 +2457,7 @@ BackColour
 TabOrder
 3
 13
-subarray4_nmody
+Numeric
 
 1
 16
@@ -2515,7 +2515,7 @@ BackColour
 TabOrder
 3
 13
-subarray4_ref_nmodules
+Numeric
 
 1
 16
@@ -2573,7 +2573,7 @@ BackColour
 TabOrder
 3
 13
-subarray4_shade_mode
+Choice
 
 1
 8
@@ -2601,7 +2601,7 @@ Selection
 TabOrder
 3
 4294967295
-subarray4_shading
+ShadingFactors
 
 1
 8
@@ -2629,7 +2629,7 @@ Subarray 4
 TabOrder
 3
 11
-ui_msg_selfshad
+Label
 
 1
 12
@@ -2672,7 +2672,7 @@ AlignRight
 AlignTop
 2
 1
-ui_msg_snow
+Label
 
 1
 12
@@ -2715,7 +2715,7 @@ AlignRight
 AlignTop
 2
 1
-ui_subarray1_length_side
+Numeric
 
 1
 16
@@ -2773,7 +2773,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray1_nrows
+Numeric
 
 1
 16
@@ -2831,7 +2831,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_subarray1_row_spacing
+Numeric
 
 1
 16
@@ -2889,7 +2889,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray2_length_side
+Numeric
 
 1
 16
@@ -2947,7 +2947,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray2_nrows
+Numeric
 
 1
 16
@@ -3005,7 +3005,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_subarray2_row_spacing
+Numeric
 
 1
 16
@@ -3063,7 +3063,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray3_length_side
+Numeric
 
 1
 16
@@ -3121,7 +3121,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray3_nrows
+Numeric
 
 1
 16
@@ -3179,7 +3179,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_subarray3_row_spacing
+Numeric
 
 1
 16
@@ -3237,7 +3237,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray4_length_side
+Numeric
 
 1
 16
@@ -3295,7 +3295,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray4_nrows
+Numeric
 
 1
 16
@@ -3353,7 +3353,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_subarray4_row_spacing
+Numeric
 
 1
 16

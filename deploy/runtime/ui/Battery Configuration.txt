@@ -2,7 +2,7 @@ Battery Configuration
 1000
 151
 6
-Battery Configuration
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Power Converters
 Bold
 2
 1
-batt_ac_dc_efficiency
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_ac_or_dc
+RadioChoice
 
 1
 10
@@ -121,7 +121,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_dc_ac_efficiency
+Numeric
 
 1
 16
@@ -179,7 +179,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_dc_dc_efficiency
+Numeric
 
 1
 16
@@ -237,7 +237,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 7
+Label
 
 1
 12

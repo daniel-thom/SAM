@@ -2,7 +2,7 @@ Solar Water Heating
 889
 1187
 57
-FRUL
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 0
-FRta
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 0
-GroupBox1
+GroupBox
 
 1
 7
@@ -143,7 +143,7 @@ System
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -168,7 +168,7 @@ Solar Tank and Heat Exchanger
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -193,7 +193,7 @@ Piping and Pumping
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -218,7 +218,7 @@ Collector
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -243,7 +243,7 @@ Hot Water Draw
 Bold
 2
 1
-GroupBox8
+GroupBox
 
 1
 7
@@ -268,7 +268,7 @@ Advanced
 Bold
 2
 1
-T_room
+Numeric
 
 1
 16
@@ -326,7 +326,7 @@ BackColour
 TabOrder
 3
 31
-T_set
+Numeric
 
 1
 16
@@ -384,7 +384,7 @@ BackColour
 TabOrder
 3
 30
-T_tank_max
+Numeric
 
 1
 16
@@ -442,7 +442,7 @@ BackColour
 TabOrder
 3
 28
-U_tank
+Numeric
 
 1
 16
@@ -500,7 +500,7 @@ BackColour
 TabOrder
 3
 27
-V_tank
+Numeric
 
 1
 16
@@ -558,7 +558,7 @@ BackColour
 TabOrder
 3
 25
-adjust
+LossAdjustment
 
 1
 6
@@ -580,7 +580,7 @@ Height
 TabOrder
 3
 17
-albedo
+Numeric
 
 1
 16
@@ -638,7 +638,7 @@ BackColour
 TabOrder
 3
 12
-annual_draw
+Numeric
 
 1
 16
@@ -696,7 +696,7 @@ BackColour
 TabOrder
 3
 2
-area_coll
+Numeric
 
 1
 16
@@ -754,7 +754,7 @@ BackColour
 TabOrder
 3
 0
-azimuth
+Numeric
 
 1
 16
@@ -812,7 +812,7 @@ BackColour
 TabOrder
 3
 6
-coll_mode
+RadioChoice
 
 1
 10
@@ -848,7 +848,7 @@ Horizontal
 TabOrder
 3
 18
-custom_mains
+DataArray
 
 1
 9
@@ -879,7 +879,7 @@ Description
 TabOrder
 3
 39
-custom_set
+DataArray
 
 1
 9
@@ -910,7 +910,7 @@ Description
 TabOrder
 3
 41
-daily_draw
+Numeric
 
 1
 16
@@ -968,7 +968,7 @@ BackColour
 TabOrder
 3
 4
-draw
+DataArray
 
 1
 9
@@ -999,7 +999,7 @@ Description
 TabOrder
 3
 1
-edit_3d_scene
+Button
 
 1
 7
@@ -1024,7 +1024,7 @@ Open 3D shade calculator...
 TabOrder
 3
 16
-fluid
+Choice
 
 1
 8
@@ -1052,7 +1052,7 @@ Selection
 TabOrder
 3
 8
-hx_eff
+Numeric
 
 1
 16
@@ -1110,7 +1110,7 @@ BackColour
 TabOrder
 3
 29
-iam
+Numeric
 
 1
 16
@@ -1168,7 +1168,7 @@ BackColour
 TabOrder
 3
 0
-irrad_mode
+Choice
 
 1
 8
@@ -1198,7 +1198,7 @@ Selection
 TabOrder
 3
 11
-mdot
+Numeric
 
 1
 16
@@ -1256,7 +1256,7 @@ BackColour
 TabOrder
 3
 7
-ncoll
+Numeric
 
 1
 16
@@ -1314,7 +1314,7 @@ BackColour
 TabOrder
 3
 9
-object 22
+Divider
 
 1
 9
@@ -1348,7 +1348,7 @@ Shading
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -1382,7 +1382,7 @@ Shading
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1407,7 +1407,7 @@ User-defined collector
 Bold
 2
 0
-pipe_diam
+Numeric
 
 1
 16
@@ -1465,7 +1465,7 @@ BackColour
 TabOrder
 3
 33
-pipe_insul
+Numeric
 
 1
 16
@@ -1523,7 +1523,7 @@ BackColour
 TabOrder
 3
 35
-pipe_k
+Numeric
 
 1
 16
@@ -1581,7 +1581,7 @@ BackColour
 TabOrder
 3
 34
-pipe_length
+Numeric
 
 1
 16
@@ -1639,7 +1639,7 @@ BackColour
 TabOrder
 3
 32
-pump_eff
+Numeric
 
 1
 16
@@ -1697,7 +1697,7 @@ BackColour
 TabOrder
 3
 37
-pump_power
+Numeric
 
 1
 16
@@ -1755,7 +1755,7 @@ BackColour
 TabOrder
 3
 36
-shading
+ShadingFactors
 
 1
 8
@@ -1783,7 +1783,7 @@ Description
 TabOrder
 3
 15
-sky_model
+Choice
 
 1
 8
@@ -1814,7 +1814,7 @@ Selection
 TabOrder
 3
 10
-srcc_item
+Library
 
 1
 7
@@ -1839,7 +1839,7 @@ SRCC Collectors
 Fields
 5
 Name,SRCC Number,Type,Area,IAM,FRta,FRUL,Test Fluid,Test flow Rate
-system_capacity
+Numeric
 
 1
 16
@@ -1897,7 +1897,7 @@ BackColour
 TabOrder
 3
 14
-tank_h2d_ratio
+Numeric
 
 1
 16
@@ -1955,7 +1955,7 @@ BackColour
 TabOrder
 3
 26
-test_flow
+Numeric
 
 1
 16
@@ -2013,7 +2013,7 @@ BackColour
 TabOrder
 3
 0
-test_fluid
+Numeric
 
 1
 16
@@ -2071,7 +2071,7 @@ BackColour
 TabOrder
 3
 0
-tilt
+Numeric
 
 1
 16
@@ -2129,7 +2129,7 @@ BackColour
 TabOrder
 3
 5
-total_area
+Numeric
 
 1
 16
@@ -2187,7 +2187,7 @@ BackColour
 TabOrder
 3
 13
-use_custom_mains
+CheckBox
 
 1
 8
@@ -2215,7 +2215,7 @@ State
 TabOrder
 3
 38
-use_custom_set
+CheckBox
 
 1
 8
@@ -2243,7 +2243,7 @@ State
 TabOrder
 3
 40
-use_draw_scaling
+CheckBox
 
 1
 8
@@ -2271,7 +2271,7 @@ State
 TabOrder
 3
 3
-user_FRUL
+Numeric
 
 1
 16
@@ -2329,7 +2329,7 @@ BackColour
 TabOrder
 3
 21
-user_FRta
+Numeric
 
 1
 16
@@ -2387,7 +2387,7 @@ BackColour
 TabOrder
 3
 20
-user_area_coll
+Numeric
 
 1
 16
@@ -2445,7 +2445,7 @@ BackColour
 TabOrder
 3
 19
-user_iam
+Numeric
 
 1
 16
@@ -2503,7 +2503,7 @@ BackColour
 TabOrder
 3
 22
-user_test_flow
+Numeric
 
 1
 16
@@ -2561,7 +2561,7 @@ BackColour
 TabOrder
 3
 24
-user_test_fluid
+Choice
 
 1
 8

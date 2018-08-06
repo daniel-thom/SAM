@@ -2,7 +2,7 @@ HCPV Array
 744
 1068
 38
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Array Configuration
 Bold
 2
 1
-GroupBox11
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Tracker
 Bold
 2
 1
-GroupBox111
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Soiling and Derates
 Bold
 2
 1
-GroupBox1111
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Stowing
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Shading Derate
 Bold
 2
 1
-Groupgoxx
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Land Area
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -195,7 +195,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -238,7 +238,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -281,7 +281,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -324,7 +324,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -367,7 +367,7 @@ AlignRight
 AlignTop
 2
 1
-adjust
+LossAdjustment
 
 1
 6
@@ -389,7 +389,7 @@ Height
 TabOrder
 3
 24
-array_ac_wiring_loss
+Numeric
 
 1
 16
@@ -447,7 +447,7 @@ BackColour
 TabOrder
 3
 0
-array_dc_mismatch_loss
+Numeric
 
 1
 16
@@ -505,7 +505,7 @@ BackColour
 TabOrder
 3
 0
-array_dc_wiring_loss
+Numeric
 
 1
 16
@@ -563,7 +563,7 @@ BackColour
 TabOrder
 3
 0
-array_diode_conn_loss
+Numeric
 
 1
 16
@@ -621,7 +621,7 @@ BackColour
 TabOrder
 3
 0
-array_enable_azalt_sf
+CheckBox
 
 1
 8
@@ -649,7 +649,7 @@ State
 TabOrder
 3
 0
-array_modules_per_tracker
+Numeric
 
 1
 16
@@ -707,7 +707,7 @@ BackColour
 TabOrder
 3
 0
-array_monthly_soiling
+MonthlyFactor
 
 1
 7
@@ -732,7 +732,7 @@ Monthly soiling derate factor (0..1)
 TabOrder
 3
 4294967295
-array_num_inverters
+Numeric
 
 1
 16
@@ -790,7 +790,7 @@ BackColour
 TabOrder
 3
 0
-array_num_trackers
+Numeric
 
 1
 16
@@ -848,7 +848,7 @@ BackColour
 TabOrder
 3
 0
-array_rlim_az_max
+Numeric
 
 1
 16
@@ -906,7 +906,7 @@ BackColour
 TabOrder
 3
 0
-array_rlim_az_min
+Numeric
 
 1
 16
@@ -964,7 +964,7 @@ BackColour
 TabOrder
 3
 0
-array_rlim_el_max
+Numeric
 
 1
 16
@@ -1022,7 +1022,7 @@ BackColour
 TabOrder
 3
 0
-array_rlim_el_min
+Numeric
 
 1
 16
@@ -1080,7 +1080,7 @@ BackColour
 TabOrder
 3
 0
-array_tracker_power_fraction
+Numeric
 
 1
 16
@@ -1138,7 +1138,7 @@ BackColour
 TabOrder
 3
 0
-array_tracking_error
+Numeric
 
 1
 16
@@ -1196,7 +1196,7 @@ BackColour
 TabOrder
 3
 0
-array_wind_stow_speed
+Numeric
 
 1
 16
@@ -1254,7 +1254,7 @@ BackColour
 TabOrder
 3
 0
-azaltsf
+DataMatrix
 
 1
 22
@@ -1324,7 +1324,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-hcpv.array.ac_capacity
+Numeric
 
 1
 16
@@ -1382,7 +1382,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.array.nameplate
+Numeric
 
 1
 16
@@ -1440,7 +1440,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.array.overall_est_eff
+Numeric
 
 1
 16
@@ -1498,7 +1498,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.array.packing_factor
+Numeric
 
 1
 16
@@ -1556,7 +1556,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.array.single_tracker_nameplate
+Numeric
 
 1
 16
@@ -1614,7 +1614,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.array.total_land_area
+Numeric
 
 1
 16
@@ -1672,7 +1672,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.array.tracker_power
+Numeric
 
 1
 16
@@ -1730,7 +1730,7 @@ BackColour
 TabOrder
 3
 0
-object 22
+Divider
 
 1
 9
@@ -1764,7 +1764,7 @@ Availability and Curtailment
 Bold
 2
 1
-object 7
+Label
 
 1
 12

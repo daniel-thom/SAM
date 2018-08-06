@@ -2,7 +2,7 @@ Wind Farm Specifications
 808
 749
 29
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Losses and Wake Effects
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Losses and Wake Effects
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Turbine Layout
 Bold
 2
 1
-adjust
+LossAdjustment
 
 1
 6
@@ -99,7 +99,7 @@ Height
 TabOrder
 3
 24
-btnOpenTurbineLocationFile
+Button
 
 1
 7
@@ -124,7 +124,7 @@ Import turbine layout file...
 TabOrder
 3
 0
-desired_farm_size
+Numeric
 
 1
 16
@@ -182,7 +182,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 22
+Divider
 
 1
 9
@@ -216,7 +216,7 @@ Availability and Curtailment
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -259,7 +259,7 @@ AlignRight
 AlignTop
 2
 1
-sizing_warning
+Label
 
 1
 12
@@ -302,7 +302,7 @@ AlignRight
 AlignTop
 2
 1
-specify_label
+Label
 
 1
 12
@@ -345,7 +345,7 @@ AlignRight
 AlignTop
 2
 1
-system_capacity
+Numeric
 
 1
 16
@@ -403,7 +403,7 @@ BackColour
 TabOrder
 3
 9
-wind_farm_losses_percent
+Numeric
 
 1
 16
@@ -461,7 +461,7 @@ BackColour
 TabOrder
 3
 10
-wind_farm_num_turbines
+Numeric
 
 1
 16
@@ -519,7 +519,7 @@ BackColour
 TabOrder
 3
 8
-wind_farm_sizing_mode
+RadioChoice
 
 1
 10
@@ -556,7 +556,7 @@ Horizontal
 TabOrder
 3
 4294967295
-wind_farm_wake_model
+Choice
 
 1
 8
@@ -587,7 +587,7 @@ Selection
 TabOrder
 3
 8
-wind_resource_turbulence_coeff
+Numeric
 
 1
 16
@@ -645,7 +645,7 @@ BackColour
 TabOrder
 3
 12
-windfarm.farm.compass_rose
+Image
 
 1
 7
@@ -670,7 +670,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/Wind Farm Specificatio
 Centered
 2
 1
-windfarm.farm.layout_angle
+Numeric
 
 1
 16
@@ -728,7 +728,7 @@ BackColour
 TabOrder
 3
 9
-windfarm.farm.layout_slider
+Slider
 
 1
 9
@@ -759,7 +759,7 @@ Max
 TabOrder
 3
 4294967295
-windfarm.farm.number_of_rows
+Numeric
 
 1
 16
@@ -817,7 +817,7 @@ BackColour
 TabOrder
 3
 4
-windfarm.farm.offset
+Numeric
 
 1
 16
@@ -875,7 +875,7 @@ BackColour
 TabOrder
 3
 7
-windfarm.farm.offset_type
+Choice
 
 1
 8
@@ -905,7 +905,7 @@ Selection
 TabOrder
 3
 8
-windfarm.farm.row_spacing
+Numeric
 
 1
 16
@@ -963,7 +963,7 @@ BackColour
 TabOrder
 3
 6
-windfarm.farm.shape
+Choice
 
 1
 8
@@ -993,7 +993,7 @@ Selection
 TabOrder
 3
 2
-windfarm.farm.turbine_spacing
+Numeric
 
 1
 16
@@ -1051,7 +1051,7 @@ BackColour
 TabOrder
 3
 5
-windfarm.farm.turbines_per_row
+Numeric
 
 1
 16
@@ -1109,7 +1109,7 @@ BackColour
 TabOrder
 3
 3
-windfarm.layout.file_or_controls
+RadioChoice
 
 1
 10
@@ -1145,7 +1145,7 @@ Horizontal
 TabOrder
 3
 0
-windfarm.layout_message
+Label
 
 1
 12
@@ -1188,7 +1188,7 @@ AlignRight
 AlignTop
 2
 1
-windfarm_plot
+Plot
 
 1
 5

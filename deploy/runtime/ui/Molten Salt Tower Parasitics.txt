@@ -2,7 +2,7 @@ Molten Salt Tower Parasitics
 883
 149
 18
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Parasitic Energy Consumption
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-aux_par
+Numeric
 
 1
 16
@@ -257,7 +257,7 @@ BackColour
 TabOrder
 3
 17
-aux_par_0
+Numeric
 
 1
 16
@@ -315,7 +315,7 @@ BackColour
 TabOrder
 3
 19
-aux_par_1
+Numeric
 
 1
 16
@@ -373,7 +373,7 @@ BackColour
 TabOrder
 3
 20
-aux_par_2
+Numeric
 
 1
 16
@@ -431,7 +431,7 @@ BackColour
 TabOrder
 3
 21
-aux_par_f
+Numeric
 
 1
 16
@@ -489,7 +489,7 @@ BackColour
 TabOrder
 3
 18
-bop_par
+Numeric
 
 1
 16
@@ -547,7 +547,7 @@ BackColour
 TabOrder
 3
 11
-bop_par_0
+Numeric
 
 1
 16
@@ -605,7 +605,7 @@ BackColour
 TabOrder
 3
 13
-bop_par_1
+Numeric
 
 1
 16
@@ -663,7 +663,7 @@ BackColour
 TabOrder
 3
 14
-bop_par_2
+Numeric
 
 1
 16
@@ -721,7 +721,7 @@ BackColour
 TabOrder
 3
 15
-bop_par_f
+Numeric
 
 1
 16
@@ -779,7 +779,7 @@ BackColour
 TabOrder
 3
 12
-csp.pt.par.calc.aux
+Numeric
 
 1
 16
@@ -837,7 +837,7 @@ BackColour
 TabOrder
 3
 22
-csp.pt.par.calc.bop
+Numeric
 
 1
 16
@@ -895,7 +895,7 @@ BackColour
 TabOrder
 3
 16
-pb_fixed_par
+Numeric
 
 1
 16

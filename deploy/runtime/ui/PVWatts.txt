@@ -2,7 +2,7 @@ PVWatts
 587
 764
 32
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ System Parameters
 Bold
 2
 1
-ac_nameplate
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 4
-adjust
+LossAdjustment
 
 1
 6
@@ -107,7 +107,7 @@ Height
 TabOrder
 3
 24
-array_type
+Choice
 
 1
 8
@@ -140,7 +140,7 @@ Selection
 TabOrder
 3
 6
-azimuth
+Numeric
 
 1
 16
@@ -198,7 +198,7 @@ BackColour
 TabOrder
 3
 8
-dc_ac_ratio
+Numeric
 
 1
 16
@@ -256,7 +256,7 @@ BackColour
 TabOrder
 3
 3
-edit_3d_scene
+Button
 
 1
 7
@@ -281,7 +281,7 @@ Open 3D shade calculator...
 TabOrder
 3
 4294967295
-en_user_spec_losses
+CheckBox
 
 1
 8
@@ -309,7 +309,7 @@ State
 TabOrder
 3
 20
-gcr
+Numeric
 
 1
 16
@@ -367,7 +367,7 @@ BackColour
 TabOrder
 3
 9
-inv_eff
+Numeric
 
 1
 16
@@ -425,7 +425,7 @@ BackColour
 TabOrder
 3
 5
-loss_age
+Numeric
 
 1
 16
@@ -483,7 +483,7 @@ BackColour
 TabOrder
 3
 18
-loss_avail
+Numeric
 
 1
 16
@@ -541,7 +541,7 @@ BackColour
 TabOrder
 3
 19
-loss_conn
+Numeric
 
 1
 16
@@ -599,7 +599,7 @@ BackColour
 TabOrder
 3
 15
-loss_lid
+Numeric
 
 1
 16
@@ -657,7 +657,7 @@ BackColour
 TabOrder
 3
 16
-loss_mismatch
+Numeric
 
 1
 16
@@ -715,7 +715,7 @@ BackColour
 TabOrder
 3
 13
-loss_nameplate
+Numeric
 
 1
 16
@@ -773,7 +773,7 @@ BackColour
 TabOrder
 3
 17
-loss_shading
+Numeric
 
 1
 16
@@ -831,7 +831,7 @@ BackColour
 TabOrder
 3
 11
-loss_snow
+Numeric
 
 1
 16
@@ -889,7 +889,7 @@ BackColour
 TabOrder
 3
 12
-loss_soiling
+Numeric
 
 1
 16
@@ -947,7 +947,7 @@ BackColour
 TabOrder
 3
 10
-loss_wiring
+Numeric
 
 1
 16
@@ -1005,7 +1005,7 @@ BackColour
 TabOrder
 3
 14
-losses
+Numeric
 
 1
 16
@@ -1063,7 +1063,7 @@ BackColour
 TabOrder
 3
 22
-losses_user
+Numeric
 
 1
 16
@@ -1121,7 +1121,7 @@ BackColour
 TabOrder
 3
 21
-module_type
+Choice
 
 1
 8
@@ -1152,7 +1152,7 @@ Selection
 TabOrder
 3
 2
-object 12
+Image
 
 1
 7
@@ -1177,7 +1177,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PVWatts_object 12.png
 Centered
 2
 1
-object 22
+Divider
 
 1
 9
@@ -1211,7 +1211,7 @@ Curtailment and Availability
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -1245,7 +1245,7 @@ Curtailment and Availability
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1270,7 +1270,7 @@ Losses
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1295,7 +1295,7 @@ Losses
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1338,7 +1338,7 @@ AlignRight
 AlignTop
 2
 1
-shading
+ShadingFactors
 
 1
 8
@@ -1366,7 +1366,7 @@ Description
 TabOrder
 3
 23
-system_capacity
+Numeric
 
 1
 16
@@ -1424,7 +1424,7 @@ BackColour
 TabOrder
 3
 1
-tilt
+Numeric
 
 1
 16

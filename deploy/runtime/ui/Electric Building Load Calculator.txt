@@ -2,7 +2,7 @@ Electric Building Load Calculator
 636
 621
 64
-GroupBox3
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Annual Adjustment
 Bold
 2
 1
-GroupBoxBELPE
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Building Energy Load Profile Estimator
 Bold
 2
 1
-Label4
+Label
 
 1
 12
@@ -95,7 +95,7 @@ AlignRight
 AlignTop
 2
 1
-Occ_Schedule
+SchedNumeric
 
 1
 11
@@ -132,7 +132,7 @@ Type a fraction for each hour of the day.
 TabOrder
 3
 6
-Occupants
+Numeric
 
 1
 16
@@ -190,7 +190,7 @@ BackColour
 TabOrder
 3
 4
-Retrofits
+CheckBox
 
 1
 8
@@ -218,7 +218,7 @@ State
 TabOrder
 3
 5
-Stories
+Numeric
 
 1
 16
@@ -276,7 +276,7 @@ BackColour
 TabOrder
 3
 3
-TCool
+Numeric
 
 1
 16
@@ -334,7 +334,7 @@ BackColour
 TabOrder
 3
 16
-TCoolSB
+Numeric
 
 1
 16
@@ -392,7 +392,7 @@ BackColour
 TabOrder
 3
 18
-THeat
+Numeric
 
 1
 16
@@ -450,7 +450,7 @@ BackColour
 TabOrder
 3
 15
-THeatSB
+Numeric
 
 1
 16
@@ -508,7 +508,7 @@ BackColour
 TabOrder
 3
 17
-T_Sched
+SchedNumeric
 
 1
 11
@@ -545,7 +545,7 @@ Type a one (on) or zero (off) for each hour of the day.
 TabOrder
 3
 19
-YrBuilt
+Numeric
 
 1
 16
@@ -603,7 +603,7 @@ BackColour
 TabOrder
 3
 2
-btnViewLoad
+Button
 
 1
 7
@@ -628,7 +628,7 @@ View load data...
 TabOrder
 3
 4294967295
-divider_building_char
+Divider
 
 1
 9
@@ -662,7 +662,7 @@ Building Characteristics
 Bold
 2
 1
-divider_elec_appliances
+Divider
 
 1
 9
@@ -696,7 +696,7 @@ Electric Appliances
 Bold
 2
 1
-divider_monthly_load
+Divider
 
 1
 9
@@ -730,7 +730,7 @@ Monthly Load Data
 Bold
 2
 1
-divider_temp_setpoints
+Divider
 
 1
 9
@@ -764,7 +764,7 @@ Temperature Settings
 Bold
 2
 1
-en_cool
+CheckBox
 
 1
 8
@@ -792,7 +792,7 @@ State
 TabOrder
 3
 7
-en_dish
+CheckBox
 
 1
 8
@@ -820,7 +820,7 @@ State
 TabOrder
 3
 11
-en_dry
+CheckBox
 
 1
 8
@@ -848,7 +848,7 @@ State
 TabOrder
 3
 13
-en_fridge
+CheckBox
 
 1
 8
@@ -876,7 +876,7 @@ State
 TabOrder
 3
 10
-en_heat
+CheckBox
 
 1
 8
@@ -904,7 +904,7 @@ State
 TabOrder
 3
 8
-en_mels
+CheckBox
 
 1
 8
@@ -932,7 +932,7 @@ State
 TabOrder
 3
 14
-en_range
+CheckBox
 
 1
 8
@@ -960,7 +960,7 @@ State
 TabOrder
 3
 9
-en_wash
+CheckBox
 
 1
 8
@@ -988,7 +988,7 @@ State
 TabOrder
 3
 12
-escal_input_belpe
+SchedNumeric
 
 1
 11
@@ -1025,7 +1025,7 @@ Type a load growth rate (%) for each year. Each year's growth rate applies to th
 TabOrder
 3
 32
-floor_area
+Numeric
 
 1
 16
@@ -1083,7 +1083,7 @@ BackColour
 TabOrder
 3
 1
-load_1
+Numeric
 
 1
 16
@@ -1141,7 +1141,7 @@ BackColour
 TabOrder
 3
 20
-load_10
+Numeric
 
 1
 16
@@ -1199,7 +1199,7 @@ BackColour
 TabOrder
 3
 29
-load_11
+Numeric
 
 1
 16
@@ -1257,7 +1257,7 @@ BackColour
 TabOrder
 3
 30
-load_12
+Numeric
 
 1
 16
@@ -1315,7 +1315,7 @@ BackColour
 TabOrder
 3
 31
-load_2
+Numeric
 
 1
 16
@@ -1373,7 +1373,7 @@ BackColour
 TabOrder
 3
 21
-load_3
+Numeric
 
 1
 16
@@ -1431,7 +1431,7 @@ BackColour
 TabOrder
 3
 22
-load_4
+Numeric
 
 1
 16
@@ -1489,7 +1489,7 @@ BackColour
 TabOrder
 3
 23
-load_5
+Numeric
 
 1
 16
@@ -1547,7 +1547,7 @@ BackColour
 TabOrder
 3
 24
-load_6
+Numeric
 
 1
 16
@@ -1605,7 +1605,7 @@ BackColour
 TabOrder
 3
 25
-load_7
+Numeric
 
 1
 16
@@ -1663,7 +1663,7 @@ BackColour
 TabOrder
 3
 26
-load_8
+Numeric
 
 1
 16
@@ -1721,7 +1721,7 @@ BackColour
 TabOrder
 3
 27
-load_9
+Numeric
 
 1
 16
@@ -1779,7 +1779,7 @@ BackColour
 TabOrder
 3
 28
-object 7
+Label
 
 1
 12
@@ -1822,7 +1822,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1865,7 +1865,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1908,7 +1908,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1951,7 +1951,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1994,7 +1994,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2037,7 +2037,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2080,7 +2080,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2123,7 +2123,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2166,7 +2166,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2209,7 +2209,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2252,7 +2252,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2295,7 +2295,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2338,7 +2338,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2381,7 +2381,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2424,7 +2424,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2467,7 +2467,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2510,7 +2510,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2553,7 +2553,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2596,7 +2596,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2639,7 +2639,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2682,7 +2682,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2725,7 +2725,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2768,7 +2768,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12

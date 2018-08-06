@@ -2,7 +2,7 @@ Battery Ancillary Losses
 996
 219
 9
-Additional equipment losses
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Ancillary Equipment Losses
 Bold
 2
 1
-Loss label
+Divider
 
 1
 9
@@ -61,7 +61,7 @@ Loss input
 Bold
 2
 1
-batt_loss_choice
+RadioChoice
 
 1
 10
@@ -97,7 +97,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_losses
+DataArray
 
 1
 9
@@ -128,7 +128,7 @@ Battery system losses are power losses that apply system output
 TabOrder
 3
 4294967295
-batt_losses_charging
+MonthlyFactor
 
 1
 7
@@ -153,7 +153,7 @@ Single or monthly
 TabOrder
 3
 4294967295
-batt_losses_discharging
+MonthlyFactor
 
 1
 7
@@ -178,7 +178,7 @@ Single or monthly
 TabOrder
 3
 4294967295
-batt_losses_idle
+MonthlyFactor
 
 1
 7
@@ -203,7 +203,7 @@ Single or monthly
 TabOrder
 3
 4294967295
-object 7
+Label
 
 1
 12
@@ -246,7 +246,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12

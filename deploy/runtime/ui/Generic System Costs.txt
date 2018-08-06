@@ -2,7 +2,7 @@ Generic System Costs
 792
 449
 46
-GroupBox11
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Direct Capital Costs
 Bold
 2
 1
-GroupBox211
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox311
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Total Installed Costs
 Bold
 2
 1
-Label111
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -206,7 +206,7 @@ AlignRight
 AlignTop
 2
 0
-fixed_plant_input
+Numeric
 
 1
 16
@@ -264,7 +264,7 @@ BackColour
 TabOrder
 3
 1
-genericsys.cost.contingency
+Numeric
 
 1
 16
@@ -322,7 +322,7 @@ BackColour
 TabOrder
 3
 6
-genericsys.cost.contingency_percent
+Numeric
 
 1
 16
@@ -380,7 +380,7 @@ BackColour
 TabOrder
 3
 3
-genericsys.cost.epc.fixed
+Numeric
 
 1
 16
@@ -438,7 +438,7 @@ BackColour
 TabOrder
 3
 5
-genericsys.cost.epc.nonfixed
+Numeric
 
 1
 16
@@ -496,7 +496,7 @@ BackColour
 TabOrder
 3
 9
-genericsys.cost.epc.percent
+Numeric
 
 1
 16
@@ -554,7 +554,7 @@ BackColour
 TabOrder
 3
 4
-genericsys.cost.epc.total
+Numeric
 
 1
 16
@@ -612,7 +612,7 @@ BackColour
 TabOrder
 3
 11
-genericsys.cost.installed_per_capacity
+Numeric
 
 1
 16
@@ -670,7 +670,7 @@ BackColour
 TabOrder
 3
 21
-genericsys.cost.per_watt
+Numeric
 
 1
 16
@@ -728,7 +728,7 @@ BackColour
 TabOrder
 3
 2
-genericsys.cost.plant
+Numeric
 
 1
 16
@@ -786,7 +786,7 @@ BackColour
 TabOrder
 3
 3
-genericsys.cost.plant_scaled
+Numeric
 
 1
 16
@@ -844,7 +844,7 @@ BackColour
 TabOrder
 3
 4
-genericsys.cost.plm.fixed
+Numeric
 
 1
 16
@@ -902,7 +902,7 @@ BackColour
 TabOrder
 3
 7
-genericsys.cost.plm.nonfixed
+Numeric
 
 1
 16
@@ -960,7 +960,7 @@ BackColour
 TabOrder
 3
 13
-genericsys.cost.plm.percent
+Numeric
 
 1
 16
@@ -1018,7 +1018,7 @@ BackColour
 TabOrder
 3
 6
-genericsys.cost.plm.total
+Numeric
 
 1
 16
@@ -1076,7 +1076,7 @@ BackColour
 TabOrder
 3
 15
-genericsys.cost.sales_tax.percent
+Numeric
 
 1
 16
@@ -1134,7 +1134,7 @@ BackColour
 TabOrder
 3
 8
-genericsys.cost.sales_tax.total
+Numeric
 
 1
 16
@@ -1192,7 +1192,7 @@ BackColour
 TabOrder
 3
 18
-genericsys.cost.sales_tax.value
+Numeric
 
 1
 16
@@ -1250,7 +1250,7 @@ BackColour
 TabOrder
 3
 16
-lblFinancingCost
+Label
 
 1
 12
@@ -1293,7 +1293,7 @@ AlignRight
 AlignTop
 2
 1
-nameplate_capacity
+Numeric
 
 1
 16
@@ -1351,7 +1351,7 @@ BackColour
 TabOrder
 3
 1
-object 21
+Divider
 
 1
 9
@@ -1385,7 +1385,7 @@ Sales Tax
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1419,7 +1419,7 @@ Sales Tax
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -1453,7 +1453,7 @@ Sales Tax
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1496,7 +1496,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1539,7 +1539,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1582,7 +1582,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1625,7 +1625,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1668,7 +1668,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1711,7 +1711,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1754,7 +1754,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1797,7 +1797,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1840,7 +1840,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1883,7 +1883,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1926,7 +1926,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1969,7 +1969,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2012,7 +2012,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2055,7 +2055,7 @@ AlignRight
 AlignTop
 2
 0
-total_direct_cost
+Numeric
 
 1
 16
@@ -2113,7 +2113,7 @@ BackColour
 TabOrder
 3
 7
-total_indirect_cost
+Numeric
 
 1
 16
@@ -2171,7 +2171,7 @@ BackColour
 TabOrder
 3
 19
-total_installed_cost
+Numeric
 
 1
 16

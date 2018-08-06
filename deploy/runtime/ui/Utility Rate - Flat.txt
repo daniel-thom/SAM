@@ -2,7 +2,7 @@ Utility Rate - Flat
 985
 523
 21
-GroupBox10
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ OpenEI U.S. Utility Rate Database
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Minimum Charges
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Minimum Charges
 Bold
 2
 1
-GroupBox7
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Fixed Charge
 Bold
 2
 1
-GroupBox71
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Monthly Accounting of Excess Generation
 Bold
 2
 1
-GroupBox9
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Annual Escalation
 Bold
 2
 1
-Label4
+Label
 
 1
 12
@@ -195,7 +195,7 @@ AlignRight
 AlignTop
 2
 1
-Label41
+Label
 
 1
 12
@@ -238,7 +238,7 @@ AlignRight
 AlignTop
 2
 1
-btnLoadRateData
+Button
 
 1
 7
@@ -263,7 +263,7 @@ Load rate from file...
 TabOrder
 3
 4294967295
-btnQueryOpenEI
+Button
 
 1
 7
@@ -288,7 +288,7 @@ Search for rates...
 TabOrder
 3
 0
-btnSaveRateData
+Button
 
 1
 7
@@ -313,7 +313,7 @@ Save rate to file...
 TabOrder
 3
 4294967295
-rate_escalation
+SchedNumeric
 
 1
 11
@@ -350,7 +350,7 @@ Type an escalation rate (%) for each year. Each year's rate applies to the first
 TabOrder
 3
 8
-ur_annual_min_charge
+Numeric
 
 1
 16
@@ -408,7 +408,7 @@ BackColour
 TabOrder
 3
 11
-ur_en_ts_sell_rate
+CheckBox
 
 1
 8
@@ -436,7 +436,7 @@ State
 TabOrder
 3
 4294967295
-ur_metering_option
+RadioChoice
 
 1
 10
@@ -475,7 +475,7 @@ Horizontal
 TabOrder
 3
 4294967295
-ur_monthly_fixed_charge
+Numeric
 
 1
 16
@@ -533,7 +533,7 @@ BackColour
 TabOrder
 3
 7
-ur_monthly_min_charge
+Numeric
 
 1
 16
@@ -591,7 +591,7 @@ BackColour
 TabOrder
 3
 10
-ur_nm_yearend_sell_rate
+Numeric
 
 1
 16
@@ -649,7 +649,7 @@ BackColour
 TabOrder
 3
 11
-ur_rate_url
+Hyperlink
 
 1
 8
@@ -677,7 +677,7 @@ http://en.openei.org/wiki/Utility_Rate_Database
 TabOrder
 3
 4294967295
-ur_ratedata_filename
+TextEntry
 
 1
 10
@@ -717,7 +717,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_ts_sell_rate
+DataArray
 
 1
 9

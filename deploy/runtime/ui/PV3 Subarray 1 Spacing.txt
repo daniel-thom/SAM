@@ -2,7 +2,7 @@ PV3 Subarray 1 Spacing
 742
 411
 14
-Label121113
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 0
-module_area
+Numeric
 
 1
 16
@@ -103,7 +103,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 12
+Image
 
 1
 7
@@ -128,7 +128,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV3 Subarray 1 Spacing
 Centered
 2
 1
-object 7
+Label
 
 1
 12
@@ -171,7 +171,7 @@ AlignRight
 AlignTop
 2
 0
-self_shading_diagram
+Image
 
 1
 7
@@ -196,7 +196,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV3 Subarray 1 Spacing
 Centered
 2
 1
-subarray1_gcr_ref
+Numeric
 
 1
 16
@@ -254,7 +254,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_mod_orient
+Choice
 
 1
 8
@@ -282,7 +282,7 @@ Selection
 TabOrder
 3
 2
-subarray1_nmodx
+Numeric
 
 1
 16
@@ -340,7 +340,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_nmody
+Numeric
 
 1
 16
@@ -398,7 +398,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_shade_mode
+Choice
 
 1
 8
@@ -429,7 +429,7 @@ Selection
 TabOrder
 3
 4294967295
-ui_msg_selfshad
+Label
 
 1
 12
@@ -472,7 +472,7 @@ AlignRight
 AlignTop
 2
 1
-ui_subarray1_length_side
+Numeric
 
 1
 16
@@ -530,7 +530,7 @@ BackColour
 TabOrder
 3
 3
-ui_subarray1_nrows
+Numeric
 
 1
 16
@@ -588,7 +588,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_subarray1_row_spacing
+Numeric
 
 1
 16

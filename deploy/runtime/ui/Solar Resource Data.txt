@@ -2,7 +2,7 @@ Solar Resource Data
 886
 766
 38
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Solar Resource Library
 Bold
 2
 1
-Hyperlink2
+Hyperlink
 
 1
 8
@@ -55,7 +55,7 @@ https://sam.nrel.gov/weather-data
 TabOrder
 3
 0
-annual_beam
+Numeric
 
 1
 16
@@ -113,7 +113,7 @@ BackColour
 TabOrder
 3
 4294967295
-annual_diffuse
+Numeric
 
 1
 16
@@ -171,7 +171,7 @@ BackColour
 TabOrder
 3
 4294967295
-annual_global
+Numeric
 
 1
 16
@@ -229,7 +229,7 @@ BackColour
 TabOrder
 3
 4294967295
-annual_snow
+Numeric
 
 1
 16
@@ -287,7 +287,7 @@ BackColour
 TabOrder
 3
 4294967295
-annual_tdry
+Numeric
 
 1
 16
@@ -345,7 +345,7 @@ BackColour
 TabOrder
 3
 4294967295
-annual_wspd
+Numeric
 
 1
 16
@@ -403,7 +403,7 @@ BackColour
 TabOrder
 3
 4294967295
-city
+TextEntry
 
 1
 10
@@ -443,7 +443,7 @@ BackColour
 TabOrder
 3
 6
-country
+TextEntry
 
 1
 10
@@ -483,7 +483,7 @@ BackColour
 TabOrder
 3
 7
-download_weather_file
+Button
 
 1
 7
@@ -508,7 +508,7 @@ Download a TMY file for Americas...
 TabOrder
 3
 1
-dview_for_solar
+Button
 
 1
 7
@@ -533,7 +533,7 @@ View weather file data...
 TabOrder
 3
 3
-elev
+Numeric
 
 1
 16
@@ -591,7 +591,7 @@ BackColour
 TabOrder
 3
 9
-lat
+Numeric
 
 1
 16
@@ -649,7 +649,7 @@ BackColour
 TabOrder
 3
 10
-lbl_csp
+Label
 
 1
 12
@@ -692,7 +692,7 @@ AlignRight
 AlignTop
 2
 1
-lon
+Numeric
 
 1
 16
@@ -750,7 +750,7 @@ BackColour
 TabOrder
 3
 11
-nsrdb_all
+Button
 
 1
 7
@@ -775,7 +775,7 @@ TMY or Single-year for Americas and Asia...
 TabOrder
 3
 2
-object 14
+Hyperlink
 
 1
 8
@@ -803,7 +803,7 @@ https://maps.nrel.gov/nsrdb-viewer/#/?aL=j0s5CD%255Bv%255D%3Dt%26e8KZAu%255Bv%25
 TabOrder
 3
 4294967295
-object 22
+Divider
 
 1
 9
@@ -837,7 +837,7 @@ Files in Library
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -871,7 +871,7 @@ Files in Library
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -905,7 +905,7 @@ Files in Library
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -930,7 +930,7 @@ NREL National Solar Radiation Database (NSRDB)
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -955,7 +955,7 @@ NREL National Solar Radiation Database (NSRDB)
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -998,7 +998,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1041,7 +1041,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1084,7 +1084,7 @@ AlignRight
 AlignTop
 2
 1
-open_containing_folder
+Button
 
 1
 7
@@ -1109,7 +1109,7 @@ Open default library folder...
 TabOrder
 3
 6
-refresh_library
+Button
 
 1
 7
@@ -1134,7 +1134,7 @@ Refresh library
 TabOrder
 3
 4
-select_weather_file
+Button
 
 1
 7
@@ -1159,7 +1159,7 @@ Browse...
 TabOrder
 3
 9
-solar_data_file_name
+TextEntry
 
 1
 10
@@ -1199,7 +1199,7 @@ BackColour
 TabOrder
 3
 4294967295
-solar_data_settings
+Button
 
 1
 7
@@ -1224,7 +1224,7 @@ Folder settings...
 TabOrder
 3
 5
-solar_data_source
+TextEntry
 
 1
 10
@@ -1264,7 +1264,7 @@ BackColour
 TabOrder
 3
 7
-solar_resource
+Library
 
 1
 7
@@ -1289,7 +1289,7 @@ SolarResourceData
 Fields
 5
 Name,Station ID,Latitude,Longitude,Time zone,Elevation,Source
-state
+TextEntry
 
 1
 10
@@ -1329,7 +1329,7 @@ BackColour
 TabOrder
 3
 7
-station_id
+TextEntry
 
 1
 10
@@ -1369,7 +1369,7 @@ BackColour
 TabOrder
 3
 7
-tz
+Numeric
 
 1
 16
@@ -1427,7 +1427,7 @@ BackColour
 TabOrder
 3
 8
-use_specific_weather_file
+CheckBox
 
 1
 8
@@ -1455,7 +1455,7 @@ State
 TabOrder
 3
 7
-user_specified_weather_file
+TextEntry
 
 1
 10

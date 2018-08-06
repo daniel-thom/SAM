@@ -2,7 +2,7 @@ ISCC Receiver and Powerblock
 875
 379
 16
-T_htf_cold_des
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_htf_hot_des
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_steam_sh_out_des
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 4294967295
-W_dot_solar_des
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 4294967295
-adjust
+LossAdjustment
 
 1
 6
@@ -256,7 +256,7 @@ Height
 TabOrder
 3
 4294967295
-fossil_output
+Numeric
 
 1
 16
@@ -314,7 +314,7 @@ BackColour
 TabOrder
 3
 4294967295
-max_solar_design
+Numeric
 
 1
 16
@@ -372,7 +372,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -397,7 +397,7 @@ DESIGN POINT Integration with Natural Gas Combined Cycle
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -422,7 +422,7 @@ DESIGN POINT Integration with Natural Gas Combined Cycle
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -465,7 +465,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -508,7 +508,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -551,7 +551,7 @@ AlignRight
 AlignTop
 2
 1
-pb_pump_coef
+Numeric
 
 1
 16
@@ -609,7 +609,7 @@ BackColour
 TabOrder
 3
 4294967295
-pinch_point_coldside
+Numeric
 
 1
 16
@@ -667,7 +667,7 @@ BackColour
 TabOrder
 3
 4294967295
-pinch_point_hotside
+Numeric
 
 1
 16
@@ -725,7 +725,7 @@ BackColour
 TabOrder
 3
 4294967295
-q_pb_design
+Numeric
 
 1
 16

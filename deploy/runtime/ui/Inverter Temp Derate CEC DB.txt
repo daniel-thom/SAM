@@ -2,7 +2,7 @@ Inverter Temp Derate CEC DB
 994
 308
 4
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Inverter Temperature Derate Curves
 Bold
 2
 1
-btn_update_cec_db_plot
+Button
 
 1
 7
@@ -52,7 +52,7 @@ Update plot
 TabOrder
 3
 4294967295
-inv_tdc_cec_db
+DataMatrix
 
 1
 22
@@ -122,7 +122,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-inv_tdc_cec_db_plot
+Plot
 
 1
 5

@@ -2,7 +2,7 @@ Wind Resource File
 753
 698
 20
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Choose a representative typical wind resource file
 Bold
 2
 1
-btnScanLibrary
+Button
 
 1
 7
@@ -52,7 +52,7 @@ Refresh Library
 TabOrder
 3
 4294967295
-btnWindLocationLookup
+Button
 
 1
 7
@@ -77,7 +77,7 @@ Download...
 TabOrder
 3
 1
-object 4
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Download a wind resource file from the online NREL WIND Toolkit (continental U.S
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Download a wind resource file from the online NREL WIND Toolkit (continental U.S
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -170,7 +170,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -213,7 +213,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -256,7 +256,7 @@ AlignRight
 AlignTop
 2
 1
-select_wf_wind
+Button
 
 1
 7
@@ -281,7 +281,7 @@ Browse...
 TabOrder
 3
 4294967295
-use_specific_wf_wind
+CheckBox
 
 1
 8
@@ -309,7 +309,7 @@ State
 TabOrder
 3
 4294967295
-user_specified_wf_wind
+TextEntry
 
 1
 10
@@ -349,7 +349,7 @@ BackColour
 TabOrder
 3
 4294967295
-wind_resource.city
+TextEntry
 
 1
 10
@@ -389,7 +389,7 @@ BackColour
 TabOrder
 3
 0
-wind_resource.country
+TextEntry
 
 1
 10
@@ -429,7 +429,7 @@ BackColour
 TabOrder
 3
 4294967295
-wind_resource.description
+TextEntry
 
 1
 10
@@ -469,7 +469,7 @@ BackColour
 TabOrder
 3
 0
-wind_resource.elev
+Numeric
 
 1
 16
@@ -527,7 +527,7 @@ BackColour
 TabOrder
 3
 4294967295
-wind_resource.file
+TextEntry
 
 1
 10
@@ -567,7 +567,7 @@ BackColour
 TabOrder
 3
 4294967295
-wind_resource.lat
+Numeric
 
 1
 16
@@ -625,7 +625,7 @@ BackColour
 TabOrder
 3
 4294967295
-wind_resource.location
+Library
 
 1
 7
@@ -650,7 +650,7 @@ WindResourceData
 Fields
 5
 Description,State
-wind_resource.lon
+Numeric
 
 1
 16
@@ -708,7 +708,7 @@ BackColour
 TabOrder
 3
 4294967295
-wind_resource.state
+TextEntry
 
 1
 10

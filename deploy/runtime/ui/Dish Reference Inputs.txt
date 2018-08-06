@@ -2,7 +2,7 @@ Dish Reference Inputs
 699
 511
 19
-DELTA_T_DIR
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 4
-GroupBox1
+GroupBox
 
 1
 7
@@ -85,7 +85,7 @@ Collector Reference Condition Inputs
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -110,7 +110,7 @@ Receiver Reference Condition Inputs
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -135,7 +135,7 @@ Parasitic Variable Reference Conditions
 Bold
 2
 1
-Label2
+Label
 
 1
 12
@@ -178,7 +178,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -221,7 +221,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -264,7 +264,7 @@ AlignRight
 AlignTop
 2
 0
-csp.ds.refc.coolfluid
+Choice
 
 1
 8
@@ -297,7 +297,7 @@ Selection
 TabOrder
 3
 7
-d_ap_test
+Numeric
 
 1
 16
@@ -355,7 +355,7 @@ BackColour
 TabOrder
 3
 3
-test_L_focal
+Numeric
 
 1
 16
@@ -413,7 +413,7 @@ BackColour
 TabOrder
 3
 2
-test_P_fan
+Numeric
 
 1
 16
@@ -471,7 +471,7 @@ BackColour
 TabOrder
 3
 10
-test_P_pump
+Numeric
 
 1
 16
@@ -529,7 +529,7 @@ BackColour
 TabOrder
 3
 5
-test_T_fluid
+Numeric
 
 1
 16
@@ -587,7 +587,7 @@ BackColour
 TabOrder
 3
 8
-test_V_dot_fluid
+Numeric
 
 1
 16
@@ -645,7 +645,7 @@ BackColour
 TabOrder
 3
 9
-test_fan_cfm
+Numeric
 
 1
 16
@@ -703,7 +703,7 @@ BackColour
 TabOrder
 3
 13
-test_fan_rho_air
+Numeric
 
 1
 16
@@ -761,7 +761,7 @@ BackColour
 TabOrder
 3
 12
-test_fan_speed
+Numeric
 
 1
 16
@@ -819,7 +819,7 @@ BackColour
 TabOrder
 3
 11
-test_if
+Numeric
 
 1
 16
@@ -877,7 +877,7 @@ BackColour
 TabOrder
 3
 1
-test_pump_speed
+Numeric
 
 1
 16

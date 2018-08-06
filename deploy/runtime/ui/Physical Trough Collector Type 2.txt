@@ -2,7 +2,7 @@ Physical Trough Collector Type 2
 803
 342
 21
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Collector Geometry
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Optical Parameters
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Optical Calculations
 Bold
 2
 1
-IAMs_2
+DataArray
 
 1
 9
@@ -108,7 +108,7 @@ Description
 TabOrder
 3
 4294967295
-apply_collector_library_2
+Button
 
 1
 7
@@ -133,7 +133,7 @@ Apply Values from Library
 TabOrder
 3
 2
-csp_dtr_sca_ap_length_2
+Numeric
 
 1
 16
@@ -191,7 +191,7 @@ BackColour
 TabOrder
 3
 17
-csp_dtr_sca_aperture_2
+Numeric
 
 1
 16
@@ -249,7 +249,7 @@ BackColour
 TabOrder
 3
 3
-csp_dtr_sca_ave_focal_len_2
+Numeric
 
 1
 16
@@ -307,7 +307,7 @@ BackColour
 TabOrder
 3
 7
-csp_dtr_sca_calc_end_loss_2
+Numeric
 
 1
 16
@@ -365,7 +365,7 @@ BackColour
 TabOrder
 3
 19
-csp_dtr_sca_calc_iam_2
+Numeric
 
 1
 16
@@ -423,7 +423,7 @@ BackColour
 TabOrder
 3
 18
-csp_dtr_sca_calc_sca_eff_2
+Numeric
 
 1
 16
@@ -481,7 +481,7 @@ BackColour
 TabOrder
 3
 20
-csp_dtr_sca_clean_reflectivity_2
+Numeric
 
 1
 16
@@ -539,7 +539,7 @@ BackColour
 TabOrder
 3
 14
-csp_dtr_sca_general_error_2
+Numeric
 
 1
 16
@@ -597,7 +597,7 @@ BackColour
 TabOrder
 3
 16
-csp_dtr_sca_geometry_effects_2
+Numeric
 
 1
 16
@@ -655,7 +655,7 @@ BackColour
 TabOrder
 3
 13
-csp_dtr_sca_length_2
+Numeric
 
 1
 16
@@ -713,7 +713,7 @@ BackColour
 TabOrder
 3
 5
-csp_dtr_sca_mirror_dirt_2
+Numeric
 
 1
 16
@@ -771,7 +771,7 @@ BackColour
 TabOrder
 3
 15
-csp_dtr_sca_ncol_per_sca_2
+Numeric
 
 1
 16
@@ -829,7 +829,7 @@ BackColour
 TabOrder
 3
 6
-csp_dtr_sca_notify_text_2
+TextEntry
 
 1
 10
@@ -869,7 +869,7 @@ BackColour
 TabOrder
 3
 1
-csp_dtr_sca_piping_dist_2
+Numeric
 
 1
 16
@@ -927,7 +927,7 @@ BackColour
 TabOrder
 3
 8
-csp_dtr_sca_tracking_error_2
+Numeric
 
 1
 16
@@ -985,7 +985,7 @@ BackColour
 TabOrder
 3
 12
-csp_dtr_sca_w_profile_2
+Numeric
 
 1
 16

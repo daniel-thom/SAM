@@ -2,7 +2,7 @@ PV3 Subarray 1
 888
 886
 54
-inverter
+Choice
 
 1
 8
@@ -32,7 +32,7 @@ Selection
 TabOrder
 3
 4294967295
-inverter_count
+Numeric
 
 1
 16
@@ -90,7 +90,7 @@ BackColour
 TabOrder
 3
 4294967295
-module
+Choice
 
 1
 8
@@ -120,7 +120,7 @@ Selection
 TabOrder
 3
 4294967295
-module
+Choice
 
 1
 8
@@ -150,7 +150,7 @@ Selection
 TabOrder
 3
 4294967295
-modules_per_string
+Numeric
 
 1
 16
@@ -208,7 +208,7 @@ BackColour
 TabOrder
 3
 4294967295
-modules_per_string
+Numeric
 
 1
 16
@@ -266,7 +266,7 @@ BackColour
 TabOrder
 3
 4294967295
-mppt_hi_inverter
+Numeric
 
 1
 16
@@ -324,7 +324,7 @@ BackColour
 TabOrder
 3
 4294967295
-mppt_low_inverter
+Numeric
 
 1
 16
@@ -382,7 +382,7 @@ BackColour
 TabOrder
 3
 4294967295
-num_mppt
+Choice
 
 1
 8
@@ -415,7 +415,7 @@ Selection
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -473,7 +473,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -531,7 +531,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 2
+CheckBox
 
 1
 8
@@ -559,7 +559,7 @@ State
 TabOrder
 3
 4294967295
-object 2
+CheckBox
 
 1
 8
@@ -587,7 +587,7 @@ State
 TabOrder
 3
 4294967295
-object 21
+Divider
 
 1
 9
@@ -621,7 +621,7 @@ Subsection Orientation
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -655,7 +655,7 @@ Subsection Orientation
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -689,7 +689,7 @@ Subsection Orientation
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -714,7 +714,7 @@ Total System Size (Reference)
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -757,7 +757,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -800,7 +800,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -843,7 +843,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -886,7 +886,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -929,7 +929,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -972,7 +972,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1015,7 +1015,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1058,7 +1058,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1101,7 +1101,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1144,7 +1144,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1187,7 +1187,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1230,7 +1230,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1273,7 +1273,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1316,7 +1316,7 @@ AlignRight
 AlignTop
 2
 1
-section1_ac_capacity
+Numeric
 
 1
 16
@@ -1374,7 +1374,7 @@ BackColour
 TabOrder
 3
 4294967295
-section1_dc_capacity
+Numeric
 
 1
 16
@@ -1432,7 +1432,7 @@ BackColour
 TabOrder
 3
 4294967295
-section1_dcac_ratio
+Numeric
 
 1
 16
@@ -1490,7 +1490,7 @@ BackColour
 TabOrder
 3
 4294967295
-strings_in_parallel
+Numeric
 
 1
 16
@@ -1548,7 +1548,7 @@ BackColour
 TabOrder
 3
 4294967295
-strings_in_parallel
+Numeric
 
 1
 16
@@ -1606,7 +1606,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray1_azimuth
+Numeric
 
 1
 16
@@ -1664,7 +1664,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray1_azimuth
+Numeric
 
 1
 16
@@ -1722,7 +1722,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray1_rotlim
+Numeric
 
 1
 16
@@ -1780,7 +1780,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray1_rotlim
+Numeric
 
 1
 16
@@ -1838,7 +1838,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray1_tilt
+Numeric
 
 1
 16
@@ -1896,7 +1896,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray1_tilt
+Numeric
 
 1
 16
@@ -1954,7 +1954,7 @@ BackColour
 TabOrder
 3
 4294967295
-subarray_track_mode
+Choice
 
 1
 8
@@ -1987,7 +1987,7 @@ Selection
 TabOrder
 3
 4294967295
-subarray_track_mode
+Choice
 
 1
 8
@@ -2020,7 +2020,7 @@ Selection
 TabOrder
 3
 4294967295
-system_AC_capacity
+Numeric
 
 1
 16
@@ -2078,7 +2078,7 @@ BackColour
 TabOrder
 3
 4294967295
-system_DC_AC_ratio
+Numeric
 
 1
 16
@@ -2136,7 +2136,7 @@ BackColour
 TabOrder
 3
 4294967295
-system_DC_capacity
+Numeric
 
 1
 16
@@ -2194,7 +2194,7 @@ BackColour
 TabOrder
 3
 4294967295
-system_num_inv
+Numeric
 
 1
 16
@@ -2252,7 +2252,7 @@ BackColour
 TabOrder
 3
 4294967295
-system_num_mod
+Numeric
 
 1
 16
@@ -2310,7 +2310,7 @@ BackColour
 TabOrder
 3
 4294967295
-total_modules
+Numeric
 
 1
 16
@@ -2368,7 +2368,7 @@ BackColour
 TabOrder
 3
 4294967295
-total_modules
+Numeric
 
 1
 16
@@ -2426,7 +2426,7 @@ BackColour
 TabOrder
 3
 4294967295
-vdcmax_inverter
+Numeric
 
 1
 16
@@ -2484,7 +2484,7 @@ BackColour
 TabOrder
 3
 4294967295
-vmp_string
+Numeric
 
 1
 16
@@ -2542,7 +2542,7 @@ BackColour
 TabOrder
 3
 4294967295
-voc_string
+Numeric
 
 1
 16

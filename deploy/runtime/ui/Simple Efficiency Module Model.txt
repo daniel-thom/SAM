@@ -2,7 +2,7 @@ Simple Efficiency Module Model
 564
 1054
 43
-BifacialSpecs
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Bifacial Specifications
 Bold
 2
 1
-GroupBox1
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Characteristics
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Module Efficiency
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Module Efficiency
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -145,7 +145,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -188,7 +188,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -231,7 +231,7 @@ AlignRight
 AlignTop
 2
 1
-Label31
+Label
 
 1
 12
@@ -274,7 +274,7 @@ AlignRight
 AlignTop
 2
 1
-Label311
+Label
 
 1
 12
@@ -317,7 +317,7 @@ AlignRight
 AlignTop
 2
 1
-Label32
+Label
 
 1
 12
@@ -360,7 +360,7 @@ AlignRight
 AlignTop
 2
 1
-Label33
+Label
 
 1
 12
@@ -403,7 +403,7 @@ AlignRight
 AlignTop
 2
 1
-Label4
+Label
 
 1
 12
@@ -446,7 +446,7 @@ AlignRight
 AlignTop
 2
 0
-btnLoadSPEData
+Button
 
 1
 7
@@ -471,7 +471,7 @@ Load data from file...
 TabOrder
 3
 4294967295
-btnSaveSPEData
+Button
 
 1
 7
@@ -496,7 +496,7 @@ Save data to file...
 TabOrder
 3
 4294967295
-object 14
+Hyperlink
 
 1
 8
@@ -524,7 +524,7 @@ https://sam.nrel.gov/performance
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -549,7 +549,7 @@ References
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -592,7 +592,7 @@ AlignRight
 AlignTop
 2
 1
-spe_a
+Numeric
 
 1
 16
@@ -650,7 +650,7 @@ BackColour
 TabOrder
 3
 0
-spe_area
+Numeric
 
 1
 16
@@ -708,7 +708,7 @@ BackColour
 TabOrder
 3
 3
-spe_b
+Numeric
 
 1
 16
@@ -766,7 +766,7 @@ BackColour
 TabOrder
 3
 0
-spe_bifacial_ground_clearance_height
+Numeric
 
 1
 16
@@ -824,7 +824,7 @@ BackColour
 TabOrder
 3
 4294967295
-spe_bifacial_transmission_factor
+Numeric
 
 1
 16
@@ -882,7 +882,7 @@ BackColour
 TabOrder
 3
 4294967295
-spe_bifaciality
+Numeric
 
 1
 16
@@ -940,7 +940,7 @@ BackColour
 TabOrder
 3
 4294967295
-spe_dT
+Numeric
 
 1
 16
@@ -998,7 +998,7 @@ BackColour
 TabOrder
 3
 0
-spe_data_filename
+TextEntry
 
 1
 10
@@ -1038,7 +1038,7 @@ BackColour
 TabOrder
 3
 4294967295
-spe_eff0
+Numeric
 
 1
 16
@@ -1096,7 +1096,7 @@ BackColour
 TabOrder
 3
 5
-spe_eff1
+Numeric
 
 1
 16
@@ -1154,7 +1154,7 @@ BackColour
 TabOrder
 3
 7
-spe_eff2
+Numeric
 
 1
 16
@@ -1212,7 +1212,7 @@ BackColour
 TabOrder
 3
 9
-spe_eff3
+Numeric
 
 1
 16
@@ -1270,7 +1270,7 @@ BackColour
 TabOrder
 3
 11
-spe_eff4
+Numeric
 
 1
 16
@@ -1328,7 +1328,7 @@ BackColour
 TabOrder
 3
 13
-spe_fd
+Numeric
 
 1
 16
@@ -1386,7 +1386,7 @@ BackColour
 TabOrder
 3
 0
-spe_is_bifacial
+CheckBox
 
 1
 8
@@ -1414,7 +1414,7 @@ State
 TabOrder
 3
 4294967295
-spe_module_structure
+Choice
 
 1
 8
@@ -1448,7 +1448,7 @@ Selection
 TabOrder
 3
 2
-spe_power
+Numeric
 
 1
 16
@@ -1506,7 +1506,7 @@ BackColour
 TabOrder
 3
 14
-spe_rad0
+Numeric
 
 1
 16
@@ -1564,7 +1564,7 @@ BackColour
 TabOrder
 3
 4
-spe_rad1
+Numeric
 
 1
 16
@@ -1622,7 +1622,7 @@ BackColour
 TabOrder
 3
 6
-spe_rad2
+Numeric
 
 1
 16
@@ -1680,7 +1680,7 @@ BackColour
 TabOrder
 3
 8
-spe_rad3
+Numeric
 
 1
 16
@@ -1738,7 +1738,7 @@ BackColour
 TabOrder
 3
 10
-spe_rad4
+Numeric
 
 1
 16
@@ -1796,7 +1796,7 @@ BackColour
 TabOrder
 3
 12
-spe_reference
+RadioChoice
 
 1
 10
@@ -1835,7 +1835,7 @@ Horizontal
 TabOrder
 3
 0
-spe_temp_coeff
+Numeric
 
 1
 16
@@ -1893,7 +1893,7 @@ BackColour
 TabOrder
 3
 1
-spe_vmp
+Numeric
 
 1
 16
@@ -1951,7 +1951,7 @@ BackColour
 TabOrder
 3
 3
-spe_voc
+Numeric
 
 1
 16

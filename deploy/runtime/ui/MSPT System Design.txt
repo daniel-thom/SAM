@@ -2,7 +2,7 @@ MSPT System Design
 869
 941
 22
-P_ref
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 6
-Q_rec_des
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 3
-T_htf_cold_des
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 4
-T_htf_hot_des
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 3
-design_eff
+Numeric
 
 1
 16
@@ -292,7 +292,7 @@ BackColour
 TabOrder
 3
 8
-dni_des
+Numeric
 
 1
 16
@@ -350,7 +350,7 @@ BackColour
 TabOrder
 3
 1
-gross_net_conversion_factor
+Numeric
 
 1
 16
@@ -408,7 +408,7 @@ BackColour
 TabOrder
 3
 7
-nameplate
+Numeric
 
 1
 16
@@ -466,7 +466,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 12
+Image
 
 1
 7
@@ -491,7 +491,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/MSPT System Design_obj
 Centered
 2
 1
-object 21
+Divider
 
 1
 9
@@ -525,7 +525,7 @@ Thermal Storage
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -559,7 +559,7 @@ Thermal Storage
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -593,7 +593,7 @@ Thermal Storage
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -627,7 +627,7 @@ Thermal Storage
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -652,7 +652,7 @@ Design Point Parameters
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -695,7 +695,7 @@ AlignRight
 AlignTop
 2
 1
-picture_border
+GroupBox
 
 1
 7
@@ -720,7 +720,7 @@ Caption
 Bold
 2
 1
-q_pb_design
+Numeric
 
 1
 16
@@ -778,7 +778,7 @@ BackColour
 TabOrder
 3
 4294967295
-sf_excess
+Numeric
 
 1
 16
@@ -836,7 +836,7 @@ BackColour
 TabOrder
 3
 4294967295
-solarm
+Numeric
 
 1
 16
@@ -894,7 +894,7 @@ BackColour
 TabOrder
 3
 2
-tshours
+Numeric
 
 1
 16
@@ -952,7 +952,7 @@ BackColour
 TabOrder
 3
 5
-tshours_sf
+Numeric
 
 1
 16
@@ -1010,7 +1010,7 @@ BackColour
 TabOrder
 3
 7
-ui_msg
+Label
 
 1
 12

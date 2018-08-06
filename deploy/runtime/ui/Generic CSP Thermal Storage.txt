@@ -2,7 +2,7 @@ Generic CSP Thermal Storage
 923
 181
 23
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Storage System
 Bold
 2
 1
-Label14
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label15
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label211
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-Label2111
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 0
-Label22
+Label
 
 1
 12
@@ -285,7 +285,7 @@ AlignRight
 AlignTop
 2
 0
-csp.gss.tes.charge_loss_f0
+Numeric
 
 1
 16
@@ -343,7 +343,7 @@ BackColour
 TabOrder
 3
 6
-csp.gss.tes.charge_loss_f1
+Numeric
 
 1
 16
@@ -401,7 +401,7 @@ BackColour
 TabOrder
 3
 7
-csp.gss.tes.charge_loss_f2
+Numeric
 
 1
 16
@@ -459,7 +459,7 @@ BackColour
 TabOrder
 3
 8
-csp.gss.tes.charge_loss_f3
+Numeric
 
 1
 16
@@ -517,7 +517,7 @@ BackColour
 TabOrder
 3
 9
-csp.gss.tes.max_capacity
+Numeric
 
 1
 16
@@ -575,7 +575,7 @@ BackColour
 TabOrder
 3
 0
-csp.gss.tes.temp_loss_f0
+Numeric
 
 1
 16
@@ -633,7 +633,7 @@ BackColour
 TabOrder
 3
 10
-csp.gss.tes.temp_loss_f1
+Numeric
 
 1
 16
@@ -691,7 +691,7 @@ BackColour
 TabOrder
 3
 11
-csp.gss.tes.temp_loss_f2
+Numeric
 
 1
 16
@@ -749,7 +749,7 @@ BackColour
 TabOrder
 3
 12
-csp.gss.tes.temp_loss_f3
+Numeric
 
 1
 16
@@ -807,7 +807,7 @@ BackColour
 TabOrder
 3
 13
-exergy_table_ui
+ValueMatrix
 
 1
 9
@@ -838,7 +838,7 @@ Charge,Derate
 TabOrder
 3
 4294967295
-f_charge
+Numeric
 
 1
 16
@@ -896,7 +896,7 @@ BackColour
 TabOrder
 3
 2
-f_disch
+Numeric
 
 1
 16
@@ -954,7 +954,7 @@ BackColour
 TabOrder
 3
 3
-f_etes_0
+Numeric
 
 1
 16
@@ -1012,7 +1012,7 @@ BackColour
 TabOrder
 3
 4
-f_teshl_ref
+Numeric
 
 1
 16
@@ -1070,7 +1070,7 @@ BackColour
 TabOrder
 3
 5
-hrs_tes
+Numeric
 
 1
 16
@@ -1128,7 +1128,7 @@ BackColour
 TabOrder
 3
 1
-storage_config
+Choice
 
 1
 8

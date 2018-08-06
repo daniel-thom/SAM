@@ -2,7 +2,7 @@ Molten Salt Tower Power Block Common
 907
 307
 16
-General Design Parameters
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ General Design Parameters
 Bold
 2
 1
-PB_COPY_P_ref
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_T_htf_cold_des
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_T_htf_hot_des
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_design_eff
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_gross_net_conversion_factor
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_nameplate
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_q_pb_design
+Numeric
 
 1
 16
@@ -433,7 +433,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_m_dot_htf_cycle_des
+Numeric
 
 1
 16
@@ -491,7 +491,7 @@ BackColour
 TabOrder
 3
 4294967295
-cycle_cutoff_frac
+Numeric
 
 1
 16
@@ -549,7 +549,7 @@ BackColour
 TabOrder
 3
 15
-cycle_max_frac
+Numeric
 
 1
 16
@@ -607,7 +607,7 @@ BackColour
 TabOrder
 3
 16
-object 4
+GroupBox
 
 1
 7
@@ -632,7 +632,7 @@ System Design Parameters
 Bold
 2
 1
-pb_pump_coef
+Numeric
 
 1
 16
@@ -690,7 +690,7 @@ BackColour
 TabOrder
 3
 4294967295
-q_sby_frac
+Numeric
 
 1
 16
@@ -748,7 +748,7 @@ BackColour
 TabOrder
 3
 11
-startup_frac
+Numeric
 
 1
 16
@@ -806,7 +806,7 @@ BackColour
 TabOrder
 3
 14
-startup_time
+Numeric
 
 1
 16

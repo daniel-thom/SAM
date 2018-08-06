@@ -2,7 +2,7 @@ Financial Depreciation Simple
 864
 223
 14
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Depreciation
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 1
-Label4
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-Label41
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -285,7 +285,7 @@ AlignRight
 AlignTop
 2
 0
-Label51
+Label
 
 1
 12
@@ -328,7 +328,7 @@ AlignRight
 AlignTop
 2
 0
-depr_fed_custom
+SchedNumeric
 
 1
 11
@@ -365,7 +365,7 @@ Description
 TabOrder
 3
 4294967295
-depr_fed_sl_years
+Numeric
 
 1
 16
@@ -423,7 +423,7 @@ BackColour
 TabOrder
 3
 2
-depr_fed_type
+RadioChoice
 
 1
 10
@@ -461,7 +461,7 @@ Horizontal
 TabOrder
 3
 1
-depr_sta_custom
+SchedNumeric
 
 1
 11
@@ -498,7 +498,7 @@ Description
 TabOrder
 3
 4294967295
-depr_sta_sl_years
+Numeric
 
 1
 16
@@ -556,7 +556,7 @@ BackColour
 TabOrder
 3
 4
-depr_sta_type
+RadioChoice
 
 1
 10

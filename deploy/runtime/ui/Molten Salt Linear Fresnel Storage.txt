@@ -2,7 +2,7 @@ Molten Salt Linear Fresnel Storage
 920
 376
 26
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Storage System
 Bold
 2
 1
-TES_cap
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 3
-cold_tank_Thtr
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 11
-csp.mslf.control.store_fluid
+Choice
 
 1
 8
@@ -181,7 +181,7 @@ Selection
 TabOrder
 3
 21
-csp.mslf.control.tes_cp
+Numeric
 
 1
 16
@@ -239,7 +239,7 @@ BackColour
 TabOrder
 3
 25
-csp.mslf.control.tes_dens
+Numeric
 
 1
 16
@@ -297,7 +297,7 @@ BackColour
 TabOrder
 3
 24
-csp.mslf.enet.tes_fp_mode
+Choice
 
 1
 8
@@ -327,7 +327,7 @@ Selection
 TabOrder
 3
 0
-csp.mslf.tes.estimated_heat_loss
+Numeric
 
 1
 16
@@ -385,7 +385,7 @@ BackColour
 TabOrder
 3
 10
-csp.mslf.tes.htf_max_opt_temp
+Numeric
 
 1
 16
@@ -443,7 +443,7 @@ BackColour
 TabOrder
 3
 16
-csp.mslf.tes.htf_min_opt_temp
+Numeric
 
 1
 16
@@ -501,7 +501,7 @@ BackColour
 TabOrder
 3
 16
-d_tank
+Numeric
 
 1
 16
@@ -559,7 +559,7 @@ BackColour
 TabOrder
 3
 7
-dt_cold
+Numeric
 
 1
 16
@@ -617,7 +617,7 @@ BackColour
 TabOrder
 3
 18
-dt_hot
+Numeric
 
 1
 16
@@ -675,7 +675,7 @@ BackColour
 TabOrder
 3
 17
-eta_tes_htr
+Numeric
 
 1
 16
@@ -733,7 +733,7 @@ BackColour
 TabOrder
 3
 16
-h_tank
+Numeric
 
 1
 16
@@ -791,7 +791,7 @@ BackColour
 TabOrder
 3
 5
-h_tank_min
+Numeric
 
 1
 16
@@ -849,7 +849,7 @@ BackColour
 TabOrder
 3
 6
-hot_tank_Thtr
+Numeric
 
 1
 16
@@ -907,7 +907,7 @@ BackColour
 TabOrder
 3
 12
-hx_derate
+Numeric
 
 1
 16
@@ -965,7 +965,7 @@ BackColour
 TabOrder
 3
 19
-store_fl_props
+MaterialProperties
 
 1
 6
@@ -987,7 +987,7 @@ Height
 TabOrder
 3
 22
-tank_max_heat
+Numeric
 
 1
 16
@@ -1045,7 +1045,7 @@ BackColour
 TabOrder
 3
 15
-tank_pairs
+Numeric
 
 1
 16
@@ -1103,7 +1103,7 @@ BackColour
 TabOrder
 3
 4
-tes_temp
+Numeric
 
 1
 16
@@ -1161,7 +1161,7 @@ BackColour
 TabOrder
 3
 23
-tshours
+Numeric
 
 1
 16
@@ -1219,7 +1219,7 @@ BackColour
 TabOrder
 3
 1
-u_tank
+Numeric
 
 1
 16
@@ -1277,7 +1277,7 @@ BackColour
 TabOrder
 3
 9
-vol_min
+Numeric
 
 1
 16
@@ -1335,7 +1335,7 @@ BackColour
 TabOrder
 3
 8
-vol_tank
+Numeric
 
 1
 16

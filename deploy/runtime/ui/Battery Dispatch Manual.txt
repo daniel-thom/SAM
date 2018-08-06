@@ -2,7 +2,7 @@ Battery Dispatch Manual
 998
 553
 50
-AllowChargeFromExcessSolarLabel
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 1
-AllowDischargingLabel
+Label
 
 1
 12
@@ -88,7 +88,7 @@ AlignRight
 AlignTop
 2
 1
-Battery_weekday
+Label
 
 1
 12
@@ -131,7 +131,7 @@ AlignRight
 AlignTop
 2
 0
-Battery_weekend
+Label
 
 1
 12
@@ -174,7 +174,7 @@ AlignRight
 AlignTop
 2
 0
-ForceChargingLabel
+Label
 
 1
 12
@@ -217,7 +217,7 @@ AlignRight
 AlignTop
 2
 1
-Percent of rated to discharge
+Label
 
 1
 12
@@ -260,7 +260,7 @@ AlignRight
 AlignTop
 2
 0
-Percent of rated to discharge
+Label
 
 1
 12
@@ -303,7 +303,7 @@ AlignRight
 AlignTop
 2
 0
-Period1
+Label
 
 1
 12
@@ -346,7 +346,7 @@ AlignRight
 AlignTop
 2
 0
-Period2
+Label
 
 1
 12
@@ -389,7 +389,7 @@ AlignRight
 AlignTop
 2
 0
-Period3
+Label
 
 1
 12
@@ -432,7 +432,7 @@ AlignRight
 AlignTop
 2
 0
-Period4
+Label
 
 1
 12
@@ -475,7 +475,7 @@ AlignRight
 AlignTop
 2
 0
-Period5
+Label
 
 1
 12
@@ -518,7 +518,7 @@ AlignRight
 AlignTop
 2
 0
-Period6
+Label
 
 1
 12
@@ -561,7 +561,7 @@ AlignRight
 AlignTop
 2
 0
-batt_discharge_percent_1
+Numeric
 
 1
 16
@@ -619,7 +619,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_discharge_percent_2
+Numeric
 
 1
 16
@@ -677,7 +677,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_discharge_percent_3
+Numeric
 
 1
 16
@@ -735,7 +735,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_discharge_percent_4
+Numeric
 
 1
 16
@@ -793,7 +793,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_discharge_percent_5
+Numeric
 
 1
 16
@@ -851,7 +851,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_discharge_percent_6
+Numeric
 
 1
 16
@@ -909,7 +909,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_gridcharge_percent_1
+Numeric
 
 1
 16
@@ -967,7 +967,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_gridcharge_percent_2
+Numeric
 
 1
 16
@@ -1025,7 +1025,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_gridcharge_percent_3
+Numeric
 
 1
 16
@@ -1083,7 +1083,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_gridcharge_percent_4
+Numeric
 
 1
 16
@@ -1141,7 +1141,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_gridcharge_percent_5
+Numeric
 
 1
 16
@@ -1199,7 +1199,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_gridcharge_percent_6
+Numeric
 
 1
 16
@@ -1257,7 +1257,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_manual_dispatch_label
+Label
 
 1
 12
@@ -1300,7 +1300,7 @@ AlignRight
 AlignTop
 2
 1
-batt_manual_dispatch_label_fom
+Label
 
 1
 12
@@ -1343,7 +1343,7 @@ AlignRight
 AlignTop
 2
 1
-dispatch_manual_sched
+DiurnalPeriod
 
 1
 9
@@ -1374,7 +1374,7 @@ Max
 Min
 3
 1
-dispatch_manual_sched_weekend
+DiurnalPeriod
 
 1
 9
@@ -1405,7 +1405,7 @@ Max
 Min
 3
 1
-object 4
+GroupBox
 
 1
 7
@@ -1430,7 +1430,7 @@ Manual Dispatch Model
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1473,7 +1473,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1516,7 +1516,7 @@ AlignRight
 AlignTop
 2
 0
-pv.storage.p1.charge
+CheckBox
 
 1
 8
@@ -1544,7 +1544,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p1.discharge
+CheckBox
 
 1
 8
@@ -1572,7 +1572,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p1.gridcharge
+CheckBox
 
 1
 8
@@ -1600,7 +1600,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p2.charge
+CheckBox
 
 1
 8
@@ -1628,7 +1628,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p2.discharge
+CheckBox
 
 1
 8
@@ -1656,7 +1656,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p2.gridcharge
+CheckBox
 
 1
 8
@@ -1684,7 +1684,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p3.charge
+CheckBox
 
 1
 8
@@ -1712,7 +1712,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p3.discharge
+CheckBox
 
 1
 8
@@ -1740,7 +1740,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p3.gridcharge
+CheckBox
 
 1
 8
@@ -1768,7 +1768,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p4.charge
+CheckBox
 
 1
 8
@@ -1796,7 +1796,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p4.discharge
+CheckBox
 
 1
 8
@@ -1824,7 +1824,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p4.gridcharge
+CheckBox
 
 1
 8
@@ -1852,7 +1852,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p5.charge
+CheckBox
 
 1
 8
@@ -1880,7 +1880,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p5.discharge
+CheckBox
 
 1
 8
@@ -1908,7 +1908,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p5.gridcharge
+CheckBox
 
 1
 8
@@ -1936,7 +1936,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p6.charge
+CheckBox
 
 1
 8
@@ -1964,7 +1964,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p6.discharge
+CheckBox
 
 1
 8
@@ -1992,7 +1992,7 @@ State
 TabOrder
 3
 4294967295
-pv.storage.p6.gridcharge
+CheckBox
 
 1
 8

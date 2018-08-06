@@ -2,7 +2,7 @@ HCPV Costs
 791
 670
 97
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Direct Capital Costs
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Total Installed Costs
 Bold
 2
 1
-GroupBox31
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Land Costs
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -145,7 +145,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -188,7 +188,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -231,7 +231,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -274,7 +274,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -317,7 +317,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -360,7 +360,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -403,7 +403,7 @@ AlignRight
 AlignTop
 2
 0
-Label31
+Label
 
 1
 12
@@ -446,7 +446,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -489,7 +489,7 @@ AlignRight
 AlignTop
 2
 0
-Label41
+Label
 
 1
 12
@@ -532,7 +532,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -575,7 +575,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -618,7 +618,7 @@ AlignRight
 AlignTop
 2
 0
-Label61
+Label
 
 1
 12
@@ -661,7 +661,7 @@ AlignRight
 AlignTop
 2
 0
-Label611
+Label
 
 1
 12
@@ -704,7 +704,7 @@ AlignRight
 AlignTop
 2
 0
-Label6111
+Label
 
 1
 12
@@ -747,7 +747,7 @@ AlignRight
 AlignTop
 2
 0
-Label61111
+Label
 
 1
 12
@@ -790,7 +790,7 @@ AlignRight
 AlignTop
 2
 0
-Label6112
+Label
 
 1
 12
@@ -833,7 +833,7 @@ AlignRight
 AlignTop
 2
 0
-Label612
+Label
 
 1
 12
@@ -876,7 +876,7 @@ AlignRight
 AlignTop
 2
 0
-Label62
+Label
 
 1
 12
@@ -919,7 +919,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -962,7 +962,7 @@ AlignRight
 AlignTop
 2
 0
-Label71
+Label
 
 1
 12
@@ -1005,7 +1005,7 @@ AlignRight
 AlignTop
 2
 0
-Label711
+Label
 
 1
 12
@@ -1048,7 +1048,7 @@ AlignRight
 AlignTop
 2
 0
-Label72
+Label
 
 1
 12
@@ -1091,7 +1091,7 @@ AlignRight
 AlignTop
 2
 0
-Label8
+Label
 
 1
 12
@@ -1134,7 +1134,7 @@ AlignRight
 AlignTop
 2
 0
-Label81
+Label
 
 1
 12
@@ -1177,7 +1177,7 @@ AlignRight
 AlignTop
 2
 0
-Label811
+Label
 
 1
 12
@@ -1220,7 +1220,7 @@ AlignRight
 AlignTop
 2
 0
-Label82
+Label
 
 1
 12
@@ -1263,7 +1263,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -1306,7 +1306,7 @@ AlignRight
 AlignTop
 2
 0
-Label91
+Label
 
 1
 12
@@ -1349,7 +1349,7 @@ AlignRight
 AlignTop
 2
 0
-Label911
+Label
 
 1
 12
@@ -1392,7 +1392,7 @@ AlignRight
 AlignTop
 2
 0
-Label9111
+Label
 
 1
 12
@@ -1435,7 +1435,7 @@ AlignRight
 AlignTop
 2
 0
-Label92
+Label
 
 1
 12
@@ -1478,7 +1478,7 @@ AlignRight
 AlignTop
 2
 0
-hcpv.cost.bos_equip.totalcost
+Numeric
 
 1
 16
@@ -1536,7 +1536,7 @@ BackColour
 TabOrder
 3
 20
-hcpv.cost.bos_equip_fixed
+Numeric
 
 1
 16
@@ -1594,7 +1594,7 @@ BackColour
 TabOrder
 3
 17
-hcpv.cost.bos_equip_perarea
+Numeric
 
 1
 16
@@ -1652,7 +1652,7 @@ BackColour
 TabOrder
 3
 19
-hcpv.cost.bos_equip_perwatt
+Numeric
 
 1
 16
@@ -1710,7 +1710,7 @@ BackColour
 TabOrder
 3
 18
-hcpv.cost.contingency
+Numeric
 
 1
 16
@@ -1768,7 +1768,7 @@ BackColour
 TabOrder
 3
 30
-hcpv.cost.contingency_percent
+Numeric
 
 1
 16
@@ -1826,7 +1826,7 @@ BackColour
 TabOrder
 3
 29
-hcpv.cost.engr.fixed
+Numeric
 
 1
 16
@@ -1884,7 +1884,7 @@ BackColour
 TabOrder
 3
 38
-hcpv.cost.engr.per_watt
+Numeric
 
 1
 16
@@ -1942,7 +1942,7 @@ BackColour
 TabOrder
 3
 37
-hcpv.cost.engr.percent
+Numeric
 
 1
 16
@@ -2000,7 +2000,7 @@ BackColour
 TabOrder
 3
 36
-hcpv.cost.engr.total
+Numeric
 
 1
 16
@@ -2058,7 +2058,7 @@ BackColour
 TabOrder
 3
 39
-hcpv.cost.grid.fixed
+Numeric
 
 1
 16
@@ -2116,7 +2116,7 @@ BackColour
 TabOrder
 3
 42
-hcpv.cost.grid.per_watt
+Numeric
 
 1
 16
@@ -2174,7 +2174,7 @@ BackColour
 TabOrder
 3
 41
-hcpv.cost.grid.percent
+Numeric
 
 1
 16
@@ -2232,7 +2232,7 @@ BackColour
 TabOrder
 3
 40
-hcpv.cost.grid.total
+Numeric
 
 1
 16
@@ -2290,7 +2290,7 @@ BackColour
 TabOrder
 3
 43
-hcpv.cost.install_labor.totalcost
+Numeric
 
 1
 16
@@ -2348,7 +2348,7 @@ BackColour
 TabOrder
 3
 24
-hcpv.cost.install_labor_fixed
+Numeric
 
 1
 16
@@ -2406,7 +2406,7 @@ BackColour
 TabOrder
 3
 21
-hcpv.cost.install_labor_perarea
+Numeric
 
 1
 16
@@ -2464,7 +2464,7 @@ BackColour
 TabOrder
 3
 23
-hcpv.cost.install_labor_perwatt
+Numeric
 
 1
 16
@@ -2522,7 +2522,7 @@ BackColour
 TabOrder
 3
 22
-hcpv.cost.install_margin.totalcost
+Numeric
 
 1
 16
@@ -2580,7 +2580,7 @@ BackColour
 TabOrder
 3
 28
-hcpv.cost.install_margin_fixed
+Numeric
 
 1
 16
@@ -2638,7 +2638,7 @@ BackColour
 TabOrder
 3
 25
-hcpv.cost.install_margin_perarea
+Numeric
 
 1
 16
@@ -2696,7 +2696,7 @@ BackColour
 TabOrder
 3
 27
-hcpv.cost.install_margin_perwatt
+Numeric
 
 1
 16
@@ -2754,7 +2754,7 @@ BackColour
 TabOrder
 3
 26
-hcpv.cost.installed_per_capacity
+Numeric
 
 1
 16
@@ -2812,7 +2812,7 @@ BackColour
 TabOrder
 3
 60
-hcpv.cost.inverter.costunits
+Choice
 
 1
 8
@@ -2842,7 +2842,7 @@ Selection
 TabOrder
 3
 11
-hcpv.cost.inverter.num_units
+Numeric
 
 1
 16
@@ -2900,7 +2900,7 @@ BackColour
 TabOrder
 3
 7
-hcpv.cost.inverter.power
+Numeric
 
 1
 16
@@ -2958,7 +2958,7 @@ BackColour
 TabOrder
 3
 8
-hcpv.cost.inverter.totalcost
+Numeric
 
 1
 16
@@ -3016,7 +3016,7 @@ BackColour
 TabOrder
 3
 12
-hcpv.cost.inverterarray.power
+Numeric
 
 1
 16
@@ -3074,7 +3074,7 @@ BackColour
 TabOrder
 3
 9
-hcpv.cost.land.fixed
+Numeric
 
 1
 16
@@ -3132,7 +3132,7 @@ BackColour
 TabOrder
 3
 48
-hcpv.cost.land.per_acre
+Numeric
 
 1
 16
@@ -3190,7 +3190,7 @@ BackColour
 TabOrder
 3
 45
-hcpv.cost.land.per_watt
+Numeric
 
 1
 16
@@ -3248,7 +3248,7 @@ BackColour
 TabOrder
 3
 47
-hcpv.cost.land.percent
+Numeric
 
 1
 16
@@ -3306,7 +3306,7 @@ BackColour
 TabOrder
 3
 46
-hcpv.cost.land.total
+Numeric
 
 1
 16
@@ -3364,7 +3364,7 @@ BackColour
 TabOrder
 3
 49
-hcpv.cost.land_area.value
+Numeric
 
 1
 16
@@ -3422,7 +3422,7 @@ BackColour
 TabOrder
 3
 44
-hcpv.cost.landprep.fixed
+Numeric
 
 1
 16
@@ -3480,7 +3480,7 @@ BackColour
 TabOrder
 3
 53
-hcpv.cost.landprep.per_acre
+Numeric
 
 1
 16
@@ -3538,7 +3538,7 @@ BackColour
 TabOrder
 3
 50
-hcpv.cost.landprep.per_watt
+Numeric
 
 1
 16
@@ -3596,7 +3596,7 @@ BackColour
 TabOrder
 3
 52
-hcpv.cost.landprep.percent
+Numeric
 
 1
 16
@@ -3654,7 +3654,7 @@ BackColour
 TabOrder
 3
 51
-hcpv.cost.landprep.total
+Numeric
 
 1
 16
@@ -3712,7 +3712,7 @@ BackColour
 TabOrder
 3
 54
-hcpv.cost.module.costunits
+Choice
 
 1
 8
@@ -3742,7 +3742,7 @@ Selection
 TabOrder
 3
 5
-hcpv.cost.module.num_units
+Numeric
 
 1
 16
@@ -3800,7 +3800,7 @@ BackColour
 TabOrder
 3
 1
-hcpv.cost.module.power
+Numeric
 
 1
 16
@@ -3858,7 +3858,7 @@ BackColour
 TabOrder
 3
 2
-hcpv.cost.module.totalcost
+Numeric
 
 1
 16
@@ -3916,7 +3916,7 @@ BackColour
 TabOrder
 3
 6
-hcpv.cost.modulearray.power
+Numeric
 
 1
 16
@@ -3974,7 +3974,7 @@ BackColour
 TabOrder
 3
 3
-hcpv.cost.per_inverter
+Numeric
 
 1
 16
@@ -4032,7 +4032,7 @@ BackColour
 TabOrder
 3
 10
-hcpv.cost.per_module
+Numeric
 
 1
 16
@@ -4090,7 +4090,7 @@ BackColour
 TabOrder
 3
 4
-hcpv.cost.permitting.fixed
+Numeric
 
 1
 16
@@ -4148,7 +4148,7 @@ BackColour
 TabOrder
 3
 34
-hcpv.cost.permitting.per_watt
+Numeric
 
 1
 16
@@ -4206,7 +4206,7 @@ BackColour
 TabOrder
 3
 33
-hcpv.cost.permitting.percent
+Numeric
 
 1
 16
@@ -4264,7 +4264,7 @@ BackColour
 TabOrder
 3
 32
-hcpv.cost.permitting.total
+Numeric
 
 1
 16
@@ -4322,7 +4322,7 @@ BackColour
 TabOrder
 3
 35
-hcpv.cost.sales_tax.percent
+Numeric
 
 1
 16
@@ -4380,7 +4380,7 @@ BackColour
 TabOrder
 3
 56
-hcpv.cost.sales_tax.total
+Numeric
 
 1
 16
@@ -4438,7 +4438,7 @@ BackColour
 TabOrder
 3
 57
-hcpv.cost.sales_tax.value
+Numeric
 
 1
 16
@@ -4496,7 +4496,7 @@ BackColour
 TabOrder
 3
 55
-hcpv.cost.tracker.totalcost
+Numeric
 
 1
 16
@@ -4554,7 +4554,7 @@ BackColour
 TabOrder
 3
 16
-hcpv.cost.tracker_fixed
+Numeric
 
 1
 16
@@ -4612,7 +4612,7 @@ BackColour
 TabOrder
 3
 13
-hcpv.cost.tracker_perarea
+Numeric
 
 1
 16
@@ -4670,7 +4670,7 @@ BackColour
 TabOrder
 3
 15
-hcpv.cost.tracker_perwatt
+Numeric
 
 1
 16
@@ -4728,7 +4728,7 @@ BackColour
 TabOrder
 3
 14
-lblFinancingCost
+Label
 
 1
 12
@@ -4771,7 +4771,7 @@ AlignRight
 AlignTop
 2
 1
-total_direct_cost
+Numeric
 
 1
 16
@@ -4829,7 +4829,7 @@ BackColour
 TabOrder
 3
 31
-total_indirect_cost
+Numeric
 
 1
 16
@@ -4887,7 +4887,7 @@ BackColour
 TabOrder
 3
 58
-total_installed_cost
+Numeric
 
 1
 16

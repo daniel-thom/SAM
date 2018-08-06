@@ -2,7 +2,7 @@ Biopower Plant Specifications
 783
 1267
 76
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Estimated Efficiency Losses (HHV)
 Bold
 2
 0
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Steam Rankine Cycle
 Bold
 2
 1
-GroupBox21
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Biomass Feedstock Handling
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Parasitics
 Bold
 2
 1
-GroupBox31
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Combustion System
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Boiler Parameters
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -177,7 +177,7 @@ Time of Dispatch Schedule
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -220,7 +220,7 @@ AlignRight
 AlignTop
 2
 0
-Label10
+Label
 
 1
 12
@@ -263,7 +263,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -306,7 +306,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -349,7 +349,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -392,7 +392,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -435,7 +435,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -478,7 +478,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -521,7 +521,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -564,7 +564,7 @@ AlignRight
 AlignTop
 2
 0
-Label15
+Label
 
 1
 12
@@ -607,7 +607,7 @@ AlignRight
 AlignTop
 2
 1
-Label2
+Label
 
 1
 12
@@ -650,7 +650,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -693,7 +693,7 @@ AlignRight
 AlignTop
 2
 0
-Label211
+Label
 
 1
 12
@@ -736,7 +736,7 @@ AlignRight
 AlignTop
 2
 0
-Label2111
+Label
 
 1
 12
@@ -779,7 +779,7 @@ AlignRight
 AlignTop
 2
 0
-Label21111
+Label
 
 1
 12
@@ -822,7 +822,7 @@ AlignRight
 AlignTop
 2
 0
-Label22
+Label
 
 1
 12
@@ -865,7 +865,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -908,7 +908,7 @@ AlignRight
 AlignTop
 2
 1
-Label9
+Label
 
 1
 12
@@ -951,7 +951,7 @@ AlignRight
 AlignTop
 2
 0
-adjust
+LossAdjustment
 
 1
 6
@@ -973,7 +973,7 @@ Height
 TabOrder
 3
 24
-biopwr.plant.boiler.cap_per_boiler
+Numeric
 
 1
 16
@@ -1031,7 +1031,7 @@ BackColour
 TabOrder
 3
 10
-biopwr.plant.boiler.efficiency
+Numeric
 
 1
 16
@@ -1089,7 +1089,7 @@ BackColour
 TabOrder
 3
 16
-biopwr.plant.boiler.excess_air
+Numeric
 
 1
 16
@@ -1147,7 +1147,7 @@ BackColour
 TabOrder
 3
 5
-biopwr.plant.boiler.flue_temp
+Numeric
 
 1
 16
@@ -1205,7 +1205,7 @@ BackColour
 TabOrder
 3
 7
-biopwr.plant.boiler.num
+Numeric
 
 1
 16
@@ -1263,7 +1263,7 @@ BackColour
 TabOrder
 3
 6
-biopwr.plant.boiler.over_design
+Numeric
 
 1
 16
@@ -1321,7 +1321,7 @@ BackColour
 TabOrder
 3
 9
-biopwr.plant.boiler.steam_grade
+Choice
 
 1
 8
@@ -1355,7 +1355,7 @@ Selection
 TabOrder
 3
 4
-biopwr.plant.boiler.steam_produced
+Numeric
 
 1
 16
@@ -1413,7 +1413,7 @@ BackColour
 TabOrder
 3
 8
-biopwr.plant.combustor_type
+Choice
 
 1
 8
@@ -1444,7 +1444,7 @@ Selection
 TabOrder
 3
 3
-biopwr.plant.cycle_design_temp
+Numeric
 
 1
 16
@@ -1502,7 +1502,7 @@ BackColour
 TabOrder
 3
 24
-biopwr.plant.disp1.power
+Numeric
 
 1
 16
@@ -1560,7 +1560,7 @@ BackColour
 TabOrder
 3
 39
-biopwr.plant.disp2.power
+Numeric
 
 1
 16
@@ -1618,7 +1618,7 @@ BackColour
 TabOrder
 3
 40
-biopwr.plant.disp3.power
+Numeric
 
 1
 16
@@ -1676,7 +1676,7 @@ BackColour
 TabOrder
 3
 41
-biopwr.plant.disp4.power
+Numeric
 
 1
 16
@@ -1734,7 +1734,7 @@ BackColour
 TabOrder
 3
 42
-biopwr.plant.disp5.power
+Numeric
 
 1
 16
@@ -1792,7 +1792,7 @@ BackColour
 TabOrder
 3
 43
-biopwr.plant.disp6.power
+Numeric
 
 1
 16
@@ -1850,7 +1850,7 @@ BackColour
 TabOrder
 3
 44
-biopwr.plant.disp7.power
+Numeric
 
 1
 16
@@ -1908,7 +1908,7 @@ BackColour
 TabOrder
 3
 45
-biopwr.plant.disp8.power
+Numeric
 
 1
 16
@@ -1966,7 +1966,7 @@ BackColour
 TabOrder
 3
 46
-biopwr.plant.disp9.power
+Numeric
 
 1
 16
@@ -2024,7 +2024,7 @@ BackColour
 TabOrder
 3
 47
-biopwr.plant.drying_method
+RadioChoice
 
 1
 10
@@ -2061,7 +2061,7 @@ Horizontal
 TabOrder
 3
 1
-biopwr.plant.drying_spec_wet
+Numeric
 
 1
 16
@@ -2119,7 +2119,7 @@ BackColour
 TabOrder
 3
 2
-biopwr.plant.eff.flue_loss
+Numeric
 
 1
 16
@@ -2177,7 +2177,7 @@ BackColour
 TabOrder
 3
 11
-biopwr.plant.eff.fuel_loss
+Numeric
 
 1
 16
@@ -2235,7 +2235,7 @@ BackColour
 TabOrder
 3
 14
-biopwr.plant.eff.latent
+Numeric
 
 1
 16
@@ -2293,7 +2293,7 @@ BackColour
 TabOrder
 3
 13
-biopwr.plant.eff.moisture_loss
+Numeric
 
 1
 16
@@ -2351,7 +2351,7 @@ BackColour
 TabOrder
 3
 12
-biopwr.plant.eff.rad_loss
+Numeric
 
 1
 16
@@ -2409,7 +2409,7 @@ BackColour
 TabOrder
 3
 15
-biopwr.plant.max_over_design
+Numeric
 
 1
 16
@@ -2467,7 +2467,7 @@ BackColour
 TabOrder
 3
 23
-biopwr.plant.min_load
+Numeric
 
 1
 16
@@ -2525,7 +2525,7 @@ BackColour
 TabOrder
 3
 22
-biopwr.plant.nameplate
+Numeric
 
 1
 16
@@ -2583,7 +2583,7 @@ BackColour
 TabOrder
 3
 18
-biopwr.plant.par
+Numeric
 
 1
 16
@@ -2641,7 +2641,7 @@ BackColour
 TabOrder
 3
 37
-biopwr.plant.par_percent
+Numeric
 
 1
 16
@@ -2699,7 +2699,7 @@ BackColour
 TabOrder
 3
 36
-biopwr.plant.pl_eff_f0
+Numeric
 
 1
 16
@@ -2757,7 +2757,7 @@ BackColour
 TabOrder
 3
 25
-biopwr.plant.pl_eff_f1
+Numeric
 
 1
 16
@@ -2815,7 +2815,7 @@ BackColour
 TabOrder
 3
 26
-biopwr.plant.pl_eff_f2
+Numeric
 
 1
 16
@@ -2873,7 +2873,7 @@ BackColour
 TabOrder
 3
 27
-biopwr.plant.pl_eff_f3
+Numeric
 
 1
 16
@@ -2931,7 +2931,7 @@ BackColour
 TabOrder
 3
 28
-biopwr.plant.pl_eff_f4
+Numeric
 
 1
 16
@@ -2989,7 +2989,7 @@ BackColour
 TabOrder
 3
 29
-biopwr.plant.ramp_opt
+RadioChoice
 
 1
 10
@@ -3026,7 +3026,7 @@ Horizontal
 TabOrder
 3
 48
-biopwr.plant.ramp_opt1
+Numeric
 
 1
 16
@@ -3084,7 +3084,7 @@ BackColour
 TabOrder
 3
 49
-biopwr.plant.ramp_opt2
+Numeric
 
 1
 16
@@ -3142,7 +3142,7 @@ BackColour
 TabOrder
 3
 50
-biopwr.plant.rated_eff
+Numeric
 
 1
 16
@@ -3200,7 +3200,7 @@ BackColour
 TabOrder
 3
 21
-biopwr.plant.temp_corr_mode
+Choice
 
 1
 8
@@ -3230,7 +3230,7 @@ Selection
 TabOrder
 3
 35
-biopwr.plant.temp_eff_f0
+Numeric
 
 1
 16
@@ -3288,7 +3288,7 @@ BackColour
 TabOrder
 3
 30
-biopwr.plant.temp_eff_f1
+Numeric
 
 1
 16
@@ -3346,7 +3346,7 @@ BackColour
 TabOrder
 3
 31
-biopwr.plant.temp_eff_f2
+Numeric
 
 1
 16
@@ -3404,7 +3404,7 @@ BackColour
 TabOrder
 3
 32
-biopwr.plant.temp_eff_f3
+Numeric
 
 1
 16
@@ -3462,7 +3462,7 @@ BackColour
 TabOrder
 3
 33
-biopwr.plant.temp_eff_f4
+Numeric
 
 1
 16
@@ -3520,7 +3520,7 @@ BackColour
 TabOrder
 3
 34
-biopwr.plant.tou_grid
+DiurnalPeriod
 
 1
 9
@@ -3551,7 +3551,7 @@ Max
 Min
 3
 1
-biopwr.plant.tou_option
+CheckBox
 
 1
 8
@@ -3579,7 +3579,7 @@ State
 TabOrder
 3
 38
-object 22
+Divider
 
 1
 9
@@ -3613,7 +3613,7 @@ Availability and Curtailment
 Bold
 2
 1
-object 7
+Label
 
 1
 12

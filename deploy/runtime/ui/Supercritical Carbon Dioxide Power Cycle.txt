@@ -2,7 +2,7 @@ Supercritical Carbon Dioxide Power Cycle
 911
 470
 32
-P_in_calc
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 4294967295
-P_out_calc
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 4294967295
-SCO2_COPY_P_ref
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 5
-SCO2_COPY_T_htf_hot_des
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 4
-SCO2_COPY_design_eff
+Numeric
 
 1
 16
@@ -292,7 +292,7 @@ BackColour
 TabOrder
 3
 6
-UA_total_calc
+Numeric
 
 1
 16
@@ -350,7 +350,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_P_ref
+Numeric
 
 1
 16
@@ -408,7 +408,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_T_amb_des
+Numeric
 
 1
 16
@@ -466,7 +466,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_T_approach
+Numeric
 
 1
 16
@@ -524,7 +524,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_T_htf_hot_des
+Numeric
 
 1
 16
@@ -582,7 +582,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_deltaT_PHX
+Numeric
 
 1
 16
@@ -640,7 +640,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_design_eff
+Numeric
 
 1
 16
@@ -698,7 +698,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_eta_c
+Numeric
 
 1
 16
@@ -756,7 +756,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_eta_t
+Numeric
 
 1
 16
@@ -814,7 +814,7 @@ BackColour
 TabOrder
 3
 4294967295
-_sco2_recup_eff_max
+Numeric
 
 1
 16
@@ -872,7 +872,7 @@ BackColour
 TabOrder
 3
 4294967295
-btn_sco2_des_and_udpc
+Button
 
 1
 7
@@ -897,7 +897,7 @@ Calculate design point and off-design performance
 TabOrder
 3
 1
-btn_sco2_design_point
+Button
 
 1
 7
@@ -922,7 +922,7 @@ Calculate design point without off-design performance
 TabOrder
 3
 2
-deltaT_PHX
+Numeric
 
 1
 16
@@ -980,7 +980,7 @@ BackColour
 TabOrder
 3
 9
-eta_c
+Numeric
 
 1
 16
@@ -1038,7 +1038,7 @@ BackColour
 TabOrder
 3
 10
-eta_t
+Numeric
 
 1
 16
@@ -1096,7 +1096,7 @@ BackColour
 TabOrder
 3
 11
-fan_power_perc_net
+Numeric
 
 1
 16
@@ -1154,7 +1154,7 @@ BackColour
 TabOrder
 3
 13
-is_sco2_preprocess
+CheckBox
 
 1
 8
@@ -1182,7 +1182,7 @@ State
 TabOrder
 3
 1
-object 4
+GroupBox
 
 1
 7
@@ -1207,7 +1207,7 @@ sCO2 Power Cycle
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1250,7 +1250,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1293,7 +1293,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1336,7 +1336,7 @@ AlignRight
 AlignTop
 2
 0
-recomp_frac_calc
+Numeric
 
 1
 16
@@ -1394,7 +1394,7 @@ BackColour
 TabOrder
 3
 4294967295
-recup_eff_max
+Numeric
 
 1
 16
@@ -1452,7 +1452,7 @@ BackColour
 TabOrder
 3
 12
-sco2_T_amb_des
+Numeric
 
 1
 16
@@ -1510,7 +1510,7 @@ BackColour
 TabOrder
 3
 7
-sco2_T_approach
+Numeric
 
 1
 16
@@ -1568,7 +1568,7 @@ BackColour
 TabOrder
 3
 8
-sco2_cb_msg
+Label
 
 1
 12
@@ -1611,7 +1611,7 @@ AlignRight
 AlignTop
 2
 1
-sco2ud_T_htf_cold_calc
+Numeric
 
 1
 16

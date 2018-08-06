@@ -2,7 +2,7 @@ Financial Analysis Host Developer Parameters
 862
 222
 10
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Analysis Parameters
 Bold
 2
 1
-analysis_period
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 1
-analysis_period_warning
+Label
 
 1
 12
@@ -128,7 +128,7 @@ AlignRight
 AlignTop
 2
 1
-host_nominal_discount_rate
+Numeric
 
 1
 16
@@ -186,7 +186,7 @@ BackColour
 TabOrder
 3
 3
-host_real_discount_rate
+Numeric
 
 1
 16
@@ -244,7 +244,7 @@ BackColour
 TabOrder
 3
 3
-inflation_rate
+Numeric
 
 1
 16
@@ -302,7 +302,7 @@ BackColour
 TabOrder
 3
 2
-nominal_discount_rate
+Numeric
 
 1
 16
@@ -360,7 +360,7 @@ BackColour
 TabOrder
 3
 3
-object 21
+Divider
 
 1
 9
@@ -394,7 +394,7 @@ Host Discount Rate
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -428,7 +428,7 @@ Host Discount Rate
 Bold
 2
 1
-real_discount_rate
+Numeric
 
 1
 16

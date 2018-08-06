@@ -2,7 +2,7 @@ Wind Siting Considerations
 714
 520
 11
-btnGetBarriers
+Button
 
 1
 7
@@ -27,7 +27,7 @@ Download siting considerations
 TabOrder
 3
 0
-gboxDownload
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Download Siting Considerations from Wind Prospector
 Bold
 2
 1
-hypWindProspector
+Hyperlink
 
 1
 8
@@ -80,7 +80,7 @@ http://maps.nrel.gov/wind_prospector
 TabOrder
 3
 0
-lblInfo
+Label
 
 1
 12
@@ -123,7 +123,7 @@ AlignRight
 AlignTop
 2
 1
-lblResults
+Label
 
 1
 12
@@ -166,7 +166,7 @@ AlignRight
 AlignTop
 2
 1
-lblResultsNote
+Label
 
 1
 12
@@ -209,7 +209,7 @@ AlignRight
 AlignTop
 2
 0
-lblUrl
+Label
 
 1
 12
@@ -252,7 +252,7 @@ AlignRight
 AlignTop
 2
 1
-lstBarriers
+ListBox
 
 1
 8
@@ -280,7 +280,7 @@ Selection
 TabOrder
 3
 0
-radLocation
+RadioChoice
 
 1
 10
@@ -316,7 +316,7 @@ Horizontal
 TabOrder
 3
 0
-txtBarriersUrl
+TextEntry
 
 1
 10
@@ -356,7 +356,7 @@ BackColour
 TabOrder
 3
 0
-wind_barriers.radius
+Numeric
 
 1
 16

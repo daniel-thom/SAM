@@ -2,7 +2,7 @@ Dish Receiver
 497
 392
 14
-A_absorber
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 5
-A_wall
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 7
-GroupBox1
+GroupBox
 
 1
 7
@@ -143,7 +143,7 @@ Aperture
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -168,7 +168,7 @@ Absorber
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -193,7 +193,7 @@ Insulation
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -218,7 +218,7 @@ Cavity
 Bold
 2
 1
-L_cav
+Numeric
 
 1
 16
@@ -276,7 +276,7 @@ BackColour
 TabOrder
 3
 10
-L_insulation
+Numeric
 
 1
 16
@@ -334,7 +334,7 @@ BackColour
 TabOrder
 3
 2
-P_cav
+Numeric
 
 1
 16
@@ -392,7 +392,7 @@ BackColour
 TabOrder
 3
 9
-alpha_absorber
+Numeric
 
 1
 16
@@ -450,7 +450,7 @@ BackColour
 TabOrder
 3
 4
-alpha_wall
+Numeric
 
 1
 16
@@ -508,7 +508,7 @@ BackColour
 TabOrder
 3
 6
-d_ap
+Numeric
 
 1
 16
@@ -566,7 +566,7 @@ BackColour
 TabOrder
 3
 1
-d_cav
+Numeric
 
 1
 16
@@ -624,7 +624,7 @@ BackColour
 TabOrder
 3
 8
-k_insulation
+Numeric
 
 1
 16

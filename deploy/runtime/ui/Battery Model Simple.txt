@@ -2,7 +2,7 @@ Battery Model Simple
 590
 125
 6
-Battery Bank
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Battery Bank
 Bold
 2
 1
-batt_simple_chemistry
+Choice
 
 1
 8
@@ -57,7 +57,7 @@ Selection
 TabOrder
 3
 4294967295
-batt_simple_dispatch
+Choice
 
 1
 8
@@ -87,7 +87,7 @@ Selection
 TabOrder
 3
 4294967295
-batt_simple_enable
+CheckBox
 
 1
 8
@@ -115,7 +115,7 @@ State
 TabOrder
 3
 4294967295
-batt_simple_kw
+Numeric
 
 1
 16
@@ -173,7 +173,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_simple_kwh
+Numeric
 
 1
 16

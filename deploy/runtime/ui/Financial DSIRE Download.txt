@@ -2,7 +2,7 @@ Financial DSIRE Download
 862
 80
 3
-GroupBox4
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ DSIRE Incentives Database
 Bold
 2
 1
-Hyperlink11
+Hyperlink
 
 1
 8
@@ -55,7 +55,7 @@ http://www.dsireusa.org/
 TabOrder
 3
 0
-Label111
+Label
 
 1
 12

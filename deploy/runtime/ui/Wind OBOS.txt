@@ -2,7 +2,7 @@ Wind OBOS
 836
 607
 35
-anchor
+Choice
 
 1
 8
@@ -32,7 +32,7 @@ Selection
 TabOrder
 3
 4294967295
-btn_obos_apply
+Button
 
 1
 7
@@ -57,7 +57,7 @@ Apply BOS Estimate
 TabOrder
 3
 4294967295
-buryDepth
+Numeric
 
 1
 16
@@ -115,7 +115,7 @@ BackColour
 TabOrder
 3
 4294967295
-cableOptimizer
+CheckBox
 
 1
 8
@@ -143,7 +143,7 @@ State
 TabOrder
 3
 4294967295
-detailed_obos_assembly
+TableData
 
 1
 8
@@ -171,7 +171,7 @@ Fields
 TabOrder
 3
 4294967295
-detailed_obos_development
+TableData
 
 1
 8
@@ -199,7 +199,7 @@ Fields
 TabOrder
 3
 4294967295
-detailed_obos_electrical
+TableData
 
 1
 8
@@ -227,7 +227,7 @@ Fields
 TabOrder
 3
 4294967295
-detailed_obos_general
+TableData
 
 1
 8
@@ -255,7 +255,7 @@ Fields
 TabOrder
 3
 4294967295
-detailed_obos_port
+TableData
 
 1
 8
@@ -283,7 +283,7 @@ Fields
 TabOrder
 3
 4294967295
-detailed_obos_substructure
+TableData
 
 1
 8
@@ -311,7 +311,7 @@ Fields
 TabOrder
 3
 4294967295
-distAtoS
+Numeric
 
 1
 16
@@ -369,7 +369,7 @@ BackColour
 TabOrder
 3
 4294967295
-distInterCon
+Numeric
 
 1
 16
@@ -427,7 +427,7 @@ BackColour
 TabOrder
 3
 4294967295
-distPort
+Numeric
 
 1
 16
@@ -485,7 +485,7 @@ BackColour
 TabOrder
 3
 4294967295
-distPtoA
+Numeric
 
 1
 16
@@ -543,7 +543,7 @@ BackColour
 TabOrder
 3
 4294967295
-distShore
+Numeric
 
 1
 16
@@ -601,7 +601,7 @@ BackColour
 TabOrder
 3
 4294967295
-elecCont
+Numeric
 
 1
 16
@@ -659,7 +659,7 @@ BackColour
 TabOrder
 3
 4294967295
-installStrategy
+Choice
 
 1
 8
@@ -689,7 +689,7 @@ Selection
 TabOrder
 3
 4294967295
-interConVolt
+Numeric
 
 1
 16
@@ -747,7 +747,7 @@ BackColour
 TabOrder
 3
 4294967295
-moorLines
+Numeric
 
 1
 16
@@ -805,7 +805,7 @@ BackColour
 TabOrder
 3
 4294967295
-number_install_seasons
+Numeric
 
 1
 16
@@ -863,7 +863,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -888,7 +888,7 @@ Offshore Balance of System Cost Model Results
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -913,7 +913,7 @@ Offshore Balance of System Cost Model Results
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -956,7 +956,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -999,7 +999,7 @@ AlignRight
 AlignTop
 2
 1
-obos_group_box
+GroupBox
 
 1
 7
@@ -1024,7 +1024,7 @@ Offshore Balance of System Cost Model Inputs
 Bold
 2
 1
-obos_warning
+MultilineText
 
 1
 10
@@ -1064,7 +1064,7 @@ BackColour
 TabOrder
 3
 4294967295
-scrapVal
+Numeric
 
 1
 16
@@ -1122,7 +1122,7 @@ BackColour
 TabOrder
 3
 4294967295
-substructCont
+Numeric
 
 1
 16
@@ -1180,7 +1180,7 @@ BackColour
 TabOrder
 3
 4294967295
-substructure
+Choice
 
 1
 8
@@ -1212,7 +1212,7 @@ Selection
 TabOrder
 3
 4294967295
-total_obos_cost
+Numeric
 
 1
 16
@@ -1270,7 +1270,7 @@ BackColour
 TabOrder
 3
 4294967295
-total_obos_cost_per_kw
+Numeric
 
 1
 16
@@ -1328,7 +1328,7 @@ BackColour
 TabOrder
 3
 4294967295
-towerInstallMethod
+Choice
 
 1
 8
@@ -1358,7 +1358,7 @@ Selection
 TabOrder
 3
 4294967295
-turbCont
+Numeric
 
 1
 16
@@ -1416,7 +1416,7 @@ BackColour
 TabOrder
 3
 4294967295
-turbInstallMethod
+Choice
 
 1
 8
@@ -1447,7 +1447,7 @@ Selection
 TabOrder
 3
 4294967295
-waterD
+Numeric
 
 1
 16

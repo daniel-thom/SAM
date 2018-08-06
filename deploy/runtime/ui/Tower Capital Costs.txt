@@ -2,7 +2,7 @@ Tower Capital Costs
 794
 871
 74
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Direct Capital Costs
 Bold
 2
 1
-GroupBox211
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox31
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Total Installed Costs
 Bold
 2
 1
-Label112
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label1121
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-Label113
+Label
 
 1
 12
@@ -206,7 +206,7 @@ AlignRight
 AlignTop
 2
 0
-Label211
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label212
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label311
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-csp.pt.cost.bop
+Numeric
 
 1
 16
@@ -393,7 +393,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.bop_per_kwe
+Numeric
 
 1
 16
@@ -451,7 +451,7 @@ BackColour
 TabOrder
 3
 11
-csp.pt.cost.contingency
+Numeric
 
 1
 16
@@ -509,7 +509,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.contingency_percent
+Numeric
 
 1
 16
@@ -567,7 +567,7 @@ BackColour
 TabOrder
 3
 13
-csp.pt.cost.epc.fixed
+Numeric
 
 1
 16
@@ -625,7 +625,7 @@ BackColour
 TabOrder
 3
 17
-csp.pt.cost.epc.per_acre
+Numeric
 
 1
 16
@@ -683,7 +683,7 @@ BackColour
 TabOrder
 3
 14
-csp.pt.cost.epc.per_watt
+Numeric
 
 1
 16
@@ -741,7 +741,7 @@ BackColour
 TabOrder
 3
 16
-csp.pt.cost.epc.percent
+Numeric
 
 1
 16
@@ -799,7 +799,7 @@ BackColour
 TabOrder
 3
 15
-csp.pt.cost.epc.total
+Numeric
 
 1
 16
@@ -857,7 +857,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.fixed_sf
+Numeric
 
 1
 16
@@ -915,7 +915,7 @@ BackColour
 TabOrder
 3
 3
-csp.pt.cost.fossil
+Numeric
 
 1
 16
@@ -973,7 +973,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.fossil_per_kwe
+Numeric
 
 1
 16
@@ -1031,7 +1031,7 @@ BackColour
 TabOrder
 3
 10
-csp.pt.cost.heliostats
+Numeric
 
 1
 16
@@ -1089,7 +1089,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.heliostats_m2
+Numeric
 
 1
 16
@@ -1147,7 +1147,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.heliostats_per_m2
+Numeric
 
 1
 16
@@ -1205,7 +1205,7 @@ BackColour
 TabOrder
 3
 2
-csp.pt.cost.installed_per_capacity
+Numeric
 
 1
 16
@@ -1263,7 +1263,7 @@ BackColour
 TabOrder
 3
 4294967295
-csp.pt.cost.nameplate
+Numeric
 
 1
 16
@@ -1321,7 +1321,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.plm.fixed
+Numeric
 
 1
 16
@@ -1379,7 +1379,7 @@ BackColour
 TabOrder
 3
 21
-csp.pt.cost.plm.per_acre
+Numeric
 
 1
 16
@@ -1437,7 +1437,7 @@ BackColour
 TabOrder
 3
 18
-csp.pt.cost.plm.per_watt
+Numeric
 
 1
 16
@@ -1495,7 +1495,7 @@ BackColour
 TabOrder
 3
 20
-csp.pt.cost.plm.percent
+Numeric
 
 1
 16
@@ -1553,7 +1553,7 @@ BackColour
 TabOrder
 3
 19
-csp.pt.cost.plm.total
+Numeric
 
 1
 16
@@ -1611,7 +1611,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.power_block
+Numeric
 
 1
 16
@@ -1669,7 +1669,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.power_block_mwe
+Numeric
 
 1
 16
@@ -1727,7 +1727,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.power_block_per_kwe
+Numeric
 
 1
 16
@@ -1785,7 +1785,7 @@ BackColour
 TabOrder
 3
 12
-csp.pt.cost.receiver
+Numeric
 
 1
 16
@@ -1843,7 +1843,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.receiver.area
+Numeric
 
 1
 16
@@ -1901,7 +1901,7 @@ BackColour
 TabOrder
 3
 23
-csp.pt.cost.receiver.ref_area
+Numeric
 
 1
 16
@@ -1959,7 +1959,7 @@ BackColour
 TabOrder
 3
 7
-csp.pt.cost.receiver.ref_cost
+Numeric
 
 1
 16
@@ -2017,7 +2017,7 @@ BackColour
 TabOrder
 3
 6
-csp.pt.cost.receiver.scaling_exp
+Numeric
 
 1
 16
@@ -2075,7 +2075,7 @@ BackColour
 TabOrder
 3
 8
-csp.pt.cost.sales_tax.percent
+Numeric
 
 1
 16
@@ -2133,7 +2133,7 @@ BackColour
 TabOrder
 3
 22
-csp.pt.cost.sales_tax.total
+Numeric
 
 1
 16
@@ -2191,7 +2191,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.sales_tax.value
+Numeric
 
 1
 16
@@ -2249,7 +2249,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.site_improvements
+Numeric
 
 1
 16
@@ -2307,7 +2307,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.site_improvements_per_m2
+Numeric
 
 1
 16
@@ -2365,7 +2365,7 @@ BackColour
 TabOrder
 3
 1
-csp.pt.cost.storage
+Numeric
 
 1
 16
@@ -2423,7 +2423,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.storage_mwht
+Numeric
 
 1
 16
@@ -2481,7 +2481,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.storage_per_kwht
+Numeric
 
 1
 16
@@ -2539,7 +2539,7 @@ BackColour
 TabOrder
 3
 9
-csp.pt.cost.total_land_area
+Numeric
 
 1
 16
@@ -2597,7 +2597,7 @@ BackColour
 TabOrder
 3
 0
-csp.pt.cost.tower
+Numeric
 
 1
 16
@@ -2655,7 +2655,7 @@ BackColour
 TabOrder
 3
 7
-csp.pt.cost.tower.fixed
+Numeric
 
 1
 16
@@ -2713,7 +2713,7 @@ BackColour
 TabOrder
 3
 4
-csp.pt.cost.tower.scaling_exp
+Numeric
 
 1
 16
@@ -2771,7 +2771,7 @@ BackColour
 TabOrder
 3
 5
-lblFinancingCost
+Label
 
 1
 12
@@ -2814,7 +2814,7 @@ AlignRight
 AlignTop
 2
 1
-object 21
+Divider
 
 1
 9
@@ -2848,7 +2848,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -2882,7 +2882,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -2916,7 +2916,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -2950,7 +2950,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -2984,7 +2984,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -3018,7 +3018,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -3052,7 +3052,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -3086,7 +3086,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -3120,7 +3120,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -3154,7 +3154,7 @@ Heliostat Field
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -3188,7 +3188,7 @@ Heliostat Field
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -3231,7 +3231,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3274,7 +3274,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3317,7 +3317,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3360,7 +3360,7 @@ AlignRight
 AlignTop
 2
 0
-total_direct_cost
+Numeric
 
 1
 16
@@ -3418,7 +3418,7 @@ BackColour
 TabOrder
 3
 0
-total_indirect_cost
+Numeric
 
 1
 16
@@ -3476,7 +3476,7 @@ BackColour
 TabOrder
 3
 0
-total_installed_cost
+Numeric
 
 1
 16
@@ -3534,7 +3534,7 @@ BackColour
 TabOrder
 3
 0
-ui_direct_subtotal
+Numeric
 
 1
 16
@@ -3592,7 +3592,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_heliostat_height
+Numeric
 
 1
 16
@@ -3650,7 +3650,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_receiver_height
+Numeric
 
 1
 16
@@ -3708,7 +3708,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_tower_height
+Numeric
 
 1
 16

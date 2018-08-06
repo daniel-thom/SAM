@@ -2,7 +2,7 @@ Molten Salt Linear Fresnel Solar Field
 1011
 743
 53
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Solar field parameters
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Heat Transfer Fluid
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Plant Heat Capacity
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Design Point
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Land Area
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Mirror Washing
 Bold
 2
 1
-HDR_rough
+Numeric
 
 1
 16
@@ -210,7 +210,7 @@ BackColour
 TabOrder
 3
 10
-HTF_data
+MaterialProperties
 
 1
 6
@@ -232,7 +232,7 @@ Height
 TabOrder
 3
 15
-I_bn_des
+Numeric
 
 1
 16
@@ -290,7 +290,7 @@ BackColour
 TabOrder
 3
 3
-T_amb_sf_des
+Numeric
 
 1
 16
@@ -348,7 +348,7 @@ BackColour
 TabOrder
 3
 4
-T_field_ini
+Numeric
 
 1
 16
@@ -406,7 +406,7 @@ BackColour
 TabOrder
 3
 11
-T_fp
+Numeric
 
 1
 16
@@ -464,7 +464,7 @@ BackColour
 TabOrder
 3
 11
-T_loop_in_des
+Numeric
 
 1
 16
@@ -522,7 +522,7 @@ BackColour
 TabOrder
 3
 16
-T_loop_out
+Numeric
 
 1
 16
@@ -580,7 +580,7 @@ BackColour
 TabOrder
 3
 17
-V_hdr_max
+Numeric
 
 1
 16
@@ -638,7 +638,7 @@ BackColour
 TabOrder
 3
 23
-V_hdr_min
+Numeric
 
 1
 16
@@ -696,7 +696,7 @@ BackColour
 TabOrder
 3
 22
-V_wind_des
+Numeric
 
 1
 16
@@ -754,7 +754,7 @@ BackColour
 TabOrder
 3
 7
-a_field
+Numeric
 
 1
 16
@@ -812,7 +812,7 @@ BackColour
 TabOrder
 3
 2
-a_loop
+Numeric
 
 1
 16
@@ -870,7 +870,7 @@ BackColour
 TabOrder
 3
 27
-a_sf_act
+Numeric
 
 1
 16
@@ -928,7 +928,7 @@ BackColour
 TabOrder
 3
 35
-csp.mslf.sf.FieldConfig
+Choice
 
 1
 8
@@ -956,7 +956,7 @@ Selection
 TabOrder
 3
 5
-csp.mslf.sf.Fluid
+Choice
 
 1
 8
@@ -994,7 +994,7 @@ Selection
 TabOrder
 3
 14
-csp.mslf.sf.field_thermal_output
+Numeric
 
 1
 16
@@ -1052,7 +1052,7 @@ BackColour
 TabOrder
 3
 37
-csp.mslf.sf.fthrctrl
+Choice
 
 1
 8
@@ -1080,7 +1080,7 @@ Selection
 TabOrder
 3
 5
-csp.mslf.sf.sm1_nLoops
+Numeric
 
 1
 16
@@ -1138,7 +1138,7 @@ BackColour
 TabOrder
 3
 33
-csp.mslf.sf.sm_or_area
+RadioChoice
 
 1
 10
@@ -1174,7 +1174,7 @@ Horizontal
 TabOrder
 3
 1
-eta_pump
+Numeric
 
 1
 16
@@ -1232,7 +1232,7 @@ BackColour
 TabOrder
 3
 9
-field_area
+Numeric
 
 1
 16
@@ -1290,7 +1290,7 @@ BackColour
 TabOrder
 3
 38
-field_thermal_output
+Numeric
 
 1
 16
@@ -1348,7 +1348,7 @@ BackColour
 TabOrder
 3
 36
-fthrok
+CheckBox
 
 1
 8
@@ -1376,7 +1376,7 @@ State
 TabOrder
 3
 6
-htf_max_opt_temp
+Numeric
 
 1
 16
@@ -1434,7 +1434,7 @@ BackColour
 TabOrder
 3
 16
-htf_min_opt_temp
+Numeric
 
 1
 16
@@ -1492,7 +1492,7 @@ BackColour
 TabOrder
 3
 16
-land_mult
+Numeric
 
 1
 16
@@ -1550,7 +1550,7 @@ BackColour
 TabOrder
 3
 39
-loop_eff
+Numeric
 
 1
 16
@@ -1608,7 +1608,7 @@ BackColour
 TabOrder
 3
 30
-loop_opt_eff
+Numeric
 
 1
 16
@@ -1666,7 +1666,7 @@ BackColour
 TabOrder
 3
 28
-loop_therm_eff
+Numeric
 
 1
 16
@@ -1724,7 +1724,7 @@ BackColour
 TabOrder
 3
 29
-m_dot_htfmax
+Numeric
 
 1
 16
@@ -1782,7 +1782,7 @@ BackColour
 TabOrder
 3
 19
-m_dot_htfmin
+Numeric
 
 1
 16
@@ -1840,7 +1840,7 @@ BackColour
 TabOrder
 3
 18
-mc_bal_cold
+Numeric
 
 1
 16
@@ -1898,7 +1898,7 @@ BackColour
 TabOrder
 3
 23
-mc_bal_hot
+Numeric
 
 1
 16
@@ -1956,7 +1956,7 @@ BackColour
 TabOrder
 3
 22
-mc_bal_sca
+Numeric
 
 1
 16
@@ -2014,7 +2014,7 @@ BackColour
 TabOrder
 3
 24
-nLoops
+Numeric
 
 1
 16
@@ -2072,7 +2072,7 @@ BackColour
 TabOrder
 3
 34
-nMod
+Numeric
 
 1
 16
@@ -2130,7 +2130,7 @@ BackColour
 TabOrder
 3
 8
-rec_htf_vol
+Numeric
 
 1
 16
@@ -2188,7 +2188,7 @@ BackColour
 TabOrder
 3
 25
-sf_q_design
+Numeric
 
 1
 16
@@ -2246,7 +2246,7 @@ BackColour
 TabOrder
 3
 31
-sm1_aperture
+Numeric
 
 1
 16
@@ -2304,7 +2304,7 @@ BackColour
 TabOrder
 3
 32
-solar_mult
+Numeric
 
 1
 16
@@ -2362,7 +2362,7 @@ BackColour
 TabOrder
 3
 36
-solar_mult_spec
+Numeric
 
 1
 16
@@ -2420,7 +2420,7 @@ BackColour
 TabOrder
 3
 2
-theta_dep
+Numeric
 
 1
 16
@@ -2478,7 +2478,7 @@ BackColour
 TabOrder
 3
 11
-theta_stow
+Numeric
 
 1
 16
@@ -2536,7 +2536,7 @@ BackColour
 TabOrder
 3
 11
-total_land_area
+Numeric
 
 1
 16
@@ -2594,7 +2594,7 @@ BackColour
 TabOrder
 3
 40
-washes_per_year
+Numeric
 
 1
 16
@@ -2652,7 +2652,7 @@ BackColour
 TabOrder
 3
 42
-water_per_wash
+Numeric
 
 1
 16

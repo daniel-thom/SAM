@@ -2,7 +2,7 @@ LF DSG Solar Field
 989
 671
 43
-ColAz
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 10
-GroupBox1
+GroupBox
 
 1
 7
@@ -85,7 +85,7 @@ Solar Field Parameters
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -110,7 +110,7 @@ Steam Design Conditions
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -135,7 +135,7 @@ Plant Heat Capacity
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -160,7 +160,7 @@ Solar Field Design Point
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -185,7 +185,7 @@ Land Area
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -210,7 +210,7 @@ Mirror Washing
 Bold
 2
 1
-Pipe_hl_coef
+Numeric
 
 1
 16
@@ -268,7 +268,7 @@ BackColour
 TabOrder
 3
 4294967295
-SCA_drives_elec
+Numeric
 
 1
 16
@@ -326,7 +326,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_I_bn_des
+Numeric
 
 1
 16
@@ -384,7 +384,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_P_turb_des
+Numeric
 
 1
 16
@@ -442,7 +442,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_T_cold_ref_des
+Numeric
 
 1
 16
@@ -500,7 +500,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_specified_q_dot_rec_des
+Numeric
 
 1
 16
@@ -558,7 +558,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_specified_solar_multiple
+Numeric
 
 1
 16
@@ -616,7 +616,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_x_b_des
+Numeric
 
 1
 16
@@ -674,7 +674,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_amb_des_sf
+Numeric
 
 1
 16
@@ -732,7 +732,7 @@ BackColour
 TabOrder
 3
 4
-T_fp
+Numeric
 
 1
 16
@@ -790,7 +790,7 @@ BackColour
 TabOrder
 3
 23
-V_wind_max
+Numeric
 
 1
 16
@@ -848,7 +848,7 @@ BackColour
 TabOrder
 3
 24
-csp.lf.sf.area_multiplier
+Numeric
 
 1
 16
@@ -906,7 +906,7 @@ BackColour
 TabOrder
 3
 39
-csp.lf.sf.dp.actual_aper
+Numeric
 
 1
 16
@@ -964,7 +964,7 @@ BackColour
 TabOrder
 3
 35
-csp.lf.sf.dp.loop_aperture
+Numeric
 
 1
 16
@@ -1022,7 +1022,7 @@ BackColour
 TabOrder
 3
 27
-csp.lf.sf.dp.loop_opt_eff
+Numeric
 
 1
 16
@@ -1080,7 +1080,7 @@ BackColour
 TabOrder
 3
 28
-csp.lf.sf.dp.loop_therm_eff
+Numeric
 
 1
 16
@@ -1138,7 +1138,7 @@ BackColour
 TabOrder
 3
 29
-csp.lf.sf.dp.sm1_aperture
+Numeric
 
 1
 16
@@ -1196,7 +1196,7 @@ BackColour
 TabOrder
 3
 32
-csp.lf.sf.dp.sm1_numloops
+Numeric
 
 1
 16
@@ -1254,7 +1254,7 @@ BackColour
 TabOrder
 3
 33
-csp.lf.sf.dp.total_loop_conv_eff
+Numeric
 
 1
 16
@@ -1312,7 +1312,7 @@ BackColour
 TabOrder
 3
 31
-csp.lf.sf.field_area
+Numeric
 
 1
 16
@@ -1370,7 +1370,7 @@ BackColour
 TabOrder
 3
 38
-csp.lf.sf.total_land_area
+Numeric
 
 1
 16
@@ -1428,7 +1428,7 @@ BackColour
 TabOrder
 3
 40
-csp.lf.sf.total_pres_drop
+Numeric
 
 1
 16
@@ -1486,7 +1486,7 @@ BackColour
 TabOrder
 3
 21
-csp.lf.sf.washes_per_year
+Numeric
 
 1
 16
@@ -1544,7 +1544,7 @@ BackColour
 TabOrder
 3
 42
-csp.lf.sf.water_per_wash
+Numeric
 
 1
 16
@@ -1602,7 +1602,7 @@ BackColour
 TabOrder
 3
 41
-e_startup
+Numeric
 
 1
 16
@@ -1660,7 +1660,7 @@ BackColour
 TabOrder
 3
 11
-eta_pump
+Numeric
 
 1
 16
@@ -1718,7 +1718,7 @@ BackColour
 TabOrder
 3
 9
-fP_hdr_c
+Numeric
 
 1
 16
@@ -1776,7 +1776,7 @@ BackColour
 TabOrder
 3
 16
-fP_hdr_h
+Numeric
 
 1
 16
@@ -1834,7 +1834,7 @@ BackColour
 TabOrder
 3
 20
-fP_sf_boil
+Numeric
 
 1
 16
@@ -1892,7 +1892,7 @@ BackColour
 TabOrder
 3
 17
-field_sys_design
+GroupBox
 
 1
 7
@@ -1917,7 +1917,7 @@ System Configuration
 Bold
 2
 1
-field_thermal_output
+Numeric
 
 1
 16
@@ -1975,7 +1975,7 @@ BackColour
 TabOrder
 3
 37
-nLoops
+Numeric
 
 1
 16
@@ -2033,7 +2033,7 @@ BackColour
 TabOrder
 3
 34
-nModBoil
+Numeric
 
 1
 16
@@ -2091,7 +2091,7 @@ BackColour
 TabOrder
 3
 7
-solarm
+Numeric
 
 1
 16
@@ -2149,7 +2149,7 @@ BackColour
 TabOrder
 3
 36
-theta_dep
+Numeric
 
 1
 16
@@ -2207,7 +2207,7 @@ BackColour
 TabOrder
 3
 26
-theta_stow
+Numeric
 
 1
 16

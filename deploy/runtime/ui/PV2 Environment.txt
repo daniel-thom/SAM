@@ -2,7 +2,7 @@ PV2 Environment
 1089
 1285
 17
-GroupBox7
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Land Usage
 Bold
 2
 1
-Label214
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-en_3d_shading
+CheckBox
 
 1
 8
@@ -98,7 +98,7 @@ State
 TabOrder
 3
 4294967295
-en_snow_model
+CheckBox
 
 1
 8
@@ -126,7 +126,7 @@ State
 TabOrder
 3
 4294967295
-loss_model_3d
+Choice
 
 1
 8
@@ -156,7 +156,7 @@ Selection
 TabOrder
 3
 4294967295
-loss_model_3d_description
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 1
-object 10
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 1
-object 21
+Divider
 
 1
 9
@@ -276,7 +276,7 @@ Obstructions
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -301,7 +301,7 @@ Snow Losses
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -326,7 +326,7 @@ Snow Losses
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -369,7 +369,7 @@ AlignRight
 AlignTop
 2
 1
-shade_scene_3d
+Scene3D
 
 1
 5
@@ -388,7 +388,7 @@ Width
 Height
 3
 900
-soiling
+MonthlyFactor
 
 1
 7
@@ -413,7 +413,7 @@ Soiling losses for sub-array 1 (%)
 TabOrder
 3
 1
-soiling_annual_average
+Numeric
 
 1
 16
@@ -471,7 +471,7 @@ BackColour
 TabOrder
 3
 2
-total_area
+Numeric
 
 1
 16
@@ -529,7 +529,7 @@ BackColour
 TabOrder
 3
 4294967295
-total_land_area
+Numeric
 
 1
 16
@@ -587,7 +587,7 @@ BackColour
 TabOrder
 3
 52
-ui_msg_snow
+Label
 
 1
 12

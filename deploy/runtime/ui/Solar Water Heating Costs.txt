@@ -2,7 +2,7 @@ Solar Water Heating Costs
 699
 503
 36
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox21
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Direct Capital Costs
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Total Installed Costs
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -206,7 +206,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-bos
+Numeric
 
 1
 16
@@ -393,7 +393,7 @@ BackColour
 TabOrder
 3
 6
-collector
+Numeric
 
 1
 16
@@ -451,7 +451,7 @@ BackColour
 TabOrder
 3
 0
-collector_cost_units
+Choice
 
 1
 8
@@ -482,7 +482,7 @@ Selection
 TabOrder
 3
 0
-contingency
+Numeric
 
 1
 16
@@ -540,7 +540,7 @@ BackColour
 TabOrder
 3
 0
-contingency_percent
+Numeric
 
 1
 16
@@ -598,7 +598,7 @@ BackColour
 TabOrder
 3
 8
-epc_fixed
+Numeric
 
 1
 16
@@ -656,7 +656,7 @@ BackColour
 TabOrder
 3
 11
-epc_nonfixed
+Numeric
 
 1
 16
@@ -714,7 +714,7 @@ BackColour
 TabOrder
 3
 0
-epc_percent
+Numeric
 
 1
 16
@@ -772,7 +772,7 @@ BackColour
 TabOrder
 3
 9
-epc_total
+Numeric
 
 1
 16
@@ -830,7 +830,7 @@ BackColour
 TabOrder
 3
 0
-installation
+Numeric
 
 1
 16
@@ -888,7 +888,7 @@ BackColour
 TabOrder
 3
 7
-installed_per_capacity
+Numeric
 
 1
 16
@@ -946,7 +946,7 @@ BackColour
 TabOrder
 3
 0
-lblFinancingCost
+Label
 
 1
 12
@@ -989,7 +989,7 @@ AlignRight
 AlignTop
 2
 1
-num_collectors
+Numeric
 
 1
 16
@@ -1047,7 +1047,7 @@ BackColour
 TabOrder
 3
 0
-per_collector
+Numeric
 
 1
 16
@@ -1105,7 +1105,7 @@ BackColour
 TabOrder
 3
 0
-per_storage
+Numeric
 
 1
 16
@@ -1163,7 +1163,7 @@ BackColour
 TabOrder
 3
 0
-plm_fixed
+Numeric
 
 1
 16
@@ -1221,7 +1221,7 @@ BackColour
 TabOrder
 3
 12
-plm_nonfixed
+Numeric
 
 1
 16
@@ -1279,7 +1279,7 @@ BackColour
 TabOrder
 3
 0
-plm_percent
+Numeric
 
 1
 16
@@ -1337,7 +1337,7 @@ BackColour
 TabOrder
 3
 10
-plm_total
+Numeric
 
 1
 16
@@ -1395,7 +1395,7 @@ BackColour
 TabOrder
 3
 0
-sales_tax_percent
+Numeric
 
 1
 16
@@ -1453,7 +1453,7 @@ BackColour
 TabOrder
 3
 13
-sales_tax_total
+Numeric
 
 1
 16
@@ -1511,7 +1511,7 @@ BackColour
 TabOrder
 3
 0
-sales_tax_value
+Numeric
 
 1
 16
@@ -1569,7 +1569,7 @@ BackColour
 TabOrder
 3
 0
-storage
+Numeric
 
 1
 16
@@ -1627,7 +1627,7 @@ BackColour
 TabOrder
 3
 0
-storage_cost_units
+Choice
 
 1
 8
@@ -1657,7 +1657,7 @@ Selection
 TabOrder
 3
 0
-total_direct
+Numeric
 
 1
 16
@@ -1715,7 +1715,7 @@ BackColour
 TabOrder
 3
 0
-total_indirect
+Numeric
 
 1
 16
@@ -1773,7 +1773,7 @@ BackColour
 TabOrder
 3
 0
-total_installed_cost
+Numeric
 
 1
 16

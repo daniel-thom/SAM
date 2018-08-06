@@ -2,7 +2,7 @@ PV2 MLPE Optimizers
 733
 404
 11
-Imp
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 4294967295
-Imp
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 4294967295
-Imp
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 4294967295
-Vmp
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 4294967295
-mlpe_efficiency_table
+DataMatrix
 
 1
 22
@@ -304,7 +304,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-object 22
+Plot
 
 1
 5
@@ -323,7 +323,7 @@ Width
 Height
 3
 342
-object 4
+GroupBox
 
 1
 7
@@ -348,7 +348,7 @@ String-level power optimizer specifications
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -391,7 +391,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -434,7 +434,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -477,7 +477,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12

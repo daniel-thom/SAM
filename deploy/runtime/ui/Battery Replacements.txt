@@ -2,7 +2,7 @@ Battery Replacements
 999
 215
 7
-Battery Bank Sizing
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Battery Bank Replacement
 Bold
 2
 1
-Label3
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-batt_replacement_capacity
+Numeric
 
 1
 16
@@ -128,7 +128,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_replacement_cost
+Numeric
 
 1
 16
@@ -186,7 +186,7 @@ BackColour
 TabOrder
 3
 2
-batt_replacement_cost_escal
+Numeric
 
 1
 16
@@ -244,7 +244,7 @@ BackColour
 TabOrder
 3
 2
-batt_replacement_option
+RadioChoice
 
 1
 10
@@ -281,7 +281,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_replacement_schedule
+DataArray
 
 1
 9

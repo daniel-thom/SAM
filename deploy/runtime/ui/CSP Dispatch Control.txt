@@ -2,50 +2,7 @@ CSP Dispatch Control
 932
 669
 61
-
-
-1
-12
-Name
-5
- 
-X
-3
-15
-Y
-3
-294
-Width
-3
-332
-Height
-3
-45
-Caption
-5
-Storage dispatch fractions apply to the maximum energy storage.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
-
+Label
 
 1
 12
@@ -88,7 +45,7 @@ AlignRight
 AlignTop
 2
 1
-
+Label
 
 1
 12
@@ -131,7 +88,50 @@ AlignRight
 AlignTop
 2
 1
-GroupBox2
+Label
+
+1
+12
+Name
+5
+ 
+X
+3
+15
+Y
+3
+294
+Width
+3
+332
+Height
+3
+45
+Caption
+5
+Storage dispatch fractions apply to the maximum energy storage.
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+1
+AlignRight
+2
+0
+AlignTop
+2
+1
+GroupBox
 
 1
 7
@@ -156,7 +156,7 @@ Dispatch Control
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -181,7 +181,7 @@ Weekday Schedule
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -206,7 +206,7 @@ Weekend Schedule
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label10
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -378,7 +378,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -421,7 +421,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -464,7 +464,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -507,7 +507,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -550,7 +550,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -593,7 +593,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -636,7 +636,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -679,7 +679,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -722,7 +722,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -765,7 +765,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -808,7 +808,7 @@ AlignRight
 AlignTop
 2
 0
-Label8
+Label
 
 1
 12
@@ -851,7 +851,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -894,7 +894,7 @@ AlignRight
 AlignTop
 2
 0
-copy_schedule
+Button
 
 1
 7
@@ -919,7 +919,7 @@ Copy schedule from TOD Factors page
 TabOrder
 3
 4294967295
-ui_disp_1_fossil
+Numeric
 
 1
 16
@@ -977,7 +977,7 @@ BackColour
 TabOrder
 3
 21
-ui_disp_1_nosolar
+Numeric
 
 1
 16
@@ -1035,7 +1035,7 @@ BackColour
 TabOrder
 3
 19
-ui_disp_1_solar
+Numeric
 
 1
 16
@@ -1093,7 +1093,7 @@ BackColour
 TabOrder
 3
 18
-ui_disp_1_turbout
+Numeric
 
 1
 16
@@ -1151,7 +1151,7 @@ BackColour
 TabOrder
 3
 20
-ui_disp_2_fossil
+Numeric
 
 1
 16
@@ -1209,7 +1209,7 @@ BackColour
 TabOrder
 3
 26
-ui_disp_2_nosolar
+Numeric
 
 1
 16
@@ -1267,7 +1267,7 @@ BackColour
 TabOrder
 3
 24
-ui_disp_2_solar
+Numeric
 
 1
 16
@@ -1325,7 +1325,7 @@ BackColour
 TabOrder
 3
 23
-ui_disp_2_turbout
+Numeric
 
 1
 16
@@ -1383,7 +1383,7 @@ BackColour
 TabOrder
 3
 25
-ui_disp_3_fossil
+Numeric
 
 1
 16
@@ -1441,7 +1441,7 @@ BackColour
 TabOrder
 3
 31
-ui_disp_3_nosolar
+Numeric
 
 1
 16
@@ -1499,7 +1499,7 @@ BackColour
 TabOrder
 3
 29
-ui_disp_3_solar
+Numeric
 
 1
 16
@@ -1557,7 +1557,7 @@ BackColour
 TabOrder
 3
 28
-ui_disp_3_turbout
+Numeric
 
 1
 16
@@ -1615,7 +1615,7 @@ BackColour
 TabOrder
 3
 30
-ui_disp_4_fossil
+Numeric
 
 1
 16
@@ -1673,7 +1673,7 @@ BackColour
 TabOrder
 3
 36
-ui_disp_4_nosolar
+Numeric
 
 1
 16
@@ -1731,7 +1731,7 @@ BackColour
 TabOrder
 3
 34
-ui_disp_4_solar
+Numeric
 
 1
 16
@@ -1789,7 +1789,7 @@ BackColour
 TabOrder
 3
 33
-ui_disp_4_turbout
+Numeric
 
 1
 16
@@ -1847,7 +1847,7 @@ BackColour
 TabOrder
 3
 35
-ui_disp_5_fossil
+Numeric
 
 1
 16
@@ -1905,7 +1905,7 @@ BackColour
 TabOrder
 3
 41
-ui_disp_5_nosolar
+Numeric
 
 1
 16
@@ -1963,7 +1963,7 @@ BackColour
 TabOrder
 3
 39
-ui_disp_5_solar
+Numeric
 
 1
 16
@@ -2021,7 +2021,7 @@ BackColour
 TabOrder
 3
 38
-ui_disp_5_turbout
+Numeric
 
 1
 16
@@ -2079,7 +2079,7 @@ BackColour
 TabOrder
 3
 40
-ui_disp_6_fossil
+Numeric
 
 1
 16
@@ -2137,7 +2137,7 @@ BackColour
 TabOrder
 3
 46
-ui_disp_6_nosolar
+Numeric
 
 1
 16
@@ -2195,7 +2195,7 @@ BackColour
 TabOrder
 3
 44
-ui_disp_6_solar
+Numeric
 
 1
 16
@@ -2253,7 +2253,7 @@ BackColour
 TabOrder
 3
 43
-ui_disp_6_turbout
+Numeric
 
 1
 16
@@ -2311,7 +2311,7 @@ BackColour
 TabOrder
 3
 45
-ui_disp_7_fossil
+Numeric
 
 1
 16
@@ -2369,7 +2369,7 @@ BackColour
 TabOrder
 3
 51
-ui_disp_7_nosolar
+Numeric
 
 1
 16
@@ -2427,7 +2427,7 @@ BackColour
 TabOrder
 3
 49
-ui_disp_7_solar
+Numeric
 
 1
 16
@@ -2485,7 +2485,7 @@ BackColour
 TabOrder
 3
 48
-ui_disp_7_turbout
+Numeric
 
 1
 16
@@ -2543,7 +2543,7 @@ BackColour
 TabOrder
 3
 50
-ui_disp_8_fossil
+Numeric
 
 1
 16
@@ -2601,7 +2601,7 @@ BackColour
 TabOrder
 3
 56
-ui_disp_8_nosolar
+Numeric
 
 1
 16
@@ -2659,7 +2659,7 @@ BackColour
 TabOrder
 3
 54
-ui_disp_8_solar
+Numeric
 
 1
 16
@@ -2717,7 +2717,7 @@ BackColour
 TabOrder
 3
 53
-ui_disp_8_turbout
+Numeric
 
 1
 16
@@ -2775,7 +2775,7 @@ BackColour
 TabOrder
 3
 55
-ui_disp_9_fossil
+Numeric
 
 1
 16
@@ -2833,7 +2833,7 @@ BackColour
 TabOrder
 3
 61
-ui_disp_9_nosolar
+Numeric
 
 1
 16
@@ -2891,7 +2891,7 @@ BackColour
 TabOrder
 3
 59
-ui_disp_9_solar
+Numeric
 
 1
 16
@@ -2949,7 +2949,7 @@ BackColour
 TabOrder
 3
 58
-ui_disp_9_turbout
+Numeric
 
 1
 16
@@ -3007,7 +3007,7 @@ BackColour
 TabOrder
 3
 60
-weekday_schedule
+DiurnalPeriod
 
 1
 9
@@ -3038,7 +3038,7 @@ Max
 Min
 3
 1
-weekend_schedule
+DiurnalPeriod
 
 1
 9

@@ -2,7 +2,7 @@ PV Losses
 853
 918
 74
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ DC Losses
 Bold
 2
 1
-GroupBox1
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ DC Losses
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Transformer Losses
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Transformer Losses
 Bold
 2
 1
-GroupBox7
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Transmission Losses
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -170,7 +170,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -213,7 +213,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -256,7 +256,7 @@ AlignRight
 AlignTop
 2
 0
-Label121111
+Label
 
 1
 12
@@ -299,7 +299,7 @@ AlignRight
 AlignTop
 2
 0
-Label1213
+Label
 
 1
 12
@@ -342,7 +342,7 @@ AlignRight
 AlignTop
 2
 0
-Label123
+Label
 
 1
 12
@@ -385,7 +385,7 @@ AlignRight
 AlignTop
 2
 0
-Label123
+Label
 
 1
 12
@@ -428,7 +428,7 @@ AlignRight
 AlignTop
 2
 0
-Label1231
+Label
 
 1
 12
@@ -471,7 +471,7 @@ AlignRight
 AlignTop
 2
 0
-Label14
+Label
 
 1
 12
@@ -514,7 +514,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -557,7 +557,7 @@ AlignRight
 AlignTop
 2
 0
-Label41
+Label
 
 1
 12
@@ -600,7 +600,7 @@ AlignRight
 AlignTop
 2
 0
-Label411
+Label
 
 1
 12
@@ -643,7 +643,7 @@ AlignRight
 AlignTop
 2
 0
-Label4111
+Label
 
 1
 12
@@ -686,7 +686,7 @@ AlignRight
 AlignTop
 2
 0
-ac_loss_divider
+Divider
 
 1
 9
@@ -720,7 +720,7 @@ AC Losses
 Bold
 2
 1
-acwiring_loss
+Numeric
 
 1
 16
@@ -778,7 +778,7 @@ BackColour
 TabOrder
 3
 33
-adjust
+LossAdjustment
 
 1
 6
@@ -800,7 +800,7 @@ Height
 TabOrder
 3
 4294967295
-btn_dc_opt
+Button
 
 1
 7
@@ -825,7 +825,7 @@ DC optimizers
 TabOrder
 3
 4294967295
-btn_microinverter
+Button
 
 1
 7
@@ -850,7 +850,7 @@ Microinverters
 TabOrder
 3
 4294967295
-btn_string_inv
+Button
 
 1
 7
@@ -875,7 +875,7 @@ Central inverters
 TabOrder
 3
 4294967295
-dc_adjust
+LossAdjustment
 
 1
 6
@@ -897,7 +897,7 @@ Height
 TabOrder
 3
 4294967295
-dc_loss_divider
+Divider
 
 1
 9
@@ -931,7 +931,7 @@ DC Losses
 Bold
 2
 1
-dcoptimizer_loss
+Numeric
 
 1
 16
@@ -989,7 +989,7 @@ BackColour
 TabOrder
 3
 7
-object 21
+Divider
 
 1
 9
@@ -1023,7 +1023,7 @@ Default DC Losses
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1048,7 +1048,7 @@ Irradiance Losses
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1091,7 +1091,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1134,7 +1134,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1177,7 +1177,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1220,7 +1220,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1263,7 +1263,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1306,7 +1306,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1349,7 +1349,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1392,7 +1392,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1435,7 +1435,7 @@ AlignRight
 AlignTop
 2
 1
-object 8
+Label
 
 1
 12
@@ -1478,7 +1478,7 @@ AlignRight
 AlignTop
 2
 1
-subarray1_dcloss
+Numeric
 
 1
 16
@@ -1536,7 +1536,7 @@ BackColour
 TabOrder
 3
 8
-subarray1_dcwiring_loss
+Numeric
 
 1
 16
@@ -1594,7 +1594,7 @@ BackColour
 TabOrder
 3
 5
-subarray1_diodeconn_loss
+Numeric
 
 1
 16
@@ -1652,7 +1652,7 @@ BackColour
 TabOrder
 3
 4
-subarray1_mismatch_loss
+Numeric
 
 1
 16
@@ -1710,7 +1710,7 @@ BackColour
 TabOrder
 3
 3
-subarray1_nameplate_loss
+Numeric
 
 1
 16
@@ -1768,7 +1768,7 @@ BackColour
 TabOrder
 3
 7
-subarray1_soiling
+MonthlyFactor
 
 1
 7
@@ -1793,7 +1793,7 @@ Soiling losses for sub-array 1 (%)
 TabOrder
 3
 1
-subarray1_soiling_annual_average
+Numeric
 
 1
 16
@@ -1851,7 +1851,7 @@ BackColour
 TabOrder
 3
 2
-subarray1_tracking_loss
+Numeric
 
 1
 16
@@ -1909,7 +1909,7 @@ BackColour
 TabOrder
 3
 6
-subarray2_dcloss
+Numeric
 
 1
 16
@@ -1967,7 +1967,7 @@ BackColour
 TabOrder
 3
 16
-subarray2_dcwiring_loss
+Numeric
 
 1
 16
@@ -2025,7 +2025,7 @@ BackColour
 TabOrder
 3
 13
-subarray2_diodeconn_loss
+Numeric
 
 1
 16
@@ -2083,7 +2083,7 @@ BackColour
 TabOrder
 3
 12
-subarray2_mismatch_loss
+Numeric
 
 1
 16
@@ -2141,7 +2141,7 @@ BackColour
 TabOrder
 3
 11
-subarray2_nameplate_loss
+Numeric
 
 1
 16
@@ -2199,7 +2199,7 @@ BackColour
 TabOrder
 3
 15
-subarray2_soiling
+MonthlyFactor
 
 1
 7
@@ -2224,7 +2224,7 @@ Soiling losses for sub-array 2 (%)
 TabOrder
 3
 9
-subarray2_soiling_annual_average
+Numeric
 
 1
 16
@@ -2282,7 +2282,7 @@ BackColour
 TabOrder
 3
 10
-subarray2_tracking_loss
+Numeric
 
 1
 16
@@ -2340,7 +2340,7 @@ BackColour
 TabOrder
 3
 14
-subarray3_dcloss
+Numeric
 
 1
 16
@@ -2398,7 +2398,7 @@ BackColour
 TabOrder
 3
 24
-subarray3_dcwiring_loss
+Numeric
 
 1
 16
@@ -2456,7 +2456,7 @@ BackColour
 TabOrder
 3
 21
-subarray3_diodeconn_loss
+Numeric
 
 1
 16
@@ -2514,7 +2514,7 @@ BackColour
 TabOrder
 3
 20
-subarray3_mismatch_loss
+Numeric
 
 1
 16
@@ -2572,7 +2572,7 @@ BackColour
 TabOrder
 3
 19
-subarray3_nameplate_loss
+Numeric
 
 1
 16
@@ -2630,7 +2630,7 @@ BackColour
 TabOrder
 3
 23
-subarray3_soiling
+MonthlyFactor
 
 1
 7
@@ -2655,7 +2655,7 @@ Soiling losses for sub-array 3 (%)
 TabOrder
 3
 17
-subarray3_soiling_annual_average
+Numeric
 
 1
 16
@@ -2713,7 +2713,7 @@ BackColour
 TabOrder
 3
 18
-subarray3_tracking_loss
+Numeric
 
 1
 16
@@ -2771,7 +2771,7 @@ BackColour
 TabOrder
 3
 22
-subarray4_dcloss
+Numeric
 
 1
 16
@@ -2829,7 +2829,7 @@ BackColour
 TabOrder
 3
 32
-subarray4_dcwiring_loss
+Numeric
 
 1
 16
@@ -2887,7 +2887,7 @@ BackColour
 TabOrder
 3
 29
-subarray4_diodeconn_loss
+Numeric
 
 1
 16
@@ -2945,7 +2945,7 @@ BackColour
 TabOrder
 3
 28
-subarray4_mismatch_loss
+Numeric
 
 1
 16
@@ -3003,7 +3003,7 @@ BackColour
 TabOrder
 3
 27
-subarray4_nameplate_loss
+Numeric
 
 1
 16
@@ -3061,7 +3061,7 @@ BackColour
 TabOrder
 3
 31
-subarray4_soiling
+MonthlyFactor
 
 1
 7
@@ -3086,7 +3086,7 @@ Soiling losses for sub-array 4 (%)
 TabOrder
 3
 25
-subarray4_soiling_annual_average
+Numeric
 
 1
 16
@@ -3144,7 +3144,7 @@ BackColour
 TabOrder
 3
 26
-subarray4_tracking_loss
+Numeric
 
 1
 16
@@ -3202,7 +3202,7 @@ BackColour
 TabOrder
 3
 30
-transformer_load_loss
+Numeric
 
 1
 16
@@ -3260,7 +3260,7 @@ BackColour
 TabOrder
 3
 35
-transformer_no_load_loss
+Numeric
 
 1
 16
@@ -3318,7 +3318,7 @@ BackColour
 TabOrder
 3
 34
-transmission_loss
+Numeric
 
 1
 16

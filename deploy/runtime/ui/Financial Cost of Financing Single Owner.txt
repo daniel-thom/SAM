@@ -2,7 +2,7 @@ Financial Cost of Financing Single Owner
 866
 93
 3
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Cost of Acquiring Financing
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-cost_other_financing
+Numeric
 
 1
 16

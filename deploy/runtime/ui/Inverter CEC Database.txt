@@ -2,7 +2,7 @@ Inverter CEC Database
 999
 719
 21
-GroupBox4
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Efficiency Curve and Characteristics
 Bold
 2
 1
-inv_snl_ac_voltage
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 3
-inv_snl_c0
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 10
-inv_snl_c1
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 11
-inv_snl_c2
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 12
-inv_snl_c3
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 13
-inv_snl_eff_cec
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 10
-inv_snl_eff_euro
+Numeric
 
 1
 16
@@ -433,7 +433,7 @@ BackColour
 TabOrder
 3
 10
-inv_snl_idcmax
+Numeric
 
 1
 16
@@ -491,7 +491,7 @@ BackColour
 TabOrder
 3
 9
-inv_snl_inverter_name
+Library
 
 1
 7
@@ -516,7 +516,7 @@ CEC Inverters
 Fields
 5
 Name,Paco,Pdco,Pso,Pnt,Vac,Vdcmax,Vdco,Mppt_high,Mppt_low,C0,C1,C2,C3,Idcmax
-inv_snl_mppt_hi
+Numeric
 
 1
 16
@@ -574,7 +574,7 @@ BackColour
 TabOrder
 3
 16
-inv_snl_mppt_low
+Numeric
 
 1
 16
@@ -632,7 +632,7 @@ BackColour
 TabOrder
 3
 14
-inv_snl_paco
+Numeric
 
 1
 16
@@ -690,7 +690,7 @@ BackColour
 TabOrder
 3
 4
-inv_snl_pdco
+Numeric
 
 1
 16
@@ -748,7 +748,7 @@ BackColour
 TabOrder
 3
 5
-inv_snl_pnt
+Numeric
 
 1
 16
@@ -806,7 +806,7 @@ BackColour
 TabOrder
 3
 7
-inv_snl_pso
+Numeric
 
 1
 16
@@ -864,7 +864,7 @@ BackColour
 TabOrder
 3
 6
-inv_snl_vdcmax
+Numeric
 
 1
 16
@@ -922,7 +922,7 @@ BackColour
 TabOrder
 3
 8
-inv_snl_vdco
+Numeric
 
 1
 16
@@ -980,7 +980,7 @@ BackColour
 TabOrder
 3
 15
-object 7
+Label
 
 1
 12
@@ -1023,7 +1023,7 @@ AlignRight
 AlignTop
 2
 0
-pv.inv.sandia.eff_curve
+Plot
 
 1
 5
@@ -1042,7 +1042,7 @@ Width
 Height
 3
 297
-pv.inv.sandia.vdcmax_warning_label
+Label
 
 1
 12

@@ -2,7 +2,7 @@ PV2 Unified Inverter Model 1
 1011
 499
 38
-Module name
+TextEntry
 
 1
 10
@@ -42,7 +42,7 @@ BackColour
 TabOrder
 3
 4294967295
-Vac
+Label
 
 1
 12
@@ -85,7 +85,7 @@ AlignRight
 AlignTop
 2
 0
-object 1
+Button
 
 1
 7
@@ -110,7 +110,7 @@ Database...
 TabOrder
 3
 4294967295
-object 1
+Button
 
 1
 7
@@ -135,7 +135,7 @@ Database...
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -193,7 +193,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -251,7 +251,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -309,7 +309,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -367,7 +367,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -425,7 +425,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -483,7 +483,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -541,7 +541,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -599,7 +599,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -657,7 +657,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -715,7 +715,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -773,7 +773,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -831,7 +831,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -889,7 +889,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -947,7 +947,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 11
+Numeric
 
 1
 16
@@ -1005,7 +1005,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 22
+Plot
 
 1
 5
@@ -1024,7 +1024,7 @@ Width
 Height
 3
 354
-object 25
+DataMatrix
 
 1
 22
@@ -1094,7 +1094,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -1119,7 +1119,7 @@ Inverter Specifications
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1144,7 +1144,7 @@ Inverter Specifications
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1187,7 +1187,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1230,7 +1230,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1273,7 +1273,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1316,7 +1316,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1359,7 +1359,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1402,7 +1402,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1445,7 +1445,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1488,7 +1488,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1531,7 +1531,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1574,7 +1574,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1617,7 +1617,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1660,7 +1660,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1703,7 +1703,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1746,7 +1746,7 @@ AlignRight
 AlignTop
 2
 0
-object 8
+RadioChoice
 
 1
 10

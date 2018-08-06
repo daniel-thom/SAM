@@ -2,7 +2,7 @@ Phys Trough System Design
 867
 592
 22
-I_bn_des
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 1
-SD_COPY_field_thermal_output
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 4294967295
-SD_COPY_nLoops
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 4294967295
-SD_COPY_solar_mult
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 4294967295
-SD_COPY_total_aperture
+Numeric
 
 1
 16
@@ -292,7 +292,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_loop_in_des
+Numeric
 
 1
 16
@@ -350,7 +350,7 @@ BackColour
 TabOrder
 3
 3
-T_loop_out
+Numeric
 
 1
 16
@@ -408,7 +408,7 @@ BackColour
 TabOrder
 3
 4
-adjust
+LossAdjustment
 
 1
 6
@@ -430,7 +430,7 @@ Height
 TabOrder
 3
 4294967295
-btn_calc_q_heat_sink
+Button
 
 1
 7
@@ -455,7 +455,7 @@ Choose Number of Loops
 TabOrder
 3
 4294967295
-label3
+Divider
 
 1
 9
@@ -489,7 +489,7 @@ System Availability and Curtailment
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -523,7 +523,7 @@ Thermal Storage
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -557,7 +557,7 @@ Thermal Storage
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -591,7 +591,7 @@ Thermal Storage
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -616,7 +616,7 @@ System Summary
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -641,7 +641,7 @@ System Summary
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -684,7 +684,7 @@ AlignRight
 AlignTop
 2
 1
-pb_pump_coef
+Numeric
 
 1
 16
@@ -742,7 +742,7 @@ BackColour
 TabOrder
 3
 4294967295
-q_pb_design
+Numeric
 
 1
 16
@@ -800,7 +800,7 @@ BackColour
 TabOrder
 3
 6
-specified_q_dot_rec_des
+Numeric
 
 1
 16
@@ -858,7 +858,7 @@ BackColour
 TabOrder
 3
 3
-specified_solar_multiple
+Numeric
 
 1
 16
@@ -916,7 +916,7 @@ BackColour
 TabOrder
 3
 2
-tshours
+Numeric
 
 1
 16
@@ -974,7 +974,7 @@ BackColour
 TabOrder
 3
 5
-ui_msg
+Label
 
 1
 12

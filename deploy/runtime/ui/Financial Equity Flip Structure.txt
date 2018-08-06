@@ -2,7 +2,7 @@ Financial Equity Flip Structure
 870
 175
 21
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Caption
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -285,7 +285,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -328,7 +328,7 @@ AlignRight
 AlignTop
 2
 1
-developer_equity_percent
+Numeric
 
 1
 16
@@ -386,7 +386,7 @@ BackColour
 TabOrder
 3
 1
-developer_postflip_cash_percent
+Numeric
 
 1
 16
@@ -444,7 +444,7 @@ BackColour
 TabOrder
 3
 3
-developer_postflip_tax_percent
+Numeric
 
 1
 16
@@ -502,7 +502,7 @@ BackColour
 TabOrder
 3
 5
-developer_preflip_cash_percent
+Numeric
 
 1
 16
@@ -560,7 +560,7 @@ BackColour
 TabOrder
 3
 2
-developer_preflip_tax_percent
+Numeric
 
 1
 16
@@ -618,7 +618,7 @@ BackColour
 TabOrder
 3
 4
-object 7
+Label
 
 1
 12
@@ -661,7 +661,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -704,7 +704,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -747,7 +747,7 @@ AlignRight
 AlignTop
 2
 0
-tax_investor_equity_percent
+Numeric
 
 1
 16
@@ -805,7 +805,7 @@ BackColour
 TabOrder
 3
 1
-tax_investor_postflip_cash_percent
+Numeric
 
 1
 16
@@ -863,7 +863,7 @@ BackColour
 TabOrder
 3
 3
-tax_investor_postflip_tax_percent
+Numeric
 
 1
 16
@@ -921,7 +921,7 @@ BackColour
 TabOrder
 3
 5
-tax_investor_preflip_cash_percent
+Numeric
 
 1
 16
@@ -979,7 +979,7 @@ BackColour
 TabOrder
 3
 2
-tax_investor_preflip_tax_percent
+Numeric
 
 1
 16

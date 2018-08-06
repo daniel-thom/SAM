@@ -2,7 +2,7 @@ Wind Speed Weibull Distribution
 786
 603
 5
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Define the Wind Resource using Characteristics
 Bold
 2
 1
-weibull_k_factor
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 2
-weibull_reference_height
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 2
-weibull_wind_speed
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 1
-wind_characteristics_plot
+Plot
 
 1
 5

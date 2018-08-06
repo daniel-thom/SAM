@@ -2,7 +2,7 @@ Molten Salt Tower Power Block
 695
 736
 61
-General Design Parameters
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ General Design Parameters
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label10
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -285,7 +285,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -328,7 +328,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -371,7 +371,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -414,7 +414,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -457,7 +457,7 @@ AlignRight
 AlignTop
 2
 1
-Label9
+Label
 
 1
 12
@@ -500,7 +500,7 @@ AlignRight
 AlignTop
 2
 0
-PB_COPY_P_ref
+Numeric
 
 1
 16
@@ -558,7 +558,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_T_htf_cold_des
+Numeric
 
 1
 16
@@ -616,7 +616,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_T_htf_hot_des
+Numeric
 
 1
 16
@@ -674,7 +674,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_design_eff
+Numeric
 
 1
 16
@@ -732,7 +732,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_gross_net_conversion_factor
+Numeric
 
 1
 16
@@ -790,7 +790,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_nameplate
+Numeric
 
 1
 16
@@ -848,7 +848,7 @@ BackColour
 TabOrder
 3
 4294967295
-PB_COPY_q_pb_design
+Numeric
 
 1
 16
@@ -906,7 +906,7 @@ BackColour
 TabOrder
 3
 4294967295
-P_boil
+Numeric
 
 1
 16
@@ -964,7 +964,7 @@ BackColour
 TabOrder
 3
 6
-P_cond_min
+Numeric
 
 1
 16
@@ -1022,7 +1022,7 @@ BackColour
 TabOrder
 3
 24
-P_cond_ratio
+Numeric
 
 1
 16
@@ -1080,7 +1080,7 @@ BackColour
 TabOrder
 3
 23
-P_high_limit
+Numeric
 
 1
 16
@@ -1138,7 +1138,7 @@ BackColour
 TabOrder
 3
 4294967295
-P_in_calc
+Numeric
 
 1
 16
@@ -1196,7 +1196,7 @@ BackColour
 TabOrder
 3
 4294967295
-P_out_calc
+Numeric
 
 1
 16
@@ -1254,7 +1254,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_ITD_des
+Numeric
 
 1
 16
@@ -1312,7 +1312,7 @@ BackColour
 TabOrder
 3
 22
-T_amb_des
+Numeric
 
 1
 16
@@ -1370,7 +1370,7 @@ BackColour
 TabOrder
 3
 19
-T_approach
+Numeric
 
 1
 16
@@ -1428,7 +1428,7 @@ BackColour
 TabOrder
 3
 21
-T_htf_cold_calc
+Numeric
 
 1
 16
@@ -1486,7 +1486,7 @@ BackColour
 TabOrder
 3
 4294967295
-UA_total_calc
+Numeric
 
 1
 16
@@ -1544,7 +1544,7 @@ BackColour
 TabOrder
 3
 4294967295
-btn_sco2_design_point
+Button
 
 1
 7
@@ -1569,7 +1569,7 @@ Get Optimized Design Point Parameters
 TabOrder
 3
 4294967295
-csp.pt.pwrb.condenser_type
+Choice
 
 1
 8
@@ -1600,7 +1600,7 @@ Selection
 TabOrder
 3
 18
-csp.pt.pwrb.hc_ctl1
+Numeric
 
 1
 16
@@ -1658,7 +1658,7 @@ BackColour
 TabOrder
 3
 26
-csp.pt.pwrb.hc_ctl2
+Numeric
 
 1
 16
@@ -1716,7 +1716,7 @@ BackColour
 TabOrder
 3
 27
-csp.pt.pwrb.hc_ctl3
+Numeric
 
 1
 16
@@ -1774,7 +1774,7 @@ BackColour
 TabOrder
 3
 28
-csp.pt.pwrb.hc_ctl4
+Numeric
 
 1
 16
@@ -1832,7 +1832,7 @@ BackColour
 TabOrder
 3
 29
-csp.pt.pwrb.hc_ctl5
+Numeric
 
 1
 16
@@ -1890,7 +1890,7 @@ BackColour
 TabOrder
 3
 30
-csp.pt.pwrb.hc_ctl6
+Numeric
 
 1
 16
@@ -1948,7 +1948,7 @@ BackColour
 TabOrder
 3
 31
-csp.pt.pwrb.hc_ctl7
+Numeric
 
 1
 16
@@ -2006,7 +2006,7 @@ BackColour
 TabOrder
 3
 32
-csp.pt.pwrb.hc_ctl8
+Numeric
 
 1
 16
@@ -2064,7 +2064,7 @@ BackColour
 TabOrder
 3
 33
-csp.pt.pwrb.hc_ctl9
+Numeric
 
 1
 16
@@ -2122,7 +2122,7 @@ BackColour
 TabOrder
 3
 34
-csp.pt.pwrb.pressure_mode
+Choice
 
 1
 8
@@ -2152,7 +2152,7 @@ Selection
 TabOrder
 3
 17
-cycle_cutoff_frac
+Numeric
 
 1
 16
@@ -2210,7 +2210,7 @@ BackColour
 TabOrder
 3
 15
-cycle_max_frac
+Numeric
 
 1
 16
@@ -2268,7 +2268,7 @@ BackColour
 TabOrder
 3
 16
-cycle_technology_group_box
+GroupBox
 
 1
 7
@@ -2293,7 +2293,7 @@ Cycle Technology Parameters
 Bold
 2
 1
-dT_cw_ref
+Numeric
 
 1
 16
@@ -2351,7 +2351,7 @@ BackColour
 TabOrder
 3
 20
-deltaT_PHX
+Numeric
 
 1
 16
@@ -2409,7 +2409,7 @@ BackColour
 TabOrder
 3
 4294967295
-eta_c
+Numeric
 
 1
 16
@@ -2467,7 +2467,7 @@ BackColour
 TabOrder
 3
 4294967295
-eta_t
+Numeric
 
 1
 16
@@ -2525,7 +2525,7 @@ BackColour
 TabOrder
 3
 4294967295
-fan_power_perc_net
+Numeric
 
 1
 16
@@ -2583,7 +2583,7 @@ BackColour
 TabOrder
 3
 4294967295
-n_pl_inc
+Numeric
 
 1
 16
@@ -2641,7 +2641,7 @@ BackColour
 TabOrder
 3
 25
-object 4
+GroupBox
 
 1
 7
@@ -2666,7 +2666,7 @@ System Design Parameters
 Bold
 2
 1
-optimized_des_point_pars
+Label
 
 1
 12
@@ -2709,7 +2709,7 @@ AlignRight
 AlignTop
 2
 0
-pb_bd_frac
+Numeric
 
 1
 16
@@ -2767,7 +2767,7 @@ BackColour
 TabOrder
 3
 8
-pb_pump_coef
+Numeric
 
 1
 16
@@ -2825,7 +2825,7 @@ BackColour
 TabOrder
 3
 4294967295
-pc_config
+Choice
 
 1
 8
@@ -2853,7 +2853,7 @@ Selection
 TabOrder
 3
 4294967295
-q_sby_frac
+Numeric
 
 1
 16
@@ -2911,7 +2911,7 @@ BackColour
 TabOrder
 3
 11
-recomp_frac_calc
+Numeric
 
 1
 16
@@ -2969,7 +2969,7 @@ BackColour
 TabOrder
 3
 4294967295
-startup_frac
+Numeric
 
 1
 16
@@ -3027,7 +3027,7 @@ BackColour
 TabOrder
 3
 14
-startup_time
+Numeric
 
 1
 16
@@ -3085,7 +3085,7 @@ BackColour
 TabOrder
 3
 13
-txt_sco2_explainer
+Label
 
 1
 12

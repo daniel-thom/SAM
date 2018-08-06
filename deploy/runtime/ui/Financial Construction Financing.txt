@@ -2,7 +2,7 @@ Financial Construction Financing
 869
 309
 55
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Construction Period Debt
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-Label11
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 1
-Label111
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 1
-Label1111
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 1
-Label11111
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 0
-Label111111
+Label
 
 1
 12
@@ -285,7 +285,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111111
+Label
 
 1
 12
@@ -328,7 +328,7 @@ AlignRight
 AlignTop
 2
 1
-Label11112
+Label
 
 1
 12
@@ -371,7 +371,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -414,7 +414,7 @@ AlignRight
 AlignTop
 2
 1
-Label4
+Label
 
 1
 12
@@ -457,7 +457,7 @@ AlignRight
 AlignTop
 2
 0
-const_per_interest1
+Numeric
 
 1
 16
@@ -515,7 +515,7 @@ BackColour
 TabOrder
 3
 7
-const_per_interest2
+Numeric
 
 1
 16
@@ -573,7 +573,7 @@ BackColour
 TabOrder
 3
 15
-const_per_interest3
+Numeric
 
 1
 16
@@ -631,7 +631,7 @@ BackColour
 TabOrder
 3
 23
-const_per_interest4
+Numeric
 
 1
 16
@@ -689,7 +689,7 @@ BackColour
 TabOrder
 3
 31
-const_per_interest5
+Numeric
 
 1
 16
@@ -747,7 +747,7 @@ BackColour
 TabOrder
 3
 39
-const_per_interest_rate1
+Numeric
 
 1
 16
@@ -805,7 +805,7 @@ BackColour
 TabOrder
 3
 5
-const_per_interest_rate2
+Numeric
 
 1
 16
@@ -863,7 +863,7 @@ BackColour
 TabOrder
 3
 13
-const_per_interest_rate3
+Numeric
 
 1
 16
@@ -921,7 +921,7 @@ BackColour
 TabOrder
 3
 21
-const_per_interest_rate4
+Numeric
 
 1
 16
@@ -979,7 +979,7 @@ BackColour
 TabOrder
 3
 29
-const_per_interest_rate5
+Numeric
 
 1
 16
@@ -1037,7 +1037,7 @@ BackColour
 TabOrder
 3
 37
-const_per_interest_total
+Numeric
 
 1
 16
@@ -1095,7 +1095,7 @@ BackColour
 TabOrder
 3
 39
-const_per_months1
+Numeric
 
 1
 16
@@ -1153,7 +1153,7 @@ BackColour
 TabOrder
 3
 4
-const_per_months2
+Numeric
 
 1
 16
@@ -1211,7 +1211,7 @@ BackColour
 TabOrder
 3
 12
-const_per_months3
+Numeric
 
 1
 16
@@ -1269,7 +1269,7 @@ BackColour
 TabOrder
 3
 20
-const_per_months4
+Numeric
 
 1
 16
@@ -1327,7 +1327,7 @@ BackColour
 TabOrder
 3
 28
-const_per_months5
+Numeric
 
 1
 16
@@ -1385,7 +1385,7 @@ BackColour
 TabOrder
 3
 36
-const_per_name1
+TextEntry
 
 1
 10
@@ -1425,7 +1425,7 @@ BackColour
 TabOrder
 3
 1
-const_per_name2
+TextEntry
 
 1
 10
@@ -1465,7 +1465,7 @@ BackColour
 TabOrder
 3
 9
-const_per_name3
+TextEntry
 
 1
 10
@@ -1505,7 +1505,7 @@ BackColour
 TabOrder
 3
 17
-const_per_name4
+TextEntry
 
 1
 10
@@ -1545,7 +1545,7 @@ BackColour
 TabOrder
 3
 25
-const_per_name5
+TextEntry
 
 1
 10
@@ -1585,7 +1585,7 @@ BackColour
 TabOrder
 3
 33
-const_per_percent1
+Numeric
 
 1
 16
@@ -1643,7 +1643,7 @@ BackColour
 TabOrder
 3
 2
-const_per_percent2
+Numeric
 
 1
 16
@@ -1701,7 +1701,7 @@ BackColour
 TabOrder
 3
 10
-const_per_percent3
+Numeric
 
 1
 16
@@ -1759,7 +1759,7 @@ BackColour
 TabOrder
 3
 18
-const_per_percent4
+Numeric
 
 1
 16
@@ -1817,7 +1817,7 @@ BackColour
 TabOrder
 3
 26
-const_per_percent5
+Numeric
 
 1
 16
@@ -1875,7 +1875,7 @@ BackColour
 TabOrder
 3
 34
-const_per_percent_total
+Numeric
 
 1
 16
@@ -1933,7 +1933,7 @@ BackColour
 TabOrder
 3
 34
-const_per_principal1
+Numeric
 
 1
 16
@@ -1991,7 +1991,7 @@ BackColour
 TabOrder
 3
 6
-const_per_principal2
+Numeric
 
 1
 16
@@ -2049,7 +2049,7 @@ BackColour
 TabOrder
 3
 14
-const_per_principal3
+Numeric
 
 1
 16
@@ -2107,7 +2107,7 @@ BackColour
 TabOrder
 3
 22
-const_per_principal4
+Numeric
 
 1
 16
@@ -2165,7 +2165,7 @@ BackColour
 TabOrder
 3
 30
-const_per_principal5
+Numeric
 
 1
 16
@@ -2223,7 +2223,7 @@ BackColour
 TabOrder
 3
 38
-const_per_principal_total
+Numeric
 
 1
 16
@@ -2281,7 +2281,7 @@ BackColour
 TabOrder
 3
 38
-const_per_total1
+Numeric
 
 1
 16
@@ -2339,7 +2339,7 @@ BackColour
 TabOrder
 3
 8
-const_per_total2
+Numeric
 
 1
 16
@@ -2397,7 +2397,7 @@ BackColour
 TabOrder
 3
 16
-const_per_total3
+Numeric
 
 1
 16
@@ -2455,7 +2455,7 @@ BackColour
 TabOrder
 3
 24
-const_per_total4
+Numeric
 
 1
 16
@@ -2513,7 +2513,7 @@ BackColour
 TabOrder
 3
 32
-const_per_total5
+Numeric
 
 1
 16
@@ -2571,7 +2571,7 @@ BackColour
 TabOrder
 3
 40
-const_per_upfront_rate1
+Numeric
 
 1
 16
@@ -2629,7 +2629,7 @@ BackColour
 TabOrder
 3
 3
-const_per_upfront_rate2
+Numeric
 
 1
 16
@@ -2687,7 +2687,7 @@ BackColour
 TabOrder
 3
 11
-const_per_upfront_rate3
+Numeric
 
 1
 16
@@ -2745,7 +2745,7 @@ BackColour
 TabOrder
 3
 19
-const_per_upfront_rate4
+Numeric
 
 1
 16
@@ -2803,7 +2803,7 @@ BackColour
 TabOrder
 3
 27
-const_per_upfront_rate5
+Numeric
 
 1
 16
@@ -2861,7 +2861,7 @@ BackColour
 TabOrder
 3
 35
-construction_financing_cost
+Numeric
 
 1
 16

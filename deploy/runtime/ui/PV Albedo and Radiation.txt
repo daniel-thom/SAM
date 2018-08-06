@@ -2,7 +2,7 @@ PV Albedo and Radiation
 882
 215
 7
-GroupBox8
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Albedo
 Bold
 2
 1
-albedo
+MonthlyFactor
 
 1
 7
@@ -52,7 +52,7 @@ Monthly Albedo [0...1]
 TabOrder
 3
 2
-irrad_mode
+RadioChoice
 
 1
 10
@@ -91,7 +91,7 @@ Horizontal
 TabOrder
 3
 4
-object 4
+GroupBox
 
 1
 7
@@ -116,7 +116,7 @@ Weather File Irradiance Data
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -141,7 +141,7 @@ Weather File Irradiance Data
 Bold
 2
 1
-sky_model
+RadioChoice
 
 1
 10
@@ -178,7 +178,7 @@ Horizontal
 TabOrder
 3
 3
-use_wf_albedo
+CheckBox
 
 1
 8

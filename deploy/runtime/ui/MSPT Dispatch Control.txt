@@ -2,50 +2,7 @@ MSPT Dispatch Control
 844
 710
 47
-
-
-1
-12
-Name
-5
- 
-X
-3
-21
-Y
-3
-621
-Width
-3
-233
-Height
-3
-81
-Caption
-5
-Hybrid cooling fractions are only active when you choose hybrid cooling on the Power Cycle page.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
-
+Label
 
 1
 12
@@ -88,7 +45,7 @@ AlignRight
 AlignTop
 2
 1
-
+Label
 
 1
 12
@@ -131,7 +88,50 @@ AlignRight
 AlignTop
 2
 1
-GroupBox2
+Label
+
+1
+12
+Name
+5
+ 
+X
+3
+21
+Y
+3
+621
+Width
+3
+233
+Height
+3
+81
+Caption
+5
+Hybrid cooling fractions are only active when you choose hybrid cooling on the Power Cycle page.
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+1
+AlignRight
+2
+0
+AlignTop
+2
+1
+GroupBox
 
 1
 7
@@ -156,7 +156,7 @@ Dispatch Control
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -181,7 +181,7 @@ Weekday Schedule
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -206,7 +206,7 @@ Weekend Schedule
 Bold
 2
 1
-Label10
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -378,7 +378,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -421,7 +421,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -464,7 +464,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -507,7 +507,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -550,7 +550,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -593,7 +593,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -636,7 +636,7 @@ AlignRight
 AlignTop
 2
 0
-copy_schedule
+Button
 
 1
 7
@@ -661,7 +661,7 @@ Copy schedule from TOD Factors page
 TabOrder
 3
 4294967295
-hybrid_tou1
+Numeric
 
 1
 16
@@ -719,7 +719,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou2
+Numeric
 
 1
 16
@@ -777,7 +777,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou3
+Numeric
 
 1
 16
@@ -835,7 +835,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou4
+Numeric
 
 1
 16
@@ -893,7 +893,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou5
+Numeric
 
 1
 16
@@ -951,7 +951,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou6
+Numeric
 
 1
 16
@@ -1009,7 +1009,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou7
+Numeric
 
 1
 16
@@ -1067,7 +1067,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou8
+Numeric
 
 1
 16
@@ -1125,7 +1125,7 @@ BackColour
 TabOrder
 3
 4294967295
-hybrid_tou9
+Numeric
 
 1
 16
@@ -1183,7 +1183,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 7
+Label
 
 1
 12
@@ -1226,7 +1226,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1269,7 +1269,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1312,7 +1312,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1355,7 +1355,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1398,7 +1398,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1441,7 +1441,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1484,7 +1484,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1527,7 +1527,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1570,7 +1570,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1613,7 +1613,7 @@ AlignRight
 AlignTop
 2
 0
-ui_disp_1_turbout
+Numeric
 
 1
 16
@@ -1671,7 +1671,7 @@ BackColour
 TabOrder
 3
 20
-ui_disp_2_turbout
+Numeric
 
 1
 16
@@ -1729,7 +1729,7 @@ BackColour
 TabOrder
 3
 25
-ui_disp_3_turbout
+Numeric
 
 1
 16
@@ -1787,7 +1787,7 @@ BackColour
 TabOrder
 3
 30
-ui_disp_4_turbout
+Numeric
 
 1
 16
@@ -1845,7 +1845,7 @@ BackColour
 TabOrder
 3
 35
-ui_disp_5_turbout
+Numeric
 
 1
 16
@@ -1903,7 +1903,7 @@ BackColour
 TabOrder
 3
 40
-ui_disp_6_turbout
+Numeric
 
 1
 16
@@ -1961,7 +1961,7 @@ BackColour
 TabOrder
 3
 45
-ui_disp_7_turbout
+Numeric
 
 1
 16
@@ -2019,7 +2019,7 @@ BackColour
 TabOrder
 3
 50
-ui_disp_8_turbout
+Numeric
 
 1
 16
@@ -2077,7 +2077,7 @@ BackColour
 TabOrder
 3
 55
-ui_disp_9_turbout
+Numeric
 
 1
 16
@@ -2135,7 +2135,7 @@ BackColour
 TabOrder
 3
 60
-weekday_schedule
+DiurnalPeriod
 
 1
 9
@@ -2166,7 +2166,7 @@ Max
 Min
 3
 1
-weekend_schedule
+DiurnalPeriod
 
 1
 9

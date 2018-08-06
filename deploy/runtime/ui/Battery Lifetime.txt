@@ -2,7 +2,7 @@ Battery Lifetime
 999
 767
 17
-Battery Bank Sizing
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Battery Lifetime
 Bold
 2
 1
-batt_calendar_a
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_calendar_b
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_calendar_c
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_calendar_choice
+RadioChoice
 
 1
 10
@@ -238,7 +238,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_calendar_life_plot
+Plot
 
 1
 5
@@ -257,7 +257,7 @@ Width
 Height
 3
 297
-batt_calendar_lifetime_label
+Divider
 
 1
 9
@@ -291,7 +291,7 @@ Calendar degradation
 Bold
 2
 1
-batt_calendar_lifetime_label_2
+Divider
 
 1
 9
@@ -325,7 +325,7 @@ Custom degradation
 Bold
 2
 1
-batt_calendar_lifetime_label_3
+Divider
 
 1
 9
@@ -359,7 +359,7 @@ Lithium-ion model coefficients
 Bold
 2
 1
-batt_calendar_lifetime_matrix
+DataMatrix
 
 1
 22
@@ -429,7 +429,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-batt_calendar_model_1
+Label
 
 1
 12
@@ -472,7 +472,7 @@ AlignRight
 AlignTop
 2
 0
-batt_calendar_model_2
+Label
 
 1
 12
@@ -515,7 +515,7 @@ AlignRight
 AlignTop
 2
 0
-batt_calendar_q0
+Numeric
 
 1
 16
@@ -573,7 +573,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_cycle_lifetime_label
+Divider
 
 1
 9
@@ -607,7 +607,7 @@ Cycle degradation
 Bold
 2
 1
-batt_lifetime_matrix
+DataMatrix
 
 1
 22
@@ -677,7 +677,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-batt_lifetime_warning
+Label
 
 1
 12
@@ -720,7 +720,7 @@ AlignRight
 AlignTop
 2
 0
-plot_cap_vs_cycle
+Plot
 
 1
 5

@@ -2,7 +2,7 @@ Dish Solar Field
 709
 381
 19
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Field Layout
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Array Shading Parameters
 Bold
 2
 1
-Label5
+Label
 
 1
 12
@@ -145,7 +145,7 @@ AlignRight
 AlignTop
 2
 1
-adjust
+LossAdjustment
 
 1
 6
@@ -167,7 +167,7 @@ Height
 TabOrder
 3
 24
-csp.ds.field_area
+Numeric
 
 1
 16
@@ -225,7 +225,7 @@ BackColour
 TabOrder
 3
 6
-csp.ds.ncollectors
+Numeric
 
 1
 16
@@ -283,7 +283,7 @@ BackColour
 TabOrder
 3
 3
-csp.ds.total_capacity
+Numeric
 
 1
 16
@@ -341,7 +341,7 @@ BackColour
 TabOrder
 3
 8
-ew_dish_sep
+Numeric
 
 1
 16
@@ -399,7 +399,7 @@ BackColour
 TabOrder
 3
 5
-h_slot_gap
+Numeric
 
 1
 16
@@ -457,7 +457,7 @@ BackColour
 TabOrder
 3
 12
-n_ew
+Numeric
 
 1
 16
@@ -515,7 +515,7 @@ BackColour
 TabOrder
 3
 2
-n_ns
+Numeric
 
 1
 16
@@ -573,7 +573,7 @@ BackColour
 TabOrder
 3
 1
-ns_dish_sep
+Numeric
 
 1
 16
@@ -631,7 +631,7 @@ BackColour
 TabOrder
 3
 4
-object 7
+Label
 
 1
 12
@@ -674,7 +674,7 @@ AlignRight
 AlignTop
 2
 0
-slope_ew
+Numeric
 
 1
 16
@@ -732,7 +732,7 @@ BackColour
 TabOrder
 3
 10
-slope_ns
+Numeric
 
 1
 16
@@ -790,7 +790,7 @@ BackColour
 TabOrder
 3
 9
-w_slot_gap
+Numeric
 
 1
 16
@@ -848,7 +848,7 @@ BackColour
 TabOrder
 3
 11
-wind_stow_speed
+Numeric
 
 1
 16

@@ -2,7 +2,7 @@ Direct Steam Tower Parasitics
 806
 351
 25
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Parasitic Energy Consumption
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-Piping_length
+Numeric
 
 1
 16
@@ -257,7 +257,7 @@ BackColour
 TabOrder
 3
 8
-Piping_loss
+Numeric
 
 1
 16
@@ -315,7 +315,7 @@ BackColour
 TabOrder
 3
 5
-aux_par
+Numeric
 
 1
 16
@@ -373,7 +373,7 @@ BackColour
 TabOrder
 3
 17
-aux_par_0
+Numeric
 
 1
 16
@@ -431,7 +431,7 @@ BackColour
 TabOrder
 3
 19
-aux_par_1
+Numeric
 
 1
 16
@@ -489,7 +489,7 @@ BackColour
 TabOrder
 3
 20
-aux_par_2
+Numeric
 
 1
 16
@@ -547,7 +547,7 @@ BackColour
 TabOrder
 3
 21
-aux_par_f
+Numeric
 
 1
 16
@@ -605,7 +605,7 @@ BackColour
 TabOrder
 3
 18
-bop_par
+Numeric
 
 1
 16
@@ -663,7 +663,7 @@ BackColour
 TabOrder
 3
 11
-bop_par_0
+Numeric
 
 1
 16
@@ -721,7 +721,7 @@ BackColour
 TabOrder
 3
 13
-bop_par_1
+Numeric
 
 1
 16
@@ -779,7 +779,7 @@ BackColour
 TabOrder
 3
 14
-bop_par_2
+Numeric
 
 1
 16
@@ -837,7 +837,7 @@ BackColour
 TabOrder
 3
 15
-bop_par_f
+Numeric
 
 1
 16
@@ -895,7 +895,7 @@ BackColour
 TabOrder
 3
 12
-csp.dst.calc.aux
+Numeric
 
 1
 16
@@ -953,7 +953,7 @@ BackColour
 TabOrder
 3
 22
-csp.dst.calc.bop
+Numeric
 
 1
 16
@@ -1011,7 +1011,7 @@ BackColour
 TabOrder
 3
 16
-eta_rec_pump
+Numeric
 
 1
 16
@@ -1069,7 +1069,7 @@ BackColour
 TabOrder
 3
 3
-p_run
+Numeric
 
 1
 16
@@ -1127,7 +1127,7 @@ BackColour
 TabOrder
 3
 2
-pb_fixed_par
+Numeric
 
 1
 16
@@ -1185,7 +1185,7 @@ BackColour
 TabOrder
 3
 4
-piping_length_add
+Numeric
 
 1
 16
@@ -1243,7 +1243,7 @@ BackColour
 TabOrder
 3
 6
-piping_length_mult
+Numeric
 
 1
 16
@@ -1301,7 +1301,7 @@ BackColour
 TabOrder
 3
 7
-q_start
+Numeric
 
 1
 16

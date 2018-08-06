@@ -2,7 +2,7 @@ Dish Parasitics
 504
 330
 13
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Parasitic Parameters
 Bold
 2
 1
-P_controls
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 1
-T_cool_speed2
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 6
-T_cool_speed3
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 7
-b_cooler
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 11
-b_radiator
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 12
-csp.ds.coolfluid
+Choice
 
 1
 8
@@ -350,7 +350,7 @@ Selection
 TabOrder
 3
 8
-epsilon_cooler_test
+Numeric
 
 1
 16
@@ -408,7 +408,7 @@ BackColour
 TabOrder
 3
 9
-epsilon_radiator_test
+Numeric
 
 1
 16
@@ -466,7 +466,7 @@ BackColour
 TabOrder
 3
 10
-fan_speed1
+Numeric
 
 1
 16
@@ -524,7 +524,7 @@ BackColour
 TabOrder
 3
 3
-fan_speed2
+Numeric
 
 1
 16
@@ -582,7 +582,7 @@ BackColour
 TabOrder
 3
 4
-fan_speed3
+Numeric
 
 1
 16
@@ -640,7 +640,7 @@ BackColour
 TabOrder
 3
 5
-pump_speed
+Numeric
 
 1
 16

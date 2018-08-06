@@ -2,7 +2,7 @@ Financial Debt Residential
 856
 249
 14
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Loan Parameters
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Residential Loan Type
 Bold
 2
 1
-Label2
+Label
 
 1
 12
@@ -95,7 +95,7 @@ AlignRight
 AlignTop
 2
 1
-Label2
+Label
 
 1
 12
@@ -138,7 +138,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -181,7 +181,7 @@ AlignRight
 AlignTop
 2
 0
-debt_fraction
+Numeric
 
 1
 16
@@ -239,7 +239,7 @@ BackColour
 TabOrder
 3
 2
-debt_message
+Label
 
 1
 12
@@ -282,7 +282,7 @@ AlignRight
 AlignTop
 2
 1
-loan_amount
+Numeric
 
 1
 16
@@ -340,7 +340,7 @@ BackColour
 TabOrder
 3
 5
-loan_rate
+Numeric
 
 1
 16
@@ -398,7 +398,7 @@ BackColour
 TabOrder
 3
 4
-loan_term
+Numeric
 
 1
 16
@@ -456,7 +456,7 @@ BackColour
 TabOrder
 3
 3
-mortgage
+RadioChoice
 
 1
 10
@@ -492,7 +492,7 @@ Horizontal
 TabOrder
 3
 1
-object 7
+Label
 
 1
 12
@@ -535,7 +535,7 @@ AlignRight
 AlignTop
 2
 1
-ui_net_capital_cost
+Numeric
 
 1
 16
@@ -593,7 +593,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_wacc
+Numeric
 
 1
 16

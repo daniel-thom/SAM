@@ -2,7 +2,7 @@ Battery None
 955
 189
 3
-Battery Bank Enable
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Battery Energy Storage
 Bold
 2
 1
-Battery explanation
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12

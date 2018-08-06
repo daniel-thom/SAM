@@ -2,7 +2,7 @@ PV System Design
 843
 984
 89
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ System Sizing
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ DC Subarrays
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Configuration at Reference Conditions
 Bold
 2
 1
-GroupBox7
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Estimate of Overall Land Usage
 Bold
 2
 1
-HLine1
+Divider
 
 1
 9
@@ -136,7 +136,7 @@ String Configuration
 Bold
 2
 1
-HLine12
+Divider
 
 1
 9
@@ -170,7 +170,7 @@ Tracking & Orientation
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -213,7 +213,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -256,7 +256,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -299,7 +299,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -342,7 +342,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -385,7 +385,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -428,7 +428,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -471,7 +471,7 @@ AlignRight
 AlignTop
 2
 1
-Label213
+Label
 
 1
 12
@@ -514,7 +514,7 @@ AlignRight
 AlignTop
 2
 1
-Label214
+Label
 
 1
 12
@@ -557,7 +557,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -600,7 +600,7 @@ AlignRight
 AlignTop
 2
 0
-Label31
+Label
 
 1
 12
@@ -643,7 +643,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -686,7 +686,7 @@ AlignRight
 AlignTop
 2
 0
-Label41
+Label
 
 1
 12
@@ -729,7 +729,7 @@ AlignRight
 AlignTop
 2
 0
-Label411
+Label
 
 1
 12
@@ -772,7 +772,7 @@ AlignRight
 AlignTop
 2
 0
-Label4111
+Label
 
 1
 12
@@ -815,7 +815,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -858,7 +858,7 @@ AlignRight
 AlignTop
 2
 0
-Picture1
+Image
 
 1
 7
@@ -883,7 +883,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/PV System Design_Pictu
 Centered
 2
 1
-batt_max_power
+Numeric
 
 1
 16
@@ -941,7 +941,7 @@ BackColour
 TabOrder
 3
 14
-dcac_ratio
+Numeric
 
 1
 16
@@ -999,7 +999,7 @@ BackColour
 TabOrder
 3
 3
-desired_size
+Numeric
 
 1
 16
@@ -1057,7 +1057,7 @@ BackColour
 TabOrder
 3
 2
-gcr_info
+Label
 
 1
 12
@@ -1100,7 +1100,7 @@ AlignRight
 AlignTop
 2
 1
-gcr_label
+Label
 
 1
 12
@@ -1143,7 +1143,7 @@ AlignRight
 AlignTop
 2
 0
-inverter_count
+Numeric
 
 1
 16
@@ -1201,7 +1201,7 @@ BackColour
 TabOrder
 3
 16
-layout_warning
+MultilineText
 
 1
 10
@@ -1241,7 +1241,7 @@ BackColour
 TabOrder
 3
 21
-modules_per_string
+Numeric
 
 1
 16
@@ -1299,7 +1299,7 @@ BackColour
 TabOrder
 3
 9
-mppt_hi_inverter
+Numeric
 
 1
 16
@@ -1357,7 +1357,7 @@ BackColour
 TabOrder
 3
 19
-mppt_low_inverter
+Numeric
 
 1
 16
@@ -1415,7 +1415,7 @@ BackColour
 TabOrder
 3
 18
-num_strings_total
+Numeric
 
 1
 16
@@ -1473,7 +1473,7 @@ BackColour
 TabOrder
 3
 22
-pv_system_inverter_voltage_warning
+Label
 
 1
 12
@@ -1516,7 +1516,7 @@ AlignRight
 AlignTop
 2
 1
-size_auto_or_manual
+RadioChoice
 
 1
 10
@@ -1552,7 +1552,7 @@ Horizontal
 TabOrder
 3
 1
-strings_in_parallel
+Numeric
 
 1
 16
@@ -1610,7 +1610,7 @@ BackColour
 TabOrder
 3
 10
-subarray1_azimuth
+Numeric
 
 1
 16
@@ -1668,7 +1668,7 @@ BackColour
 TabOrder
 3
 27
-subarray1_backtrack
+CheckBox
 
 1
 8
@@ -1696,7 +1696,7 @@ State
 TabOrder
 3
 25
-subarray1_gcr
+Numeric
 
 1
 16
@@ -1754,7 +1754,7 @@ BackColour
 TabOrder
 3
 27
-subarray1_monthly_tilt
+MonthlyFactor
 
 1
 7
@@ -1779,7 +1779,7 @@ Description
 TabOrder
 3
 4294967295
-subarray1_nstrings
+Numeric
 
 1
 16
@@ -1837,7 +1837,7 @@ BackColour
 TabOrder
 3
 23
-subarray1_rotlim
+Numeric
 
 1
 16
@@ -1895,7 +1895,7 @@ BackColour
 TabOrder
 3
 27
-subarray1_tilt
+Numeric
 
 1
 16
@@ -1953,7 +1953,7 @@ BackColour
 TabOrder
 3
 26
-subarray1_tilt_eq_lat
+CheckBox
 
 1
 8
@@ -1981,7 +1981,7 @@ State
 TabOrder
 3
 25
-subarray1_track_mode
+RadioChoice
 
 1
 10
@@ -2020,7 +2020,7 @@ Horizontal
 TabOrder
 3
 24
-subarray2_azimuth
+Numeric
 
 1
 16
@@ -2078,7 +2078,7 @@ BackColour
 TabOrder
 3
 34
-subarray2_backtrack
+CheckBox
 
 1
 8
@@ -2106,7 +2106,7 @@ State
 TabOrder
 3
 32
-subarray2_enable
+CheckBox
 
 1
 8
@@ -2134,7 +2134,7 @@ State
 TabOrder
 3
 29
-subarray2_gcr
+Numeric
 
 1
 16
@@ -2192,7 +2192,7 @@ BackColour
 TabOrder
 3
 34
-subarray2_monthly_tilt
+MonthlyFactor
 
 1
 7
@@ -2217,7 +2217,7 @@ Description
 TabOrder
 3
 4294967295
-subarray2_nstrings
+Numeric
 
 1
 16
@@ -2275,7 +2275,7 @@ BackColour
 TabOrder
 3
 30
-subarray2_rotlim
+Numeric
 
 1
 16
@@ -2333,7 +2333,7 @@ BackColour
 TabOrder
 3
 34
-subarray2_tilt
+Numeric
 
 1
 16
@@ -2391,7 +2391,7 @@ BackColour
 TabOrder
 3
 33
-subarray2_tilt_eq_lat
+CheckBox
 
 1
 8
@@ -2419,7 +2419,7 @@ State
 TabOrder
 3
 32
-subarray2_track_mode
+RadioChoice
 
 1
 10
@@ -2458,7 +2458,7 @@ Horizontal
 TabOrder
 3
 31
-subarray3_azimuth
+Numeric
 
 1
 16
@@ -2516,7 +2516,7 @@ BackColour
 TabOrder
 3
 41
-subarray3_backtrack
+CheckBox
 
 1
 8
@@ -2544,7 +2544,7 @@ State
 TabOrder
 3
 39
-subarray3_enable
+CheckBox
 
 1
 8
@@ -2572,7 +2572,7 @@ State
 TabOrder
 3
 36
-subarray3_gcr
+Numeric
 
 1
 16
@@ -2630,7 +2630,7 @@ BackColour
 TabOrder
 3
 41
-subarray3_monthly_tilt
+MonthlyFactor
 
 1
 7
@@ -2655,7 +2655,7 @@ Description
 TabOrder
 3
 4294967295
-subarray3_nstrings
+Numeric
 
 1
 16
@@ -2713,7 +2713,7 @@ BackColour
 TabOrder
 3
 37
-subarray3_rotlim
+Numeric
 
 1
 16
@@ -2771,7 +2771,7 @@ BackColour
 TabOrder
 3
 41
-subarray3_tilt
+Numeric
 
 1
 16
@@ -2829,7 +2829,7 @@ BackColour
 TabOrder
 3
 40
-subarray3_tilt_eq_lat
+CheckBox
 
 1
 8
@@ -2857,7 +2857,7 @@ State
 TabOrder
 3
 39
-subarray3_track_mode
+RadioChoice
 
 1
 10
@@ -2896,7 +2896,7 @@ Horizontal
 TabOrder
 3
 38
-subarray4_azimuth
+Numeric
 
 1
 16
@@ -2954,7 +2954,7 @@ BackColour
 TabOrder
 3
 48
-subarray4_backtrack
+CheckBox
 
 1
 8
@@ -2982,7 +2982,7 @@ State
 TabOrder
 3
 46
-subarray4_enable
+CheckBox
 
 1
 8
@@ -3010,7 +3010,7 @@ State
 TabOrder
 3
 43
-subarray4_gcr
+Numeric
 
 1
 16
@@ -3068,7 +3068,7 @@ BackColour
 TabOrder
 3
 48
-subarray4_monthly_tilt
+MonthlyFactor
 
 1
 7
@@ -3093,7 +3093,7 @@ Description
 TabOrder
 3
 4294967295
-subarray4_nstrings
+Numeric
 
 1
 16
@@ -3151,7 +3151,7 @@ BackColour
 TabOrder
 3
 44
-subarray4_rotlim
+Numeric
 
 1
 16
@@ -3209,7 +3209,7 @@ BackColour
 TabOrder
 3
 48
-subarray4_tilt
+Numeric
 
 1
 16
@@ -3267,7 +3267,7 @@ BackColour
 TabOrder
 3
 47
-subarray4_tilt_eq_lat
+CheckBox
 
 1
 8
@@ -3295,7 +3295,7 @@ State
 TabOrder
 3
 46
-subarray4_track_mode
+RadioChoice
 
 1
 10
@@ -3334,7 +3334,7 @@ Horizontal
 TabOrder
 3
 45
-system_capacity
+Numeric
 
 1
 16
@@ -3392,7 +3392,7 @@ BackColour
 TabOrder
 3
 7
-total_area
+Numeric
 
 1
 16
@@ -3450,7 +3450,7 @@ BackColour
 TabOrder
 3
 4294967295
-total_area
+Numeric
 
 1
 16
@@ -3508,7 +3508,7 @@ BackColour
 TabOrder
 3
 4294967295
-total_dc_inverter_capacity
+Numeric
 
 1
 16
@@ -3566,7 +3566,7 @@ BackColour
 TabOrder
 3
 15
-total_inverter_capacity
+Numeric
 
 1
 16
@@ -3624,7 +3624,7 @@ BackColour
 TabOrder
 3
 14
-total_land_area
+Numeric
 
 1
 16
@@ -3682,7 +3682,7 @@ BackColour
 TabOrder
 3
 52
-total_modules
+Numeric
 
 1
 16
@@ -3740,7 +3740,7 @@ BackColour
 TabOrder
 3
 8
-user_inverter_count
+Numeric
 
 1
 16
@@ -3798,7 +3798,7 @@ BackColour
 TabOrder
 3
 6
-user_modules_per_string
+Numeric
 
 1
 16
@@ -3856,7 +3856,7 @@ BackColour
 TabOrder
 3
 4
-user_strings_in_parallel
+Numeric
 
 1
 16
@@ -3914,7 +3914,7 @@ BackColour
 TabOrder
 3
 5
-vdcmax_inverter
+Numeric
 
 1
 16
@@ -3972,7 +3972,7 @@ BackColour
 TabOrder
 3
 17
-vmp_string
+Numeric
 
 1
 16
@@ -4030,7 +4030,7 @@ BackColour
 TabOrder
 3
 13
-voc_string
+Numeric
 
 1
 16

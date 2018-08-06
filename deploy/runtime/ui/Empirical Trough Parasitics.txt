@@ -2,7 +2,7 @@ Empirical Trough Parasitics
 883
 552
 50
-
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Reference Parasitic Electric Energy Use Library
 Bold
 2
 1
-AntiFrPar
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 17
-BOPPar
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 25
-BOPParF0
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 22
-BOPParF1
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 23
-BOPParF2
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 24
-BOPParPF
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 21
-CHTFParF0
+Numeric
 
 1
 16
@@ -433,7 +433,7 @@ BackColour
 TabOrder
 3
 6
-CHTFParF1
+Numeric
 
 1
 16
@@ -491,7 +491,7 @@ BackColour
 TabOrder
 3
 7
-CHTFParF2
+Numeric
 
 1
 16
@@ -549,7 +549,7 @@ BackColour
 TabOrder
 3
 8
-ChtfPar
+Numeric
 
 1
 16
@@ -607,7 +607,7 @@ BackColour
 TabOrder
 3
 9
-ChtfParPF
+Numeric
 
 1
 16
@@ -665,7 +665,7 @@ BackColour
 TabOrder
 3
 5
-CtPar
+Numeric
 
 1
 16
@@ -723,7 +723,7 @@ BackColour
 TabOrder
 3
 37
-CtParF0
+Numeric
 
 1
 16
@@ -781,7 +781,7 @@ BackColour
 TabOrder
 3
 34
-CtParF1
+Numeric
 
 1
 16
@@ -839,7 +839,7 @@ BackColour
 TabOrder
 3
 35
-CtParF2
+Numeric
 
 1
 16
@@ -897,7 +897,7 @@ BackColour
 TabOrder
 3
 36
-CtParPF
+Numeric
 
 1
 16
@@ -955,7 +955,7 @@ BackColour
 TabOrder
 3
 33
-GroupBox1
+GroupBox
 
 1
 7
@@ -980,7 +980,7 @@ Parasitic Electric Energy Use
 Bold
 2
 1
-HhtfPar
+Numeric
 
 1
 16
@@ -1038,7 +1038,7 @@ BackColour
 TabOrder
 3
 15
-HhtfParF0
+Numeric
 
 1
 16
@@ -1096,7 +1096,7 @@ BackColour
 TabOrder
 3
 12
-HhtfParF1
+Numeric
 
 1
 16
@@ -1154,7 +1154,7 @@ BackColour
 TabOrder
 3
 13
-HhtfParF2
+Numeric
 
 1
 16
@@ -1212,7 +1212,7 @@ BackColour
 TabOrder
 3
 14
-HhtfParPF
+Numeric
 
 1
 16
@@ -1270,7 +1270,7 @@ BackColour
 TabOrder
 3
 11
-HtrPar
+Numeric
 
 1
 16
@@ -1328,7 +1328,7 @@ BackColour
 TabOrder
 3
 31
-HtrParF0
+Numeric
 
 1
 16
@@ -1386,7 +1386,7 @@ BackColour
 TabOrder
 3
 28
-HtrParF1
+Numeric
 
 1
 16
@@ -1444,7 +1444,7 @@ BackColour
 TabOrder
 3
 29
-HtrParF2
+Numeric
 
 1
 16
@@ -1502,7 +1502,7 @@ BackColour
 TabOrder
 3
 30
-HtrParPF
+Numeric
 
 1
 16
@@ -1560,7 +1560,7 @@ BackColour
 TabOrder
 3
 27
-Label2
+Label
 
 1
 12
@@ -1603,7 +1603,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -1646,7 +1646,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -1689,7 +1689,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -1732,7 +1732,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -1775,7 +1775,7 @@ AlignRight
 AlignTop
 2
 0
-PbFixPar
+Numeric
 
 1
 16
@@ -1833,7 +1833,7 @@ BackColour
 TabOrder
 3
 19
-SfPar
+Numeric
 
 1
 16
@@ -1891,7 +1891,7 @@ BackColour
 TabOrder
 3
 3
-SfParPF
+Numeric
 
 1
 16
@@ -1949,7 +1949,7 @@ BackColour
 TabOrder
 3
 2
-cooling_tower_operation_mode
+Choice
 
 1
 8
@@ -1979,7 +1979,7 @@ Selection
 TabOrder
 3
 38
-parasitics_library
+Library
 
 1
 7
@@ -2004,7 +2004,7 @@ Trough Parasitics
 Fields
 5
 Name,SF Const,SF Partload,HTFPump Const,HTFPump Partload,HTFPump F0,HTFPump F1,HTFPump F2,TES Const,TES Partload,TES F0,TES F1,TES F2,Antifreeze Const,Fixedblock Const,BOP Const,BOP Partload,BOP F0,BOP F1,BOP F2,HB Const,HB Partload,HB F0,HB F1,HB F2,CT0 Const,CT0 Partload,CT0 F0,CT0 F1,CT0 F2,OP Mode
-ui_par_antifreeze_const
+Numeric
 
 1
 16
@@ -2062,7 +2062,7 @@ BackColour
 TabOrder
 3
 16
-ui_par_bop_const
+Numeric
 
 1
 16
@@ -2120,7 +2120,7 @@ BackColour
 TabOrder
 3
 20
-ui_par_ct0_const
+Numeric
 
 1
 16
@@ -2178,7 +2178,7 @@ BackColour
 TabOrder
 3
 32
-ui_par_dp_total
+Numeric
 
 1
 16
@@ -2236,7 +2236,7 @@ BackColour
 TabOrder
 3
 39
-ui_par_fixedblock_const
+Numeric
 
 1
 16
@@ -2294,7 +2294,7 @@ BackColour
 TabOrder
 3
 18
-ui_par_hb_const
+Numeric
 
 1
 16
@@ -2352,7 +2352,7 @@ BackColour
 TabOrder
 3
 26
-ui_par_htfpump_const
+Numeric
 
 1
 16
@@ -2410,7 +2410,7 @@ BackColour
 TabOrder
 3
 4
-ui_par_sf_area
+Numeric
 
 1
 16
@@ -2468,7 +2468,7 @@ BackColour
 TabOrder
 3
 0
-ui_par_sf_const
+Numeric
 
 1
 16
@@ -2526,7 +2526,7 @@ BackColour
 TabOrder
 3
 1
-ui_par_tes_const
+Numeric
 
 1
 16
@@ -2584,7 +2584,7 @@ BackColour
 TabOrder
 3
 10
-ui_par_turb_out_gr
+Numeric
 
 1
 16
@@ -2642,7 +2642,7 @@ BackColour
 TabOrder
 3
 0
-use_par_library_values
+CheckBox
 
 1
 8

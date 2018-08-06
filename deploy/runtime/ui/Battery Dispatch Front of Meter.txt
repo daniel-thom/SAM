@@ -2,7 +2,7 @@ Battery Dispatch Front of Meter
 1000
 365
 25
-AutoDCBox
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Automated DC-connection options
 Bold
 2
 1
-BatteryChargeOptions
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-InputDispatchBox
+GroupBox
 
 1
 7
@@ -95,7 +95,7 @@ Input Battery Dispatch
 Bold
 2
 1
-StorageDispatchBox
+GroupBox
 
 1
 7
@@ -120,7 +120,7 @@ Storage Dispatch Controller
 Bold
 2
 1
-batt_charge_options_label
+Divider
 
 1
 9
@@ -154,7 +154,7 @@ Battery charge options
 Bold
 2
 1
-batt_custom_dispatch
+DataArray
 
 1
 9
@@ -185,7 +185,7 @@ Custom battery dispatch allows a user to get the dispatch from another tool and 
 TabOrder
 3
 4294967295
-batt_cycle_cost
+Numeric
 
 1
 16
@@ -243,7 +243,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_cycle_cost_choice
+Choice
 
 1
 8
@@ -273,7 +273,7 @@ Selection
 TabOrder
 3
 4294967295
-batt_cycle_cost_description
+Label
 
 1
 12
@@ -316,7 +316,7 @@ AlignRight
 AlignTop
 2
 1
-batt_cycle_costs_label
+Divider
 
 1
 9
@@ -350,7 +350,7 @@ Battery cycle costs
 Bold
 2
 1
-batt_dispatch_auto_can_charge
+CheckBox
 
 1
 8
@@ -378,7 +378,7 @@ State
 TabOrder
 3
 4294967295
-batt_dispatch_auto_can_clipcharge
+CheckBox
 
 1
 8
@@ -406,7 +406,7 @@ State
 TabOrder
 3
 4294967295
-batt_dispatch_auto_can_gridcharge
+CheckBox
 
 1
 8
@@ -434,7 +434,7 @@ State
 TabOrder
 3
 4294967295
-batt_dispatch_choice
+RadioChoice
 
 1
 10
@@ -473,7 +473,7 @@ Horizontal
 TabOrder
 3
 4294967295
-batt_dispatch_label
+Label
 
 1
 12
@@ -516,7 +516,7 @@ AlignRight
 AlignTop
 2
 1
-batt_dispatch_options
+Divider
 
 1
 9
@@ -550,7 +550,7 @@ Dispatch options
 Bold
 2
 1
-batt_dispatch_update_frequency_hours
+Numeric
 
 1
 16
@@ -608,7 +608,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_look_ahead_hours
+Numeric
 
 1
 16
@@ -666,7 +666,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_select_weather_file_forecast
+Button
 
 1
 7
@@ -691,7 +691,7 @@ Browse...
 TabOrder
 3
 4294967295
-batt_user_specified_weather_file
+TextEntry
 
 1
 10
@@ -731,7 +731,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_weather_label
+Divider
 
 1
 9
@@ -765,7 +765,7 @@ Choose Weather forecast file
 Bold
 2
 1
-object 21
+Divider
 
 1
 9
@@ -799,7 +799,7 @@ Choose Dispatch Model
 Bold
 2
 1
-select_weather_file
+Button
 
 1
 7
@@ -824,7 +824,7 @@ Browse...
 TabOrder
 3
 9
-select_weather_file
+Button
 
 1
 7
@@ -849,7 +849,7 @@ Browse...
 TabOrder
 3
 9
-select_weather_file
+Button
 
 1
 7

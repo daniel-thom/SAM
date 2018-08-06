@@ -2,7 +2,7 @@ Battery Enable
 396
 31
 1
-en_batt
+CheckBox
 
 1
 8

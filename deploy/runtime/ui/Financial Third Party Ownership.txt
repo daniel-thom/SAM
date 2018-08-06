@@ -2,7 +2,7 @@ Financial Third Party Ownership
 712
 236
 11
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Analysis Parameters
 Bold
 2
 1
-analysis_period
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 1
-inflation_rate
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 2
-lease_escalation
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 4294967295
-lease_or_ppa
+RadioChoice
 
 1
 10
@@ -237,7 +237,7 @@ Horizontal
 TabOrder
 3
 4294967295
-lease_price
+Numeric
 
 1
 16
@@ -295,7 +295,7 @@ BackColour
 TabOrder
 3
 4294967295
-nominal_discount_rate
+Numeric
 
 1
 16
@@ -353,7 +353,7 @@ BackColour
 TabOrder
 3
 3
-object 4
+GroupBox
 
 1
 7
@@ -378,7 +378,7 @@ Terms of Agreement
 Bold
 2
 1
-ppa_escalation
+Numeric
 
 1
 16
@@ -436,7 +436,7 @@ BackColour
 TabOrder
 3
 4294967295
-ppa_price
+Numeric
 
 1
 16
@@ -494,7 +494,7 @@ BackColour
 TabOrder
 3
 4294967295
-real_discount_rate
+Numeric
 
 1
 16

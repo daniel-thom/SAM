@@ -2,7 +2,7 @@ CEC Performance Model with Module Database
 1019
 1084
 53
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Physical Characteristics
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Temperature Correction
 Bold
 2
 1
-GroupBox21
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ References
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Additional Parameters
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Module Characteristics at Reference Conditions
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Heat transfer method parameters
 Bold
 2
 0
-GroupBox6
+GroupBox
 
 1
 7
@@ -177,7 +177,7 @@ NOCT method parameters
 Bold
 2
 0
-Hyperlink11
+Hyperlink
 
 1
 8
@@ -205,7 +205,7 @@ https://sam.nrel.gov/performance
 TabOrder
 3
 37
-Label1
+Label
 
 1
 12
@@ -248,7 +248,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -291,7 +291,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -334,7 +334,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -377,7 +377,7 @@ AlignRight
 AlignTop
 2
 1
-alpha_sc_calc
+Numeric
 
 1
 16
@@ -435,7 +435,7 @@ BackColour
 TabOrder
 3
 14
-beta_oc_calc
+Numeric
 
 1
 16
@@ -493,7 +493,7 @@ BackColour
 TabOrder
 3
 12
-cec_a_ref
+Numeric
 
 1
 16
@@ -551,7 +551,7 @@ BackColour
 TabOrder
 3
 34
-cec_alpha_sc
+Numeric
 
 1
 16
@@ -609,7 +609,7 @@ BackColour
 TabOrder
 3
 15
-cec_area
+Numeric
 
 1
 16
@@ -667,7 +667,7 @@ BackColour
 TabOrder
 3
 29
-cec_array_cols
+Numeric
 
 1
 16
@@ -725,7 +725,7 @@ BackColour
 TabOrder
 3
 25
-cec_array_rows
+Numeric
 
 1
 16
@@ -783,7 +783,7 @@ BackColour
 TabOrder
 3
 24
-cec_backside_temp
+Numeric
 
 1
 16
@@ -841,7 +841,7 @@ BackColour
 TabOrder
 3
 26
-cec_beta_oc
+Numeric
 
 1
 16
@@ -899,7 +899,7 @@ BackColour
 TabOrder
 3
 13
-cec_bifacial_ground_clearance_height
+Numeric
 
 1
 16
@@ -957,7 +957,7 @@ BackColour
 TabOrder
 3
 4294967295
-cec_bifacial_transmission_factor
+Numeric
 
 1
 16
@@ -1015,7 +1015,7 @@ BackColour
 TabOrder
 3
 4294967295
-cec_bifaciality
+Numeric
 
 1
 16
@@ -1073,7 +1073,7 @@ BackColour
 TabOrder
 3
 4294967295
-cec_eff
+Numeric
 
 1
 16
@@ -1131,7 +1131,7 @@ BackColour
 TabOrder
 3
 4
-cec_gamma_r
+Numeric
 
 1
 16
@@ -1189,7 +1189,7 @@ BackColour
 TabOrder
 3
 10
-cec_gap_spacing
+Numeric
 
 1
 16
@@ -1247,7 +1247,7 @@ BackColour
 TabOrder
 3
 27
-cec_heat_transfer
+Choice
 
 1
 8
@@ -1277,7 +1277,7 @@ Selection
 TabOrder
 3
 20
-cec_height
+Choice
 
 1
 8
@@ -1305,7 +1305,7 @@ Selection
 TabOrder
 3
 18
-cec_i_l_ref
+Numeric
 
 1
 16
@@ -1363,7 +1363,7 @@ BackColour
 TabOrder
 3
 32
-cec_i_mp_ref
+Numeric
 
 1
 16
@@ -1421,7 +1421,7 @@ BackColour
 TabOrder
 3
 7
-cec_i_o_ref
+Numeric
 
 1
 16
@@ -1479,7 +1479,7 @@ BackColour
 TabOrder
 3
 35
-cec_i_sc_ref
+Numeric
 
 1
 16
@@ -1537,7 +1537,7 @@ BackColour
 TabOrder
 3
 9
-cec_is_bifacial
+CheckBox
 
 1
 8
@@ -1565,7 +1565,7 @@ State
 TabOrder
 3
 4294967295
-cec_material
+TextEntry
 
 1
 10
@@ -1605,7 +1605,7 @@ BackColour
 TabOrder
 3
 28
-cec_module_length
+Numeric
 
 1
 16
@@ -1663,7 +1663,7 @@ BackColour
 TabOrder
 3
 23
-cec_module_width
+Numeric
 
 1
 16
@@ -1721,7 +1721,7 @@ BackColour
 TabOrder
 3
 22
-cec_mounting_config
+Choice
 
 1
 8
@@ -1753,7 +1753,7 @@ Selection
 TabOrder
 3
 19
-cec_mounting_orientation
+Choice
 
 1
 8
@@ -1784,7 +1784,7 @@ Selection
 TabOrder
 3
 21
-cec_n_s
+Numeric
 
 1
 16
@@ -1842,7 +1842,7 @@ BackColour
 TabOrder
 3
 30
-cec_p_mp_ref
+Numeric
 
 1
 16
@@ -1900,7 +1900,7 @@ BackColour
 TabOrder
 3
 5
-cec_r_s
+Numeric
 
 1
 16
@@ -1958,7 +1958,7 @@ BackColour
 TabOrder
 3
 33
-cec_r_sh_ref
+Numeric
 
 1
 16
@@ -2016,7 +2016,7 @@ BackColour
 TabOrder
 3
 36
-cec_standoff
+Choice
 
 1
 8
@@ -2044,7 +2044,7 @@ Selection
 TabOrder
 3
 17
-cec_t_noct
+Numeric
 
 1
 16
@@ -2102,7 +2102,7 @@ BackColour
 TabOrder
 3
 31
-cec_temp_corr_mode
+RadioChoice
 
 1
 10
@@ -2138,7 +2138,7 @@ Horizontal
 TabOrder
 3
 16
-cec_v_mp_ref
+Numeric
 
 1
 16
@@ -2196,7 +2196,7 @@ BackColour
 TabOrder
 3
 6
-cec_v_oc_ref
+Numeric
 
 1
 16
@@ -2254,7 +2254,7 @@ BackColour
 TabOrder
 3
 8
-dividerBifacial
+Divider
 
 1
 9
@@ -2288,7 +2288,7 @@ Bifacial Specifications
 Bold
 2
 1
-gamma_r_calc
+Numeric
 
 1
 16
@@ -2346,7 +2346,7 @@ BackColour
 TabOrder
 3
 11
-module_name
+Library
 
 1
 7
@@ -2371,7 +2371,7 @@ CEC Modules
 Fields
 5
 Name,I_mp_ref,V_mp_ref,A_c,N_s,I_sc_ref,V_oc_ref,gamma_r,Technology,BIPV,PTC
-pv.mod.cec.iv_curve
+Plot
 
 1
 5
@@ -2390,7 +2390,7 @@ Width
 Height
 3
 225
-ref_conditions
+TextEntry
 
 1
 10

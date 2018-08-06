@@ -2,7 +2,7 @@ Geothermal Costs
 824
 1148
 112
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Recapitalization Cost
 Bold
 2
 1
-GroupBox11
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Total Installed Costs
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Number of Wells to Drill
 Bold
 2
 1
-GroupBox211
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Drilling and Associated Costs
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Plant Capital Cost
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -177,7 +177,7 @@ Pump Cost Inputs
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -220,7 +220,7 @@ AlignRight
 AlignTop
 2
 1
-Label11
+Label
 
 1
 12
@@ -263,7 +263,7 @@ AlignRight
 AlignTop
 2
 1
-Label111
+Label
 
 1
 12
@@ -306,7 +306,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -349,7 +349,7 @@ AlignRight
 AlignTop
 2
 0
-Label1112
+Label
 
 1
 12
@@ -392,7 +392,7 @@ AlignRight
 AlignTop
 2
 0
-Label11121
+Label
 
 1
 12
@@ -435,7 +435,7 @@ AlignRight
 AlignTop
 2
 0
-Label111211
+Label
 
 1
 12
@@ -478,7 +478,7 @@ AlignRight
 AlignTop
 2
 0
-Label111212
+Label
 
 1
 12
@@ -521,7 +521,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -564,7 +564,7 @@ AlignRight
 AlignTop
 2
 1
-Label211
+Label
 
 1
 12
@@ -607,7 +607,7 @@ AlignRight
 AlignTop
 2
 0
-Label2111
+Label
 
 1
 12
@@ -650,7 +650,7 @@ AlignRight
 AlignTop
 2
 0
-Label21111
+Label
 
 1
 12
@@ -693,7 +693,7 @@ AlignRight
 AlignTop
 2
 0
-Label211111
+Label
 
 1
 12
@@ -736,7 +736,7 @@ AlignRight
 AlignTop
 2
 0
-Label211112
+Label
 
 1
 12
@@ -779,7 +779,7 @@ AlignRight
 AlignTop
 2
 0
-Label311
+Label
 
 1
 12
@@ -822,7 +822,7 @@ AlignRight
 AlignTop
 2
 0
-Label3111
+Label
 
 1
 12
@@ -865,7 +865,7 @@ AlignRight
 AlignTop
 2
 0
-Label31111
+Label
 
 1
 12
@@ -908,7 +908,7 @@ AlignRight
 AlignTop
 2
 0
-Label311111
+Label
 
 1
 12
@@ -951,7 +951,7 @@ AlignRight
 AlignTop
 2
 0
-Label411
+Label
 
 1
 12
@@ -994,7 +994,7 @@ AlignRight
 AlignTop
 2
 0
-Label4111
+Label
 
 1
 12
@@ -1037,7 +1037,7 @@ AlignRight
 AlignTop
 2
 0
-Label41111
+Label
 
 1
 12
@@ -1080,7 +1080,7 @@ AlignRight
 AlignTop
 2
 0
-Label511
+Label
 
 1
 12
@@ -1123,7 +1123,7 @@ AlignRight
 AlignTop
 2
 0
-geotherm.cost.capital_total
+Numeric
 
 1
 16
@@ -1181,7 +1181,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.conf_drill
+Numeric
 
 1
 16
@@ -1239,7 +1239,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.conf_multiplier
+Numeric
 
 1
 16
@@ -1297,7 +1297,7 @@ BackColour
 TabOrder
 3
 6
-geotherm.cost.conf_non_drill
+Numeric
 
 1
 16
@@ -1355,7 +1355,7 @@ BackColour
 TabOrder
 3
 8
-geotherm.cost.conf_num_wells
+Numeric
 
 1
 16
@@ -1413,7 +1413,7 @@ BackColour
 TabOrder
 3
 7
-geotherm.cost.conf_per_well
+Numeric
 
 1
 16
@@ -1471,7 +1471,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.conf_total
+Numeric
 
 1
 16
@@ -1529,7 +1529,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.confirm_wells_num
+Numeric
 
 1
 16
@@ -1587,7 +1587,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.confirm_wells_percent
+Numeric
 
 1
 16
@@ -1645,7 +1645,7 @@ BackColour
 TabOrder
 3
 1
-geotherm.cost.contingency
+Numeric
 
 1
 16
@@ -1703,7 +1703,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.contingency_percent
+Numeric
 
 1
 16
@@ -1761,7 +1761,7 @@ BackColour
 TabOrder
 3
 25
-geotherm.cost.drilling.amount
+Numeric
 
 1
 16
@@ -1819,7 +1819,7 @@ BackColour
 TabOrder
 3
 21
-geotherm.cost.drilling.amount_specified
+Numeric
 
 1
 16
@@ -1877,7 +1877,7 @@ BackColour
 TabOrder
 3
 15
-geotherm.cost.drilling.calc
+CheckBox
 
 1
 8
@@ -1905,7 +1905,7 @@ State
 TabOrder
 3
 14
-geotherm.cost.epc.fixed
+Numeric
 
 1
 16
@@ -1963,7 +1963,7 @@ BackColour
 TabOrder
 3
 27
-geotherm.cost.epc.nonfixed
+Numeric
 
 1
 16
@@ -2021,7 +2021,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.epc.percent
+Numeric
 
 1
 16
@@ -2079,7 +2079,7 @@ BackColour
 TabOrder
 3
 26
-geotherm.cost.epc.total
+Numeric
 
 1
 16
@@ -2137,7 +2137,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.expl_drill
+Numeric
 
 1
 16
@@ -2195,7 +2195,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.expl_multiplier
+Numeric
 
 1
 16
@@ -2253,7 +2253,7 @@ BackColour
 TabOrder
 3
 3
-geotherm.cost.expl_non_drill
+Numeric
 
 1
 16
@@ -2311,7 +2311,7 @@ BackColour
 TabOrder
 3
 5
-geotherm.cost.expl_num_wells
+Numeric
 
 1
 16
@@ -2369,7 +2369,7 @@ BackColour
 TabOrder
 3
 4
-geotherm.cost.expl_per_well
+Numeric
 
 1
 16
@@ -2427,7 +2427,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.expl_total
+Numeric
 
 1
 16
@@ -2485,7 +2485,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.indirect.amount_specified
+Numeric
 
 1
 16
@@ -2543,7 +2543,7 @@ BackColour
 TabOrder
 3
 32
-geotherm.cost.indirect.calc
+CheckBox
 
 1
 8
@@ -2571,7 +2571,7 @@ State
 TabOrder
 3
 31
-geotherm.cost.inj_cost_curve
+Choice
 
 1
 8
@@ -2602,7 +2602,7 @@ Selection
 TabOrder
 3
 10
-geotherm.cost.inj_drill
+Numeric
 
 1
 16
@@ -2660,7 +2660,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.inj_num_wells
+Numeric
 
 1
 16
@@ -2718,7 +2718,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.inj_per_well
+Numeric
 
 1
 16
@@ -2776,7 +2776,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.inj_prod_well_ratio
+Numeric
 
 1
 16
@@ -2834,7 +2834,7 @@ BackColour
 TabOrder
 3
 2
-geotherm.cost.inj_wells_drilled
+Numeric
 
 1
 16
@@ -2892,7 +2892,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.installed_per_capacity
+Numeric
 
 1
 16
@@ -2950,7 +2950,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.num_pumps
+Numeric
 
 1
 16
@@ -3008,7 +3008,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.plant_auto_estimate
+CheckBox
 
 1
 8
@@ -3036,7 +3036,7 @@ State
 TabOrder
 3
 0
-geotherm.cost.plant_per_kW
+Numeric
 
 1
 16
@@ -3094,7 +3094,7 @@ BackColour
 TabOrder
 3
 16
-geotherm.cost.plant_size
+Numeric
 
 1
 16
@@ -3152,7 +3152,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.plant_total
+Numeric
 
 1
 16
@@ -3210,7 +3210,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.plant_total.amount
+Numeric
 
 1
 16
@@ -3268,7 +3268,7 @@ BackColour
 TabOrder
 3
 21
-geotherm.cost.plant_total.amount_specified
+Numeric
 
 1
 16
@@ -3326,7 +3326,7 @@ BackColour
 TabOrder
 3
 18
-geotherm.cost.plant_total.calc
+CheckBox
 
 1
 8
@@ -3354,7 +3354,7 @@ State
 TabOrder
 3
 17
-geotherm.cost.plm.fixed
+Numeric
 
 1
 16
@@ -3412,7 +3412,7 @@ BackColour
 TabOrder
 3
 29
-geotherm.cost.plm.nonfixed
+Numeric
 
 1
 16
@@ -3470,7 +3470,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.plm.percent
+Numeric
 
 1
 16
@@ -3528,7 +3528,7 @@ BackColour
 TabOrder
 3
 28
-geotherm.cost.plm.total
+Numeric
 
 1
 16
@@ -3586,7 +3586,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_cost_curve
+Choice
 
 1
 8
@@ -3617,7 +3617,7 @@ Selection
 TabOrder
 3
 9
-geotherm.cost.prod_drill
+Numeric
 
 1
 16
@@ -3675,7 +3675,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_inj_drill
+Numeric
 
 1
 16
@@ -3733,7 +3733,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_inj_non_drill
+Numeric
 
 1
 16
@@ -3791,7 +3791,7 @@ BackColour
 TabOrder
 3
 11
-geotherm.cost.prod_inj_num_wells
+Numeric
 
 1
 16
@@ -3849,7 +3849,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_inj_total
+Numeric
 
 1
 16
@@ -3907,7 +3907,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_num_wells
+Numeric
 
 1
 16
@@ -3965,7 +3965,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_per_well
+Numeric
 
 1
 16
@@ -4023,7 +4023,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_req
+Numeric
 
 1
 16
@@ -4081,7 +4081,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.prod_wells_drilled
+Numeric
 
 1
 16
@@ -4139,7 +4139,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.pump_depth
+Numeric
 
 1
 16
@@ -4197,7 +4197,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.pump_installation
+Numeric
 
 1
 16
@@ -4255,7 +4255,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.pump_per_foot
+Numeric
 
 1
 16
@@ -4313,7 +4313,7 @@ BackColour
 TabOrder
 3
 19
-geotherm.cost.pump_per_hp
+Numeric
 
 1
 16
@@ -4371,7 +4371,7 @@ BackColour
 TabOrder
 3
 20
-geotherm.cost.pump_per_pump
+Numeric
 
 1
 16
@@ -4429,7 +4429,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.pump_size
+Numeric
 
 1
 16
@@ -4487,7 +4487,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.pump_total_per_pump
+Numeric
 
 1
 16
@@ -4545,7 +4545,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.pumping.amount
+Numeric
 
 1
 16
@@ -4603,7 +4603,7 @@ BackColour
 TabOrder
 3
 21
-geotherm.cost.pumping.amount_specified
+Numeric
 
 1
 16
@@ -4661,7 +4661,7 @@ BackColour
 TabOrder
 3
 22
-geotherm.cost.pumping.calc
+CheckBox
 
 1
 8
@@ -4689,7 +4689,7 @@ State
 TabOrder
 3
 21
-geotherm.cost.pumps_total
+Numeric
 
 1
 16
@@ -4747,7 +4747,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.recap
+Numeric
 
 1
 16
@@ -4805,7 +4805,7 @@ BackColour
 TabOrder
 3
 20
-geotherm.cost.recap_specified
+Numeric
 
 1
 16
@@ -4863,7 +4863,7 @@ BackColour
 TabOrder
 3
 24
-geotherm.cost.recap_use_calc
+CheckBox
 
 1
 8
@@ -4891,7 +4891,7 @@ State
 TabOrder
 3
 23
-geotherm.cost.sales_tax.percent
+Numeric
 
 1
 16
@@ -4949,7 +4949,7 @@ BackColour
 TabOrder
 3
 30
-geotherm.cost.sales_tax.total
+Numeric
 
 1
 16
@@ -5007,7 +5007,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.sales_tax.value
+Numeric
 
 1
 16
@@ -5065,7 +5065,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.stim_non_drill
+Numeric
 
 1
 16
@@ -5123,7 +5123,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.stim_num_wells
+Numeric
 
 1
 16
@@ -5181,7 +5181,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.stim_per_well
+Numeric
 
 1
 16
@@ -5239,7 +5239,7 @@ BackColour
 TabOrder
 3
 13
-geotherm.cost.stim_total
+Numeric
 
 1
 16
@@ -5297,7 +5297,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.surf_non_drill
+Numeric
 
 1
 16
@@ -5355,7 +5355,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.surf_num_wells
+Numeric
 
 1
 16
@@ -5413,7 +5413,7 @@ BackColour
 TabOrder
 3
 0
-geotherm.cost.surf_per_well
+Numeric
 
 1
 16
@@ -5471,7 +5471,7 @@ BackColour
 TabOrder
 3
 12
-geotherm.cost.surf_total
+Numeric
 
 1
 16
@@ -5529,7 +5529,7 @@ BackColour
 TabOrder
 3
 0
-total_direct_cost
+Numeric
 
 1
 16
@@ -5587,7 +5587,7 @@ BackColour
 TabOrder
 3
 0
-total_indirect_cost
+Numeric
 
 1
 16
@@ -5645,7 +5645,7 @@ BackColour
 TabOrder
 3
 21
-total_installed_cost
+Numeric
 
 1
 16

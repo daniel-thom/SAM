@@ -2,7 +2,7 @@ MSPT System Control
 841
 431
 34
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Plant Energy Consumption
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-adjust
+LossAdjustment
 
 1
 6
@@ -221,7 +221,7 @@ Height
 TabOrder
 3
 4294967295
-aux_par
+Numeric
 
 1
 16
@@ -279,7 +279,7 @@ BackColour
 TabOrder
 3
 17
-aux_par_0
+Numeric
 
 1
 16
@@ -337,7 +337,7 @@ BackColour
 TabOrder
 3
 19
-aux_par_1
+Numeric
 
 1
 16
@@ -395,7 +395,7 @@ BackColour
 TabOrder
 3
 20
-aux_par_2
+Numeric
 
 1
 16
@@ -453,7 +453,7 @@ BackColour
 TabOrder
 3
 21
-aux_par_f
+Numeric
 
 1
 16
@@ -511,7 +511,7 @@ BackColour
 TabOrder
 3
 18
-bop_par
+Numeric
 
 1
 16
@@ -569,7 +569,7 @@ BackColour
 TabOrder
 3
 11
-bop_par_0
+Numeric
 
 1
 16
@@ -627,7 +627,7 @@ BackColour
 TabOrder
 3
 13
-bop_par_1
+Numeric
 
 1
 16
@@ -685,7 +685,7 @@ BackColour
 TabOrder
 3
 14
-bop_par_2
+Numeric
 
 1
 16
@@ -743,7 +743,7 @@ BackColour
 TabOrder
 3
 15
-bop_par_f
+Numeric
 
 1
 16
@@ -801,7 +801,7 @@ BackColour
 TabOrder
 3
 12
-csp.pt.par.calc.aux
+Numeric
 
 1
 16
@@ -859,7 +859,7 @@ BackColour
 TabOrder
 3
 22
-csp.pt.par.calc.bop
+Numeric
 
 1
 16
@@ -917,7 +917,7 @@ BackColour
 TabOrder
 3
 16
-disp_csu_cost
+Numeric
 
 1
 16
@@ -975,7 +975,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_frequency
+Numeric
 
 1
 16
@@ -1033,7 +1033,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_horizon
+Numeric
 
 1
 16
@@ -1091,7 +1091,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_max_iter
+Numeric
 
 1
 16
@@ -1149,7 +1149,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_mip_gap
+Numeric
 
 1
 16
@@ -1207,7 +1207,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_pen_delta_w
+Numeric
 
 1
 16
@@ -1265,7 +1265,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_rsu_cost
+Numeric
 
 1
 16
@@ -1323,7 +1323,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_time_weighting
+Numeric
 
 1
 16
@@ -1381,7 +1381,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_timeout
+Numeric
 
 1
 16
@@ -1439,7 +1439,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_wlim_max
+Numeric
 
 1
 16
@@ -1497,7 +1497,7 @@ BackColour
 TabOrder
 3
 4294967295
-disp_wlim_maxspec
+Numeric
 
 1
 16
@@ -1555,7 +1555,7 @@ BackColour
 TabOrder
 3
 4294967295
-is_dispatch
+CheckBox
 
 1
 8
@@ -1583,7 +1583,7 @@ State
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -1608,7 +1608,7 @@ Dispatch Optimization
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1633,7 +1633,7 @@ Dispatch Optimization
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1676,7 +1676,7 @@ AlignRight
 AlignTop
 2
 1
-pb_fixed_par
+Numeric
 
 1
 16

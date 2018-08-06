@@ -2,7 +2,7 @@ Financial Solution Mode Flip Leaseback
 860
 122
 9
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Solution Mode
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Escalation Rate
 Bold
 2
 1
-flip_target_percent
+Numeric
 
 1
 16
@@ -110,7 +110,7 @@ BackColour
 TabOrder
 3
 2
-flip_target_year
+Numeric
 
 1
 16
@@ -168,7 +168,7 @@ BackColour
 TabOrder
 3
 3
-object 7
+Label
 
 1
 12
@@ -211,7 +211,7 @@ AlignRight
 AlignTop
 2
 1
-ppa_escalation
+Numeric
 
 1
 16
@@ -269,7 +269,7 @@ BackColour
 TabOrder
 3
 5
-ppa_price_input
+Numeric
 
 1
 16
@@ -327,7 +327,7 @@ BackColour
 TabOrder
 3
 4
-ppa_soln_mode
+RadioChoice
 
 1
 10
@@ -363,7 +363,7 @@ Horizontal
 TabOrder
 3
 1
-solution_mode_message
+Label
 
 1
 12

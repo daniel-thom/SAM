@@ -2,7 +2,7 @@ Financial Tax and Insurance Rates
 862
 159
 10
-GroupBox2
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Project Tax and Insurance Rates
 Bold
 2
 1
-federal_tax_rate
+SchedNumeric
 
 1
 11
@@ -64,7 +64,7 @@ Description
 TabOrder
 3
 4294967295
-insurance_rate
+Numeric
 
 1
 16
@@ -122,7 +122,7 @@ BackColour
 TabOrder
 3
 7
-object 22
+Divider
 
 1
 9
@@ -156,7 +156,7 @@ Property Tax
 Bold
 2
 1
-prop_tax_assessed_decline
+Numeric
 
 1
 16
@@ -214,7 +214,7 @@ BackColour
 TabOrder
 3
 9
-prop_tax_cost_assessed_percent
+Numeric
 
 1
 16
@@ -272,7 +272,7 @@ BackColour
 TabOrder
 3
 8
-property_assessed_value
+Numeric
 
 1
 16
@@ -330,7 +330,7 @@ BackColour
 TabOrder
 3
 8
-property_tax_rate
+Numeric
 
 1
 16
@@ -388,7 +388,7 @@ BackColour
 TabOrder
 3
 10
-sales_tax_rate
+Numeric
 
 1
 16
@@ -446,7 +446,7 @@ BackColour
 TabOrder
 3
 6
-state_tax_rate
+SchedNumeric
 
 1
 11

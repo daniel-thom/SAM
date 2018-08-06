@@ -2,7 +2,7 @@ HCPV Module
 682
 973
 55
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ High Concentration Photovoltaic (HCPV) Module
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Cell Efficiency
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Cell Temperature
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Spectral Effects
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -145,7 +145,7 @@ AlignRight
 AlignTop
 2
 1
-Label2
+Label
 
 1
 12
@@ -188,7 +188,7 @@ AlignRight
 AlignTop
 2
 1
-Label3
+Label
 
 1
 12
@@ -231,7 +231,7 @@ AlignRight
 AlignTop
 2
 0
-Label31
+Label
 
 1
 12
@@ -274,7 +274,7 @@ AlignRight
 AlignTop
 2
 0
-Label311
+Label
 
 1
 12
@@ -317,7 +317,7 @@ AlignRight
 AlignTop
 2
 1
-Label32
+Label
 
 1
 12
@@ -360,7 +360,7 @@ AlignRight
 AlignTop
 2
 0
-Label321
+Label
 
 1
 12
@@ -403,7 +403,7 @@ AlignRight
 AlignTop
 2
 1
-Label33
+Label
 
 1
 12
@@ -446,7 +446,7 @@ AlignRight
 AlignTop
 2
 1
-Label34
+Label
 
 1
 12
@@ -489,7 +489,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -532,7 +532,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -575,7 +575,7 @@ AlignRight
 AlignTop
 2
 1
-Label8
+Label
 
 1
 12
@@ -618,7 +618,7 @@ AlignRight
 AlignTop
 2
 0
-hcpv.module.area
+Numeric
 
 1
 16
@@ -676,7 +676,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.module.btn_set_default_airmass_inputs
+Button
 
 1
 7
@@ -701,7 +701,7 @@ Reset to AM defaults
 TabOrder
 3
 0
-hcpv.module.btn_set_default_temp_inputs
+Button
 
 1
 7
@@ -726,7 +726,7 @@ Reset to default temperature inputs
 TabOrder
 3
 0
-hcpv.module.cell_temp
+Numeric
 
 1
 16
@@ -784,7 +784,7 @@ BackColour
 TabOrder
 3
 2
-hcpv.module.est_eff
+Numeric
 
 1
 16
@@ -842,7 +842,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.module.mam_ref
+Numeric
 
 1
 16
@@ -900,7 +900,7 @@ BackColour
 TabOrder
 3
 0
-hcpv.module.mjeff0
+Numeric
 
 1
 16
@@ -958,7 +958,7 @@ BackColour
 TabOrder
 3
 4
-hcpv.module.mjeff1
+Numeric
 
 1
 16
@@ -1016,7 +1016,7 @@ BackColour
 TabOrder
 3
 6
-hcpv.module.mjeff2
+Numeric
 
 1
 16
@@ -1074,7 +1074,7 @@ BackColour
 TabOrder
 3
 8
-hcpv.module.mjeff3
+Numeric
 
 1
 16
@@ -1132,7 +1132,7 @@ BackColour
 TabOrder
 3
 10
-hcpv.module.mjeff4
+Numeric
 
 1
 16
@@ -1190,7 +1190,7 @@ BackColour
 TabOrder
 3
 12
-hcpv.module.power
+Numeric
 
 1
 16
@@ -1248,7 +1248,7 @@ BackColour
 TabOrder
 3
 2
-hcpv.module.rad0
+Numeric
 
 1
 16
@@ -1306,7 +1306,7 @@ BackColour
 TabOrder
 3
 3
-hcpv.module.rad0X
+Numeric
 
 1
 16
@@ -1364,7 +1364,7 @@ BackColour
 TabOrder
 3
 3
-hcpv.module.rad1
+Numeric
 
 1
 16
@@ -1422,7 +1422,7 @@ BackColour
 TabOrder
 3
 5
-hcpv.module.rad1X
+Numeric
 
 1
 16
@@ -1480,7 +1480,7 @@ BackColour
 TabOrder
 3
 5
-hcpv.module.rad2
+Numeric
 
 1
 16
@@ -1538,7 +1538,7 @@ BackColour
 TabOrder
 3
 7
-hcpv.module.rad2X
+Numeric
 
 1
 16
@@ -1596,7 +1596,7 @@ BackColour
 TabOrder
 3
 7
-hcpv.module.rad3
+Numeric
 
 1
 16
@@ -1654,7 +1654,7 @@ BackColour
 TabOrder
 3
 9
-hcpv.module.rad3X
+Numeric
 
 1
 16
@@ -1712,7 +1712,7 @@ BackColour
 TabOrder
 3
 9
-hcpv.module.rad4
+Numeric
 
 1
 16
@@ -1770,7 +1770,7 @@ BackColour
 TabOrder
 3
 11
-hcpv.module.rad4X
+Numeric
 
 1
 16
@@ -1828,7 +1828,7 @@ BackColour
 TabOrder
 3
 11
-hcpv_module_mam_plot
+Plot
 
 1
 5
@@ -1847,7 +1847,7 @@ Width
 Height
 3
 189
-module_a
+Numeric
 
 1
 16
@@ -1905,7 +1905,7 @@ BackColour
 TabOrder
 3
 0
-module_a0
+Numeric
 
 1
 16
@@ -1963,7 +1963,7 @@ BackColour
 TabOrder
 3
 0
-module_a1
+Numeric
 
 1
 16
@@ -2021,7 +2021,7 @@ BackColour
 TabOrder
 3
 0
-module_a2
+Numeric
 
 1
 16
@@ -2079,7 +2079,7 @@ BackColour
 TabOrder
 3
 0
-module_a3
+Numeric
 
 1
 16
@@ -2137,7 +2137,7 @@ BackColour
 TabOrder
 3
 0
-module_a4
+Numeric
 
 1
 16
@@ -2195,7 +2195,7 @@ BackColour
 TabOrder
 3
 0
-module_alignment_error
+Numeric
 
 1
 16
@@ -2253,7 +2253,7 @@ BackColour
 TabOrder
 3
 0
-module_b
+Numeric
 
 1
 16
@@ -2311,7 +2311,7 @@ BackColour
 TabOrder
 3
 0
-module_cell_area
+Numeric
 
 1
 16
@@ -2369,7 +2369,7 @@ BackColour
 TabOrder
 3
 1
-module_concentration
+Numeric
 
 1
 16
@@ -2427,7 +2427,7 @@ BackColour
 TabOrder
 3
 0
-module_dT
+Numeric
 
 1
 16
@@ -2485,7 +2485,7 @@ BackColour
 TabOrder
 3
 0
-module_flutter_loss_coeff
+Numeric
 
 1
 16
@@ -2543,7 +2543,7 @@ BackColour
 TabOrder
 3
 0
-module_ncells
+Numeric
 
 1
 16
@@ -2601,7 +2601,7 @@ BackColour
 TabOrder
 3
 0
-module_optical_error
+Numeric
 
 1
 16
@@ -2659,7 +2659,7 @@ BackColour
 TabOrder
 3
 0
-module_reference
+RadioChoice
 
 1
 10
@@ -2698,7 +2698,7 @@ Horizontal
 TabOrder
 3
 13
-module_temp_coeff
+Numeric
 
 1
 16

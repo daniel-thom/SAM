@@ -2,7 +2,7 @@ ISCC Molten Salt Tower Receiver
 884
 637
 41
-D_rec
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 3
-GroupBox1
+GroupBox
 
 1
 7
@@ -85,7 +85,7 @@ External Receiver
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -110,7 +110,7 @@ Receiver Heat Transfer Properties
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -135,7 +135,7 @@ Materials and Flow
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -160,7 +160,7 @@ Design Operation
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -185,7 +185,7 @@ Tower Height and Piping Losses
 Bold
 2
 1
-H_rec
+Numeric
 
 1
 16
@@ -243,7 +243,7 @@ BackColour
 TabOrder
 3
 2
-N_panels
+Numeric
 
 1
 16
@@ -301,7 +301,7 @@ BackColour
 TabOrder
 3
 4
-Optimization_Notice
+Label
 
 1
 12
@@ -344,7 +344,7 @@ AlignRight
 AlignTop
 2
 1
-Q_rec_des
+Numeric
 
 1
 16
@@ -402,7 +402,7 @@ BackColour
 TabOrder
 3
 30
-Solar Field Design Parameters
+GroupBox
 
 1
 7
@@ -427,7 +427,7 @@ Solar Field Design Parameters
 Bold
 2
 1
-THT
+Numeric
 
 1
 16
@@ -485,7 +485,7 @@ BackColour
 TabOrder
 3
 33
-csp.pt.rec.flow_pattern
+Choice
 
 1
 8
@@ -521,7 +521,7 @@ Selection
 TabOrder
 3
 26
-csp.pt.rec.htf_type
+Choice
 
 1
 8
@@ -552,7 +552,7 @@ Selection
 TabOrder
 3
 23
-csp.pt.rec.material_type
+Choice
 
 1
 8
@@ -581,7 +581,7 @@ Selection
 TabOrder
 3
 25
-csp.pt.rec.max_flow_to_rec
+Numeric
 
 1
 16
@@ -639,7 +639,7 @@ BackColour
 TabOrder
 3
 21
-csp.pt.rec.max_oper_frac
+Numeric
 
 1
 16
@@ -697,7 +697,7 @@ BackColour
 TabOrder
 3
 29
-d_tube_out
+Numeric
 
 1
 16
@@ -755,7 +755,7 @@ BackColour
 TabOrder
 3
 14
-delta_flux_hrs
+Numeric
 
 1
 16
@@ -813,7 +813,7 @@ BackColour
 TabOrder
 3
 4294967295
-dni_des
+Numeric
 
 1
 16
@@ -871,7 +871,7 @@ BackColour
 TabOrder
 3
 4294967295
-epsilon
+Numeric
 
 1
 16
@@ -929,7 +929,7 @@ BackColour
 TabOrder
 3
 5
-eta_pump
+Numeric
 
 1
 16
@@ -987,7 +987,7 @@ BackColour
 TabOrder
 3
 4294967295
-f_rec_min
+Numeric
 
 1
 16
@@ -1045,7 +1045,7 @@ BackColour
 TabOrder
 3
 28
-field_fl_props
+MaterialProperties
 
 1
 6
@@ -1067,7 +1067,7 @@ Height
 TabOrder
 3
 24
-flux_max_mspt
+Numeric
 
 1
 16
@@ -1125,7 +1125,7 @@ BackColour
 TabOrder
 3
 22
-groupbox123
+GroupBox
 
 1
 7
@@ -1150,7 +1150,7 @@ Receiver Flux Modeling Parameters
 Bold
 2
 1
-hl_ffact
+Numeric
 
 1
 16
@@ -1208,7 +1208,7 @@ BackColour
 TabOrder
 3
 20
-n_flux_days
+Numeric
 
 1
 16
@@ -1266,7 +1266,7 @@ BackColour
 TabOrder
 3
 4294967295
-n_flux_x
+Numeric
 
 1
 16
@@ -1324,7 +1324,7 @@ BackColour
 TabOrder
 3
 22
-pctFlow
+Image
 
 1
 7
@@ -1349,7 +1349,7 @@ C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\runtime\/ui/ISCC Molten Salt Tower
 Centered
 2
 1
-piping_length
+Numeric
 
 1
 16
@@ -1407,7 +1407,7 @@ BackColour
 TabOrder
 3
 4294967295
-piping_length_const
+Numeric
 
 1
 16
@@ -1465,7 +1465,7 @@ BackColour
 TabOrder
 3
 4294967295
-piping_length_mult
+Numeric
 
 1
 16
@@ -1523,7 +1523,7 @@ BackColour
 TabOrder
 3
 4294967295
-piping_loss
+Numeric
 
 1
 16
@@ -1581,7 +1581,7 @@ BackColour
 TabOrder
 3
 4294967295
-piping_loss_tot
+Numeric
 
 1
 16
@@ -1639,7 +1639,7 @@ BackColour
 TabOrder
 3
 4294967295
-rec_absorptance
+Numeric
 
 1
 16
@@ -1697,7 +1697,7 @@ BackColour
 TabOrder
 3
 18
-rec_hl_perm2
+Numeric
 
 1
 16
@@ -1755,7 +1755,7 @@ BackColour
 TabOrder
 3
 4294967295
-rec_qf_delay
+Numeric
 
 1
 16
@@ -1813,7 +1813,7 @@ BackColour
 TabOrder
 3
 32
-rec_su_delay
+Numeric
 
 1
 16
@@ -1871,7 +1871,7 @@ BackColour
 TabOrder
 3
 31
-solarm
+Numeric
 
 1
 16
@@ -1929,7 +1929,7 @@ BackColour
 TabOrder
 3
 27
-th_tube
+Numeric
 
 1
 16

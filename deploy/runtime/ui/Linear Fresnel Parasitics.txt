@@ -2,7 +2,7 @@ Linear Fresnel Parasitics
 791
 295
 23
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Parasitic Losses
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -113,7 +113,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -156,7 +156,7 @@ AlignRight
 AlignTop
 2
 0
-Label1111
+Label
 
 1
 12
@@ -199,7 +199,7 @@ AlignRight
 AlignTop
 2
 0
-Label11111
+Label
 
 1
 12
@@ -242,7 +242,7 @@ AlignRight
 AlignTop
 2
 0
-PB_fixed_par
+Numeric
 
 1
 16
@@ -300,7 +300,7 @@ BackColour
 TabOrder
 3
 4
-Pipe_hl_coef
+Numeric
 
 1
 16
@@ -358,7 +358,7 @@ BackColour
 TabOrder
 3
 1
-SCA_drives_elec
+Numeric
 
 1
 16
@@ -416,7 +416,7 @@ BackColour
 TabOrder
 3
 2
-csp.lf.par.aux_c0
+Numeric
 
 1
 16
@@ -474,7 +474,7 @@ BackColour
 TabOrder
 3
 14
-csp.lf.par.aux_c1
+Numeric
 
 1
 16
@@ -532,7 +532,7 @@ BackColour
 TabOrder
 3
 15
-csp.lf.par.aux_c2
+Numeric
 
 1
 16
@@ -590,7 +590,7 @@ BackColour
 TabOrder
 3
 16
-csp.lf.par.aux_pf
+Numeric
 
 1
 16
@@ -648,7 +648,7 @@ BackColour
 TabOrder
 3
 13
-csp.lf.par.aux_total
+Numeric
 
 1
 16
@@ -706,7 +706,7 @@ BackColour
 TabOrder
 3
 17
-csp.lf.par.aux_val
+Numeric
 
 1
 16
@@ -764,7 +764,7 @@ BackColour
 TabOrder
 3
 12
-csp.lf.par.bop_c0
+Numeric
 
 1
 16
@@ -822,7 +822,7 @@ BackColour
 TabOrder
 3
 8
-csp.lf.par.bop_c1
+Numeric
 
 1
 16
@@ -880,7 +880,7 @@ BackColour
 TabOrder
 3
 9
-csp.lf.par.bop_c2
+Numeric
 
 1
 16
@@ -938,7 +938,7 @@ BackColour
 TabOrder
 3
 10
-csp.lf.par.bop_pf
+Numeric
 
 1
 16
@@ -996,7 +996,7 @@ BackColour
 TabOrder
 3
 7
-csp.lf.par.bop_total
+Numeric
 
 1
 16
@@ -1054,7 +1054,7 @@ BackColour
 TabOrder
 3
 11
-csp.lf.par.bop_val
+Numeric
 
 1
 16
@@ -1112,7 +1112,7 @@ BackColour
 TabOrder
 3
 6
-csp.lf.par.fixed_total
+Numeric
 
 1
 16
@@ -1170,7 +1170,7 @@ BackColour
 TabOrder
 3
 5
-csp.lf.par.tracking_total
+Numeric
 
 1
 16

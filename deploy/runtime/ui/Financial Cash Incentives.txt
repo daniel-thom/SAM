@@ -2,7 +2,7 @@ Financial Cash Incentives
 864
 657
 136
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Investment Based Incentive (IBI)
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Capacity Based Incentive (CBI)
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Production Based Incentive (PBI)
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label10
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -206,7 +206,7 @@ AlignRight
 AlignTop
 2
 0
-Label102
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-Label1211
+Label
 
 1
 12
@@ -378,7 +378,7 @@ AlignRight
 AlignTop
 2
 0
-Label12111
+Label
 
 1
 12
@@ -421,7 +421,7 @@ AlignRight
 AlignTop
 2
 0
-Label121111
+Label
 
 1
 12
@@ -464,7 +464,7 @@ AlignRight
 AlignTop
 2
 0
-Label1211111
+Label
 
 1
 12
@@ -507,7 +507,7 @@ AlignRight
 AlignTop
 2
 0
-Label12111111
+Label
 
 1
 12
@@ -550,7 +550,7 @@ AlignRight
 AlignTop
 2
 0
-Label12112
+Label
 
 1
 12
@@ -593,7 +593,7 @@ AlignRight
 AlignTop
 2
 0
-Label121121
+Label
 
 1
 12
@@ -636,7 +636,7 @@ AlignRight
 AlignTop
 2
 0
-Label1211211
+Label
 
 1
 12
@@ -679,7 +679,7 @@ AlignRight
 AlignTop
 2
 0
-Label1212
+Label
 
 1
 12
@@ -722,7 +722,7 @@ AlignRight
 AlignTop
 2
 0
-Label12121
+Label
 
 1
 12
@@ -765,7 +765,7 @@ AlignRight
 AlignTop
 2
 0
-Label121211
+Label
 
 1
 12
@@ -808,7 +808,7 @@ AlignRight
 AlignTop
 2
 0
-Label122
+Label
 
 1
 12
@@ -851,7 +851,7 @@ AlignRight
 AlignTop
 2
 0
-Label1221
+Label
 
 1
 12
@@ -894,7 +894,7 @@ AlignRight
 AlignTop
 2
 0
-Label12211
+Label
 
 1
 12
@@ -937,7 +937,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -980,7 +980,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -1023,7 +1023,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -1066,7 +1066,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -1109,7 +1109,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -1152,7 +1152,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -1195,7 +1195,7 @@ AlignRight
 AlignTop
 2
 0
-Label8
+Label
 
 1
 12
@@ -1238,7 +1238,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -1281,7 +1281,7 @@ AlignRight
 AlignTop
 2
 0
-Label91
+Label
 
 1
 12
@@ -1324,7 +1324,7 @@ AlignRight
 AlignTop
 2
 0
-Label911
+Label
 
 1
 12
@@ -1367,7 +1367,7 @@ AlignRight
 AlignTop
 2
 0
-Label912
+Label
 
 1
 12
@@ -1410,7 +1410,7 @@ AlignRight
 AlignTop
 2
 0
-Label92
+Label
 
 1
 12
@@ -1453,7 +1453,7 @@ AlignRight
 AlignTop
 2
 0
-Label93
+Label
 
 1
 12
@@ -1496,7 +1496,7 @@ AlignRight
 AlignTop
 2
 0
-cbi_fed_amount
+Numeric
 
 1
 16
@@ -1554,7 +1554,7 @@ BackColour
 TabOrder
 3
 54
-cbi_fed_deprbas_fed
+CheckBox
 
 1
 8
@@ -1582,7 +1582,7 @@ State
 TabOrder
 3
 58
-cbi_fed_deprbas_sta
+CheckBox
 
 1
 8
@@ -1610,7 +1610,7 @@ State
 TabOrder
 3
 59
-cbi_fed_maxvalue
+Numeric
 
 1
 16
@@ -1668,7 +1668,7 @@ BackColour
 TabOrder
 3
 55
-cbi_fed_tax_fed
+CheckBox
 
 1
 8
@@ -1696,7 +1696,7 @@ State
 TabOrder
 3
 56
-cbi_fed_tax_sta
+CheckBox
 
 1
 8
@@ -1724,7 +1724,7 @@ State
 TabOrder
 3
 57
-cbi_oth_amount
+Numeric
 
 1
 16
@@ -1782,7 +1782,7 @@ BackColour
 TabOrder
 3
 75
-cbi_oth_deprbas_fed
+CheckBox
 
 1
 8
@@ -1810,7 +1810,7 @@ State
 TabOrder
 3
 79
-cbi_oth_deprbas_sta
+CheckBox
 
 1
 8
@@ -1838,7 +1838,7 @@ State
 TabOrder
 3
 80
-cbi_oth_maxvalue
+Numeric
 
 1
 16
@@ -1896,7 +1896,7 @@ BackColour
 TabOrder
 3
 76
-cbi_oth_tax_fed
+CheckBox
 
 1
 8
@@ -1924,7 +1924,7 @@ State
 TabOrder
 3
 77
-cbi_oth_tax_sta
+CheckBox
 
 1
 8
@@ -1952,7 +1952,7 @@ State
 TabOrder
 3
 78
-cbi_sta_amount
+Numeric
 
 1
 16
@@ -2010,7 +2010,7 @@ BackColour
 TabOrder
 3
 61
-cbi_sta_deprbas_fed
+CheckBox
 
 1
 8
@@ -2038,7 +2038,7 @@ State
 TabOrder
 3
 65
-cbi_sta_deprbas_sta
+CheckBox
 
 1
 8
@@ -2066,7 +2066,7 @@ State
 TabOrder
 3
 66
-cbi_sta_maxvalue
+Numeric
 
 1
 16
@@ -2124,7 +2124,7 @@ BackColour
 TabOrder
 3
 62
-cbi_sta_tax_fed
+CheckBox
 
 1
 8
@@ -2152,7 +2152,7 @@ State
 TabOrder
 3
 63
-cbi_sta_tax_sta
+CheckBox
 
 1
 8
@@ -2180,7 +2180,7 @@ State
 TabOrder
 3
 64
-cbi_uti_amount
+Numeric
 
 1
 16
@@ -2238,7 +2238,7 @@ BackColour
 TabOrder
 3
 68
-cbi_uti_deprbas_fed
+CheckBox
 
 1
 8
@@ -2266,7 +2266,7 @@ State
 TabOrder
 3
 72
-cbi_uti_deprbas_sta
+CheckBox
 
 1
 8
@@ -2294,7 +2294,7 @@ State
 TabOrder
 3
 73
-cbi_uti_maxvalue
+Numeric
 
 1
 16
@@ -2352,7 +2352,7 @@ BackColour
 TabOrder
 3
 69
-cbi_uti_tax_fed
+CheckBox
 
 1
 8
@@ -2380,7 +2380,7 @@ State
 TabOrder
 3
 70
-cbi_uti_tax_sta
+CheckBox
 
 1
 8
@@ -2408,7 +2408,7 @@ State
 TabOrder
 3
 71
-ibi_fed_amount
+Numeric
 
 1
 16
@@ -2466,7 +2466,7 @@ BackColour
 TabOrder
 3
 2
-ibi_fed_amount_deprbas_fed
+CheckBox
 
 1
 8
@@ -2494,7 +2494,7 @@ State
 TabOrder
 3
 5
-ibi_fed_amount_deprbas_sta
+CheckBox
 
 1
 8
@@ -2522,7 +2522,7 @@ State
 TabOrder
 3
 6
-ibi_fed_amount_tax_fed
+CheckBox
 
 1
 8
@@ -2550,7 +2550,7 @@ State
 TabOrder
 3
 3
-ibi_fed_amount_tax_sta
+CheckBox
 
 1
 8
@@ -2578,7 +2578,7 @@ State
 TabOrder
 3
 4
-ibi_fed_percent
+Numeric
 
 1
 16
@@ -2636,7 +2636,7 @@ BackColour
 TabOrder
 3
 26
-ibi_fed_percent_deprbas_fed
+CheckBox
 
 1
 8
@@ -2664,7 +2664,7 @@ State
 TabOrder
 3
 30
-ibi_fed_percent_deprbas_sta
+CheckBox
 
 1
 8
@@ -2692,7 +2692,7 @@ State
 TabOrder
 3
 31
-ibi_fed_percent_maxvalue
+Numeric
 
 1
 16
@@ -2750,7 +2750,7 @@ BackColour
 TabOrder
 3
 27
-ibi_fed_percent_tax_fed
+CheckBox
 
 1
 8
@@ -2778,7 +2778,7 @@ State
 TabOrder
 3
 28
-ibi_fed_percent_tax_sta
+CheckBox
 
 1
 8
@@ -2806,7 +2806,7 @@ State
 TabOrder
 3
 29
-ibi_oth_amount
+Numeric
 
 1
 16
@@ -2864,7 +2864,7 @@ BackColour
 TabOrder
 3
 20
-ibi_oth_amount_deprbas_fed
+CheckBox
 
 1
 8
@@ -2892,7 +2892,7 @@ State
 TabOrder
 3
 23
-ibi_oth_amount_deprbas_sta
+CheckBox
 
 1
 8
@@ -2920,7 +2920,7 @@ State
 TabOrder
 3
 24
-ibi_oth_amount_tax_fed
+CheckBox
 
 1
 8
@@ -2948,7 +2948,7 @@ State
 TabOrder
 3
 21
-ibi_oth_amount_tax_sta
+CheckBox
 
 1
 8
@@ -2976,7 +2976,7 @@ State
 TabOrder
 3
 22
-ibi_oth_percent
+Numeric
 
 1
 16
@@ -3034,7 +3034,7 @@ BackColour
 TabOrder
 3
 47
-ibi_oth_percent_deprbas_fed
+CheckBox
 
 1
 8
@@ -3062,7 +3062,7 @@ State
 TabOrder
 3
 51
-ibi_oth_percent_deprbas_sta
+CheckBox
 
 1
 8
@@ -3090,7 +3090,7 @@ State
 TabOrder
 3
 52
-ibi_oth_percent_maxvalue
+Numeric
 
 1
 16
@@ -3148,7 +3148,7 @@ BackColour
 TabOrder
 3
 48
-ibi_oth_percent_tax_fed
+CheckBox
 
 1
 8
@@ -3176,7 +3176,7 @@ State
 TabOrder
 3
 49
-ibi_oth_percent_tax_sta
+CheckBox
 
 1
 8
@@ -3204,7 +3204,7 @@ State
 TabOrder
 3
 50
-ibi_sta_amount
+Numeric
 
 1
 16
@@ -3262,7 +3262,7 @@ BackColour
 TabOrder
 3
 8
-ibi_sta_amount_deprbas_fed
+CheckBox
 
 1
 8
@@ -3290,7 +3290,7 @@ State
 TabOrder
 3
 11
-ibi_sta_amount_deprbas_sta
+CheckBox
 
 1
 8
@@ -3318,7 +3318,7 @@ State
 TabOrder
 3
 12
-ibi_sta_amount_tax_fed
+CheckBox
 
 1
 8
@@ -3346,7 +3346,7 @@ State
 TabOrder
 3
 9
-ibi_sta_amount_tax_sta
+CheckBox
 
 1
 8
@@ -3374,7 +3374,7 @@ State
 TabOrder
 3
 10
-ibi_sta_percent
+Numeric
 
 1
 16
@@ -3432,7 +3432,7 @@ BackColour
 TabOrder
 3
 33
-ibi_sta_percent_deprbas_fed
+CheckBox
 
 1
 8
@@ -3460,7 +3460,7 @@ State
 TabOrder
 3
 37
-ibi_sta_percent_deprbas_sta
+CheckBox
 
 1
 8
@@ -3488,7 +3488,7 @@ State
 TabOrder
 3
 38
-ibi_sta_percent_maxvalue
+Numeric
 
 1
 16
@@ -3546,7 +3546,7 @@ BackColour
 TabOrder
 3
 34
-ibi_sta_percent_tax_fed
+CheckBox
 
 1
 8
@@ -3574,7 +3574,7 @@ State
 TabOrder
 3
 35
-ibi_sta_percent_tax_sta
+CheckBox
 
 1
 8
@@ -3602,7 +3602,7 @@ State
 TabOrder
 3
 36
-ibi_uti_amount
+Numeric
 
 1
 16
@@ -3660,7 +3660,7 @@ BackColour
 TabOrder
 3
 14
-ibi_uti_amount_deprbas_fed
+CheckBox
 
 1
 8
@@ -3688,7 +3688,7 @@ State
 TabOrder
 3
 17
-ibi_uti_amount_deprbas_sta
+CheckBox
 
 1
 8
@@ -3716,7 +3716,7 @@ State
 TabOrder
 3
 18
-ibi_uti_amount_tax_fed
+CheckBox
 
 1
 8
@@ -3744,7 +3744,7 @@ State
 TabOrder
 3
 15
-ibi_uti_amount_tax_sta
+CheckBox
 
 1
 8
@@ -3772,7 +3772,7 @@ State
 TabOrder
 3
 16
-ibi_uti_percent
+Numeric
 
 1
 16
@@ -3830,7 +3830,7 @@ BackColour
 TabOrder
 3
 40
-ibi_uti_percent_deprbas_fed
+CheckBox
 
 1
 8
@@ -3858,7 +3858,7 @@ State
 TabOrder
 3
 44
-ibi_uti_percent_deprbas_sta
+CheckBox
 
 1
 8
@@ -3886,7 +3886,7 @@ State
 TabOrder
 3
 45
-ibi_uti_percent_maxvalue
+Numeric
 
 1
 16
@@ -3944,7 +3944,7 @@ BackColour
 TabOrder
 3
 41
-ibi_uti_percent_tax_fed
+CheckBox
 
 1
 8
@@ -3972,7 +3972,7 @@ State
 TabOrder
 3
 42
-ibi_uti_percent_tax_sta
+CheckBox
 
 1
 8
@@ -4000,7 +4000,7 @@ State
 TabOrder
 3
 43
-lblCBIRedDepr
+Label
 
 1
 12
@@ -4043,7 +4043,7 @@ AlignRight
 AlignTop
 2
 0
-lblCBIRedDeprFed
+Label
 
 1
 12
@@ -4086,7 +4086,7 @@ AlignRight
 AlignTop
 2
 0
-lblCBIRedDeprState
+Label
 
 1
 12
@@ -4129,7 +4129,7 @@ AlignRight
 AlignTop
 2
 0
-lblIBIRedDepr
+Label
 
 1
 12
@@ -4172,7 +4172,7 @@ AlignRight
 AlignTop
 2
 0
-lblIBIRedDeprFed
+Label
 
 1
 12
@@ -4215,7 +4215,7 @@ AlignRight
 AlignTop
 2
 0
-lblIBIRedDeprState
+Label
 
 1
 12
@@ -4258,7 +4258,7 @@ AlignRight
 AlignTop
 2
 0
-lblPBIAvailDebt
+Label
 
 1
 12
@@ -4301,7 +4301,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -4344,7 +4344,7 @@ AlignRight
 AlignTop
 2
 0
-pbi_fed_amount
+SchedNumeric
 
 1
 11
@@ -4381,7 +4381,7 @@ Type a Federal PBI amount ($/kWh) for each year. Use nominal dollars. SAM does n
 TabOrder
 3
 82
-pbi_fed_escal
+Numeric
 
 1
 16
@@ -4439,7 +4439,7 @@ BackColour
 TabOrder
 3
 84
-pbi_fed_for_ds
+CheckBox
 
 1
 8
@@ -4467,7 +4467,7 @@ State
 TabOrder
 3
 6
-pbi_fed_tax_fed
+CheckBox
 
 1
 8
@@ -4495,7 +4495,7 @@ State
 TabOrder
 3
 85
-pbi_fed_tax_sta
+CheckBox
 
 1
 8
@@ -4523,7 +4523,7 @@ State
 TabOrder
 3
 86
-pbi_fed_term
+Numeric
 
 1
 16
@@ -4581,7 +4581,7 @@ BackColour
 TabOrder
 3
 83
-pbi_oth_amount
+SchedNumeric
 
 1
 11
@@ -4618,7 +4618,7 @@ Type an Other PBI amount ($/kWh) for each year. Use nominal dollars. SAM does no
 TabOrder
 3
 106
-pbi_oth_escal
+Numeric
 
 1
 16
@@ -4676,7 +4676,7 @@ BackColour
 TabOrder
 3
 108
-pbi_oth_for_ds
+CheckBox
 
 1
 8
@@ -4704,7 +4704,7 @@ State
 TabOrder
 3
 9
-pbi_oth_tax_fed
+CheckBox
 
 1
 8
@@ -4732,7 +4732,7 @@ State
 TabOrder
 3
 109
-pbi_oth_tax_sta
+CheckBox
 
 1
 8
@@ -4760,7 +4760,7 @@ State
 TabOrder
 3
 110
-pbi_oth_term
+Numeric
 
 1
 16
@@ -4818,7 +4818,7 @@ BackColour
 TabOrder
 3
 107
-pbi_sta_amount
+SchedNumeric
 
 1
 11
@@ -4855,7 +4855,7 @@ Type a State PBI amount ($/kWh) for each year. Use nominal dollars. SAM does not
 TabOrder
 3
 90
-pbi_sta_escal
+Numeric
 
 1
 16
@@ -4913,7 +4913,7 @@ BackColour
 TabOrder
 3
 92
-pbi_sta_for_ds
+CheckBox
 
 1
 8
@@ -4941,7 +4941,7 @@ State
 TabOrder
 3
 7
-pbi_sta_tax_fed
+CheckBox
 
 1
 8
@@ -4969,7 +4969,7 @@ State
 TabOrder
 3
 93
-pbi_sta_tax_sta
+CheckBox
 
 1
 8
@@ -4997,7 +4997,7 @@ State
 TabOrder
 3
 94
-pbi_sta_term
+Numeric
 
 1
 16
@@ -5055,7 +5055,7 @@ BackColour
 TabOrder
 3
 91
-pbi_uti_amount
+SchedNumeric
 
 1
 11
@@ -5092,7 +5092,7 @@ Type a Utility PBI amount ($/kWh) for each year. Use nominal dollars. SAM does n
 TabOrder
 3
 98
-pbi_uti_escal
+Numeric
 
 1
 16
@@ -5150,7 +5150,7 @@ BackColour
 TabOrder
 3
 100
-pbi_uti_for_ds
+CheckBox
 
 1
 8
@@ -5178,7 +5178,7 @@ State
 TabOrder
 3
 8
-pbi_uti_tax_fed
+CheckBox
 
 1
 8
@@ -5206,7 +5206,7 @@ State
 TabOrder
 3
 101
-pbi_uti_tax_sta
+CheckBox
 
 1
 8
@@ -5234,7 +5234,7 @@ State
 TabOrder
 3
 102
-pbi_uti_term
+Numeric
 
 1
 16

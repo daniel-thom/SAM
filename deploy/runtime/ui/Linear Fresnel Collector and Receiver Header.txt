@@ -2,7 +2,7 @@ Linear Fresnel Collector and Receiver Header
 770
 49
 1
-object 7
+Label
 
 1
 12

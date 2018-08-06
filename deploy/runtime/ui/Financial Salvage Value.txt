@@ -2,7 +2,7 @@ Financial Salvage Value
 862
 59
 3
-GroupBox3
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Salvage Value
 Bold
 2
 1
-salvage_percentage
+Numeric
 
 1
 16
@@ -85,7 +85,7 @@ BackColour
 TabOrder
 3
 11
-salvage_value
+Numeric
 
 1
 16

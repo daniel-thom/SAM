@@ -2,7 +2,7 @@ Phys Trough Solar Field
 864
 1344
 61
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Solar Field Parameters
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Heat Transfer Fluid
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Solar Field Design Point
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Single Loop Configuration
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -127,7 +127,7 @@ Mirror Washing
 Bold
 2
 1
-GroupBox51
+GroupBox
 
 1
 7
@@ -152,7 +152,7 @@ Collector Orientation
 Bold
 2
 1
-GroupBox511
+GroupBox
 
 1
 7
@@ -177,7 +177,7 @@ Land Area
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -202,7 +202,7 @@ Plant Heat Capacity
 Bold
 2
 1
-HDR_rough
+Numeric
 
 1
 16
@@ -260,7 +260,7 @@ BackColour
 TabOrder
 3
 8
-L_heat_sink_piping
+Numeric
 
 1
 16
@@ -318,7 +318,7 @@ BackColour
 TabOrder
 3
 4294967295
-Label1
+Label
 
 1
 12
@@ -361,7 +361,7 @@ AlignRight
 AlignTop
 2
 1
-Label2
+Label
 
 1
 12
@@ -404,7 +404,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -447,7 +447,7 @@ AlignRight
 AlignTop
 2
 0
-Label31
+Label
 
 1
 12
@@ -490,7 +490,7 @@ AlignRight
 AlignTop
 2
 0
-Pipe_hl_coef
+Numeric
 
 1
 16
@@ -548,7 +548,7 @@ BackColour
 TabOrder
 3
 4294967295
-Row_Distance
+Numeric
 
 1
 16
@@ -606,7 +606,7 @@ BackColour
 TabOrder
 3
 4
-SCA_drives_elec
+Numeric
 
 1
 16
@@ -664,7 +664,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_I_bn_des
+Numeric
 
 1
 16
@@ -722,7 +722,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_T_loop_in_des
+Numeric
 
 1
 16
@@ -780,7 +780,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_T_loop_out_des
+Numeric
 
 1
 16
@@ -838,7 +838,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_specified_q_dot_rec_des
+Numeric
 
 1
 16
@@ -896,7 +896,7 @@ BackColour
 TabOrder
 3
 4294967295
-SF_COPY_specified_solar_multiple
+Numeric
 
 1
 16
@@ -954,7 +954,7 @@ BackColour
 TabOrder
 3
 4294967295
-T_fp
+Numeric
 
 1
 16
@@ -1012,7 +1012,7 @@ BackColour
 TabOrder
 3
 10
-V_hdr_max
+Numeric
 
 1
 16
@@ -1070,7 +1070,7 @@ BackColour
 TabOrder
 3
 23
-V_hdr_min
+Numeric
 
 1
 16
@@ -1128,7 +1128,7 @@ BackColour
 TabOrder
 3
 22
-azimuth
+Numeric
 
 1
 16
@@ -1186,7 +1186,7 @@ BackColour
 TabOrder
 3
 35
-combo_FieldConfig
+Choice
 
 1
 8
@@ -1220,7 +1220,7 @@ Selection
 TabOrder
 3
 7
-combo_htf_type
+Choice
 
 1
 8
@@ -1258,7 +1258,7 @@ Selection
 TabOrder
 3
 14
-eta_pump
+Numeric
 
 1
 16
@@ -1316,7 +1316,7 @@ BackColour
 TabOrder
 3
 9
-field_fl_props
+MaterialProperties
 
 1
 6
@@ -1338,7 +1338,7 @@ Height
 TabOrder
 3
 15
-field_htf_max_operating_temp
+Numeric
 
 1
 16
@@ -1396,7 +1396,7 @@ BackColour
 TabOrder
 3
 16
-field_htf_min_operating_temp
+Numeric
 
 1
 16
@@ -1454,7 +1454,7 @@ BackColour
 TabOrder
 3
 16
-field_thermal_output
+Numeric
 
 1
 16
@@ -1512,7 +1512,7 @@ BackColour
 TabOrder
 3
 33
-fixed_land_area
+Numeric
 
 1
 16
@@ -1570,7 +1570,7 @@ BackColour
 TabOrder
 3
 44
-is_model_heat_sink_piping
+CheckBox
 
 1
 8
@@ -1598,7 +1598,7 @@ State
 TabOrder
 3
 4294967295
-loop_optical_efficiency
+Numeric
 
 1
 16
@@ -1656,7 +1656,7 @@ BackColour
 TabOrder
 3
 26
-m_dot_htfmax
+Numeric
 
 1
 16
@@ -1714,7 +1714,7 @@ BackColour
 TabOrder
 3
 19
-m_dot_htfmin
+Numeric
 
 1
 16
@@ -1772,7 +1772,7 @@ BackColour
 TabOrder
 3
 18
-max_field_flow_velocity
+Numeric
 
 1
 16
@@ -1830,7 +1830,7 @@ BackColour
 TabOrder
 3
 21
-mc_bal_cold
+Numeric
 
 1
 16
@@ -1888,7 +1888,7 @@ BackColour
 TabOrder
 3
 42
-mc_bal_hot
+Numeric
 
 1
 16
@@ -1946,7 +1946,7 @@ BackColour
 TabOrder
 3
 41
-mc_bal_sca
+Numeric
 
 1
 16
@@ -2004,7 +2004,7 @@ BackColour
 TabOrder
 3
 43
-min_field_flow_velocity
+Numeric
 
 1
 16
@@ -2062,7 +2062,7 @@ BackColour
 TabOrder
 3
 20
-nLoops
+Numeric
 
 1
 16
@@ -2120,7 +2120,7 @@ BackColour
 TabOrder
 3
 30
-non_solar_field_land_area_multiplier
+Numeric
 
 1
 16
@@ -2178,7 +2178,7 @@ BackColour
 TabOrder
 3
 45
-required_number_of_loops_for_SM1
+Numeric
 
 1
 16
@@ -2236,7 +2236,7 @@ BackColour
 TabOrder
 3
 29
-sf_sys_des_pars
+GroupBox
 
 1
 7
@@ -2261,7 +2261,7 @@ System Design Parameters
 Bold
 2
 1
-single_loop_aperature
+Numeric
 
 1
 16
@@ -2319,7 +2319,7 @@ BackColour
 TabOrder
 3
 25
-solar_mult
+Numeric
 
 1
 16
@@ -2377,7 +2377,7 @@ BackColour
 TabOrder
 3
 32
-theta_dep
+Numeric
 
 1
 16
@@ -2435,7 +2435,7 @@ BackColour
 TabOrder
 3
 6
-theta_stow
+Numeric
 
 1
 16
@@ -2493,7 +2493,7 @@ BackColour
 TabOrder
 3
 5
-tilt
+Numeric
 
 1
 16
@@ -2551,7 +2551,7 @@ BackColour
 TabOrder
 3
 34
-total_aperture
+Numeric
 
 1
 16
@@ -2609,7 +2609,7 @@ BackColour
 TabOrder
 3
 31
-total_land_area
+Numeric
 
 1
 16
@@ -2667,7 +2667,7 @@ BackColour
 TabOrder
 3
 46
-total_loop_conversion_efficiency
+Numeric
 
 1
 16
@@ -2725,7 +2725,7 @@ BackColour
 TabOrder
 3
 27
-total_required_aperture_for_SM1
+Numeric
 
 1
 16
@@ -2783,7 +2783,7 @@ BackColour
 TabOrder
 3
 28
-total_tracking_power
+Numeric
 
 1
 16
@@ -2841,7 +2841,7 @@ BackColour
 TabOrder
 3
 4294967295
-trough_loop_control
+TroughLoop
 
 1
 5
@@ -2860,7 +2860,7 @@ Width
 Height
 3
 403
-washing_frequency
+Numeric
 
 1
 16
@@ -2918,7 +2918,7 @@ BackColour
 TabOrder
 3
 40
-water_usage_per_wash
+Numeric
 
 1
 16
@@ -2976,7 +2976,7 @@ BackColour
 TabOrder
 3
 39
-wind_stow_speed
+Numeric
 
 1
 16

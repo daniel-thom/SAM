@@ -2,7 +2,7 @@ Empirical Trough Thermal Storage
 911
 213
 15
-E_tes_ini
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 6
-GroupBox1
+GroupBox
 
 1
 7
@@ -85,7 +85,7 @@ Thermal Energy Storage (TES)
 Bold
 2
 1
-PFSmax
+Numeric
 
 1
 16
@@ -143,7 +143,7 @@ BackColour
 TabOrder
 3
 12
-PTSmax
+Numeric
 
 1
 16
@@ -201,7 +201,7 @@ BackColour
 TabOrder
 3
 11
-TSHOURS
+Numeric
 
 1
 16
@@ -259,7 +259,7 @@ BackColour
 TabOrder
 3
 1
-TnkHL
+Numeric
 
 1
 16
@@ -317,7 +317,7 @@ BackColour
 TabOrder
 3
 7
-TurTesEffAdj
+Numeric
 
 1
 16
@@ -375,7 +375,7 @@ BackColour
 TabOrder
 3
 9
-TurTesOutAdj
+Numeric
 
 1
 16
@@ -433,7 +433,7 @@ BackColour
 TabOrder
 3
 10
-calc_heat_ex_duty
+Numeric
 
 1
 16
@@ -491,7 +491,7 @@ BackColour
 TabOrder
 3
 8
-calc_htf_max_opt_temp
+Numeric
 
 1
 16
@@ -549,7 +549,7 @@ BackColour
 TabOrder
 3
 16
-calc_htf_min_opt_temp
+Numeric
 
 1
 16
@@ -607,7 +607,7 @@ BackColour
 TabOrder
 3
 16
-calc_max_energy
+Numeric
 
 1
 16
@@ -665,7 +665,7 @@ BackColour
 TabOrder
 3
 4
-ui_tes_htf_type
+Choice
 
 1
 8
@@ -703,7 +703,7 @@ Selection
 TabOrder
 3
 3
-ui_tes_q_design
+Numeric
 
 1
 16
@@ -761,7 +761,7 @@ BackColour
 TabOrder
 3
 5
-ui_tes_system_configuration
+Choice
 
 1
 8

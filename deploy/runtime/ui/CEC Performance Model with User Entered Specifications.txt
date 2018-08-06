@@ -2,7 +2,7 @@ CEC Performance Model with User Entered Specifications
 1288
 708
 37
-6par_aisc_display
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 10
-6par_aisc_units
+Choice
 
 1
 8
@@ -90,7 +90,7 @@ Selection
 TabOrder
 3
 0
-6par_area
+Numeric
 
 1
 16
@@ -148,7 +148,7 @@ BackColour
 TabOrder
 3
 3
-6par_bifacial_ground_clearance_height
+Numeric
 
 1
 16
@@ -206,7 +206,7 @@ BackColour
 TabOrder
 3
 4294967295
-6par_bifacial_transmission_factor
+Numeric
 
 1
 16
@@ -264,7 +264,7 @@ BackColour
 TabOrder
 3
 4294967295
-6par_bifaciality
+Numeric
 
 1
 16
@@ -322,7 +322,7 @@ BackColour
 TabOrder
 3
 4294967295
-6par_bvoc_display
+Numeric
 
 1
 16
@@ -380,7 +380,7 @@ BackColour
 TabOrder
 3
 9
-6par_bvoc_units
+Choice
 
 1
 8
@@ -410,7 +410,7 @@ Selection
 TabOrder
 3
 0
-6par_celltech
+Choice
 
 1
 8
@@ -444,7 +444,7 @@ Selection
 TabOrder
 3
 2
-6par_data_filename
+TextEntry
 
 1
 10
@@ -484,7 +484,7 @@ BackColour
 TabOrder
 3
 4294967295
-6par_gpmp
+Numeric
 
 1
 16
@@ -542,7 +542,7 @@ BackColour
 TabOrder
 3
 11
-6par_imp
+Numeric
 
 1
 16
@@ -600,7 +600,7 @@ BackColour
 TabOrder
 3
 6
-6par_is_bifacial
+CheckBox
 
 1
 8
@@ -628,7 +628,7 @@ State
 TabOrder
 3
 4294967295
-6par_isc
+Numeric
 
 1
 16
@@ -686,7 +686,7 @@ BackColour
 TabOrder
 3
 8
-6par_module_name
+TextEntry
 
 1
 10
@@ -726,7 +726,7 @@ BackColour
 TabOrder
 3
 1
-6par_mounting
+Choice
 
 1
 8
@@ -754,7 +754,7 @@ Selection
 TabOrder
 3
 14
-6par_mpeff
+Numeric
 
 1
 16
@@ -812,7 +812,7 @@ BackColour
 TabOrder
 3
 16
-6par_nser
+Numeric
 
 1
 16
@@ -870,7 +870,7 @@ BackColour
 TabOrder
 3
 12
-6par_pmp
+Numeric
 
 1
 16
@@ -928,7 +928,7 @@ BackColour
 TabOrder
 3
 15
-6par_standoff
+Choice
 
 1
 8
@@ -956,7 +956,7 @@ Selection
 TabOrder
 3
 13
-6par_tnoct
+Numeric
 
 1
 16
@@ -1014,7 +1014,7 @@ BackColour
 TabOrder
 3
 4
-6par_vmp
+Numeric
 
 1
 16
@@ -1072,7 +1072,7 @@ BackColour
 TabOrder
 3
 5
-6par_voc
+Numeric
 
 1
 16
@@ -1130,7 +1130,7 @@ BackColour
 TabOrder
 3
 7
-GroupBox1
+GroupBox
 
 1
 7
@@ -1155,7 +1155,7 @@ General Information
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -1180,7 +1180,7 @@ Electrical Specifications
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -1205,7 +1205,7 @@ Electrical Specifications
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -1230,7 +1230,7 @@ Mounting Configuration
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -1255,7 +1255,7 @@ Nominal Maximum Power Point Ratings at STC
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -1280,7 +1280,7 @@ Current-Voltage (I-V) Curve at STC
 Bold
 2
 1
-btnCalcIVCurve
+Button
 
 1
 7
@@ -1305,7 +1305,7 @@ Calculate and plot
 TabOrder
 3
 17
-btnLoad6parData
+Button
 
 1
 7
@@ -1330,7 +1330,7 @@ Load data from file...
 TabOrder
 3
 4294967295
-btnSave6parData
+Button
 
 1
 7
@@ -1355,7 +1355,7 @@ Save data to file...
 TabOrder
 3
 4294967295
-dividerBifacial
+Divider
 
 1
 9
@@ -1389,7 +1389,7 @@ Bifacial Specifications
 Bold
 2
 1
-group
+GroupBox
 
 1
 7
@@ -1414,7 +1414,7 @@ References
 Bold
 2
 1
-ivplot
+Plot
 
 1
 5
@@ -1433,7 +1433,7 @@ Width
 Height
 3
 351
-object 14
+Hyperlink
 
 1
 8
@@ -1461,7 +1461,7 @@ https://sam.nrel.gov/performance
 TabOrder
 3
 4294967295
-object 7
+Label
 
 1
 12

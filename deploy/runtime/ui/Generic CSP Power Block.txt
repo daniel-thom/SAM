@@ -2,7 +2,7 @@ Generic CSP Power Block
 649
 785
 63
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Capacity
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -102,7 +102,7 @@ Parasitics
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -145,7 +145,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -188,7 +188,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -231,7 +231,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -274,7 +274,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -317,7 +317,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -360,7 +360,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -403,7 +403,7 @@ AlignRight
 AlignTop
 2
 0
-Label211
+Label
 
 1
 12
@@ -446,7 +446,7 @@ AlignRight
 AlignTop
 2
 0
-Label2111
+Label
 
 1
 12
@@ -489,7 +489,7 @@ AlignRight
 AlignTop
 2
 0
-Label21111
+Label
 
 1
 12
@@ -532,7 +532,7 @@ AlignRight
 AlignTop
 2
 0
-Label211111
+Label
 
 1
 12
@@ -575,7 +575,7 @@ AlignRight
 AlignTop
 2
 0
-Label21112
+Label
 
 1
 12
@@ -618,7 +618,7 @@ AlignRight
 AlignTop
 2
 0
-Label2112
+Label
 
 1
 12
@@ -661,7 +661,7 @@ AlignRight
 AlignTop
 2
 0
-Label212
+Label
 
 1
 12
@@ -704,7 +704,7 @@ AlignRight
 AlignTop
 2
 0
-Label22
+Label
 
 1
 12
@@ -747,7 +747,7 @@ AlignRight
 AlignTop
 2
 0
-T_pcdes
+Numeric
 
 1
 16
@@ -805,7 +805,7 @@ BackColour
 TabOrder
 3
 8
-W_dot_par_fixed
+Numeric
 
 1
 16
@@ -863,7 +863,7 @@ BackColour
 TabOrder
 3
 4294967295
-W_dot_part_load_des
+Numeric
 
 1
 16
@@ -921,7 +921,7 @@ BackColour
 TabOrder
 3
 4294967295
-adjust
+LossAdjustment
 
 1
 6
@@ -943,7 +943,7 @@ Height
 TabOrder
 3
 24
-csp.gss.pwrb.design_parasitic_load
+Numeric
 
 1
 16
@@ -1001,7 +1001,7 @@ BackColour
 TabOrder
 3
 0
-csp.gss.pwrb.gross_net_conversion_factor
+Numeric
 
 1
 16
@@ -1059,7 +1059,7 @@ BackColour
 TabOrder
 3
 2
-csp.gss.pwrb.nameplate
+Numeric
 
 1
 16
@@ -1117,7 +1117,7 @@ BackColour
 TabOrder
 3
 0
-csp.gss.pwrb.pl_eff_f0
+Numeric
 
 1
 16
@@ -1175,7 +1175,7 @@ BackColour
 TabOrder
 3
 9
-csp.gss.pwrb.pl_eff_f1
+Numeric
 
 1
 16
@@ -1233,7 +1233,7 @@ BackColour
 TabOrder
 3
 10
-csp.gss.pwrb.pl_eff_f2
+Numeric
 
 1
 16
@@ -1291,7 +1291,7 @@ BackColour
 TabOrder
 3
 11
-csp.gss.pwrb.pl_eff_f3
+Numeric
 
 1
 16
@@ -1349,7 +1349,7 @@ BackColour
 TabOrder
 3
 12
-csp.gss.pwrb.pl_eff_f4
+Numeric
 
 1
 16
@@ -1407,7 +1407,7 @@ BackColour
 TabOrder
 3
 13
-csp.gss.pwrb.pl_par_design
+Numeric
 
 1
 16
@@ -1465,7 +1465,7 @@ BackColour
 TabOrder
 3
 26
-csp.gss.pwrb.pl_par_f0
+Numeric
 
 1
 16
@@ -1523,7 +1523,7 @@ BackColour
 TabOrder
 3
 22
-csp.gss.pwrb.pl_par_f1
+Numeric
 
 1
 16
@@ -1581,7 +1581,7 @@ BackColour
 TabOrder
 3
 23
-csp.gss.pwrb.pl_par_f2
+Numeric
 
 1
 16
@@ -1639,7 +1639,7 @@ BackColour
 TabOrder
 3
 24
-csp.gss.pwrb.pl_par_f3
+Numeric
 
 1
 16
@@ -1697,7 +1697,7 @@ BackColour
 TabOrder
 3
 25
-csp.gss.pwrb.temp_corr_mode
+Choice
 
 1
 8
@@ -1727,7 +1727,7 @@ Selection
 TabOrder
 3
 19
-csp.gss.pwrb.temp_eff_f0
+Numeric
 
 1
 16
@@ -1785,7 +1785,7 @@ BackColour
 TabOrder
 3
 14
-csp.gss.pwrb.temp_eff_f1
+Numeric
 
 1
 16
@@ -1843,7 +1843,7 @@ BackColour
 TabOrder
 3
 15
-csp.gss.pwrb.temp_eff_f2
+Numeric
 
 1
 16
@@ -1901,7 +1901,7 @@ BackColour
 TabOrder
 3
 16
-csp.gss.pwrb.temp_eff_f3
+Numeric
 
 1
 16
@@ -1959,7 +1959,7 @@ BackColour
 TabOrder
 3
 17
-csp.gss.pwrb.temp_eff_f4
+Numeric
 
 1
 16
@@ -2017,7 +2017,7 @@ BackColour
 TabOrder
 3
 18
-csp.gss.pwrb.temp_par_design
+Numeric
 
 1
 16
@@ -2075,7 +2075,7 @@ BackColour
 TabOrder
 3
 31
-csp.gss.pwrb.temp_par_f0
+Numeric
 
 1
 16
@@ -2133,7 +2133,7 @@ BackColour
 TabOrder
 3
 27
-csp.gss.pwrb.temp_par_f1
+Numeric
 
 1
 16
@@ -2191,7 +2191,7 @@ BackColour
 TabOrder
 3
 28
-csp.gss.pwrb.temp_par_f2
+Numeric
 
 1
 16
@@ -2249,7 +2249,7 @@ BackColour
 TabOrder
 3
 29
-csp.gss.pwrb.temp_par_f3
+Numeric
 
 1
 16
@@ -2307,7 +2307,7 @@ BackColour
 TabOrder
 3
 30
-dni_par_design
+Numeric
 
 1
 16
@@ -2365,7 +2365,7 @@ BackColour
 TabOrder
 3
 4294967295
-dni_par_f0
+Numeric
 
 1
 16
@@ -2423,7 +2423,7 @@ BackColour
 TabOrder
 3
 4294967295
-dni_par_f1
+Numeric
 
 1
 16
@@ -2481,7 +2481,7 @@ BackColour
 TabOrder
 3
 4294967295
-dni_par_f2
+Numeric
 
 1
 16
@@ -2539,7 +2539,7 @@ BackColour
 TabOrder
 3
 4294967295
-dni_par_f3
+Numeric
 
 1
 16
@@ -2597,7 +2597,7 @@ BackColour
 TabOrder
 3
 4294967295
-eta_des
+Numeric
 
 1
 16
@@ -2655,7 +2655,7 @@ BackColour
 TabOrder
 3
 3
-eta_lhv
+Numeric
 
 1
 16
@@ -2713,7 +2713,7 @@ BackColour
 TabOrder
 3
 7
-f_Wpar_fixed
+Numeric
 
 1
 16
@@ -2771,7 +2771,7 @@ BackColour
 TabOrder
 3
 20
-f_Wpar_prod
+Numeric
 
 1
 16
@@ -2829,7 +2829,7 @@ BackColour
 TabOrder
 3
 21
-f_par_tot_des
+Numeric
 
 1
 16
@@ -2887,7 +2887,7 @@ BackColour
 TabOrder
 3
 4294967295
-f_startup
+Numeric
 
 1
 16
@@ -2945,7 +2945,7 @@ BackColour
 TabOrder
 3
 6
-f_wmax
+Numeric
 
 1
 16
@@ -3003,7 +3003,7 @@ BackColour
 TabOrder
 3
 4
-f_wmin
+Numeric
 
 1
 16
@@ -3061,7 +3061,7 @@ BackColour
 TabOrder
 3
 5
-object 21
+Divider
 
 1
 9
@@ -3095,7 +3095,7 @@ Caption
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -3138,7 +3138,7 @@ AlignRight
 AlignTop
 2
 1
-w_des
+Numeric
 
 1
 16

@@ -2,7 +2,7 @@ IEC61853 Single Diode Model
 1031
 902
 48
-btn_calc_iec65153_par
+Button
 
 1
 7
@@ -27,7 +27,7 @@ Calculate parameters
 TabOrder
 3
 4294967295
-btn_update_plot
+Button
 
 1
 7
@@ -52,7 +52,7 @@ Update plot
 TabOrder
 3
 4294967295
-iec61853_plot
+Plot
 
 1
 5
@@ -71,7 +71,7 @@ Width
 Height
 3
 387
-iec61853_test_data
+DataMatrix
 
 1
 22
@@ -141,7 +141,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-object 14
+Hyperlink
 
 1
 8
@@ -169,7 +169,7 @@ https://sam.nrel.gov/performance
 TabOrder
 3
 4294967295
-object 22
+Divider
 
 1
 9
@@ -203,7 +203,7 @@ Additional information for parameter estimation
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -228,7 +228,7 @@ References
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -253,7 +253,7 @@ References
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -278,7 +278,7 @@ References
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -303,7 +303,7 @@ References
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -328,7 +328,7 @@ References
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -353,7 +353,7 @@ References
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -396,7 +396,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -439,7 +439,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -482,7 +482,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -525,7 +525,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -568,7 +568,7 @@ AlignRight
 AlignTop
 2
 1
-sd11par_AMa0
+Numeric
 
 1
 16
@@ -626,7 +626,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_AMa1
+Numeric
 
 1
 16
@@ -684,7 +684,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_AMa2
+Numeric
 
 1
 16
@@ -742,7 +742,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_AMa3
+Numeric
 
 1
 16
@@ -800,7 +800,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_AMa4
+Numeric
 
 1
 16
@@ -858,7 +858,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Egref
+Numeric
 
 1
 16
@@ -916,7 +916,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Il
+Numeric
 
 1
 16
@@ -974,7 +974,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Imp0
+Numeric
 
 1
 16
@@ -1032,7 +1032,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Io
+Numeric
 
 1
 16
@@ -1090,7 +1090,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Isc0
+Numeric
 
 1
 16
@@ -1148,7 +1148,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Pmp0
+Numeric
 
 1
 16
@@ -1206,7 +1206,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Vmp0
+Numeric
 
 1
 16
@@ -1264,7 +1264,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_Voc0
+Numeric
 
 1
 16
@@ -1322,7 +1322,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_alphaIsc
+Numeric
 
 1
 16
@@ -1380,7 +1380,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_area
+Numeric
 
 1
 16
@@ -1438,7 +1438,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_betaVoc
+Numeric
 
 1
 16
@@ -1496,7 +1496,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_c1
+Numeric
 
 1
 16
@@ -1554,7 +1554,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_c2
+Numeric
 
 1
 16
@@ -1612,7 +1612,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_c3
+Numeric
 
 1
 16
@@ -1670,7 +1670,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_d1
+Numeric
 
 1
 16
@@ -1728,7 +1728,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_d2
+Numeric
 
 1
 16
@@ -1786,7 +1786,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_d3
+Numeric
 
 1
 16
@@ -1844,7 +1844,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_eff
+Numeric
 
 1
 16
@@ -1902,7 +1902,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_gammaPmp
+Numeric
 
 1
 16
@@ -1960,7 +1960,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_glass
+Choice
 
 1
 8
@@ -1988,7 +1988,7 @@ Selection
 TabOrder
 3
 4294967295
-sd11par_mounting
+Choice
 
 1
 8
@@ -2016,7 +2016,7 @@ Selection
 TabOrder
 3
 4294967295
-sd11par_n
+Numeric
 
 1
 16
@@ -2074,7 +2074,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_nser
+Numeric
 
 1
 16
@@ -2132,7 +2132,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_standoff
+Choice
 
 1
 8
@@ -2160,7 +2160,7 @@ Selection
 TabOrder
 3
 4294967295
-sd11par_tnoct
+Numeric
 
 1
 16
@@ -2218,7 +2218,7 @@ BackColour
 TabOrder
 3
 4294967295
-sd11par_type
+Choice
 
 1
 8

@@ -2,7 +2,7 @@ Wind BOS
 1044
 996
 84
-access_road_entrances
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 4294967295
-access_road_entrances_choice
+Choice
 
 1
 8
@@ -90,7 +90,7 @@ Selection
 TabOrder
 3
 4294967295
-access_road_entrances_input
+Numeric
 
 1
 16
@@ -148,7 +148,7 @@ BackColour
 TabOrder
 3
 4294967295
-access_road_entrances_sugg
+Numeric
 
 1
 16
@@ -206,7 +206,7 @@ BackColour
 TabOrder
 3
 4294967295
-access_roads_cost
+Numeric
 
 1
 16
@@ -264,7 +264,7 @@ BackColour
 TabOrder
 3
 4294967295
-bos_total_budgeted_cost
+Numeric
 
 1
 16
@@ -322,7 +322,7 @@ BackColour
 TabOrder
 3
 4294967295
-bos_total_cost_per_kw
+Numeric
 
 1
 16
@@ -380,7 +380,7 @@ BackColour
 TabOrder
 3
 4294967295
-btn_bos_apply
+Button
 
 1
 7
@@ -405,7 +405,7 @@ Apply BOS Estimate
 TabOrder
 3
 4294967295
-building_cost
+Numeric
 
 1
 16
@@ -463,7 +463,7 @@ BackColour
 TabOrder
 3
 4294967295
-construction_time
+Numeric
 
 1
 16
@@ -521,7 +521,7 @@ BackColour
 TabOrder
 3
 4294967295
-construction_time_choice
+Choice
 
 1
 8
@@ -551,7 +551,7 @@ Selection
 TabOrder
 3
 4294967295
-construction_time_input
+Numeric
 
 1
 16
@@ -609,7 +609,7 @@ BackColour
 TabOrder
 3
 4294967295
-construction_time_sugg
+Numeric
 
 1
 16
@@ -667,7 +667,7 @@ BackColour
 TabOrder
 3
 4294967295
-contingency
+Numeric
 
 1
 16
@@ -725,7 +725,7 @@ BackColour
 TabOrder
 3
 4294967295
-crane_breakdowns
+Numeric
 
 1
 16
@@ -783,7 +783,7 @@ BackColour
 TabOrder
 3
 4294967295
-crane_breakdowns_choice
+Choice
 
 1
 8
@@ -813,7 +813,7 @@ Selection
 TabOrder
 3
 4294967295
-crane_breakdowns_input
+Numeric
 
 1
 16
@@ -871,7 +871,7 @@ BackColour
 TabOrder
 3
 4294967295
-crane_breakdowns_sugg
+Numeric
 
 1
 16
@@ -929,7 +929,7 @@ BackColour
 TabOrder
 3
 4294967295
-delivery_assist_required
+CheckBox
 
 1
 8
@@ -957,7 +957,7 @@ State
 TabOrder
 3
 4294967295
-development_cost
+Numeric
 
 1
 16
@@ -1015,7 +1015,7 @@ BackColour
 TabOrder
 3
 4294967295
-development_fee_input
+Numeric
 
 1
 16
@@ -1073,7 +1073,7 @@ BackColour
 TabOrder
 3
 4294967295
-distance_to_interconnect
+Numeric
 
 1
 16
@@ -1131,7 +1131,7 @@ BackColour
 TabOrder
 3
 4294967295
-electrical_installation_cost
+Numeric
 
 1
 16
@@ -1189,7 +1189,7 @@ BackColour
 TabOrder
 3
 4294967295
-electrical_materials_cost
+Numeric
 
 1
 16
@@ -1247,7 +1247,7 @@ BackColour
 TabOrder
 3
 4294967295
-engineering_cost
+Numeric
 
 1
 16
@@ -1305,7 +1305,7 @@ BackColour
 TabOrder
 3
 4294967295
-erection_cost
+Numeric
 
 1
 16
@@ -1363,7 +1363,7 @@ BackColour
 TabOrder
 3
 4294967295
-farm_size_MW
+Numeric
 
 1
 16
@@ -1421,7 +1421,7 @@ BackColour
 TabOrder
 3
 4294967295
-foundation_cost
+Numeric
 
 1
 16
@@ -1479,7 +1479,7 @@ BackColour
 TabOrder
 3
 4294967295
-hub_height
+Numeric
 
 1
 16
@@ -1537,7 +1537,7 @@ BackColour
 TabOrder
 3
 4294967295
-insurance_cost
+Numeric
 
 1
 16
@@ -1595,7 +1595,7 @@ BackColour
 TabOrder
 3
 4294967295
-interconnect_voltage
+Numeric
 
 1
 16
@@ -1653,7 +1653,7 @@ BackColour
 TabOrder
 3
 4294967295
-machine_rating
+Numeric
 
 1
 16
@@ -1711,7 +1711,7 @@ BackColour
 TabOrder
 3
 4294967295
-markup_cost
+Numeric
 
 1
 16
@@ -1769,7 +1769,7 @@ BackColour
 TabOrder
 3
 4294967295
-mv_overhead_collector
+Numeric
 
 1
 16
@@ -1827,7 +1827,7 @@ BackColour
 TabOrder
 3
 4294967295
-mv_thermal_backfill
+Numeric
 
 1
 16
@@ -1885,7 +1885,7 @@ BackColour
 TabOrder
 3
 4294967295
-new_switchyard_required
+CheckBox
 
 1
 8
@@ -1913,7 +1913,7 @@ State
 TabOrder
 3
 4294967295
-number_of_turbines
+Numeric
 
 1
 16
@@ -1971,7 +1971,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 22
+Divider
 
 1
 9
@@ -2005,7 +2005,7 @@ Project Specifications (Reference)
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2030,7 +2030,7 @@ Balance of System Detailed Results
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2055,7 +2055,7 @@ Balance of System Detailed Results
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2080,7 +2080,7 @@ Balance of System Detailed Results
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2105,7 +2105,7 @@ Balance of System Detailed Results
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -2130,7 +2130,7 @@ Balance of System Detailed Results
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -2173,7 +2173,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2216,7 +2216,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2259,7 +2259,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2302,7 +2302,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2345,7 +2345,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2388,7 +2388,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -2431,7 +2431,7 @@ AlignRight
 AlignTop
 2
 1
-om_building_size
+Numeric
 
 1
 16
@@ -2489,7 +2489,7 @@ BackColour
 TabOrder
 3
 4294967295
-om_building_size_choice
+Choice
 
 1
 8
@@ -2519,7 +2519,7 @@ Selection
 TabOrder
 3
 4294967295
-om_building_size_input
+Numeric
 
 1
 16
@@ -2577,7 +2577,7 @@ BackColour
 TabOrder
 3
 4294967295
-om_building_size_sugg
+Numeric
 
 1
 16
@@ -2635,7 +2635,7 @@ BackColour
 TabOrder
 3
 4294967295
-overhead
+Numeric
 
 1
 16
@@ -2693,7 +2693,7 @@ BackColour
 TabOrder
 3
 4294967295
-pad_mount_transformer_required
+CheckBox
 
 1
 8
@@ -2721,7 +2721,7 @@ State
 TabOrder
 3
 4294967295
-performance_bond
+CheckBox
 
 1
 8
@@ -2749,7 +2749,7 @@ State
 TabOrder
 3
 4294967295
-power_performance_cost
+Numeric
 
 1
 16
@@ -2807,7 +2807,7 @@ BackColour
 TabOrder
 3
 4294967295
-profit_margin
+Numeric
 
 1
 16
@@ -2865,7 +2865,7 @@ BackColour
 TabOrder
 3
 4294967295
-project_mgmt_cost
+Numeric
 
 1
 16
@@ -2923,7 +2923,7 @@ BackColour
 TabOrder
 3
 4294967295
-quantity_permanent_met_towers
+Numeric
 
 1
 16
@@ -2981,7 +2981,7 @@ BackColour
 TabOrder
 3
 4294967295
-quantity_permanent_met_towers_choice
+Choice
 
 1
 8
@@ -3011,7 +3011,7 @@ Selection
 TabOrder
 3
 4294967295
-quantity_permanent_met_towers_input
+Numeric
 
 1
 16
@@ -3069,7 +3069,7 @@ BackColour
 TabOrder
 3
 4294967295
-quantity_permanent_met_towers_sugg
+Numeric
 
 1
 16
@@ -3127,7 +3127,7 @@ BackColour
 TabOrder
 3
 4294967295
-quantity_test_met_towers
+Numeric
 
 1
 16
@@ -3185,7 +3185,7 @@ BackColour
 TabOrder
 3
 4294967295
-quantity_test_met_towers_choice
+Choice
 
 1
 8
@@ -3215,7 +3215,7 @@ Selection
 TabOrder
 3
 4294967295
-quantity_test_met_towers_input
+Numeric
 
 1
 16
@@ -3273,7 +3273,7 @@ BackColour
 TabOrder
 3
 4294967295
-quantity_test_met_towers_sugg
+Numeric
 
 1
 16
@@ -3331,7 +3331,7 @@ BackColour
 TabOrder
 3
 4294967295
-rock_trenching_required
+Numeric
 
 1
 16
@@ -3389,7 +3389,7 @@ BackColour
 TabOrder
 3
 4294967295
-rotor_diameter
+Numeric
 
 1
 16
@@ -3447,7 +3447,7 @@ BackColour
 TabOrder
 3
 4294967295
-sales_and_use_tax
+Numeric
 
 1
 16
@@ -3505,7 +3505,7 @@ BackColour
 TabOrder
 3
 4294967295
-site_compound_security_cost
+Numeric
 
 1
 16
@@ -3563,7 +3563,7 @@ BackColour
 TabOrder
 3
 4294967295
-site_terrain
+Choice
 
 1
 8
@@ -3594,7 +3594,7 @@ Selection
 TabOrder
 3
 4294967295
-soil_condition
+Choice
 
 1
 8
@@ -3624,7 +3624,7 @@ Selection
 TabOrder
 3
 4294967295
-substation_cost
+Numeric
 
 1
 16
@@ -3682,7 +3682,7 @@ BackColour
 TabOrder
 3
 4294967295
-transmission_cost
+Numeric
 
 1
 16
@@ -3740,7 +3740,7 @@ BackColour
 TabOrder
 3
 4294967295
-transportation_cost
+Numeric
 
 1
 16
@@ -3798,7 +3798,7 @@ BackColour
 TabOrder
 3
 4294967295
-turbine_layout
+Choice
 
 1
 8
@@ -3828,7 +3828,7 @@ Selection
 TabOrder
 3
 4294967295
-turbine_transportation
+Numeric
 
 1
 16
@@ -3886,7 +3886,7 @@ BackColour
 TabOrder
 3
 4294967295
-warranty_management
+Numeric
 
 1
 16
@@ -3944,7 +3944,7 @@ BackColour
 TabOrder
 3
 4294967295
-weather_delay_days
+Numeric
 
 1
 16
@@ -4002,7 +4002,7 @@ BackColour
 TabOrder
 3
 4294967295
-weather_delay_days_choice
+Choice
 
 1
 8
@@ -4032,7 +4032,7 @@ Selection
 TabOrder
 3
 4294967295
-weather_delay_days_input
+Numeric
 
 1
 16
@@ -4090,7 +4090,7 @@ BackColour
 TabOrder
 3
 4294967295
-weather_delay_days_sugg
+Numeric
 
 1
 16

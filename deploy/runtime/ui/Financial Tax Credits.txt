@@ -2,7 +2,7 @@ Financial Tax Credits
 865
 203
 38
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Investment Tax Credit (ITC)
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Production Tax Credit (PTC)
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -95,7 +95,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -138,7 +138,7 @@ AlignRight
 AlignTop
 2
 0
-Label131
+Label
 
 1
 12
@@ -181,7 +181,7 @@ AlignRight
 AlignTop
 2
 0
-Label1311
+Label
 
 1
 12
@@ -224,7 +224,7 @@ AlignRight
 AlignTop
 2
 0
-Label13111
+Label
 
 1
 12
@@ -267,7 +267,7 @@ AlignRight
 AlignTop
 2
 0
-Label132
+Label
 
 1
 12
@@ -310,7 +310,7 @@ AlignRight
 AlignTop
 2
 0
-Label1321
+Label
 
 1
 12
@@ -353,7 +353,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -396,7 +396,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -439,7 +439,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -482,7 +482,7 @@ AlignRight
 AlignTop
 2
 0
-Label6
+Label
 
 1
 12
@@ -525,7 +525,7 @@ AlignRight
 AlignTop
 2
 0
-Label7
+Label
 
 1
 12
@@ -568,7 +568,7 @@ AlignRight
 AlignTop
 2
 0
-itc_fed_amount
+Numeric
 
 1
 16
@@ -626,7 +626,7 @@ BackColour
 TabOrder
 3
 2
-itc_fed_amount_deprbas_fed
+CheckBox
 
 1
 8
@@ -654,7 +654,7 @@ State
 TabOrder
 3
 3
-itc_fed_amount_deprbas_sta
+CheckBox
 
 1
 8
@@ -682,7 +682,7 @@ State
 TabOrder
 3
 4
-itc_fed_percent
+Numeric
 
 1
 16
@@ -740,7 +740,7 @@ BackColour
 TabOrder
 3
 8
-itc_fed_percent_deprbas_fed
+CheckBox
 
 1
 8
@@ -768,7 +768,7 @@ State
 TabOrder
 3
 10
-itc_fed_percent_deprbas_sta
+CheckBox
 
 1
 8
@@ -796,7 +796,7 @@ State
 TabOrder
 3
 11
-itc_fed_percent_maxvalue
+Numeric
 
 1
 16
@@ -854,7 +854,7 @@ BackColour
 TabOrder
 3
 9
-itc_sta_amount
+Numeric
 
 1
 16
@@ -912,7 +912,7 @@ BackColour
 TabOrder
 3
 5
-itc_sta_amount_deprbas_fed
+CheckBox
 
 1
 8
@@ -940,7 +940,7 @@ State
 TabOrder
 3
 6
-itc_sta_amount_deprbas_sta
+CheckBox
 
 1
 8
@@ -968,7 +968,7 @@ State
 TabOrder
 3
 7
-itc_sta_percent
+Numeric
 
 1
 16
@@ -1026,7 +1026,7 @@ BackColour
 TabOrder
 3
 12
-itc_sta_percent_deprbas_fed
+CheckBox
 
 1
 8
@@ -1054,7 +1054,7 @@ State
 TabOrder
 3
 14
-itc_sta_percent_deprbas_sta
+CheckBox
 
 1
 8
@@ -1082,7 +1082,7 @@ State
 TabOrder
 3
 15
-itc_sta_percent_maxvalue
+Numeric
 
 1
 16
@@ -1140,7 +1140,7 @@ BackColour
 TabOrder
 3
 13
-lblFederal
+Label
 
 1
 12
@@ -1183,7 +1183,7 @@ AlignRight
 AlignTop
 2
 0
-lblReducesDeprBasis
+Label
 
 1
 12
@@ -1226,7 +1226,7 @@ AlignRight
 AlignTop
 2
 0
-lblState
+Label
 
 1
 12
@@ -1269,7 +1269,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -1312,7 +1312,7 @@ AlignRight
 AlignTop
 2
 1
-ptc_fed_amount
+SchedNumeric
 
 1
 11
@@ -1349,7 +1349,7 @@ Type a Federal PTC amount ($/kWh) for each year. Use nominal dollars. SAM does n
 TabOrder
 3
 16
-ptc_fed_escal
+Numeric
 
 1
 16
@@ -1407,7 +1407,7 @@ BackColour
 TabOrder
 3
 18
-ptc_fed_term
+Numeric
 
 1
 16
@@ -1465,7 +1465,7 @@ BackColour
 TabOrder
 3
 17
-ptc_sta_amount
+SchedNumeric
 
 1
 11
@@ -1502,7 +1502,7 @@ Type a State PTC amount ($/kWh) for each year. Use nominal dollars. SAM does not
 TabOrder
 3
 19
-ptc_sta_escal
+Numeric
 
 1
 16
@@ -1560,7 +1560,7 @@ BackColour
 TabOrder
 3
 21
-ptc_sta_term
+Numeric
 
 1
 16

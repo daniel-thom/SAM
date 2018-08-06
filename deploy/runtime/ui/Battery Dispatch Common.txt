@@ -2,7 +2,7 @@ Battery Dispatch Common
 1005
 145
 7
-batt_SOC_warning
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 0
-batt_chem_message
+Label
 
 1
 12
@@ -88,7 +88,7 @@ AlignRight
 AlignTop
 2
 1
-batt_initial_SOC
+Numeric
 
 1
 16
@@ -146,7 +146,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_maximum_SOC
+Numeric
 
 1
 16
@@ -204,7 +204,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_minimum_SOC
+Numeric
 
 1
 16
@@ -262,7 +262,7 @@ BackColour
 TabOrder
 3
 4294967295
-batt_minimum_modetime
+Numeric
 
 1
 16
@@ -320,7 +320,7 @@ BackColour
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7

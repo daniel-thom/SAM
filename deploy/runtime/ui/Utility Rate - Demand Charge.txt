@@ -2,7 +2,7 @@ Utility Rate - Demand Charge
 1353
 711
 10
-GroupBox31
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Rates for Demand Charges
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Demand Rates by Time-of-use Period and/or Tiers
 Bold
 2
 1
-GroupBox6
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Demand Rates by Month with Optional Tiers
 Bold
 2
 1
-Label612
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label62
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-ur_dc_enable
+CheckBox
 
 1
 8
@@ -191,7 +191,7 @@ State
 TabOrder
 3
 43
-ur_dc_flat_mat
+DataMatrix
 
 1
 22
@@ -261,7 +261,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-ur_dc_sched_weekday
+DiurnalPeriod
 
 1
 9
@@ -292,7 +292,7 @@ Max
 Min
 3
 1
-ur_dc_sched_weekend
+DiurnalPeriod
 
 1
 9
@@ -323,7 +323,7 @@ Max
 Min
 3
 1
-ur_dc_tou_mat
+DataMatrix
 
 1
 22

@@ -2,7 +2,7 @@ Physical Trough Capital Costs
 795
 589
 66
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Direct Capital Costs
 Bold
 2
 1
-GroupBox21
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox31
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Total Installed Costs
 Bold
 2
 1
-Label11
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label112
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-Label1121
+Label
 
 1
 12
@@ -206,7 +206,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label211
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label31
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-Label51
+Label
 
 1
 12
@@ -378,7 +378,7 @@ AlignRight
 AlignTop
 2
 0
-csp.dtr.cost.bop
+Numeric
 
 1
 16
@@ -436,7 +436,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.bop_mwe
+Numeric
 
 1
 16
@@ -494,7 +494,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.bop_per_kwe
+Numeric
 
 1
 16
@@ -552,7 +552,7 @@ BackColour
 TabOrder
 3
 3
-csp.dtr.cost.contingency
+Numeric
 
 1
 16
@@ -610,7 +610,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.contingency_percent
+Numeric
 
 1
 16
@@ -668,7 +668,7 @@ BackColour
 TabOrder
 3
 7
-csp.dtr.cost.epc.fixed
+Numeric
 
 1
 16
@@ -726,7 +726,7 @@ BackColour
 TabOrder
 3
 10
-csp.dtr.cost.epc.per_acre
+Numeric
 
 1
 16
@@ -784,7 +784,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.epc.per_watt
+Numeric
 
 1
 16
@@ -842,7 +842,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.epc.percent
+Numeric
 
 1
 16
@@ -900,7 +900,7 @@ BackColour
 TabOrder
 3
 8
-csp.dtr.cost.epc.total
+Numeric
 
 1
 16
@@ -958,7 +958,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.fossil_backup
+Numeric
 
 1
 16
@@ -1016,7 +1016,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.fossil_backup.cost_per_kwe
+Numeric
 
 1
 16
@@ -1074,7 +1074,7 @@ BackColour
 TabOrder
 3
 5
-csp.dtr.cost.fossil_backup.mwe
+Numeric
 
 1
 16
@@ -1132,7 +1132,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.htf_system
+Numeric
 
 1
 16
@@ -1190,7 +1190,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.htf_system.area
+Numeric
 
 1
 16
@@ -1248,7 +1248,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.htf_system.cost_per_m2
+Numeric
 
 1
 16
@@ -1306,7 +1306,7 @@ BackColour
 TabOrder
 3
 3
-csp.dtr.cost.installed_per_capacity
+Numeric
 
 1
 16
@@ -1364,7 +1364,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.nameplate
+Numeric
 
 1
 16
@@ -1422,7 +1422,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.plm.fixed
+Numeric
 
 1
 16
@@ -1480,7 +1480,7 @@ BackColour
 TabOrder
 3
 11
-csp.dtr.cost.plm.per_acre
+Numeric
 
 1
 16
@@ -1538,7 +1538,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.plm.per_watt
+Numeric
 
 1
 16
@@ -1596,7 +1596,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.plm.percent
+Numeric
 
 1
 16
@@ -1654,7 +1654,7 @@ BackColour
 TabOrder
 3
 9
-csp.dtr.cost.plm.total
+Numeric
 
 1
 16
@@ -1712,7 +1712,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.power_plant
+Numeric
 
 1
 16
@@ -1770,7 +1770,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.power_plant.cost_per_kwe
+Numeric
 
 1
 16
@@ -1828,7 +1828,7 @@ BackColour
 TabOrder
 3
 6
-csp.dtr.cost.power_plant.mwe
+Numeric
 
 1
 16
@@ -1886,7 +1886,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.sales_tax.percent
+Numeric
 
 1
 16
@@ -1944,7 +1944,7 @@ BackColour
 TabOrder
 3
 12
-csp.dtr.cost.sales_tax.total
+Numeric
 
 1
 16
@@ -2002,7 +2002,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.sales_tax.value
+Numeric
 
 1
 16
@@ -2060,7 +2060,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.site_improvements
+Numeric
 
 1
 16
@@ -2118,7 +2118,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.site_improvements.area
+Numeric
 
 1
 16
@@ -2176,7 +2176,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.site_improvements.cost_per_m2
+Numeric
 
 1
 16
@@ -2234,7 +2234,7 @@ BackColour
 TabOrder
 3
 1
-csp.dtr.cost.solar_field
+Numeric
 
 1
 16
@@ -2292,7 +2292,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.solar_field.area
+Numeric
 
 1
 16
@@ -2350,7 +2350,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.solar_field.cost_per_m2
+Numeric
 
 1
 16
@@ -2408,7 +2408,7 @@ BackColour
 TabOrder
 3
 2
-csp.dtr.cost.storage
+Numeric
 
 1
 16
@@ -2466,7 +2466,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.storage.cost_per_kwht
+Numeric
 
 1
 16
@@ -2524,7 +2524,7 @@ BackColour
 TabOrder
 3
 4
-csp.dtr.cost.storage.mwht
+Numeric
 
 1
 16
@@ -2582,7 +2582,7 @@ BackColour
 TabOrder
 3
 0
-csp.dtr.cost.total_land_area
+Numeric
 
 1
 16
@@ -2640,7 +2640,7 @@ BackColour
 TabOrder
 3
 0
-direct_subtotal
+Numeric
 
 1
 16
@@ -2698,7 +2698,7 @@ BackColour
 TabOrder
 3
 4294967295
-lblFinancingCost
+Label
 
 1
 12
@@ -2741,7 +2741,7 @@ AlignRight
 AlignTop
 2
 1
-object 22
+Divider
 
 1
 9
@@ -2775,7 +2775,7 @@ Contingency
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -2809,7 +2809,7 @@ Contingency
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -2843,7 +2843,7 @@ Contingency
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -2877,7 +2877,7 @@ Contingency
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -2911,7 +2911,7 @@ Contingency
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -2954,7 +2954,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -2997,7 +2997,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3040,7 +3040,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3083,7 +3083,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3126,7 +3126,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3169,7 +3169,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3212,7 +3212,7 @@ AlignRight
 AlignTop
 2
 0
-total_direct_cost
+Numeric
 
 1
 16
@@ -3270,7 +3270,7 @@ BackColour
 TabOrder
 3
 0
-total_indirect_cost
+Numeric
 
 1
 16
@@ -3328,7 +3328,7 @@ BackColour
 TabOrder
 3
 0
-total_installed_cost
+Numeric
 
 1
 16

@@ -2,7 +2,7 @@ Financial Debt Min DSCR
 867
 151
 10
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Project Term Debt
 Bold
 2
 1
-Label2
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-debt_fraction
+Numeric
 
 1
 16
@@ -128,7 +128,7 @@ BackColour
 TabOrder
 3
 1
-debt_message
+Label
 
 1
 12
@@ -171,7 +171,7 @@ AlignRight
 AlignTop
 2
 1
-loan_rate
+Numeric
 
 1
 16
@@ -229,7 +229,7 @@ BackColour
 TabOrder
 3
 3
-loan_term
+Numeric
 
 1
 16
@@ -287,7 +287,7 @@ BackColour
 TabOrder
 3
 2
-object 7
+Label
 
 1
 12
@@ -330,7 +330,7 @@ AlignRight
 AlignTop
 2
 1
-ui_loan_amount
+Numeric
 
 1
 16
@@ -388,7 +388,7 @@ BackColour
 TabOrder
 3
 4
-ui_net_capital_cost
+Numeric
 
 1
 16
@@ -446,7 +446,7 @@ BackColour
 TabOrder
 3
 4294967295
-ui_wacc
+Numeric
 
 1
 16

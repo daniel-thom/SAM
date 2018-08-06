@@ -2,7 +2,7 @@ Linear Fresnel Boiler Geometry
 774
 1397
 135
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Boiler Geometry and Optical Performance
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Receiver Geometry and Heat Loss
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Aggregate Weighted Losses
 Bold
 2
 1
-HLine1
+Divider
 
 1
 9
@@ -111,7 +111,7 @@ Incidence Angle Modifier Coefficients
 Bold
 2
 1
-HLine11
+Divider
 
 1
 9
@@ -145,7 +145,7 @@ Solar Position/Collector Incidence Angle Table
 Bold
 2
 1
-HLine12
+Divider
 
 1
 9
@@ -179,7 +179,7 @@ Polynomial fit heat loss model
 Bold
 2
 1
-HLine121
+Divider
 
 1
 9
@@ -213,7 +213,7 @@ Evacuated tube heat loss model
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -256,7 +256,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -299,7 +299,7 @@ AlignRight
 AlignTop
 2
 0
-Label21
+Label
 
 1
 12
@@ -342,7 +342,7 @@ AlignRight
 AlignTop
 2
 0
-Label211
+Label
 
 1
 12
@@ -385,7 +385,7 @@ AlignRight
 AlignTop
 2
 0
-Label2111
+Label
 
 1
 12
@@ -428,7 +428,7 @@ AlignRight
 AlignTop
 2
 0
-Label21111
+Label
 
 1
 12
@@ -471,7 +471,7 @@ AlignRight
 AlignTop
 2
 0
-Label211111
+Label
 
 1
 12
@@ -514,7 +514,7 @@ AlignRight
 AlignTop
 2
 0
-Label212
+Label
 
 1
 12
@@ -557,7 +557,7 @@ AlignRight
 AlignTop
 2
 0
-Label22
+Label
 
 1
 12
@@ -600,7 +600,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -643,7 +643,7 @@ AlignRight
 AlignTop
 2
 0
-Label31
+Label
 
 1
 12
@@ -686,7 +686,7 @@ AlignRight
 AlignTop
 2
 0
-Label311
+Label
 
 1
 12
@@ -729,7 +729,7 @@ AlignRight
 AlignTop
 2
 0
-Label3111
+Label
 
 1
 12
@@ -772,7 +772,7 @@ AlignRight
 AlignTop
 2
 0
-Label312
+Label
 
 1
 12
@@ -815,7 +815,7 @@ AlignRight
 AlignTop
 2
 0
-Label32
+Label
 
 1
 12
@@ -858,7 +858,7 @@ AlignRight
 AlignTop
 2
 0
-Label33
+Label
 
 1
 12
@@ -901,7 +901,7 @@ AlignRight
 AlignTop
 2
 0
-Label4
+Label
 
 1
 12
@@ -944,7 +944,7 @@ AlignRight
 AlignTop
 2
 0
-Label41
+Label
 
 1
 12
@@ -987,7 +987,7 @@ AlignRight
 AlignTop
 2
 0
-Label411
+Label
 
 1
 12
@@ -1030,7 +1030,7 @@ AlignRight
 AlignTop
 2
 0
-Label4111
+Label
 
 1
 12
@@ -1073,7 +1073,7 @@ AlignRight
 AlignTop
 2
 0
-Label41111
+Label
 
 1
 12
@@ -1116,7 +1116,7 @@ AlignRight
 AlignTop
 2
 0
-Label411111
+Label
 
 1
 12
@@ -1159,7 +1159,7 @@ AlignRight
 AlignTop
 2
 0
-Label41112
+Label
 
 1
 12
@@ -1202,7 +1202,7 @@ AlignRight
 AlignTop
 2
 0
-Label41113
+Label
 
 1
 12
@@ -1245,7 +1245,7 @@ AlignRight
 AlignTop
 2
 0
-Label4112
+Label
 
 1
 12
@@ -1288,7 +1288,7 @@ AlignRight
 AlignTop
 2
 0
-Label412
+Label
 
 1
 12
@@ -1331,7 +1331,7 @@ AlignRight
 AlignTop
 2
 0
-Label4121
+Label
 
 1
 12
@@ -1374,7 +1374,7 @@ AlignRight
 AlignTop
 2
 0
-Label413
+Label
 
 1
 12
@@ -1417,7 +1417,7 @@ AlignRight
 AlignTop
 2
 0
-Label42
+Label
 
 1
 12
@@ -1460,7 +1460,7 @@ AlignRight
 AlignTop
 2
 0
-Label421
+Label
 
 1
 12
@@ -1503,7 +1503,7 @@ AlignRight
 AlignTop
 2
 0
-Label422
+Label
 
 1
 12
@@ -1546,7 +1546,7 @@ AlignRight
 AlignTop
 2
 0
-Label4221
+Label
 
 1
 12
@@ -1589,7 +1589,7 @@ AlignRight
 AlignTop
 2
 0
-Label43
+Label
 
 1
 12
@@ -1632,7 +1632,7 @@ AlignRight
 AlignTop
 2
 0
-Label431
+Label
 
 1
 12
@@ -1675,7 +1675,7 @@ AlignRight
 AlignTop
 2
 0
-Label44
+Label
 
 1
 12
@@ -1718,7 +1718,7 @@ AlignRight
 AlignTop
 2
 0
-Label5
+Label
 
 1
 12
@@ -1761,7 +1761,7 @@ AlignRight
 AlignTop
 2
 0
-Label51
+Label
 
 1
 12
@@ -1804,7 +1804,7 @@ AlignRight
 AlignTop
 2
 1
-csp.lf.geom1.absorber_material
+Choice
 
 1
 8
@@ -1836,7 +1836,7 @@ Selection
 TabOrder
 3
 10
-csp.lf.geom1.avg_field_temp_dt_design
+Numeric
 
 1
 16
@@ -1894,7 +1894,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.coll_length
+Numeric
 
 1
 16
@@ -1952,7 +1952,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.coll_opt_loss_norm_inc
+Numeric
 
 1
 16
@@ -2010,7 +2010,7 @@ BackColour
 TabOrder
 3
 60
-csp.lf.geom1.diam_absorber_inner
+Numeric
 
 1
 16
@@ -2068,7 +2068,7 @@ BackColour
 TabOrder
 3
 3
-csp.lf.geom1.diam_absorber_outer
+Numeric
 
 1
 16
@@ -2126,7 +2126,7 @@ BackColour
 TabOrder
 3
 4
-csp.lf.geom1.diam_absorber_plug
+Numeric
 
 1
 16
@@ -2184,7 +2184,7 @@ BackColour
 TabOrder
 3
 7
-csp.lf.geom1.diam_envelope_inner
+Numeric
 
 1
 16
@@ -2242,7 +2242,7 @@ BackColour
 TabOrder
 3
 5
-csp.lf.geom1.diam_envelope_outer
+Numeric
 
 1
 16
@@ -2300,7 +2300,7 @@ BackColour
 TabOrder
 3
 6
-csp.lf.geom1.flow_type
+Choice
 
 1
 8
@@ -2330,7 +2330,7 @@ Selection
 TabOrder
 3
 9
-csp.lf.geom1.general_error
+Numeric
 
 1
 16
@@ -2388,7 +2388,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.geom_error
+Numeric
 
 1
 16
@@ -2446,7 +2446,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.heat_loss_at_design
+Numeric
 
 1
 16
@@ -2504,7 +2504,7 @@ BackColour
 TabOrder
 3
 59
-csp.lf.geom1.hl_mode
+Choice
 
 1
 8
@@ -2534,7 +2534,7 @@ Selection
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyt0
+Numeric
 
 1
 16
@@ -2592,7 +2592,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyt1
+Numeric
 
 1
 16
@@ -2650,7 +2650,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyt2
+Numeric
 
 1
 16
@@ -2708,7 +2708,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyt3
+Numeric
 
 1
 16
@@ -2766,7 +2766,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyt4
+Numeric
 
 1
 16
@@ -2824,7 +2824,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyw0
+Numeric
 
 1
 16
@@ -2882,7 +2882,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyw1
+Numeric
 
 1
 16
@@ -2940,7 +2940,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyw2
+Numeric
 
 1
 16
@@ -2998,7 +2998,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyw3
+Numeric
 
 1
 16
@@ -3056,7 +3056,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.hlpolyw4
+Numeric
 
 1
 16
@@ -3114,7 +3114,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iaml0
+Numeric
 
 1
 16
@@ -3172,7 +3172,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iaml1
+Numeric
 
 1
 16
@@ -3230,7 +3230,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iaml2
+Numeric
 
 1
 16
@@ -3288,7 +3288,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iaml3
+Numeric
 
 1
 16
@@ -3346,7 +3346,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iaml4
+Numeric
 
 1
 16
@@ -3404,7 +3404,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iamt0
+Numeric
 
 1
 16
@@ -3462,7 +3462,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iamt1
+Numeric
 
 1
 16
@@ -3520,7 +3520,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iamt2
+Numeric
 
 1
 16
@@ -3578,7 +3578,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iamt3
+Numeric
 
 1
 16
@@ -3636,7 +3636,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.iamt4
+Numeric
 
 1
 16
@@ -3694,7 +3694,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.inner_roughness
+Numeric
 
 1
 16
@@ -3752,7 +3752,7 @@ BackColour
 TabOrder
 3
 8
-csp.lf.geom1.mirror_refl
+Numeric
 
 1
 16
@@ -3810,7 +3810,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.opt_mode
+RadioChoice
 
 1
 10
@@ -3847,7 +3847,7 @@ Horizontal
 TabOrder
 3
 0
-csp.lf.geom1.rec_optical_derate
+Numeric
 
 1
 16
@@ -3905,7 +3905,7 @@ BackColour
 TabOrder
 3
 59
-csp.lf.geom1.rec_thermal_derate
+Numeric
 
 1
 16
@@ -3963,7 +3963,7 @@ BackColour
 TabOrder
 3
 60
-csp.lf.geom1.refl_aper_area
+Numeric
 
 1
 16
@@ -4021,7 +4021,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.soiling
+Numeric
 
 1
 16
@@ -4079,7 +4079,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.solpos_collinc_table
+DataMatrix
 
 1
 22
@@ -4149,7 +4149,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-csp.lf.geom1.track_error
+Numeric
 
 1
 16
@@ -4207,7 +4207,7 @@ BackColour
 TabOrder
 3
 0
-csp.lf.geom1.var1.abs_abs
+Numeric
 
 1
 16
@@ -4265,7 +4265,7 @@ BackColour
 TabOrder
 3
 12
-csp.lf.geom1.var1.abs_emis
+ValueMatrix
 
 1
 9
@@ -4296,7 +4296,7 @@ Temp (°C),Emittance
 TabOrder
 3
 4294967295
-csp.lf.geom1.var1.annulus_pressure
+Numeric
 
 1
 16
@@ -4354,7 +4354,7 @@ BackColour
 TabOrder
 3
 19
-csp.lf.geom1.var1.bellows_shadowing
+Numeric
 
 1
 16
@@ -4412,7 +4412,7 @@ BackColour
 TabOrder
 3
 21
-csp.lf.geom1.var1.broken_glass
+CheckBox
 
 1
 8
@@ -4440,7 +4440,7 @@ State
 TabOrder
 3
 17
-csp.lf.geom1.var1.env_abs
+Numeric
 
 1
 16
@@ -4498,7 +4498,7 @@ BackColour
 TabOrder
 3
 14
-csp.lf.geom1.var1.env_emis
+Numeric
 
 1
 16
@@ -4556,7 +4556,7 @@ BackColour
 TabOrder
 3
 15
-csp.lf.geom1.var1.env_trans
+Numeric
 
 1
 16
@@ -4614,7 +4614,7 @@ BackColour
 TabOrder
 3
 16
-csp.lf.geom1.var1.field_fraction
+Numeric
 
 1
 16
@@ -4672,7 +4672,7 @@ BackColour
 TabOrder
 3
 11
-csp.lf.geom1.var1.gas_type
+Choice
 
 1
 8
@@ -4703,7 +4703,7 @@ Selection
 TabOrder
 3
 18
-csp.lf.geom1.var1.hce_dirt
+Numeric
 
 1
 16
@@ -4761,7 +4761,7 @@ BackColour
 TabOrder
 3
 22
-csp.lf.geom1.var1.rated_heat_loss
+Numeric
 
 1
 16
@@ -4819,7 +4819,7 @@ BackColour
 TabOrder
 3
 20
-csp.lf.geom1.var2.abs_abs
+Numeric
 
 1
 16
@@ -4877,7 +4877,7 @@ BackColour
 TabOrder
 3
 24
-csp.lf.geom1.var2.abs_emis
+ValueMatrix
 
 1
 9
@@ -4908,7 +4908,7 @@ Temp (°C),Emittance
 TabOrder
 3
 4294967295
-csp.lf.geom1.var2.annulus_pressure
+Numeric
 
 1
 16
@@ -4966,7 +4966,7 @@ BackColour
 TabOrder
 3
 31
-csp.lf.geom1.var2.bellows_shadowing
+Numeric
 
 1
 16
@@ -5024,7 +5024,7 @@ BackColour
 TabOrder
 3
 33
-csp.lf.geom1.var2.broken_glass
+CheckBox
 
 1
 8
@@ -5052,7 +5052,7 @@ State
 TabOrder
 3
 29
-csp.lf.geom1.var2.env_abs
+Numeric
 
 1
 16
@@ -5110,7 +5110,7 @@ BackColour
 TabOrder
 3
 26
-csp.lf.geom1.var2.env_emis
+Numeric
 
 1
 16
@@ -5168,7 +5168,7 @@ BackColour
 TabOrder
 3
 27
-csp.lf.geom1.var2.env_trans
+Numeric
 
 1
 16
@@ -5226,7 +5226,7 @@ BackColour
 TabOrder
 3
 28
-csp.lf.geom1.var2.field_fraction
+Numeric
 
 1
 16
@@ -5284,7 +5284,7 @@ BackColour
 TabOrder
 3
 23
-csp.lf.geom1.var2.gas_type
+Choice
 
 1
 8
@@ -5315,7 +5315,7 @@ Selection
 TabOrder
 3
 30
-csp.lf.geom1.var2.hce_dirt
+Numeric
 
 1
 16
@@ -5373,7 +5373,7 @@ BackColour
 TabOrder
 3
 34
-csp.lf.geom1.var2.rated_heat_loss
+Numeric
 
 1
 16
@@ -5431,7 +5431,7 @@ BackColour
 TabOrder
 3
 32
-csp.lf.geom1.var3.abs_abs
+Numeric
 
 1
 16
@@ -5489,7 +5489,7 @@ BackColour
 TabOrder
 3
 36
-csp.lf.geom1.var3.abs_emis
+ValueMatrix
 
 1
 9
@@ -5520,7 +5520,7 @@ Temp (°C),Emittance
 TabOrder
 3
 4294967295
-csp.lf.geom1.var3.annulus_pressure
+Numeric
 
 1
 16
@@ -5578,7 +5578,7 @@ BackColour
 TabOrder
 3
 43
-csp.lf.geom1.var3.bellows_shadowing
+Numeric
 
 1
 16
@@ -5636,7 +5636,7 @@ BackColour
 TabOrder
 3
 45
-csp.lf.geom1.var3.broken_glass
+CheckBox
 
 1
 8
@@ -5664,7 +5664,7 @@ State
 TabOrder
 3
 41
-csp.lf.geom1.var3.env_abs
+Numeric
 
 1
 16
@@ -5722,7 +5722,7 @@ BackColour
 TabOrder
 3
 38
-csp.lf.geom1.var3.env_emis
+Numeric
 
 1
 16
@@ -5780,7 +5780,7 @@ BackColour
 TabOrder
 3
 39
-csp.lf.geom1.var3.env_trans
+Numeric
 
 1
 16
@@ -5838,7 +5838,7 @@ BackColour
 TabOrder
 3
 40
-csp.lf.geom1.var3.field_fraction
+Numeric
 
 1
 16
@@ -5896,7 +5896,7 @@ BackColour
 TabOrder
 3
 35
-csp.lf.geom1.var3.gas_type
+Choice
 
 1
 8
@@ -5927,7 +5927,7 @@ Selection
 TabOrder
 3
 42
-csp.lf.geom1.var3.hce_dirt
+Numeric
 
 1
 16
@@ -5985,7 +5985,7 @@ BackColour
 TabOrder
 3
 46
-csp.lf.geom1.var3.rated_heat_loss
+Numeric
 
 1
 16
@@ -6043,7 +6043,7 @@ BackColour
 TabOrder
 3
 44
-csp.lf.geom1.var4.abs_abs
+Numeric
 
 1
 16
@@ -6101,7 +6101,7 @@ BackColour
 TabOrder
 3
 48
-csp.lf.geom1.var4.abs_emis
+ValueMatrix
 
 1
 9
@@ -6132,7 +6132,7 @@ Temp (°C),Emittance
 TabOrder
 3
 4294967295
-csp.lf.geom1.var4.annulus_pressure
+Numeric
 
 1
 16
@@ -6190,7 +6190,7 @@ BackColour
 TabOrder
 3
 55
-csp.lf.geom1.var4.bellows_shadowing
+Numeric
 
 1
 16
@@ -6248,7 +6248,7 @@ BackColour
 TabOrder
 3
 57
-csp.lf.geom1.var4.broken_glass
+CheckBox
 
 1
 8
@@ -6276,7 +6276,7 @@ State
 TabOrder
 3
 53
-csp.lf.geom1.var4.env_abs
+Numeric
 
 1
 16
@@ -6334,7 +6334,7 @@ BackColour
 TabOrder
 3
 50
-csp.lf.geom1.var4.env_emis
+Numeric
 
 1
 16
@@ -6392,7 +6392,7 @@ BackColour
 TabOrder
 3
 51
-csp.lf.geom1.var4.env_trans
+Numeric
 
 1
 16
@@ -6450,7 +6450,7 @@ BackColour
 TabOrder
 3
 52
-csp.lf.geom1.var4.field_fraction
+Numeric
 
 1
 16
@@ -6508,7 +6508,7 @@ BackColour
 TabOrder
 3
 47
-csp.lf.geom1.var4.gas_type
+Choice
 
 1
 8
@@ -6539,7 +6539,7 @@ Selection
 TabOrder
 3
 54
-csp.lf.geom1.var4.hce_dirt
+Numeric
 
 1
 16
@@ -6597,7 +6597,7 @@ BackColour
 TabOrder
 3
 58
-csp.lf.geom1.var4.rated_heat_loss
+Numeric
 
 1
 16

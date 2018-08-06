@@ -2,7 +2,7 @@ PBNS Power Block
 939
 513
 32
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Plant Design
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Availability and Curtailment
 Bold
 2
 1
-GroupBox5
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Operation
 Bold
 2
 1
-HLine1
+Divider
 
 1
 9
@@ -111,7 +111,7 @@ Plant Cooling Mode
 Bold
 2
 1
-LHV_eff
+Numeric
 
 1
 16
@@ -169,7 +169,7 @@ BackColour
 TabOrder
 3
 9
-P_boil_des
+Numeric
 
 1
 16
@@ -227,7 +227,7 @@ BackColour
 TabOrder
 3
 6
-P_cond_min
+Numeric
 
 1
 16
@@ -285,7 +285,7 @@ BackColour
 TabOrder
 3
 17
-P_cond_ratio
+Numeric
 
 1
 16
@@ -343,7 +343,7 @@ BackColour
 TabOrder
 3
 16
-P_rh_ref
+Numeric
 
 1
 16
@@ -401,7 +401,7 @@ BackColour
 TabOrder
 3
 7
-T_ITD_des
+Numeric
 
 1
 16
@@ -459,7 +459,7 @@ BackColour
 TabOrder
 3
 15
-T_amb_des
+Numeric
 
 1
 16
@@ -517,7 +517,7 @@ BackColour
 TabOrder
 3
 12
-T_approach
+Numeric
 
 1
 16
@@ -575,7 +575,7 @@ BackColour
 TabOrder
 3
 14
-adjust
+LossAdjustment
 
 1
 6
@@ -597,7 +597,7 @@ Height
 TabOrder
 3
 24
-csp.pbns.condenser_type
+Choice
 
 1
 8
@@ -628,7 +628,7 @@ Selection
 TabOrder
 3
 11
-csp.pbns.fossil_mode_lf
+Choice
 
 1
 8
@@ -656,7 +656,7 @@ Selection
 TabOrder
 3
 25
-csp.pbns.fossil_mode_st
+Choice
 
 1
 8
@@ -684,7 +684,7 @@ Selection
 TabOrder
 3
 25
-csp.pbns.gross_net_conv_factor
+Numeric
 
 1
 16
@@ -742,7 +742,7 @@ BackColour
 TabOrder
 3
 2
-cycle_cutoff_frac
+Numeric
 
 1
 16
@@ -800,7 +800,7 @@ BackColour
 TabOrder
 3
 23
-cycle_max_fraction
+Numeric
 
 1
 16
@@ -858,7 +858,7 @@ BackColour
 TabOrder
 3
 24
-dT_cw_ref
+Numeric
 
 1
 16
@@ -916,7 +916,7 @@ BackColour
 TabOrder
 3
 13
-demand_var
+Numeric
 
 1
 16
@@ -974,7 +974,7 @@ BackColour
 TabOrder
 3
 1
-eta_ref
+Numeric
 
 1
 16
@@ -1032,7 +1032,7 @@ BackColour
 TabOrder
 3
 4
-n_pl_inc
+Numeric
 
 1
 16
@@ -1090,7 +1090,7 @@ BackColour
 TabOrder
 3
 18
-nameplate
+Numeric
 
 1
 16
@@ -1148,7 +1148,7 @@ BackColour
 TabOrder
 3
 3
-object 7
+Label
 
 1
 12
@@ -1191,7 +1191,7 @@ AlignRight
 AlignTop
 2
 1
-pb_bd_frac
+Numeric
 
 1
 16
@@ -1249,7 +1249,7 @@ BackColour
 TabOrder
 3
 10
-q_pb_des
+Numeric
 
 1
 16
@@ -1307,7 +1307,7 @@ BackColour
 TabOrder
 3
 5
-q_sby_frac
+Numeric
 
 1
 16
@@ -1365,7 +1365,7 @@ BackColour
 TabOrder
 3
 20
-rh_frac_ref
+Numeric
 
 1
 16
@@ -1423,7 +1423,7 @@ BackColour
 TabOrder
 3
 8
-startup_frac
+Numeric
 
 1
 16
@@ -1481,7 +1481,7 @@ BackColour
 TabOrder
 3
 22
-startup_time
+Numeric
 
 1
 16
@@ -1539,7 +1539,7 @@ BackColour
 TabOrder
 3
 21
-t_sby
+Numeric
 
 1
 16

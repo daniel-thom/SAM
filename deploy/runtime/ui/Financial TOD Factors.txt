@@ -2,7 +2,7 @@ Financial TOD Factors
 755
 1001
 32
-Label10
+Label
 
 1
 12
@@ -45,7 +45,7 @@ AlignRight
 AlignTop
 2
 0
-Label101
+Label
 
 1
 12
@@ -88,7 +88,7 @@ AlignRight
 AlignTop
 2
 0
-Label11
+Label
 
 1
 12
@@ -131,7 +131,7 @@ AlignRight
 AlignTop
 2
 0
-Label111
+Label
 
 1
 12
@@ -174,7 +174,7 @@ AlignRight
 AlignTop
 2
 0
-Label12
+Label
 
 1
 12
@@ -217,7 +217,7 @@ AlignRight
 AlignTop
 2
 0
-Label121
+Label
 
 1
 12
@@ -260,7 +260,7 @@ AlignRight
 AlignTop
 2
 0
-Label13
+Label
 
 1
 12
@@ -303,7 +303,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -346,7 +346,7 @@ AlignRight
 AlignTop
 2
 0
-Label51
+Label
 
 1
 12
@@ -389,7 +389,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -432,7 +432,7 @@ AlignRight
 AlignTop
 2
 0
-apply_tod_library_values
+Button
 
 1
 7
@@ -457,7 +457,7 @@ Apply values from library
 TabOrder
 3
 4294967295
-btnLoadDispatchData
+Button
 
 1
 7
@@ -482,7 +482,7 @@ Load data from file...
 TabOrder
 3
 4294967295
-btnSaveDispatchData
+Button
 
 1
 7
@@ -507,7 +507,7 @@ Save data to file...
 TabOrder
 3
 4294967295
-dispatch_data_filename
+TextEntry
 
 1
 10
@@ -547,7 +547,7 @@ BackColour
 TabOrder
 3
 4294967295
-dispatch_factor1
+Numeric
 
 1
 16
@@ -605,7 +605,7 @@ BackColour
 TabOrder
 3
 22
-dispatch_factor2
+Numeric
 
 1
 16
@@ -663,7 +663,7 @@ BackColour
 TabOrder
 3
 27
-dispatch_factor3
+Numeric
 
 1
 16
@@ -721,7 +721,7 @@ BackColour
 TabOrder
 3
 32
-dispatch_factor4
+Numeric
 
 1
 16
@@ -779,7 +779,7 @@ BackColour
 TabOrder
 3
 37
-dispatch_factor5
+Numeric
 
 1
 16
@@ -837,7 +837,7 @@ BackColour
 TabOrder
 3
 42
-dispatch_factor6
+Numeric
 
 1
 16
@@ -895,7 +895,7 @@ BackColour
 TabOrder
 3
 47
-dispatch_factor7
+Numeric
 
 1
 16
@@ -953,7 +953,7 @@ BackColour
 TabOrder
 3
 52
-dispatch_factor8
+Numeric
 
 1
 16
@@ -1011,7 +1011,7 @@ BackColour
 TabOrder
 3
 57
-dispatch_factor9
+Numeric
 
 1
 16
@@ -1069,7 +1069,7 @@ BackColour
 TabOrder
 3
 62
-dispatch_factors_ts
+DataArray
 
 1
 9
@@ -1100,7 +1100,7 @@ Description
 TabOrder
 3
 4294967295
-dispatch_sched_weekday
+DiurnalPeriod
 
 1
 9
@@ -1131,7 +1131,7 @@ Max
 Min
 3
 1
-dispatch_sched_weekend
+DiurnalPeriod
 
 1
 9
@@ -1162,7 +1162,7 @@ Max
 Min
 3
 1
-object 21
+Divider
 
 1
 9
@@ -1196,7 +1196,7 @@ Save and Load TOD Schedule Data
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -1221,7 +1221,7 @@ Time-of-delivery (TOD) Factors
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -1264,7 +1264,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -1307,7 +1307,7 @@ AlignRight
 AlignTop
 2
 1
-ppa_multiplier_model
+RadioChoice
 
 1
 10
@@ -1343,7 +1343,7 @@ Horizontal
 TabOrder
 3
 4294967295
-tod_library
+Library
 
 1
 7

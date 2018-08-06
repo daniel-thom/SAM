@@ -2,7 +2,7 @@ Lifetime System
 793
 215
 6
-GroupBox11
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ System Performance Degradation
 Bold
 2
 1
-batt_lifetime_single_year_message
+Label
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 1
-batt_no_lifetime_caption
+GroupBox
 
 1
 7
@@ -95,7 +95,7 @@ Battery single year analysis
 Bold
 2
 1
-degradation
+SchedNumeric
 
 1
 11
@@ -132,7 +132,7 @@ Type a degradation rate (%) for each year. Each year's rate applies to the Year 
 TabOrder
 3
 2
-object 7
+Label
 
 1
 12
@@ -175,7 +175,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12

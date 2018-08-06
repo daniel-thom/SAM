@@ -2,7 +2,7 @@ Dish Stirling Engine
 427
 427
 16
-Beale_const_coef
+Numeric
 
 1
 16
@@ -60,7 +60,7 @@ BackColour
 TabOrder
 3
 6
-Beale_first_coef
+Numeric
 
 1
 16
@@ -118,7 +118,7 @@ BackColour
 TabOrder
 3
 7
-Beale_fourth_coef
+Numeric
 
 1
 16
@@ -176,7 +176,7 @@ BackColour
 TabOrder
 3
 10
-Beale_square_coef
+Numeric
 
 1
 16
@@ -234,7 +234,7 @@ BackColour
 TabOrder
 3
 8
-Beale_third_coef
+Numeric
 
 1
 16
@@ -292,7 +292,7 @@ BackColour
 TabOrder
 3
 9
-GroupBox1
+GroupBox
 
 1
 7
@@ -317,7 +317,7 @@ Estimated Generation
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -342,7 +342,7 @@ Engine Parameters
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -367,7 +367,7 @@ Beale Curve Fit Coefficients
 Bold
 2
 1
-GroupBox4
+GroupBox
 
 1
 7
@@ -392,7 +392,7 @@ Pressure Curve Fit Coefficients
 Bold
 2
 1
-Pressure_coef
+Numeric
 
 1
 16
@@ -450,7 +450,7 @@ BackColour
 TabOrder
 3
 11
-Pressure_first
+Numeric
 
 1
 16
@@ -508,7 +508,7 @@ BackColour
 TabOrder
 3
 12
-T_heater_head_high
+Numeric
 
 1
 16
@@ -566,7 +566,7 @@ BackColour
 TabOrder
 3
 2
-T_heater_head_low
+Numeric
 
 1
 16
@@ -624,7 +624,7 @@ BackColour
 TabOrder
 3
 3
-V_displaced
+Numeric
 
 1
 16
@@ -682,7 +682,7 @@ BackColour
 TabOrder
 3
 5
-csp.ds.nameplate_capacity
+Numeric
 
 1
 16
@@ -740,7 +740,7 @@ BackColour
 TabOrder
 3
 1
-engine_speed
+Numeric
 
 1
 16

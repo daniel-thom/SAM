@@ -2,7 +2,7 @@ Utility Rate - Description
 932
 536
 20
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Description
 Bold
 2
 1
-object 4
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Applicability
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -95,7 +95,7 @@ AlignRight
 AlignTop
 2
 1
-ur_demand_history
+Numeric
 
 1
 16
@@ -153,7 +153,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_demand_max
+Numeric
 
 1
 16
@@ -211,7 +211,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_demand_min
+Numeric
 
 1
 16
@@ -269,7 +269,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_description
+MultilineText
 
 1
 10
@@ -309,7 +309,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_end_date
+TextEntry
 
 1
 10
@@ -349,7 +349,7 @@ BackColour
 TabOrder
 3
 0
-ur_energy_history
+Numeric
 
 1
 16
@@ -407,7 +407,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_energy_max
+Numeric
 
 1
 16
@@ -465,7 +465,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_energy_min
+Numeric
 
 1
 16
@@ -523,7 +523,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_name
+TextEntry
 
 1
 10
@@ -563,7 +563,7 @@ BackColour
 TabOrder
 3
 1
-ur_phase_wiring
+TextEntry
 
 1
 10
@@ -603,7 +603,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_schedule_name
+TextEntry
 
 1
 10
@@ -643,7 +643,7 @@ BackColour
 TabOrder
 3
 4
-ur_source
+TextEntry
 
 1
 10
@@ -683,7 +683,7 @@ BackColour
 TabOrder
 3
 0
-ur_start_date
+TextEntry
 
 1
 10
@@ -723,7 +723,7 @@ BackColour
 TabOrder
 3
 0
-ur_uri
+TextEntry
 
 1
 10
@@ -763,7 +763,7 @@ BackColour
 TabOrder
 3
 0
-ur_voltage_category
+TextEntry
 
 1
 10
@@ -803,7 +803,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_voltage_max
+Numeric
 
 1
 16
@@ -861,7 +861,7 @@ BackColour
 TabOrder
 3
 4294967295
-ur_voltage_min
+Numeric
 
 1
 16

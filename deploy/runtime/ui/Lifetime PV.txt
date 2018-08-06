@@ -2,7 +2,7 @@ Lifetime PV
 793
 315
 12
-GroupBox11
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ PV Array Performance Degradation
 Bold
 2
 1
-ac_lifetime_losses
+DataArray
 
 1
 9
@@ -58,7 +58,7 @@ Description
 TabOrder
 3
 4294967295
-batt_lifetime_box
+GroupBox
 
 1
 7
@@ -83,7 +83,7 @@ Battery lifetime analysis
 Bold
 2
 1
-batt_lifetime_message
+Label
 
 1
 12
@@ -126,7 +126,7 @@ AlignRight
 AlignTop
 2
 1
-dc_degradation
+SchedNumeric
 
 1
 11
@@ -163,7 +163,7 @@ Type a degradation rate (%) for each year. Each year's rate applies to the Year 
 TabOrder
 3
 2
-dc_lifetime_losses
+DataArray
 
 1
 9
@@ -194,7 +194,7 @@ Description
 TabOrder
 3
 4294967295
-en_ac_lifetime_losses
+CheckBox
 
 1
 8
@@ -222,7 +222,7 @@ State
 TabOrder
 3
 4294967295
-en_dc_lifetime_losses
+CheckBox
 
 1
 8
@@ -250,7 +250,7 @@ State
 TabOrder
 3
 4294967295
-object 4
+GroupBox
 
 1
 7
@@ -275,7 +275,7 @@ Lifetime Daily Losses
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -318,7 +318,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12
@@ -361,7 +361,7 @@ AlignRight
 AlignTop
 2
 1
-object 7
+Label
 
 1
 12

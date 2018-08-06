@@ -2,7 +2,7 @@ PV Capital Costs
 829
 707
 100
-GroupBox1
+GroupBox
 
 1
 7
@@ -27,7 +27,7 @@ Direct Capital Costs
 Bold
 2
 1
-GroupBox2
+GroupBox
 
 1
 7
@@ -52,7 +52,7 @@ Indirect Capital Costs
 Bold
 2
 1
-GroupBox3
+GroupBox
 
 1
 7
@@ -77,7 +77,7 @@ Total Installed Cost
 Bold
 2
 1
-Label1
+Label
 
 1
 12
@@ -120,7 +120,7 @@ AlignRight
 AlignTop
 2
 0
-Label2
+Label
 
 1
 12
@@ -163,7 +163,7 @@ AlignRight
 AlignTop
 2
 0
-Label3
+Label
 
 1
 12
@@ -206,7 +206,7 @@ AlignRight
 AlignTop
 2
 0
-Label612
+Label
 
 1
 12
@@ -249,7 +249,7 @@ AlignRight
 AlignTop
 2
 0
-Label711
+Label
 
 1
 12
@@ -292,7 +292,7 @@ AlignRight
 AlignTop
 2
 0
-Label8
+Label
 
 1
 12
@@ -335,7 +335,7 @@ AlignRight
 AlignTop
 2
 0
-Label81
+Label
 
 1
 12
@@ -378,7 +378,7 @@ AlignRight
 AlignTop
 2
 0
-Label811
+Label
 
 1
 12
@@ -421,7 +421,7 @@ AlignRight
 AlignTop
 2
 0
-Label9
+Label
 
 1
 12
@@ -464,7 +464,7 @@ AlignRight
 AlignTop
 2
 0
-Label91
+Label
 
 1
 12
@@ -507,7 +507,7 @@ AlignRight
 AlignTop
 2
 0
-Label92
+Label
 
 1
 12
@@ -550,7 +550,7 @@ AlignRight
 AlignTop
 2
 0
-battery_cost_units
+Label
 
 1
 12
@@ -593,7 +593,7 @@ AlignRight
 AlignTop
 2
 0
-battery_energy
+Numeric
 
 1
 16
@@ -651,7 +651,7 @@ BackColour
 TabOrder
 3
 3
-battery_per_kWh
+Numeric
 
 1
 16
@@ -709,7 +709,7 @@ BackColour
 TabOrder
 3
 6
-battery_total
+Numeric
 
 1
 16
@@ -767,7 +767,7 @@ BackColour
 TabOrder
 3
 12
-bos_equip_fixed
+Numeric
 
 1
 16
@@ -825,7 +825,7 @@ BackColour
 TabOrder
 3
 5
-bos_equip_perarea
+Numeric
 
 1
 16
@@ -883,7 +883,7 @@ BackColour
 TabOrder
 3
 7
-bos_equip_perwatt
+Numeric
 
 1
 16
@@ -941,7 +941,7 @@ BackColour
 TabOrder
 3
 6
-bos_equip_total
+Numeric
 
 1
 16
@@ -999,7 +999,7 @@ BackColour
 TabOrder
 3
 16
-contingency
+Numeric
 
 1
 16
@@ -1057,7 +1057,7 @@ BackColour
 TabOrder
 3
 26
-contingency_percent
+Numeric
 
 1
 16
@@ -1115,7 +1115,7 @@ BackColour
 TabOrder
 3
 14
-engr_fixed
+Numeric
 
 1
 16
@@ -1173,7 +1173,7 @@ BackColour
 TabOrder
 3
 20
-engr_per_watt
+Numeric
 
 1
 16
@@ -1231,7 +1231,7 @@ BackColour
 TabOrder
 3
 19
-engr_percent
+Numeric
 
 1
 16
@@ -1289,7 +1289,7 @@ BackColour
 TabOrder
 3
 18
-engr_total
+Numeric
 
 1
 16
@@ -1347,7 +1347,7 @@ BackColour
 TabOrder
 3
 35
-grid_fixed
+Numeric
 
 1
 16
@@ -1405,7 +1405,7 @@ BackColour
 TabOrder
 3
 23
-grid_per_watt
+Numeric
 
 1
 16
@@ -1463,7 +1463,7 @@ BackColour
 TabOrder
 3
 22
-grid_percent
+Numeric
 
 1
 16
@@ -1521,7 +1521,7 @@ BackColour
 TabOrder
 3
 21
-grid_total
+Numeric
 
 1
 16
@@ -1579,7 +1579,7 @@ BackColour
 TabOrder
 3
 39
-install_labor_fixed
+Numeric
 
 1
 16
@@ -1637,7 +1637,7 @@ BackColour
 TabOrder
 3
 8
-install_labor_perarea
+Numeric
 
 1
 16
@@ -1695,7 +1695,7 @@ BackColour
 TabOrder
 3
 10
-install_labor_perwatt
+Numeric
 
 1
 16
@@ -1753,7 +1753,7 @@ BackColour
 TabOrder
 3
 9
-install_labor_total
+Numeric
 
 1
 16
@@ -1811,7 +1811,7 @@ BackColour
 TabOrder
 3
 20
-install_margin_fixed
+Numeric
 
 1
 16
@@ -1869,7 +1869,7 @@ BackColour
 TabOrder
 3
 11
-install_margin_perarea
+Numeric
 
 1
 16
@@ -1927,7 +1927,7 @@ BackColour
 TabOrder
 3
 13
-install_margin_perwatt
+Numeric
 
 1
 16
@@ -1985,7 +1985,7 @@ BackColour
 TabOrder
 3
 12
-install_margin_total
+Numeric
 
 1
 16
@@ -2043,7 +2043,7 @@ BackColour
 TabOrder
 3
 24
-installed_per_capacity
+Numeric
 
 1
 16
@@ -2101,7 +2101,7 @@ BackColour
 TabOrder
 3
 53
-inverter_costunits
+Choice
 
 1
 8
@@ -2132,7 +2132,7 @@ Selection
 TabOrder
 3
 4
-inverter_num_units
+Numeric
 
 1
 16
@@ -2190,7 +2190,7 @@ BackColour
 TabOrder
 3
 7
-inverter_power
+Numeric
 
 1
 16
@@ -2248,7 +2248,7 @@ BackColour
 TabOrder
 3
 8
-inverter_total
+Numeric
 
 1
 16
@@ -2306,7 +2306,7 @@ BackColour
 TabOrder
 3
 12
-inverterarray_power
+Numeric
 
 1
 16
@@ -2364,7 +2364,7 @@ BackColour
 TabOrder
 3
 9
-land_area_value
+Numeric
 
 1
 16
@@ -2422,7 +2422,7 @@ BackColour
 TabOrder
 3
 48
-land_fixed
+Numeric
 
 1
 16
@@ -2480,7 +2480,7 @@ BackColour
 TabOrder
 3
 27
-land_per_acre
+Numeric
 
 1
 16
@@ -2538,7 +2538,7 @@ BackColour
 TabOrder
 3
 24
-land_per_watt
+Numeric
 
 1
 16
@@ -2596,7 +2596,7 @@ BackColour
 TabOrder
 3
 26
-land_percent
+Numeric
 
 1
 16
@@ -2654,7 +2654,7 @@ BackColour
 TabOrder
 3
 25
-land_total
+Numeric
 
 1
 16
@@ -2712,7 +2712,7 @@ BackColour
 TabOrder
 3
 43
-landprep_fixed
+Numeric
 
 1
 16
@@ -2770,7 +2770,7 @@ BackColour
 TabOrder
 3
 31
-landprep_per_acre
+Numeric
 
 1
 16
@@ -2828,7 +2828,7 @@ BackColour
 TabOrder
 3
 28
-landprep_per_watt
+Numeric
 
 1
 16
@@ -2886,7 +2886,7 @@ BackColour
 TabOrder
 3
 30
-landprep_percent
+Numeric
 
 1
 16
@@ -2944,7 +2944,7 @@ BackColour
 TabOrder
 3
 29
-landprep_total
+Numeric
 
 1
 16
@@ -3002,7 +3002,7 @@ BackColour
 TabOrder
 3
 47
-lblFinancingCost
+Label
 
 1
 12
@@ -3045,7 +3045,7 @@ AlignRight
 AlignTop
 2
 1
-lbl_cost_per_area
+Label
 
 1
 12
@@ -3088,7 +3088,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_cost_per_area_plus
+Label
 
 1
 12
@@ -3131,7 +3131,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_land_plus
+Label
 
 1
 12
@@ -3174,7 +3174,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_land_preparation
+Label
 
 1
 12
@@ -3217,7 +3217,7 @@ AlignRight
 AlignTop
 2
 0
-lbl_land_purchase
+Label
 
 1
 12
@@ -3260,7 +3260,7 @@ AlignRight
 AlignTop
 2
 0
-module_costunits
+Choice
 
 1
 8
@@ -3290,7 +3290,7 @@ Selection
 TabOrder
 3
 2
-module_num_units
+Numeric
 
 1
 16
@@ -3348,7 +3348,7 @@ BackColour
 TabOrder
 3
 1
-module_power
+Numeric
 
 1
 16
@@ -3406,7 +3406,7 @@ BackColour
 TabOrder
 3
 2
-module_total
+Numeric
 
 1
 16
@@ -3464,7 +3464,7 @@ BackColour
 TabOrder
 3
 6
-modulearray_power
+Numeric
 
 1
 16
@@ -3522,7 +3522,7 @@ BackColour
 TabOrder
 3
 3
-object 22
+Divider
 
 1
 9
@@ -3556,7 +3556,7 @@ Land Costs
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -3590,7 +3590,7 @@ Land Costs
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -3624,7 +3624,7 @@ Land Costs
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -3658,7 +3658,7 @@ Land Costs
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -3692,7 +3692,7 @@ Land Costs
 Bold
 2
 1
-object 22
+Divider
 
 1
 9
@@ -3726,7 +3726,7 @@ Land Costs
 Bold
 2
 1
-object 7
+Label
 
 1
 12
@@ -3769,7 +3769,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3812,7 +3812,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3855,7 +3855,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3898,7 +3898,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3941,7 +3941,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -3984,7 +3984,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4027,7 +4027,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4070,7 +4070,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4113,7 +4113,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4156,7 +4156,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4199,7 +4199,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4242,7 +4242,7 @@ AlignRight
 AlignTop
 2
 0
-object 7
+Label
 
 1
 12
@@ -4285,7 +4285,7 @@ AlignRight
 AlignTop
 2
 0
-per_inverter
+Numeric
 
 1
 16
@@ -4343,7 +4343,7 @@ BackColour
 TabOrder
 3
 3
-per_module
+Numeric
 
 1
 16
@@ -4401,7 +4401,7 @@ BackColour
 TabOrder
 3
 1
-permitting_fixed
+Numeric
 
 1
 16
@@ -4459,7 +4459,7 @@ BackColour
 TabOrder
 3
 17
-permitting_per_watt
+Numeric
 
 1
 16
@@ -4517,7 +4517,7 @@ BackColour
 TabOrder
 3
 16
-permitting_percent
+Numeric
 
 1
 16
@@ -4575,7 +4575,7 @@ BackColour
 TabOrder
 3
 15
-permitting_total
+Numeric
 
 1
 16
@@ -4633,7 +4633,7 @@ BackColour
 TabOrder
 3
 31
-sales_tax_percent
+Numeric
 
 1
 16
@@ -4691,7 +4691,7 @@ BackColour
 TabOrder
 3
 32
-sales_tax_total
+Numeric
 
 1
 16
@@ -4749,7 +4749,7 @@ BackColour
 TabOrder
 3
 50
-sales_tax_value
+Numeric
 
 1
 16
@@ -4807,7 +4807,7 @@ BackColour
 TabOrder
 3
 33
-subtotal_direct
+Numeric
 
 1
 16
@@ -4865,7 +4865,7 @@ BackColour
 TabOrder
 3
 24
-total_direct_cost
+Numeric
 
 1
 16
@@ -4923,7 +4923,7 @@ BackColour
 TabOrder
 3
 27
-total_indirect_cost
+Numeric
 
 1
 16
@@ -4981,7 +4981,7 @@ BackColour
 TabOrder
 3
 51
-total_installed_cost
+Numeric
 
 1
 16
