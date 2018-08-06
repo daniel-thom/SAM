@@ -2,7 +2,7 @@ Financial Return on Equity
 868
 69
 3
-GroupBox
+object 4
 
 1
 7
@@ -27,7 +27,7 @@ Return on Equity
 Bold
 2
 1
-Label
+object 7
 
 1
 12
@@ -70,7 +70,7 @@ AlignRight
 AlignTop
 2
 0
-SchedNumeric
+roe_input
 
 1
 11

@@ -2,7 +2,7 @@ Physical Trough Collector Header
 800
 252
 4
-Library
+collector_library
 
 1
 7
@@ -27,32 +27,7 @@ Physical Trough Collectors
 Fields
 5
 Name,Reflective aperture area,Aperture width  total structure,Length of collector assembly,Number of modules per assembly,Average surface to focus path length,Piping distance between assemblies,IAM F0,IAM F1,IAM F2,IAM F3,Tracking error,Geometry effects,Mirror reflectance,Dirt on mirror,General optical error
-GroupBox
-
-1
-7
-Name
-5
-object 4
-X
-3
-6
-Y
-3
-6
-Width
-3
-791
-Height
-3
-213
-Caption
-5
-Collector Library
-Bold
-2
-1
-TextEntry
+collectors_in_field
 
 1
 10
@@ -92,7 +67,7 @@ BackColour
 TabOrder
 3
 4294967295
-Label
+header_label
 
 1
 12
@@ -135,6 +110,31 @@ AlignRight
 AlignTop
 2
 0
+object 4
+
+1
+7
+Name
+5
+object 4
+X
+3
+6
+Y
+3
+6
+Width
+3
+791
+Height
+3
+213
+Caption
+5
+Collector Library
+Bold
+2
+1
 
 50
 A_aperture

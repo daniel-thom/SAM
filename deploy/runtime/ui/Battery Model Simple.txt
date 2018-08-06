@@ -2,7 +2,92 @@ Battery Model Simple
 590
 125
 6
-CheckBox
+Battery Bank
+
+1
+7
+Name
+5
+Battery Bank
+X
+3
+9
+Y
+3
+0
+Width
+3
+572
+Height
+3
+120
+Caption
+5
+Battery Bank 
+Bold
+2
+1
+batt_simple_chemistry
+
+1
+8
+Name
+5
+batt_simple_chemistry
+X
+3
+402
+Y
+3
+48
+Width
+3
+171
+Height
+3
+24
+Items
+6
+2
+Lead Acid
+Lithium Ion
+Selection
+3
+4294967295
+TabOrder
+3
+4294967295
+batt_simple_dispatch
+
+1
+8
+Name
+5
+batt_simple_dispatch
+X
+3
+402
+Y
+3
+75
+Width
+3
+171
+Height
+3
+24
+Items
+6
+2
+Peak Shaving (look ahead)
+Peak Shaving (look behind)
+Selection
+3
+4294967295
+TabOrder
+3
+4294967295
+batt_simple_enable
 
 1
 8
@@ -30,7 +115,7 @@ State
 TabOrder
 3
 4294967295
-Numeric
+batt_simple_kw
 
 1
 16
@@ -88,67 +173,7 @@ BackColour
 TabOrder
 3
 4294967295
-Choice
-
-1
-8
-Name
-5
-batt_simple_chemistry
-X
-3
-402
-Y
-3
-48
-Width
-3
-171
-Height
-3
-24
-Items
-6
-2
-Lead Acid
-Lithium Ion
-Selection
-3
-4294967295
-TabOrder
-3
-4294967295
-Choice
-
-1
-8
-Name
-5
-batt_simple_dispatch
-X
-3
-402
-Y
-3
-75
-Width
-3
-171
-Height
-3
-24
-Items
-6
-2
-Peak Shaving (look ahead)
-Peak Shaving (look behind)
-Selection
-3
-4294967295
-TabOrder
-3
-4294967295
-Numeric
+batt_simple_kwh
 
 1
 16
@@ -206,31 +231,6 @@ BackColour
 TabOrder
 3
 4294967295
-GroupBox
-
-1
-7
-Name
-5
-Battery Bank
-X
-3
-9
-Y
-3
-0
-Width
-3
-572
-Height
-3
-120
-Caption
-5
-Battery Bank 
-Bold
-2
-1
 
 6
 batt_simple_chemistry

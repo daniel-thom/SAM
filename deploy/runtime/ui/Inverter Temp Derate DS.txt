@@ -2,7 +2,32 @@ Inverter Temp Derate DS
 780
 309
 4
-Button
+GroupBox1
+
+1
+7
+Name
+5
+GroupBox1
+X
+3
+12
+Y
+3
+6
+Width
+3
+764
+Height
+3
+300
+Caption
+5
+Inverter Temperature Derate Curves
+Bold
+2
+1
+btn_update_ds_plot
 
 1
 7
@@ -27,7 +52,7 @@ Update plot
 TabOrder
 3
 4294967295
-DataMatrix
+inv_tdc_ds
 
 1
 22
@@ -97,7 +122,7 @@ HideColumn
 ShowColumn
 3
 4294967295
-Plot
+inv_tdc_ds_plot
 
 1
 5
@@ -116,31 +141,6 @@ Width
 Height
 3
 262
-GroupBox
-
-1
-7
-Name
-5
-GroupBox1
-X
-3
-12
-Y
-3
-6
-Width
-3
-764
-Height
-3
-300
-Caption
-5
-Inverter Temperature Derate Curves
-Bold
-2
-1
 
 1
 inv_tdc_ds

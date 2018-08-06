@@ -2,7 +2,7 @@ Battery Model
 998
 72
 2
-GroupBox
+Battery Chemistry Group
 
 1
 7
@@ -27,7 +27,7 @@ Chemistry
 Bold
 2
 1
-Choice
+batt_type
 
 1
 8
