@@ -1493,7 +1493,8 @@ void VarDatabase::Write_text(wxOutputStream &os)
 	as.Sort();
 	for (size_t i = 0; i < as.Count(); i++)
 	{
-		if (v = Lookup(as[i]))
+		v = Lookup(as[i]);
+		if (v != NULL)
 		{
 			out.WriteString(as[i]);
 			out.PutChar('\n');
