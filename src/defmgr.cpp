@@ -60,7 +60,11 @@
 
 static wxString GetDefaultsFile( const wxString &t, const wxString &f )
 {	
+#ifdef UI_BINARY
 	return SamApp::GetRuntimePath() + "/defaults/" + t + "_" + f;
+#else
+	return SamApp::GetRuntimePath() + "/defaults/" + t + "_" + f + ".txt";
+#endif
 }
 
 static wxString GetTypeStr( int type )
