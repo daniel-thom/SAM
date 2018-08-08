@@ -304,16 +304,28 @@ bool VarTable::Read( wxInputStream &_I )
 	return in.Read8() == code;
 }
 
+bool VarTable::Write_text(const wxString &file, size_t maxdim)
+{
+	wxFFileOutputStream out(file);
+	if (!out.IsOk()) return false;
+	Write_text(out, maxdim);
+	return true;
+}
+
 
 void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 {
 	wxTextOutputStream out(_O, wxEOL_UNIX);
 	out.Write8(1);
 	out.PutChar('\n');
+	wxArrayString names;
+	VarValue *v;
 	if (maxdim == 0)
 	{
 		out.Write32(size());
 		out.PutChar('\n');
+		// add sorting for consistent and comparable defaults 
+		/*
 		for (iterator it = begin(); it != end(); ++it)
 		{
 			out.WriteString(it->first);
@@ -325,10 +337,30 @@ void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 				wxLogStatus("WRITE VV_BINARY(%s): %d bytes", (const char*)it->first.c_str(), (int)it->second->Binary().GetDataLen());
 			}
 		}
+		*/
+		names = ListAll();
+		names.Sort();
+		for (size_t i = 0; i < names.Count(); i++)
+		{
+			v = Get(names[i]);
+			if (v != NULL)
+			{
+				out.WriteString(names[i]);
+				out.PutChar('\n');
+				v->Write_text(_O);
+
+				if (v->Type() == VV_BINARY)
+				{
+					wxLogStatus("WRITE VV_BINARY(%s): %d bytes", (const char*)names[i].c_str(), (int)v->Binary().GetDataLen());
+				}
+			}
+		}
 	}
 	else
 	{
-		wxArrayString names;
+// add sorting for consistent and comparable defaults 
+//		wxArrayString names;
+/*
 		std::vector<VarValue*> list;
 		list.reserve(size());
 
@@ -358,18 +390,48 @@ void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 
 		out.Write32(list.size());
 		out.PutChar('\n');
-
-		for (size_t i = 0; i<list.size(); i++)
+*/
+		for (iterator it = begin(); it != end(); ++it)
 		{
-			out.WriteString(names[i]);
-			out.PutChar('\n');
-			list[i]->Write_text(_O);
-			if (list[i]->Type() == VV_BINARY)
+			VarValue &vv = *(it->second);
+			if (vv.Type() == VV_ARRAY
+				&& vv.Length() <= maxdim)
+				names.Add(it->first);
+			else if (vv.Type() == VV_MATRIX
+				&& vv.Matrix().nrows() <= maxdim
+				&& vv.Matrix().ncols() <= maxdim)
+				names.Add(it->first);
+			else if (vv.Type() != VV_MATRIX
+				&& vv.Type() != VV_ARRAY)
+				names.Add(it->first);
+		}
+
+		names.Sort();
+		out.Write32(names.Count());
+		out.PutChar('\n');
+
+		for (size_t i = 0; i<names.Count(); i++)
+		{
+			v = Get(names[i]);
+			if (v != NULL)
 			{
-				wxLogStatus("WRITE VV_BINARY(%s): %d bytes", (const char*)names[i].c_str(), (int)list[i]->Binary().GetDataLen());
+				out.WriteString(names[i]);
+				out.PutChar('\n');
+				v->Write_text(_O);
+
+				if (v->Type() == VV_BINARY)
+				{
+					wxLogStatus("WRITE VV_BINARY(%s): %d bytes", (const char*)names[i].c_str(), (int)v->Binary().GetDataLen());
+				}
 			}
 		}
 	}
+}
+bool VarTable::Read_text(const wxString &file)
+{
+	wxFFileInputStream in(file);
+	if (!in.IsOk()) return false;
+	else return Read_text(in);
 }
 
 bool VarTable::Read_text(wxInputStream &_I)
