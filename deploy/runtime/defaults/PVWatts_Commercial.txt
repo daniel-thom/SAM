@@ -81,7 +81,7 @@ annual_snow
 1
 1
 1
-inf
+nan
 annual_tdry
 1
 1
@@ -541,7 +541,7 @@ federal_tax_rate
 file_name
 1
 4
-C:\SAM\2016.12.29\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+C:\Projects\GitHub\NREL\develop\SAM-private\build_vs2017\deploy\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
 gcr
 1
 1
@@ -1716,7 +1716,7 @@ show_tax_credits
 solar_data_file_name
 1
 4
-C:\SAM\2016.12.29\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+C:\Projects\GitHub\NREL\develop\SAM-private\build_vs2017\deploy\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
 solar_data_source
 1
 4
@@ -1728,7 +1728,7 @@ USA AZ Phoenix Sky Harbor Intl Ap (TMY3)
 solar_resource_file
 1
 4
-C:\SAM\2016.12.29\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+C:\Projects\GitHub\NREL\develop\SAM-private\build_vs2017\deploy\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
 state
 1
 4
@@ -1930,11 +1930,7 @@ ur_desc_is_shown
 ur_description
 1
 4
-APPLICATION
-This rate schedule is applicable to all Standard Offer and Direct Access customers whose Average Monthly Maximum Demand is greater than 400 kW per month.
-
-
-
+This rate schedule is applicable to all Standard Offer and Direct Access electric service required for residential purposes in individual private dwellings and in individually metered apartments when such service is supplied at one site through one point of delivery and measured through one meter.
 ur_ec_is_shown
 1
 1
@@ -2054,11 +2050,11 @@ ur_ratedata_filename
 ur_schedule_name
 1
 4
-E-32 TOU (TIME-OF-USE LARGE SECONDARY)
+Residential TOU ET2
 ur_source
 1
 4
-http://www.aps.com/library/rates/E-32TOUL.pdf
+https://www.aps.com/library/rates/et-2.pdf
 ur_start_date
 1
 4
@@ -2077,7 +2073,7 @@ empty
 ur_voltage_category
 1
 4
-Secondary
+ 
 ur_voltage_max
 1
 1
