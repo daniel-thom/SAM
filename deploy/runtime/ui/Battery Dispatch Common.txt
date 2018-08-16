@@ -353,7 +353,7 @@ batt_initial_SOC
 Initial state of charge
 %
 Battery
- 
+0
 2
 1
 1
@@ -367,7 +367,7 @@ batt_maximum_SOC
 Maximum state of charge
 %
 Battery
- 
+0
 2
 1
 1
@@ -381,7 +381,7 @@ batt_minimum_SOC
 Minimum state of charge
 %
 Battery
- 
+0
 2
 1
 1
@@ -395,7 +395,7 @@ batt_minimum_modetime
 Minimum time at charge state
 min
 Battery
- 
+0
 2
 1
 1

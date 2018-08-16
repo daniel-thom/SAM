@@ -5371,7 +5371,7 @@ Label
  
  
 Biopower Feedstock
- 
+0
 0
 1
 1
@@ -5385,7 +5385,7 @@ biopwr.feedstock.additional_opt
  
  
 Feedstock
- 
+0
 0
 1
 1
@@ -5399,7 +5399,7 @@ biopwr.feedstock.bagasse_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5413,7 +5413,7 @@ biopwr.feedstock.bagasse_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5427,7 +5427,7 @@ biopwr.feedstock.bagasse_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5441,7 +5441,7 @@ biopwr.feedstock.bagasse_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5455,7 +5455,7 @@ biopwr.feedstock.bagasse_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5469,7 +5469,7 @@ biopwr.feedstock.bagasse_hhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -5483,7 +5483,7 @@ biopwr.feedstock.bagasse_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -5497,7 +5497,7 @@ biopwr.feedstock.bagasse_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -5511,7 +5511,7 @@ biopwr.feedstock.bagasse_moisture_wet
 Bagasse Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -5525,7 +5525,7 @@ biopwr.feedstock.bagasse_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5539,7 +5539,7 @@ biopwr.feedstock.bagasse_obtainable
 Bagasse Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -5553,7 +5553,7 @@ biopwr.feedstock.bagasse_resource
 Bagasse
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -5567,7 +5567,7 @@ biopwr.feedstock.bagasse_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5581,7 +5581,7 @@ biopwr.feedstock.barley_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5595,7 +5595,7 @@ biopwr.feedstock.barley_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5609,7 +5609,7 @@ biopwr.feedstock.barley_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5623,7 +5623,7 @@ biopwr.feedstock.barley_frac
  
  
  
- 
+0
 8
 1
 1
@@ -5637,7 +5637,7 @@ biopwr.feedstock.barley_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5651,7 +5651,7 @@ biopwr.feedstock.barley_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5665,7 +5665,7 @@ biopwr.feedstock.barley_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -5679,7 +5679,7 @@ biopwr.feedstock.barley_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -5693,7 +5693,7 @@ biopwr.feedstock.barley_moisture_wet
 Barley Straw Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -5707,7 +5707,7 @@ biopwr.feedstock.barley_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5721,7 +5721,7 @@ biopwr.feedstock.barley_obtainable
 Barley Straw Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -5735,7 +5735,7 @@ biopwr.feedstock.barley_resource
 Barley Straw
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -5749,7 +5749,7 @@ biopwr.feedstock.barley_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5763,7 +5763,7 @@ biopwr.feedstock.biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5777,7 +5777,7 @@ biopwr.feedstock.bit_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5791,7 +5791,7 @@ biopwr.feedstock.bit_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5805,7 +5805,7 @@ biopwr.feedstock.bit_coal_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5819,7 +5819,7 @@ biopwr.feedstock.bit_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5833,7 +5833,7 @@ biopwr.feedstock.bit_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5847,7 +5847,7 @@ biopwr.feedstock.bit_hhv
 Bituminous HHV
 Btu/dry lb
 Feedstock
- 
+0
 3
 1
 1
@@ -5861,7 +5861,7 @@ biopwr.feedstock.bit_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -5875,7 +5875,7 @@ biopwr.feedstock.bit_moisture_wet
 Bituminous Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -5889,7 +5889,7 @@ biopwr.feedstock.bit_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5903,7 +5903,7 @@ biopwr.feedstock.bit_resource
 Bituminous coal resource
 dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -5917,7 +5917,7 @@ biopwr.feedstock.bit_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5931,7 +5931,7 @@ biopwr.feedstock.coal_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -5945,7 +5945,7 @@ biopwr.feedstock.coal_opt
  
  
 Feedstock
- 
+0
 0
 1
 1
@@ -5959,7 +5959,7 @@ biopwr.feedstock.collection_radius
 Collection radius
 mi
 Feedstock
- 
+0
 2
 1
 1
@@ -5973,7 +5973,7 @@ biopwr.feedstock.collection_year
 Data Year
  
 Feedstock
- 
+0
 0
 1
 1
@@ -5987,7 +5987,7 @@ biopwr.feedstock.feedstock1_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6001,7 +6001,7 @@ biopwr.feedstock.feedstock1_c
 Carbon content (wt%)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6015,7 +6015,7 @@ biopwr.feedstock.feedstock1_calc_hhv
 Feedstock 1 Calculated HHV
 Btu/dry lb
 Feedstock
- 
+0
 9
 1
 1
@@ -6029,7 +6029,7 @@ biopwr.feedstock.feedstock1_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6043,7 +6043,7 @@ biopwr.feedstock.feedstock1_h
 Hydrogen content (wt%)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6057,7 +6057,7 @@ biopwr.feedstock.feedstock1_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6071,7 +6071,7 @@ biopwr.feedstock.feedstock1_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6085,7 +6085,7 @@ biopwr.feedstock.feedstock1_moisture_wet
 Feedstock 1 Moisture content (wet %)
  
 Feedstock
- 
+0
 2
 1
 1
@@ -6099,7 +6099,7 @@ biopwr.feedstock.feedstock1_n
 Nitrogen content (wt%)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6113,7 +6113,7 @@ biopwr.feedstock.feedstock1_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6127,7 +6127,7 @@ biopwr.feedstock.feedstock1_opt
  
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6141,7 +6141,7 @@ biopwr.feedstock.feedstock1_resource
 Obtainable feedstock 1 resource
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -6155,7 +6155,7 @@ biopwr.feedstock.feedstock1_user_hhv
 Feedstock 1 User-Input HHV
 Btu/dry lb
 Feedstock
- 
+0
 3
 1
 1
@@ -6169,7 +6169,7 @@ biopwr.feedstock.feedstock1_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6183,7 +6183,7 @@ biopwr.feedstock.feedstock2_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6197,7 +6197,7 @@ biopwr.feedstock.feedstock2_c
 Carbon content (wt%)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6211,7 +6211,7 @@ biopwr.feedstock.feedstock2_calc_hhv
 Feedstock 2 Calculated HHV
 Btu/dry lb
 Feedstock
- 
+0
 9
 1
 1
@@ -6225,7 +6225,7 @@ biopwr.feedstock.feedstock2_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6239,7 +6239,7 @@ biopwr.feedstock.feedstock2_h
 Hydrogen content (wt%)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6253,7 +6253,7 @@ biopwr.feedstock.feedstock2_hhv
  
 Btu/dry lb
 Feedstock
- 
+0
 8
 1
 1
@@ -6267,7 +6267,7 @@ biopwr.feedstock.feedstock2_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6281,7 +6281,7 @@ biopwr.feedstock.feedstock2_moisture_wet
 Feedstock 2 Moisture content (wet %)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6295,7 +6295,7 @@ biopwr.feedstock.feedstock2_n
 Nitrogen content (wt%)
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6309,7 +6309,7 @@ biopwr.feedstock.feedstock2_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6323,7 +6323,7 @@ biopwr.feedstock.feedstock2_opt
  
  
 Feedstock
- 
+0
 0
 1
 1
@@ -6337,7 +6337,7 @@ biopwr.feedstock.feedstock2_resource
 Obtainable feedstock 2 resource
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -6351,7 +6351,7 @@ biopwr.feedstock.feedstock2_user_hhv
 Feedstock 2 User-Input HHV
 Btu/dry lb
 Feedstock
- 
+0
 3
 1
 1
@@ -6365,7 +6365,7 @@ biopwr.feedstock.feedstock2_usual_moisture
  
  
  
- 
+0
 8
 1
 1
@@ -6379,7 +6379,7 @@ biopwr.feedstock.forest_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6393,7 +6393,7 @@ biopwr.feedstock.forest_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6407,7 +6407,7 @@ biopwr.feedstock.forest_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6421,7 +6421,7 @@ biopwr.feedstock.forest_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6435,7 +6435,7 @@ biopwr.feedstock.forest_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6449,7 +6449,7 @@ biopwr.feedstock.forest_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6463,7 +6463,7 @@ biopwr.feedstock.forest_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -6477,7 +6477,7 @@ biopwr.feedstock.forest_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -6491,7 +6491,7 @@ biopwr.feedstock.forest_moisture_wet
 Forest Residue Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -6505,7 +6505,7 @@ biopwr.feedstock.forest_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6519,7 +6519,7 @@ biopwr.feedstock.forest_obtainable
 Forest Residue Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -6533,7 +6533,7 @@ biopwr.feedstock.forest_resource
 Forest Residues
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -6547,7 +6547,7 @@ biopwr.feedstock.forest_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6561,7 +6561,7 @@ biopwr.feedstock.herb_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6575,7 +6575,7 @@ biopwr.feedstock.herb_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6589,7 +6589,7 @@ biopwr.feedstock.herb_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6603,7 +6603,7 @@ biopwr.feedstock.herb_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6617,7 +6617,7 @@ biopwr.feedstock.herb_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6631,7 +6631,7 @@ biopwr.feedstock.herb_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6645,7 +6645,7 @@ biopwr.feedstock.herb_lhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6659,7 +6659,7 @@ biopwr.feedstock.herb_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6673,7 +6673,7 @@ biopwr.feedstock.herb_moisture_wet
  
  
 Feedstock
- 
+0
 2
 1
 1
@@ -6687,7 +6687,7 @@ biopwr.feedstock.herb_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6701,7 +6701,7 @@ biopwr.feedstock.herb_obtainable
  
  
 Feedstock
- 
+0
 2
 1
 1
@@ -6715,7 +6715,7 @@ biopwr.feedstock.herb_resource
 Herbaceous Crops
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -6729,7 +6729,7 @@ biopwr.feedstock.herb_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6743,7 +6743,7 @@ biopwr.feedstock.lig_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6757,7 +6757,7 @@ biopwr.feedstock.lig_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6771,7 +6771,7 @@ biopwr.feedstock.lig_coal_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6785,7 +6785,7 @@ biopwr.feedstock.lig_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6799,7 +6799,7 @@ biopwr.feedstock.lig_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6813,7 +6813,7 @@ biopwr.feedstock.lig_hhv
 Lignite HHV
 Btu/dry lb
 Feedstock
- 
+0
 3
 1
 1
@@ -6827,7 +6827,7 @@ biopwr.feedstock.lig_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -6841,7 +6841,7 @@ biopwr.feedstock.lig_moisture_wet
 Lignite Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -6855,7 +6855,7 @@ biopwr.feedstock.lig_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6869,7 +6869,7 @@ biopwr.feedstock.lig_resource
 Lignite coal resource
 dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -6883,7 +6883,7 @@ biopwr.feedstock.lig_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6897,7 +6897,7 @@ biopwr.feedstock.mill_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6911,7 +6911,7 @@ biopwr.feedstock.mill_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6925,7 +6925,7 @@ biopwr.feedstock.mill_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6939,7 +6939,7 @@ biopwr.feedstock.mill_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6953,7 +6953,7 @@ biopwr.feedstock.mill_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6967,7 +6967,7 @@ biopwr.feedstock.mill_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -6981,7 +6981,7 @@ biopwr.feedstock.mill_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -6995,7 +6995,7 @@ biopwr.feedstock.mill_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -7009,7 +7009,7 @@ biopwr.feedstock.mill_moisture_wet
 Mill Residue Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7023,7 +7023,7 @@ biopwr.feedstock.mill_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7037,7 +7037,7 @@ biopwr.feedstock.mill_obtainable
 Mill Residue Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7051,7 +7051,7 @@ biopwr.feedstock.mill_resource
 Primary Mill Residues
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -7065,7 +7065,7 @@ biopwr.feedstock.mill_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7079,7 +7079,7 @@ biopwr.feedstock.rice_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7093,7 +7093,7 @@ biopwr.feedstock.rice_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7107,7 +7107,7 @@ biopwr.feedstock.rice_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7121,7 +7121,7 @@ biopwr.feedstock.rice_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7135,7 +7135,7 @@ biopwr.feedstock.rice_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7149,7 +7149,7 @@ biopwr.feedstock.rice_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7163,7 +7163,7 @@ biopwr.feedstock.rice_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -7177,7 +7177,7 @@ biopwr.feedstock.rice_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -7191,7 +7191,7 @@ biopwr.feedstock.rice_moisture_wet
 Rice Straw Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7205,7 +7205,7 @@ biopwr.feedstock.rice_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7219,7 +7219,7 @@ biopwr.feedstock.rice_obtainable
 Rice Straw Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7233,7 +7233,7 @@ biopwr.feedstock.rice_resource
 Rice Straw
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -7247,7 +7247,7 @@ biopwr.feedstock.rice_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7261,7 +7261,7 @@ biopwr.feedstock.stover_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7275,7 +7275,7 @@ biopwr.feedstock.stover_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7289,7 +7289,7 @@ biopwr.feedstock.stover_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7303,7 +7303,7 @@ biopwr.feedstock.stover_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7317,7 +7317,7 @@ biopwr.feedstock.stover_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7331,7 +7331,7 @@ biopwr.feedstock.stover_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7345,7 +7345,7 @@ biopwr.feedstock.stover_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -7359,7 +7359,7 @@ biopwr.feedstock.stover_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -7373,7 +7373,7 @@ biopwr.feedstock.stover_moisture_wet
 Corn Stover Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7387,7 +7387,7 @@ biopwr.feedstock.stover_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7401,7 +7401,7 @@ biopwr.feedstock.stover_obtainable
 Corn Stover Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7415,7 +7415,7 @@ biopwr.feedstock.stover_resource
 Corn Stover
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -7429,7 +7429,7 @@ biopwr.feedstock.stover_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7443,7 +7443,7 @@ biopwr.feedstock.subbit_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7457,7 +7457,7 @@ biopwr.feedstock.subbit_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7471,7 +7471,7 @@ biopwr.feedstock.subbit_coal_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7485,7 +7485,7 @@ biopwr.feedstock.subbit_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7499,7 +7499,7 @@ biopwr.feedstock.subbit_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7513,7 +7513,7 @@ biopwr.feedstock.subbit_hhv
 Sub-bituminous HHV
 Btu/dry lb
 Feedstock
- 
+0
 3
 1
 1
@@ -7527,7 +7527,7 @@ biopwr.feedstock.subbit_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -7541,7 +7541,7 @@ biopwr.feedstock.subbit_moisture_wet
 Sub-bituminous Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -7555,7 +7555,7 @@ biopwr.feedstock.subbit_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7569,7 +7569,7 @@ biopwr.feedstock.subbit_resource
 Sub-bituminous coal resource
 dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -7583,7 +7583,7 @@ biopwr.feedstock.subbit_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7597,7 +7597,7 @@ biopwr.feedstock.total
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7611,7 +7611,7 @@ biopwr.feedstock.total_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7625,7 +7625,7 @@ biopwr.feedstock.total_biomass
 Total obtainable biomass resource
 dry tons/year
 Feedstock
- 
+0
 8
 1
 1
@@ -7639,7 +7639,7 @@ biopwr.feedstock.total_biomass_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7653,7 +7653,7 @@ biopwr.feedstock.total_biomass_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7667,7 +7667,7 @@ biopwr.feedstock.total_biomass_hhv
 Average biomass higher heating value (HHV)
 Btu/dry lb
 Feedstock
- 
+0
 8
 1
 1
@@ -7681,7 +7681,7 @@ biopwr.feedstock.total_biomass_hhv_avg
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7695,7 +7695,7 @@ biopwr.feedstock.total_biomass_lhv
 Average biomass lower heating value (LHV)
 Btu/dry lb
 Feedstock
- 
+0
 9
 1
 1
@@ -7709,7 +7709,7 @@ biopwr.feedstock.total_biomass_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7723,7 +7723,7 @@ biopwr.feedstock.total_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7737,7 +7737,7 @@ biopwr.feedstock.total_coal
 Total coal resource
 dry tons/year
 Feedstock
- 
+0
 8
 1
 1
@@ -7751,7 +7751,7 @@ biopwr.feedstock.total_coal_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7765,7 +7765,7 @@ biopwr.feedstock.total_coal_hhv
  
 Btu/dry lb
 Feedstock
- 
+0
 8
 1
 1
@@ -7779,7 +7779,7 @@ biopwr.feedstock.total_coal_hhv_avg
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7793,7 +7793,7 @@ biopwr.feedstock.total_coal_lhv
 Average lower heating value (LHV)
 Btu/dry lb
 Feedstock
- 
+0
 9
 1
 1
@@ -7807,7 +7807,7 @@ biopwr.feedstock.total_coal_moisture
 Total
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7821,7 +7821,7 @@ biopwr.feedstock.total_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7835,7 +7835,7 @@ biopwr.feedstock.total_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7849,7 +7849,7 @@ biopwr.feedstock.total_lhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7863,7 +7863,7 @@ biopwr.feedstock.total_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7877,7 +7877,7 @@ biopwr.feedstock.total_nameplate
 Total estimated plant capacity with selected feedstock
 kW
 Feedstock
- 
+0
 8
 1
 1
@@ -7891,7 +7891,7 @@ biopwr.feedstock.total_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7905,7 +7905,7 @@ biopwr.feedstock.urban_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7919,7 +7919,7 @@ biopwr.feedstock.urban_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7933,7 +7933,7 @@ biopwr.feedstock.urban_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7947,7 +7947,7 @@ biopwr.feedstock.urban_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7961,7 +7961,7 @@ biopwr.feedstock.urban_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7975,7 +7975,7 @@ biopwr.feedstock.urban_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -7989,7 +7989,7 @@ biopwr.feedstock.urban_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -8003,7 +8003,7 @@ biopwr.feedstock.urban_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -8017,7 +8017,7 @@ biopwr.feedstock.urban_moisture_wet
 Urban Wood Residue Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -8031,7 +8031,7 @@ biopwr.feedstock.urban_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8045,7 +8045,7 @@ biopwr.feedstock.urban_obtainable
 Urban Wood Residue Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -8059,7 +8059,7 @@ biopwr.feedstock.urban_resource
 Urban Wood Residues
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -8073,7 +8073,7 @@ biopwr.feedstock.urban_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8087,7 +8087,7 @@ biopwr.feedstock.wheat_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8101,7 +8101,7 @@ biopwr.feedstock.wheat_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8115,7 +8115,7 @@ biopwr.feedstock.wheat_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8129,7 +8129,7 @@ biopwr.feedstock.wheat_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8143,7 +8143,7 @@ biopwr.feedstock.wheat_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8157,7 +8157,7 @@ biopwr.feedstock.wheat_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8171,7 +8171,7 @@ biopwr.feedstock.wheat_lhv
  
 Btu/lb
 Feedstock
- 
+0
 8
 1
 1
@@ -8185,7 +8185,7 @@ biopwr.feedstock.wheat_moisture
  
 %
 Feedstock
- 
+0
 10
 1
 1
@@ -8199,7 +8199,7 @@ biopwr.feedstock.wheat_moisture_wet
 Wheat Straw Moisture (wet %)
  
 Feedstock
- 
+0
 3
 1
 1
@@ -8213,7 +8213,7 @@ biopwr.feedstock.wheat_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8227,7 +8227,7 @@ biopwr.feedstock.wheat_obtainable
 Wheat Straw Obtainability
  
 Feedstock
- 
+0
 3
 1
 1
@@ -8241,7 +8241,7 @@ biopwr.feedstock.wheat_resource
 Wheat Straw
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -8255,7 +8255,7 @@ biopwr.feedstock.wheat_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8269,7 +8269,7 @@ biopwr.feedstock.woody_ash
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8283,7 +8283,7 @@ biopwr.feedstock.woody_biomass_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8297,7 +8297,7 @@ biopwr.feedstock.woody_c
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8311,7 +8311,7 @@ biopwr.feedstock.woody_frac
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8325,7 +8325,7 @@ biopwr.feedstock.woody_h
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8339,7 +8339,7 @@ biopwr.feedstock.woody_hhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8353,7 +8353,7 @@ biopwr.feedstock.woody_lhv
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8367,7 +8367,7 @@ biopwr.feedstock.woody_moisture
  
 %
 Feedstock
- 
+0
 8
 1
 1
@@ -8381,7 +8381,7 @@ biopwr.feedstock.woody_moisture_wet
  
  
 Feedstock
- 
+0
 2
 1
 1
@@ -8395,7 +8395,7 @@ biopwr.feedstock.woody_o
  
  
 Feedstock
- 
+0
 8
 1
 1
@@ -8409,7 +8409,7 @@ biopwr.feedstock.woody_obtainable
  
  
 Feedstock
- 
+0
 2
 1
 1
@@ -8423,7 +8423,7 @@ biopwr.feedstock.woody_resource
 Woody Crops
 bone dry tons/year
 Feedstock
- 
+0
 2
 1
 1
@@ -8437,7 +8437,7 @@ biopwr.feedstock.woody_usual_moisture
  
  
 Feedstock
- 
+0
 8
 1
 1

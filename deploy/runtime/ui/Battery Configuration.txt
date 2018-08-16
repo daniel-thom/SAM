@@ -288,7 +288,7 @@ batt_ac_dc_efficiency
 AC to DC conversion efficiency
 %
 Battery
- 
+0
 2
 1
 1
@@ -302,7 +302,7 @@ batt_ac_or_dc
  
  
 Battery
- 
+0
 2
 1
 1
@@ -316,7 +316,7 @@ batt_dc_ac_efficiency
 DC to AC conversion efficiency
 %
 Battery
- 
+0
 2
 1
 1
@@ -330,7 +330,7 @@ batt_dc_dc_efficiency
 DC to DC conversion efficiency
 %
 Battery
- 
+0
 2
 1
 1

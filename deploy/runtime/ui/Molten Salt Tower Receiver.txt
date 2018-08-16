@@ -2053,7 +2053,7 @@ D_rec
 Receiver diameter
 m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2067,7 +2067,7 @@ Flow_type
 Receiver flow pattern
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2081,7 +2081,7 @@ H_rec
 Receiver height
 m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2095,7 +2095,7 @@ N_panels
 Number of panels
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2109,7 +2109,7 @@ REC_COPY_Q_rec_des
 Receiver thermal power
 MWt
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2123,7 +2123,7 @@ REC_COPY_T_htf_cold_des
 HTF cold temperature
 °C
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2137,7 +2137,7 @@ REC_COPY_T_htf_hot_des
 HTF hot temperature
 °C
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2151,7 +2151,7 @@ REC_COPY_solarm
 Solar multiple
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2165,7 +2165,7 @@ THT
 Tower height
 m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2179,7 +2179,7 @@ conv_coupled
 initialization conv_coupled
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2193,7 +2193,7 @@ conv_forced
 initialization conv_forced
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2207,7 +2207,7 @@ conv_model
 initialization 
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2221,7 +2221,7 @@ conv_wind_dir
 initialization 
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2235,7 +2235,7 @@ csp.pt.rec.cav_ap_height
 Aperture height
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2249,7 +2249,7 @@ csp.pt.rec.cav_ap_hw_ratio
 Aperture height to width ratio
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2263,7 +2263,7 @@ csp.pt.rec.cav_lip_height_ratio
 Lip to height ratio
 m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2277,6 +2277,7 @@ csp.pt.rec.flow_pattern
 Flow pattern
  
 Tower and Receiver
+15
 1|2|3|4|5|6|7|8
 2
 1
@@ -2291,7 +2292,7 @@ csp.pt.rec.htf_c_avg
 cavg
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2305,7 +2306,7 @@ csp.pt.rec.htf_t_avg
 tavg
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2319,6 +2320,7 @@ csp.pt.rec.htf_type
 HTF type
  
 Tower and Receiver
+75
 Salt (60% NaNO3 40% KNO3)|Salt (46.5% LiF 11.5% NaF 42% KF)|User-defined...
 2
 1
@@ -2333,6 +2335,7 @@ csp.pt.rec.material_type
 Material type
  
 Tower and Receiver
+17
 Stainless AISI316
 2
 1
@@ -2347,7 +2350,7 @@ csp.pt.rec.max_flow_to_rec
 Maximum flow rate to receiver
 kg/s
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2361,7 +2364,7 @@ csp.pt.rec.max_oper_frac
 Maximum receiver operation fraction
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2375,7 +2378,7 @@ d_tube_out
 Tube outer diameter
 mm
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2389,7 +2392,7 @@ delta_flux_hrs
 Hourly frequency in flux map lookup
 hours
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2403,7 +2406,7 @@ eps_wavelength
  
  
 Tower and Receiver
- 
+0
 8
 1
 3
@@ -2417,7 +2420,7 @@ epsilon
 Coating emittance
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2431,7 +2434,7 @@ eta_pump
 Receiver HTF pump efficiency
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2445,7 +2448,7 @@ f_rec_min
 Minimum receiver turndown fraction
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2459,7 +2462,7 @@ field_fl_props
 Property table for user-defined HTF
  
 Tower and Receiver
- 
+0
 0
 1
 3
@@ -2474,7 +2477,7 @@ flux_max
 Maximum receiver flux
 kWt/m²
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2488,7 +2491,7 @@ h_lip
 Aperture lip height
 m
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2502,7 +2505,7 @@ h_rec_panel
 Internal panel height
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2516,7 +2519,7 @@ h_tower
 h_tower
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2530,7 +2533,7 @@ h_wind_meas
  
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2544,7 +2547,7 @@ hl_ffact
 Heat loss factor
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2558,7 +2561,7 @@ is_iscc
 is receiver page used with iscc
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2572,7 +2575,7 @@ m_dot_htf_max
  
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2586,7 +2589,7 @@ mat_tube
 Reciever material type
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2600,7 +2603,7 @@ n_flux_days
 Number of days in flux map lookup
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2614,7 +2617,7 @@ n_flux_x
 Receiver flux map resolution
  
 Tower and Receiver
- 
+0
 10
 1
 1
@@ -2628,7 +2631,7 @@ n_flux_y
 Receiver flux map resolution - Y
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2642,7 +2645,7 @@ piping_length
 Piping length
 m
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2656,7 +2659,7 @@ piping_length_const
 Piping length constant
 m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2670,7 +2673,7 @@ piping_length_mult
 Piping length multiplier
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2684,7 +2687,7 @@ piping_loss
 Piping heat loss coefficient
 Wt/m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2698,7 +2701,7 @@ piping_loss_tot
 Total piping loss
 kWt
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2712,7 +2715,7 @@ rec_absorptance
 Coating absorptance
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2726,7 +2729,7 @@ rec_angle
 initialization rec_angle
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2740,7 +2743,7 @@ rec_aspect
  
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2754,7 +2757,7 @@ rec_d_spec
 Aperture width
 m
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2768,7 +2771,7 @@ rec_hl_perm2
 Estimated receiver heat loss
 kWt/m²
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2782,7 +2785,7 @@ rec_htf
 Receiver HTF type
  
 Tower and Receiver
- 
+0
 8
 1
 1
@@ -2796,7 +2799,7 @@ rec_qf_delay
 Receiver startup delay energy fraction
  
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2810,7 +2813,7 @@ rec_su_delay
 Receiver startup delay time
 hr
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2824,6 +2827,7 @@ receiver_type
 Receiver type
  
 Tower and Receiver
+33
 External receiver|Cavity receiver
 1
 1
@@ -2838,7 +2842,7 @@ th_tube
 Tube wall thickness
 mm
 Tower and Receiver
- 
+0
 2
 1
 1
@@ -2852,7 +2856,7 @@ tower_technology
 Tower technology type (0=MSPT,1=DSG)
  
 Tower and Receiver
- 
+0
 0
 1
 1
@@ -2866,7 +2870,7 @@ user_fluid
 User fluid
  
 Tower and Receiver
- 
+0
 8
 1
 3

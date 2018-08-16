@@ -414,7 +414,7 @@ flip_target_percent
 IRR target
 %
 PPA Price and IRR
- 
+0
 2
 1
 1
@@ -428,7 +428,7 @@ flip_target_year
 IRR target year
  
 PPA Price and IRR
- 
+0
 2
 1
 1
@@ -442,7 +442,7 @@ ppa_escalation
 PPA price escalation
 %/year
 PPA Price and IRR
- 
+0
 2
 1
 1
@@ -456,7 +456,7 @@ ppa_price_input
 PPA price
 $/kWh
 PPA Price and IRR
- 
+0
 2
 1
 1
@@ -470,6 +470,7 @@ ppa_soln_mode
 PPA solution mode (0=Specify investor IRR target, 1=Specify PPA price)
  
 PPA Price and IRR
+49
 Specify tax investor IRR target|Specify PPA price
 3
 1
@@ -484,10 +485,11 @@ solution_mode_message
  
  
  
- 
+0
 5
 1
 4
+9
 <invalid>
 MultilineText
 

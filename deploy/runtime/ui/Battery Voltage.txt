@@ -958,7 +958,7 @@ batt_C_rate
 C-rate of discharge curve
  
 Battery
- 
+0
 2
 1
 1
@@ -972,7 +972,7 @@ batt_Qexp_percent
 Charge removed at exponential point
 %
 Battery
- 
+0
 2
 1
 1
@@ -986,7 +986,7 @@ batt_Qnom_percent
 Charge removed at nominal point
 %
 Battery
- 
+0
 2
 1
 1
@@ -1000,7 +1000,7 @@ batt_Vexp
 Exponential zone cell voltage
 V
 Battery
- 
+0
 2
 1
 1
@@ -1014,7 +1014,7 @@ batt_Vfull
 Fully charged cell voltage
 V
 Battery
- 
+0
 2
 1
 1
@@ -1028,7 +1028,7 @@ batt_Vnom
 Nominal zone cell voltage
 V
 Battery
- 
+0
 2
 1
 1
@@ -1042,7 +1042,7 @@ batt_Vnom_default
 Cell nominal voltage
 V (DC)
 Battery
- 
+0
 2
 1
 1
@@ -1056,7 +1056,7 @@ batt_bank_voltage
 Desired bank voltage
 V (DC)
 Battery
- 
+0
 2
 1
 1
@@ -1070,7 +1070,7 @@ batt_resistance
 Cell internal resistance
 Ohm
 Battery
- 
+0
 2
 1
 1
@@ -1084,7 +1084,7 @@ batt_voltage_choice
 Battery voltage model choice
  
 Battery
- 
+0
 1
 1
 1
@@ -1098,6 +1098,7 @@ batt_voltage_matrix
 Battery voltage table input
  
 Battery
+40
 Depth of discharge [%]| Cell voltage [V]
 3
 1

@@ -791,7 +791,7 @@ T_htf_cold_des
 Receiver Inlet Temperature
 °C
 ISCC
- 
+0
 8
 1
 1
@@ -805,7 +805,7 @@ T_htf_hot_des
 Receiver Outlet Temperature
 °C
 ISCC
- 
+0
 8
 1
 1
@@ -819,7 +819,7 @@ T_steam_sh_out_des
 Solar-heated Steam Injection Temperature
 °C
 ISCC
- 
+0
 8
 1
 1
@@ -833,7 +833,7 @@ W_dot_solar_des
 Gross Solar Electrical Output
 MWe
 ISCC
- 
+0
 8
 1
 1
@@ -847,7 +847,7 @@ adjust
 Performance adjustment factors
  
 ISCC
- 
+0
 1
 1
 5
@@ -860,7 +860,7 @@ fossil_output
 Fossil-only Cycle Output
 MWe
 ISCC
- 
+0
 8
 1
 1
@@ -874,7 +874,7 @@ max_solar_design
 Maximum Solar Input Cycle Can Accept
 MWt
 ISCC
- 
+0
 8
 1
 1
@@ -888,7 +888,7 @@ nameplate
 nameplate for other pages
 MWe
  
- 
+0
 8
 1
 1
@@ -902,7 +902,7 @@ ngcc_model
 1: NREL, 2: GE
  
 ISCC
- 
+0
 8
 1
 1
@@ -916,7 +916,7 @@ pb_pump_coef
 Pumping power for HTF through power block
 kW/kg/s
  
- 
+0
 2
 1
 1
@@ -930,7 +930,7 @@ pinch_point_coldside
 HTF-to-Steam Evaporator Pinch Point
 °C
 ISCC
- 
+0
 2
 1
 1
@@ -944,7 +944,7 @@ pinch_point_hotside
 HTF-to-Steam Hot Side Approach Temp Diff
 °C
 ISCC
- 
+0
 2
 1
 1
@@ -958,7 +958,7 @@ q_pb_design
 Solar Thermal Power to Cycle
 MWt
 ISCC
- 
+0
 2
 1
 1
@@ -972,7 +972,7 @@ system_capacity
 nameplate in kw for other pages
 kWe
 ISCC
- 
+0
 8
 1
 1

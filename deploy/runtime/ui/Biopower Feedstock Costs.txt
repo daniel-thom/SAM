@@ -2642,7 +2642,7 @@ biopwr.feedstockcost.bagasse_price
 Bagasse Feedstock Price 
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2656,7 +2656,7 @@ biopwr.feedstockcost.bagasse_resource
 Bagasse
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2670,7 +2670,7 @@ biopwr.feedstockcost.barley_price
 Barley Straw Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2684,7 +2684,7 @@ biopwr.feedstockcost.barley_resource
 Barley Straw
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2698,7 +2698,7 @@ biopwr.feedstockcost.biomass_cost
 Biomass Fuel Cost
 $/MMBtu
 Feedstock Costs
- 
+0
 9
 1
 1
@@ -2712,7 +2712,7 @@ biopwr.feedstockcost.biomass_fuel_cost
 Biomass Fuel Cost
  
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2726,7 +2726,7 @@ biopwr.feedstockcost.biomass_fuel_cost_esc
 Biomass cost escalation rate
 %/year
 Feedstock Costs
- 
+0
 2
 1
 1
@@ -2740,7 +2740,7 @@ biopwr.feedstockcost.biomass_fuel_used
 Total biomass fuel usage
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2754,7 +2754,7 @@ biopwr.feedstockcost.bit_price
 Bituminous Coal Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2768,7 +2768,7 @@ biopwr.feedstockcost.bit_resource
 Bituminous Coal
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2782,7 +2782,7 @@ biopwr.feedstockcost.coal_fuel_cost
 Coal Fuel Cost
  
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2796,7 +2796,7 @@ biopwr.feedstockcost.coal_fuel_cost_esc
 Coal cost escalation rate
 %/year
 Feedstock Costs
- 
+0
 2
 1
 1
@@ -2810,7 +2810,7 @@ biopwr.feedstockcost.coal_fuel_used
 Total coal fuel usage
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2824,7 +2824,7 @@ biopwr.feedstockcost.coal_per_mmbtu
 Coal Fuel Cost
 $/MMBtu
 Feedstock Costs
- 
+0
 9
 1
 1
@@ -2838,7 +2838,7 @@ biopwr.feedstockcost.feedstock1_price
 Feedstock 1 Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2852,7 +2852,7 @@ biopwr.feedstockcost.feedstock1_resource
 Additional Feedstock 1
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2866,7 +2866,7 @@ biopwr.feedstockcost.feedstock2_price
 Feedstock 2 Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2880,7 +2880,7 @@ biopwr.feedstockcost.feedstock2_resource
 Additional Feedstock 2
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2894,7 +2894,7 @@ biopwr.feedstockcost.fixed_delivery_cost
 Distance-fixed delivery cost
 $/dry ton
 Feedstock Costs
- 
+0
 2
 1
 1
@@ -2908,7 +2908,7 @@ biopwr.feedstockcost.forest_price
 Forest Residue Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2922,7 +2922,7 @@ biopwr.feedstockcost.forest_resource
 Forest Residues
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2936,7 +2936,7 @@ biopwr.feedstockcost.green_biomass_cost
 Biomass Fuel Cost
 $/green ton
 Feedstock Costs
- 
+0
 9
 1
 1
@@ -2950,7 +2950,7 @@ biopwr.feedstockcost.herb_price
 Herbaceous Energy Crop Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2964,7 +2964,7 @@ biopwr.feedstockcost.herb_resource
 Herbaceous Energy Crops
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -2978,7 +2978,7 @@ biopwr.feedstockcost.lig_price
 Lignite Coal Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -2992,7 +2992,7 @@ biopwr.feedstockcost.lig_resource
 Lignite Coal
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3006,7 +3006,7 @@ biopwr.feedstockcost.mill_price
 Mill Residue Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3020,7 +3020,7 @@ biopwr.feedstockcost.mill_resource
 Primary Mill Residues
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3034,7 +3034,7 @@ biopwr.feedstockcost.rice_price
 Rice Straw Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3048,7 +3048,7 @@ biopwr.feedstockcost.rice_resource
 Rice Straw
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3062,7 +3062,7 @@ biopwr.feedstockcost.stover_price
 Corn Stover Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3076,7 +3076,7 @@ biopwr.feedstockcost.stover_resource
 Corn Stover
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3090,7 +3090,7 @@ biopwr.feedstockcost.subbit_price
 Sub-bituminous Coal Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3104,7 +3104,7 @@ biopwr.feedstockcost.subbit_resource
 Sub-bituminous Coal
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3118,7 +3118,7 @@ biopwr.feedstockcost.urban_price
 Urban Residue Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3132,7 +3132,7 @@ biopwr.feedstockcost.urban_resource
 Urban Wood Residues
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3146,7 +3146,7 @@ biopwr.feedstockcost.var_delivery_cost
 Distance-variable delivery cost
 $/dry ton - mile
 Feedstock Costs
- 
+0
 2
 1
 1
@@ -3160,7 +3160,7 @@ biopwr.feedstockcost.wheat_price
 Wheat Straw Feedstock Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3174,7 +3174,7 @@ biopwr.feedstockcost.wheat_resource
 Wheat Straw
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3188,7 +3188,7 @@ biopwr.feedstockcost.woody_price
 Woody Energy Crop Price
 $/dt
 Feedstock Costs
- 
+0
 3
 1
 1
@@ -3202,7 +3202,7 @@ biopwr.feedstockcost.woody_resource
 Woody Energy Crops
 dry tons/year
 Feedstock Costs
- 
+0
 8
 1
 1
@@ -3216,7 +3216,7 @@ om_opt_fuel_1_cost
  
  
  
- 
+0
 8
 1
 2
@@ -3230,7 +3230,7 @@ om_opt_fuel_1_cost_escal
  
  
  
- 
+0
 8
 1
 1
@@ -3244,7 +3244,7 @@ om_opt_fuel_1_usage
  
  
  
- 
+0
 8
 1
 1
@@ -3258,7 +3258,7 @@ om_opt_fuel_2_cost
  
  
  
- 
+0
 8
 1
 2
@@ -3272,7 +3272,7 @@ om_opt_fuel_2_cost_escal
  
  
  
- 
+0
 8
 1
 1
@@ -3286,7 +3286,7 @@ om_opt_fuel_2_usage
  
  
  
- 
+0
 8
 1
 1

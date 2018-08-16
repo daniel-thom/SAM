@@ -1,5 +1,5 @@
 1
-739
+745
 A_aperture
 1
 3
@@ -482,43 +482,44 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
 1
 1
 1
-7.222795
+7.743129
 annual_diffuse
 1
 1
 1
 1
-1.406575
+1.277534
 annual_global
 1
 1
 1
 1
-5.790753
+5.930981
 annual_snow
 1
 1
 1
 1
-0.000000
+inf
 annual_tdry
 1
 1
 1
 1
-20.054384
+19.946054
 annual_wspd
 1
 1
 1
 1
-3.935262
+2.098402
 aux_array
 1
 2
@@ -741,7 +742,8 @@ cbi_uti_tax_sta
 city
 1
 4
-Tucson
+1
+-
 const_per_interest1
 1
 1
@@ -841,22 +843,27 @@ const_per_months5
 const_per_name1
 1
 4
+6
 Loan 1
 const_per_name2
 1
 4
+6
 Loan 2
 const_per_name3
 1
 4
+6
 Loan 3
 const_per_name4
 1
 4
+6
 Loan 4
 const_per_name5
 1
 4
+6
 Loan 5
 const_per_percent1
 1
@@ -1029,7 +1036,8 @@ cost_other_financing
 country
 1
 4
-USA
+1
+-
 csp.lf.cost.bop
 1
 1
@@ -3082,7 +3090,7 @@ dirt_mirror
 dispatch_data_filename
 1
 4
- 
+0
 dispatch_factor1
 1
 1
@@ -3221,7 +3229,7 @@ elev
 1
 1
 1
-779.000000
+730.000000
 equip1_reserve_cost
 1
 1
@@ -3342,7 +3350,8 @@ ffrac
 file_name
 1
 4
-C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA AZ Tucson (TMY2).csv
+84
+F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
 flip_target_percent
 1
 1
@@ -3625,6 +3634,28 @@ ibi_uti_percent_tax_sta
 1
 1
 1.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -3744,17 +3775,17 @@ lat
 1
 1
 1
-32.116699
+32.209999
 latitude
 1
 1
 1
 1
-32.116699
+32.209999
 lbl_csp
 1
 4
- 
+0
 lib_dispatch_factor1
 1
 1
@@ -3845,12 +3876,22 @@ lib_dispatch_sched_weekend
 6.000000 6.000000 6.000000 6.000000 6.000000 6.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
 6.000000 6.000000 6.000000 6.000000 6.000000 6.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
 
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 lon
 1
 1
 1
 1
--110.932999
+-110.980003
 m_dot_htf_ref
 1
 1
@@ -3896,14 +3937,17 @@ mera_cost3
 mera_name1
 1
 4
+21
 Replacement Reserve 1
 mera_name2
 1
 4
+21
 Replacement Reserve 2
 mera_name3
 1
 4
+21
 Replacement Reserve 3
 months_receivables_reserve
 1
@@ -4384,19 +4428,23 @@ show_construction_period
 solar_data_file_name
 1
 4
-C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA AZ Tucson (TMY2).csv
+84
+F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
 solar_data_source
 1
 4
-TMY2
+5
+NSRDB
 solar_resource
 1
 4
-USA AZ Tucson (TMY2)
+44
+tucson_az_32.222607_-110.974711_psmv3_60_tmy
 solar_resource_file
 1
 4
-C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA AZ Tucson (TMY2).csv
+84
+F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
 solarm
 1
 1
@@ -4406,7 +4454,7 @@ solarm
 solution_mode_message
 1
 4
- 
+0
 sponsor_cap_recovery_mode
 1
 1
@@ -4440,7 +4488,8 @@ startup_time
 state
 1
 4
-AZ
+1
+-
 state_tax_rate
 1
 2
@@ -4450,7 +4499,8 @@ state_tax_rate
 station_id
 1
 4
-23160
+6
+334602
 superheater_is_shown
 1
 1
@@ -4538,6 +4588,7 @@ tilt
 tod_library
 1
 4
+19
 Generic Summer Peak
 total_direct_cost
 1
@@ -4572,7 +4623,7 @@ use_specific_weather_file
 user_specified_weather_file
 1
 4
- 
+0
 weekday_schedule
 1
 3

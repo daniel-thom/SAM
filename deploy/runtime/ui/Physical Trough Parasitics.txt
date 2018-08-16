@@ -1352,7 +1352,7 @@ Pipe_hl_coef
 Piping thermal loss coefficient
 W/m²-K
 Physical Trough Parasitics
- 
+0
 2
 1
 1
@@ -1366,7 +1366,7 @@ SCA_drives_elec
 Tracking power
 W/sca
 Physical Trough Parasitics
- 
+0
 2
 1
 1
@@ -1380,7 +1380,7 @@ aux_array
 Coefficients for auxiliary heater parasitics calcs
  
 Physical Trough Parasitics
- 
+0
 9
 1
 2
@@ -1394,7 +1394,7 @@ bop_array
 Coefficients for balance of plant parasitics calcs
  
 Physical Trough Parasitics
- 
+0
 9
 1
 2
@@ -1408,7 +1408,7 @@ csp.dtr.par.aux_c0
 Aux heater parasitic coeff 0
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1422,7 +1422,7 @@ csp.dtr.par.aux_c1
 Aux heater parasitic coeff 1
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1436,7 +1436,7 @@ csp.dtr.par.aux_c2
 Aux heater parasitic coeff 2
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1450,7 +1450,7 @@ csp.dtr.par.aux_pf
 Aux heater parasitic factor
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1464,7 +1464,7 @@ csp.dtr.par.aux_val
 Aux heater parasitic value
 MWe/MWcap
 Physical Trough Parasitics
- 
+0
 2
 1
 1
@@ -1478,7 +1478,7 @@ csp.dtr.par.bop_c0
 BOP parasitic coeff 0
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1492,7 +1492,7 @@ csp.dtr.par.bop_c1
 BOP parasitic coeff 1
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1506,7 +1506,7 @@ csp.dtr.par.bop_c2
 BOP parasitic coeff 2
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1520,7 +1520,7 @@ csp.dtr.par.bop_pf
 BOP parasitic factor
  
 Physical Trough Parasitics
- 
+0
 3
 1
 1
@@ -1534,7 +1534,7 @@ csp.dtr.par.bop_val
 BOP parasitic value
 MWe/MWcap
 Physical Trough Parasitics
- 
+0
 2
 1
 1
@@ -1548,7 +1548,7 @@ csp.dtr.par.calc.aux
 Aux
 MWe
 Physical Trough Parasitics
- 
+0
 8
 1
 1
@@ -1562,7 +1562,7 @@ csp.dtr.par.calc.bop
 BOP
 MWe
 Physical Trough Parasitics
- 
+0
 8
 1
 1
@@ -1576,7 +1576,7 @@ csp.dtr.par.calc.frac_gross
 Fixed
 MWe
 Physical Trough Parasitics
- 
+0
 8
 1
 1
@@ -1590,7 +1590,7 @@ csp.dtr.par.calc.tracking
 Tracking
 W
 Physical Trough Parasitics
- 
+0
 8
 1
 1
@@ -1604,7 +1604,7 @@ pb_fixed_par
 Fraction of rated gross power consumed at all times
  
 Physical Trough Parasitics
- 
+0
 2
 1
 1
@@ -1618,7 +1618,7 @@ pb_pump_coef
 Required pumping power for HTF through power block
 kJ/kg
 Physical Trough Parasitics
- 
+0
 2
 1
 1
@@ -1632,7 +1632,7 @@ tes_pump_coef
 Required pumping power for HTF through storage
 kJ/kg
 Physical Trough Parasitics
- 
+0
 2
 1
 1

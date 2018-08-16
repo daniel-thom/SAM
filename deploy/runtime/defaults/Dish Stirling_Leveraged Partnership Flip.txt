@@ -1,5 +1,5 @@
 1
-444
+450
 A_absorber
 1
 1
@@ -213,43 +213,44 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
 1
 1
 1
-6.914304
+7.656164
 annual_diffuse
 1
 1
 1
 1
-1.545962
+1.282186
 annual_global
 1
 1
 1
 1
-5.737543
+5.879175
 annual_snow
 1
 1
 1
 1
-0.000000
+inf
 annual_tdry
 1
 1
 1
 1
-23.802706
+22.835627
 annual_wspd
 1
 1
 1
 1
-2.758493
+1.869863
 b_cooler
 1
 1
@@ -409,7 +410,8 @@ cbi_uti_tax_sta
 city
 1
 4
-Phoenix Sky Harbor Intl Ap
+1
+-
 const_per_interest1
 1
 1
@@ -509,22 +511,27 @@ const_per_months5
 const_per_name1
 1
 4
+6
 Loan 1
 const_per_name2
 1
 4
+6
 Loan 2
 const_per_name3
 1
 4
+6
 Loan 3
 const_per_name4
 1
 4
+6
 Loan 4
 const_per_name5
 1
 4
+6
 Loan 5
 const_per_percent1
 1
@@ -721,7 +728,8 @@ cost_other_financing
 country
 1
 4
-USA
+1
+-
 csp.ds.coolfluid
 1
 1
@@ -965,7 +973,7 @@ d_pipe_tower
 debt_message
 1
 4
- 
+0
 debt_option
 1
 1
@@ -1263,7 +1271,7 @@ developer_preflip_tax_percent
 dispatch_data_filename
 1
 4
- 
+0
 dispatch_factor1
 1
 1
@@ -1378,7 +1386,7 @@ elev
 1
 1
 1
-337.000000
+321.000000
 engine_speed
 1
 1
@@ -1502,7 +1510,8 @@ federal_tax_rate
 file_name
 1
 4
-C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 flip_target_percent
 1
 1
@@ -1785,6 +1794,28 @@ ibi_uti_percent_tax_sta
 1
 1
 1.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -1896,7 +1927,7 @@ lat
 lbl_csp
 1
 4
- 
+0
 lib_dispatch_factor1
 1
 1
@@ -1987,6 +2018,16 @@ lib_dispatch_sched_weekend
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 loan_moratorium
 1
 1
@@ -1998,7 +2039,7 @@ lon
 1
 1
 1
--111.983002
+-112.059998
 mera_cost1
 1
 1
@@ -2020,14 +2061,17 @@ mera_cost3
 mera_name1
 1
 4
+21
 Replacement Reserve 1
 mera_name2
 1
 4
+21
 Replacement Reserve 2
 mera_name3
 1
 4
+21
 Replacement Reserve 3
 months_receivables_reserve
 1
@@ -2440,27 +2484,32 @@ slope_ns
 solar_data_file_name
 1
 4
-C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 solar_data_source
 1
 4
-TMY3
+5
+NSRDB
 solar_resource
 1
 4
-USA AZ Phoenix Sky Harbor Intl Ap (TMY3)
+45
+phoenix_az_33.448377_-112.074037_psmv3_60_tmy
 solar_resource_file
 1
 4
-C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 solution_mode_message
 1
 4
- 
+0
 state
 1
 4
-AZ
+1
+-
 state_tax_rate
 1
 2
@@ -2470,7 +2519,8 @@ state_tax_rate
 station_id
 1
 4
-722780
+6
+310820
 system_availability
 1
 1
@@ -2606,6 +2656,7 @@ test_pump_speed
 tod_library
 1
 4
+16
 Uniform Dispatch
 total_direct_cost
 1
@@ -2676,7 +2727,7 @@ use_specific_weather_file
 user_specified_weather_file
 1
 4
- 
+0
 w_slot_gap
 1
 1

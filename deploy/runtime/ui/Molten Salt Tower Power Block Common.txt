@@ -872,7 +872,7 @@ PB_COPY_P_ref
 Power cycle gross output
 MWe
 Power Cycle
- 
+0
 8
 1
 1
@@ -886,7 +886,7 @@ PB_COPY_T_htf_cold_des
 HTF cold temperature
 °C
 Power Cycle
- 
+0
 8
 1
 1
@@ -900,7 +900,7 @@ PB_COPY_T_htf_hot_des
 HTF hot temperature
 °C
 Power Cycle
- 
+0
 8
 1
 1
@@ -914,7 +914,7 @@ PB_COPY_design_eff
 Cycle thermal efficiency
  
 Power Cycle
- 
+0
 8
 1
 1
@@ -928,7 +928,7 @@ PB_COPY_gross_net_conversion_factor
 Estimated gross to net conversion factor
  
 Power Cycle
- 
+0
 8
 1
 1
@@ -942,7 +942,7 @@ PB_COPY_htf_cp_avg
 spec heat at average temperature
 kJ/kg-K
  
- 
+0
 8
 1
 1
@@ -956,7 +956,7 @@ PB_COPY_nameplate
 Estimated net output (nameplate)
 MWe
 Power Cycle
- 
+0
 8
 1
 1
@@ -970,7 +970,7 @@ PB_COPY_q_pb_design
 Cycle thermal power
 MWt
 Power Cycle
- 
+0
 8
 1
 1
@@ -984,7 +984,7 @@ PB_m_dot_htf_cycle_des
 Cycle design HTF mass flow rate
 kg/s
  
- 
+0
 8
 1
 1
@@ -998,7 +998,7 @@ cycle_cutoff_frac
 Minimum turbine operation
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1012,7 +1012,7 @@ cycle_max_frac
 Maximum turbine over design operation
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1026,7 +1026,7 @@ pb_pump_coef
 Pumping power for HTF through power block
 kW/kg/s
 Power Cycle
- 
+0
 2
 1
 1
@@ -1040,7 +1040,7 @@ q_sby_frac
 Fraction of thermal power needed for standby
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1054,7 +1054,7 @@ startup_frac
 Fraction of thermal power needed for startup
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1068,7 +1068,7 @@ startup_time
 Power block startup time
 hours
 Power Cycle
- 
+0
 2
 1
 1
@@ -1082,7 +1082,7 @@ system_capacity
 Estimated net output at design (nameplate)
 kW
 Power Cycle
- 
+0
 8
 1
 1

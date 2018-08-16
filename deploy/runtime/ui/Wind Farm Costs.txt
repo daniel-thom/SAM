@@ -1640,7 +1640,7 @@ bos_cost_fixed
 BOS fixed costs
 $
 Wind Farm Costs
- 
+0
 3
 1
 1
@@ -1654,7 +1654,7 @@ bos_cost_per_kw
 BOS cost per kW
 $/kW
 Wind Farm Costs
- 
+0
 3
 1
 1
@@ -1668,7 +1668,7 @@ bos_cost_per_turbine
 BOS cost per turbine
 $/turbine
 Wind Farm Costs
- 
+0
 3
 1
 1
@@ -1682,7 +1682,7 @@ bos_cost_total
 Total BOS cost
 $
 Wind Farm Costs
- 
+0
 9
 1
 1
@@ -1696,7 +1696,7 @@ est_bos_cost
  
  
 Wind Farm Costs
- 
+0
 0
 1
 0
@@ -1707,7 +1707,7 @@ est_turbine_cost
  
  
 Wind Farm Costs
- 
+0
 0
 1
 1
@@ -1721,7 +1721,7 @@ install_type
 Land based or offshore installation
  
 Wind Farm Costs
- 
+0
 1
 1
 1
@@ -1735,7 +1735,7 @@ reference_capacity
 Wind farm capacity
 kW
 Wind Farm Costs
- 
+0
 8
 1
 1
@@ -1749,7 +1749,7 @@ reference_number_turbines
 Number of turbines
  
 Wind Farm Costs
- 
+0
 8
 1
 1
@@ -1763,10 +1763,11 @@ reference_resource_file
  
  
 Wind Farm Costs
- 
+0
 8
 1
 4
+2
 ""
 Default
 reference_sales_tax_percent
@@ -1775,7 +1776,7 @@ reference_sales_tax_percent
 Sales tax rate
 %
 Wind Farm Costs
- 
+0
 8
 1
 1
@@ -1789,7 +1790,7 @@ sales_tax_basis
 Sales tax basis, % of total equipment costs
 %
 Wind Farm Costs
- 
+0
 2
 1
 1
@@ -1803,7 +1804,7 @@ sales_tax_total
 Total sales tax amount
 $
 Wind Farm Costs
- 
+0
 9
 1
 1
@@ -1817,7 +1818,7 @@ system_use_lifetime_output
  
  
 Wind Farm Costs
- 
+0
 0
 1
 1
@@ -1831,7 +1832,7 @@ system_use_recapitalization
  
  
 Wind Farm Costs
- 
+0
 8
 1
 1
@@ -1845,7 +1846,7 @@ total_installed_cost
 Total installed cost
  
 Wind Farm Costs
- 
+0
 8
 1
 1
@@ -1859,7 +1860,7 @@ total_installed_cost_per_kw
 Total installed cost per kW
  
 Wind Farm Costs
- 
+0
 8
 1
 1
@@ -1873,7 +1874,7 @@ turbine_cost_fixed
 Turbine fixed costs
 $
 Wind Farm Costs
- 
+0
 3
 1
 1
@@ -1887,7 +1888,7 @@ turbine_cost_per_kw
 Turbine cost per kW
 $/kW
 Wind Farm Costs
- 
+0
 3
 1
 1
@@ -1901,7 +1902,7 @@ turbine_cost_per_turbine
 Turbine cost per turbine
 $/turbine
 Wind Farm Costs
- 
+0
 3
 1
 1
@@ -1915,7 +1916,7 @@ turbine_cost_total
 Total turbine cost
 $
 Wind Farm Costs
- 
+0
 9
 1
 1

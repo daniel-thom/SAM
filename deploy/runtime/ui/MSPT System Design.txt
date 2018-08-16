@@ -1061,7 +1061,7 @@ P_ref
 Design turbine gross output
 MWe
 System Design
- 
+0
 2
 1
 1
@@ -1075,7 +1075,7 @@ Q_rec_des
 Receiver thermal power
 MWt
 System Design
- 
+0
 8
 1
 1
@@ -1089,7 +1089,7 @@ T_htf_cold_des
 HTF cold temperature
 °C
 System Design
- 
+0
 2
 1
 1
@@ -1103,7 +1103,7 @@ T_htf_hot_des
 HTF hot temperature
 °C
 System Design
- 
+0
 2
 1
 1
@@ -1117,7 +1117,7 @@ design_eff
 Cycle thermal efficiency
  
 System Design
- 
+0
 2
 1
 1
@@ -1131,7 +1131,7 @@ dni_des
 Design point DNI
 W/m²
 System Design
- 
+0
 2
 1
 1
@@ -1145,7 +1145,7 @@ gross_net_conversion_factor
 Estimated gross to net conversion factor
  
 System Design
- 
+0
 2
 1
 1
@@ -1159,7 +1159,7 @@ nameplate
 Estimated net output at design (nameplate)
 MWe
 System Design
- 
+0
 8
 1
 1
@@ -1173,7 +1173,7 @@ q_pb_design
 Cycle thermal power
 MWt
 System Design
- 
+0
 8
 1
 1
@@ -1187,7 +1187,7 @@ sf_excess
 Heliostat field multiple
  
 System Design
- 
+0
 2
 1
 1
@@ -1201,7 +1201,7 @@ solarm
 Solar multiple
  
 System Design
- 
+0
 2
 1
 1
@@ -1215,7 +1215,7 @@ tshours
 Full load hours of storage
 hours
 System Design
- 
+0
 2
 1
 1
@@ -1229,7 +1229,7 @@ tshours_sf
 Solar field hours of storage
 hours
 System Design
- 
+0
 8
 1
 1
@@ -1243,11 +1243,11 @@ ui_msg
 System design message
  
 System Design
- 
+0
 1
 1
 4
- 
+0
 Label
 
 324

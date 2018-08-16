@@ -214,7 +214,7 @@ albedo
 Monthly albedo
  
 Location and Resource
- 
+0
 0
 1
 2
@@ -229,7 +229,7 @@ irrad_mode
 Weather file irradiance data
 0=beam&diffuse,1=total&beam,2=total&diffuse,3=poa_reference,4=poa_pyranometer
 Location and Resource
- 
+0
 3
 1
 1
@@ -243,6 +243,7 @@ sky_model
 Sky diffuse model
 0=Isotropic,1=HDKR,2=Perez
 Location and Resource
+20
 Isotropic|HDKR|Perez
 3
 1
@@ -257,7 +258,7 @@ use_wf_albedo
 Use albedo in weather file if it exists
  
 Location and Resource
- 
+0
 3
 1
 1

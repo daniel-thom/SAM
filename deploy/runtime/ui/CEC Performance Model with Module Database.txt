@@ -2438,7 +2438,7 @@ alpha_sc_calc
  
 %/°C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2452,7 +2452,7 @@ beta_oc_calc
  
 %/°C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2466,7 +2466,7 @@ cec_a_ref
 A_ref
 V
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2480,7 +2480,7 @@ cec_adjust
 Adjust
 %
 PV Module (CEC Database)
- 
+0
 4
 1
 1
@@ -2494,7 +2494,7 @@ cec_alpha_sc
  
 A/°C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2508,7 +2508,7 @@ cec_area
 Module area
 m²
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2522,7 +2522,7 @@ cec_array_cols
 Columns of modules in array
  
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2536,7 +2536,7 @@ cec_array_rows
 Rows of modules in array
  
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2550,7 +2550,7 @@ cec_backside_temp
 Temperature behind the module
 °C
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2564,7 +2564,7 @@ cec_beta_oc
  
 V/°C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2578,7 +2578,7 @@ cec_bifacial_ground_clearance_height
 Ground clearance height
 m
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2592,7 +2592,7 @@ cec_bifacial_transmission_factor
 Transmission Fraction
 0-1
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2606,7 +2606,7 @@ cec_bifaciality
 Bifaciality
 0-1
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2620,7 +2620,7 @@ cec_eff
 Nominal efficiency
 %
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2634,7 +2634,7 @@ cec_gamma_r
  
 %/°C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2648,7 +2648,7 @@ cec_gap_spacing
 Space between module back and roof surface
 m
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2662,6 +2662,7 @@ cec_heat_transfer
 Heat transfer dimensions
  
 PV Module (CEC Database)
+34
 Module Dimensions|Array Dimensions
 2
 1
@@ -2676,6 +2677,7 @@ cec_height
 Array height
  
 PV Module (CEC Database)
+70
 One story building height or lower|Two story building height or higher
 2
 1
@@ -2690,7 +2692,7 @@ cec_i_l_ref
 I_L_ref
 A
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2704,7 +2706,7 @@ cec_i_mp_ref
 Max power current (Imp)
 Adc
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2718,7 +2720,7 @@ cec_i_o_ref
 I_o_ref
 A
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2732,7 +2734,7 @@ cec_i_sc_ref
 Short circuit current (Isc)
 Adc
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2746,7 +2748,7 @@ cec_is_bifacial
 Use Bifacial Modules
  
 PV Module (CEC User Specified)
- 
+0
 1
 1
 1
@@ -2760,10 +2762,11 @@ cec_material
 Material
  
 PV Module (CEC Database)
- 
+0
 8
 1
 4
+5
 empty
 TextEntry
 cec_module_length
@@ -2772,7 +2775,7 @@ cec_module_length
 Module length
 m
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2786,7 +2789,7 @@ cec_module_width
 Module width
 m
 PV Module (CEC Database)
- 
+0
 2
 1
 1
@@ -2800,6 +2803,7 @@ cec_mounting_config
 Mounting configuration
  
 PV Module (CEC Database)
+25
 Rack|Flush|Integrated|Gap
 2
 1
@@ -2814,6 +2818,7 @@ cec_mounting_orientation
 Mounting structure orientation
  
 PV Module (CEC Database)
+111
 Structures do not impede flow underneath module|Vertical Supporting Structures|Horizontal Supporting Structures
 2
 1
@@ -2828,7 +2833,7 @@ cec_n_s
 Number of cells
  
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2842,7 +2847,7 @@ cec_p_mp_ref
 Maximum power (Pmp)
 Wdc
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2856,7 +2861,7 @@ cec_r_s
 R_s
 Ohm
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2870,7 +2875,7 @@ cec_r_sh_ref
 R_sh_ref
 Ohm
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2884,6 +2889,7 @@ cec_standoff
 Mounting standoff
  
 PV Module (CEC Database)
+112
 Building integrated|Greater than 3.5 in|2.5-3.5 in|1.5-2.5 in|0.5-1.5 in|Less than 0.5 in|Ground or rack mounted
 2
 1
@@ -2898,7 +2904,7 @@ cec_t_noct
 T_noct
 °C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2912,6 +2918,7 @@ cec_temp_corr_mode
 Temperature Correction Model
  
 PV Module (CEC Database)
+69
 Nominal operating cell temperature (NOCT) method|Heat transfer method
 3
 1
@@ -2926,7 +2933,7 @@ cec_v_mp_ref
 Max power voltage (Vmp)
 Vdc
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2940,7 +2947,7 @@ cec_v_oc_ref
 Open circuit voltage (Voc)
 Vdc
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2954,7 +2961,7 @@ gamma_r_calc
  
 W/°C
 PV Module (CEC Database)
- 
+0
 8
 1
 1
@@ -2968,10 +2975,12 @@ module_name
 Module Name
  
 PV Module (CEC Database)
+13
 CEC Modules|0
 19
 1
 4
+22
 SunPower SPR-210-BLK-U
 Library
 ref_conditions
@@ -2980,10 +2989,11 @@ ref_conditions
  
  
 PV Module (CEC Database)
- 
+0
 4
 1
 4
+46
 Total Irradiance = 1000 W/m2, Cell temp = 25 C
 TextEntry
 

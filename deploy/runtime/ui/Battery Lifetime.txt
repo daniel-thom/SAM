@@ -747,7 +747,7 @@ batt_calendar_a
 a
 1/sqrt(day)
 Battery
- 
+0
 2
 1
 1
@@ -761,7 +761,7 @@ batt_calendar_b
 b
 K
 Battery
- 
+0
 2
 1
 1
@@ -775,7 +775,7 @@ batt_calendar_c
 c
 K
 Battery
- 
+0
 2
 1
 1
@@ -789,7 +789,7 @@ batt_calendar_choice
  
  
 Battery
- 
+0
 2
 1
 1
@@ -803,7 +803,7 @@ batt_calendar_lifetime_matrix
 Calendar lifetime matrix
  
 Battery
- 
+0
 3
 1
 3
@@ -820,7 +820,7 @@ batt_calendar_q0
 q0
 fraction
 Battery
- 
+0
 0
 1
 1
@@ -834,7 +834,7 @@ batt_lifetime_matrix
 Lifetime matrix
  
 Battery
- 
+0
 3
 1
 3

@@ -1,5 +1,5 @@
 1
-877
+884
 6par_aisc
 1
 1
@@ -69,7 +69,7 @@
 6par_data_filename
 1
 4
- 
+0
 6par_gpmp
 1
 1
@@ -97,6 +97,7 @@
 6par_module_name
 1
 4
+38
 Generic polycrystalline silicon module
 6par_mounting
 1
@@ -264,25 +265,26 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
 1
 1
 1
-6.900315
+7.656164
 annual_diffuse
 1
 1
 1
 1
-1.549814
+1.282186
 annual_global
 1
 1
 1
 1
-5.799934
+5.879175
 annual_peak
 1
 1
@@ -294,19 +296,19 @@ annual_snow
 1
 1
 1
-0.000000
+inf
 annual_tdry
 1
 1
 1
 1
-22.527134
+22.835627
 annual_wspd
 1
 1
 1
 1
-2.984395
+1.869863
 array_area
 1
 1
@@ -823,6 +825,12 @@ batt_power_discharge_max
 1
 1
 4.989600
+batt_pv_clipping_forecast
+1
+2
+1
+1
+0.000000
 batt_replacement_capacity
 1
 1
@@ -1265,6 +1273,7 @@ cec_is_bifacial
 cec_material
 1
 4
+9
 Mono-c-Si
 cec_module_length
 1
@@ -1347,7 +1356,8 @@ cec_v_oc_ref
 city
 1
 4
-Phoenix
+1
+-
 contingency
 1
 1
@@ -1363,7 +1373,8 @@ contingency_percent
 country
 1
 4
-USA
+1
+-
 dc_adjust
 1
 5
@@ -1434,7 +1445,7 @@ debt_fraction
 debt_message
 1
 4
- 
+0
 degradation
 1
 2
@@ -1559,7 +1570,7 @@ elev
 1
 1
 1
-339.000000
+321.000000
 en_ac_lifetime_losses
 1
 1
@@ -1713,7 +1724,8 @@ federal_tax_rate
 file_name
 1
 4
-C:\SAM\2018.7.17\solar_resource\USA AZ Phoenix (TMY2).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 gamma_r_calc
 1
 1
@@ -2042,6 +2054,28 @@ iec61853_test_data
 1100.000000 50.000000 69.509499 59.597401 82.022003 1.310980 
 1100.000000 75.000000 64.578201 54.826500 76.631599 1.323960 
 
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -2147,6 +2181,7 @@ inv_cec_cg_eff_euro
 inv_cec_cg_filename
 1
 4
+9
 <invalid>
 inv_cec_cg_idcmax
 1
@@ -2247,7 +2282,7 @@ inv_ds_ac_voltage
 inv_ds_data_filename
 1
 4
- 
+0
 inv_ds_eff
 1
 1
@@ -2604,7 +2639,7 @@ inv_pd_data
 inv_pd_data_filename
 1
 4
- 
+0
 inv_pd_eff
 1
 1
@@ -2742,6 +2777,7 @@ inv_snl_idcmax
 inv_snl_inverter_name
 1
 4
+50
 SMA America: SB3800TL-US-22 (240V) 240V [CEC 2013]
 inv_snl_mppt_hi
 1
@@ -3022,15 +3058,26 @@ lat
 1
 1
 1
-33.433300
+33.450001
 layout_warning
 1
 4
+28
 Actual DC/AC ratio is 1.23. 
 lbl_csp
 1
 4
- 
+0
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 load
 1
 2
@@ -3080,7 +3127,7 @@ lon
 1
 1
 1
--112.016998
+-112.059998
 mismatch_shown
 1
 1
@@ -3120,6 +3167,7 @@ module_model
 module_name
 1
 4
+24
 SunPower SPR-X21-335-BLK
 module_num_units
 1
@@ -3704,6 +3752,7 @@ real_discount_rate
 ref_conditions
 1
 4
+46
 Total Irradiance = 1000 W/m2, Cell temp = 25 C
 sales_tax_percent
 1
@@ -4162,6 +4211,7 @@ snl_ixxo
 snl_material
 1
 4
+4
 c-Si
 snl_mbvmp
 1
@@ -4178,6 +4228,7 @@ snl_mbvoc
 snl_module_name
 1
 4
+31
 SunPower SPR-210-BLK [2007 (E)]
 snl_module_structure
 1
@@ -4218,6 +4269,7 @@ snl_ref_b
 snl_ref_conditions
 1
 4
+63
 Total Irradiance = 1000 W/m2, Air mass = 1.5, Cell temp = 25 'C
 snl_ref_dT
 1
@@ -4312,10 +4364,12 @@ snl_ref_voc_temp_0
 snl_sandia_notes
 1
 4
+70
 Source: Sandia National Laboratories Updated 9/25/2012 Module Database
 snl_sandia_vintage
 1
 4
+8
 2007 (E)
 snl_series_cells
 1
@@ -4362,19 +4416,23 @@ snl_voco
 solar_data_file_name
 1
 4
-C:\SAM\2018.7.17\solar_resource\USA AZ Phoenix (TMY2).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 solar_data_source
 1
 4
-TMY2
+5
+NSRDB
 solar_resource
 1
 4
-USA AZ Phoenix (TMY2)
+45
+phoenix_az_33.448377_-112.074037_psmv3_60_tmy
 solar_resource_file
 1
 4
-C:\SAM\2018.7.17\solar_resource\USA AZ Phoenix (TMY2).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 spe_a
 1
 1
@@ -4420,6 +4478,7 @@ spe_dT
 spe_data_filename
 1
 4
+9
 <invalid>
 spe_eff0
 1
@@ -4532,7 +4591,8 @@ spe_voc
 state
 1
 4
-AZ
+1
+-
 state_tax_rate
 1
 2
@@ -4542,7 +4602,8 @@ state_tax_rate
 station_id
 1
 4
-23183
+6
+310820
 strings_in_parallel
 1
 1
@@ -5451,6 +5512,7 @@ ur_desc_is_shown
 ur_description
 1
 4
+298
 This rate schedule is applicable to all Standard Offer and Direct Access electric service required for residential purposes in individual private dwellings and in individually metered apartments when such service is supplied at one site through one point of delivery and measured through one meter.
 ur_ec_is_shown
 1
@@ -5513,6 +5575,7 @@ ur_en_ts_sell_rate
 ur_end_date
 1
 4
+5
 empty
 ur_energy_history
 1
@@ -5553,6 +5616,7 @@ ur_monthly_min_charge
 ur_name
 1
 4
+25
 Arizona Public Service Co
 ur_nm_yearend_sell_rate
 1
@@ -5563,22 +5627,25 @@ ur_nm_yearend_sell_rate
 ur_phase_wiring
 1
 4
- 
+0
 ur_ratedata_filename
 1
 4
- 
+0
 ur_schedule_name
 1
 4
+19
 Residential TOU ET2
 ur_source
 1
 4
+42
 https://www.aps.com/library/rates/et-2.pdf
 ur_start_date
 1
 4
+9
 <invalid>
 ur_ts_sell_rate
 1
@@ -5590,11 +5657,12 @@ ur_ts_sell_rate
 ur_uri
 1
 4
+9
 <invalid>
 ur_voltage_category
 1
 4
- 
+0
 ur_voltage_max
 1
 1
@@ -5634,7 +5702,7 @@ user_modules_per_string
 user_specified_weather_file
 1
 4
- 
+0
 user_strings_in_parallel
 1
 1

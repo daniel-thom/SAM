@@ -946,7 +946,7 @@ a_error_test_number
  
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -960,10 +960,11 @@ a_error_test_string
  
  
 Wind Turbine
- 
+0
 8
 1
 4
+17
 "default err msg"
 Default
 resource_definition_type
@@ -972,7 +973,7 @@ resource_definition_type
  
  
 Wind Turbine
- 
+0
 0
 1
 1
@@ -986,6 +987,7 @@ wind.turbine.blade_design
 Blade design
  
 Wind Turbine
+24
 Baseline|Advanced Design
 2
 1
@@ -1000,6 +1002,7 @@ wind.turbine.drive_train
 Drive train design
  
 Wind Turbine
+81
 3 Stage Planetary|Single Stage - Low Speed Generator|Multi-Generator|Direct Drive
 2
 1
@@ -1014,7 +1017,7 @@ wind.turbine.dummy
  
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -1028,7 +1031,7 @@ wind.turbine.elevation
 Turbine elevation (above sea level)
  
 Wind Turbine
- 
+0
 0
 1
 1
@@ -1042,7 +1045,7 @@ wind.turbine.max_tip_speed
 Maximum tip speed
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1056,7 +1059,7 @@ wind.turbine.max_tspeed_ratio
 Maximum tip-speed ratio
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1070,10 +1073,11 @@ wind.turbine.name_only
  
  
 Wind Turbine
- 
+0
 8
 1
 4
+1
 0
 Default
 wind.turbine.radio_list_or_design
@@ -1082,6 +1086,7 @@ wind.turbine.radio_list_or_design
  
  
 Wind Turbine
+71
 Select a turbine from the library|Define turbine design characteristics
 0
 1
@@ -1096,7 +1101,7 @@ wind.turbine.region2nhalf_slope
  
  
 Wind Turbine
- 
+0
 0
 1
 1
@@ -1110,6 +1115,7 @@ wind.turbine.tower_design
 Tower design
  
 Wind Turbine
+24
 Baseline|Advanced Design
 2
 1
@@ -1124,7 +1130,7 @@ wind_resource_shear
 Shear coefficient
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1138,10 +1144,11 @@ wind_turbine_IEC_Class_from_lib
  
  
 Wind Turbine
- 
+0
 8
 1
 4
+1
 3
 Default
 wind_turbine_cut_out
@@ -1150,7 +1157,7 @@ wind_turbine_cut_out
 Cut-out wind speed
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1164,7 +1171,7 @@ wind_turbine_cutin
 Cut-in wind speed
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1178,7 +1185,7 @@ wind_turbine_hub_ht
 Hub height
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1192,7 +1199,7 @@ wind_turbine_kw_rating
 Rated output
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -1206,7 +1213,7 @@ wind_turbine_kw_rating_from_lib
  
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -1220,7 +1227,7 @@ wind_turbine_kw_rating_input
 User-defined rated output
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1234,7 +1241,7 @@ wind_turbine_max_cp
 Maximum Cp
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1248,11 +1255,11 @@ wind_turbine_powercurve_err_msg
  
  
 Wind Turbine
- 
+0
 8
 1
 4
- 
+0
 Default
 wind_turbine_powercurve_hub_efficiency
 3
@@ -1260,7 +1267,7 @@ wind_turbine_powercurve_hub_efficiency
  
  
 Wind Turbine
- 
+0
 8
 1
 2
@@ -1274,7 +1281,7 @@ wind_turbine_powercurve_powerout
  
  
 Wind Turbine
- 
+0
 8
 1
 2
@@ -1288,7 +1295,7 @@ wind_turbine_powercurve_powerout_from_lib
  
  
 Wind Turbine
- 
+0
 8
 1
 2
@@ -1302,7 +1309,7 @@ wind_turbine_powercurve_windspeeds
  
  
 Wind Turbine
- 
+0
 8
 1
 2
@@ -1316,7 +1323,7 @@ wind_turbine_powercurve_windspeeds_from_lib
  
  
 Wind Turbine
- 
+0
 8
 1
 2
@@ -1330,7 +1337,7 @@ wind_turbine_rated_wind_speed
  
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -1344,7 +1351,7 @@ wind_turbine_rotor_diameter
 Rotor diameter
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -1358,7 +1365,7 @@ wind_turbine_rotor_diameter_from_lib
  
  
 Wind Turbine
- 
+0
 8
 1
 1
@@ -1372,7 +1379,7 @@ wind_turbine_rotor_diameter_input
 User-defined rotor diameter
  
 Wind Turbine
- 
+0
 2
 1
 1
@@ -1386,10 +1393,12 @@ wind_turbine_selection
 Wind Turbine Selection
  
 Wind Turbine
+15
 Wind Turbines|0
 19
 1
 4
+15
 Bergey BWC XL.1
 Library
 

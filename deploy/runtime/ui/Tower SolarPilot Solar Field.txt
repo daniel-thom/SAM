@@ -2624,7 +2624,7 @@ A_sf_UI
 Total reflective area
 m²
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2638,7 +2638,7 @@ I_bn_des
  
  
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2652,7 +2652,7 @@ c_atm_0
 Polynomial coefficient 0
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2666,7 +2666,7 @@ c_atm_1
 Polynomial coefficient 1
 1/km
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2680,7 +2680,7 @@ c_atm_2
 Polynomial coefficient 2
 1/km²
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2694,7 +2694,7 @@ c_atm_3
 Polynomial coefficient 3
 1/km³
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2708,7 +2708,7 @@ c_atm_info
 Average attenuation loss
 %
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2722,6 +2722,7 @@ cant_type
 Heliostat canting method
  
 Heliostat Field
+52
 None|On-axis|Equinox|Summer Solstice|Winter Solstice
 2
 1
@@ -2736,7 +2737,7 @@ check_max_flux
 check_max_flux (not used in UI)
  
 Heliostat Field
- 
+0
 0
 1
 1
@@ -2750,7 +2751,7 @@ csp.pt.sf.fixed_land_area
 Non-solar field land area
 acres
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2764,7 +2765,7 @@ csp.pt.sf.heliostat_area
 Single heliostat area
 m²
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2778,7 +2779,7 @@ csp.pt.sf.land_overhead_factor
 Solar field land area multiplier
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2792,7 +2793,7 @@ csp.pt.sf.total_land_area
 Total land area
 acres
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2806,7 +2807,7 @@ csp.pt.sf.tower_height
 Tower height
 m
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2820,7 +2821,7 @@ dens_mirror
 Ratio of reflective area to profile
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2834,7 +2835,7 @@ dni_des_calc
 Design-point DNI
 W/m²
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2848,7 +2849,7 @@ error_equiv
 Reflected image conical error
 mrad
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2862,7 +2863,7 @@ field_model_type
 solar field model type
 0=design field and tower/receiver geometry 1=design field 2=user field, calculate performance 3=user performance maps vs solar position
  
- 
+0
 8
 1
 1
@@ -2876,6 +2877,7 @@ focus_type
 Heliostat focusing method
  
 Heliostat Field
+10
 Flat|Ideal
 2
 1
@@ -2890,7 +2892,7 @@ hel_stow_deploy
 Heliostat stow/deploy angle
 deg
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2904,7 +2906,7 @@ helio_active_fraction
 Heliostat availability
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2918,7 +2920,7 @@ helio_area_tot
 Total heliostat reflective area
 m²
 Heliostat Field
- 
+0
 8
 1
 1
@@ -2932,7 +2934,7 @@ helio_height
 Heliostat height
 m
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2946,7 +2948,7 @@ helio_optical_error_mrad
 Image error (slope, single-axis)
 mrad
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2960,7 +2962,7 @@ helio_positions
 User-specified field
  
 Heliostat Field
- 
+0
 1
 1
 3
@@ -2975,7 +2977,7 @@ helio_reflectance
 Mirror reflectance and soiling
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -2989,7 +2991,7 @@ helio_width
 Heliostat width
 m
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3003,7 +3005,7 @@ is_optimize
  
  
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3017,7 +3019,7 @@ land_area_base
 Base land area
 acres
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3031,7 +3033,7 @@ land_max
 Max. heliostat distance to tower height ratio
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3045,7 +3047,7 @@ land_max_calc
 Maximum distance from tower
 m
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3059,7 +3061,7 @@ land_min
 Min. heliostat distance to tower height ratio
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3073,7 +3075,7 @@ land_min_calc
 Minimum distance from tower
 m
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3087,7 +3089,7 @@ n_azi
 Number of azimuth angle data points in file
  
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3101,7 +3103,7 @@ n_facet_x
 Number of heliostat facets - X
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3115,7 +3117,7 @@ n_facet_y
 Number of heliostat facets - Y
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3129,7 +3131,7 @@ n_hel
 Number of heliostats
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3143,7 +3145,7 @@ n_zen
 Number of zenith angle data points in file
  
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3157,6 +3159,7 @@ opt_algorithm
 Optimization algorithm
  
 Heliostat Field
+45
 BOBYQA|COBYLA|NEWOUA|Nelder-Mead|Subplex|RSGS
 2
 1
@@ -3171,7 +3174,7 @@ opt_conv_tol
 Optimization convergence tolerance
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3185,7 +3188,7 @@ opt_flux_penalty
 Over-flux objective penalty factor
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3199,7 +3202,7 @@ opt_init_step
 Initial optimization step size
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3213,7 +3216,7 @@ opt_max_iter
 Maximum optimization iterations
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3227,7 +3230,7 @@ override_layout
 Always layout automatically
  
 Heliostat Field
- 
+0
 3
 1
 1
@@ -3241,7 +3244,7 @@ override_opt
 Always optimize
  
 Heliostat Field
- 
+0
 3
 1
 1
@@ -3255,7 +3258,7 @@ p_start
 Heliostat startup energy
 kWe-hr
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3269,7 +3272,7 @@ p_track
 Heliostat tracking power
 kWe
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3283,7 +3286,7 @@ q_design
  
  
 Heliostat Field
- 
+0
 8
 1
 1
@@ -3297,7 +3300,7 @@ sf_adjust
 Field output adjustment
  
 Heliostat Field
- 
+0
 1
 1
 5
@@ -3310,7 +3313,7 @@ v_wind_max
 Wind stow speed
 m/s
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3324,7 +3327,7 @@ washing_frequency
 Washes per year
  
 Heliostat Field
- 
+0
 2
 1
 1
@@ -3338,7 +3341,7 @@ water_usage_per_wash
 Water usage per wash
 L/m²,aper.
 Heliostat Field
- 
+0
 2
 1
 1

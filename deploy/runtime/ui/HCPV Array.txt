@@ -1815,7 +1815,7 @@ adjust
 Performance adjustment
  
 HCPV Array
- 
+0
 1
 1
 5
@@ -1828,7 +1828,7 @@ array_ac_wiring_loss
 AC wiring loss factor
 0..1
 HCPV Array
- 
+0
 0
 1
 1
@@ -1842,7 +1842,7 @@ array_dc_mismatch_loss
 DC module mismatch loss factor
 0..1
 HCPV Array
- 
+0
 0
 1
 1
@@ -1856,7 +1856,7 @@ array_dc_wiring_loss
 DC wiring loss factor
 0..1
 HCPV Array
- 
+0
 0
 1
 1
@@ -1870,7 +1870,7 @@ array_diode_conn_loss
 Diodes and connections loss factor
 0..1
 HCPV Array
- 
+0
 0
 1
 1
@@ -1884,7 +1884,7 @@ array_enable_azalt_sf
 Enable azimuth by altitude shading factors
  
 HCPV Array
- 
+0
 3
 1
 1
@@ -1898,7 +1898,7 @@ array_modules_per_tracker
 Modules on each tracker
  
 HCPV Array
- 
+0
 0
 1
 1
@@ -1912,7 +1912,7 @@ array_monthly_soiling
 Monthly soiling factors
  
 HCPV Array
- 
+0
 0
 1
 2
@@ -1927,7 +1927,7 @@ array_num_inverters
 Number of inverters
  
 HCPV Array
- 
+0
 8
 1
 1
@@ -1941,7 +1941,7 @@ array_num_trackers
 Number of trackers
  
 HCPV Array
- 
+0
 0
 1
 1
@@ -1955,7 +1955,7 @@ array_rlim_az_max
 Tracker azimuth angle limit maximum
 deg
 HCPV Array
- 
+0
 1
 1
 1
@@ -1969,7 +1969,7 @@ array_rlim_az_min
 Tracker azimuth angle limit minimum
 deg
 HCPV Array
- 
+0
 1
 1
 1
@@ -1983,7 +1983,7 @@ array_rlim_el_max
 Tracker elevation angle limit maximum
 deg
 HCPV Array
- 
+0
 1
 1
 1
@@ -1997,7 +1997,7 @@ array_rlim_el_min
 Tracker elevation angle limit minimum
 deg
 HCPV Array
- 
+0
 1
 1
 1
@@ -2011,7 +2011,7 @@ array_tracker_power_fraction
 Single tracker power (fraction of DC nameplate)
 0..1
 HCPV Array
- 
+0
 2
 1
 1
@@ -2025,7 +2025,7 @@ array_tracking_error
 General tracking error
 0..1
 HCPV Array
- 
+0
 0
 1
 1
@@ -2039,7 +2039,7 @@ array_wind_stow_speed
 Max allowed wind speed before stowing
 m/s
 HCPV Array
- 
+0
 0
 1
 1
@@ -2053,7 +2053,7 @@ azaltsf
  
  
 HCPV Array
- 
+0
 0
 1
 3
@@ -2068,7 +2068,7 @@ hcpv.array.ac_capacity
 Inverter AC capacity
 kWac
 HCPV Array
- 
+0
 8
 1
 1
@@ -2082,7 +2082,7 @@ hcpv.array.average_soiling
 Average annual soiling loss
 0..1
 HCPV Array
- 
+0
 8
 1
 1
@@ -2096,7 +2096,7 @@ hcpv.array.nameplate
 System nameplate capacity
 kWdc
 HCPV Array
- 
+0
 8
 1
 1
@@ -2110,7 +2110,7 @@ hcpv.array.overall_est_eff
 Estimated overall system conversion efficiency
 %
 HCPV Array
- 
+0
 8
 1
 1
@@ -2124,7 +2124,7 @@ hcpv.array.packing_factor
 Packing factor
  
 HCPV Array
- 
+0
 0
 1
 1
@@ -2138,7 +2138,7 @@ hcpv.array.single_tracker_nameplate
 Single tracker nameplate capacity
 kWdc
 HCPV Array
- 
+0
 8
 1
 1
@@ -2152,7 +2152,7 @@ hcpv.array.total_land_area
 Total land area
 acres
 HCPV Array
- 
+0
 8
 1
 1
@@ -2166,7 +2166,7 @@ hcpv.array.tracker_power
 Single tracker power during operation
 W
 HCPV Array
- 
+0
 8
 1
 1
@@ -2180,7 +2180,7 @@ system_capacity
 System nameplate capacity
  
 HCPV Array
- 
+0
 8
 1
 1

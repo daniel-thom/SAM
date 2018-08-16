@@ -412,7 +412,7 @@ ac_lifetime_losses
 Lifetime daily AC losses
 %
  
- 
+0
 3
 1
 2
@@ -426,7 +426,7 @@ dc_degradation
 Module degradation rate
 %/year
 Degradation
- 
+0
 2
 1
 2
@@ -440,7 +440,7 @@ dc_lifetime_losses
 Lifetime daily DC losses
 %
  
- 
+0
 3
 1
 2
@@ -454,7 +454,7 @@ en_ac_lifetime_losses
 Enable AC lifetime losses
  
  
- 
+0
 3
 1
 1
@@ -468,7 +468,7 @@ en_dc_lifetime_losses
 Enable DC lifetime losses
  
  
- 
+0
 3
 1
 1

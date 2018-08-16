@@ -1,5 +1,5 @@
 1
-81
+87
 FRUL
 1
 1
@@ -141,6 +141,7 @@ azimuth
 city
 1
 4
+10
 Des Moines
 coll_mode
 1
@@ -151,6 +152,7 @@ coll_mode
 country
 1
 4
+3
 USA
 custom_mains
 1
@@ -188,6 +190,7 @@ elev
 file_name
 1
 4
+78
 C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA IA Des Moines (TMY2).csv
 fluid
 1
@@ -207,6 +210,28 @@ iam
 1
 1
 0.200000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 irrad_mode
 1
 1
@@ -222,7 +247,17 @@ lat
 lbl_csp
 1
 4
- 
+0
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 lon
 1
 1
@@ -302,18 +337,22 @@ sky_model
 solar_data_file_name
 1
 4
+78
 C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA IA Des Moines (TMY2).csv
 solar_data_source
 1
+4
 4
 TMY2
 solar_resource
 1
 4
-USA IA Des Moines (TMY2)
+45
+alamosa_co_37.469449_-105.870021_psmv3_60_tmy
 solar_resource_file
 1
 4
+78
 C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA IA Des Moines (TMY2).csv
 srcc_FRUL
 1
@@ -342,14 +381,17 @@ srcc_iam
 srcc_item
 1
 4
+28
 Heliodyne  Inc. Gobi 408 013
 srcc_num
 1
 4
+9
 2007026C 
 srcc_test_flow
 1
 4
+6
 0.0498
 srcc_test_fluid
 1
@@ -360,18 +402,22 @@ srcc_test_fluid
 srcc_test_fluid_display
 1
 4
+5
 Water
 srcc_type
 1
 4
+17
 Glazed Flat-Plate
 state
 1
 4
+2
 IA
 station_id
 1
 4
+5
 14933
 system_capacity
 1
@@ -466,7 +512,7 @@ user_iam
 user_specified_weather_file
 1
 4
- 
+0
 user_test_flow
 1
 1

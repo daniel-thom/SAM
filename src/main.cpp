@@ -1538,20 +1538,16 @@ bool InputPageData::Read_text(wxInputStream &is)
 	ok = ok && m_form.Read_text(is);
 	ok = ok && m_vars.Read_text(is);
 	m_eqnScript.Clear();
-	
 	size_t n = in.Read32();
 	if (n > 0)
 	{
-//		in.GetChar();
 		for (size_t i = 0; i < n; i++)
 				m_eqnScript.Append(in.GetChar());
 	}
-//	in.GetChar();
 	m_cbScript.Clear();
 	n = in.Read32();
 	if (n > 0)
 	{
-//		in.GetChar();
 		for (size_t i = 0; i < n; i++)
 			m_cbScript.Append(in.GetChar());
 	}

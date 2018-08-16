@@ -310,7 +310,7 @@ analysis_period
 Analysis period
 years
 Financial Analysis Parameters
- 
+0
 2
 1
 1
@@ -324,11 +324,11 @@ analysis_period_warning
 Analysis Period Warning
  
 Financial Analysis Parameters
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 inflation_rate
 3
@@ -336,7 +336,7 @@ inflation_rate
 Inflation rate
 %/year
 Financial Analysis Parameters
- 
+0
 2
 1
 1
@@ -350,7 +350,7 @@ nominal_discount_rate
 Nominal discount rate
 %/year
 Financial Analysis Parameters
- 
+0
 8
 1
 1
@@ -364,7 +364,7 @@ real_discount_rate
 Real discount rate
 %/year
 Financial Analysis Parameters
- 
+0
 2
 1
 1

@@ -1176,7 +1176,7 @@ PB_COPY_T_htf_cold_des
 Design htf cold temp
 C
  
- 
+0
 8
 1
 1
@@ -1190,7 +1190,7 @@ PB_COPY_T_htf_hot_des
  
 C
  
- 
+0
 8
 1
 1
@@ -1204,7 +1204,7 @@ PB_COPY_htf_cp_avg
 htf spec heat at avg temp
 kJ/kg-K
  
- 
+0
 8
 1
 1
@@ -1218,7 +1218,7 @@ PB_COPY_q_pb_design
 Design PC thermal power
 MWt
  
- 
+0
 8
 1
 1
@@ -1232,7 +1232,7 @@ PB_m_dot_htf_cycle_des
 Cycle design HTF mass flow rate
 kg/s
  
- 
+0
 8
 1
 1
@@ -1246,7 +1246,7 @@ P_ref
 Design gross output
 MWe
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1260,7 +1260,7 @@ T_set_aux
 Aux heater outlet set temp
 °C
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1274,7 +1274,7 @@ T_startup
 Minimum required startup temp
 'C
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1288,7 +1288,7 @@ W_pb_design
 Rated plant capacity
 MWe
 Physical Trough Power Cycle
- 
+0
 9
 1
 1
@@ -1302,7 +1302,7 @@ adjust
  
  
 Physical Trough Power Cycle
- 
+0
 1
 1
 5
@@ -1315,6 +1315,7 @@ comb_fossil_mode
 Fossil dispatch mode
  
 Physical Trough Power Cycle
+43
 Minimum backup level|Supplemental operation
 2
 1
@@ -1329,7 +1330,7 @@ csp.dtr.pwrb.design_inlet_temp
 Design inlet temperature
 °C
 Physical Trough Power Cycle
- 
+0
 8
 1
 1
@@ -1343,7 +1344,7 @@ csp.dtr.pwrb.design_outlet_temp
 Design outlet temperature
 °C
 Physical Trough Power Cycle
- 
+0
 8
 1
 1
@@ -1357,7 +1358,7 @@ csp.dtr.pwrb.gross_net_conversion_factor
 Estimated gross to net conversion factor
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1371,7 +1372,7 @@ csp.dtr.pwrb.nameplate
 Estimated net output at design (nameplate)
 MWe
 Physical Trough Power Cycle
- 
+0
 8
 1
 1
@@ -1385,7 +1386,7 @@ cycle_cutoff_frac
 Min turbine operation 
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1399,7 +1400,7 @@ cycle_max_frac
 Max turbine over design operation
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1413,7 +1414,7 @@ eta_lhv
 Fossil backup boiler LHV efficiency
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1427,7 +1428,7 @@ eta_ref
 Rated cycle conversion efficiency
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1441,7 +1442,7 @@ fossil_mode
 Fossil backup mode 1=Normal 2=Topping
  
 Physical Trough Power Cycle
- 
+0
 9
 1
 1
@@ -1455,7 +1456,7 @@ q_max_aux
 Max heat rate of auxiliary heater
  
 Physical Trough Power Cycle
- 
+0
 9
 1
 1
@@ -1469,7 +1470,7 @@ q_pb_design
 Design heat input to power block
 MWt
 Physical Trough Power Cycle
- 
+0
 9
 1
 1
@@ -1483,7 +1484,7 @@ q_sby_frac
 Fraction of thermal power needed for standby
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1497,7 +1498,7 @@ startup_frac
 Fraction of thermal power needed for startup
  
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1511,7 +1512,7 @@ startup_time
 Power block startup time
 hr
 Physical Trough Power Cycle
- 
+0
 2
 1
 1
@@ -1525,7 +1526,7 @@ system_capacity
  
  
 Physical Trough Power Cycle
- 
+0
 8
 1
 1
@@ -1539,7 +1540,7 @@ t_standby_reset
 Low resource standby period
 hrs
 Physical Trough Power Cycle
- 
+0
 2
 1
 1

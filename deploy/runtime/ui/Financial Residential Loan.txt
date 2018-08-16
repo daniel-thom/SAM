@@ -515,7 +515,7 @@ debt_fraction
 Debt fraction
 %
 Residential Loan Parameters
- 
+0
 2
 1
 1
@@ -529,7 +529,7 @@ loan_amount
 Principal
  
 Residential Loan Parameters
- 
+0
 8
 1
 1
@@ -543,7 +543,7 @@ loan_rate
 Loan rate
 %/year
 Residential Loan Parameters
- 
+0
 2
 1
 1
@@ -557,7 +557,7 @@ loan_term
 Loan term
 years
 Residential Loan Parameters
- 
+0
 2
 1
 1
@@ -571,6 +571,7 @@ mortgage
 Residential loan type (0=Standard, 1=Mortgage)
  
 Residential Loan Parameters
+22
 Standard loan|Mortgage
 3
 1
@@ -585,7 +586,7 @@ wacc
 WACC
 %
 Residential Loan Parameters
- 
+0
 8
 1
 1

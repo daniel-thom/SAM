@@ -654,7 +654,7 @@ module_area
 Module area
 m²
 Shading and Snow
- 
+0
 8
 1
 1
@@ -668,7 +668,7 @@ shading_3d_scene
 Open 3D shade calculator
  
 Shading and Snow
- 
+0
 0
 1
 6
@@ -680,7 +680,7 @@ subarray1_gcr_ref
 GCR
 m
 Shading and Snow
- 
+0
 0
 1
 1
@@ -694,6 +694,7 @@ subarray1_mod_orient
 Module orientation
  
 Shading and Snow
+19
 Portrait| Landscape
 2
 1
@@ -708,7 +709,7 @@ subarray1_nmodx
 Number of modules along bottom of row
  
 Shading and Snow
- 
+0
 2
 1
 1
@@ -722,7 +723,7 @@ subarray1_nmody
 Number of modules along side of row
  
 Shading and Snow
- 
+0
 2
 1
 1
@@ -736,7 +737,7 @@ subarray1_ref_nmodules
 Number of modules 1
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -750,6 +751,7 @@ subarray1_shade_mode
 Self shading mode
  
 Shading and Snow
+45
 None|Standard (Non-linear)|Thin film (Linear)
 2
 1
@@ -764,7 +766,7 @@ subarray1_shading
 Edit shading losses 1
  
 Shading and Snow
- 
+0
 3
 1
 5
@@ -777,7 +779,7 @@ ui_subarray1_length_side
 Length of subarray side
  
 Shading and Snow
- 
+0
 8
 1
 1
@@ -791,7 +793,7 @@ ui_subarray1_nrows
 Number of rows
  
 Shading and Snow
- 
+0
 8
 1
 1
@@ -805,7 +807,7 @@ ui_subarray1_row_spacing
 Row spacing
 m
 Shading and Snow
- 
+0
 8
 1
 1
@@ -819,7 +821,7 @@ ui_subarray2_length_side
 Length of subarray side 2
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -833,7 +835,7 @@ ui_subarray2_nrows
 Number of rows 2
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -847,7 +849,7 @@ ui_subarray2_row_spacing
 Row spacing 2
 m
 Shading and Snow
- 
+0
 9
 1
 1
@@ -861,7 +863,7 @@ ui_subarray3_length_side
 Length of subarray side 3
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -875,7 +877,7 @@ ui_subarray3_nrows
 Number of rows 3
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -889,7 +891,7 @@ ui_subarray3_row_spacing
 Row spacing 3
 m
 Shading and Snow
- 
+0
 9
 1
 1
@@ -903,7 +905,7 @@ ui_subarray4_length_side
 Length of subarray side 4
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -917,7 +919,7 @@ ui_subarray4_nrows
 Number of rows 4
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -931,7 +933,7 @@ ui_subarray4_row_spacing
 Row spacing 4
 m
 Shading and Snow
- 
+0
 9
 1
 1

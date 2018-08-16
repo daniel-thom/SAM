@@ -74,7 +74,7 @@ LeadAcid_q10
 10 hour discharge rate
 %
 Battery
- 
+0
 2
 1
 1
@@ -88,7 +88,7 @@ LeadAcid_q10_computed
  
 Ah
  
- 
+0
 8
 1
 1
@@ -102,7 +102,7 @@ LeadAcid_q20
 20 hour discharge rate
 %
 Battery
- 
+0
 2
 1
 1
@@ -116,7 +116,7 @@ LeadAcid_q20_computed
  
 Ah
 Battery
- 
+0
 8
 1
 1
@@ -130,7 +130,7 @@ LeadAcid_qn
 Capacity at n-hour discharge rate
 %
 Battery
- 
+0
 1
 1
 1
@@ -144,7 +144,7 @@ LeadAcid_qn_computed
  
 Ah
 Battery
- 
+0
 8
 1
 1
@@ -158,7 +158,7 @@ LeadAcid_tn
 n
 hours
 Battery
- 
+0
 1
 1
 1
@@ -172,7 +172,7 @@ batt_Qexp
  
 Ah
 battery
- 
+0
 9
 1
 1
@@ -186,7 +186,7 @@ batt_Qnom
  
 Ah
 battery
- 
+0
 9
 1
 1
@@ -200,7 +200,7 @@ batt_chem
 Choose battery chemistry type
  
 Battery
- 
+0
 9
 1
 1
@@ -214,7 +214,7 @@ batt_meter_position
 Location of battery relative to meter
  
 Battery
- 
+0
 0
 1
 1
@@ -228,6 +228,7 @@ batt_type
 Battery type
  
 Battery
+396
 Lead Acid: Flooded|Lead Acid: VRLA Gel|Lead Acid: VRLA AGM|Lead Acid: Custom|Lithium Ion: Lithium Manganese Oxide (LMO)|Lithium Ion: Lithium Iron Phosphate (LFP)|Lithium Ion: Lithium Cobalt Oxide (LCO)|Lithium Ion: Lithium Titanate (LTO)|Lithium Ion: Nickel Manganese Cobalt Oxide (NMC)|Lithium Ion: Nickel Cobalt Aluminum Oxide (NCA)|Lithium Ion: Custom|Flow Battery: Vanadium|Flow Battery: Iron
 2
 1

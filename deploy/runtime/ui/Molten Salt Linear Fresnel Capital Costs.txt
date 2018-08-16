@@ -2951,7 +2951,7 @@ csp.mslf.cost.bop
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -2965,7 +2965,7 @@ csp.mslf.cost.bop_mwe
 Balance of plant
 MWe, Gross
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -2979,7 +2979,7 @@ csp.mslf.cost.bop_per_kwe
 Balance of Plant Cost per kWe
 $/kWe
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -2993,7 +2993,7 @@ csp.mslf.cost.contingency
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3007,7 +3007,7 @@ csp.mslf.cost.contingency_percent
 Contingency
  
 MSLF Capital Costs
- 
+0
 2
 1
 1
@@ -3021,7 +3021,7 @@ csp.mslf.cost.epc.fixed
 Fixed EPC Cost
 $
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3035,7 +3035,7 @@ csp.mslf.cost.epc.per_acre
 EPC Costs acre
 per acre
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3049,7 +3049,7 @@ csp.mslf.cost.epc.per_watt
 EPC Cost Wac
 per Wac
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3063,7 +3063,7 @@ csp.mslf.cost.epc.percent
 EPC Costs % direct
 % direct
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3077,7 +3077,7 @@ csp.mslf.cost.epc.total
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3091,7 +3091,7 @@ csp.mslf.cost.fossil_backup
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3105,7 +3105,7 @@ csp.mslf.cost.fossil_backup.cost_per_kwe
 Fossil Backup Cost per kWe
 $/kWe
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3119,7 +3119,7 @@ csp.mslf.cost.fossil_backup.mwe
 Fossil backup
 MWe, Gross
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3133,7 +3133,7 @@ csp.mslf.cost.htf_system
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3147,7 +3147,7 @@ csp.mslf.cost.htf_system.area
 HTF system
 m²
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3161,7 +3161,7 @@ csp.mslf.cost.htf_system.cost_per_m2
 HTF System Cost Per m2
 $/m2
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3175,7 +3175,7 @@ csp.mslf.cost.installed_per_capacity
 Estimated total installed cost per net capacity ($/kW)
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3189,7 +3189,7 @@ csp.mslf.cost.nameplate
 Nameplate
 MWe
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3203,7 +3203,7 @@ csp.mslf.cost.plm.fixed
 Fixed Land Cost
 $
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3217,7 +3217,7 @@ csp.mslf.cost.plm.per_acre
 Land Cost acre
 per acre
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3231,7 +3231,7 @@ csp.mslf.cost.plm.per_watt
 Land Cost Wac
 per Wac
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3245,7 +3245,7 @@ csp.mslf.cost.plm.percent
 Land Cost % direct
 % direct
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3259,7 +3259,7 @@ csp.mslf.cost.plm.total
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3273,7 +3273,7 @@ csp.mslf.cost.power_plant
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3287,7 +3287,7 @@ csp.mslf.cost.power_plant.cost_per_kwe
 Power Plant Cost per kWe
 $/kWe
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3301,7 +3301,7 @@ csp.mslf.cost.power_plant.mwe
 Power plant
 MWe, Gross
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3315,7 +3315,7 @@ csp.mslf.cost.sales_tax.percent
 Sales Tax Percentage of Direct Cost
 %
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3329,7 +3329,7 @@ csp.mslf.cost.sales_tax.total
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3343,7 +3343,7 @@ csp.mslf.cost.sales_tax.value
 Sales Tax of
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3357,7 +3357,7 @@ csp.mslf.cost.site_improvements
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3371,7 +3371,7 @@ csp.mslf.cost.site_improvements.area
 Site improvements
 m²
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3385,7 +3385,7 @@ csp.mslf.cost.site_improvements.cost_per_m2
 Site Improvement Cost per m2
 $/m2
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3399,7 +3399,7 @@ csp.mslf.cost.solar_field
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3413,7 +3413,7 @@ csp.mslf.cost.solar_field.area
 Solar field
 m²
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3427,7 +3427,7 @@ csp.mslf.cost.solar_field.cost_per_m2
 Solar Field Cost per m2
 $/m2
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3441,7 +3441,7 @@ csp.mslf.cost.total_direct
 Total direct cost
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3455,7 +3455,7 @@ csp.mslf.cost.total_indirect
 Total indirect cost
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3469,7 +3469,7 @@ csp.mslf.cost.total_installed
 Total installed cost
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3483,7 +3483,7 @@ csp.mslf.cost.total_land_area
 Total land area
 acres
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3497,7 +3497,7 @@ csp.mslf.cost.ts
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3511,7 +3511,7 @@ csp.mslf.cost.ts_mwht
 Storage
 MWht
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3525,7 +3525,7 @@ csp.mslf.cost.ts_per_kwht
 Storage cost per kWht
 $/kWht
 MSLF Capital Costs
- 
+0
 3
 1
 1
@@ -3539,7 +3539,7 @@ system_use_lifetime_output
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3553,7 +3553,7 @@ system_use_recapitalization
  
  
 MSLF Capital Costs
- 
+0
 8
 1
 1
@@ -3567,7 +3567,7 @@ total_direct_cost
  
  
  
- 
+0
 8
 1
 1
@@ -3581,7 +3581,7 @@ total_installed_cost
  
  
  
- 
+0
 8
 1
 1

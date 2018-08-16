@@ -927,7 +927,7 @@ ur_demand_history
 Demand history
 months
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -941,7 +941,7 @@ ur_demand_max
 Demand maximum
 kW
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -955,7 +955,7 @@ ur_demand_min
 Demand minimum
 kW
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -969,10 +969,11 @@ ur_description
 Description
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 MultilineText
 ur_end_date
@@ -981,10 +982,11 @@ ur_end_date
  
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 TextEntry
 ur_energy_history
@@ -993,7 +995,7 @@ ur_energy_history
 Energy history
 months
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -1007,7 +1009,7 @@ ur_energy_max
 Energy maximum
 kWh
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -1021,7 +1023,7 @@ ur_energy_min
 Energy minimum
 kWh
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -1035,10 +1037,11 @@ ur_name
 Name
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 TextEntry
 ur_phase_wiring
@@ -1047,11 +1050,11 @@ ur_phase_wiring
 Phase wiring
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
- 
+0
 TextEntry
 ur_schedule_name
 3
@@ -1059,10 +1062,11 @@ ur_schedule_name
 Schedule
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 TextEntry
 ur_source
@@ -1071,10 +1075,11 @@ ur_source
 Source
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 TextEntry
 ur_start_date
@@ -1083,10 +1088,11 @@ ur_start_date
 Start date
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 TextEntry
 ur_uri
@@ -1095,10 +1101,11 @@ ur_uri
 URI
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
+5
 empty
 TextEntry
 ur_voltage_category
@@ -1107,11 +1114,11 @@ ur_voltage_category
 Voltage category
  
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 4
- 
+0
 TextEntry
 ur_voltage_max
 3
@@ -1119,7 +1126,7 @@ ur_voltage_max
 Voltage maximum
 V
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1
@@ -1133,7 +1140,7 @@ ur_voltage_min
 Voltage minimum
 V
 Electricity Rates - Description Metadata
- 
+0
 0
 1
 1

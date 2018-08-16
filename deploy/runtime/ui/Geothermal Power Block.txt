@@ -1894,7 +1894,7 @@ CT
  
  
 Geothermal Power Block
- 
+0
 8
 1
 1
@@ -1908,7 +1908,7 @@ HTF
 HTF
  
 Geothermal Power Block
- 
+0
 8
 1
 1
@@ -1922,7 +1922,7 @@ P_boil
 Boiler Operating Pressure
 bar
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -1936,7 +1936,7 @@ P_cond_min
 Minimum Condenser Pressure
 inHg
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -1950,7 +1950,7 @@ P_cond_ratio
 Condenser Pressure Ratio
  
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -1964,7 +1964,7 @@ T_ITD_des
 ITD at Design Point
 'C
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -1978,7 +1978,7 @@ T_amb_des
 Ambient Temperature at Design
 'C
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -1992,7 +1992,7 @@ T_approach
 Approach Temperature
 'C
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2006,7 +2006,7 @@ T_htf_cold_ref
 Design Outlet Temperature
 'C
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2020,7 +2020,7 @@ T_htf_hot_ref
 Design Inlet Temperature
 'C
 Geothermal Power Block
- 
+0
 8
 1
 1
@@ -2034,7 +2034,7 @@ dT_cw_ref
 Ref. Condenser Water dT
 'C
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2048,7 +2048,7 @@ degradation
  
  
  
- 
+0
 8
 1
 2
@@ -2062,7 +2062,7 @@ eta_ref
 Rated Cycle Conversion Efficiency
  
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2076,6 +2076,7 @@ geopowerblock.pwrb.condenser_type
 Condenser type
  
 Geothermal Power Block
+29
 Evaporative|Air-cooled|Hybrid
 2
 1
@@ -2090,10 +2091,11 @@ geopowerblock.pwrb.model_name
 Model Name
  
 Geothermal Power Block
- 
+0
 8
 1
 4
+1
 0
 Default
 geothermal_analysis_period
@@ -2102,7 +2104,7 @@ geothermal_analysis_period
  
  
  
- 
+0
 8
 1
 1
@@ -2116,7 +2118,7 @@ hc_ctl1
 Hybrid Dispatch Fraction Period 1
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2130,7 +2132,7 @@ hc_ctl2
 Hybrid Dispatch Fraction Period 2
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2144,7 +2146,7 @@ hc_ctl3
 Hybrid Dispatch Fraction Period 3
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2158,7 +2160,7 @@ hc_ctl4
 Hybrid Dispatch Fraction Period 4
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2172,7 +2174,7 @@ hc_ctl5
 Hybrid Dispatch Fraction Period 5
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2186,7 +2188,7 @@ hc_ctl6
 Hybrid Dispatch Fraction Period 6
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2200,7 +2202,7 @@ hc_ctl7
 Hybrid Dispatch Fraction Period 7
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2214,7 +2216,7 @@ hc_ctl8
 Hybrid Dispatch Fraction Period 8
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2228,7 +2230,7 @@ hc_ctl9
 Hybrid Dispatch Fraction Period 9
  
 Geothermal Power Block
- 
+0
 3
 1
 1
@@ -2242,7 +2244,7 @@ hr_pl_nlev
 Cooling System Part Load Levels
  
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2256,10 +2258,11 @@ hybrid_dispatch_schedule
  
  
 Geothermal Power Block
- 
+0
 0
 1
 4
+288
 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 TOUSchedule
 model_choice
@@ -2268,6 +2271,7 @@ model_choice
 Model:
  
 Geothermal Power Block
+44
 GETEM|Power Block Monthly|Power Block Hourly
 2
 1
@@ -2282,7 +2286,7 @@ pb_bd_frac
 Steam Cycle Blowdown Fraction
  
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2296,7 +2300,7 @@ q_sby_frac
 Fraction of thermal power needed for standby
  
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2310,7 +2314,7 @@ startup_frac
 Fraction of thermal power needed for startup
  
 Geothermal Power Block
- 
+0
 2
 1
 1
@@ -2324,7 +2328,7 @@ startup_time
 Power block startup time
 hr
 Geothermal Power Block
- 
+0
 2
 1
 1

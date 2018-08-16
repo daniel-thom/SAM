@@ -1,5 +1,5 @@
 1
-454
+460
 AntiFrPar
 1
 1
@@ -1039,37 +1039,37 @@ annual_beam
 1
 1
 1
-7.222795
+7.743129
 annual_diffuse
 1
 1
 1
 1
-1.406575
+1.277534
 annual_global
 1
 1
 1
 1
-5.790753
+5.930981
 annual_snow
 1
 1
 1
 1
-0.000000
+inf
 annual_tdry
 1
 1
 1
 1
-20.054384
+19.946054
 annual_wspd
 1
 1
 1
 1
-3.935262
+2.098402
 azimuth
 1
 1
@@ -1195,7 +1195,8 @@ capital_cost
 city
 1
 4
-Tucson
+1
+-
 cooling_tower_operation_mode
 1
 1
@@ -1205,7 +1206,8 @@ cooling_tower_operation_mode
 country
 1
 4
-USA
+1
+-
 diswos
 1
 2
@@ -1223,7 +1225,7 @@ elev
 1
 1
 1
-779.000000
+730.000000
 fdisp
 1
 2
@@ -1239,7 +1241,8 @@ ffrac
 file_name
 1
 4
-C:\SAM\2016.12.29_IPH_Beta\solar_resource\USA AZ Tucson (TMY2).csv
+84
+F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
 fixed_charge_rate
 1
 1
@@ -1255,6 +1258,7 @@ fixed_operating_cost
 hce_library
 1
 4
+24
 2008 Schott PTR70 Vacuum
 i_SfTi
 1
@@ -1262,16 +1266,38 @@ i_SfTi
 1
 1
 -999.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 lat
 1
 1
 1
 1
-32.116699
+32.209999
 lbl_csp
 1
 4
- 
+0
 lib_Ave_Focal_Length
 1
 1
@@ -1683,10 +1709,12 @@ lib_hce_broken_glass
 lib_hce_condition
 1
 4
+6
 Vacuum
 lib_hce_name
 1
 4
+17
 2008 Schott PTR70
 lib_ui_par_antifreeze_const
 1
@@ -1739,10 +1767,12 @@ lib_ui_par_tes_const
 lib_ui_pb_description
 1
 4
+30
 Dry Cooled SEGS 80 MWe Turbine
 lib_ui_pb_type
 1
 4
+20
 Steam RH Dry Cooling
 lib_ui_sca_aperture_area
 1
@@ -1750,19 +1780,31 @@ lib_ui_sca_aperture_area
 1
 1
 470.299988
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 lon
 1
 1
 1
 1
--110.932999
+-110.980003
 parasitics_library
 1
 4
+19
 SEGS VIII Reference
 pb_library
 1
 4
+30
 Dry Cooled SEGS 80 MWe Turbine
 qdisp
 1
@@ -1773,31 +1815,38 @@ qdisp
 sca_library
 1
 4
+16
 Solargenix SGX-1
 solar_data_file_name
 1
 4
-C:\SAM\2016.12.29_IPH_Beta\solar_resource\USA AZ Tucson (TMY2).csv
+84
+F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
 solar_data_source
 1
 4
-TMY2
+5
+NSRDB
 solar_resource
 1
 4
-USA AZ Tucson (TMY2)
+44
+tucson_az_32.222607_-110.974711_psmv3_60_tmy
 solar_resource_file
 1
 4
-C:\SAM\2016.12.29_IPH_Beta\solar_resource\USA AZ Tucson (TMY2).csv
+84
+F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
 state
 1
 4
-AZ
+1
+-
 station_id
 1
 4
-23160
+6
+334602
 system_capacity
 1
 1
@@ -2282,21 +2331,26 @@ ui_hce_broken_glass_4
 ui_hce_condition
 1
 4
+6
 Vacuum
 ui_hce_condition_1
 1
 4
+6
 Vacuum
 ui_hce_condition_2
 1
 4
+11
 Lost Vacuum
 ui_hce_condition_3
 1
 4
+12
 Broken Glass
 ui_hce_condition_4
 1
+4
 4
 none
 ui_hce_heat_losses_1
@@ -2350,21 +2404,26 @@ ui_hce_hl_term_4
 ui_hce_name
 1
 4
+17
 2008 Schott PTR70
 ui_hce_name_1
 1
 4
+17
 2008 Schott PTR70
 ui_hce_name_2
 1
 4
+17
 2008 Schott PTR70
 ui_hce_name_3
 1
 4
+17
 2008 Schott PTR70
 ui_hce_name_4
 1
+4
 4
 none
 ui_hce_opt_eff_1
@@ -2436,7 +2495,7 @@ ui_land_multiplier
 ui_lbl_cff_msg
 1
 4
- 
+0
 ui_lib_hce_heat_loss_factor_1
 1
 1
@@ -2560,6 +2619,7 @@ ui_par_turb_out_gr
 ui_pb_description
 1
 4
+30
 Dry Cooled SEGS 80 MWe Turbine
 ui_pb_q_design
 1
@@ -2570,6 +2630,7 @@ ui_pb_q_design
 ui_pb_type
 1
 4
+20
 Steam RH Dry Cooling
 ui_pfin
 1
@@ -2694,7 +2755,7 @@ use_specific_weather_file
 user_specified_weather_file
 1
 4
- 
+0
 variable_operating_cost
 1
 1

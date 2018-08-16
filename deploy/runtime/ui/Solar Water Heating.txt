@@ -2597,7 +2597,7 @@ FRUL
 FRUL
  
 Solar Water Heating
- 
+0
 10
 1
 1
@@ -2611,7 +2611,7 @@ FRta
 FRta
  
 Solar Water Heating
- 
+0
 10
 1
 1
@@ -2625,7 +2625,7 @@ T_room
 Mechanical room temperature
 C
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2639,7 +2639,7 @@ T_set
 Outlet set temperature
 C
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2653,7 +2653,7 @@ T_tank_max
 Solar tank maximum water temperature
 C
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2667,7 +2667,7 @@ U_tank
 Solar tank heat loss coefficient (U value)
 W/m2.C
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2681,7 +2681,7 @@ V_tank
 Solar tank volume
 m3
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2695,7 +2695,7 @@ adjust
 Performance adjustments
  
 Solar Water Heating
- 
+0
 1
 1
 5
@@ -2708,7 +2708,7 @@ albedo
 Albedo
 0..1
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2722,7 +2722,7 @@ annual_draw
 Total annual hot water draw
 kg/year
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -2736,7 +2736,7 @@ area_coll
 Collector area
 m2
 Solar Water Heating
- 
+0
 10
 1
 1
@@ -2750,7 +2750,7 @@ azimuth
 Azimuth
 deg
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2764,7 +2764,7 @@ coll_mode
  
  
 Solar Water Heating
- 
+0
 0
 1
 1
@@ -2778,7 +2778,7 @@ custom_mains
 Hourly custom mains profile
 C
  
- 
+0
 0
 1
 2
@@ -2792,7 +2792,7 @@ custom_set
 Hourly custom set temperatures
 C
  
- 
+0
 0
 1
 2
@@ -2806,7 +2806,7 @@ daily_draw
 Average daily hot water usage
 kg/day
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2820,7 +2820,7 @@ draw
 Hourly hot water draw profile
 kg/hr
  
- 
+0
 0
 1
 2
@@ -2834,6 +2834,7 @@ fluid
 Working fluid
  
 Solar Water Heating
+12
 Water|Glycol
 0
 1
@@ -2848,7 +2849,7 @@ hx_eff
 Heat exchanger effectiveness
 0..1
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2862,7 +2863,7 @@ iam
 Incidence angle modifier
  
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -2876,6 +2877,7 @@ irrad_mode
 Irradiance inputs
  
 Solar Water Heating
+31
 Beam and Diffuse|Total and Beam
 0
 1
@@ -2890,7 +2892,7 @@ mdot
 Total system flow rate
 kg/s
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2904,7 +2906,7 @@ ncoll
 Number of collectors
  
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2918,7 +2920,7 @@ pipe_diam
 Pipe diameter
 m
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2932,7 +2934,7 @@ pipe_insul
 Pipe insulation thickness
 m
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2946,7 +2948,7 @@ pipe_k
 Pipe insulation conductivity
 W/m.C
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2960,7 +2962,7 @@ pipe_length
 Total piping length in system
 m
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2974,7 +2976,7 @@ pump_eff
 Pump efficiency
 0..1
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -2988,7 +2990,7 @@ pump_power
 Pump power
 W
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3002,7 +3004,7 @@ scaled_draw
  
  
  
- 
+0
 8
 1
 2
@@ -3016,7 +3018,7 @@ shading
 Shading losses
  
  
- 
+0
 0
 1
 5
@@ -3029,7 +3031,7 @@ shading_3d_scene
  
  
  
- 
+0
 0
 1
 6
@@ -3041,6 +3043,7 @@ sky_model
 Diffuse sky model
  
 Solar Water Heating
+20
 Isotropic|HDKR|Perez
 0
 1
@@ -3055,7 +3058,7 @@ srcc_FRUL
 FRUL
 W/m2.C
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -3069,7 +3072,7 @@ srcc_FRta
 FRta
  
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -3083,7 +3086,7 @@ srcc_area
 Area
 m2
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -3097,7 +3100,7 @@ srcc_iam
 IAM
  
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -3111,10 +3114,12 @@ srcc_item
  
  
 Solar Water Heating
+17
 SRCC Collectors|0
 16
 1
 4
+28
 Heliodyne  Inc. Gobi 410 001
 Library
 srcc_num
@@ -3123,10 +3128,11 @@ srcc_num
 SRCC #
  
 Solar Water Heating
- 
+0
 8
 1
 4
+9
 <invalid>
 TextEntry
 srcc_test_flow
@@ -3135,10 +3141,11 @@ srcc_test_flow
 Test flow
 kg/s
 Solar Water Heating
- 
+0
 8
 1
 4
+1
 0
 TextEntry
 srcc_test_fluid
@@ -3147,6 +3154,7 @@ srcc_test_fluid
 Test fluid
  
 Solar Water Heating
+12
 Water|Glycol
 8
 1
@@ -3161,10 +3169,11 @@ srcc_test_fluid_display
 Test fluid
  
 Solar Water Heating
- 
+0
 8
 1
 4
+9
 <invalid>
 TextEntry
 srcc_type
@@ -3173,10 +3182,11 @@ srcc_type
 Type
  
 Solar Water Heating
- 
+0
 8
 1
 4
+9
 <invalid>
 TextEntry
 system_capacity
@@ -3185,7 +3195,7 @@ system_capacity
 Rated system size
 kW
  
- 
+0
 8
 1
 1
@@ -3199,7 +3209,7 @@ tank_h2d_ratio
 Solar tank height to diameter ratio
  
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3213,7 +3223,7 @@ test_flow
 Test flow
 kg/hr
  
- 
+0
 8
 1
 1
@@ -3227,6 +3237,7 @@ test_fluid
 Collector test fluid
  
 Solar Water Heating
+71
 =?${swh.coll_mode}[ ${swh.user_test_fluid}| ${swh.srcclib.test_fluid} ]
 8
 1
@@ -3241,7 +3252,7 @@ tilt
 Tilt
 deg
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3255,7 +3266,7 @@ total_area
 Total system collector area
 m2
 Solar Water Heating
- 
+0
 8
 1
 1
@@ -3269,7 +3280,7 @@ use_custom_mains
 Use custom mains profile
  
 Solar Water Heating
- 
+0
 0
 1
 1
@@ -3283,7 +3294,7 @@ use_custom_set
 Use custom set temperatures
  
 Solar Water Heating
- 
+0
 0
 1
 1
@@ -3297,7 +3308,7 @@ use_draw_scaling
 Scale draw profile to average daily usage
  
 Solar Water Heating
- 
+0
 0
 1
 1
@@ -3311,7 +3322,7 @@ user_FRUL
 FRUL
 W/m2.C
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3325,7 +3336,7 @@ user_FRta
 FRta
  
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3339,7 +3350,7 @@ user_area_coll
 Collector area
 m2
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3353,7 +3364,7 @@ user_iam
 Incidence angle modifier
  
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3367,7 +3378,7 @@ user_test_flow
 Test flow
 kg/s
 Solar Water Heating
- 
+0
 2
 1
 1
@@ -3381,6 +3392,7 @@ user_test_fluid
 Test fluid
  
 Solar Water Heating
+12
 Water|Glycol
 2
 1

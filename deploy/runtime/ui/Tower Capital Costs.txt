@@ -3774,7 +3774,7 @@ csp.pt.cost.bop
 Balance of plant cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -3788,7 +3788,7 @@ csp.pt.cost.bop_per_kwe
 Balance of plant cost
 $/kWe
 Capital Costs
- 
+0
 2
 1
 1
@@ -3802,7 +3802,7 @@ csp.pt.cost.contingency
 Contingency cost
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -3816,7 +3816,7 @@ csp.pt.cost.contingency_percent
 Contingency cost
 % of subtotal
 Capital Costs
- 
+0
 2
 1
 1
@@ -3830,7 +3830,7 @@ csp.pt.cost.epc.fixed
 EPC fixed cost
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -3844,7 +3844,7 @@ csp.pt.cost.epc.per_acre
 EPC cost per land area
 $/acre
 Capital Costs
- 
+0
 3
 1
 1
@@ -3858,7 +3858,7 @@ csp.pt.cost.epc.per_watt
 EPC cost per net capacity
 $/Wac
 Capital Costs
- 
+0
 3
 1
 1
@@ -3872,7 +3872,7 @@ csp.pt.cost.epc.percent
 EPC cost as percent of direct cost
 % direct
 Capital Costs
- 
+0
 3
 1
 1
@@ -3886,7 +3886,7 @@ csp.pt.cost.epc.total
 EPC and owner cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -3900,7 +3900,7 @@ csp.pt.cost.fixed_sf
 Heliostat field cost fixed
 $
 Capital Costs
- 
+0
 0
 1
 1
@@ -3914,7 +3914,7 @@ csp.pt.cost.fossil
 Fossil backup cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -3928,7 +3928,7 @@ csp.pt.cost.fossil_per_kwe
 Fossil backup cost
 $/kWe
 Capital Costs
- 
+0
 2
 1
 1
@@ -3942,7 +3942,7 @@ csp.pt.cost.heliostats
 Heliostat field cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -3956,7 +3956,7 @@ csp.pt.cost.heliostats_m2
 Reflective area
 m²
 Capital Costs
- 
+0
 8
 1
 1
@@ -3970,7 +3970,7 @@ csp.pt.cost.heliostats_per_m2
 Heliostat field cost
 $/m²
 Capital Costs
- 
+0
 2
 1
 1
@@ -3984,7 +3984,7 @@ csp.pt.cost.installed_per_capacity
 Estimated total installed cost per net capacity ($/kW)
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -3998,7 +3998,7 @@ csp.pt.cost.nameplate
 Cycle net (nameplate) capacity
 MWe
 Capital Costs
- 
+0
 8
 1
 1
@@ -4012,7 +4012,7 @@ csp.pt.cost.plm.fixed
 Land fixed cost
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -4026,7 +4026,7 @@ csp.pt.cost.plm.per_acre
 Land cost per land area
 $/acre
 Capital Costs
- 
+0
 3
 1
 1
@@ -4040,7 +4040,7 @@ csp.pt.cost.plm.per_watt
 Land cost per net capacity
 $/We
 Capital Costs
- 
+0
 3
 1
 1
@@ -4054,7 +4054,7 @@ csp.pt.cost.plm.percent
 Land cost as percent of direct cost
 % direct
 Capital Costs
- 
+0
 3
 1
 1
@@ -4068,7 +4068,7 @@ csp.pt.cost.plm.total
 Land cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4082,7 +4082,7 @@ csp.pt.cost.power_block
 Power cycle cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4096,7 +4096,7 @@ csp.pt.cost.power_block_mwe
 Cycle gross capacity
 MWe
 Capital Costs
- 
+0
 8
 1
 1
@@ -4110,7 +4110,7 @@ csp.pt.cost.power_block_per_kwe
 Power cycle cost
 $/kWe
 Capital Costs
- 
+0
 2
 1
 1
@@ -4124,7 +4124,7 @@ csp.pt.cost.rec_height
 Receiver height
 m
 Capital Costs
- 
+0
 8
 1
 1
@@ -4138,7 +4138,7 @@ csp.pt.cost.receiver
 Receiver cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4152,7 +4152,7 @@ csp.pt.cost.receiver.area
 Receiver area
 m²
 Capital Costs
- 
+0
 8
 1
 1
@@ -4166,7 +4166,7 @@ csp.pt.cost.receiver.ref_area
 Receiver reference area
 m²
 Capital Costs
- 
+0
 2
 1
 1
@@ -4180,7 +4180,7 @@ csp.pt.cost.receiver.ref_cost
 Receiver reference cost
 $
 Capital Costs
- 
+0
 2
 1
 1
@@ -4194,7 +4194,7 @@ csp.pt.cost.receiver.scaling_exp
 Receiver cost scaling exponent
  
 Capital Costs
- 
+0
 2
 1
 1
@@ -4208,7 +4208,7 @@ csp.pt.cost.sales_tax.percent
 Sales tax basis
 % of direct cost
 Capital Costs
- 
+0
 2
 1
 1
@@ -4222,7 +4222,7 @@ csp.pt.cost.sales_tax.total
 Sales tax total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4236,7 +4236,7 @@ csp.pt.cost.sales_tax.value
 Sales tax rate
 %
 Capital Costs
- 
+0
 8
 1
 1
@@ -4250,7 +4250,7 @@ csp.pt.cost.site_improvements
 Site improvement cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4264,7 +4264,7 @@ csp.pt.cost.site_improvements_m2
 Site improvement cost
 m²
 Capital Costs
- 
+0
 8
 1
 1
@@ -4278,7 +4278,7 @@ csp.pt.cost.site_improvements_per_m2
 Site improvement cost
 $/m²
 Capital Costs
- 
+0
 2
 1
 1
@@ -4292,7 +4292,7 @@ csp.pt.cost.storage
 Thermal energy storage cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4306,7 +4306,7 @@ csp.pt.cost.storage_mwht
 Storage capacity
 MWht
 Capital Costs
- 
+0
 8
 1
 1
@@ -4320,7 +4320,7 @@ csp.pt.cost.storage_per_kwht
 Thermal energy storage cost
 $/kWht
 Capital Costs
- 
+0
 2
 1
 1
@@ -4334,7 +4334,7 @@ csp.pt.cost.total_land_area
 Total land area
 acres
 Capital Costs
- 
+0
 8
 1
 1
@@ -4348,7 +4348,7 @@ csp.pt.cost.tower
 Tower cost total
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4362,7 +4362,7 @@ csp.pt.cost.tower.fixed
 Tower cost fixed
 $
 Capital Costs
- 
+0
 2
 1
 1
@@ -4376,7 +4376,7 @@ csp.pt.cost.tower.scaling_exp
 Tower cost scaling exponent
  
 Capital Costs
- 
+0
 2
 1
 1
@@ -4390,7 +4390,7 @@ system_use_lifetime_output
 System use lifetime output
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -4404,7 +4404,7 @@ system_use_recapitalization
 System use recapitalization
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -4418,7 +4418,7 @@ total_direct_cost
 Total direct cost
  
 Capital Costs
- 
+0
 9
 1
 1
@@ -4432,7 +4432,7 @@ total_indirect_cost
 Total indirect cost
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4446,7 +4446,7 @@ total_installed_cost
 Total installed cost
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -4460,7 +4460,7 @@ ui_direct_subtotal
 Direct capital cost subtotal
  
 Capital Costs
- 
+0
 9
 1
 1
@@ -4474,7 +4474,7 @@ ui_heliostat_height
 Heliostat height
 m
 Capital Costs
- 
+0
 8
 1
 1
@@ -4488,7 +4488,7 @@ ui_receiver_height
 Receiver height
 m
 Capital Costs
- 
+0
 8
 1
 1
@@ -4502,7 +4502,7 @@ ui_tower_height
 Tower height
 m
 Capital Costs
- 
+0
 8
 1
 1

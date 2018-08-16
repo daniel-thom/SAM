@@ -1,5 +1,5 @@
 1
-477
+483
 ac_nameplate
 1
 1
@@ -51,6 +51,7 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
@@ -295,6 +296,7 @@ cbi_uti_tax_sta
 city
 1
 4
+7
 Phoenix
 const_per_interest1
 1
@@ -395,22 +397,27 @@ const_per_months5
 const_per_name1
 1
 4
+6
 Loan 1
 const_per_name2
 1
 4
+6
 Loan 2
 const_per_name3
 1
 4
+6
 Loan 3
 const_per_name4
 1
 4
+6
 Loan 4
 const_per_name5
 1
 4
+6
 Loan 5
 const_per_percent1
 1
@@ -583,6 +590,7 @@ cost_other_financing
 country
 1
 4
+3
 USA
 dc_ac_ratio
 1
@@ -593,7 +601,7 @@ dc_ac_ratio
 debt_message
 1
 4
- 
+0
 debt_option
 1
 1
@@ -861,7 +869,7 @@ depr_stabas_method
 dispatch_data_filename
 1
 4
- 
+0
 dispatch_factor1
 1
 1
@@ -1154,6 +1162,7 @@ federal_tax_rate
 file_name
 1
 4
+83
 C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\USA AZ Phoenix (TMY2).csv
 flip_target_percent
 1
@@ -1473,6 +1482,28 @@ ibi_uti_percent_tax_sta
 1
 1
 1.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -1734,7 +1765,7 @@ lat
 lbl_csp
 1
 4
- 
+0
 lib_dispatch_factor1
 1
 1
@@ -1825,6 +1856,16 @@ lib_dispatch_sched_weekend
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 1.000000 
 
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 load
 1
 2
@@ -1962,14 +2003,17 @@ mera_cost3
 mera_name1
 1
 4
+21
 Replacement Reserve 1
 mera_name2
 1
 4
+21
 Replacement Reserve 2
 mera_name3
 1
 4
+21
 Replacement Reserve 3
 module_costunits
 1
@@ -2610,26 +2654,31 @@ show_construction_period
 solar_data_file_name
 1
 4
+83
 C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\USA AZ Phoenix (TMY2).csv
 solar_data_source
 1
+4
 4
 TMY2
 solar_resource
 1
 4
-USA AZ Phoenix (TMY2)
+45
+alamosa_co_37.469449_-105.870021_psmv3_60_tmy
 solar_resource_file
 1
 4
+83
 C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\USA AZ Phoenix (TMY2).csv
 solution_mode_message
 1
 4
- 
+0
 state
 1
 4
+2
 AZ
 state_tax_rate
 1
@@ -2640,6 +2689,7 @@ state_tax_rate
 station_id
 1
 4
+5
 23183
 subtotal_direct
 1
@@ -2680,7 +2730,7 @@ term_tenor
 third_party_ownership_message
 1
 4
- 
+0
 tilt
 1
 1
@@ -2690,6 +2740,7 @@ tilt
 tod_library
 1
 4
+16
 Uniform Dispatch
 total_direct_cost
 1
@@ -2833,6 +2884,7 @@ ur_desc_is_shown
 ur_description
 1
 4
+298
 This rate schedule is applicable to all Standard Offer and Direct Access electric service required for residential purposes in individual private dwellings and in individually metered apartments when such service is supplied at one site through one point of delivery and measured through one meter.
 ur_ec_is_shown
 1
@@ -2895,6 +2947,7 @@ ur_en_ts_sell_rate
 ur_end_date
 1
 4
+5
 empty
 ur_energy_history
 1
@@ -2935,6 +2988,7 @@ ur_monthly_min_charge
 ur_name
 1
 4
+25
 Arizona Public Service Co
 ur_nm_yearend_sell_rate
 1
@@ -2945,22 +2999,25 @@ ur_nm_yearend_sell_rate
 ur_phase_wiring
 1
 4
- 
+0
 ur_ratedata_filename
 1
 4
- 
+0
 ur_schedule_name
 1
 4
+19
 Residential TOU ET2
 ur_source
 1
 4
+42
 https://www.aps.com/library/rates/et-2.pdf
 ur_start_date
 1
 4
+5
 empty
 ur_ts_sell_rate
 1
@@ -2972,11 +3029,12 @@ ur_ts_sell_rate
 ur_uri
 1
 4
+5
 empty
 ur_voltage_category
 1
 4
- 
+0
 ur_voltage_max
 1
 1
@@ -2998,7 +3056,7 @@ use_specific_weather_file
 user_specified_weather_file
 1
 4
- 
+0
 utility_bill_data
 1
 2

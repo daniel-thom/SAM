@@ -1322,7 +1322,7 @@ batt_C_rate_max_charge
 Max C-rate of charge
 per/hour
 Battery
- 
+0
 8
 1
 1
@@ -1336,7 +1336,7 @@ batt_C_rate_max_discharge
 Max C-rate of discharge
 per/hour
 Battery
- 
+0
 8
 1
 1
@@ -1350,7 +1350,7 @@ batt_Qfull
 Cell capacity
 Ah
 Battery
- 
+0
 2
 1
 1
@@ -1364,7 +1364,7 @@ batt_Qfull_flow
 Cell capacity
 Ah
 Battery
- 
+0
 8
 1
 1
@@ -1378,7 +1378,7 @@ batt_cell_current_charge_max
 Cell max current charge
 A
 Battery
- 
+0
 2
 1
 1
@@ -1392,7 +1392,7 @@ batt_cell_current_discharge_max
 Cell max current discharge
 A
 Battery
- 
+0
 2
 1
 1
@@ -1406,7 +1406,7 @@ batt_cell_power_charge_max
 Cell max power charge
 W
 Battery
- 
+0
 2
 1
 1
@@ -1420,7 +1420,7 @@ batt_cell_power_discharge_max
 Cell max power discharge
 W
 Battery
- 
+0
 2
 1
 1
@@ -1434,7 +1434,7 @@ batt_computed_bank_capacity
 Nominal bank capacity
 kWh (DC)
 Battery
- 
+0
 8
 1
 1
@@ -1448,7 +1448,7 @@ batt_computed_series
 Cells in series
  
 Battery
- 
+0
 9
 1
 1
@@ -1462,7 +1462,7 @@ batt_computed_stacks_series
 Stacks in series
  
 Battery
- 
+0
 8
 1
 1
@@ -1476,7 +1476,7 @@ batt_computed_strings
 Strings in parallel
  
 Battery
- 
+0
 9
 1
 1
@@ -1490,7 +1490,7 @@ batt_computed_voltage
 Nominal bank voltage
 V (DC)
 Battery
- 
+0
 8
 1
 1
@@ -1504,7 +1504,7 @@ batt_current_charge_max
 Maximum charge current
 A
 Battery
- 
+0
 8
 1
 1
@@ -1518,7 +1518,7 @@ batt_current_choice
  
  
  
- 
+0
 0
 1
 1
@@ -1532,7 +1532,7 @@ batt_current_discharge_max
 Maximum discharge current
 A
 Battery
- 
+0
 8
 1
 1
@@ -1546,7 +1546,7 @@ batt_num_cells
 Total number of cells
  
 Battery
- 
+0
 8
 1
 1
@@ -1560,7 +1560,7 @@ batt_power_charge_max
 Maximum charge power
 kW (DC)
 Battery
- 
+0
 8
 1
 1
@@ -1574,7 +1574,7 @@ batt_power_discharge_max
 Maximum discharge power
 kW (DC)
 Battery
- 
+0
 8
 1
 1
@@ -1588,7 +1588,7 @@ batt_time_capacity
 Time at maximum power
 h
 Battery
- 
+0
 8
 1
 1

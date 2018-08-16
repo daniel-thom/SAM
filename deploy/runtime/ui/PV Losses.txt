@@ -3384,7 +3384,7 @@ acwiring_loss
 AC wiring
 %
 Losses
- 
+0
 2
 1
 1
@@ -3398,7 +3398,7 @@ adjust
 Performance adjustment losses
  
 Losses
- 
+0
 1
 1
 5
@@ -3411,7 +3411,7 @@ dc_adjust
 DC performance adjustment losses
  
 Losses
- 
+0
 1
 1
 5
@@ -3424,7 +3424,7 @@ dcoptimizer_loss
 DC power optimizer loss
 %
 Losses
- 
+0
 3
 1
 1
@@ -3438,7 +3438,7 @@ subarray1_dcloss
 Total DC power loss 1
 %
 Losses
- 
+0
 9
 1
 1
@@ -3452,7 +3452,7 @@ subarray1_dcwiring_loss
 DC wiring loss 1
 %
 Losses
- 
+0
 3
 1
 1
@@ -3466,7 +3466,7 @@ subarray1_diodeconn_loss
 Diodes and connections loss 1
 %
 Losses
- 
+0
 3
 1
 1
@@ -3480,7 +3480,7 @@ subarray1_mismatch_loss
 Module mismatch loss 1
 %
 Losses
- 
+0
 3
 1
 1
@@ -3494,7 +3494,7 @@ subarray1_nameplate_loss
 Nameplate loss 1
 %
 Losses
- 
+0
 3
 1
 1
@@ -3508,7 +3508,7 @@ subarray1_soiling
 Monthly soiling losses 1
  
 Losses
- 
+0
 3
 1
 2
@@ -3523,7 +3523,7 @@ subarray1_soiling_annual_average
 Average annual soiling 1
 %
 Losses
- 
+0
 9
 1
 1
@@ -3537,7 +3537,7 @@ subarray1_tracking_loss
 Tracking error loss 1
 %
 Losses
- 
+0
 3
 1
 1
@@ -3551,7 +3551,7 @@ subarray2_dcloss
 Total DC power loss 2
 %
 Losses
- 
+0
 9
 1
 1
@@ -3565,7 +3565,7 @@ subarray2_dcwiring_loss
 DC wiring loss 2
 %
 Losses
- 
+0
 3
 1
 1
@@ -3579,7 +3579,7 @@ subarray2_diodeconn_loss
 Diodes and connections loss 2
 %
 Losses
- 
+0
 3
 1
 1
@@ -3593,7 +3593,7 @@ subarray2_mismatch_loss
 Module mismatch loss 2
 %
 Losses
- 
+0
 3
 1
 1
@@ -3607,7 +3607,7 @@ subarray2_nameplate_loss
 Nameplate loss 2
 %
 Losses
- 
+0
 3
 1
 1
@@ -3621,7 +3621,7 @@ subarray2_soiling
 Monthly soiling losses 2
  
 Losses
- 
+0
 3
 1
 2
@@ -3636,7 +3636,7 @@ subarray2_soiling_annual_average
 Average annual soiling 2
 %
 Losses
- 
+0
 9
 1
 1
@@ -3650,7 +3650,7 @@ subarray2_tracking_loss
 Tracking error loss 2
 %
 Losses
- 
+0
 3
 1
 1
@@ -3664,7 +3664,7 @@ subarray3_dcloss
 Total DC power loss 3
 %
 Losses
- 
+0
 9
 1
 1
@@ -3678,7 +3678,7 @@ subarray3_dcwiring_loss
 DC wiring loss 3
 %
 Losses
- 
+0
 3
 1
 1
@@ -3692,7 +3692,7 @@ subarray3_diodeconn_loss
 Diodes and connections loss 3
 %
 Losses
- 
+0
 3
 1
 1
@@ -3706,7 +3706,7 @@ subarray3_mismatch_loss
 Module mismatch loss 3
 %
 Losses
- 
+0
 3
 1
 1
@@ -3720,7 +3720,7 @@ subarray3_nameplate_loss
 Nameplate loss 3
 %
 Losses
- 
+0
 3
 1
 1
@@ -3734,7 +3734,7 @@ subarray3_soiling
 Monthly soiling losses array 3
  
 Losses
- 
+0
 3
 1
 2
@@ -3749,7 +3749,7 @@ subarray3_soiling_annual_average
 Average annual soiling 3
 %
 Losses
- 
+0
 9
 1
 1
@@ -3763,7 +3763,7 @@ subarray3_tracking_loss
 Tracking error loss 3
 %
 Losses
- 
+0
 3
 1
 1
@@ -3777,7 +3777,7 @@ subarray4_dcloss
 Total DC power loss 4
 %
 Losses
- 
+0
 9
 1
 1
@@ -3791,7 +3791,7 @@ subarray4_dcwiring_loss
 DC wiring loss 4
 %
 Losses
- 
+0
 3
 1
 1
@@ -3805,7 +3805,7 @@ subarray4_diodeconn_loss
 Diodes and connections loss 4
 %
 Losses
- 
+0
 3
 1
 1
@@ -3819,7 +3819,7 @@ subarray4_mismatch_loss
 Module mismatch loss 4
 %
 Losses
- 
+0
 3
 1
 1
@@ -3833,7 +3833,7 @@ subarray4_nameplate_loss
 Nameplate loss 4
 %
 Losses
- 
+0
 3
 1
 1
@@ -3847,7 +3847,7 @@ subarray4_soiling
 Monthly soiling losses array 4
  
 Losses
- 
+0
 3
 1
 2
@@ -3862,7 +3862,7 @@ subarray4_soiling_annual_average
 Average annual soiling 4
 %
 Losses
- 
+0
 9
 1
 1
@@ -3876,7 +3876,7 @@ subarray4_tracking_loss
 Tracking error loss 4
 %
 Losses
- 
+0
 3
 1
 1
@@ -3890,7 +3890,7 @@ transformer_load_loss
 Transformer load loss
 %
 Losses
- 
+0
 0
 1
 1
@@ -3904,7 +3904,7 @@ transformer_no_load_loss
 Transformer no load loss
 %
 Losses
- 
+0
 0
 1
 1
@@ -3918,7 +3918,7 @@ transformer_rating
 Transformer rating
 kVA
 Losses
- 
+0
 0
 1
 1
@@ -3932,7 +3932,7 @@ transmission_loss
 Transmission loss
 %
 Losses
- 
+0
 2
 1
 1

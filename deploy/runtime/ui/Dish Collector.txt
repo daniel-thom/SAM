@@ -292,7 +292,7 @@ A_proj
 Projected Mirror Area
 m2
 Dish Collector
- 
+0
 2
 1
 1
@@ -306,7 +306,7 @@ A_total
 Total Mirror Area
 m2
 Dish Collector
- 
+0
 2
 1
 1
@@ -320,7 +320,7 @@ I_cut_in
 Insolation Cut-In
 W/m2
 Dish Collector
- 
+0
 2
 1
 1
@@ -334,7 +334,7 @@ rho
 Reflectance
 (0..1)
 Dish Collector
- 
+0
 2
 1
 1

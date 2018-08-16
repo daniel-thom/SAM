@@ -1677,7 +1677,7 @@ P_high_limit
 High pressure limit
 MPa
 sCO2 Power Cycle
- 
+0
 0
 1
 1
@@ -1691,7 +1691,7 @@ P_in_calc
 Compressor inlet pressure
 MPa
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1705,7 +1705,7 @@ P_out_calc
 Compressor outlet pressure
 MPa
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1719,7 +1719,7 @@ SCO2_COPY_P_ref
 Power cycle gross output
 MWe
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1733,7 +1733,7 @@ SCO2_COPY_T_htf_hot_des
 HTF hot temperature
 °C
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1747,7 +1747,7 @@ SCO2_COPY_design_eff
 Cycle thermal efficiency
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1761,7 +1761,7 @@ UA_total_calc
 Recuperator conductance (UA)
 kW/K
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1775,7 +1775,7 @@ _sco2_P_high_limit
 High pressure limit
 MPa
 sCO2 Power Cycle
- 
+0
 0
 1
 1
@@ -1789,7 +1789,7 @@ _sco2_P_ref
 Power cycle gross output
 MWe
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1803,7 +1803,7 @@ _sco2_T_amb_des
 Ambient temperature
 °C
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1817,7 +1817,7 @@ _sco2_T_approach
 Air cooler approach temp
 °C
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1831,7 +1831,7 @@ _sco2_T_htf_hot_des
 HTF hot temp
 °C
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1845,7 +1845,7 @@ _sco2_deltaT_PHX
 PHX temp difference
 °C
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1859,7 +1859,7 @@ _sco2_design_eff
 Cycle thermal efficiency
  
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1873,7 +1873,7 @@ _sco2_eta_c
 Compressor(s) isentropic efficiency
  
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1887,7 +1887,7 @@ _sco2_eta_t
 Turbine isentropic efficiency
  
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1901,7 +1901,7 @@ _sco2_recup_eff_max
 Max. recuperator effectiveness
  
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -1915,7 +1915,7 @@ deltaT_PHX
 PHX temperature difference
 °C
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -1929,7 +1929,7 @@ eta_c
 Compressor(s) Isentropic Efficiency
  
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -1943,7 +1943,7 @@ eta_t
 Turbine Isentropic Efficiency
  
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -1957,7 +1957,7 @@ fan_power_perc_net
 Net power used for cooling fan
 %
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -1971,7 +1971,7 @@ is_sco2_des_par_diff
 are inputs different from optimization inputs?
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -1985,7 +1985,7 @@ is_sco2_designed
 has user designed the cycle?
  
 sCO2 Power Cycle
- 
+0
 0
 1
 1
@@ -1999,7 +1999,7 @@ is_sco2_msg_disabled
 has user read sco2 msg?
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2013,7 +2013,7 @@ is_sco2_off_designed
 is cycle optimized?
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2027,7 +2027,7 @@ is_sco2_preprocess
 Use calculated off-design parameters for simulation
  
 sCO2 Power Cycle
- 
+0
 1
 1
 1
@@ -2041,11 +2041,11 @@ msg_des_par_diff
  
  
 sCO2 Power Cycle
- 
+0
 0
 1
 4
- 
+0
 Default
 msg_nan
 3
@@ -2053,11 +2053,11 @@ msg_nan
  
  
 sCO2 Power Cycle
- 
+0
 0
 1
 4
- 
+0
 Default
 msg_off_des
 3
@@ -2065,11 +2065,11 @@ msg_off_des
  
  
 sCO2 Power Cycle
- 
+0
 0
 1
 4
- 
+0
 Default
 recomp_frac_calc
 3
@@ -2077,7 +2077,7 @@ recomp_frac_calc
 Recompression Fraction
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2091,7 +2091,7 @@ recup_eff_max
 Max. recuperator effectiveness
  
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -2105,7 +2105,7 @@ sco2_T_amb_des
 Ambient temperature at design
 °C
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -2119,7 +2119,7 @@ sco2_T_approach
 Air cooler approach temperature
 °C
 sCO2 Power Cycle
- 
+0
 2
 1
 1
@@ -2133,7 +2133,7 @@ sco2ud_T_amb_high
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2147,7 +2147,7 @@ sco2ud_T_amb_ind_od
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 3
@@ -2164,7 +2164,7 @@ sco2ud_T_amb_low
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2178,7 +2178,7 @@ sco2ud_T_htf_cold_calc
 HTF cold temperature sCO2
 °C
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2192,7 +2192,7 @@ sco2ud_T_htf_high
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2206,7 +2206,7 @@ sco2ud_T_htf_ind_od
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 3
@@ -2223,7 +2223,7 @@ sco2ud_T_htf_low
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2237,7 +2237,7 @@ sco2ud_m_dot_htf_high
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1
@@ -2251,7 +2251,7 @@ sco2ud_m_dot_htf_ind_od
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 3
@@ -2268,7 +2268,7 @@ sco2ud_m_dot_htf_low
  
  
 sCO2 Power Cycle
- 
+0
 8
 1
 1

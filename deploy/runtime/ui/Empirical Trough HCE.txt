@@ -5389,7 +5389,7 @@ HCEA0_1
 Heat Loss Coeff A0 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5403,7 +5403,7 @@ HCEA0_2
 Heat Loss Coeff A0 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5417,7 +5417,7 @@ HCEA0_3
 Heat Loss Coeff A0 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5431,7 +5431,7 @@ HCEA0_4
 Heat Loss Coeff A0 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5445,7 +5445,7 @@ HCEA1_1
 Heat Loss Coeff A1 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5459,7 +5459,7 @@ HCEA1_2
 Heat Loss Coeff A1 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5473,7 +5473,7 @@ HCEA1_3
 Heat Loss Coeff A1 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5487,7 +5487,7 @@ HCEA1_4
 Heat Loss Coeff A1 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5501,7 +5501,7 @@ HCEA2_1
 Heat Loss Coeff A2 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5515,7 +5515,7 @@ HCEA2_2
 Heat Loss Coeff A2 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5529,7 +5529,7 @@ HCEA2_3
 Heat Loss Coeff A2 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5543,7 +5543,7 @@ HCEA2_4
 Heat Loss Coeff A2 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5557,7 +5557,7 @@ HCEA3_1
 Heat Loss Coeff A3 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5571,7 +5571,7 @@ HCEA3_2
 Heat Loss Coeff A3 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5585,7 +5585,7 @@ HCEA3_3
 Heat Loss Coeff A3 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5599,7 +5599,7 @@ HCEA3_4
 Heat Loss Coeff A3 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5613,7 +5613,7 @@ HCEA4_1
 Heat Loss Coeff A4 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5627,7 +5627,7 @@ HCEA4_2
 Heat Loss Coeff A4 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5641,7 +5641,7 @@ HCEA4_3
 Heat Loss Coeff A4 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5655,7 +5655,7 @@ HCEA4_4
 Heat Loss Coeff A4 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5669,7 +5669,7 @@ HCEA5_1
 Heat Loss Coeff A5 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5683,7 +5683,7 @@ HCEA5_2
 Heat Loss Coeff A5 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5697,7 +5697,7 @@ HCEA5_3
 Heat Loss Coeff A5 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5711,7 +5711,7 @@ HCEA5_4
 Heat Loss Coeff A5 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5725,7 +5725,7 @@ HCEA6_1
 Heat Loss Coeff A6 Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5739,7 +5739,7 @@ HCEA6_2
 Heat Loss Coeff A6 Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5753,7 +5753,7 @@ HCEA6_3
 Heat Loss Coeff A6 Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5767,7 +5767,7 @@ HCEA6_4
 Heat Loss Coeff A6 Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5781,7 +5781,7 @@ HCEBelShad
  
  
  
- 
+0
 8
 1
 2
@@ -5795,7 +5795,7 @@ HCEBelShad_1
 Bellows Shading Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5809,7 +5809,7 @@ HCEBelShad_2
 Bellows Shading Receiver  2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5823,7 +5823,7 @@ HCEBelShad_3
 Bellows Shading Receiver  3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5837,7 +5837,7 @@ HCEBelShad_4
 Bellows Shading Receiver  4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5851,7 +5851,7 @@ HCEEnvTrans
  
  
  
- 
+0
 8
 1
 2
@@ -5865,7 +5865,7 @@ HCEEnvTrans_1
 Envelope Transmissivity Receiver  1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5879,7 +5879,7 @@ HCEEnvTrans_2
 Envelope Transmissivity Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5893,7 +5893,7 @@ HCEEnvTrans_3
 Envelope Transmissivity Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5907,7 +5907,7 @@ HCEEnvTrans_4
 Envelope Transmissivity Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -5921,7 +5921,7 @@ HCEFrac
  
  
  
- 
+0
 8
 1
 2
@@ -5936,7 +5936,7 @@ HCEFrac_1
  
  
 Empirical Trough SCA HCE
- 
+0
 0
 1
 1
@@ -5950,7 +5950,7 @@ HCEFrac_2
  
  
 Empirical Trough SCA HCE
- 
+0
 0
 1
 1
@@ -5964,7 +5964,7 @@ HCEFrac_3
  
  
 Empirical Trough SCA HCE
- 
+0
 0
 1
 1
@@ -5978,7 +5978,7 @@ HCEFrac_4
  
  
 Empirical Trough SCA HCE
- 
+0
 0
 1
 1
@@ -5992,7 +5992,7 @@ HCE_A0
  
  
  
- 
+0
 8
 1
 2
@@ -6006,7 +6006,7 @@ HCE_A1
  
  
  
- 
+0
 8
 1
 2
@@ -6020,7 +6020,7 @@ HCE_A2
  
  
  
- 
+0
 8
 1
 2
@@ -6034,7 +6034,7 @@ HCE_A3
  
  
  
- 
+0
 8
 1
 2
@@ -6048,7 +6048,7 @@ HCE_A4
  
  
  
- 
+0
 8
 1
 2
@@ -6062,7 +6062,7 @@ HCE_A5
  
  
  
- 
+0
 8
 1
 2
@@ -6076,7 +6076,7 @@ HCE_A6
  
  
  
- 
+0
 8
 1
 2
@@ -6090,7 +6090,7 @@ HCEabs
  
  
  
- 
+0
 8
 1
 2
@@ -6104,7 +6104,7 @@ HCEabs_1
 Absorption Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6118,7 +6118,7 @@ HCEabs_2
 Absorption Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6132,7 +6132,7 @@ HCEabs_3
 Absorption Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6146,7 +6146,7 @@ HCEabs_4
 Absorption Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6160,7 +6160,7 @@ HCEmisc
  
  
  
- 
+0
 8
 1
 2
@@ -6174,7 +6174,7 @@ HCEmisc_1
 Unaccounted Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6188,7 +6188,7 @@ HCEmisc_2
 Unaccounted Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6202,7 +6202,7 @@ HCEmisc_3
 Unaccounted Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6216,7 +6216,7 @@ HCEmisc_4
 Unaccounted Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6230,7 +6230,7 @@ HCEtype
  
  
  
- 
+0
 8
 1
 2
@@ -6245,7 +6245,7 @@ NumHCETypes
  
  
  
- 
+0
 8
 1
 1
@@ -6259,7 +6259,7 @@ PerfFac
  
  
  
- 
+0
 8
 1
 2
@@ -6273,7 +6273,7 @@ PerfFac_1
 Heat Loss Factor Receiver 1
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6287,7 +6287,7 @@ PerfFac_2
 Heat Loss Factor Receiver 2
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6301,7 +6301,7 @@ PerfFac_3
 Heat Loss Factor Receiver 3
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6315,7 +6315,7 @@ PerfFac_4
 Heat Loss Factor Receiver 4
  
 Empirical Trough SCA HCE
- 
+0
 3
 1
 1
@@ -6329,7 +6329,7 @@ calc_hce_col_factor
  
  
  
- 
+0
 8
 1
 1
@@ -6343,10 +6343,12 @@ hce_library
  
  
 Empirical Trough HCE
+23
 Empirical Trough HCEs|0
 19
 1
 4
+24
 2008 Schott PTR70 Vacuum
 Library
 lib_HCEA0
@@ -6355,7 +6357,7 @@ lib_HCEA0
  
  
  
- 
+0
 8
 1
 1
@@ -6369,7 +6371,7 @@ lib_HCEA1
  
  
  
- 
+0
 8
 1
 1
@@ -6383,7 +6385,7 @@ lib_HCEA2
  
  
  
- 
+0
 8
 1
 1
@@ -6397,7 +6399,7 @@ lib_HCEA3
  
  
  
- 
+0
 8
 1
 1
@@ -6411,7 +6413,7 @@ lib_HCEA4
  
  
  
- 
+0
 8
 1
 1
@@ -6425,7 +6427,7 @@ lib_HCEA5
  
  
  
- 
+0
 8
 1
 1
@@ -6439,7 +6441,7 @@ lib_HCEA6
  
  
  
- 
+0
 8
 1
 1
@@ -6453,7 +6455,7 @@ lib_HCEBelShad
  
  
  
- 
+0
 8
 1
 1
@@ -6467,7 +6469,7 @@ lib_HCEEnvTrans
  
  
  
- 
+0
 8
 1
 1
@@ -6481,7 +6483,7 @@ lib_HCEabs
  
  
  
- 
+0
 8
 1
 1
@@ -6495,7 +6497,7 @@ lib_HCEmisc
  
  
  
- 
+0
 8
 1
 1
@@ -6509,7 +6511,7 @@ lib_PerfFac
  
  
  
- 
+0
 8
 1
 1
@@ -6523,7 +6525,7 @@ lib_hce_broken_glass
  
  
  
- 
+0
 8
 1
 1
@@ -6537,10 +6539,11 @@ lib_hce_condition
  
  
  
- 
+0
 8
 1
 4
+9
 <invalid>
 Default
 lib_hce_name
@@ -6549,10 +6552,11 @@ lib_hce_name
  
  
  
- 
+0
 8
 1
 4
+9
 <invalid>
 Default
 ui_HCEA0
@@ -6561,7 +6565,7 @@ ui_HCEA0
  
  
  
- 
+0
 8
 1
 1
@@ -6575,7 +6579,7 @@ ui_HCEA1
  
  
  
- 
+0
 8
 1
 1
@@ -6589,7 +6593,7 @@ ui_HCEA2
  
  
  
- 
+0
 8
 1
 1
@@ -6603,7 +6607,7 @@ ui_HCEA3
  
  
  
- 
+0
 8
 1
 1
@@ -6617,7 +6621,7 @@ ui_HCEA4
  
  
  
- 
+0
 8
 1
 1
@@ -6631,7 +6635,7 @@ ui_HCEA5
  
  
  
- 
+0
 8
 1
 1
@@ -6645,7 +6649,7 @@ ui_HCEA6
  
  
  
- 
+0
 8
 1
 1
@@ -6659,7 +6663,7 @@ ui_HCEBelShad
  
  
  
- 
+0
 8
 1
 1
@@ -6673,7 +6677,7 @@ ui_HCEEnvTrans
  
  
  
- 
+0
 8
 1
 1
@@ -6687,7 +6691,7 @@ ui_HCEFrac
  
  
  
- 
+0
 8
 1
 1
@@ -6701,7 +6705,7 @@ ui_HCEabs
  
  
  
- 
+0
 8
 1
 1
@@ -6715,7 +6719,7 @@ ui_HCEmisc
  
  
  
- 
+0
 8
 1
 1
@@ -6729,7 +6733,7 @@ ui_PerfFac
  
  
  
- 
+0
 8
 1
 1
@@ -6743,7 +6747,7 @@ ui_hce_HCEdust
  
  
  
- 
+0
 8
 1
 1
@@ -6757,7 +6761,7 @@ ui_hce_broken_glass
  
  
  
- 
+0
 8
 1
 1
@@ -6771,7 +6775,7 @@ ui_hce_broken_glass_1
  
  
 Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6785,7 +6789,7 @@ ui_hce_broken_glass_2
  
  
 Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6799,7 +6803,7 @@ ui_hce_broken_glass_3
  
  
 Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6813,7 +6817,7 @@ ui_hce_broken_glass_4
  
  
 Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6827,10 +6831,11 @@ ui_hce_condition
  
  
  
- 
+0
 8
 1
 4
+9
 <invalid>
 Default
 ui_hce_condition_1
@@ -6839,10 +6844,11 @@ ui_hce_condition_1
  
  
  
- 
+0
 8
 1
 4
+6
 Vacuum
 TextEntry
 ui_hce_condition_2
@@ -6851,10 +6857,11 @@ ui_hce_condition_2
  
  
  
- 
+0
 8
 1
 4
+11
 Lost Vacuum
 TextEntry
 ui_hce_condition_3
@@ -6863,10 +6870,11 @@ ui_hce_condition_3
  
  
  
- 
+0
 8
 1
 4
+12
 Broken Glass
 TextEntry
 ui_hce_condition_4
@@ -6875,9 +6883,10 @@ ui_hce_condition_4
  
  
  
- 
+0
 8
 1
+4
 4
 none
 TextEntry
@@ -6887,7 +6896,7 @@ ui_hce_heat_losses_1
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6901,7 +6910,7 @@ ui_hce_heat_losses_2
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6915,7 +6924,7 @@ ui_hce_heat_losses_3
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6929,7 +6938,7 @@ ui_hce_heat_losses_4
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -6943,7 +6952,7 @@ ui_hce_hl_term_1
  
  
  
- 
+0
 8
 1
 1
@@ -6957,7 +6966,7 @@ ui_hce_hl_term_2
  
  
  
- 
+0
 8
 1
 1
@@ -6971,7 +6980,7 @@ ui_hce_hl_term_3
  
  
  
- 
+0
 8
 1
 1
@@ -6985,7 +6994,7 @@ ui_hce_hl_term_4
  
  
  
- 
+0
 8
 1
 1
@@ -6999,10 +7008,11 @@ ui_hce_name
  
  
  
- 
+0
 8
 1
 4
+9
 <invalid>
 Default
 ui_hce_name_1
@@ -7011,10 +7021,11 @@ ui_hce_name_1
  
  
  
- 
+0
 8
 1
 4
+17
 2008 Schott PTR70
 TextEntry
 ui_hce_name_2
@@ -7023,10 +7034,11 @@ ui_hce_name_2
  
  
  
- 
+0
 8
 1
 4
+17
 2008 Schott PTR70
 TextEntry
 ui_hce_name_3
@@ -7035,10 +7047,11 @@ ui_hce_name_3
  
  
  
- 
+0
 8
 1
 4
+17
 2008 Schott PTR70
 TextEntry
 ui_hce_name_4
@@ -7047,9 +7060,10 @@ ui_hce_name_4
  
  
  
- 
+0
 8
 1
+4
 4
 none
 TextEntry
@@ -7059,7 +7073,7 @@ ui_hce_opt_eff_1
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7073,7 +7087,7 @@ ui_hce_opt_eff_2
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7087,7 +7101,7 @@ ui_hce_opt_eff_3
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7101,7 +7115,7 @@ ui_hce_opt_eff_4
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7115,7 +7129,7 @@ ui_hce_opt_eff_weighted
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7129,7 +7143,7 @@ ui_hce_thermloss_weighted_m
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7143,7 +7157,7 @@ ui_hce_thermloss_weighted_m2
  
  
 Empirical Trough SCA HCE
- 
+0
 8
 1
 1
@@ -7157,7 +7171,7 @@ ui_lib_hce_heat_loss_factor_1
  
  
  
- 
+0
 8
 1
 1
@@ -7171,7 +7185,7 @@ ui_lib_hce_heat_loss_factor_2
  
  
  
- 
+0
 8
 1
 1
@@ -7185,7 +7199,7 @@ ui_lib_hce_heat_loss_factor_3
  
  
  
- 
+0
 8
 1
 1
@@ -7199,7 +7213,7 @@ ui_lib_hce_heat_loss_factor_4
  
  
  
- 
+0
 8
 1
 1

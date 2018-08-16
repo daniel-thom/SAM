@@ -1220,7 +1220,7 @@ Q_tes
 TES thermal capacity
 MWt-hr
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1234,7 +1234,7 @@ TES_COPY_T_htf_cold_des
 Loop inlet HTF temperature
 °C
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1248,7 +1248,7 @@ TES_COPY_T_htf_hot_des
 Loop outlet HTF temperature
 °C
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1262,7 +1262,7 @@ TES_COPY_q_pb_design
 Heat sink power
 MWt
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1276,7 +1276,7 @@ TES_COPY_tshours
 Hours of storage at design point
 hours
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1290,7 +1290,7 @@ cold_tank_Thtr
 Cold tank heater temperature set point
 °C
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1304,7 +1304,7 @@ cold_tank_max_heat
 Cold tank heater capacity
 MWe
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1318,7 +1318,7 @@ csp.pt.tes.heater_eff
 Tank heater efficiency
  
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1332,7 +1332,7 @@ csp.pt.tes.htf_calc_temp
 TC
  
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1346,7 +1346,7 @@ csp.pt.tes.htf_density
 HTF density
 kg/m³
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1360,7 +1360,7 @@ csp.pt.tes.tank_diameter
 Tank diameter
 m
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1374,7 +1374,7 @@ h_tank
 Tank height
 m
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1388,7 +1388,7 @@ h_tank_min
 Tank fluid minimum height
 m
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1402,7 +1402,7 @@ hot_tank_Thtr
 Hot tank heater temperature set point
 °C
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1416,7 +1416,7 @@ hot_tank_max_heat
 Hot tank heater capacity
 MWe
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1430,7 +1430,7 @@ init_hot_htf_percent
 Initial hot HTF percent
 %
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1444,7 +1444,7 @@ q_dot_tes_est
 Estimated heat loss
 MWt
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1458,7 +1458,7 @@ tank_pairs
 Parallel tank pairs
  
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1472,7 +1472,7 @@ tc_fill
 Filler material
  
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1486,7 +1486,7 @@ tes_avail_vol
 Available HTF volume
 m³
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1500,7 +1500,7 @@ tes_type
 Storage type
  
 Thermal Energy Storage
- 
+0
 8
 1
 1
@@ -1514,7 +1514,7 @@ u_tank
 Wetted loss coefficient
 Wt/m²-K
 Thermal Energy Storage
- 
+0
 2
 1
 1
@@ -1528,7 +1528,7 @@ vol_tank
 Storage tank volume
 m³
 Thermal Energy Storage
- 
+0
 8
 1
 1

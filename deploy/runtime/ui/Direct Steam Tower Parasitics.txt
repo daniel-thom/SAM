@@ -1367,7 +1367,7 @@ Piping_length
 Total piping length
 m
 Direct Steam Power Tower Parasitics
- 
+0
 8
 1
 1
@@ -1381,7 +1381,7 @@ Piping_loss
 Piping loss coefficient
 Wt/m
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1395,7 +1395,7 @@ aux_par
 Aux heater,boiler parasitic
 MWe/MWcap
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1409,7 +1409,7 @@ aux_par_0
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1423,7 +1423,7 @@ aux_par_1
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1437,7 +1437,7 @@ aux_par_2
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1451,7 +1451,7 @@ aux_par_f
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1465,7 +1465,7 @@ bop_par
 Balance of plant parasitic
 MWe/MWcap
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1479,7 +1479,7 @@ bop_par_0
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1493,7 +1493,7 @@ bop_par_1
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1507,7 +1507,7 @@ bop_par_2
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1521,7 +1521,7 @@ bop_par_f
  
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1535,7 +1535,7 @@ csp.dst.calc.aux
 Aux
 MWe
 Direct Steam Power Tower Parasitics
- 
+0
 8
 1
 1
@@ -1549,7 +1549,7 @@ csp.dst.calc.bop
 BOP
 MWe
 Direct Steam Power Tower Parasitics
- 
+0
 8
 1
 1
@@ -1563,7 +1563,7 @@ eta_rec_pump
 Feedwater to boiler pump efficiency
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1577,7 +1577,7 @@ p_run
 Tracking power for a single heliostat
 kWe
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1591,7 +1591,7 @@ pb_fixed_par
 Fraction of rated gross power consumed at all times
 MWe/MWt
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1605,7 +1605,7 @@ piping_length_add
 Piping length constant
 m
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1619,7 +1619,7 @@ piping_length_mult
 Piping length multiplier
  
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1
@@ -1633,7 +1633,7 @@ q_start
 Startup energy of a single heliostat
 kWe-hr
 Direct Steam Power Tower Parasitics
- 
+0
 2
 1
 1

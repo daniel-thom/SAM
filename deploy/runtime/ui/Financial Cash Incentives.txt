@@ -5300,7 +5300,7 @@ cbi_fed_amount
 Federal CBI amount
 $/W
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5314,7 +5314,7 @@ cbi_fed_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5328,7 +5328,7 @@ cbi_fed_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5342,7 +5342,7 @@ cbi_fed_maxvalue
 Federal CBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5356,7 +5356,7 @@ cbi_fed_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5370,7 +5370,7 @@ cbi_fed_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5384,7 +5384,7 @@ cbi_oth_amount
 Other CBI amount
 $/W
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5398,7 +5398,7 @@ cbi_oth_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5412,7 +5412,7 @@ cbi_oth_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5426,7 +5426,7 @@ cbi_oth_maxvalue
 Other CBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5440,7 +5440,7 @@ cbi_oth_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5454,7 +5454,7 @@ cbi_oth_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5468,7 +5468,7 @@ cbi_sta_amount
 State CBI amount
 $/W
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5482,7 +5482,7 @@ cbi_sta_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5496,7 +5496,7 @@ cbi_sta_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5510,7 +5510,7 @@ cbi_sta_maxvalue
 State CBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5524,7 +5524,7 @@ cbi_sta_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5538,7 +5538,7 @@ cbi_sta_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5552,7 +5552,7 @@ cbi_uti_amount
 Utility CBI amount
 $/W
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5566,7 +5566,7 @@ cbi_uti_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5580,7 +5580,7 @@ cbi_uti_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5594,7 +5594,7 @@ cbi_uti_maxvalue
 Utility CBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5608,7 +5608,7 @@ cbi_uti_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5622,7 +5622,7 @@ cbi_uti_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5636,7 +5636,7 @@ ibi_fed_amount
 Federal IBI amount
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5650,7 +5650,7 @@ ibi_fed_amount_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5664,7 +5664,7 @@ ibi_fed_amount_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5678,7 +5678,7 @@ ibi_fed_amount_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5692,7 +5692,7 @@ ibi_fed_amount_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5706,7 +5706,7 @@ ibi_fed_percent
 Federal IBI percentage
 %
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5720,7 +5720,7 @@ ibi_fed_percent_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5734,7 +5734,7 @@ ibi_fed_percent_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5748,7 +5748,7 @@ ibi_fed_percent_maxvalue
 Federal IBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5762,7 +5762,7 @@ ibi_fed_percent_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5776,7 +5776,7 @@ ibi_fed_percent_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5790,7 +5790,7 @@ ibi_oth_amount
 Other IBI amount
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5804,7 +5804,7 @@ ibi_oth_amount_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5818,7 +5818,7 @@ ibi_oth_amount_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5832,7 +5832,7 @@ ibi_oth_amount_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5846,7 +5846,7 @@ ibi_oth_amount_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5860,7 +5860,7 @@ ibi_oth_percent
 Other IBI percentage
 %
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5874,7 +5874,7 @@ ibi_oth_percent_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5888,7 +5888,7 @@ ibi_oth_percent_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5902,7 +5902,7 @@ ibi_oth_percent_maxvalue
 Other IBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5916,7 +5916,7 @@ ibi_oth_percent_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5930,7 +5930,7 @@ ibi_oth_percent_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5944,7 +5944,7 @@ ibi_sta_amount
 State IBI amount
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -5958,7 +5958,7 @@ ibi_sta_amount_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5972,7 +5972,7 @@ ibi_sta_amount_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -5986,7 +5986,7 @@ ibi_sta_amount_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6000,7 +6000,7 @@ ibi_sta_amount_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6014,7 +6014,7 @@ ibi_sta_percent
 State IBI percentage
 %
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6028,7 +6028,7 @@ ibi_sta_percent_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6042,7 +6042,7 @@ ibi_sta_percent_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6056,7 +6056,7 @@ ibi_sta_percent_maxvalue
 State IBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6070,7 +6070,7 @@ ibi_sta_percent_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6084,7 +6084,7 @@ ibi_sta_percent_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6098,7 +6098,7 @@ ibi_uti_amount
 Utility IBI amount
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6112,7 +6112,7 @@ ibi_uti_amount_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6126,7 +6126,7 @@ ibi_uti_amount_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6140,7 +6140,7 @@ ibi_uti_amount_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6154,7 +6154,7 @@ ibi_uti_amount_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6168,7 +6168,7 @@ ibi_uti_percent
 Utility IBI percentage
 %
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6182,7 +6182,7 @@ ibi_uti_percent_deprbas_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6196,7 +6196,7 @@ ibi_uti_percent_deprbas_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6210,7 +6210,7 @@ ibi_uti_percent_maxvalue
 Utility IBI maximum limit
 $
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6224,7 +6224,7 @@ ibi_uti_percent_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6238,7 +6238,7 @@ ibi_uti_percent_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6252,7 +6252,7 @@ pbi_fed_amount
 Federal PBI amount
 $/kWh
 Cash Incentives
- 
+0
 3
 1
 2
@@ -6266,7 +6266,7 @@ pbi_fed_escal
 Federal PBI escalation
 %/year
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6280,7 +6280,7 @@ pbi_fed_for_ds
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6294,7 +6294,7 @@ pbi_fed_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6308,7 +6308,7 @@ pbi_fed_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6322,7 +6322,7 @@ pbi_fed_term
 Federal PBI term
 years
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6336,7 +6336,7 @@ pbi_oth_amount
 Other PBI amount
 $/kWh
 Cash Incentives
- 
+0
 3
 1
 2
@@ -6350,7 +6350,7 @@ pbi_oth_escal
 Other PBI escalation
 %/year
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6364,7 +6364,7 @@ pbi_oth_for_ds
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6378,7 +6378,7 @@ pbi_oth_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6392,7 +6392,7 @@ pbi_oth_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6406,7 +6406,7 @@ pbi_oth_term
 Other PBI term
 years
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6420,7 +6420,7 @@ pbi_sta_amount
 State PBI amount
 $/kWh
 Cash Incentives
- 
+0
 3
 1
 2
@@ -6434,7 +6434,7 @@ pbi_sta_escal
 State PBI escalation
 %/year
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6448,7 +6448,7 @@ pbi_sta_for_ds
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6462,7 +6462,7 @@ pbi_sta_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6476,7 +6476,7 @@ pbi_sta_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6490,7 +6490,7 @@ pbi_sta_term
 State PBI term
 years
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6504,7 +6504,7 @@ pbi_uti_amount
 Utility PBI amount
 $/kWh
 Cash Incentives
- 
+0
 3
 1
 2
@@ -6518,7 +6518,7 @@ pbi_uti_escal
 Utility PBI escalation
 %/year
 Cash Incentives
- 
+0
 3
 1
 1
@@ -6532,7 +6532,7 @@ pbi_uti_for_ds
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6546,7 +6546,7 @@ pbi_uti_tax_fed
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6560,7 +6560,7 @@ pbi_uti_tax_sta
  
  
 Cash Incentives
- 
+0
 0
 1
 1
@@ -6574,7 +6574,7 @@ pbi_uti_term
 Utility PBI term
 years
 Cash Incentives
- 
+0
 3
 1
 1

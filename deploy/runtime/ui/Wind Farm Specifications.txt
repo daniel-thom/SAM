@@ -1215,7 +1215,7 @@ adjust
 Performance adjustment
  
 Wind Farm
- 
+0
 1
 1
 5
@@ -1228,7 +1228,7 @@ cols
 Internal variable for plotting on the wind farm page
  
 Wind Farm
- 
+0
 12
 1
 1
@@ -1242,7 +1242,7 @@ desired_farm_size
 Desired farm size
 kW
 Wind Farm
- 
+0
 0
 1
 1
@@ -1256,7 +1256,7 @@ rows
 Internal variable for plotting on the wind farm page
  
 Wind Farm
- 
+0
 12
 1
 1
@@ -1270,7 +1270,7 @@ sizing_warning
  
  
 Wind Farm
- 
+0
 4
 1
 1
@@ -1284,7 +1284,7 @@ specify_label
  
  
 Wind Farm
- 
+0
 4
 1
 1
@@ -1298,7 +1298,7 @@ system_capacity
 System nameplate capacity
 kW
 Wind Farm
- 
+0
 8
 1
 1
@@ -1312,7 +1312,7 @@ wind_farm_losses_percent
 Wind Farm Losses
 %
 Wind Farm
- 
+0
 2
 1
 1
@@ -1326,7 +1326,7 @@ wind_farm_num_turbines
 Number of turbines in farm
  
 Wind Farm
- 
+0
 8
 1
 1
@@ -1340,7 +1340,7 @@ wind_farm_sizing_mode
  
  
 Wind Farm
- 
+0
 0
 1
 1
@@ -1354,6 +1354,7 @@ wind_farm_wake_model
 Wake Model
  
 Wind Farm
+44
 Simple Wake Model|Park (WAsP)|Eddy-Viscosity
 2
 1
@@ -1368,7 +1369,7 @@ wind_farm_xCoord_file
  
  
 Wind Farm
- 
+0
 4
 1
 2
@@ -1382,7 +1383,7 @@ wind_farm_xCoordinates
  
  
 Wind Farm
- 
+0
 8
 1
 2
@@ -1396,7 +1397,7 @@ wind_farm_yCoord_file
  
  
 Wind Farm
- 
+0
 4
 1
 2
@@ -1410,7 +1411,7 @@ wind_farm_yCoordinates
  
  
 Wind Farm
- 
+0
 8
 1
 2
@@ -1424,7 +1425,7 @@ wind_resource_turbulence_coeff
 Turbulence Coefficient
  
 Wind Farm
- 
+0
 2
 1
 1
@@ -1438,7 +1439,7 @@ windfarm.farm.layout_angle
 Row Orientation
 deg
 Wind Farm
- 
+0
 2
 1
 1
@@ -1452,7 +1453,7 @@ windfarm.farm.layout_slider
  
  
 Wind Farm
- 
+0
 0
 1
 1
@@ -1466,7 +1467,7 @@ windfarm.farm.number_of_rows
 Number of rows
  
 Wind Farm
- 
+0
 2
 1
 1
@@ -1480,7 +1481,7 @@ windfarm.farm.offset
 Offset for rows
 rotor diameters
 Wind Farm
- 
+0
 2
 1
 1
@@ -1494,6 +1495,7 @@ windfarm.farm.offset_type
 Offset type
  
 Wind Farm
+24
 Every Other Row|Each Row
 2
 1
@@ -1508,7 +1510,7 @@ windfarm.farm.row_spacing
 Row spacing
 rotor diameters
 Wind Farm
- 
+0
 2
 1
 1
@@ -1522,7 +1524,7 @@ windfarm.farm.shape
 Shape
  
 Wind Farm
- 
+0
 2
 1
 1
@@ -1536,7 +1538,7 @@ windfarm.farm.turbine_spacing
 Turbine spacing
 rotor diameters
 Wind Farm
- 
+0
 2
 1
 1
@@ -1550,7 +1552,7 @@ windfarm.farm.turbines_per_row
 Turbines per row
  
 Wind Farm
- 
+0
 2
 1
 1
@@ -1564,6 +1566,7 @@ windfarm.layout.file_or_controls
  
  
 Wind Farm
+86
 Import wind turbine location data file|Define wind farm using layout generator (below)
 0
 1

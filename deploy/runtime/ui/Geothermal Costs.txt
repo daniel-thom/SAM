@@ -5711,7 +5711,7 @@ geotherm.cost.capital_total
 Total capital cost
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5725,7 +5725,7 @@ geotherm.cost.conf_drill
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5739,7 +5739,7 @@ geotherm.cost.conf_multiplier
 Confirmation cost multiplier
  
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -5753,7 +5753,7 @@ geotherm.cost.conf_non_drill
 Confirmation non-drilling cost
 $
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -5767,7 +5767,7 @@ geotherm.cost.conf_num_wells
 Number of confirmation wells
  
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -5781,7 +5781,7 @@ geotherm.cost.conf_per_well
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5795,7 +5795,7 @@ geotherm.cost.conf_total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5809,7 +5809,7 @@ geotherm.cost.confirm_wells_num
 Number of Confirmation Wells
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5823,7 +5823,7 @@ geotherm.cost.confirm_wells_percent
 % of Confirmation Wells Used for Production
  
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -5837,7 +5837,7 @@ geotherm.cost.contingency
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5851,7 +5851,7 @@ geotherm.cost.contingency_percent
 Contingency
  
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -5865,7 +5865,7 @@ geotherm.cost.contingency_percent2
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -5879,7 +5879,7 @@ geotherm.cost.drilling.amount
  
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -5893,7 +5893,7 @@ geotherm.cost.drilling.amount_specified
 Specified Total Drilling, Surface Equipment, and Stimulation Cost
 $
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -5907,7 +5907,7 @@ geotherm.cost.drilling.calc
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -5921,7 +5921,7 @@ geotherm.cost.epc.fixed
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -5935,7 +5935,7 @@ geotherm.cost.epc.nonfixed
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5949,7 +5949,7 @@ geotherm.cost.epc.percent
 Engineer, Procure, Construct
 %
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -5963,7 +5963,7 @@ geotherm.cost.epc.total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5977,7 +5977,7 @@ geotherm.cost.expl_drill
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -5991,7 +5991,7 @@ geotherm.cost.expl_multiplier
 Exploration cost multiplier
  
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -6005,7 +6005,7 @@ geotherm.cost.expl_non_drill
 Exploration non-drilling cost
 $
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -6019,7 +6019,7 @@ geotherm.cost.expl_num_wells
 Number of exploration wells
  
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -6033,7 +6033,7 @@ geotherm.cost.expl_per_well
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6047,7 +6047,7 @@ geotherm.cost.expl_total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6061,7 +6061,7 @@ geotherm.cost.indirect.amount_specified
 Specified Indirect Cost
 $
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6075,7 +6075,7 @@ geotherm.cost.indirect.calc
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6089,6 +6089,7 @@ geotherm.cost.inj_cost_curve
 Injection cost multiplier
  
 Geothermal Costs
+12
 Low|Med|High
 3
 1
@@ -6103,7 +6104,7 @@ geotherm.cost.inj_drill
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6117,7 +6118,7 @@ geotherm.cost.inj_num_wells
 Number of injection wells
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6131,7 +6132,7 @@ geotherm.cost.inj_per_well
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6145,7 +6146,7 @@ geotherm.cost.inj_prod_well_ratio
 Ratio of Injection Wells to Production Wells
  
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6159,7 +6160,7 @@ geotherm.cost.inj_wells_drilled
 Number of Injection Wells to be Drilled
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6173,7 +6174,7 @@ geotherm.cost.installed_per_capacity
 Total installed cost per capacity ($/kW)
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6187,7 +6188,7 @@ geotherm.cost.num_pumps
 # of Pumps Required
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6201,7 +6202,7 @@ geotherm.cost.other_per_pump
 Other pump installation costs
 $
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6215,7 +6216,7 @@ geotherm.cost.plant
 Direct Plant Cost
 $
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6229,7 +6230,7 @@ geotherm.cost.plant_auto_estimate
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6243,7 +6244,7 @@ geotherm.cost.plant_auto_estimate_last_setting
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6257,7 +6258,7 @@ geotherm.cost.plant_per_kW
 Cost
 $/kW
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6271,7 +6272,7 @@ geotherm.cost.plant_per_kW.bak
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6285,7 +6286,7 @@ geotherm.cost.plant_size
 Gross Plant Output
 kW
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6299,7 +6300,7 @@ geotherm.cost.plant_total
 Power Plant Cost
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6313,7 +6314,7 @@ geotherm.cost.plant_total.amount
  
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6327,7 +6328,7 @@ geotherm.cost.plant_total.amount_specified
 Specified Plant Cost
 $
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6341,7 +6342,7 @@ geotherm.cost.plant_total.calc
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6355,7 +6356,7 @@ geotherm.cost.plm.fixed
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6369,7 +6370,7 @@ geotherm.cost.plm.nonfixed
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6383,7 +6384,7 @@ geotherm.cost.plm.percent
 Project, Land, Miscellaneous
 %
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6397,7 +6398,7 @@ geotherm.cost.plm.total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6411,6 +6412,7 @@ geotherm.cost.prod_cost_curve
 Production cost multiplier
  
 Geothermal Costs
+12
 Low|Med|High
 3
 1
@@ -6425,7 +6427,7 @@ geotherm.cost.prod_drill
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6439,7 +6441,7 @@ geotherm.cost.prod_inj_drill
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6453,7 +6455,7 @@ geotherm.cost.prod_inj_non_drill
 Production and injection well non-drilling cost
 $
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -6467,7 +6469,7 @@ geotherm.cost.prod_inj_num_wells
 Production and Injection Wells to be Drilled
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6481,7 +6483,7 @@ geotherm.cost.prod_inj_total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6495,7 +6497,7 @@ geotherm.cost.prod_num_wells
 Number of production wells
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6509,7 +6511,7 @@ geotherm.cost.prod_per_well
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6523,7 +6525,7 @@ geotherm.cost.prod_req
 Total Production Wells Required
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6537,7 +6539,7 @@ geotherm.cost.prod_wells_drilled
 Number of Production Wells to be Drilled
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6551,7 +6553,7 @@ geotherm.cost.pump_depth
 Pump Depth
 ft
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6565,7 +6567,7 @@ geotherm.cost.pump_installation
  
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6579,7 +6581,7 @@ geotherm.cost.pump_per_foot
 Installation and Casing Cost
 $/ft
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6593,7 +6595,7 @@ geotherm.cost.pump_per_hp
 Pump Cost
 $/hp
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6607,7 +6609,7 @@ geotherm.cost.pump_per_pump
  
 [ = $/hp x sqrt(hp) ]
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6621,7 +6623,7 @@ geotherm.cost.pump_size
 Pump Size
 hp
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6635,7 +6637,7 @@ geotherm.cost.pump_total_per_pump
 Cost of Pump
 $
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6649,7 +6651,7 @@ geotherm.cost.pumping.amount
  
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6663,7 +6665,7 @@ geotherm.cost.pumping.amount_specified
 Specified Pump Cost
 $
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6677,7 +6679,7 @@ geotherm.cost.pumping.calc
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6691,7 +6693,7 @@ geotherm.cost.pumps_total
 Total Pump Cost
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6705,7 +6707,7 @@ geotherm.cost.recap
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6719,7 +6721,7 @@ geotherm.cost.recap_specified
 Specified Recapitalization Cost
  
 Geothermal Costs
- 
+0
 2
 1
 1
@@ -6733,7 +6735,7 @@ geotherm.cost.recap_use_calc
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6747,7 +6749,7 @@ geotherm.cost.sales_tax.percent
  
  
 Geothermal Costs
- 
+0
 0
 1
 1
@@ -6761,7 +6763,7 @@ geotherm.cost.sales_tax.total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6775,7 +6777,7 @@ geotherm.cost.sales_tax.value
 Sales Tax of
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6789,7 +6791,7 @@ geotherm.cost.stim_non_drill
  
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6803,7 +6805,7 @@ geotherm.cost.stim_num_wells
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6817,7 +6819,7 @@ geotherm.cost.stim_per_well
 Stimulation cost per well
 $
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -6831,7 +6833,7 @@ geotherm.cost.stim_total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6845,7 +6847,7 @@ geotherm.cost.surf_non_drill
 Surface equipment non-drilling cost
 $
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6859,7 +6861,7 @@ geotherm.cost.surf_num_wells
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6873,7 +6875,7 @@ geotherm.cost.surf_per_well
 Surface equipment cost per well
 $
 Geothermal Costs
- 
+0
 3
 1
 1
@@ -6887,7 +6889,7 @@ geotherm.cost.surf_total
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6901,7 +6903,7 @@ geotherm.cost.total_installed_millions
 Total Installed Cost
 $M
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6915,7 +6917,7 @@ system_recapitalization_cost
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6929,7 +6931,7 @@ system_use_lifetime_output
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6943,7 +6945,7 @@ system_use_recapitalization
  
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6957,7 +6959,7 @@ total_direct_cost
 Total direct cost
  
 Geothermal Costs
- 
+0
 8
 1
 1
@@ -6971,7 +6973,7 @@ total_indirect_cost
  
  
 Geothermal Costs
- 
+0
 9
 1
 1
@@ -6985,7 +6987,7 @@ total_installed_cost
 Total installed cost
  
 Geothermal Costs
- 
+0
 8
 1
 1

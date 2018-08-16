@@ -961,7 +961,7 @@ aux_par
 Aux heater,boiler parasitic
 MWe/MWcap
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -975,7 +975,7 @@ aux_par_0
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -989,7 +989,7 @@ aux_par_1
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1003,7 +1003,7 @@ aux_par_2
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1017,7 +1017,7 @@ aux_par_f
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1031,7 +1031,7 @@ bop_par
 Balance of plant parasitic
 MWe/MWcap
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1045,7 +1045,7 @@ bop_par_0
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1059,7 +1059,7 @@ bop_par_1
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1073,7 +1073,7 @@ bop_par_2
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1087,7 +1087,7 @@ bop_par_f
  
  
 Tower Parasitics
- 
+0
 0
 1
 1
@@ -1101,7 +1101,7 @@ csp.pt.par.calc.aux
 Aux
 MWe
 Tower Parasitics
- 
+0
 8
 1
 1
@@ -1115,7 +1115,7 @@ csp.pt.par.calc.bop
 BOP
 MWe
 Tower Parasitics
- 
+0
 8
 1
 1
@@ -1129,7 +1129,7 @@ pb_fixed_par
 Fraction of rated gross power consumed all times
 MWe/MWcap
 Tower Parasitics
- 
+0
 2
 1
 1

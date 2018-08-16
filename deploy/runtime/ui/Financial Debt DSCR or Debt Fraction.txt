@@ -829,7 +829,7 @@ cost_debt_closing
 Debt closing costs
 $
 Project Term Debt
- 
+0
 2
 1
 1
@@ -843,7 +843,7 @@ cost_debt_fee
 Up-front fee
 % of total debt
 Project Term Debt
- 
+0
 2
 1
 1
@@ -857,11 +857,11 @@ debt_message
  
  
 Project Term Debt
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 debt_option
 3
@@ -869,6 +869,7 @@ debt_option
 Debt mode (0=debt percent input,1=DSCR input)
  
 Project Term Debt
+17
 Debt percent|DSCR
 3
 1
@@ -883,7 +884,7 @@ debt_percent
 Debt percent
 % of total capital cost
 Project Term Debt
- 
+0
 3
 1
 1
@@ -897,7 +898,7 @@ dscr
 DSCR
  
 Project Term Debt
- 
+0
 3
 1
 1
@@ -911,7 +912,7 @@ loan_moratorium
 Moratorium
 years
 Project Term Debt
- 
+0
 2
 1
 1
@@ -925,6 +926,7 @@ payment_option
 Debt payment mode (0=Equal payments,1=Fixed principal declining interest)
  
 Project Term Debt
+73
 Equal payments (standard amortization)|Fixed principal declining interest
 3
 1
@@ -939,7 +941,7 @@ term_int_rate
 Annual interest rate
 %
 Project Term Debt
- 
+0
 2
 1
 1
@@ -953,7 +955,7 @@ term_tenor
 Tenor
 years
 Project Term Debt
- 
+0
 2
 1
 1
@@ -967,7 +969,7 @@ ui_wacc
 WACC
 %
 Project Term Debt
- 
+0
 8
 1
 1

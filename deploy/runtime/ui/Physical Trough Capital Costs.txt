@@ -3394,7 +3394,7 @@ csp.dtr.cost.bop
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3408,7 +3408,7 @@ csp.dtr.cost.bop_mwe
 Balance of plant
 MWe, Gross
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3422,7 +3422,7 @@ csp.dtr.cost.bop_per_kwe
 Balance of Plant Cost per kWe
 $/kWe
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3436,7 +3436,7 @@ csp.dtr.cost.contingency
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3450,7 +3450,7 @@ csp.dtr.cost.contingency_percent
 Contingency
 % of subtotal
 Physical Trough Capital Costs
- 
+0
 2
 1
 1
@@ -3464,7 +3464,7 @@ csp.dtr.cost.epc.cost_per_watt
  
 per Wac
 Physical Trough Capital Costs
- 
+0
 2
 1
 1
@@ -3478,7 +3478,7 @@ csp.dtr.cost.epc.fixed
 Fixed EPC Cost
 $
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3492,7 +3492,7 @@ csp.dtr.cost.epc.per_acre
 EPC Costs acre
 per acre
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3506,7 +3506,7 @@ csp.dtr.cost.epc.per_watt
 EPC Cost Wac
 per Wac
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3520,7 +3520,7 @@ csp.dtr.cost.epc.percent
 EPC Costs % direct
 % direct
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3534,7 +3534,7 @@ csp.dtr.cost.epc.total
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3548,7 +3548,7 @@ csp.dtr.cost.fossil_backup
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3562,7 +3562,7 @@ csp.dtr.cost.fossil_backup.cost_per_kwe
 Fossil Backup Cost per kWe
 $/kWe
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3576,7 +3576,7 @@ csp.dtr.cost.fossil_backup.mwe
 Fossil backup
 MWe, Gross
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3590,7 +3590,7 @@ csp.dtr.cost.htf_system
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3604,7 +3604,7 @@ csp.dtr.cost.htf_system.area
 HTF system
 m²
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3618,7 +3618,7 @@ csp.dtr.cost.htf_system.cost_per_m2
 HTF System Cost Per m2
 $/m2
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3632,7 +3632,7 @@ csp.dtr.cost.installed_per_capacity
 Estimated total installed cost per net capacity
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3646,7 +3646,7 @@ csp.dtr.cost.nameplate
 Nameplate
 MWe
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3660,7 +3660,7 @@ csp.dtr.cost.plm.fixed
 Fixed Land Cost
 $
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3674,7 +3674,7 @@ csp.dtr.cost.plm.per_acre
 Land Cost acre
 per acre
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3688,7 +3688,7 @@ csp.dtr.cost.plm.per_watt
 Land Cost Wac
 per Wac
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3702,7 +3702,7 @@ csp.dtr.cost.plm.percent
 Land Cost % direct
 % direct
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3716,7 +3716,7 @@ csp.dtr.cost.plm.total
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3730,7 +3730,7 @@ csp.dtr.cost.power_plant
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3744,7 +3744,7 @@ csp.dtr.cost.power_plant.cost_per_kwe
 Power Plant Cost per kWe
 $/kWe
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3758,7 +3758,7 @@ csp.dtr.cost.power_plant.mwe
 Power plant
 MWe, Gross
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3772,7 +3772,7 @@ csp.dtr.cost.sales_tax.percent
 Sales tax basis, percent of total direct cost
 %
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3786,7 +3786,7 @@ csp.dtr.cost.sales_tax.total
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3800,7 +3800,7 @@ csp.dtr.cost.sales_tax.value
 Sales tax rate
 %
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3814,7 +3814,7 @@ csp.dtr.cost.site_improvements
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3828,7 +3828,7 @@ csp.dtr.cost.site_improvements.area
 Site improvements
 m²
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3842,7 +3842,7 @@ csp.dtr.cost.site_improvements.cost_per_m2
 Site Improvement Cost per m2
 $/m2
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3856,7 +3856,7 @@ csp.dtr.cost.solar_field
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3870,7 +3870,7 @@ csp.dtr.cost.solar_field.area
 Solar field
 m²
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3884,7 +3884,7 @@ csp.dtr.cost.solar_field.cost_per_m2
 Solar Field Cost per m2
 $/m2
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3898,7 +3898,7 @@ csp.dtr.cost.storage
  
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3912,7 +3912,7 @@ csp.dtr.cost.storage.cost_per_kwht
 Storage System Cost per kWht
 $/kWht
 Physical Trough Capital Costs
- 
+0
 3
 1
 1
@@ -3926,7 +3926,7 @@ csp.dtr.cost.storage.mwht
 Storage
 MWht
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3940,7 +3940,7 @@ csp.dtr.cost.total_land_area
 Total land area
 acres
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3954,7 +3954,7 @@ direct_subtotal
 Subtotal
  
 Physical Trough Capital Costs
- 
+0
 8
 1
 1
@@ -3968,7 +3968,7 @@ system_use_lifetime_output
  
  
  
- 
+0
 8
 1
 1
@@ -3982,7 +3982,7 @@ system_use_recapitalization
  
  
  
- 
+0
 8
 1
 1
@@ -3996,7 +3996,7 @@ total_direct_cost
 Total direct cost
  
 Physical Trough Capital Costs
- 
+0
 9
 1
 1
@@ -4010,7 +4010,7 @@ total_indirect_cost
 Total indirect cost
  
 Physical Trough Capital Costs
- 
+0
 9
 1
 1
@@ -4024,7 +4024,7 @@ total_installed_cost
 Total installed cost
  
 Physical Trough Capital Costs
- 
+0
 9
 1
 1

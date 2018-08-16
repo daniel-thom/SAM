@@ -690,7 +690,7 @@ biopwr.emissions.avoided_cred
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -704,7 +704,7 @@ biopwr.emissions.collection_fuel
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -718,7 +718,7 @@ biopwr.emissions.grid_intensity
 Electricity grid carbon intensity
 g CO2 eq/kWh
 Life-Cycle Impacts
- 
+0
 2
 1
 1
@@ -732,7 +732,7 @@ biopwr.emissions.grid_region
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -746,7 +746,7 @@ biopwr.emissions.pre_chipopt
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -760,7 +760,7 @@ biopwr.emissions.pre_grindopt
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -774,7 +774,7 @@ biopwr.emissions.pre_pelletopt
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -788,7 +788,7 @@ biopwr.emissions.transport_fuel
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -802,7 +802,7 @@ biopwr.emissions.transport_legs
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -816,7 +816,7 @@ biopwr.emissions.transport_long
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -830,7 +830,7 @@ biopwr.emissions.transport_longmiles
  
 miles
 Life-Cycle Impacts
- 
+0
 2
 1
 1
@@ -844,7 +844,7 @@ biopwr.emissions.transport_longopt
  
  
 Life-Cycle Impacts
- 
+0
 0
 1
 1
@@ -858,7 +858,7 @@ biopwr.emissions.transport_predist
  
 miles from farmgate)
 Life-Cycle Impacts
- 
+0
 2
 1
 1

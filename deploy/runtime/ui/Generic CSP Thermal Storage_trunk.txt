@@ -1105,7 +1105,7 @@ azimuth
  
  
  
- 
+0
 8
 1
 1
@@ -1119,7 +1119,7 @@ csp.gss.tes.charge_loss_f0
 Charge-based loss adj F0
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1133,7 +1133,7 @@ csp.gss.tes.charge_loss_f1
 Charge-based loss adj F1
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1147,7 +1147,7 @@ csp.gss.tes.charge_loss_f2
 Charge-based loss adj F2
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1161,7 +1161,7 @@ csp.gss.tes.charge_loss_f3
 Charge-based loss adj F3
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1175,7 +1175,7 @@ csp.gss.tes.max_capacity
 Max thermal capacity
 MWht
 GSS Thermal Storage
- 
+0
 8
 1
 1
@@ -1189,10 +1189,11 @@ csp.gss.tes.notify_text
  
  
 GSS Thermal Storage
- 
+0
 0
 1
 4
+5
 empty
 Default
 csp.gss.tes.temp_loss_f0
@@ -1201,7 +1202,7 @@ csp.gss.tes.temp_loss_f0
 Temp-based loss adj F0
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1215,7 +1216,7 @@ csp.gss.tes.temp_loss_f1
 Temp-based loss adj F1
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1229,7 +1230,7 @@ csp.gss.tes.temp_loss_f2
 Temp-based loss adj F2
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1243,7 +1244,7 @@ csp.gss.tes.temp_loss_f3
 Temp-based loss adj F3
  
 GSS Thermal Storage
- 
+0
 1
 1
 1
@@ -1257,7 +1258,7 @@ f_charge
 Charging energy derate
  
 GSS Thermal Storage
- 
+0
 0
 1
 1
@@ -1271,7 +1272,7 @@ f_disch
 Discharging energy derate
  
 GSS Thermal Storage
- 
+0
 0
 1
 1
@@ -1285,7 +1286,7 @@ f_etes_0
 Initial charge fraction
  
 GSS Thermal Storage
- 
+0
 0
 1
 1
@@ -1299,7 +1300,7 @@ f_teshl_ref
 Thermal loss multiplier
 kWt/MW-hr-cap
 GSS Thermal Storage
- 
+0
 0
 1
 1
@@ -1313,7 +1314,7 @@ hrs_tes
 Full load hours of TES
 hr
 GSS Thermal Storage
- 
+0
 2
 1
 1
@@ -1327,7 +1328,7 @@ ibh
  
  
  
- 
+0
 8
 1
 1
@@ -1341,7 +1342,7 @@ ibn
  
  
  
- 
+0
 8
 1
 1
@@ -1355,7 +1356,7 @@ itoth
  
  
  
- 
+0
 8
 1
 1
@@ -1369,7 +1370,7 @@ latitude
  
  
  
- 
+0
 8
 1
 1
@@ -1383,7 +1384,7 @@ longitude
  
  
  
- 
+0
 8
 1
 1
@@ -1397,7 +1398,7 @@ ntod
  
  
  
- 
+0
 8
 1
 1
@@ -1411,7 +1412,7 @@ tdb
  
  
  
- 
+0
 8
 1
 1
@@ -1425,7 +1426,7 @@ teshlT_coefs
  
  
  
- 
+0
 8
 1
 2
@@ -1439,7 +1440,7 @@ teshlX_coefs
  
  
  
- 
+0
 8
 1
 2
@@ -1453,7 +1454,7 @@ tilt
  
  
  
- 
+0
 8
 1
 1
@@ -1467,7 +1468,7 @@ timezone
  
  
  
- 
+0
 8
 1
 1
@@ -1481,7 +1482,7 @@ twb
  
  
  
- 
+0
 8
 1
 1
@@ -1495,7 +1496,7 @@ vwind
  
  
  
- 
+0
 8
 1
 1

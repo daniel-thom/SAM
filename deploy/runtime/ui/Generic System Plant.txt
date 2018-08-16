@@ -826,7 +826,7 @@ adjust
 Performance adjustment
  
 Generic System Plant
- 
+0
 1
 1
 5
@@ -839,7 +839,7 @@ capacity_factor_calc
 Capacity factor after plant loss
 %
  
- 
+0
 8
 1
 1
@@ -853,7 +853,7 @@ conv_eff
 Nominal thermal-to-electric conversion efficiency
 %
 Generic System Plant
- 
+0
 8
 1
 1
@@ -867,7 +867,7 @@ derate
 Plant loss
 %
 Generic System Plant
- 
+0
 2
 1
 1
@@ -881,7 +881,7 @@ energy_output_array
 Hourly or subhourly production profile
 kWe
 Generic System Plant
- 
+0
 0
 1
 2
@@ -895,7 +895,7 @@ first_year_output
 Total annual generation
 kWhe
 Generic System Plant
- 
+0
 8
 1
 1
@@ -909,7 +909,7 @@ first_year_output_peak
 Peak annual generation
 kW
 Generic System Plant
- 
+0
 8
 1
 1
@@ -923,7 +923,7 @@ heat_rate
 Heat rate
 MMBTUs/MWhe
 Generic System Plant
- 
+0
 2
 1
 1
@@ -937,11 +937,11 @@ import_message
  
  
  
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 spec_mode
 3
@@ -949,6 +949,7 @@ spec_mode
 Generic system plant output specification mode
  
 Generic System Plant
+127
 Constant generation profile from nameplate capacity and capacity factor|Import hourly or subhourly generation profile from file
 1
 1
@@ -963,7 +964,7 @@ system_capacity
 Nameplate capacity
 kWe
 Generic System Plant
- 
+0
 2
 1
 1
@@ -977,7 +978,7 @@ user_capacity_factor
 Nominal capacity factor
 %
 Generic System Plant
- 
+0
 2
 1
 1

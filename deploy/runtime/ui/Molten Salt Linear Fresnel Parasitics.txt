@@ -1352,7 +1352,7 @@ Pipe_hl_coef
 Non-receiver piping thermal loss coefficient
 W/m²-K
 MSLF Parasitics
- 
+0
 2
 1
 1
@@ -1366,7 +1366,7 @@ SCA_drives_elec
 Tracking power in Watts per SCA drive
 W/module
 MSLF Parasitics
- 
+0
 2
 1
 1
@@ -1380,7 +1380,7 @@ aux_array
  
  
 MSLF Parasitics
- 
+0
 8
 1
 2
@@ -1394,7 +1394,7 @@ bop_array
  
  
 MSLF Parasitics
- 
+0
 8
 1
 2
@@ -1408,7 +1408,7 @@ csp.mslf.control.aux_array_c0
 Aux Coeff 0
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1422,7 +1422,7 @@ csp.mslf.control.aux_array_c1
 Aux Coeff 1
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1436,7 +1436,7 @@ csp.mslf.control.aux_array_c2
  
  
 MSLF Parasitics
- 
+0
 0
 1
 1
@@ -1450,7 +1450,7 @@ csp.mslf.control.aux_array_mult
 Aux heater,boiler parasitic
 MWe/MWcap
 MSLF Parasitics
- 
+0
 2
 1
 1
@@ -1464,7 +1464,7 @@ csp.mslf.control.aux_array_pf
 Aux Multiplier Factor
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1478,7 +1478,7 @@ csp.mslf.control.bop_array_c0
 BOP Coeff 0
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1492,7 +1492,7 @@ csp.mslf.control.bop_array_c1
 BOP Coeff 1
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1506,7 +1506,7 @@ csp.mslf.control.bop_array_c2
 BOP Coeff 2
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1520,7 +1520,7 @@ csp.mslf.control.bop_array_mult
 Balance of plant parasitic
 MWe/MWcap
 MSLF Parasitics
- 
+0
 2
 1
 1
@@ -1534,7 +1534,7 @@ csp.mslf.control.bop_array_pf
 BOP Multiplier Factor
  
 MSLF Parasitics
- 
+0
 3
 1
 1
@@ -1548,7 +1548,7 @@ csp.mslf.par.calc.aux
 Aux
 MWe
 MSLF Parasitics
- 
+0
 8
 1
 1
@@ -1562,7 +1562,7 @@ csp.mslf.par.calc.bop
 BOP
 MWe
 MSLF Parasitics
- 
+0
 8
 1
 1
@@ -1576,7 +1576,7 @@ csp.mslf.par.calc.frac_gross
 Fixed parasitic loss
 MWe
 MSLF Parasitics
- 
+0
 8
 1
 1
@@ -1590,7 +1590,7 @@ csp.mslf.par.calc.tracking
 Tracking parasitic loss
 We
 MSLF Parasitics
- 
+0
 8
 1
 1
@@ -1604,7 +1604,7 @@ pb_fixed_par
 Fraction of rated gross power constantly consumed
  
 MSLF Parasitics
- 
+0
 2
 1
 1
@@ -1618,7 +1618,7 @@ pb_pump_coef
 Pumping power to move 1kg of HTF through PB loop
 kJ/kg
 MSLF Parasitics
- 
+0
 2
 1
 1
@@ -1632,7 +1632,7 @@ tes_pump_coef
 Pumping power to move 1kg of HTF through tes loop
 kJ/kg
 MSLF Parasitics
- 
+0
 2
 1
 1

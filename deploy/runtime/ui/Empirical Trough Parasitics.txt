@@ -2678,7 +2678,7 @@ AntiFrPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -2692,7 +2692,7 @@ BOPPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -2706,7 +2706,7 @@ BOPParF0
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2720,7 +2720,7 @@ BOPParF1
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2734,7 +2734,7 @@ BOPParF2
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2748,7 +2748,7 @@ BOPParPF
 Balance of Plant PF
  
 Empirical Trough Parasitics
- 
+0
 3
 1
 1
@@ -2762,7 +2762,7 @@ CHTFParF0
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2776,7 +2776,7 @@ CHTFParF1
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2790,7 +2790,7 @@ CHTFParF2
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2804,7 +2804,7 @@ ChtfPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -2818,7 +2818,7 @@ ChtfParPF
 Solar Field HTF Pumps PF
  
 Empirical Trough Parasitics
- 
+0
 3
 1
 1
@@ -2832,6 +2832,7 @@ CtOpF
 Cooling Tower Operation Mode
  
 Empirical Trough Parasitics
+75
 Cooling Tower Parasitics as a Function of Load|Cooling Tower at 50% or 100%
 0
 1
@@ -2846,7 +2847,7 @@ CtPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -2860,7 +2861,7 @@ CtParF0
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2874,7 +2875,7 @@ CtParF1
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2888,7 +2889,7 @@ CtParF2
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2902,7 +2903,7 @@ CtParPF
 Cooling Towers PF
  
 Empirical Trough Parasitics
- 
+0
 3
 1
 1
@@ -2916,7 +2917,7 @@ HhtfPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -2930,7 +2931,7 @@ HhtfParF0
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2944,7 +2945,7 @@ HhtfParF1
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2958,7 +2959,7 @@ HhtfParF2
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -2972,7 +2973,7 @@ HhtfParPF
 TES Pumps PF
  
 Empirical Trough Parasitics
- 
+0
 3
 1
 1
@@ -2986,7 +2987,7 @@ HtrPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -3000,7 +3001,7 @@ HtrParF0
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -3014,7 +3015,7 @@ HtrParF1
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -3028,7 +3029,7 @@ HtrParF2
  
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -3042,7 +3043,7 @@ HtrParPF
 Heater & Boiler PF
  
 Empirical Trough Parasitics
- 
+0
 3
 1
 1
@@ -3056,7 +3057,7 @@ PbFixPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -3070,7 +3071,7 @@ SfPar
  
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -3084,7 +3085,7 @@ SfParPF
 SCA Drives & Electronics PF
  
 Empirical Trough Parasitics
- 
+0
 3
 1
 1
@@ -3098,7 +3099,7 @@ cooling_tower_operation_mode
 Cooling Tower Operation Mode
  
 Empirical Trough Parasitics
- 
+0
 0
 1
 1
@@ -3112,7 +3113,7 @@ lib_BOPParF0
  
  
  
- 
+0
 0
 1
 1
@@ -3126,7 +3127,7 @@ lib_BOPParF1
  
  
  
- 
+0
 8
 1
 1
@@ -3140,7 +3141,7 @@ lib_BOPParF2
  
  
  
- 
+0
 8
 1
 1
@@ -3154,7 +3155,7 @@ lib_BOPParPF
  
  
  
- 
+0
 8
 1
 1
@@ -3168,7 +3169,7 @@ lib_CHTFParF0
  
  
  
- 
+0
 8
 1
 1
@@ -3182,7 +3183,7 @@ lib_CHTFParF1
  
  
  
- 
+0
 8
 1
 1
@@ -3196,7 +3197,7 @@ lib_CHTFParF2
  
  
  
- 
+0
 8
 1
 1
@@ -3210,7 +3211,7 @@ lib_ChtfParPF
  
  
  
- 
+0
 8
 1
 1
@@ -3224,7 +3225,7 @@ lib_CtOpF
  
  
  
- 
+0
 8
 1
 1
@@ -3238,7 +3239,7 @@ lib_CtParF0
  
  
  
- 
+0
 8
 1
 1
@@ -3252,7 +3253,7 @@ lib_CtParF1
  
  
  
- 
+0
 8
 1
 1
@@ -3266,7 +3267,7 @@ lib_CtParF2
  
  
  
- 
+0
 8
 1
 1
@@ -3280,7 +3281,7 @@ lib_CtParPF
  
  
  
- 
+0
 8
 1
 1
@@ -3294,7 +3295,7 @@ lib_HhtfParF0
  
  
  
- 
+0
 8
 1
 1
@@ -3308,7 +3309,7 @@ lib_HhtfParF1
  
  
  
- 
+0
 8
 1
 1
@@ -3322,7 +3323,7 @@ lib_HhtfParF2
  
  
  
- 
+0
 8
 1
 1
@@ -3336,7 +3337,7 @@ lib_HhtfParPF
  
  
  
- 
+0
 8
 1
 1
@@ -3350,7 +3351,7 @@ lib_HtrParF0
  
  
  
- 
+0
 8
 1
 1
@@ -3364,7 +3365,7 @@ lib_HtrParF1
  
  
  
- 
+0
 8
 1
 1
@@ -3378,7 +3379,7 @@ lib_HtrParF2
  
  
  
- 
+0
 8
 1
 1
@@ -3392,7 +3393,7 @@ lib_HtrParPF
  
  
  
- 
+0
 8
 1
 1
@@ -3406,7 +3407,7 @@ lib_SfParPF
  
  
  
- 
+0
 8
 1
 1
@@ -3420,7 +3421,7 @@ lib_ui_par_antifreeze_const
  
  
  
- 
+0
 8
 1
 1
@@ -3434,7 +3435,7 @@ lib_ui_par_bop_const
  
  
  
- 
+0
 8
 1
 1
@@ -3448,7 +3449,7 @@ lib_ui_par_ct0_const
  
  
  
- 
+0
 8
 1
 1
@@ -3462,7 +3463,7 @@ lib_ui_par_fixedblock_const
  
  
  
- 
+0
 8
 1
 1
@@ -3476,7 +3477,7 @@ lib_ui_par_hb_const
  
  
  
- 
+0
 8
 1
 1
@@ -3490,7 +3491,7 @@ lib_ui_par_htfpump_const
  
  
  
- 
+0
 8
 1
 1
@@ -3504,7 +3505,7 @@ lib_ui_par_sf_const
  
  
  
- 
+0
 8
 1
 1
@@ -3518,7 +3519,7 @@ lib_ui_par_tes_const
  
  
  
- 
+0
 8
 1
 1
@@ -3532,10 +3533,12 @@ parasitics_library
  
  
 Trough Parasitics
+19
 Trough Parasitics|0
 17
 1
 4
+19
 SEGS VIII Reference
 Library
 ui_par_antifreeze_const
@@ -3544,7 +3547,7 @@ ui_par_antifreeze_const
 Antifreeze Pumping
 fraction
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3558,7 +3561,7 @@ ui_par_bop_const
 Balance of Plant
 MWe/MWe
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3572,7 +3575,7 @@ ui_par_ct0_const
 Cooling Towers
 MWe/MWe
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3586,7 +3589,7 @@ ui_par_dp_total
 Total Design Point Parasitics
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -3600,7 +3603,7 @@ ui_par_fixedblock_const
 Power Block Fixed
 fraction
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3614,7 +3617,7 @@ ui_par_hb_const
 Heater & Boiler
 MWe/MWe
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3628,7 +3631,7 @@ ui_par_htfpump_const
 Solar Field HTF Pumps
 MWe/m2
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3642,7 +3645,7 @@ ui_par_sf_area
 Solar Field Area
 m2
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -3656,7 +3659,7 @@ ui_par_sf_const
 SCA Drives & Electronics
 MWe/m2
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3670,7 +3673,7 @@ ui_par_tes_const
 TES Pumps
 MWe/MWe
 Empirical Trough Parasitics
- 
+0
 2
 1
 1
@@ -3684,7 +3687,7 @@ ui_par_turb_out_gr
 Gross Turbine Output
 MWe
 Empirical Trough Parasitics
- 
+0
 8
 1
 1
@@ -3698,7 +3701,7 @@ use_par_library_values
 Use library values
  
  
- 
+0
 0
 1
 1

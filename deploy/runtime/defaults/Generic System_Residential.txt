@@ -1,5 +1,5 @@
 1
-392
+393
 LeadAcid_q10
 1
 1
@@ -93,6 +93,7 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_peak
 1
@@ -604,6 +605,12 @@ batt_power_discharge_max
 1
 1
 4.989600
+batt_pv_clipping_forecast
+1
+2
+1
+1
+0.000000
 batt_replacement_capacity
 1
 1
@@ -888,7 +895,7 @@ debt_fraction
 debt_message
 1
 4
- 
+0
 degradation
 1
 2
@@ -2047,7 +2054,7 @@ ibi_uti_percent_tax_sta
 import_message
 1
 4
- 
+0
 inflation_rate
 1
 1
@@ -2880,6 +2887,7 @@ ur_desc_is_shown
 ur_description
 1
 4
+5
 empty
 ur_ec_is_shown
 1
@@ -2943,6 +2951,7 @@ ur_en_ts_sell_rate
 ur_end_date
 1
 4
+5
 empty
 ur_energy_history
 1
@@ -2983,6 +2992,7 @@ ur_monthly_min_charge
 ur_name
 1
 4
+5
 empty
 ur_nm_yearend_sell_rate
 1
@@ -2993,22 +3003,26 @@ ur_nm_yearend_sell_rate
 ur_phase_wiring
 1
 4
+9
 <invalid>
 ur_ratedata_filename
 1
 4
- 
+0
 ur_schedule_name
 1
 4
+5
 empty
 ur_source
 1
 4
+5
 empty
 ur_start_date
 1
 4
+5
 empty
 ur_ts_sell_rate
 1
@@ -3020,10 +3034,12 @@ ur_ts_sell_rate
 ur_uri
 1
 4
+5
 empty
 ur_voltage_category
 1
 4
+9
 <invalid>
 ur_voltage_max
 1

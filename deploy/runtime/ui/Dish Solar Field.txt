@@ -914,7 +914,7 @@ adjust
 Performance adjustment
  
 Dish Solar Field
- 
+0
 1
 1
 5
@@ -927,7 +927,7 @@ csp.ds.field_area
 Total Solar Field Area
 m2
 Dish Solar Field
- 
+0
 8
 1
 1
@@ -941,7 +941,7 @@ csp.ds.ncollectors
 Number of Collectors
  
 Dish Solar Field
- 
+0
 8
 1
 1
@@ -955,7 +955,7 @@ csp.ds.total_capacity
 Total Capacity
 kW
 Dish Solar Field
- 
+0
 10
 1
 1
@@ -969,7 +969,7 @@ ew_dish_sep
 Collector Separation East-West
 m
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -983,7 +983,7 @@ h_slot_gap
 Slot Gap Height
 m
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -997,7 +997,7 @@ n_ew
 Number of Collectors, East-West
  
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -1011,7 +1011,7 @@ n_ns
 Number of Collectors, North-South
  
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -1025,7 +1025,7 @@ ns_dish_sep
 Collector Separation North-South
 m
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -1039,7 +1039,7 @@ slope_ew
 Ground Slope, East-West
 deg
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -1053,7 +1053,7 @@ slope_ns
 Ground Slope, North-South
 deg
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -1067,7 +1067,7 @@ system_capacity
 System Capacity
 kW
 Dish Solar Field
- 
+0
 8
 1
 1
@@ -1081,7 +1081,7 @@ w_slot_gap
 Slot Gap Width
 m
 Dish Solar Field
- 
+0
 2
 1
 1
@@ -1095,7 +1095,7 @@ wind_stow_speed
 Wind Stow Speed
 m/s
 Dish Solar Field
- 
+0
 2
 1
 1

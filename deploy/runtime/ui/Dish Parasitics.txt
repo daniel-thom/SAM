@@ -706,7 +706,7 @@ P_controls
 Control System Parasitic Power, Avg.
 W
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -720,7 +720,7 @@ P_tower_fan
  
  
  
- 
+0
 0
 1
 1
@@ -734,7 +734,7 @@ T_cool_speed2
 Cooling Fluid Temp. For Fan Speed 2 Cut-In
 'C
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -748,7 +748,7 @@ T_cool_speed3
 Cooling Fluid Temp. For Fan Speed 3 Cut-In
 'C
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -762,7 +762,7 @@ Tower_water_outlet_temp
  
  
  
- 
+0
 0
 1
 1
@@ -776,7 +776,7 @@ b_cooler
 'b_cooler' Parameter
  
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -790,7 +790,7 @@ b_radiator
 'b_radiator' Parameter
  
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -804,7 +804,7 @@ cooling_fluid
  
  
  
- 
+0
 8
 1
 1
@@ -818,7 +818,7 @@ cooling_tower_on
  
  
  
- 
+0
 0
 1
 1
@@ -832,6 +832,7 @@ csp.ds.coolfluid
 Cooling Fluid Type
  
 Dish Parasitics
+33
 Water|V50%EG|V25%EG|V40%PG|V40%EG
 2
 1
@@ -846,7 +847,7 @@ d_pipe_tower
  
  
  
- 
+0
 0
 1
 1
@@ -860,7 +861,7 @@ epsilon_cooler_test
 Cooler Effectiveness
 (0..1)
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -874,7 +875,7 @@ epsilon_power_test
  
  
  
- 
+0
 0
 1
 1
@@ -888,7 +889,7 @@ epsilon_radiator_test
 Radiator Effectiveness
 (0..1)
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -902,7 +903,7 @@ eta_tower_pump
  
  
  
- 
+0
 0
 1
 1
@@ -916,7 +917,7 @@ ew_dish_separation
  
  
  
- 
+0
 0
 1
 1
@@ -930,7 +931,7 @@ fan_control_signal
  
  
  
- 
+0
 0
 1
 1
@@ -944,7 +945,7 @@ fan_speed1
 Cooling System Fan Speed 1
 rpm
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -958,7 +959,7 @@ fan_speed2
 Cooling System Fan Speed 2
 rpm
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -972,7 +973,7 @@ fan_speed3
 Cooling System Fan Speed 3
 rpm
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -986,7 +987,7 @@ ns_dish_separation
  
  
  
- 
+0
 0
 1
 1
@@ -1000,7 +1001,7 @@ pump_speed
 Cooling System Pump Speed
 rpm
 Dish Parasitics
- 
+0
 2
 1
 1
@@ -1014,7 +1015,7 @@ system_availability
  
  
  
- 
+0
 0
 1
 1
@@ -1028,7 +1029,7 @@ tower_m_dot_water
  
  
  
- 
+0
 0
 1
 1
@@ -1042,7 +1043,7 @@ tower_m_dot_water_test
  
  
  
- 
+0
 0
 1
 1
@@ -1056,7 +1057,7 @@ tower_mode
  
  
  
- 
+0
 0
 1
 1
@@ -1070,7 +1071,7 @@ tower_pipe_material
  
  
  
- 
+0
 0
 1
 1

@@ -1605,7 +1605,7 @@ CT
 Flag for using dry cooling or wet cooling system
  
 Power Cycle With No Storage
- 
+0
 8
 1
 1
@@ -1619,7 +1619,7 @@ LHV_eff
 Fossil backup boiler LHV efficiency
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1633,7 +1633,7 @@ P_amb_pwb
 Ambient pressure
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1647,7 +1647,7 @@ P_boil_des
 High pressure turbine inlet pressure
 bar
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1661,7 +1661,7 @@ P_cond_min
 Minimum condenser pressure
 inHg
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1675,7 +1675,7 @@ P_cond_ratio
 Condenser pressure ratio
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1689,7 +1689,7 @@ P_rh_ref
 High pressure turbine outlet pressure
 bar
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1703,7 +1703,7 @@ T_ITD_des
 ITD at design point
 °C
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1717,7 +1717,7 @@ T_amb_des
 Ambient temp at design
 °C
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1731,7 +1731,7 @@ T_approach
 Approach temperature
 °C
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1745,7 +1745,7 @@ T_db_pwb
 Ambient dry bulb temperature
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1759,7 +1759,7 @@ T_wb
 Ambient wet bulb temperature
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1773,7 +1773,7 @@ adjust
 Performance adjustment
  
 Power Cycle With No Storage
- 
+0
 1
 1
 5
@@ -1786,6 +1786,7 @@ csp.pbns.condenser_type
 Condenser type
  
 Power Cycle With No Storage
+29
 Evaporative|Air-cooled|Hybrid
 2
 1
@@ -1800,6 +1801,7 @@ csp.pbns.fossil_mode_lf
 Fossil dispatch mode
  
 Power Cycle With No Storage
+56
 Minimum backup level|Supplemental operation|Topping mode
 2
 1
@@ -1814,6 +1816,7 @@ csp.pbns.fossil_mode_st
 Fossil dispatch mode
  
 Power Cycle With No Storage
+43
 Minimum backup level|Supplemental operation
 2
 1
@@ -1828,7 +1831,7 @@ csp.pbns.gross_net_conv_factor
 Estimated gross to net conversion factor
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1842,7 +1845,7 @@ csp.pbns.pb_init_remain
 Minimum restart time for power cycle
 hr
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1856,7 +1859,7 @@ cycle_cutoff_frac
 Minimum operation fraction
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1870,7 +1873,7 @@ cycle_max_fraction
 Max over design operation fraction
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1884,7 +1887,7 @@ dT_cw_ref
 Reference condenser water dT
 °C
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1898,7 +1901,7 @@ demand_var
 Design turbine gross output
 MWe
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1912,7 +1915,7 @@ dp_b
 Pressure drop in boiler
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1926,7 +1929,7 @@ dp_rh
 Pressure drop in reheater
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1940,7 +1943,7 @@ dp_sh
 Pressure drop in superheater
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1954,7 +1957,7 @@ eta_ref
 Rated cycle efficiency
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -1968,7 +1971,7 @@ f_recSU
 Fraction powerblock can run due to receiver startup
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -1982,7 +1985,7 @@ fossil_mode
 Fossil dispatch mode
  
 Power Cycle With No Storage
- 
+0
 8
 1
 1
@@ -1996,7 +1999,7 @@ m_dot_st
 HTF mass flow rate
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -2010,7 +2013,7 @@ n_pl_inc
 Cooling system part load levels
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -2024,7 +2027,7 @@ nameplate
 Net nameplate capacity
 MWe
 Power Cycle With No Storage
- 
+0
 8
 1
 1
@@ -2038,7 +2041,7 @@ pb_bd_frac
 Steam cycle blowdown fraction
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -2052,7 +2055,7 @@ pc_mode
 Cycle part load control, from plant controller
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -2066,7 +2069,7 @@ q_pb_des
 Design thermal input power
 MWt
 Power Cycle With No Storage
- 
+0
 8
 1
 1
@@ -2080,7 +2083,7 @@ q_sby_frac
 Fraction of thermal power needed for standby
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -2094,7 +2097,7 @@ relhum
 Relative humidity of the ambient air
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -2108,7 +2111,7 @@ rh_frac_ref
 Design reheat mass flow rate fraction
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -2122,7 +2125,7 @@ standby_control
 Control signal indicating standby mode
  
 Power Cycle With No Storage
- 
+0
 0
 1
 1
@@ -2136,7 +2139,7 @@ startup_frac
 Fraction of thermal power needed for startup
  
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -2150,7 +2153,7 @@ startup_time
 Startup time
 hr
 Power Cycle With No Storage
- 
+0
 2
 1
 1
@@ -2164,7 +2167,7 @@ system_capacity
  
  
 Power Cycle With No Storage
- 
+0
 9
 1
 1
@@ -2178,7 +2181,7 @@ t_sby
 Low resource standby period
 hr
 Power Cycle With No Storage
- 
+0
 2
 1
 1

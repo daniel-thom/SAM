@@ -2760,7 +2760,7 @@ biopwr.cost.boiler
 Boiler cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2774,7 +2774,7 @@ biopwr.cost.boiler.cost_per_kw
 Boiler cost per kW
 $/kW
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -2788,7 +2788,7 @@ biopwr.cost.boiler_capacity
 Boiler(s)
 kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -2802,7 +2802,7 @@ biopwr.cost.bop
 Balance of plant cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2816,7 +2816,7 @@ biopwr.cost.bop_capacity
 Balance of plant
 kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -2830,7 +2830,7 @@ biopwr.cost.bop_per_kw
 Balance of cost per kW
 $/kW
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -2844,7 +2844,7 @@ biopwr.cost.cap_per_boiler
 Boiler
 lb/hr
 Biomass System Cost
- 
+0
 8
 1
 1
@@ -2858,7 +2858,7 @@ biopwr.cost.contingency
 Contingency cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2872,7 +2872,7 @@ biopwr.cost.contingency_percent
 Contingency
 % of direct cost
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -2886,7 +2886,7 @@ biopwr.cost.dryer
 Drier cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2900,7 +2900,7 @@ biopwr.cost.dryer_capacity
 Dryer capacity
 kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -2914,7 +2914,7 @@ biopwr.cost.dryer_per_kw
 Dryer cost per kW
 $/kW
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -2928,7 +2928,7 @@ biopwr.cost.epc.fixed
 EPC fixed cost
 $
 Biopower System Cost
- 
+0
 1
 1
 1
@@ -2942,7 +2942,7 @@ biopwr.cost.epc.nonfixed
 EPC non-fixed cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2956,7 +2956,7 @@ biopwr.cost.epc.percent
 EPC cost as percent of direct cost
 % of direct cost
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -2970,7 +2970,7 @@ biopwr.cost.epc.total
 EPC cost total
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2984,7 +2984,7 @@ biopwr.cost.equipment
 Other equipment cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -2998,7 +2998,7 @@ biopwr.cost.equipment.cost_per_kw
 Equipment cost per kW
 $/kW
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -3012,7 +3012,7 @@ biopwr.cost.equipment_capacity
 Other equipment cost
 kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -3026,7 +3026,7 @@ biopwr.cost.installed_per_capacity
 Total installed cost per capacity
 $/kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -3040,7 +3040,7 @@ biopwr.cost.plm.fixed
 PLM fixed cost
 $
 Biopower System Cost
- 
+0
 1
 1
 1
@@ -3054,7 +3054,7 @@ biopwr.cost.plm.nonfixed
 PLM non-fixed cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3068,7 +3068,7 @@ biopwr.cost.plm.percent
 PLM cost as percent of direct cost
 % of direct cost
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -3082,7 +3082,7 @@ biopwr.cost.plm.total
 PLM total cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3096,7 +3096,7 @@ biopwr.cost.prep
 Preparation cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3110,7 +3110,7 @@ biopwr.cost.prep_capacity
 Fuel Handling Equipment
 kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -3124,7 +3124,7 @@ biopwr.cost.prep_per_cap
 Fuel Handling cost per kW
 $/kW
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -3138,7 +3138,7 @@ biopwr.cost.sales_tax.percent
 Sales tax percentage of direct cost
 %
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -3152,7 +3152,7 @@ biopwr.cost.sales_tax.total
 Sales tax amount
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3166,7 +3166,7 @@ biopwr.cost.sales_tax.value
 Sales tax rate
 %
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3180,7 +3180,7 @@ biopwr.cost.total_direct
 Total direct capital cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3194,7 +3194,7 @@ biopwr.cost.total_indirect
 Total indirect capital cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3208,7 +3208,7 @@ biopwr.cost.turbine
 Turbine and generator cost
 $
 Biopower System Cost
- 
+0
 9
 1
 1
@@ -3222,7 +3222,7 @@ biopwr.cost.turbine_capacity
 Turbine and generator capacity
 kW
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -3236,7 +3236,7 @@ biopwr.cost.turbine_per_kw
 Turbine cost per kW
 $/kW
 Biopower System Cost
- 
+0
 3
 1
 1
@@ -3250,7 +3250,7 @@ system_use_lifetime_output
  
  
  
- 
+0
 8
 1
 1
@@ -3264,7 +3264,7 @@ system_use_recapitalization
  
  
  
- 
+0
 8
 1
 1
@@ -3278,7 +3278,7 @@ total_direct_cost
 Total direct cost
 $
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -3292,7 +3292,7 @@ total_indirect_cost
 Total indirect cost
 $
 Biopower System Cost
- 
+0
 8
 1
 1
@@ -3306,7 +3306,7 @@ total_installed_cost
 Total installed cost
 $
 Biopower System Cost
- 
+0
 8
 1
 1

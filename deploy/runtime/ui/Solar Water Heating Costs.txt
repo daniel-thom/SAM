@@ -1839,7 +1839,7 @@ bos
 Balance of system
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -1853,7 +1853,7 @@ collector
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -1867,6 +1867,7 @@ collector_cost_units
  
  
 SHW Capital Costs
+15
 $/m2|$/W|$/unit
 0
 1
@@ -1881,7 +1882,7 @@ contingency
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -1895,7 +1896,7 @@ contingency_percent
 Contingency
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -1909,7 +1910,7 @@ epc_fixed
  
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -1923,7 +1924,7 @@ epc_nonfixed
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -1937,7 +1938,7 @@ epc_percent
 Engineer, Procure, Construct
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -1951,7 +1952,7 @@ epc_total
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -1965,7 +1966,7 @@ installation
 Installation cost
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -1979,7 +1980,7 @@ installed_per_capacity
 Total installed cost per capacity ($/Wt)
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -1993,6 +1994,7 @@ num_collectors
 Number of Collectors
  
 SHW Capital Costs
+13
 =${swh.ncoll}
 8
 1
@@ -2007,7 +2009,7 @@ per_collector
 Collector cost
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -2021,7 +2023,7 @@ per_storage
 Storage cost
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -2035,7 +2037,7 @@ plm_fixed
  
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -2049,7 +2051,7 @@ plm_nonfixed
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2063,7 +2065,7 @@ plm_percent
 Project, Land, Miscellaneous
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -2077,7 +2079,7 @@ plm_total
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2091,7 +2093,7 @@ sales_tax_percent
  
  
 SHW Capital Costs
- 
+0
 2
 1
 1
@@ -2105,7 +2107,7 @@ sales_tax_total
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2119,7 +2121,7 @@ sales_tax_value
 Sales tax of
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2133,7 +2135,7 @@ storage
  
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2147,6 +2149,7 @@ storage_cost_units
  
  
 SHW Capital Costs
+11
 $/m3|$/unit
 0
 1
@@ -2161,7 +2164,7 @@ system_use_lifetime_output
  
  
  
- 
+0
 8
 1
 1
@@ -2175,7 +2178,7 @@ system_use_recapitalization
  
  
  
- 
+0
 8
 1
 1
@@ -2189,7 +2192,7 @@ total_direct
 Total direct cost
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2203,7 +2206,7 @@ total_indirect
 Total indirect cost
  
 SHW Capital Costs
- 
+0
 8
 1
 1
@@ -2217,7 +2220,7 @@ total_installed_cost
 Total installed cost
  
 SHW Capital Costs
- 
+0
 8
 1
 1

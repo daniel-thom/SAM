@@ -690,7 +690,7 @@ A_absorber
 Absorber Surface Area
 m2
 Dish Receiver
- 
+0
 2
 1
 1
@@ -704,7 +704,7 @@ A_wall
 Cavity Surface Area
 m2
 Dish Receiver
- 
+0
 2
 1
 1
@@ -718,7 +718,7 @@ DELTA_T_REFLUX
  
  
  
- 
+0
 0
 1
 1
@@ -732,7 +732,7 @@ L_cav
 Internal Depth of Cavity Perp. to Aperture
 m
 Dish Receiver
- 
+0
 2
 1
 1
@@ -746,7 +746,7 @@ L_insulation
 Thickness
 m
 Dish Receiver
- 
+0
 2
 1
 1
@@ -760,7 +760,7 @@ P_cav
 Internal Cavity Pressure With Aperture Covered
 kPa
 Dish Receiver
- 
+0
 2
 1
 1
@@ -774,7 +774,7 @@ alpha_absorber
 Absorber Absorptance
  
 Dish Receiver
- 
+0
 2
 1
 1
@@ -788,7 +788,7 @@ alpha_wall
 Cavity Absorptance
  
 Dish Receiver
- 
+0
 2
 1
 1
@@ -802,7 +802,7 @@ d_ap
 Receiver Aperture Diameter
 m
 Dish Receiver
- 
+0
 2
 1
 1
@@ -816,7 +816,7 @@ d_cav
 Internal Diameter of Cavity Perp. to Aperture
 m
 Dish Receiver
- 
+0
 2
 1
 1
@@ -830,7 +830,7 @@ k_insulation
 Thermal Conductivity
 W/mK
 Dish Receiver
- 
+0
 2
 1
 1
@@ -844,7 +844,7 @@ rec_type
  
  
  
- 
+0
 0
 1
 1
@@ -858,7 +858,7 @@ transmittance_cover
  
  
  
- 
+0
 0
 1
 1

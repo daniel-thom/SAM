@@ -310,11 +310,11 @@ sale_leaseback_message
  
  
  
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 sponsor_operating_margin
 3
@@ -322,7 +322,7 @@ sponsor_operating_margin
 Developer (lessee) operating margin
 $/kW
 Sale Leaseback
- 
+0
 2
 1
 1
@@ -336,7 +336,7 @@ sponsor_operating_margin_amount
 Amount
  
 Sale Leaseback
- 
+0
 8
 1
 1
@@ -350,7 +350,7 @@ sponsor_operating_margin_escalation
 Developer (lessee) margin escalation
 %/year
 Sale Leaseback
- 
+0
 2
 1
 1
@@ -364,7 +364,7 @@ tax_investor_required_lease_reserve
 Tax investor (lessor) required lease payment reserve
 months of reserve
 Sale Leaseback
- 
+0
 2
 1
 1

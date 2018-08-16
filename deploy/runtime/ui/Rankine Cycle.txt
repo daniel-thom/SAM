@@ -661,7 +661,7 @@ CT
 Condenser type
  
 Power Cycle
- 
+0
 8
 1
 1
@@ -675,7 +675,7 @@ P_boil
 Boiler operating pressure
 Bar
 Power Cycle
- 
+0
 2
 1
 1
@@ -689,7 +689,7 @@ P_cond_min
 Min condenser pressure
 inHg
 Power Cycle
- 
+0
 2
 1
 1
@@ -703,7 +703,7 @@ P_cond_ratio
 Condenser pressure ratio
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -717,7 +717,7 @@ T_ITD_des
 ITD at design point
 °C
 Power Cycle
- 
+0
 2
 1
 1
@@ -731,7 +731,7 @@ T_amb_des
 Ambient temperature at design
 °C
 Power Cycle
- 
+0
 2
 1
 1
@@ -745,7 +745,7 @@ T_approach
 Approach temperature
 °C
 Power Cycle
- 
+0
 2
 1
 1
@@ -759,6 +759,7 @@ csp.pt.pwrb.condenser_type
 Condenser type
  
 Power Cycle
+29
 Evaporative|Air-cooled|Hybrid
 2
 1
@@ -773,6 +774,7 @@ csp.pt.pwrb.pressure_mode
 Turbine inlet pressure control
  
 Power Cycle
+31
 Fixed pressure|Sliding pressure
 2
 1
@@ -787,7 +789,7 @@ dT_cw_ref
 Reference condenser water dT
 °C
 Power Cycle
- 
+0
 2
 1
 1
@@ -801,7 +803,7 @@ n_pl_inc
 Cooling system part load levels
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -815,7 +817,7 @@ pb_bd_frac
 Steam cycle blowdown fraction
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -829,7 +831,7 @@ tech_type
 1: Fixed (tower) 3: Sliding
  
 Power Cycle
- 
+0
 8
 1
 1

@@ -2429,7 +2429,7 @@ csp.ds.cost.collector
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2443,7 +2443,7 @@ csp.ds.cost.collector.area
 Collector Cost (Projected Area)
 m2/unit
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2457,7 +2457,7 @@ csp.ds.cost.collector.cost_per_m2
 Collector Cost per m2
 $/unit
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2471,7 +2471,7 @@ csp.ds.cost.contingency
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2485,7 +2485,7 @@ csp.ds.cost.contingency_percent
 Contingency
  
 Dish Capital Costs
- 
+0
 2
 1
 1
@@ -2499,7 +2499,7 @@ csp.ds.cost.engine
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2513,7 +2513,7 @@ csp.ds.cost.engine.cost_per_kw
 Engine Cost per kW
 $/kW
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2527,7 +2527,7 @@ csp.ds.cost.engine.kw
 Engine Cost
 kW/unit
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2541,7 +2541,7 @@ csp.ds.cost.epc.fixed
 Fixed EPC Cost
 $
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2555,7 +2555,7 @@ csp.ds.cost.epc.per_acre
 EPC Costs acre
 per acre
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2569,7 +2569,7 @@ csp.ds.cost.epc.per_watt
 EPC Cost Wac
 per Wac
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2583,7 +2583,7 @@ csp.ds.cost.epc.percent
 EPC Costs % direct
 % direct
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2597,7 +2597,7 @@ csp.ds.cost.epc.total
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2611,7 +2611,7 @@ csp.ds.cost.installed_per_capacity
 Total installed cost per capacity ($/kW)
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2625,7 +2625,7 @@ csp.ds.cost.nameplate
 Nameplate
 kWe
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2639,7 +2639,7 @@ csp.ds.cost.plm.fixed
 Fixed Land Cost
 $
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2653,7 +2653,7 @@ csp.ds.cost.plm.per_acre
 Land Costs acre
 per acre
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2667,7 +2667,7 @@ csp.ds.cost.plm.per_watt
 Land Cost Wac
 per Wac
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2681,7 +2681,7 @@ csp.ds.cost.plm.percent
 Land Costs % direct
 % direct
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2695,7 +2695,7 @@ csp.ds.cost.plm.total
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2709,7 +2709,7 @@ csp.ds.cost.receiver
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2723,7 +2723,7 @@ csp.ds.cost.receiver.cost_per_kw
 Receiver Cost per kW
 $/kW
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2737,7 +2737,7 @@ csp.ds.cost.receiver.kw
 Receiver Cost
 kW/unit
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2751,7 +2751,7 @@ csp.ds.cost.sales_tax.percent
 Sales Tax Percentage of Direct Cost
 %
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2765,7 +2765,7 @@ csp.ds.cost.sales_tax.total
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2779,7 +2779,7 @@ csp.ds.cost.sales_tax.value
 Sales Tax of
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2793,7 +2793,7 @@ csp.ds.cost.site_improvements
  
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2807,7 +2807,7 @@ csp.ds.cost.site_improvements.area
 Site Improvements
 m2
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2821,7 +2821,7 @@ csp.ds.cost.site_improvements.cost_per_m2
 Site Improvement Cost per m2
 $/m2
 Dish Capital Costs
- 
+0
 3
 1
 1
@@ -2835,7 +2835,7 @@ csp.ds.cost.total_land_area
 Total Land Area
 acres
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2849,7 +2849,7 @@ system_use_lifetime_output
  
  
  
- 
+0
 8
 1
 1
@@ -2863,7 +2863,7 @@ system_use_recapitalization
  
  
  
- 
+0
 8
 1
 1
@@ -2877,7 +2877,7 @@ total_direct_cost
 Total direct cost
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2891,7 +2891,7 @@ total_indirect_cost
 Total indirect cost
  
 Dish Capital Costs
- 
+0
 8
 1
 1
@@ -2905,7 +2905,7 @@ total_installed_cost
 Total installed cost
  
 Dish Capital Costs
- 
+0
 8
 1
 1

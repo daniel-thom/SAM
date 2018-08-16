@@ -3136,7 +3136,7 @@ CT
 Condenser type
  
 Tower Power Block
- 
+0
 8
 1
 1
@@ -3150,7 +3150,7 @@ F_wc
 Hybrid dispatch fraction
  
 Tower Power Block
- 
+0
 8
 1
 2
@@ -3164,7 +3164,7 @@ PB_COPY_P_ref
 Power Cycle Gross Output
 MWe
  
- 
+0
 8
 1
 1
@@ -3178,7 +3178,7 @@ PB_COPY_T_htf_cold_des
 HTF Cold Temperature
 °C
  
- 
+0
 8
 1
 1
@@ -3192,7 +3192,7 @@ PB_COPY_T_htf_hot_des
 HTF Hot Temperature
 °C
  
- 
+0
 8
 1
 1
@@ -3206,7 +3206,7 @@ PB_COPY_design_eff
 Cycle Thermal Efficiency
  
  
- 
+0
 8
 1
 1
@@ -3220,7 +3220,7 @@ PB_COPY_gross_net_conversion_factor
 Estimated gross to net conversion factor
  
  
- 
+0
 8
 1
 1
@@ -3234,7 +3234,7 @@ PB_COPY_nameplate
 Estimated net output (nameplate)
 MWe
  
- 
+0
 8
 1
 1
@@ -3248,7 +3248,7 @@ PB_COPY_q_pb_design
 Cycle Thermal Power
 MWt
  
- 
+0
 8
 1
 1
@@ -3262,7 +3262,7 @@ P_boil
 Boiler operating pressure
 Bar
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3276,7 +3276,7 @@ P_cond_min
 Min condenser pressure
 inHg
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3290,7 +3290,7 @@ P_cond_ratio
 Condenser pressure ratio
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3304,7 +3304,7 @@ P_high_limit
 High pressure limit
 MPa
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3318,7 +3318,7 @@ P_in_calc
 Compressor inlet pressure
 MPa
 Tower Power Block
- 
+0
 0
 1
 1
@@ -3332,7 +3332,7 @@ P_out_calc
 Compressor outlet pressure
 MPa
 Tower Power Block
- 
+0
 0
 1
 1
@@ -3346,7 +3346,7 @@ T_ITD_des
 ITD at design point
 °C
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3360,7 +3360,7 @@ T_amb_des
 Ambient temperature at design
 °C
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3374,7 +3374,7 @@ T_approach
 Approach temperature
 °C
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3388,7 +3388,7 @@ T_htf_cold_calc
 HTF return temperature sCO2
 °C
 Tower Power Block
- 
+0
 0
 1
 1
@@ -3402,7 +3402,7 @@ UA_total_calc
 Recuperator conductance (UA)
 kW/K
 Tower Power Block
- 
+0
 0
 1
 1
@@ -3416,6 +3416,7 @@ csp.pt.pwrb.condenser_type
 Condenser type
  
 Tower Power Block
+29
 Evaporative|Air-cooled|Hybrid
 2
 1
@@ -3430,7 +3431,7 @@ csp.pt.pwrb.hc_ctl1
 Hybrid dispatch fraction period 1
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3444,7 +3445,7 @@ csp.pt.pwrb.hc_ctl2
 Hybrid dispatch fraction period 2
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3458,7 +3459,7 @@ csp.pt.pwrb.hc_ctl3
 Hybrid dispatch fraction period 3
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3472,7 +3473,7 @@ csp.pt.pwrb.hc_ctl4
 Hybrid dispatch fraction period 4
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3486,7 +3487,7 @@ csp.pt.pwrb.hc_ctl5
 Hybrid dispatch fraction period 5
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3500,7 +3501,7 @@ csp.pt.pwrb.hc_ctl6
 Hybrid dispatch fraction period 6
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3514,7 +3515,7 @@ csp.pt.pwrb.hc_ctl7
 Hybrid dispatch fraction period 7
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3528,7 +3529,7 @@ csp.pt.pwrb.hc_ctl8
 Hybrid dispatch fraction period 8
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3542,7 +3543,7 @@ csp.pt.pwrb.hc_ctl9
 Hybrid dispatch fraction period 9
  
 Tower Power Block
- 
+0
 3
 1
 1
@@ -3556,6 +3557,7 @@ csp.pt.pwrb.pressure_mode
 Turbine inlet pressure control
  
 Tower Power Block
+31
 Fixed pressure|Sliding pressure
 2
 1
@@ -3570,7 +3572,7 @@ cycle_cutoff_frac
 Minimum turbine operation
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3584,7 +3586,7 @@ cycle_max_frac
 Maximum turbine over design operation
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3598,7 +3600,7 @@ dT_cw_ref
 Reference condenser water dT
 °C
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3612,7 +3614,7 @@ deltaT_PHX
 PHX temperature difference
 °C
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3626,7 +3628,7 @@ eta_c
 Compressor(s) isentropic efficiency
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3640,7 +3642,7 @@ eta_t
 Turbine isentropic efficiency
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3654,7 +3656,7 @@ fan_power_perc_net
 Net power used for cooling fan
 %
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3668,7 +3670,7 @@ fossil_mode
 Fossil dispatch mode
  
 Tower Power Block
- 
+0
 8
 1
 1
@@ -3682,7 +3684,7 @@ is_sco2_optimized
 is sco2 optimized??
  
  
- 
+0
 8
 1
 1
@@ -3696,7 +3698,7 @@ n_pl_inc
 Cooling system part load levels
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3710,7 +3712,7 @@ pb_bd_frac
 Steam cycle blowdown fraction
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3724,7 +3726,7 @@ pb_pump_coef
 Pumping power for HTF through power block
 kW/kg/s
  
- 
+0
 2
 1
 1
@@ -3738,6 +3740,7 @@ pc_config
 Power cycle technology
  
 Tower Power Block
+40
 Steam Rankine| sCO2 Recompression/Simple
 0
 1
@@ -3752,7 +3755,7 @@ q_sby_frac
 Fraction of thermal power needed for standby
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3766,7 +3769,7 @@ recomp_frac_calc
 Recompression fraction
  
 Tower Power Block
- 
+0
 0
 1
 1
@@ -3780,7 +3783,7 @@ startup_frac
 Fraction of thermal power needed for startup
  
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3794,7 +3797,7 @@ startup_time
 Power block startup time
 hours
 Tower Power Block
- 
+0
 2
 1
 1
@@ -3808,7 +3811,7 @@ system_capacity
 Estimated net output at design (nameplate)
 kW
 Tower Power Block
- 
+0
 8
 1
 1

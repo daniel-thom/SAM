@@ -1861,7 +1861,7 @@ F_wc
  
  
  
- 
+0
 8
 1
 2
@@ -1875,7 +1875,7 @@ csp.pbns.fossil1
  
  
  
- 
+0
 2
 1
 1
@@ -1889,7 +1889,7 @@ csp.pbns.fossil2
  
  
  
- 
+0
 2
 1
 1
@@ -1903,7 +1903,7 @@ csp.pbns.fossil3
  
  
  
- 
+0
 2
 1
 1
@@ -1917,7 +1917,7 @@ csp.pbns.fossil4
  
  
  
- 
+0
 2
 1
 1
@@ -1931,7 +1931,7 @@ csp.pbns.fossil5
  
  
  
- 
+0
 2
 1
 1
@@ -1945,7 +1945,7 @@ csp.pbns.fossil6
  
  
  
- 
+0
 2
 1
 1
@@ -1959,7 +1959,7 @@ csp.pbns.fossil7
  
  
  
- 
+0
 2
 1
 1
@@ -1973,7 +1973,7 @@ csp.pbns.fossil8
  
  
  
- 
+0
 2
 1
 1
@@ -1987,7 +1987,7 @@ csp.pbns.fossil9
  
  
  
- 
+0
 2
 1
 1
@@ -2001,7 +2001,7 @@ csp.pbns.hc_ctl1
  
  
  
- 
+0
 2
 1
 1
@@ -2015,7 +2015,7 @@ csp.pbns.hc_ctl2
  
  
  
- 
+0
 2
 1
 1
@@ -2029,7 +2029,7 @@ csp.pbns.hc_ctl3
  
  
  
- 
+0
 2
 1
 1
@@ -2043,7 +2043,7 @@ csp.pbns.hc_ctl4
  
  
  
- 
+0
 2
 1
 1
@@ -2057,7 +2057,7 @@ csp.pbns.hc_ctl5
  
  
  
- 
+0
 2
 1
 1
@@ -2071,7 +2071,7 @@ csp.pbns.hc_ctl6
  
  
  
- 
+0
 2
 1
 1
@@ -2085,7 +2085,7 @@ csp.pbns.hc_ctl7
  
  
  
- 
+0
 2
 1
 1
@@ -2099,7 +2099,7 @@ csp.pbns.hc_ctl8
  
  
  
- 
+0
 2
 1
 1
@@ -2113,7 +2113,7 @@ csp.pbns.hc_ctl9
  
  
  
- 
+0
 2
 1
 1
@@ -2127,7 +2127,7 @@ ffrac
 Physical trough dispatch fossil fill fraction array
  
 CSP Dispatch Control
- 
+0
 9
 1
 2
@@ -2141,7 +2141,7 @@ weekday_schedule
 Dispatch weekday schedule matrix
  
 CSP Dispatch Control
- 
+0
 3
 1
 3
@@ -2167,7 +2167,7 @@ weekend_schedule
 Dispatch weekend schedule matrix
  
 CSP Dispatch Control
- 
+0
 3
 1
 3

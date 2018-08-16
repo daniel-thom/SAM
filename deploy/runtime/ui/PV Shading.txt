@@ -3419,7 +3419,7 @@ en_snow_model
 Enable snow model
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3433,7 +3433,7 @@ module_area
 Module area
 m²
 Shading and Snow
- 
+0
 8
 1
 1
@@ -3447,7 +3447,7 @@ module_aspect_ratio
 Module aspect ratio
  
  
- 
+0
 0
 1
 1
@@ -3461,7 +3461,7 @@ module_length
 Module length
 m
  
- 
+0
 8
 1
 1
@@ -3475,7 +3475,7 @@ module_width
 Module width
 m
  
- 
+0
 8
 1
 1
@@ -3489,7 +3489,7 @@ shading_3d_scene
 Open 3D shade calculator
  
 Shading and Snow
- 
+0
 0
 1
 6
@@ -3501,7 +3501,7 @@ subarray1_gcr_ref
 GCR 1
 m
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3515,6 +3515,7 @@ subarray1_mod_orient
 Module orientation 1
  
 Shading and Snow
+19
 Portrait| Landscape
 3
 1
@@ -3529,7 +3530,7 @@ subarray1_nmodx
 Number of modules along bottom of row 1
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3543,7 +3544,7 @@ subarray1_nmody
 Number of modules along side of row 1
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3557,7 +3558,7 @@ subarray1_ref_nmodules
 Number of modules 1
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3571,6 +3572,7 @@ subarray1_shade_mode
 Self shading mode 1
  
 Shading and Snow
+45
 None|Standard (Non-linear)|Thin film (Linear)
 3
 1
@@ -3585,7 +3587,7 @@ subarray1_shading
 Edit shading losses 1
  
 Shading and Snow
- 
+0
 3
 1
 5
@@ -3598,7 +3600,7 @@ subarray2_gcr_ref
 GCR 2
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3612,6 +3614,7 @@ subarray2_mod_orient
 Module orientation 2
  
 Shading and Snow
+19
 Portrait| Landscape
 3
 1
@@ -3626,7 +3629,7 @@ subarray2_nmodx
 Number of modules along bottom of row 2
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3640,7 +3643,7 @@ subarray2_nmody
 Number of modules along side of row 2
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3654,7 +3657,7 @@ subarray2_ref_nmodules
 Number of modules 2
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3668,6 +3671,7 @@ subarray2_shade_mode
 Self shading mode 2
  
 Shading and Snow
+45
 None|Standard (Non-linear)|Thin film (Linear)
 3
 1
@@ -3682,7 +3686,7 @@ subarray2_shading
 Edit shading losses 2
  
 Shading and Snow
- 
+0
 3
 1
 5
@@ -3695,7 +3699,7 @@ subarray3_gcr_ref
 GCR 3
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3709,6 +3713,7 @@ subarray3_mod_orient
 Module orientation 3
  
 Shading and Snow
+19
 Portrait| Landscape
 3
 1
@@ -3723,7 +3728,7 @@ subarray3_nmodx
 Number of modules along bottom of row 3
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3737,7 +3742,7 @@ subarray3_nmody
 Number of modules along side of row 3
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3751,7 +3756,7 @@ subarray3_ref_nmodules
 Number of modules 3
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3765,6 +3770,7 @@ subarray3_shade_mode
 Self shading mode 3
  
 Shading and Snow
+45
 None|Standard (Non-linear)|Thin film (Linear)
 3
 1
@@ -3779,7 +3785,7 @@ subarray3_shading
 Edit shading losses 3
  
 Shading and Snow
- 
+0
 3
 1
 5
@@ -3792,7 +3798,7 @@ subarray4_gcr_ref
 GCR 4
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3806,6 +3812,7 @@ subarray4_mod_orient
 Module orientation 4
  
 Shading and Snow
+19
 Portrait| Landscape
 3
 1
@@ -3820,7 +3827,7 @@ subarray4_nmodx
 Number of modules along bottom of row 4
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3834,7 +3841,7 @@ subarray4_nmody
 Number of modules along side of row 4
  
 Shading and Snow
- 
+0
 3
 1
 1
@@ -3848,7 +3855,7 @@ subarray4_ref_nmodules
 Number of modules 4
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3862,6 +3869,7 @@ subarray4_shade_mode
 Self shading mode 4
  
 Shading and Snow
+45
 None|Standard (Non-linear)|Thin film (Linear)
 3
 1
@@ -3876,7 +3884,7 @@ subarray4_shading
 Edit shading losses 4
  
 Shading and Snow
- 
+0
 3
 1
 5
@@ -3889,7 +3897,7 @@ ui_subarray1_length_side
 Length of subarray side 1
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3903,7 +3911,7 @@ ui_subarray1_nrows
 Number of rows 1
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3917,7 +3925,7 @@ ui_subarray1_row_spacing
 Row spacing 1
 m
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3931,7 +3939,7 @@ ui_subarray2_length_side
 Length of subarray side 2
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3945,7 +3953,7 @@ ui_subarray2_nrows
 Number of rows 2
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3959,7 +3967,7 @@ ui_subarray2_row_spacing
 Row spacing 2
 m
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3973,7 +3981,7 @@ ui_subarray3_length_side
 Length of subarray side 3
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -3987,7 +3995,7 @@ ui_subarray3_nrows
 Number of rows 3
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -4001,7 +4009,7 @@ ui_subarray3_row_spacing
 Row spacing 3
 m
 Shading and Snow
- 
+0
 9
 1
 1
@@ -4015,7 +4023,7 @@ ui_subarray4_length_side
 Length of subarray side 4
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -4029,7 +4037,7 @@ ui_subarray4_nrows
 Number of rows 4
  
 Shading and Snow
- 
+0
 9
 1
 1
@@ -4043,7 +4051,7 @@ ui_subarray4_row_spacing
 Row spacing 4
 m
 Shading and Snow
- 
+0
 9
 1
 1

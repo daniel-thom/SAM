@@ -756,7 +756,7 @@ rate_escalation
 Electricity bill escalation rate
 %/yr
 Electricity Rates - General
- 
+0
 2
 1
 2
@@ -770,7 +770,7 @@ ur_annual_min_charge
 Annual minimum charge
 $
 Electricity Rates - General
- 
+0
 2
 1
 1
@@ -784,7 +784,7 @@ ur_en_ts_sell_rate
 Enable time step sell rates
  
 Electricity Rates - General
- 
+0
 1
 1
 1
@@ -798,6 +798,7 @@ ur_metering_option
 Metering option
  
 Electricity Rates - General
+377
 Monthly total excess rolled over to next month bill in kWh|Monthly total excess credited to next month bill in $ at sell rate(s)|Cumulative hourly (subhourly) excess credited to current month bill in $ at sell rate(s)|Cumulative hourly (subhourly) excess credited to next month bill in $ at sell rate(s)|All generation sold at sell rate(s) and all load purchased at buy rate(s)
 3
 1
@@ -812,7 +813,7 @@ ur_monthly_fixed_charge
 Fixed monthly charge
 $
 Electricity Rates - General
- 
+0
 2
 1
 1
@@ -826,7 +827,7 @@ ur_monthly_min_charge
 Monthly minimum charge
 $
 Electricity Rates - General
- 
+0
 2
 1
 1
@@ -840,7 +841,7 @@ ur_nm_yearend_sell_rate
 Sell rate for kWh rolled over at end of year
 $/kWh
 Electricity Rates - General
- 
+0
 2
 1
 1
@@ -854,11 +855,11 @@ ur_ratedata_filename
 Electricity rate file
  
 Electricity Rates - General
- 
+0
 1
 1
 4
- 
+0
 TextEntry
 ur_ts_sell_rate
 3
@@ -866,7 +867,7 @@ ur_ts_sell_rate
 Hourly (subhourly) sell rates
 $/kWh
 Electricity Rates - General
- 
+0
 0
 1
 2

@@ -2764,7 +2764,7 @@ hcpv.module.area
 Overall module area
 m2
 Concentrating PV Simple Efficiency Model
- 
+0
 8
 1
 1
@@ -2778,7 +2778,7 @@ hcpv.module.cell_temp
 Estimated cell temperature at reference conditions
 C
 Concentrating PV Module
- 
+0
 8
 1
 1
@@ -2792,7 +2792,7 @@ hcpv.module.est_eff
 Estimated module efficiency
 %
 HCPV Module
- 
+0
 8
 1
 1
@@ -2806,7 +2806,7 @@ hcpv.module.mam_ref
 Modifier at AM 1.5
  
 HCPV Module
- 
+0
 8
 1
 1
@@ -2820,7 +2820,7 @@ hcpv.module.mjeff0
 Efficiency 0
 %
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2834,7 +2834,7 @@ hcpv.module.mjeff1
 Efficiency 1
 %
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2848,7 +2848,7 @@ hcpv.module.mjeff2
 Efficiency 2
 %
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2862,7 +2862,7 @@ hcpv.module.mjeff3
 Efficiency 3
 %
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2876,7 +2876,7 @@ hcpv.module.mjeff4
 Efficiency 4
 %
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2890,7 +2890,7 @@ hcpv.module.power
 Maximum Power (Pmp)
 Wdc
 Concentrating PV Module
- 
+0
 8
 1
 1
@@ -2904,7 +2904,7 @@ hcpv.module.rad0
 Radiation Level 0
 W/m2
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2918,7 +2918,7 @@ hcpv.module.rad0X
  
  
 Concentrating PV Simple Efficiency Model
- 
+0
 8
 1
 1
@@ -2932,7 +2932,7 @@ hcpv.module.rad1
 Radiation Level 1
 W/m2
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2946,7 +2946,7 @@ hcpv.module.rad1X
  
  
 Concentrating PV Simple Efficiency Model
- 
+0
 8
 1
 1
@@ -2960,7 +2960,7 @@ hcpv.module.rad2
 Radiation Level 2
 W/m2
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -2974,7 +2974,7 @@ hcpv.module.rad2X
  
  
 Concentrating PV Simple Efficiency Model
- 
+0
 8
 1
 1
@@ -2988,7 +2988,7 @@ hcpv.module.rad3
 Radiation Level 3
 W/m2
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -3002,7 +3002,7 @@ hcpv.module.rad3X
  
  
 Concentrating PV Simple Efficiency Model
- 
+0
 8
 1
 1
@@ -3016,7 +3016,7 @@ hcpv.module.rad4
 Radiation Level 4
 W/m2
 Concentrating PV Module
- 
+0
 3
 1
 1
@@ -3030,7 +3030,7 @@ hcpv.module.rad4X
  
  
 Concentrating PV Simple Efficiency Model
- 
+0
 8
 1
 1
@@ -3044,7 +3044,7 @@ module_a
 Estimated upper limit at high irradiance and low wind speed (a)
  
 Concentrating PV Module
- 
+0
 2
 1
 1
@@ -3058,7 +3058,7 @@ module_a0
 a0
  
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3072,7 +3072,7 @@ module_a1
 a1
  
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3086,7 +3086,7 @@ module_a2
 a2
  
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3100,7 +3100,7 @@ module_a3
 a3
  
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3114,7 +3114,7 @@ module_a4
 a4
  
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3128,7 +3128,7 @@ module_alignment_error
 Alignment loss factor
 0..1
 HCPV Module
- 
+0
 0
 1
 1
@@ -3142,7 +3142,7 @@ module_b
 Rate at which module temperature drops as wind speed increases (b)
  
 Concentrating PV Module
- 
+0
 2
 1
 1
@@ -3156,7 +3156,7 @@ module_cell_area
 Single cell area
 cm2
 Concentrating PV Module
- 
+0
 2
 1
 1
@@ -3170,7 +3170,7 @@ module_concentration
 Concentration ratio
 X
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3184,7 +3184,7 @@ module_dT
 Temperature difference between heat sink and cell at reference conditions (dT)
 C
 Concentrating PV Module
- 
+0
 2
 1
 1
@@ -3198,7 +3198,7 @@ module_flutter_loss_coeff
 Wind flutter loss factor
 0..1 per m/s
 HCPV Module
- 
+0
 0
 1
 1
@@ -3212,7 +3212,7 @@ module_mjeff
  
  
  
- 
+0
 8
 1
 2
@@ -3226,7 +3226,7 @@ module_ncells
 Number of cells
  
 Concentrating PV Simple Efficiency Model
- 
+0
 0
 1
 1
@@ -3240,7 +3240,7 @@ module_optical_error
 Optical error factor
 0..1
 HCPV Module
- 
+0
 0
 1
 1
@@ -3254,7 +3254,7 @@ module_rad
  
  
  
- 
+0
 8
 1
 2
@@ -3268,7 +3268,7 @@ module_reference
 Reference Condition
  
 Concentrating PV Module
- 
+0
 1
 1
 1
@@ -3282,7 +3282,7 @@ module_temp_coeff
 Temperature coefficient (Pmp)
 %/C
 Concentrating PV Module
- 
+0
 2
 1
 1

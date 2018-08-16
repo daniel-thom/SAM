@@ -512,7 +512,7 @@ debt_fraction
 Debt percent
 %
 Project Term Debt
- 
+0
 2
 1
 1
@@ -526,11 +526,11 @@ debt_message
  
  
  
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 loan_rate
 3
@@ -538,7 +538,7 @@ loan_rate
 Loan rate
 %/year
 Project Term Debt
- 
+0
 2
 1
 1
@@ -552,7 +552,7 @@ loan_term
 Loan term
 years
 Project Term Debt
- 
+0
 2
 1
 1
@@ -566,7 +566,7 @@ ui_loan_amount
 Debt
  
 Project Term Debt
- 
+0
 8
 1
 1
@@ -580,7 +580,7 @@ ui_net_capital_cost
 Net capital cost
  
 Project Term Debt
- 
+0
 8
 1
 1
@@ -594,7 +594,7 @@ ui_wacc
 WACC
 %
 Project Term Debt
- 
+0
 8
 1
 1

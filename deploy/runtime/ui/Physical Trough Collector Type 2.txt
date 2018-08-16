@@ -1051,7 +1051,7 @@ IAMs_2
 Incidence angle modifier coefficients
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 2
@@ -1066,7 +1066,7 @@ csp_dtr_sca_ap_length_2
 Length of single module
 m
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1080,7 +1080,7 @@ csp_dtr_sca_aperture_2
 Reflective aperture area
 m²
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1094,7 +1094,7 @@ csp_dtr_sca_ave_focal_len_2
 Average surface-to-focus path length
 m
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1108,7 +1108,7 @@ csp_dtr_sca_calc_costh_2
 Calculated costheta
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1122,7 +1122,7 @@ csp_dtr_sca_calc_end_gain_2
 End gain factor
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1136,7 +1136,7 @@ csp_dtr_sca_calc_end_loss_2
 End loss at summer solstice
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1150,7 +1150,7 @@ csp_dtr_sca_calc_iam_2
 IAM at summer solstice
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1164,7 +1164,7 @@ csp_dtr_sca_calc_latitude_2
 Latitude
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1178,7 +1178,7 @@ csp_dtr_sca_calc_sca_eff_2
 Optical efficiency at design
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1192,7 +1192,7 @@ csp_dtr_sca_calc_theta_2
 Calculated theta
  
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1206,7 +1206,7 @@ csp_dtr_sca_calc_zenith_2
 Calculated zenith
 rad
 Physical Trough Collector Type 2
- 
+0
 8
 1
 1
@@ -1220,7 +1220,7 @@ csp_dtr_sca_clean_reflectivity_2
 Mirror reflectance
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1234,7 +1234,7 @@ csp_dtr_sca_general_error_2
 General optical error
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1248,7 +1248,7 @@ csp_dtr_sca_geometry_effects_2
 Geometry effects
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1262,7 +1262,7 @@ csp_dtr_sca_length_2
 Length of collector assembly
 m
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1276,7 +1276,7 @@ csp_dtr_sca_mirror_dirt_2
 Dirt on mirror
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1290,7 +1290,7 @@ csp_dtr_sca_ncol_per_sca_2
 Number of modules per assembly
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1304,10 +1304,11 @@ csp_dtr_sca_notify_text_2
 Collector name from library
  
 Physical Trough Collector Type 2
- 
+0
 0
 1
 4
+16
 Solargenix SGX-1
 TextEntry
 csp_dtr_sca_piping_dist_2
@@ -1316,7 +1317,7 @@ csp_dtr_sca_piping_dist_2
 Piping distance between assemblies
 m
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1330,7 +1331,7 @@ csp_dtr_sca_tracking_error_2
 Tracking error
  
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1
@@ -1344,7 +1345,7 @@ csp_dtr_sca_w_profile_2
 Aperture width, total structure
 m
 Physical Trough Collector Type 2
- 
+0
 2
 1
 1

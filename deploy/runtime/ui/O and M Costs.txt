@@ -544,7 +544,7 @@ om_capacity
 Fixed cost by capacity
 $/kW-yr
 Operation and Maintenance Costs
- 
+0
 2
 1
 2
@@ -558,7 +558,7 @@ om_capacity_escal
 Fixed cost per capacity escalation
 %/yr
 Operation and Maintenance Costs
- 
+0
 3
 1
 1
@@ -572,7 +572,7 @@ om_fixed
 Fixed annual cost
 $/yr
 Operation and Maintenance Costs
- 
+0
 2
 1
 2
@@ -586,7 +586,7 @@ om_fixed_escal
 Fixed annual cost escalation
 %/yr
 Operation and Maintenance Costs
- 
+0
 3
 1
 1
@@ -600,7 +600,7 @@ om_fuel_cost
 Fossil fuel cost
 $/MMBTU
 Operation and Maintenance Costs
- 
+0
 2
 1
 2
@@ -614,7 +614,7 @@ om_fuel_cost_escal
 Fossil fuel cost escalation
 %/yr
 Operation and Maintenance Costs
- 
+0
 3
 1
 1
@@ -628,7 +628,7 @@ om_production
 Variable cost by generation
 $/MWh
 Operation and Maintenance Costs
- 
+0
 2
 1
 2
@@ -642,7 +642,7 @@ om_production_escal
 Variable cost by generation escalation
 %/yr
 Operation and Maintenance Costs
- 
+0
 3
 1
 1

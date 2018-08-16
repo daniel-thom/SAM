@@ -2615,7 +2615,7 @@ ColAz
 Collector azimuth angle
 deg
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2629,7 +2629,7 @@ I_bn
 Beam normal radiation (input kJ/m2-hr)
  
  
- 
+0
 0
 1
 1
@@ -2643,7 +2643,7 @@ I_bn_des
 Design point irradiation
 W/m²
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2657,7 +2657,7 @@ PB_pump_coef
  
  
  
- 
+0
 8
 1
 1
@@ -2671,7 +2671,7 @@ P_amb
 Ambient pressure
  
  
- 
+0
 0
 1
 1
@@ -2685,7 +2685,7 @@ P_turb_des
 Turbine inlet pressure
 bar
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2699,7 +2699,7 @@ SolarAz_init
 Solar azimuth angle
  
  
- 
+0
 0
 1
 1
@@ -2713,7 +2713,7 @@ SolarZen
 Solar zenith angle
  
  
- 
+0
 0
 1
 1
@@ -2727,7 +2727,7 @@ T_amb_des_sf
 Design point ambient temperature
 °C
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2741,7 +2741,7 @@ T_cold_ref
 Field inlet temperature
 °C
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2755,7 +2755,7 @@ T_db
  
  
  
- 
+0
 0
 1
 1
@@ -2769,7 +2769,7 @@ T_dp
 The dewpoint temperature
  
  
- 
+0
 0
 1
 1
@@ -2783,7 +2783,7 @@ T_fp
 Freeze protection temperature
 °C
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2797,7 +2797,7 @@ T_hot
 Field outlet temperature
 °C
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2811,7 +2811,7 @@ T_pb_out_init
 Fluid temperature from the power block
  
  
- 
+0
 0
 1
 1
@@ -2825,7 +2825,7 @@ V_wind
 Ambient windspeed
  
  
- 
+0
 0
 1
 1
@@ -2839,7 +2839,7 @@ V_wind_max
 Stow wind speed
 m/s
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2853,7 +2853,7 @@ azimuth
  
  
  
- 
+0
 9
 1
 1
@@ -2867,7 +2867,7 @@ csp.lf.sf.area_multiplier
 Non-solar field land area multiplier
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2881,7 +2881,7 @@ csp.lf.sf.dp.actual_aper
 Actual aperture
 m²
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2895,7 +2895,7 @@ csp.lf.sf.dp.loop_aperture
 Single loop aperture
 m²
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2909,7 +2909,7 @@ csp.lf.sf.dp.loop_opt_eff
 Loop optical efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2923,7 +2923,7 @@ csp.lf.sf.dp.loop_therm_eff
 Loop thermal efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2937,7 +2937,7 @@ csp.lf.sf.dp.piping_therm_eff
 Piping thermal efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2951,7 +2951,7 @@ csp.lf.sf.dp.sm1_aperture
 Total required aperture, SM=1
 m²
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2965,7 +2965,7 @@ csp.lf.sf.dp.sm1_numloops
 Required number of loops, SM=1
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2979,7 +2979,7 @@ csp.lf.sf.dp.total_loop_conv_eff
 Total loop conversion efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2993,7 +2993,7 @@ csp.lf.sf.field_area
 Solar field area
 acres
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -3007,7 +3007,7 @@ csp.lf.sf.geom1_area_frac
 a_b
  
  
- 
+0
 8
 1
 1
@@ -3021,7 +3021,7 @@ csp.lf.sf.geom2_area_frac
 a_sh
  
  
- 
+0
 8
 1
 1
@@ -3035,7 +3035,7 @@ csp.lf.sf.sh_geom_unique
 Superheater has unique geometry
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3049,7 +3049,7 @@ csp.lf.sf.sm_or_area
  
  
 Linear Fresnel Solar Field
- 
+0
 0
 1
 1
@@ -3063,7 +3063,7 @@ csp.lf.sf.specified_solar_multiple
 Solar multiple
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3077,7 +3077,7 @@ csp.lf.sf.specified_total_aperture
 Field aperture
 m²
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3091,7 +3091,7 @@ csp.lf.sf.total_land_area
 Total land area
 acres
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -3105,7 +3105,7 @@ csp.lf.sf.total_pres_drop
 Total solar field pressure drop
 bar
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -3119,7 +3119,7 @@ csp.lf.sf.washes_per_year
 Washes per year
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3133,7 +3133,7 @@ csp.lf.sf.water_per_wash
 Water usage per wash
 L/m²,ap
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3147,7 +3147,7 @@ dnifc
  
  
  
- 
+0
 0
 1
 1
@@ -3161,7 +3161,7 @@ e_startup
 Thermal inertia per unit area of solar field
 kJ/K-m²
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3175,7 +3175,7 @@ eta_pump
 Field pump efficiency
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3189,7 +3189,7 @@ fP_boil_to_sh
 Pressure drop fraction between boiler and superheater
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3203,7 +3203,7 @@ fP_hdr_c
 Cold header pressure drop fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3217,7 +3217,7 @@ fP_hdr_h
 Average design point hot header pressure drop fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3231,7 +3231,7 @@ fP_sf_boil
 Boiler pressure drop fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3245,7 +3245,7 @@ fP_sf_sh
 Design point pressure drop across the superheater fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3259,7 +3259,7 @@ is_multgeom
  
  
  
- 
+0
 8
 1
 1
@@ -3273,6 +3273,7 @@ is_oncethru
 Loop flow configuration
  
 Linear Fresnel Solar Field
+32
 Recirculated boiler|Once through
 2
 1
@@ -3287,7 +3288,7 @@ is_sh
  
  
  
- 
+0
 0
 1
 1
@@ -3301,7 +3302,7 @@ latitude
  
  
  
- 
+0
 9
 1
 1
@@ -3315,7 +3316,7 @@ m_dot_htf_ref
 Reference HTF flow rate at design conditions
  
  
- 
+0
 0
 1
 1
@@ -3329,7 +3330,7 @@ m_dot_min
 Min single loop flow rate
 kg/s
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3343,7 +3344,7 @@ m_pb_demand
 Demand htf flow from the power block
  
  
- 
+0
 0
 1
 1
@@ -3357,7 +3358,7 @@ nLoops
 Actual number of loops
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -3371,7 +3372,7 @@ nModBoil
 Number of modules in boiler section
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3385,7 +3386,7 @@ nModSH
 Number of modules in superheater section
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3399,7 +3400,7 @@ q_max_aux
 Field thermal output
 MWt
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -3413,7 +3414,7 @@ shift
 Shift in longitude from local standard meridian
  
  
- 
+0
 0
 1
 1
@@ -3427,7 +3428,7 @@ solarm
 Actual solar multiple
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -3441,7 +3442,7 @@ tes_hours
  
  
  
- 
+0
 8
 1
 1
@@ -3455,7 +3456,7 @@ theta_dep
 Solar elevation for collector morning deploy
 deg
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3469,7 +3470,7 @@ theta_stow
 Solar elevation for collector nighttime stow
 deg
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -3483,7 +3484,7 @@ tilt
  
  
  
- 
+0
 9
 1
 1
@@ -3497,7 +3498,7 @@ track_mode
  
  
  
- 
+0
 9
 1
 1
@@ -3511,7 +3512,7 @@ x_b_des
 Boiler outlet steam quality
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1

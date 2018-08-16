@@ -149,7 +149,7 @@ inv_tdc_cec_cg
 Inv Temp Derate CEC CG
  
 Inverter Temp Derate Curves
- 
+0
 3
 1
 3

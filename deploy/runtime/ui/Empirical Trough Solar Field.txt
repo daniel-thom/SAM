@@ -2447,7 +2447,7 @@ DepAngle
 Deploy Angle
 deg
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2461,7 +2461,7 @@ Distance_SCA
 Distance Between SCAs in Row
 m
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2475,7 +2475,7 @@ HTFFluid
  
  
  
- 
+0
 8
 1
 1
@@ -2489,7 +2489,7 @@ HtfGalArea
 HTF Gallons per Area
 gal/m2
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2503,7 +2503,7 @@ MinHtfTemp
 Minimum HTF Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2517,7 +2517,7 @@ NumScas
 Number of SCAs per Row
  
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2531,7 +2531,7 @@ Row_Distance
 Row Spacing, Center to Center
 m
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2545,7 +2545,7 @@ SFTempInit
 Solar Field Initial Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2559,7 +2559,7 @@ SfInTempD
 Solar Field Inlet Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2573,7 +2573,7 @@ SfOutTempD
 Solar Field Outlet Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2587,7 +2587,7 @@ SfPipeHl1
 Piping Heat Loss Coefficient 1
  
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2601,7 +2601,7 @@ SfPipeHl2
 Piping Heat Loss Coefficient 2
  
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2615,7 +2615,7 @@ SfPipeHl3
 Piping Heat Loss Coefficient 3
  
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2629,7 +2629,7 @@ SfPipeHl300
 Piping Heat Loss at Design Temp.
 W/m2
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2643,7 +2643,7 @@ Solar_Field_Area
 Aperture Reflective Area
 m^2
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2657,7 +2657,7 @@ Solar_Field_Mult
 Solar Multiple
  
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2671,7 +2671,7 @@ Stow_Angle
 Stow Angle
 deg
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2685,7 +2685,7 @@ azimuth
 Collector Azimuth
 deg
 Empirical Trough Solar
- 
+0
 2
 1
 1
@@ -2699,7 +2699,7 @@ calc_aperture_area_at_sm_1
 none
  
  
- 
+0
 0
 1
 1
@@ -2713,7 +2713,7 @@ calc_field_htf_average_temp
 none
  
  
- 
+0
 0
 1
 1
@@ -2727,7 +2727,7 @@ i_SfTi
  
  
  
- 
+0
 8
 1
 1
@@ -2741,7 +2741,7 @@ tilt
 Collector Tilt
 deg
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2755,7 +2755,7 @@ track_mode
  
  
  
- 
+0
 8
 1
 1
@@ -2769,7 +2769,7 @@ ui_aperture_area_per_SCA
 Aperture Area per SCA
 m2/SCA
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2783,7 +2783,7 @@ ui_custom_htf
 Property table for user-defined HTF
  
 Empirical Trough Solar Field
- 
+0
 0
 1
 3
@@ -2798,7 +2798,7 @@ ui_design_exact_area_sm_1
 Exact Aperture Reflective Area
 m2
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2812,7 +2812,7 @@ ui_design_exact_num_scas_sm_1
 Exact Number of SCAs
  
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2826,7 +2826,7 @@ ui_field_htf_max_operating_temp
 Field HTF Max Operating Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2840,7 +2840,7 @@ ui_field_htf_min_operating_temp
 Field HTF Min Operating Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2854,6 +2854,7 @@ ui_field_htf_type
 Solar Field HTF Type
  
 Empirical Trough Solar Field
+122
 Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined
 2
 1
@@ -2868,7 +2869,7 @@ ui_field_layout_option
  
  
 Empirical Trough Solar Field
- 
+0
 0
 1
 1
@@ -2882,7 +2883,7 @@ ui_fixed_land_area
 Solar Field Land Area
 acres
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2896,7 +2897,7 @@ ui_hce_weighted_optical_efficiency
 Optical Efficiency
  
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2910,7 +2911,7 @@ ui_hce_weighted_thermal_losses
 HCE Thermal Losses
 W/m2
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2924,7 +2925,7 @@ ui_land_multiplier
 Non-Solar Field Land Area Multiplier
  
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2938,7 +2939,7 @@ ui_pb_q_design
 Design Turbine Thermal Input
 MWt
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2952,7 +2953,7 @@ ui_piping_heat_loss
 Solar Field Piping Heat Losses
 W/m2
 Empirical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2966,7 +2967,7 @@ ui_reference_ambient_temperature
 Ambient Temp.
 'C
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2980,7 +2981,7 @@ ui_reference_direct_normal_irradiance
 Direct Normal Radiation
 W/m2
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2994,7 +2995,7 @@ ui_reference_wind_speed
 Wind Velocity
 m/s
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3008,7 +3009,7 @@ ui_solar_field_area
 Solar Field Area
 m2
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3022,7 +3023,7 @@ ui_solar_multiple
 Solar Multiple
  
 Empirical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3036,7 +3037,7 @@ ui_total_land_area
 Total Land Area
 acres
 Empirical Trough Solar Field
- 
+0
 8
 1
 1

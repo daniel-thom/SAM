@@ -1203,7 +1203,7 @@ ud_COPY_T_HTF_des
 Design HTF temperature
 °C
 Power Cycle
- 
+0
 8
 1
 1
@@ -1217,7 +1217,7 @@ ud_COPY_T_amb_des
 Design ambient temperature
 °C
 Power Cycle
- 
+0
 8
 1
 1
@@ -1231,7 +1231,7 @@ ud_T_amb_des
 Ambient temperature
 °C
 Power Cycle
- 
+0
 2
 1
 1
@@ -1245,7 +1245,7 @@ ud_T_amb_high
 High ambient temperature
 °C
 Power Cycle
- 
+0
 0
 1
 1
@@ -1259,7 +1259,7 @@ ud_T_amb_ind_od
 Off-design parametric on ambient temperature
  
 Power Cycle
- 
+0
 1
 1
 3
@@ -1276,7 +1276,7 @@ ud_T_amb_low
 Low ambient temperature
 °C
 Power Cycle
- 
+0
 0
 1
 1
@@ -1290,7 +1290,7 @@ ud_T_htf_high
 High HTF temperature
 °C
 Power Cycle
- 
+0
 0
 1
 1
@@ -1304,7 +1304,7 @@ ud_T_htf_ind_od
 Off design parametric on hot HTF temp
  
 Power Cycle
- 
+0
 1
 1
 3
@@ -1321,7 +1321,7 @@ ud_T_htf_low
 Low HTF temperature
 °C
 Power Cycle
- 
+0
 0
 1
 1
@@ -1335,7 +1335,7 @@ ud_W_dot_cool_calc
 Gross power consumed by cooling system
 MWe
 Power Cycle
- 
+0
 8
 1
 1
@@ -1349,7 +1349,7 @@ ud_f_W_dot_cool_des
 Gross power consumed by cooling system
 %
 Power Cycle
- 
+0
 2
 1
 1
@@ -1363,7 +1363,7 @@ ud_m_dot_design
 Design normalized HTF ṁ
  
 Power Cycle
- 
+0
 8
 1
 1
@@ -1377,7 +1377,7 @@ ud_m_dot_htf_high
 High normalized HTF ṁ
  
 Power Cycle
- 
+0
 0
 1
 1
@@ -1391,7 +1391,7 @@ ud_m_dot_htf_ind_od
 Off-design parametric on HTF mass flow rate
  
 Power Cycle
- 
+0
 1
 1
 3
@@ -1408,7 +1408,7 @@ ud_m_dot_htf_low
 Low normalized HTF ṁ
  
 Power Cycle
- 
+0
 0
 1
 1
@@ -1422,7 +1422,7 @@ ud_m_dot_water_cool_des
 Cooling system water usage
 kg/s
 Power Cycle
- 
+0
 2
 1
 1

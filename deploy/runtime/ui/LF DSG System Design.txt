@@ -666,7 +666,7 @@ I_bn_des
 Design point DNI
 W/m²
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -680,7 +680,7 @@ P_turb_des
 Heat sink inlet pressure
 bar
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -694,7 +694,7 @@ T_cold_ref
 Field inlet temperature
 °C
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -708,7 +708,7 @@ T_hot
 Field outlet temperature
 °C
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -722,7 +722,7 @@ adjust
  
  
 LF DSG System Design
- 
+0
 1
 1
 5
@@ -735,7 +735,7 @@ heat_sink_dP_frac
 Heat sink fractional pressure drop
  
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -749,7 +749,7 @@ q_pb_des
 Heat sink power
 MWt
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -763,7 +763,7 @@ specified_q_dot_rec_des
 Target receiver thermal power
 MWt
 LF DSG System Design
- 
+0
 8
 1
 1
@@ -777,7 +777,7 @@ specified_solar_multiple
 Target solar multiple
  
 LF DSG System Design
- 
+0
 2
 1
 1
@@ -791,7 +791,7 @@ system_capacity
 system capacity for financial models
 kWt
 Phys Trough System Design
- 
+0
 8
 1
 1
@@ -805,7 +805,7 @@ x_b_des
 Field outlet steam quality
  
 LF DSG System Design
- 
+0
 2
 1
 1

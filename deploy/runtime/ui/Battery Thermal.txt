@@ -675,7 +675,7 @@ T_room
 Room temperature
 C
 Battery
- 
+0
 2
 1
 1
@@ -689,7 +689,7 @@ batt_Cp
 Cp
 J/KgK
 Battery
- 
+0
 2
 1
 1
@@ -703,7 +703,7 @@ batt_h_to_ambient
 h
 W/m2K
 Battery
- 
+0
 2
 1
 1
@@ -717,7 +717,7 @@ batt_height
 Battery height
 m
 Battery
- 
+0
 10
 1
 1
@@ -731,7 +731,7 @@ batt_length
 Battery length
 m
 Battery
- 
+0
 10
 1
 1
@@ -745,7 +745,7 @@ batt_mass
 Battery mass
 kg
 Battery
- 
+0
 8
 1
 1
@@ -759,7 +759,7 @@ batt_specific_energy_per_mass
 Specific energy per mass
 Wh/kg
 Battery
- 
+0
 2
 1
 1
@@ -773,7 +773,7 @@ batt_specific_energy_per_volume
 Specific energy per volume
 Wh/L
 Battery
- 
+0
 2
 1
 1
@@ -787,7 +787,7 @@ batt_volume
 Battery volume
 m3
 Battery
- 
+0
 8
 1
 1
@@ -801,7 +801,7 @@ batt_width
 Battery width
 m
 Battery
- 
+0
 10
 1
 1
@@ -815,7 +815,7 @@ cap_vs_temp
 Capacity vs temperature
  
 Battery
- 
+0
 1
 1
 3

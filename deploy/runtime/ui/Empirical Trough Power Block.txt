@@ -2328,7 +2328,7 @@ E2TPLF0
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2342,7 +2342,7 @@ E2TPLF1
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2356,7 +2356,7 @@ E2TPLF2
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2370,7 +2370,7 @@ E2TPLF3
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2384,7 +2384,7 @@ E2TPLF4
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2398,7 +2398,7 @@ LHVBoilEff
 Boiler LHV Efficiency
  
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -2412,7 +2412,7 @@ MaxGrOut
 Max turbine over design operation*
  
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -2426,7 +2426,7 @@ MinGrOut
 Min turbine operation*
  
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -2440,7 +2440,7 @@ PTTMAX
  
  
  
- 
+0
 0
 1
 1
@@ -2454,7 +2454,7 @@ PTTMIN
  
  
  
- 
+0
 0
 1
 1
@@ -2468,7 +2468,7 @@ T2EPLF0
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2482,7 +2482,7 @@ T2EPLF1
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2496,7 +2496,7 @@ T2EPLF2
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2510,7 +2510,7 @@ T2EPLF3
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2524,7 +2524,7 @@ T2EPLF4
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2538,7 +2538,7 @@ TempCorr0
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2552,7 +2552,7 @@ TempCorr1
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2566,7 +2566,7 @@ TempCorr2
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2580,7 +2580,7 @@ TempCorr3
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2594,7 +2594,7 @@ TempCorr4
  
  
 Empirical Trough Power Block
- 
+0
 0
 1
 1
@@ -2608,6 +2608,7 @@ TempCorrF
  
  
 Empirical Trough Power Block
+29
 Wet-bulb Basis|Dry-bulb Basis
 2
 1
@@ -2622,7 +2623,7 @@ TurSUE
 Frac of thermal power for startup
  
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -2636,7 +2637,7 @@ TurbEffG
 Rated Cycle Conversion Efficiency
  
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -2650,7 +2651,7 @@ TurbOutG
 Design Gross Output
 MWe
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -2664,7 +2665,7 @@ adjust
 Performance factors
  
  
- 
+0
 1
 1
 5
@@ -2677,7 +2678,7 @@ lib_E2TPLF0
  
  
  
- 
+0
 8
 1
 1
@@ -2691,7 +2692,7 @@ lib_E2TPLF1
  
  
  
- 
+0
 8
 1
 1
@@ -2705,7 +2706,7 @@ lib_E2TPLF2
  
  
  
- 
+0
 8
 1
 1
@@ -2719,7 +2720,7 @@ lib_E2TPLF3
  
  
  
- 
+0
 8
 1
 1
@@ -2733,7 +2734,7 @@ lib_E2TPLF4
  
  
  
- 
+0
 8
 1
 1
@@ -2747,7 +2748,7 @@ lib_MaxGrOut
  
  
  
- 
+0
 8
 1
 1
@@ -2761,7 +2762,7 @@ lib_MinGrOut
  
  
  
- 
+0
 8
 1
 1
@@ -2775,7 +2776,7 @@ lib_T2EPLF0
  
  
  
- 
+0
 8
 1
 1
@@ -2789,7 +2790,7 @@ lib_T2EPLF1
  
  
  
- 
+0
 8
 1
 1
@@ -2803,7 +2804,7 @@ lib_T2EPLF2
  
  
  
- 
+0
 8
 1
 1
@@ -2817,7 +2818,7 @@ lib_T2EPLF3
  
  
  
- 
+0
 8
 1
 1
@@ -2831,7 +2832,7 @@ lib_T2EPLF4
  
  
  
- 
+0
 8
 1
 1
@@ -2845,7 +2846,7 @@ lib_TempCorr0
  
  
  
- 
+0
 8
 1
 1
@@ -2859,7 +2860,7 @@ lib_TempCorr1
  
  
  
- 
+0
 8
 1
 1
@@ -2873,7 +2874,7 @@ lib_TempCorr2
  
  
  
- 
+0
 8
 1
 1
@@ -2887,7 +2888,7 @@ lib_TempCorr3
  
  
  
- 
+0
 8
 1
 1
@@ -2901,7 +2902,7 @@ lib_TempCorr4
  
  
  
- 
+0
 8
 1
 1
@@ -2915,7 +2916,7 @@ lib_TempCorrF
  
  
  
- 
+0
 8
 1
 1
@@ -2929,7 +2930,7 @@ lib_TurSUE
  
  
  
- 
+0
 8
 1
 1
@@ -2943,7 +2944,7 @@ lib_TurbEffG
  
  
  
- 
+0
 8
 1
 1
@@ -2957,10 +2958,11 @@ lib_ui_pb_description
  
  
  
- 
+0
 8
 1
 4
+30
 Dry Cooled SEGS 80 MWe Turbine
 Default
 lib_ui_pb_type
@@ -2969,10 +2971,11 @@ lib_ui_pb_type
  
  
  
- 
+0
 8
 1
 4
+20
 Steam RH Dry Cooling
 Default
 pb_library
@@ -2981,10 +2984,12 @@ pb_library
  
  
 Empirical Trough Power Block
+31
 Empirical Trough Power Cycles|0
 19
 1
 4
+19
 SEGS 80 MWe Turbine
 Library
 system_capacity
@@ -2993,7 +2998,7 @@ system_capacity
  
  
  
- 
+0
 8
 1
 1
@@ -3007,7 +3012,7 @@ ui_gross_net_conversion_factor
 Estimated Gross to Net Conversion Factor
  
 Empirical Trough Power Block
- 
+0
 2
 1
 1
@@ -3021,7 +3026,7 @@ ui_max_therm_input
 Max. Thermal Input
 MWt
 Empirical Trough Power Block
- 
+0
 8
 1
 1
@@ -3035,7 +3040,7 @@ ui_min_therm_input
 Min. Thermal Input
 MWt
 Empirical Trough Power Block
- 
+0
 8
 1
 1
@@ -3049,7 +3054,7 @@ ui_net_capacity
 Estimated Net Output at Design
 MWe
 Empirical Trough Power Block
- 
+0
 8
 1
 1
@@ -3063,10 +3068,11 @@ ui_pb_description
 Description from Library
  
 Empirical Trough Power Block
- 
+0
 0
 1
 4
+9
 <invalid>
 TextEntry
 ui_pb_type
@@ -3075,10 +3081,11 @@ ui_pb_type
 Type from Library
  
 Empirical Trough Power Block
- 
+0
 1
 1
 4
+9
 <invalid>
 TextEntry
 ui_q_design
@@ -3087,7 +3094,7 @@ ui_q_design
 Design Cycle Thermal Input
 MWt
 Empirical Trough Power Block
- 
+0
 8
 1
 1
@@ -3101,7 +3108,7 @@ use_pb_library_values
 Use library values
  
  
- 
+0
 0
 1
 1

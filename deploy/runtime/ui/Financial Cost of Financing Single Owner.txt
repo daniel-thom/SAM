@@ -136,7 +136,7 @@ cost_other_financing
 Financing cost
 $
 Cost of Acquiring Financing
- 
+0
 2
 1
 1

@@ -1,5 +1,5 @@
 1
-364
+370
 FRUL
 1
 1
@@ -162,6 +162,7 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
@@ -376,6 +377,7 @@ cbi_uti_tax_sta
 city
 1
 4
+10
 Des Moines
 coll_mode
 1
@@ -410,6 +412,7 @@ contingency_percent
 country
 1
 4
+3
 USA
 custom_mains
 1
@@ -440,7 +443,7 @@ debt_fraction
 debt_message
 1
 4
- 
+0
 degradation
 1
 2
@@ -643,6 +646,7 @@ federal_tax_rate
 file_name
 1
 4
+78
 C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA IA Des Moines (TMY2).csv
 floor_area
 1
@@ -932,6 +936,28 @@ ibi_uti_percent_tax_sta
 1
 1
 1.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -1055,7 +1081,17 @@ lat
 lbl_csp
 1
 4
- 
+0
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 load
 1
 2
@@ -1713,18 +1749,22 @@ sky_model
 solar_data_file_name
 1
 4
+78
 C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA IA Des Moines (TMY2).csv
 solar_data_source
 1
+4
 4
 TMY2
 solar_resource
 1
 4
-USA IA Des Moines (TMY2)
+45
+alamosa_co_37.469449_-105.870021_psmv3_60_tmy
 solar_resource_file
 1
 4
+78
 C:\Projects\SAM\trunk\SAMnt\deploy\solar_resource\USA IA Des Moines (TMY2).csv
 srcc_FRUL
 1
@@ -1753,14 +1793,17 @@ srcc_iam
 srcc_item
 1
 4
+28
 Heliodyne  Inc. Gobi 408 013
 srcc_num
 1
 4
+9
 2007026C 
 srcc_test_flow
 1
 4
+6
 0.0498
 srcc_test_fluid
 1
@@ -1771,14 +1814,17 @@ srcc_test_fluid
 srcc_test_fluid_display
 1
 4
+5
 Water
 srcc_type
 1
 4
+17
 Glazed Flat-Plate
 state
 1
 4
+2
 IA
 state_tax_rate
 1
@@ -1789,6 +1835,7 @@ state_tax_rate
 station_id
 1
 4
+5
 14933
 storage
 1
@@ -1998,6 +2045,7 @@ ur_desc_is_shown
 ur_description
 1
 4
+5
 empty
 ur_ec_is_shown
 1
@@ -2057,6 +2105,7 @@ ur_en_ts_sell_rate
 ur_end_date
 1
 4
+5
 empty
 ur_energy_history
 1
@@ -2097,6 +2146,7 @@ ur_monthly_min_charge
 ur_name
 1
 4
+5
 empty
 ur_nm_yearend_sell_rate
 1
@@ -2107,22 +2157,26 @@ ur_nm_yearend_sell_rate
 ur_phase_wiring
 1
 4
+9
 <invalid>
 ur_ratedata_filename
 1
 4
- 
+0
 ur_schedule_name
 1
 4
+5
 empty
 ur_source
 1
 4
+5
 empty
 ur_start_date
 1
 4
+5
 empty
 ur_ts_sell_rate
 1
@@ -2134,10 +2188,12 @@ ur_ts_sell_rate
 ur_uri
 1
 4
+5
 empty
 ur_voltage_category
 1
 4
+9
 <invalid>
 ur_voltage_max
 1
@@ -2202,7 +2258,7 @@ user_iam
 user_specified_weather_file
 1
 4
- 
+0
 user_test_flow
 1
 1

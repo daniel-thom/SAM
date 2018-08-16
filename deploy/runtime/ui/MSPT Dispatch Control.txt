@@ -2205,7 +2205,7 @@ F_wc
 Hybrid cooling fraction TOU periods
  
 System Control
- 
+0
 8
 1
 2
@@ -2219,7 +2219,7 @@ f_turb_tou_periods
 Turbine output fraction TOU periods
  
 System Control
- 
+0
 9
 1
 2
@@ -2233,7 +2233,7 @@ hybrid_tou1
 Hybrid cooling fraction period 1
  
 System Control
- 
+0
 3
 1
 1
@@ -2247,7 +2247,7 @@ hybrid_tou2
 Hybrid cooling fraction period  2
  
 System Control
- 
+0
 3
 1
 1
@@ -2261,7 +2261,7 @@ hybrid_tou3
 Hybrid cooling fraction period 3
  
 System Control
- 
+0
 3
 1
 1
@@ -2275,7 +2275,7 @@ hybrid_tou4
 Hybrid cooling fraction period 4
  
 System Control
- 
+0
 3
 1
 1
@@ -2289,7 +2289,7 @@ hybrid_tou5
 Hybrid cooling fraction period 5
  
 System Control
- 
+0
 3
 1
 1
@@ -2303,7 +2303,7 @@ hybrid_tou6
 Hybrid cooling fraction period 6
  
 System Control
- 
+0
 3
 1
 1
@@ -2317,7 +2317,7 @@ hybrid_tou7
 Hybrid cooling fraction period 7
  
 System Control
- 
+0
 3
 1
 1
@@ -2331,7 +2331,7 @@ hybrid_tou8
 Hybrid cooling fraction period 8
  
 System Control
- 
+0
 3
 1
 1
@@ -2345,7 +2345,7 @@ hybrid_tou9
 Hybrid cooling fraction period 9
  
 System Control
- 
+0
 3
 1
 1
@@ -2359,7 +2359,7 @@ ui_disp_1_turbout
 Turbine output fraction period 1
  
 System Control
- 
+0
 3
 1
 1
@@ -2373,7 +2373,7 @@ ui_disp_2_turbout
 Turbine output fraction period 2
  
 System Control
- 
+0
 3
 1
 1
@@ -2387,7 +2387,7 @@ ui_disp_3_turbout
 Turbine output fraction period 3
  
 System Control
- 
+0
 3
 1
 1
@@ -2401,7 +2401,7 @@ ui_disp_4_turbout
 Turbine output fraction period 4
  
 System Control
- 
+0
 3
 1
 1
@@ -2415,7 +2415,7 @@ ui_disp_5_turbout
 Turbine output fraction period 5
  
 System Control
- 
+0
 3
 1
 1
@@ -2429,7 +2429,7 @@ ui_disp_6_turbout
 Turbine output fraction period 6
  
 System Control
- 
+0
 3
 1
 1
@@ -2443,7 +2443,7 @@ ui_disp_7_turbout
 Turbine output fraction period 7
  
 System Control
- 
+0
 3
 1
 1
@@ -2457,7 +2457,7 @@ ui_disp_8_turbout
 Turbine output fraction period 8
  
 System Control
- 
+0
 3
 1
 1
@@ -2471,7 +2471,7 @@ ui_disp_9_turbout
 Turbine output fraction period 9
  
 System Control
- 
+0
 3
 1
 1
@@ -2485,7 +2485,7 @@ weekday_schedule
 Dispatch weekday schedule matrix
  
 System Control
- 
+0
 3
 1
 3
@@ -2511,7 +2511,7 @@ weekend_schedule
 Dispatch weekend schedule matrix
  
 System Control
- 
+0
 3
 1
 3

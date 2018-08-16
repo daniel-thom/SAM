@@ -2819,7 +2819,7 @@ Monthly_util
 Monthly Utility Load
 kWh
 Residential Load Calculator
- 
+0
 0
 1
 2
@@ -2833,7 +2833,7 @@ Occ_Schedule
 Occupancy schedule
 fraction/hr
 Residential Load Calculator
- 
+0
 2
 1
 2
@@ -2847,7 +2847,7 @@ Occupants
 Number of occupants
  
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2861,7 +2861,7 @@ Retrofits
 Energy retrofitted
  
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2875,7 +2875,7 @@ Stories
 Number of stories
  
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2889,7 +2889,7 @@ TCool
 Cooling setpoint
 °F
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2903,7 +2903,7 @@ TCoolSB
 Cooling setup point
 °F
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2917,7 +2917,7 @@ THeat
 Heating setpoint
 °F
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2931,7 +2931,7 @@ THeatSB
 Heating setback point
 °F
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2945,7 +2945,7 @@ T_Sched
 Temperature schedule
 on/off
 Residential Load Calculator
- 
+0
 2
 1
 2
@@ -2959,7 +2959,7 @@ YrBuilt
 Year built
  
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -2973,7 +2973,7 @@ en_belpe
 en_belpe
  
 Residential Load Calculator
- 
+0
 0
 1
 1
@@ -2987,7 +2987,7 @@ en_cool
 Cooling system
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3001,7 +3001,7 @@ en_dish
 Dishwasher
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3015,7 +3015,7 @@ en_dry
 Dryer
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3029,7 +3029,7 @@ en_fridge
 Refrigerator
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3043,7 +3043,7 @@ en_heat
 Heating system
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3057,7 +3057,7 @@ en_mels
 Misc. electric loads
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3071,7 +3071,7 @@ en_range
 Range
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3085,7 +3085,7 @@ en_wash
 Washing machine
  
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3099,7 +3099,7 @@ escal_input_belpe
 Load growth rate
 %/yr
 Residential Load Calculator
- 
+0
 2
 1
 2
@@ -3113,7 +3113,7 @@ floor_area
 Floor area
 sq ft
 Residential Load Calculator
- 
+0
 2
 1
 1
@@ -3127,7 +3127,7 @@ load_1
 Utility load 1: January
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3141,7 +3141,7 @@ load_10
 Utility load 10: October
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3155,7 +3155,7 @@ load_11
 Utility load 11: November
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3169,7 +3169,7 @@ load_12
 Utility load 12: December
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3183,7 +3183,7 @@ load_2
 Utility load 2: February
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3197,7 +3197,7 @@ load_3
 Utility load 3: March
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3211,7 +3211,7 @@ load_4
 Utility load 4: April
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3225,7 +3225,7 @@ load_5
 Utility load 5: May
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3239,7 +3239,7 @@ load_6
 Utility load 6: June
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3253,7 +3253,7 @@ load_7
 Utility load 7: July
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3267,7 +3267,7 @@ load_8
 Utility load 8: August
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1
@@ -3281,7 +3281,7 @@ load_9
 Utility load 9: September
 kWh
 Residential Load Calculator
- 
+0
 3
 1
 1

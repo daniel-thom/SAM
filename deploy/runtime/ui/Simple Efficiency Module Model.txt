@@ -2017,7 +2017,7 @@ spe_a
 a
  
 PV Module (Simple Efficiency)
- 
+0
 0
 1
 1
@@ -2031,7 +2031,7 @@ spe_area
 Area
 m²
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2045,7 +2045,7 @@ spe_b
 b
  
 PV Module (Simple Efficiency)
- 
+0
 0
 1
 1
@@ -2059,7 +2059,7 @@ spe_bifacial_ground_clearance_height
 Ground clearance height
 m
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2073,7 +2073,7 @@ spe_bifacial_transmission_factor
 Transmission Fraction
 [0-1]
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2087,7 +2087,7 @@ spe_bifaciality
 Bifaciality
 [0-1]
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2101,7 +2101,7 @@ spe_dT
 dT
 °C
 PV Module (Simple Efficiency)
- 
+0
 0
 1
 1
@@ -2115,10 +2115,11 @@ spe_data_filename
  
  
  
- 
+0
 0
 1
 4
+9
 <invalid>
 TextEntry
 spe_eff0
@@ -2127,7 +2128,7 @@ spe_eff0
 Efficiency 0
 %
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2141,7 +2142,7 @@ spe_eff1
 Efficiency 1
 %
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2155,7 +2156,7 @@ spe_eff2
 Efficiency 2
 %
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2169,7 +2170,7 @@ spe_eff3
 Efficiency 3
 %
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2183,7 +2184,7 @@ spe_eff4
 Efficiency 4
 %
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2197,7 +2198,7 @@ spe_fd
 Diffuse utilization factor
 0..1
 PV Module (Simple Efficiency)
- 
+0
 0
 1
 1
@@ -2211,7 +2212,7 @@ spe_is_bifacial
  
  
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2225,6 +2226,7 @@ spe_module_structure
 Module structure and mounting
  
 PV Module (Simple Efficiency)
+192
 Glass/Cell/Polymer Sheet - Open Rack|Glass/Cell/Glass - Open Rack|Polymer/Thin Film/Steel - Open Rack|Glass/Cell/Polymer Sheet - Insulated Back|Glass/Cell/Glass - Close Roof Mount|User Defined
 2
 1
@@ -2239,7 +2241,7 @@ spe_power
 Maximum power (Pmp)
 Wdc
 PV Module (Simple Efficiency)
- 
+0
 8
 1
 1
@@ -2253,7 +2255,7 @@ spe_rad0
 Radiation level 0
 W/m²
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2267,7 +2269,7 @@ spe_rad1
 Radiation level 1
 W/m²
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2281,7 +2283,7 @@ spe_rad2
 Radiation level 2
 W/m²
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2295,7 +2297,7 @@ spe_rad3
 Radiation level 3
 W/m²
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2309,7 +2311,7 @@ spe_rad4
 Radiation level 4
 W/m²
 PV Module (Simple Efficiency)
- 
+0
 3
 1
 1
@@ -2323,7 +2325,7 @@ spe_reference
 Reference Radiation and Efficiency
  
 PV Module (Simple Efficiency)
- 
+0
 1
 1
 1
@@ -2337,7 +2339,7 @@ spe_temp_coeff
 Temperature coefficient (Pmp)
 %/°C
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2351,7 +2353,7 @@ spe_vmp
 Maximum power voltage (Vmp)
 Vdc
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1
@@ -2365,7 +2367,7 @@ spe_voc
 Open circuit voltage (Voc)
 Vdc
 PV Module (Simple Efficiency)
- 
+0
 2
 1
 1

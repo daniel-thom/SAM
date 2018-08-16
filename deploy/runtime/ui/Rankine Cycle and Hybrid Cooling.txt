@@ -1613,7 +1613,7 @@ CT
 Condenser type
  
 Power Cycle
- 
+0
 8
 1
 1
@@ -1627,7 +1627,7 @@ F_wc
 Hybrid cooling fractions
  
 Power Cycle
- 
+0
 8
 1
 2
@@ -1641,7 +1641,7 @@ P_boil
 Boiler operating pressure
 Bar
 Power Cycle
- 
+0
 2
 1
 1
@@ -1655,7 +1655,7 @@ P_cond_min
 Min condenser pressure
 inHg
 Power Cycle
- 
+0
 2
 1
 1
@@ -1669,7 +1669,7 @@ P_cond_ratio
 Condenser pressure ratio
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1683,7 +1683,7 @@ T_ITD_des
 ITD at design point
 'C
 Power Cycle
- 
+0
 2
 1
 1
@@ -1697,7 +1697,7 @@ T_amb_des
 Ambient temperature at design
 'C
 Power Cycle
- 
+0
 2
 1
 1
@@ -1711,7 +1711,7 @@ T_approach
 Approach temperature
 'C
 Power Cycle
- 
+0
 2
 1
 1
@@ -1725,6 +1725,7 @@ combo_condenser_type
 Condenser type
  
 Power Cycle
+29
 Evaporative|Air-cooled|Hybrid
 2
 1
@@ -1739,7 +1740,7 @@ dT_cw_ref
 Reference condenser water dT
 'C
 Power Cycle
- 
+0
 2
 1
 1
@@ -1753,7 +1754,7 @@ hybrid_tou1
 Hybrid fraction, period 1
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1767,7 +1768,7 @@ hybrid_tou2
 Hybrid fraction, period 2
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1781,7 +1782,7 @@ hybrid_tou3
 Hybrid fraction, period 3
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1795,7 +1796,7 @@ hybrid_tou4
 Hybrid fraction, period 4
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1809,7 +1810,7 @@ hybrid_tou5
 Hybrid fraction, period 5
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1823,7 +1824,7 @@ hybrid_tou6
 Hybrid fraction, period 6
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1837,7 +1838,7 @@ hybrid_tou7
 Hybrid fraction, period 7
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1851,7 +1852,7 @@ hybrid_tou8
 Hybrid fraction, period 8
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1865,7 +1866,7 @@ hybrid_tou9
 Hybrid fraction, period 9
  
 Power Cycle
- 
+0
 3
 1
 1
@@ -1879,7 +1880,7 @@ n_pl_inc
 Cooling system part load levels
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1893,7 +1894,7 @@ pb_bd_frac
 Steam cycle blowdown fraction
  
 Power Cycle
- 
+0
 2
 1
 1
@@ -1907,6 +1908,7 @@ pressure_mode
 Turbine inlet pressure control
  
 Power Cycle
+31
 Fixed pressure|Sliding pressure
 2
 1
@@ -1921,7 +1923,7 @@ tech_type
 1: Fixed (tower) 3: Sliding
  
 Power Cycle
- 
+0
 8
 1
 1

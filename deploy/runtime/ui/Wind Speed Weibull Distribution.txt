@@ -228,7 +228,7 @@ weibull_k_factor
 Weibull K factor
  
 Weibull Wind Speed
- 
+0
 2
 1
 1
@@ -242,7 +242,7 @@ weibull_reference_height
 Reference height for wind speed
 m
 Weibull Wind Speed
- 
+0
 2
 1
 1
@@ -256,7 +256,7 @@ weibull_wind_speed
 Average annual wind speed
 m/s
 Weibull Wind Speed
- 
+0
 2
 1
 1

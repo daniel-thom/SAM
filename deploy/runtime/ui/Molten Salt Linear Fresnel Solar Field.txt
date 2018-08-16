@@ -2718,7 +2718,7 @@ FieldConfig
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -2732,7 +2732,7 @@ Fluid
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -2746,7 +2746,7 @@ HDR_rough
 Header pipe roughness
 m
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2760,7 +2760,7 @@ HTF_data
 User-defined solar field HTF
  
 MSLF Solar Field
- 
+0
 0
 1
 3
@@ -2775,7 +2775,7 @@ I_bn_des
 Irradiation at design
 W/m²
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2789,7 +2789,7 @@ T_amb_sf_des
 Design-point ambient temperature
 °C
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2803,7 +2803,7 @@ T_field_ini
 Initial field temperature
 °C
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2817,7 +2817,7 @@ T_field_out_des
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -2831,7 +2831,7 @@ T_fp
 Freeze point heat trace activation temperature
 °C
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2845,7 +2845,7 @@ T_loop_in_des
 Design loop inlet temperature
 °C
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2859,7 +2859,7 @@ T_loop_out
 Target loop outlet temperature
 °C
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2873,7 +2873,7 @@ V_hdr_max
 Header design max flow velocity
 m/s
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2887,7 +2887,7 @@ V_hdr_min
 Header design min flow velocity
 m/s
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2901,7 +2901,7 @@ V_wind_des
 Design-point wind velocity
 m/s
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2915,7 +2915,7 @@ a_field
 Field aperture
 m²
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -2929,7 +2929,7 @@ a_loop
 Single loop aperture
 m²
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -2943,7 +2943,7 @@ a_sf_act
 Actual aperture
 m²
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -2957,6 +2957,7 @@ csp.mslf.sf.FieldConfig
 Number of subfield headers
  
 MSLF Solar Field
+1
 2
 2
 1
@@ -2971,6 +2972,7 @@ csp.mslf.sf.Fluid
 Field HTF
  
 MSLF Solar Field
+125
 Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined...
 2
 1
@@ -2985,6 +2987,7 @@ csp.mslf.sf.fthrctrl
 Defocusing strategy
  
 MSLF Solar Field
+22
 Sequenced|Simultaneous
 2
 1
@@ -2999,7 +3002,7 @@ csp.mslf.sf.sm1_nLoops
 Required number of loops, SM=1
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3013,7 +3016,7 @@ csp.mslf.sf.sm_or_area
  
  
 MSLF Solar Field
- 
+0
 0
 1
 1
@@ -3027,7 +3030,7 @@ eta_pump
 HTF pump efficiency
  
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3041,7 +3044,7 @@ f_tc_cold
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3055,7 +3058,7 @@ fc_on
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3069,7 +3072,7 @@ field_area
 Solar field area
 acres
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3083,7 +3086,7 @@ field_fl_props
  
  
 MSLF Solar Field
- 
+0
 8
 1
 3
@@ -3097,7 +3100,7 @@ field_fluid
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3111,7 +3114,7 @@ field_htf_cp_avg
 field htf spec heat at T avg
 kJ/kg-K
  
- 
+0
 8
 1
 1
@@ -3125,7 +3128,7 @@ field_thermal_output
 Field thermal output
 MWt
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3139,7 +3142,7 @@ fthr_ok
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3153,7 +3156,7 @@ fthrctrl
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3167,7 +3170,7 @@ fthrok
 Allow partial defocusing
  
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3181,7 +3184,7 @@ htf_max_opt_temp
 Field HTF max operating temp
 °C
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3195,7 +3198,7 @@ htf_min_opt_temp
 Field HTF min operating temp
 °C
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3209,7 +3212,7 @@ land_mult
 Non-solar field land area multiplier
  
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3223,7 +3226,7 @@ loop_eff
 Total loop conversion efficiency
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3237,7 +3240,7 @@ loop_opt_eff
 Loop optical efficiency
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3251,7 +3254,7 @@ loop_therm_eff
 Loop thermal efficiency
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3265,7 +3268,7 @@ m_dot_htfmax
 Max single loop flow rate
 kg/s
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3279,7 +3282,7 @@ m_dot_htfmin
 Min single loop flow rate
 kg/s
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3293,7 +3296,7 @@ mc_bal_cold
 Heat capacity of the balance of plant on the cold side
 kWht/K-MWt
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3307,7 +3310,7 @@ mc_bal_hot
 Heat capacity of the balance of plant on the hot side
 kWht/K-MWt
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3321,7 +3324,7 @@ mc_bal_sca
 Non-HTF heat capacity associated with each SCA
 Wht/K-m
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3335,7 +3338,7 @@ nLoops
 Actual number of loops
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3349,7 +3352,7 @@ nMod
 Number of collector modules in a loop
  
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3363,7 +3366,7 @@ nSCA
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3377,7 +3380,7 @@ nodes
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3391,7 +3394,7 @@ rec_htf_vol
 HTF volume in single collector unit
 L/m²-ap
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3405,7 +3408,7 @@ sf_q_design
 Power cycle design thermal input
 MWt
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3419,7 +3422,7 @@ sm1_aperture
 Total required aperture, SM=1
 m²
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3433,7 +3436,7 @@ solar_mult
 Actual solar multiple
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3447,7 +3450,7 @@ solar_mult_spec
 Solar multiple
  
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3461,7 +3464,7 @@ solarm
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3475,7 +3478,7 @@ t_ch_out_max
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3489,7 +3492,7 @@ t_dis_out_min
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3503,7 +3506,7 @@ tc_fill
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3517,7 +3520,7 @@ tc_void
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3531,7 +3534,7 @@ tes_type
  
  
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3545,7 +3548,7 @@ theta_dep
 Deploy angle
 deg
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3559,7 +3562,7 @@ theta_stow
 Stow angle
 deg
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3573,7 +3576,7 @@ total_land_area
 Total land area
 acres
 MSLF Solar Field
- 
+0
 8
 1
 1
@@ -3587,7 +3590,7 @@ washes_per_year
 Washes per year
  
 MSLF Solar Field
- 
+0
 2
 1
 1
@@ -3601,7 +3604,7 @@ water_per_wash
 Water usage per wash
 L/m²,ap
 MSLF Solar Field
- 
+0
 2
 1
 1

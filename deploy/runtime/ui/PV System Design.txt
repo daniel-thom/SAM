@@ -4096,7 +4096,7 @@ array_area
 Array Land Area
 m2
 PV System Design
- 
+0
 8
 1
 1
@@ -4110,7 +4110,7 @@ batt_max_power
 Battery maximum power
 kWdc
 Battery
- 
+0
 8
 1
 1
@@ -4124,7 +4124,7 @@ dcac_ratio
 DC to AC ratio
  
 PV System Design
- 
+0
 2
 1
 1
@@ -4138,7 +4138,7 @@ desired_size
 Desired array size
 kWdc
 PV System Design
- 
+0
 2
 1
 1
@@ -4152,6 +4152,7 @@ inverter_count
 Number of inverters
  
 PV System Design
+15
 =\pv_size_array
 8
 1
@@ -4166,11 +4167,11 @@ layout_warning
  
  
 PV System Design
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 modules_per_string
 3
@@ -4178,6 +4179,7 @@ modules_per_string
 Modules per string
  
 PV System Design
+15
 =\pv_size_array
 8
 1
@@ -4192,7 +4194,7 @@ mppt_hi_inverter
 Maximum MPPT voltage
 Vdc
 PV System Design
- 
+0
 8
 1
 1
@@ -4206,7 +4208,7 @@ mppt_low_inverter
 Minimum MPPT voltage
 Vdc
 PV System Design
- 
+0
 8
 1
 1
@@ -4220,7 +4222,7 @@ num_enabled
  
  
 PV System Design
- 
+0
 8
 1
 1
@@ -4234,6 +4236,7 @@ num_strings_total
 Strings in array
  
 PV System Design
+32
 =${pv.array.strings_in_parallel}
 8
 1
@@ -4248,7 +4251,7 @@ offset
 Row offset
 m
 PV System Design
- 
+0
 0
 1
 1
@@ -4262,6 +4265,7 @@ size_auto_or_manual
 Mode
  
 PV System Design
+56
 Specify desired array size|Specify modules and inverters
 1
 1
@@ -4276,6 +4280,7 @@ strings_in_parallel
 Strings in parallel
  
 PV System Design
+15
 =\pv_size_array
 8
 1
@@ -4290,7 +4295,7 @@ subarray1_azimuth
 Azimuth 1
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4304,7 +4309,7 @@ subarray1_backtrack
 Enable backtracking 1
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4318,7 +4323,7 @@ subarray1_gcr
 Ground coverage ratio 1
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4332,7 +4337,7 @@ subarray1_monthly_tilt
 Subarray 1 monthly tilt input for seasonal tilt arrays
 degrees
 PV System Design
- 
+0
 1
 1
 2
@@ -4347,7 +4352,11 @@ subarray1_nstrings
 Number of parallel strings 1
  
 PV System Design
-=${pv.array.strings_in_parallel}     - ?${pv.subarray2.enable}[0|${pv.subarray2.num_strings}]     - ?${pv.subarray3.enable}[0|${pv.subarray3.num_strings}]     - ?${pv.subarray4.enable}[0|${pv.subarray4.num_strings}]
+215
+=${pv.array.strings_in_parallel}
+    - ?${pv.subarray2.enable}[0|${pv.subarray2.num_strings}]
+    - ?${pv.subarray3.enable}[0|${pv.subarray3.num_strings}]
+    - ?${pv.subarray4.enable}[0|${pv.subarray4.num_strings}]
 9
 1
 1
@@ -4361,7 +4370,7 @@ subarray1_rotlim
 Tracker rotation limit 1
 degrees
 PV System Design
- 
+0
 3
 1
 1
@@ -4375,7 +4384,7 @@ subarray1_tilt
 Tilt 1
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4389,7 +4398,7 @@ subarray1_tilt_eq_lat
  
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4403,6 +4412,7 @@ subarray1_track_mode
 Tracking mode 1
  
 PV System Design
+46
 Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
 3
 1
@@ -4417,7 +4427,7 @@ subarray2_azimuth
 Azimuth 2
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4431,7 +4441,7 @@ subarray2_backtrack
 Enable backtracking 2
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4445,7 +4455,7 @@ subarray2_enable
 Enable subarray 2
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4459,7 +4469,7 @@ subarray2_gcr
 Ground coverage ratio 2
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4473,7 +4483,7 @@ subarray2_monthly_tilt
 Subarray 2 monthly tilt input for seasonal tilt arrays
 degrees
 PV System Design
- 
+0
 1
 1
 2
@@ -4488,7 +4498,7 @@ subarray2_nstrings
 Number of parallel strings 2
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4502,7 +4512,7 @@ subarray2_rotlim
 Tracker rotation limit 2
 degrees
 PV System Design
- 
+0
 3
 1
 1
@@ -4516,7 +4526,7 @@ subarray2_tilt
 Tilt 2
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4530,7 +4540,7 @@ subarray2_tilt_eq_lat
  
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4544,6 +4554,7 @@ subarray2_track_mode
 Tracking mode 2
  
 PV System Design
+46
 Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
 3
 1
@@ -4558,7 +4569,7 @@ subarray3_azimuth
 Azimuth 3
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4572,7 +4583,7 @@ subarray3_backtrack
 Enable backtracking 3
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4586,7 +4597,7 @@ subarray3_enable
 Enable subarray 3
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4600,7 +4611,7 @@ subarray3_gcr
 Ground coverage ratio 3
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4614,7 +4625,7 @@ subarray3_monthly_tilt
 Subarray 3 monthly tilt input for seasonal tilt arrays
 degrees
 PV System Design
- 
+0
 1
 1
 2
@@ -4629,7 +4640,7 @@ subarray3_nstrings
 Number of parallel strings 3
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4643,7 +4654,7 @@ subarray3_rotlim
 Tracker rotation limit 3
 degrees
 PV System Design
- 
+0
 3
 1
 1
@@ -4657,7 +4668,7 @@ subarray3_tilt
 Tilt 3
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4671,7 +4682,7 @@ subarray3_tilt_eq_lat
  
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4685,6 +4696,7 @@ subarray3_track_mode
 Tracking mode 3
  
 PV System Design
+46
 Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
 3
 1
@@ -4699,7 +4711,7 @@ subarray4_azimuth
 Azimuth 4
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4713,7 +4725,7 @@ subarray4_backtrack
 Enable backtracking 4
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4727,7 +4739,7 @@ subarray4_enable
 Enable subarray 4
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4741,7 +4753,7 @@ subarray4_gcr
 Ground coverage ratio 4
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4755,7 +4767,7 @@ subarray4_monthly_tilt
 Subarray 4 monthly tilt input for seasonal tilt arrays
 degrees
 PV System Design
- 
+0
 1
 1
 2
@@ -4770,7 +4782,7 @@ subarray4_nstrings
 Number of parallel strings 4
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4784,7 +4796,7 @@ subarray4_rotlim
 Tracker rotation limit 4
 degrees
 PV System Design
- 
+0
 3
 1
 1
@@ -4798,7 +4810,7 @@ subarray4_tilt
 Tilt 4
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -4812,7 +4824,7 @@ subarray4_tilt_eq_lat
  
  
 PV System Design
- 
+0
 3
 1
 1
@@ -4826,6 +4838,7 @@ subarray4_track_mode
 Tracking mode 4
  
 PV System Design
+46
 Fixed|1 Axis|2 Axis|Azimuth Axis|Seasonal Tilt
 3
 1
@@ -4840,7 +4853,7 @@ system_capacity
 Nameplate capacity
 kWdc
 PV System Design
- 
+0
 8
 1
 1
@@ -4854,7 +4867,7 @@ total_area
 Total module area
 m²
 PV System Design
- 
+0
 8
 1
 1
@@ -4868,7 +4881,7 @@ total_dc_inverter_capacity
 Total capacity
 kWdc
 PV System Design
- 
+0
 8
 1
 1
@@ -4882,7 +4895,7 @@ total_inverter_capacity
 Total capacity
 kWac
 PV System Design
- 
+0
 8
 1
 1
@@ -4896,7 +4909,7 @@ total_land_area
 Total land area
 acres
 PV System Design
- 
+0
 8
 1
 1
@@ -4910,7 +4923,7 @@ total_modules
 Number of modules
  
 PV System Design
- 
+0
 8
 1
 1
@@ -4924,7 +4937,7 @@ user_inverter_count
 Number of inverters
  
 PV System Design
- 
+0
 2
 1
 1
@@ -4938,7 +4951,7 @@ user_modules_per_string
 Modules per string
  
 PV System Design
- 
+0
 2
 1
 1
@@ -4952,7 +4965,7 @@ user_strings_in_parallel
 Strings in parallel
  
 PV System Design
- 
+0
 2
 1
 1
@@ -4966,7 +4979,7 @@ vdcmax_inverter
 Maximum DC voltage
 Vdc
 PV System Design
- 
+0
 8
 1
 1
@@ -4980,7 +4993,7 @@ vmp_string
 String Vmp
 V
 PV System Design
- 
+0
 8
 1
 1
@@ -4994,7 +5007,7 @@ voc_string
 String Voc
 V
 PV System Design
- 
+0
 8
 1
 1

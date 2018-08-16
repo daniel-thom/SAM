@@ -1306,7 +1306,7 @@ inv_ds_ac_voltage
 Nominal AC voltage
 Vac
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1320,11 +1320,11 @@ inv_ds_data_filename
  
  
  
- 
+0
 0
 1
 4
- 
+0
 TextEntry
 inv_ds_eff
 3
@@ -1332,7 +1332,7 @@ inv_ds_eff
 Inverter Efficiency
 %
 PV Inverter (Datasheet)
- 
+0
 8
 1
 1
@@ -1346,7 +1346,7 @@ inv_ds_eff_peak_or_nom
 Manufacturer efficiency
 %
 PV Inverter (Datasheet)
- 
+0
 3
 1
 1
@@ -1360,7 +1360,7 @@ inv_ds_eff_type
 Use Weighted or Manufacturer Efficiency
  
 PV Inverter (Datasheet)
- 
+0
 1
 1
 1
@@ -1374,7 +1374,7 @@ inv_ds_eff_weighted
 Weighted efficiency
 %
 PV Inverter (Datasheet)
- 
+0
 3
 1
 1
@@ -1388,7 +1388,7 @@ inv_ds_idcmax
 Maximum DC current
 Adc
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1402,7 +1402,7 @@ inv_ds_mppt_hi
 Maximum MPPT DC voltage
 Vdc
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1416,7 +1416,7 @@ inv_ds_mppt_low
 Minimum MPPT DC voltage
 Vdc
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1430,7 +1430,7 @@ inv_ds_paco
 Maximum AC output power
 Wac
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1444,7 +1444,7 @@ inv_ds_pdco
 Maximum DC input power
 Wdc
 PV Inverter (Datasheet)
- 
+0
 8
 1
 1
@@ -1458,7 +1458,7 @@ inv_ds_pnt
 Power consumption at night
 Wac
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1472,7 +1472,7 @@ inv_ds_pnt_suggested
  
 Wac
 PV Inverter (Datasheet)
- 
+0
 8
 1
 1
@@ -1486,7 +1486,7 @@ inv_ds_pso
 Power consumption during operation
 Wdc
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1500,7 +1500,7 @@ inv_ds_pso_suggested
  
 Wdc
 PV Inverter (Datasheet)
- 
+0
 8
 1
 1
@@ -1514,7 +1514,7 @@ inv_ds_vdcmax
 Maximum DC voltage
 Vdc
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1
@@ -1528,7 +1528,7 @@ inv_ds_vdco
 Nominal DC voltage
 Vdc
 PV Inverter (Datasheet)
- 
+0
 2
 1
 1

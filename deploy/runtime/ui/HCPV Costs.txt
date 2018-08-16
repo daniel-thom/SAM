@@ -4953,7 +4953,7 @@ hcpv.cost.bos_equip.totalcost
 BOS Equipment
 $
 HCPV Costs
- 
+0
 9
 1
 1
@@ -4967,7 +4967,7 @@ hcpv.cost.bos_equip_fixed
 Balance of System Equipment, Fixed
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -4981,7 +4981,7 @@ hcpv.cost.bos_equip_perarea
 Balance of System Equipment, Area
 $/m2
 HCPV Costs
- 
+0
 3
 1
 1
@@ -4995,7 +4995,7 @@ hcpv.cost.bos_equip_perwatt
 Balance of System Equipment, Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5009,7 +5009,7 @@ hcpv.cost.contingency
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5023,7 +5023,7 @@ hcpv.cost.contingency_percent
 Contingency
  
 HCPV Costs
- 
+0
 2
 1
 1
@@ -5037,7 +5037,7 @@ hcpv.cost.engr.fixed
 Engineering, fixed cost
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5051,7 +5051,7 @@ hcpv.cost.engr.per_watt
 Engineering Cost, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5065,7 +5065,7 @@ hcpv.cost.engr.percent
 Engineering as percent of direct cost
 %
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5079,7 +5079,7 @@ hcpv.cost.engr.total
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5093,7 +5093,7 @@ hcpv.cost.grid.fixed
 Grid interconnection, fixed cost
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5107,7 +5107,7 @@ hcpv.cost.grid.per_watt
 Grid Interconnect Cost, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5121,7 +5121,7 @@ hcpv.cost.grid.percent
 Grid interconnection as percent of direct cost
 %
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5135,7 +5135,7 @@ hcpv.cost.grid.total
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5149,7 +5149,7 @@ hcpv.cost.install_labor.totalcost
 Installation Labor
 $
 HCPV Costs
- 
+0
 9
 1
 1
@@ -5163,7 +5163,7 @@ hcpv.cost.install_labor_fixed
 Installation Labor, Fixed
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5177,7 +5177,7 @@ hcpv.cost.install_labor_perarea
 Installation, by Area
 $/m2
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5191,7 +5191,7 @@ hcpv.cost.install_labor_perwatt
 Installation Labor, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5205,7 +5205,7 @@ hcpv.cost.install_margin.totalcost
 Installer Margin and Overhead
 $
 HCPV Costs
- 
+0
 9
 1
 1
@@ -5219,7 +5219,7 @@ hcpv.cost.install_margin_fixed
 Installer Margin and Overhead, Fixed
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5233,7 +5233,7 @@ hcpv.cost.install_margin_perarea
 Installer Margin and Overhead, by Area
 $/m2
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5247,7 +5247,7 @@ hcpv.cost.install_margin_perwatt
 Installer Margin and Overhead, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5261,7 +5261,7 @@ hcpv.cost.installed_per_capacity
 Total installed cost per capacity ($/Wdc)
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5275,6 +5275,7 @@ hcpv.cost.inverter.costunits
  
  
 HCPV Costs
+12
 $/Wac|$/Unit
 0
 1
@@ -5289,6 +5290,7 @@ hcpv.cost.inverter.num_units
 Inverter
 units
 HCPV Costs
+28
 =${hcpv.array.num_inverters}
 8
 1
@@ -5303,7 +5305,7 @@ hcpv.cost.inverter.power
  
 kWac/unit
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5317,7 +5319,7 @@ hcpv.cost.inverter.totalcost
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5331,7 +5333,7 @@ hcpv.cost.inverterarray.power
  
 kWac
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5345,7 +5347,7 @@ hcpv.cost.land.fixed
 Land, fixed cost
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5359,7 +5361,7 @@ hcpv.cost.land.per_acre
  
  
 HCPV Costs
- 
+0
 0
 1
 1
@@ -5373,7 +5375,7 @@ hcpv.cost.land.per_watt
 Land Cost, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5387,7 +5389,7 @@ hcpv.cost.land.percent
 Land as percent of direct cost
 %
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5401,7 +5403,7 @@ hcpv.cost.land.total
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5415,7 +5417,7 @@ hcpv.cost.land_area.value
 Total Land Area
 acres
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5429,7 +5431,7 @@ hcpv.cost.landprep.fixed
 Land preparation, fixed cost
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5443,7 +5445,7 @@ hcpv.cost.landprep.per_acre
  
  
 HCPV Costs
- 
+0
 0
 1
 1
@@ -5457,7 +5459,7 @@ hcpv.cost.landprep.per_watt
 Land Preparation Cost, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5471,7 +5473,7 @@ hcpv.cost.landprep.percent
 Land preparation as percent of direct cost
 %
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5485,7 +5487,7 @@ hcpv.cost.landprep.total
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5499,6 +5501,7 @@ hcpv.cost.module.costunits
  
  
 HCPV Costs
+12
 $/Wdc|$/Unit
 0
 1
@@ -5513,6 +5516,7 @@ hcpv.cost.module.num_units
 Module
 units
 HCPV Costs
+61
 =${hcpv.array.num_trackers}*${hcpv.array.modules_per_tracker}
 8
 1
@@ -5527,7 +5531,7 @@ hcpv.cost.module.power
  
 kWdc/unit
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5541,7 +5545,7 @@ hcpv.cost.module.totalcost
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5555,7 +5559,7 @@ hcpv.cost.modulearray.area
  
 m2
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5569,7 +5573,7 @@ hcpv.cost.modulearray.power
  
 kWdc
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5583,7 +5587,7 @@ hcpv.cost.per_inverter
 Inverter Cost
  
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5597,7 +5601,7 @@ hcpv.cost.per_module
 Module Cost
  
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5611,7 +5615,7 @@ hcpv.cost.permitting.fixed
 Permitting, fixed cost
 $
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5625,7 +5629,7 @@ hcpv.cost.permitting.per_watt
 Permitting Cost, by Capacity
 $/Wdc
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5639,7 +5643,7 @@ hcpv.cost.permitting.percent
 Permitting as percentage of direct cost
 %
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5653,7 +5657,7 @@ hcpv.cost.permitting.total
 Permitting, Environmental Studies
 $
 HCPV Costs
- 
+0
 9
 1
 1
@@ -5667,7 +5671,7 @@ hcpv.cost.sales_tax.percent
 Sales Tax Percentage of Direct Costs
  
 HCPV Costs
- 
+0
 3
 1
 1
@@ -5681,7 +5685,7 @@ hcpv.cost.sales_tax.total
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5695,7 +5699,7 @@ hcpv.cost.sales_tax.value
 Sales Tax of
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5709,7 +5713,7 @@ hcpv.cost.tracker.totalcost
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5723,7 +5727,7 @@ hcpv.cost.tracker_fixed
  
  
 HCPV Costs
- 
+0
 2
 1
 1
@@ -5737,7 +5741,7 @@ hcpv.cost.tracker_perarea
  
  
 HCPV Costs
- 
+0
 2
 1
 1
@@ -5751,7 +5755,7 @@ hcpv.cost.tracker_perwatt
  
  
 HCPV Costs
- 
+0
 2
 1
 1
@@ -5765,7 +5769,7 @@ system_use_lifetime_output
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5779,7 +5783,7 @@ system_use_recapitalization
  
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5793,7 +5797,7 @@ total_direct_cost
 Total direct cost
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5807,7 +5811,7 @@ total_indirect_cost
 Total indirect cost
  
 HCPV Costs
- 
+0
 8
 1
 1
@@ -5821,7 +5825,7 @@ total_installed_cost
 Total installed cost
  
 HCPV Costs
- 
+0
 8
 1
 1

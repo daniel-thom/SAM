@@ -1176,7 +1176,7 @@ PB_COPY_T_htf_cold_des
 HTF cold design temp
 C
  
- 
+0
 8
 1
 1
@@ -1190,7 +1190,7 @@ PB_COPY_T_htf_hot_des
  
  
  
- 
+0
 8
 1
 1
@@ -1204,7 +1204,7 @@ PB_COPY_htf_cp_avg
 field htf spec heat at T avg
 kJ/kg-K
  
- 
+0
 8
 1
 1
@@ -1218,7 +1218,7 @@ PB_COPY_q_pb_design
 design PC thermal power
 MWt
  
- 
+0
 8
 1
 1
@@ -1232,7 +1232,7 @@ PB_m_dot_htf_cycle_des
 Cycle design HTF mass flow rate
 kg/s
  
- 
+0
 8
 1
 1
@@ -1246,7 +1246,7 @@ P_ref
 Reference output electric power at design condition
 MWe
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1260,7 +1260,7 @@ T_htf_cold_ref
 Reference HTF inlet temperature at design
 °C
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1274,7 +1274,7 @@ T_htf_hot_ref
 Reference HTF outlet temperature at design
 °C
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1288,7 +1288,7 @@ T_set_aux
 Aux heater outlet set temp
 °C
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1302,7 +1302,7 @@ T_startup
 Startup temperature
 °C
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1316,7 +1316,7 @@ adjust
 Performance adjustment
  
 MSLF Power Cycle
- 
+0
 1
 1
 5
@@ -1329,6 +1329,7 @@ csp.mslf.control.fossil_mode
 Fossil backup mode
  
 MSLF Power Cycle
+43
 Minimum backup level|Supplemental operation
 2
 1
@@ -1343,7 +1344,7 @@ csp.mslf.cycle.gr_to_net
 Estimated gross to net conversion factor
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1357,7 +1358,7 @@ cycle_cutoff_frac
 Minimum turbine operation fraction before shutdown
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1371,7 +1372,7 @@ cycle_max_frac
 Maximum turbine over design operation fraction
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1385,7 +1386,7 @@ eta_lhv
 Fossil backup boiler LHV efficiency
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1399,7 +1400,7 @@ eta_ref
 Rated cycle conversion efficiency
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1413,7 +1414,7 @@ fossil_mode
  
  
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1427,7 +1428,7 @@ hx_config
  
  
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1441,7 +1442,7 @@ is_hx
  
  
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1455,7 +1456,7 @@ lhv_eff
  
  
  
- 
+0
 8
 1
 1
@@ -1469,7 +1470,7 @@ m_dot_in
  
  
  
- 
+0
 8
 1
 1
@@ -1483,7 +1484,7 @@ nameplate
  
  
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1497,7 +1498,7 @@ pb_rated_cap
  
  
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1511,7 +1512,7 @@ pb_tech_type
  
  
  
- 
+0
 8
 1
 1
@@ -1525,7 +1526,7 @@ q_design
 Estimated net output at design (nameplate)
 MWe
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1539,7 +1540,7 @@ q_sby_frac
 Fraction of thermal power needed for standby
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1553,7 +1554,7 @@ startup_frac
 Fraction of thermal power needed for startup
  
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1567,7 +1568,7 @@ startup_time
 Time needed for power block startup
 hr
 MSLF Power Cycle
- 
+0
 2
 1
 1
@@ -1581,7 +1582,7 @@ system_capacity
  
  
 MSLF Power Cycle
- 
+0
 8
 1
 1
@@ -1595,7 +1596,7 @@ t_standby_reset
 Low resource standby period
 hr
 MSLF Power Cycle
- 
+0
 2
 1
 1

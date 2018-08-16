@@ -1512,7 +1512,7 @@ AlignTop
 Temperature coefficient of Isc
  
 PV Module (CEC User Specified)
- 
+0
 10
 1
 1
@@ -1526,7 +1526,7 @@ Numeric
 Temperature coefficient of Isc
  
 PV Module (CEC User Specified)
- 
+0
 0
 1
 1
@@ -1540,6 +1540,7 @@ Default
 aIsc Temp Coeff Units
  
 PV Module (CEC User Specified)
+9
 A/°C|%/°C
 1
 1
@@ -1554,7 +1555,7 @@ Choice
 Module area
 m²
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1568,7 +1569,7 @@ Numeric
 Ground clearance height
 m
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1582,7 +1583,7 @@ Numeric
 Transmission Fraction
 0-1
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1596,7 +1597,7 @@ Default
 Bifaciality
 0-1
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1610,7 +1611,7 @@ Default
 Temperature coefficient of Voc
  
 PV Module (CEC User Specified)
- 
+0
 10
 1
 1
@@ -1624,7 +1625,7 @@ Numeric
 Temperature coefficient of Voc
  
 PV Module (CEC User Specified)
- 
+0
 0
 1
 1
@@ -1638,6 +1639,7 @@ Default
 bVoc Temp Coeff Units
  
 PV Module (CEC User Specified)
+9
 V/°C|%/°C
 1
 1
@@ -1652,6 +1654,7 @@ Choice
 Cell type
  
 PV Module (CEC User Specified)
+38
 monoSi|multiSi|CdTe|CIS|CIGS|Amorphous
 0
 1
@@ -1666,11 +1669,11 @@ Choice
  
  
  
- 
+0
 0
 1
 4
- 
+0
 TextEntry
 6par_gpmp
 3
@@ -1678,7 +1681,7 @@ TextEntry
 Temperature coefficient of max. power point
 %/°C
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1692,7 +1695,7 @@ Numeric
 Maximum power point current (Imp)
 A
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1706,7 +1709,7 @@ Numeric
 Use Bifacial Modules
  
 PV Module (CEC User Specified)
- 
+0
 1
 1
 1
@@ -1720,7 +1723,7 @@ Default
 Short circuit current (Isc)
 A
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1734,10 +1737,11 @@ Numeric
 Module description
  
 PV Module (CEC User Specified)
- 
+0
 0
 1
 4
+38
 Generic polycrystalline silicon module
 TextEntry
 6par_mounting
@@ -1746,6 +1750,7 @@ TextEntry
 Approximate installation height
  
 PV Module (CEC User Specified)
+70
 One story building height or lower|Two story building height or higher
 2
 1
@@ -1760,7 +1765,7 @@ Choice
 Efficiency
 %
 PV Module (CEC User Specified)
- 
+0
 8
 1
 1
@@ -1774,7 +1779,7 @@ Numeric
 Number of cells in series
  
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1788,7 +1793,7 @@ Numeric
 Power
 Wdc
 PV Module (CEC User Specified)
- 
+0
 8
 1
 1
@@ -1802,6 +1807,7 @@ Numeric
 Standoff height
  
 PV Module (CEC User Specified)
+112
 Building integrated|Greater than 3.5 in|2.5-3.5 in|1.5-2.5 in|0.5-1.5 in|Less than 0.5 in|Ground or rack mounted
 2
 1
@@ -1816,7 +1822,7 @@ Choice
 Nominal operating cell temperature
 °C
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1830,7 +1836,7 @@ Numeric
 Maximum power point voltage (Vmp)
 V
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1
@@ -1844,7 +1850,7 @@ Numeric
 Open circuit voltage (Voc)
 V
 PV Module (CEC User Specified)
- 
+0
 2
 1
 1

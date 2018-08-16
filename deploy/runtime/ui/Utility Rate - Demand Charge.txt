@@ -401,7 +401,7 @@ ur_dc_enable
 Enable demand charges
  
 Electricity Rates - Demand Charge Rates
- 
+0
 3
 1
 1
@@ -415,7 +415,7 @@ ur_dc_flat_mat
 Demand charge flat rate matrix
  
 Electricity Rates - Demand Charge Rates
- 
+0
 3
 1
 3
@@ -441,7 +441,7 @@ ur_dc_sched_weekday
 Demand charge TOU weekday schedule
  
 Electricity Rates - Demand Charge Rates
- 
+0
 1
 1
 3
@@ -455,7 +455,7 @@ ur_dc_sched_weekend
 Demand charge TOU weekend schedule
  
 Electricity Rates - Demand Charge Rates
- 
+0
 1
 1
 3
@@ -469,7 +469,7 @@ ur_dc_tou_mat
 Demand charge TOU rate matrix
  
 Electricity Rates - Demand Charge Rates
- 
+0
 3
 1
 3

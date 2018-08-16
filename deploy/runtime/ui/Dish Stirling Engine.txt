@@ -806,7 +806,7 @@ Beale_const_coef
 Beale Constant Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -820,7 +820,7 @@ Beale_first_coef
 Beale First-order Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -834,7 +834,7 @@ Beale_fourth_coef
 Beale Fourth-order Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -848,7 +848,7 @@ Beale_square_coef
 Beale Second-order Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -862,7 +862,7 @@ Beale_third_coef
 Beale Third-order Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -876,7 +876,7 @@ Pressure_coef
 Pressure Constant Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -890,7 +890,7 @@ Pressure_first
 Pressure First-order Coefficient
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -904,7 +904,7 @@ T_compression_in
  
  
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -918,7 +918,7 @@ T_heater_head_high
 Heater Head Set Temperature
 Kelvin
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -932,7 +932,7 @@ T_heater_head_low
 Heater Head Lowest Temperature
 Kelvin
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -946,7 +946,7 @@ V_displaced
 Displaced Engine Volume
 m3
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -960,7 +960,7 @@ csp.ds.nameplate_capacity
 Single Unit Nameplate Capacity
 kW
 Dish Stirling Engine
- 
+0
 0
 1
 1
@@ -974,7 +974,7 @@ engine_speed
 Engine Operating Speed
 rpm
 Dish Stirling Engine
- 
+0
 0
 1
 1

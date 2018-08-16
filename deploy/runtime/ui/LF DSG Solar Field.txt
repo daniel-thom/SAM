@@ -2273,7 +2273,7 @@ ColAz
 Collector azimuth angle
 deg
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2287,7 +2287,7 @@ Pipe_hl_coef
 Piping thermal loss coefficient
 W/K-m2-aper
 DSGL_SF
- 
+0
 2
 1
 1
@@ -2301,7 +2301,7 @@ SCA_drives_elec
 Tracking power
 W/m2
 DSGL_SF
- 
+0
 2
 1
 1
@@ -2315,7 +2315,7 @@ SF_COPY_I_bn_des
 Design Point DNI
 W/m²
 DSGL_SF
- 
+0
 8
 1
 1
@@ -2329,7 +2329,7 @@ SF_COPY_P_turb_des
 Heat sink inlet pressure
 bar
 DSGL_SF
- 
+0
 8
 1
 1
@@ -2343,7 +2343,7 @@ SF_COPY_T_cold_ref_des
 Field inlet temperature
 'C
 DSGL_SF
- 
+0
 8
 1
 1
@@ -2357,7 +2357,7 @@ SF_COPY_specified_q_dot_rec_des
 Target receiver thermal power
 MWt
 DSGL_SF
- 
+0
 8
 1
 1
@@ -2371,7 +2371,7 @@ SF_COPY_specified_solar_multiple
 Target solar multiple
  
 DSGL_SF
- 
+0
 8
 1
 1
@@ -2385,7 +2385,7 @@ SF_COPY_x_b_des
 Field outlet steam quality
  
 DSGL_SF
- 
+0
 8
 1
 1
@@ -2399,7 +2399,7 @@ T_amb_des_sf
 Design point ambient temperature
 'C
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2413,7 +2413,7 @@ T_fp
 Freeze protection temperature
 'C
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2427,7 +2427,7 @@ V_wind_max
 Stow wind speed
 m/s
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2441,7 +2441,7 @@ csp.lf.sf.area_multiplier
 Non-solar field land area multiplier
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2455,7 +2455,7 @@ csp.lf.sf.dp.actual_aper
 Actual aperture
 m2
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2469,7 +2469,7 @@ csp.lf.sf.dp.loop_aperture
 Single loop aperture
 m2
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2483,7 +2483,7 @@ csp.lf.sf.dp.loop_opt_eff
 Loop optical efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2497,7 +2497,7 @@ csp.lf.sf.dp.loop_therm_eff
 Loop thermal efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2511,7 +2511,7 @@ csp.lf.sf.dp.sm1_aperture
 Total required aperture, SM=1
 m2
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2525,7 +2525,7 @@ csp.lf.sf.dp.sm1_numloops
 Required number of loops, SM=1
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2539,7 +2539,7 @@ csp.lf.sf.dp.total_loop_conv_eff
 Total loop conversion efficiency
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2553,7 +2553,7 @@ csp.lf.sf.field_area
 Solar field area
 acre
  
- 
+0
 8
 1
 1
@@ -2567,7 +2567,7 @@ csp.lf.sf.total_land_area
 Total land area
 acres
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2581,7 +2581,7 @@ csp.lf.sf.total_pres_drop
 Total solar field pressure drop
 bar
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2595,7 +2595,7 @@ csp.lf.sf.washes_per_year
 Washes per year
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2609,7 +2609,7 @@ csp.lf.sf.water_per_wash
 Water usage per wash
 L/m2,ap
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2623,7 +2623,7 @@ e_startup
 Thermal inertia per unit area of solar field
 kJ/K-m2
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2637,7 +2637,7 @@ eta_pump
 Field pump efficiency
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2651,7 +2651,7 @@ fP_hdr_c
 Cold header pressure drop fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2665,7 +2665,7 @@ fP_hdr_h
 Average design point hot header pressure drop fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2679,7 +2679,7 @@ fP_sf_boil
 Boiler pressure drop fraction
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2693,7 +2693,7 @@ field_thermal_output
 Actual field thermal output
 MWt
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2707,7 +2707,7 @@ nLoops
 Actual number of loops
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2721,7 +2721,7 @@ nModBoil
 Number of modules in boiler section
  
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2735,7 +2735,7 @@ solarm
 Actual solar multiple
  
 Linear Fresnel Solar Field
- 
+0
 8
 1
 1
@@ -2749,7 +2749,7 @@ tes_hours
  
  
  
- 
+0
 8
 1
 1
@@ -2763,7 +2763,7 @@ theta_dep
 Solar elevation for collector morning deploy
 deg
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1
@@ -2777,7 +2777,7 @@ theta_stow
 Solar elevation for collector nighttime stow
 deg
 Linear Fresnel Solar Field
- 
+0
 2
 1
 1

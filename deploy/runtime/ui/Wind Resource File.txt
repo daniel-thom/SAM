@@ -756,7 +756,7 @@ use_specific_wf_wind
 Wind resource enable user-specified file
  
 Wind Resource by Location
- 
+0
 5
 1
 1
@@ -770,10 +770,11 @@ user_specified_wf_wind
 Wind resource user-specified file
  
 Wind Resource by Location
- 
+0
 1
 1
 4
+1
  
 Default
 wind_climate.avg_wind_speed_closest_to_hub_ht
@@ -782,7 +783,7 @@ wind_climate.avg_wind_speed_closest_to_hub_ht
 Average wind speed nearest hub height
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -796,11 +797,11 @@ wind_climate.msg
  
  
 Wind Resource by Location
- 
+0
 0
 1
 4
- 
+0
 Default
 wind_climate.msg_is_error
 3
@@ -808,6 +809,7 @@ wind_climate.msg_is_error
  
  
 Wind Resource by Location
+20
 =\wind_resource_info
 0
 1
@@ -822,10 +824,11 @@ wind_climate.url_info
 Data source
  
 Wind Resource by Location
- 
+0
 0
 1
 4
+5
 empty
 Default
 wind_resource.city
@@ -834,11 +837,11 @@ wind_resource.city
 City
  
 Wind Resource by Location
- 
+0
 8
 1
 4
- 
+0
 TextEntry
 wind_resource.closest_dir_meas_ht
 3
@@ -846,7 +849,7 @@ wind_resource.closest_dir_meas_ht
 Height of direction data closest to hub height
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -860,7 +863,7 @@ wind_resource.closest_speed_meas_ht
 Height of speed data closest to hub height
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -874,11 +877,11 @@ wind_resource.country
 Country
  
 Wind Resource by Location
- 
+0
 8
 1
 4
- 
+0
 TextEntry
 wind_resource.description
 3
@@ -886,11 +889,11 @@ wind_resource.description
 Description
  
 Wind Resource by Location
- 
+0
 8
 1
 4
- 
+0
 TextEntry
 wind_resource.elev
 3
@@ -898,7 +901,7 @@ wind_resource.elev
 Elevation above sea level
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -912,11 +915,11 @@ wind_resource.file
 Wind resource file name from library
  
 Wind Resource by Location
- 
+0
 8
 1
 4
- 
+0
 TextEntry
 wind_resource.lat
 3
@@ -924,7 +927,7 @@ wind_resource.lat
 Latitude
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -938,7 +941,7 @@ wind_resource.lat_requested
  
 deg
 Wind Resource by Location
- 
+0
 0
 1
 1
@@ -952,10 +955,12 @@ wind_resource.location
 Wind Resource
  
 Wind Resource by Location
+18
 WindResourceData|0
 19
 1
 4
+16
 WY Cheyenne_2006
 Library
 wind_resource.location_id
@@ -964,11 +969,11 @@ wind_resource.location_id
  
  
 Wind Resource by Location
- 
+0
 8
 1
 4
- 
+0
 Default
 wind_resource.lon
 3
@@ -976,7 +981,7 @@ wind_resource.lon
 Longitude
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -990,7 +995,7 @@ wind_resource.lon_requested
 Longitude
 deg
 Wind Resource by Location
- 
+0
 0
 1
 1
@@ -1004,7 +1009,7 @@ wind_resource.requested_ht
 Turbine hub height
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -1018,11 +1023,11 @@ wind_resource.state
 State
  
 Wind Resource by Location
- 
+0
 8
 1
 4
- 
+0
 TextEntry
 wind_resource.year
 3
@@ -1030,7 +1035,7 @@ wind_resource.year
  
  
 Wind Resource by Location
- 
+0
 8
 1
 1
@@ -1044,11 +1049,11 @@ wind_resource_filename
 Wind resource file for simulation
  
 Wind Resource by Location
- 
+0
 9
 1
 4
- 
+0
 Default
 
 244

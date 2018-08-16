@@ -93,6 +93,7 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 batt_C_rate
 1
@@ -715,7 +716,7 @@ batt_type
 batt_user_specified_weather_file
 1
 4
- 
+0
 batt_voltage_choice
 1
 1
@@ -1005,22 +1006,27 @@ const_per_months5
 const_per_name1
 1
 4
+6
 Loan 1
 const_per_name2
 1
 4
+6
 Loan 2
 const_per_name3
 1
 4
+6
 Loan 3
 const_per_name4
 1
 4
+6
 Loan 4
 const_per_name5
 1
 4
+6
 Loan 5
 const_per_percent1
 1
@@ -1457,7 +1463,7 @@ derate
 dispatch_data_filename
 1
 4
- 
+0
 dispatch_factor1
 1
 1
@@ -2684,7 +2690,7 @@ ibi_uti_percent_tax_sta
 import_message
 1
 4
- 
+0
 inflation_rate
 1
 1
@@ -2892,14 +2898,17 @@ mera_cost3
 mera_name1
 1
 4
+21
 Replacement Reserve 1
 mera_name2
 1
 4
+21
 Replacement Reserve 2
 mera_name3
 1
 4
+21
 Replacement Reserve 3
 months_receivables_reserve
 1
@@ -3328,7 +3337,7 @@ reserves_interest
 sale_leaseback_message
 1
 4
- 
+0
 sales_tax_rate
 1
 1
@@ -3368,7 +3377,7 @@ show_construction_period
 solution_mode_message
 1
 4
- 
+0
 spec_mode
 1
 1
@@ -3426,6 +3435,7 @@ tax_investor_required_lease_reserve
 tod_library
 1
 4
+16
 Uniform Dispatch
 total_direct_cost
 1

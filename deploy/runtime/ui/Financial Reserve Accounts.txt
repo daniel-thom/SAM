@@ -1305,7 +1305,7 @@ dscr_reserve_months
 Debt service reserve account
 months of principal and interest (P&I) payments
 Reserve Accounts
- 
+0
 2
 1
 1
@@ -1319,7 +1319,7 @@ equip1_reserve_cost
 Replacement reserve 1 cost
 $/W
 Reserve Accounts
- 
+0
 3
 1
 1
@@ -1333,7 +1333,7 @@ equip1_reserve_freq
 Replacement reserve 1 frequency
  
 Reserve Accounts
- 
+0
 3
 1
 1
@@ -1347,7 +1347,7 @@ equip2_reserve_cost
 Replacement reserve 2 cost
 $/W
 Reserve Accounts
- 
+0
 3
 1
 1
@@ -1361,7 +1361,7 @@ equip2_reserve_freq
 Replacement reserve 2 frequency
  
 Reserve Accounts
- 
+0
 3
 1
 1
@@ -1375,7 +1375,7 @@ equip3_reserve_cost
 Replacement reserve 3 cost
 $/W
 Reserve Accounts
- 
+0
 3
 1
 1
@@ -1389,7 +1389,7 @@ equip3_reserve_freq
 Replacement reserve 3 frequency
  
 Reserve Accounts
- 
+0
 3
 1
 1
@@ -1403,6 +1403,7 @@ equip_reserve_depr_fed
 Replacement reserves federal depreciation method
  
 Reserve Accounts
+108
 5-yr MACRS|15-yr MACRS|5-yr Straight Line|15-yr Straight Line|20-yr Straight Line|39-yr Straight Line|Custom
 3
 1
@@ -1417,6 +1418,7 @@ equip_reserve_depr_sta
 Replacement reserves state depreciation method
  
 Reserve Accounts
+108
 5-yr MACRS|15-yr MACRS|5-yr Straight Line|15-yr Straight Line|20-yr Straight Line|39-yr Straight Line|Custom
 3
 1
@@ -1431,7 +1433,7 @@ mera_cost1
 Replacement reserve 1 calculated cost
 $
 Reserve Accounts
- 
+0
 9
 1
 1
@@ -1445,7 +1447,7 @@ mera_cost2
 Replacement reserve 2 calculated cost
 $
 Reserve Accounts
- 
+0
 9
 1
 1
@@ -1459,7 +1461,7 @@ mera_cost3
 Replacement reserve 3 calculated cost
 $
 Reserve Accounts
- 
+0
 9
 1
 1
@@ -1473,10 +1475,11 @@ mera_name1
  
  
 Reserve Accounts
- 
+0
 0
 1
 4
+21
 Replacement Reserve 1
 TextEntry
 mera_name2
@@ -1485,10 +1488,11 @@ mera_name2
  
  
 Reserve Accounts
- 
+0
 0
 1
 4
+21
 Replacement Reserve 2
 TextEntry
 mera_name3
@@ -1497,10 +1501,11 @@ mera_name3
  
  
 Reserve Accounts
- 
+0
 0
 1
 4
+21
 Replacement Reserve 3
 TextEntry
 months_receivables_reserve
@@ -1509,7 +1514,7 @@ months_receivables_reserve
 Receivables reserve
 months of PPA revenue
 Reserve Accounts
- 
+0
 0
 1
 1
@@ -1523,7 +1528,7 @@ months_working_reserve
 Working capital reserve
 months of operating costs
 Reserve Accounts
- 
+0
 2
 1
 1
@@ -1537,7 +1542,7 @@ reserves_interest
 Interest on reserves
 %/year
 Reserve Accounts
- 
+0
 2
 1
 1

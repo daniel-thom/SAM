@@ -2608,7 +2608,7 @@ inverter
 Inverter type
  
  
- 
+0
 0
 1
 1
@@ -2622,7 +2622,7 @@ inverter_count
 Number of inverters
  
 PV System Design
- 
+0
 2
 1
 1
@@ -2636,7 +2636,7 @@ module
 Module
  
  
- 
+0
 1
 1
 1
@@ -2650,7 +2650,7 @@ modules_per_string
 Modules per string
  
 PV System Design
- 
+0
 3
 1
 1
@@ -2664,7 +2664,7 @@ mppt_hi_inverter
 Inverter Maximum MPPT voltage
 Vdc
 PV System Design
- 
+0
 8
 1
 1
@@ -2678,7 +2678,7 @@ mppt_low_inverter
 Inverter Minimum MPPT voltage
 Vdc
 PV System Design
- 
+0
 8
 1
 1
@@ -2692,7 +2692,7 @@ num_mppt
 Number of MPPT inputs
  
  
- 
+0
 0
 1
 1
@@ -2706,7 +2706,7 @@ section1_ac_capacity
 Section 1 AC Capacity
 kW AC
  
- 
+0
 8
 1
 1
@@ -2720,7 +2720,7 @@ section1_dc_capacity
 Section 1 DC Capacity
 kW DC
  
- 
+0
 8
 1
 1
@@ -2734,7 +2734,7 @@ section1_dcac_ratio
 Section 1 DC to AC Ratio
  
  
- 
+0
 8
 1
 1
@@ -2748,7 +2748,7 @@ strings_in_parallel
 Strings in parallel
  
 PV System Design
- 
+0
 3
 1
 1
@@ -2762,7 +2762,7 @@ subarray1_azimuth
 Azimuth
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -2776,7 +2776,7 @@ subarray1_backtrack
 Enable backtracking 1
  
 PV System Design
- 
+0
 3
 1
 1
@@ -2790,7 +2790,7 @@ subarray1_rotlim
 Tracker rotation limit
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -2804,7 +2804,7 @@ subarray1_tilt
 Tilt
 deg
 PV System Design
- 
+0
 3
 1
 1
@@ -2818,6 +2818,7 @@ subarray_track_mode
 Tracking type
  
  
+47
 Fixed|1 Axis |2 Axis|Azimuth Axis|Seasonal Tilt
 3
 1
@@ -2832,7 +2833,7 @@ system_AC_capacity
 Total AC Capacity
 kW AC
  
- 
+0
 8
 1
 0
@@ -2843,7 +2844,7 @@ system_DC_AC_ratio
 Total DC to AC Ratio
  
  
- 
+0
 8
 1
 0
@@ -2854,7 +2855,7 @@ system_DC_capacity
 Total DC Capacity
 kW DC
  
- 
+0
 8
 1
 0
@@ -2865,7 +2866,7 @@ system_num_inv
 Total System Inverters
  
  
- 
+0
 8
 1
 1
@@ -2879,7 +2880,7 @@ system_num_mod
 Total System Modules
  
  
- 
+0
 8
 1
 1
@@ -2893,7 +2894,7 @@ total_modules
 Number of modules
  
 PV System Design
- 
+0
 1
 1
 1
@@ -2907,7 +2908,7 @@ vdcmax_inverter
 Inverter Maximum DC voltage
 Vdc
 PV System Design
- 
+0
 8
 1
 1
@@ -2921,7 +2922,7 @@ vmp_string
 String Vmp
 V
 PV System Design
- 
+0
 8
 1
 1
@@ -2935,7 +2936,7 @@ voc_string
 String Voc
 V
 PV System Design
- 
+0
 8
 1
 1

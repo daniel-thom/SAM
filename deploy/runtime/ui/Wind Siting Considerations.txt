@@ -422,11 +422,11 @@ lstBarriers
  
  
 Wind Siting Considerations
- 
+0
 0
 1
 4
- 
+0
 ListBox
 radLocation
 3
@@ -434,7 +434,7 @@ radLocation
  
  
 Wind Siting Considerations
- 
+0
 0
 1
 1
@@ -448,9 +448,10 @@ txtBarriersUrl
  
  
 Wind Siting Considerations
- 
+0
 0
 1
+4
 4
 none
 TextEntry
@@ -460,7 +461,7 @@ wind_barriers.radius
 Site radius
 mi
 Wind Siting Considerations
- 
+0
 0
 1
 1

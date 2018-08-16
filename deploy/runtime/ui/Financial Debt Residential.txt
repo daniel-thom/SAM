@@ -659,7 +659,7 @@ debt_fraction
 Debt fraction
 %
 Residential Loan
- 
+0
 2
 1
 1
@@ -673,11 +673,11 @@ debt_message
  
  
 Residential Loan
- 
+0
 5
 1
 4
- 
+0
 MultilineText
 loan_amount
 3
@@ -685,7 +685,7 @@ loan_amount
 Debt
  
 Residential Loan
- 
+0
 8
 1
 1
@@ -699,7 +699,7 @@ loan_rate
 Loan rate
 %/year
 Residential Loan
- 
+0
 2
 1
 1
@@ -713,7 +713,7 @@ loan_term
 Loan term
 years
 Residential Loan
- 
+0
 2
 1
 1
@@ -727,7 +727,7 @@ market
 Residential market
  
 Residential Loan
- 
+0
 8
 1
 1
@@ -741,6 +741,7 @@ mortgage
 Residential loan type (0=standard, 1=mortgage)
  
 Residential Loan
+22
 Standard loan|Mortgage
 3
 1
@@ -755,7 +756,7 @@ ui_net_capital_cost
 Net capital cost
  
 Residential Loan
- 
+0
 8
 1
 1
@@ -769,7 +770,7 @@ ui_wacc
 WACC
 %
 Residential Loan
- 
+0
 8
 1
 1

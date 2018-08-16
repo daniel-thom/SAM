@@ -297,7 +297,7 @@ batt_loss_choice
 Choose to input single, monthly, or time-series losses
 kW
 Battery
- 
+0
 1
 1
 1
@@ -311,7 +311,7 @@ batt_losses
 Time series
 kW
 Battery
- 
+0
 0
 1
 2
@@ -325,7 +325,7 @@ batt_losses_charging
 Charging mode
 kW
 Battery
- 
+0
 2
 1
 2
@@ -339,7 +339,7 @@ batt_losses_discharging
 Discharging mode
 kW
 Battery
- 
+0
 0
 1
 2
@@ -353,7 +353,7 @@ batt_losses_idle
 Idle mode
 kW
 Battery
- 
+0
 0
 1
 2

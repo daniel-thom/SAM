@@ -2028,7 +2028,7 @@ batt_discharge_percent_1
 Battery discharge percent for period 1
 %
 Battery
- 
+0
 3
 1
 1
@@ -2042,7 +2042,7 @@ batt_discharge_percent_2
 Battery discharge percent for period 2
 %
 Battery
- 
+0
 3
 1
 1
@@ -2056,7 +2056,7 @@ batt_discharge_percent_3
 Battery discharge percent for period 3
 %
 Battery
- 
+0
 3
 1
 1
@@ -2070,7 +2070,7 @@ batt_discharge_percent_4
 Battery discharge percent for period 4
 %
 Battery
- 
+0
 3
 1
 1
@@ -2084,7 +2084,7 @@ batt_discharge_percent_5
 Battery discharge percent for period 5
 %
 Battery
- 
+0
 3
 1
 1
@@ -2098,7 +2098,7 @@ batt_discharge_percent_6
 Battery discharge percent for period 6
 %
 Battery
- 
+0
 3
 1
 1
@@ -2112,7 +2112,7 @@ batt_gridcharge_percent_1
 Battery grid charge percent for period 1
 %
 Battery
- 
+0
 3
 1
 1
@@ -2126,7 +2126,7 @@ batt_gridcharge_percent_2
 Battery grid charge percent for period 2
 %
 Battery
- 
+0
 3
 1
 1
@@ -2140,7 +2140,7 @@ batt_gridcharge_percent_3
 Battery grid charge percent for period 3
 %
 Battery
- 
+0
 3
 1
 1
@@ -2154,7 +2154,7 @@ batt_gridcharge_percent_4
 Battery grid charge percent for period 4
 %
 Battery
- 
+0
 3
 1
 1
@@ -2168,7 +2168,7 @@ batt_gridcharge_percent_5
 Battery grid charge percent for period 5
 %
 Battery
- 
+0
 3
 1
 1
@@ -2182,7 +2182,7 @@ batt_gridcharge_percent_6
 Battery grid charge percent for period 6
 %
 Battery
- 
+0
 3
 1
 1
@@ -2196,7 +2196,7 @@ dispatch_manual_charge
  
  
 Battery
- 
+0
 8
 1
 2
@@ -2210,7 +2210,7 @@ dispatch_manual_discharge
  
  
 Battery
- 
+0
 8
 1
 2
@@ -2224,7 +2224,7 @@ dispatch_manual_gridcharge
  
  
 Battery
- 
+0
 8
 1
 2
@@ -2238,7 +2238,7 @@ dispatch_manual_percent_discharge
  
  
 Battery
- 
+0
 8
 1
 2
@@ -2252,7 +2252,7 @@ dispatch_manual_percent_gridcharge
  
  
 Battery
- 
+0
 8
 1
 2
@@ -2266,7 +2266,7 @@ dispatch_manual_sched
  
  
 Battery
- 
+0
 2
 1
 3
@@ -2579,7 +2579,7 @@ dispatch_manual_sched_weekend
  
  
 Battery
- 
+0
 2
 1
 3
@@ -2892,7 +2892,7 @@ pv.storage.p1.charge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2906,7 +2906,7 @@ pv.storage.p1.discharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2920,7 +2920,7 @@ pv.storage.p1.gridcharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2934,7 +2934,7 @@ pv.storage.p2.charge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2948,7 +2948,7 @@ pv.storage.p2.discharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2962,7 +2962,7 @@ pv.storage.p2.gridcharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2976,7 +2976,7 @@ pv.storage.p3.charge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -2990,7 +2990,7 @@ pv.storage.p3.discharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3004,7 +3004,7 @@ pv.storage.p3.gridcharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3018,7 +3018,7 @@ pv.storage.p4.charge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3032,7 +3032,7 @@ pv.storage.p4.discharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3046,7 +3046,7 @@ pv.storage.p4.gridcharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3060,7 +3060,7 @@ pv.storage.p5.charge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3074,7 +3074,7 @@ pv.storage.p5.discharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3088,7 +3088,7 @@ pv.storage.p5.gridcharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3102,7 +3102,7 @@ pv.storage.p6.charge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3116,7 +3116,7 @@ pv.storage.p6.discharge
  
  
 Battery
- 
+0
 0
 1
 1
@@ -3130,7 +3130,7 @@ pv.storage.p6.gridcharge
  
  
 Battery
- 
+0
 0
 1
 1

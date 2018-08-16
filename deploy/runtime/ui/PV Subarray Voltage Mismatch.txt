@@ -149,7 +149,7 @@ enable_mismatch_vmax_calc
 Enable subarray voltage mismatch calculation
  
 PV System Design
- 
+0
 3
 1
 1

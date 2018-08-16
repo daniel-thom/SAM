@@ -2170,7 +2170,7 @@ snl_a
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2184,7 +2184,7 @@ snl_a0
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2198,7 +2198,7 @@ snl_a1
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2212,7 +2212,7 @@ snl_a2
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2226,7 +2226,7 @@ snl_a3
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2240,7 +2240,7 @@ snl_a4
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2254,7 +2254,7 @@ snl_aimp
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2268,7 +2268,7 @@ snl_aisc
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2282,7 +2282,7 @@ snl_area
 Module area
 m²
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2296,7 +2296,7 @@ snl_b
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2310,7 +2310,7 @@ snl_b0
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2324,7 +2324,7 @@ snl_b1
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2338,7 +2338,7 @@ snl_b2
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2352,7 +2352,7 @@ snl_b3
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2366,7 +2366,7 @@ snl_b4
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2380,7 +2380,7 @@ snl_b5
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2394,7 +2394,7 @@ snl_bvmpo
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2408,7 +2408,7 @@ snl_bvoco
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2422,7 +2422,7 @@ snl_c0
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2436,7 +2436,7 @@ snl_c1
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2450,7 +2450,7 @@ snl_c2
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2464,7 +2464,7 @@ snl_c3
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2478,7 +2478,7 @@ snl_c4
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2492,7 +2492,7 @@ snl_c5
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2506,7 +2506,7 @@ snl_c6
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2520,7 +2520,7 @@ snl_c7
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2534,7 +2534,7 @@ snl_dtc
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2548,7 +2548,7 @@ snl_fd
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2562,7 +2562,7 @@ snl_imp_temp_1
  
 A/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2576,7 +2576,7 @@ snl_impo
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2590,7 +2590,7 @@ snl_isco
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2604,7 +2604,7 @@ snl_ixo
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2618,7 +2618,7 @@ snl_ixxo
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2632,10 +2632,11 @@ snl_material
 Material
  
 PV Module (Sandia Database)
- 
+0
 8
 1
 4
+8
 empty!!!
 TextEntry
 snl_mbvmp
@@ -2644,7 +2645,7 @@ snl_mbvmp
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2658,7 +2659,7 @@ snl_mbvoc
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2672,10 +2673,12 @@ snl_module_name
 Module name
  
 PV Module (Sandia Database)
+16
 Sandia Modules|0
 19
 1
 4
+31
 SunPower SPR-210-BLK [2007 (E)]
 Library
 snl_module_structure
@@ -2684,6 +2687,7 @@ snl_module_structure
 Module structure and mounting
  
 PV Module (Sandia Database)
+214
 Use Database Values|Glass/Cell/Polymer Sheet - Open Rack|Glass/Cell/Glass - Open Rack|Polymer/Thin Film/Steel - Open Rack|Glass/Cell/Polymer Sheet - Insulated Back|Glass/Cell/Glass - Close Roof Mount|User-specified
 2
 1
@@ -2698,7 +2702,7 @@ snl_n
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -2712,7 +2716,7 @@ snl_n_cells
 Number of cells
  
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2726,7 +2730,7 @@ snl_parallel_cells
 Number of cell strings in parallel
  
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2740,7 +2744,7 @@ snl_ref_a
 a
  
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2754,7 +2758,7 @@ snl_ref_b
 b
  
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2768,10 +2772,11 @@ snl_ref_conditions
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 4
+63
 Total Irradiance = 1000 W/m2, Air mass = 1.5, Cell temp = 25 'C
 TextEntry
 snl_ref_dT
@@ -2780,7 +2785,7 @@ snl_ref_dT
 dT
 °C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2794,7 +2799,7 @@ snl_ref_eff
 Nominal efficiency
 %
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2808,7 +2813,7 @@ snl_ref_imp
 Max power current (Imp)
 Adc
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2822,7 +2827,7 @@ snl_ref_imp_temp_0
  
 %/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2836,7 +2841,7 @@ snl_ref_isc
 Short circuit current (Isc)
 Adc
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2850,7 +2855,7 @@ snl_ref_isc_temp_0
  
 %/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2864,7 +2869,7 @@ snl_ref_isc_temp_1
  
 A/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2878,7 +2883,7 @@ snl_ref_pmp
 Maximum power (Pmp)
 Wdc
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2892,7 +2897,7 @@ snl_ref_pmp_temp_0
  
 %/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2906,7 +2911,7 @@ snl_ref_pmp_temp_1
  
 W/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2920,7 +2925,7 @@ snl_ref_vmp
 Max power voltage (Vmp)
 Vdc
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2934,7 +2939,7 @@ snl_ref_vmp_temp_0
  
 %/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2948,7 +2953,7 @@ snl_ref_vmp_temp_1
  
 V/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2962,7 +2967,7 @@ snl_ref_voc
 Open circuit voltage (Voc)
 Vdc
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2976,7 +2981,7 @@ snl_ref_voc_temp_0
  
 %/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -2990,11 +2995,11 @@ snl_sandia_notes
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 4
- 
+0
 TextEntry
 snl_sandia_vintage
 3
@@ -3002,10 +3007,11 @@ snl_sandia_vintage
 Vintage
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 4
+8
 empty!!!
 TextEntry
 snl_series_cells
@@ -3014,7 +3020,7 @@ snl_series_cells
 Number of cells in series
  
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -3028,7 +3034,7 @@ snl_specified_a
 a
  
 PV Module (Sandia Database)
- 
+0
 1
 1
 1
@@ -3042,7 +3048,7 @@ snl_specified_b
 b
  
 PV Module (Sandia Database)
- 
+0
 1
 1
 1
@@ -3056,7 +3062,7 @@ snl_specified_dT
 dT
 °C
 PV Module (Sandia Database)
- 
+0
 1
 1
 1
@@ -3070,7 +3076,7 @@ snl_vmpo
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1
@@ -3084,7 +3090,7 @@ snl_voc_temp_1
  
 V/°C
 PV Module (Sandia Database)
- 
+0
 8
 1
 1
@@ -3098,7 +3104,7 @@ snl_voco
  
  
 PV Module (Sandia Database)
- 
+0
 4
 1
 1

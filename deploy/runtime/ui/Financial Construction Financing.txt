@@ -2927,7 +2927,7 @@ const_per_interest1
 Construction Loan 1 Interest
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -2941,7 +2941,7 @@ const_per_interest2
 Construction Loan 2 Interest
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -2955,7 +2955,7 @@ const_per_interest3
 Construction Loan 3 Interest
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -2969,7 +2969,7 @@ const_per_interest4
 Construction Loan 4 Interest
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -2983,7 +2983,7 @@ const_per_interest5
 Construction Loan 5 Interest
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -2997,7 +2997,7 @@ const_per_interest_rate1
 Construction Loan 1 interest rate
 %/year
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3011,7 +3011,7 @@ const_per_interest_rate2
 Construction Loan 2 interest rate
 %/year
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3025,7 +3025,7 @@ const_per_interest_rate3
 Construction Loan 3 interest rate
 %/year
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3039,7 +3039,7 @@ const_per_interest_rate4
 Construction Loan 4 interest rate
 %/year
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3053,7 +3053,7 @@ const_per_interest_rate5
 Construction Loan 5 interest rate
 %/year
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3067,7 +3067,7 @@ const_per_interest_total
  
  
 Construction Period Debt
- 
+0
 8
 1
 1
@@ -3081,7 +3081,7 @@ const_per_months1
 Construction Loan 1 months
 months
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3095,7 +3095,7 @@ const_per_months2
 Construction Loan 2 months
 months
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3109,7 +3109,7 @@ const_per_months3
 Construction Loan 3 months
 months
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3123,7 +3123,7 @@ const_per_months4
 Construction Loan 4 months
 months
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3137,7 +3137,7 @@ const_per_months5
 Construction Loan 5 months
 months
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3151,10 +3151,11 @@ const_per_name1
  
  
 Construction Period Debt
- 
+0
 0
 1
 4
+6
 Loan 1
 TextEntry
 const_per_name2
@@ -3163,10 +3164,11 @@ const_per_name2
  
  
 Construction Period Debt
- 
+0
 0
 1
 4
+6
 Loan 2
 TextEntry
 const_per_name3
@@ -3175,10 +3177,11 @@ const_per_name3
  
  
 Construction Period Debt
- 
+0
 0
 1
 4
+6
 Loan 3
 TextEntry
 const_per_name4
@@ -3187,10 +3190,11 @@ const_per_name4
  
  
 Construction Period Debt
- 
+0
 0
 1
 4
+6
 Loan 4
 TextEntry
 const_per_name5
@@ -3199,10 +3203,11 @@ const_per_name5
  
  
 Construction Period Debt
- 
+0
 0
 1
 4
+6
 Loan 5
 TextEntry
 const_per_percent1
@@ -3211,7 +3216,7 @@ const_per_percent1
 Construction Loan 1 percent of installed cost
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3225,7 +3230,7 @@ const_per_percent2
 Construction Loan 2 percent of installed cost
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3239,7 +3244,7 @@ const_per_percent3
 Construction Loan 3 percent of installed cost
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3253,7 +3258,7 @@ const_per_percent4
 Construction Loan 4 percent of installed cost
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3267,7 +3272,7 @@ const_per_percent5
 Construction Loan 5 percent of installed cost
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3281,7 +3286,7 @@ const_per_percent_total
  
  
 Construction Period Debt
- 
+0
 8
 1
 1
@@ -3295,7 +3300,7 @@ const_per_principal1
 Construction Loan 1 Principal
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3309,7 +3314,7 @@ const_per_principal2
 Construction Loan 2 Principal
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3323,7 +3328,7 @@ const_per_principal3
 Construction Loan 3 Principal
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3337,7 +3342,7 @@ const_per_principal4
 Construction Loan 4 Principal
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3351,7 +3356,7 @@ const_per_principal5
 Construction Loan 5 Principal
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3365,7 +3370,7 @@ const_per_principal_total
  
  
 Construction Period Debt
- 
+0
 8
 1
 1
@@ -3379,7 +3384,7 @@ const_per_total1
 Construction Loan 1 Total
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3393,7 +3398,7 @@ const_per_total2
 Construction Loan 2 Total
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3407,7 +3412,7 @@ const_per_total3
 Construction Loan 3 Total
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3421,7 +3426,7 @@ const_per_total4
 Construction Loan 4 Total
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3435,7 +3440,7 @@ const_per_total5
 Construction Loan 5 Total
  
 Construction Period Debt
- 
+0
 9
 1
 1
@@ -3449,7 +3454,7 @@ const_per_upfront_rate1
 Construction Loan 1 up-front fee
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3463,7 +3468,7 @@ const_per_upfront_rate2
 Construction Loan 2 up-front fee
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3477,7 +3482,7 @@ const_per_upfront_rate3
 Construction Loan 3 up-front fee
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3491,7 +3496,7 @@ const_per_upfront_rate4
 Construction Loan 4 up-front fee
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3505,7 +3510,7 @@ const_per_upfront_rate5
 Construction Loan 5 up-front fee
 %
 Construction Period Debt
- 
+0
 3
 1
 1
@@ -3519,7 +3524,7 @@ construction_financing_cost
 Total construction financing cost
  
 Construction Period Debt
- 
+0
 9
 1
 1

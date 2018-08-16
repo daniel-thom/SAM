@@ -1,5 +1,5 @@
 1
-372
+378
 Monthly_util
 1
 2
@@ -120,25 +120,26 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
 1
 1
 1
-6.914304
+7.656164
 annual_diffuse
 1
 1
 1
 1
-1.545962
+1.282186
 annual_global
 1
 1
 1
 1
-5.737543
+5.879175
 annual_peak
 1
 1
@@ -156,13 +157,13 @@ annual_tdry
 1
 1
 1
-23.802706
+22.835627
 annual_wspd
 1
 1
 1
 1
-2.758493
+1.869863
 array_type
 1
 1
@@ -400,7 +401,8 @@ cbi_uti_tax_sta
 city
 1
 4
-Phoenix Sky Harbor Intl Ap
+1
+-
 contingency
 1
 1
@@ -416,7 +418,8 @@ contingency_percent
 country
 1
 4
-USA
+1
+-
 dc_ac_ratio
 1
 1
@@ -432,7 +435,7 @@ debt_fraction
 debt_message
 1
 4
- 
+0
 degradation
 1
 2
@@ -444,7 +447,7 @@ elev
 1
 1
 1
-337.000000
+321.000000
 en_belpe
 1
 1
@@ -634,7 +637,8 @@ federal_tax_rate
 file_name
 1
 4
-C:\SAM\2017.9.5\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 floor_area
 1
 1
@@ -935,6 +939,28 @@ ibi_uti_percent_tax_sta
 1
 1
 1.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -1196,7 +1222,17 @@ lat
 lbl_csp
 1
 4
- 
+0
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 load
 1
 2
@@ -1324,7 +1360,7 @@ lon
 1
 1
 1
--111.983002
+-112.059998
 loss_age
 1
 1
@@ -1905,23 +1941,28 @@ show_tax_credits
 solar_data_file_name
 1
 4
-C:\SAM\2017.9.5\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 solar_data_source
 1
 4
-TMY3
+5
+NSRDB
 solar_resource
 1
 4
-USA AZ Phoenix Sky Harbor Intl Ap (TMY3)
+45
+phoenix_az_33.448377_-112.074037_psmv3_60_tmy
 solar_resource_file
 1
 4
-C:\SAM\2017.9.5\solar_resource\USA AZ Phoenix Sky Harbor Intl Ap (TMY3).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
 state
 1
 4
-AZ
+1
+-
 state_tax_rate
 1
 2
@@ -1931,7 +1972,8 @@ state_tax_rate
 station_id
 1
 4
-722780
+6
+310820
 subtotal_direct
 1
 1
@@ -2110,6 +2152,7 @@ ur_desc_is_shown
 ur_description
 1
 4
+298
 This rate schedule is applicable to all Standard Offer and Direct Access electric service required for residential purposes in individual private dwellings and in individually metered apartments when such service is supplied at one site through one point of delivery and measured through one meter.
 ur_ec_is_shown
 1
@@ -2172,6 +2215,7 @@ ur_en_ts_sell_rate
 ur_end_date
 1
 4
+5
 empty
 ur_energy_history
 1
@@ -2212,6 +2256,7 @@ ur_monthly_min_charge
 ur_name
 1
 4
+25
 Arizona Public Service Co
 ur_nm_yearend_sell_rate
 1
@@ -2222,22 +2267,25 @@ ur_nm_yearend_sell_rate
 ur_phase_wiring
 1
 4
- 
+0
 ur_ratedata_filename
 1
 4
- 
+0
 ur_schedule_name
 1
 4
+19
 Residential TOU ET2
 ur_source
 1
 4
+42
 https://www.aps.com/library/rates/et-2.pdf
 ur_start_date
 1
 4
+5
 empty
 ur_ts_sell_rate
 1
@@ -2249,11 +2297,12 @@ ur_ts_sell_rate
 ur_uri
 1
 4
+5
 empty
 ur_voltage_category
 1
 4
- 
+0
 ur_voltage_max
 1
 1
@@ -2275,7 +2324,7 @@ use_specific_weather_file
 user_specified_weather_file
 1
 4
- 
+0
 utility_bill_data
 1
 2

@@ -143,7 +143,7 @@ A_aperture
 Reflective aperture area array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -158,7 +158,7 @@ Ave_Focal_Length
 Average focal length array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -173,7 +173,7 @@ ColperSCA
 Number of modules per assembly array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -187,7 +187,7 @@ Dirt_mirror
 Dirt on mirror array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -202,7 +202,7 @@ Distance_SCA
 Piping distance between assemblies array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -216,7 +216,7 @@ Error
 General optical error array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -231,7 +231,7 @@ GeomEffects
 Geometry effects array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -246,7 +246,7 @@ IAM_matrix
  
  
  
- 
+0
 8
 1
 3
@@ -260,7 +260,7 @@ L_SCA
 Length of collector assembly array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -274,7 +274,7 @@ L_aperture
 Length of single module array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -288,7 +288,7 @@ Rho_mirror_clean
 Mirror reflectance array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -303,7 +303,7 @@ TrackingError
 Tracking error array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -318,7 +318,7 @@ W_aperture
 Aperature width array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -333,7 +333,7 @@ arr_collectors_in_loop
 Collector types in loop array
  
 Physical Trough Collector Library
- 
+0
 12
 1
 2
@@ -347,10 +347,12 @@ collector_library
 Collector library
  
 Physical Trough Collector Library
+28
 Physical Trough Collectors|0
 17
 1
 4
+16
 Solargenix SGX-1
 Library
 collectors_in_field
@@ -359,10 +361,11 @@ collectors_in_field
 Collector types in loop configuration 
  
 Physical Trough Collector Library
- 
+0
 8
 1
 4
+1
 0
 Default
 lib_A_aperture
@@ -371,7 +374,7 @@ lib_A_aperture
 Aperture area from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -385,7 +388,7 @@ lib_Ave_Focal_Length
 Average focal length from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -399,7 +402,7 @@ lib_ColperSCA
 Number of modules per assembly from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -413,7 +416,7 @@ lib_Dirt_mirror
 Dirt on mirror from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -427,7 +430,7 @@ lib_Distance_SCA
 Piping distance between assemblies from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -441,7 +444,7 @@ lib_Error
 General optical error from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -455,7 +458,7 @@ lib_GeomEffects
 Geometry effects from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -469,7 +472,7 @@ lib_IamF0
 Incidence angle modifier coef F0 from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -483,7 +486,7 @@ lib_IamF1
 Incidence angle modifier coef F1 from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -497,7 +500,7 @@ lib_IamF2
 Incidence angle modifier coef F2 from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -511,7 +514,7 @@ lib_IamF3
 Incidence angle modifier coef F3 from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -525,7 +528,7 @@ lib_L_SCA
 Length of collector assembly from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -539,7 +542,7 @@ lib_Rho_mirror_clean
 Mirror reflectance from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -553,7 +556,7 @@ lib_TrackingError
 Tracking error from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -567,7 +570,7 @@ lib_W_aperture
 Aperature width from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -581,10 +584,11 @@ lib_collector_description
 Collector type description from library
  
 Physical Trough Collector Library
- 
+0
 12
 1
 4
+9
 <invalid>
 Default
 max_collector_width
@@ -593,7 +597,7 @@ max_collector_width
 Width of widest collector in loop
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -607,7 +611,7 @@ nColt
 Number of collector types
  
 Physical Trough Collector Library
- 
+0
 13
 1
 1
@@ -621,7 +625,7 @@ ui_A_aperture
 ui_A_aperture
 Aperture area UI variable
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -635,7 +639,7 @@ ui_Ave_Focal_length
 Average focal length UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -649,7 +653,7 @@ ui_ColperSCA
 Number of modules per assembly UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -663,7 +667,7 @@ ui_Dirt_mirror
 Dirt on mirror UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -677,7 +681,7 @@ ui_Distance_SCA
 Piping distance between assemblies
 m
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -691,7 +695,7 @@ ui_Error
 General optical error UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -705,7 +709,7 @@ ui_GeomEffects
 Geometry effects UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -719,7 +723,7 @@ ui_IamF0
 Incidence angle modifier coef F0 UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -733,7 +737,7 @@ ui_IamF1
 Incidence angle modifier coef F1 UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -747,7 +751,7 @@ ui_IamF2
 Incidence angle modifier coef F2 UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -761,7 +765,7 @@ ui_IamF3
 Incidence angle modifier coef F2 UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -775,7 +779,7 @@ ui_L_SCA
 Length of collector assembly UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -789,7 +793,7 @@ ui_Rho_mirror_clean
 Mirror reflectance UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -803,7 +807,7 @@ ui_TrackingError
 Tracking error UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -817,7 +821,7 @@ ui_W_aperture
 Aperature width UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 1
@@ -831,10 +835,11 @@ ui_collector_description
 Collector type description UI variable
  
 Physical Trough Collector Library
- 
+0
 12
 1
 4
+9
 <invalid>
 Default
 

@@ -1957,7 +1957,7 @@ adjust
 Performance adjustment
  
 Geothermal Plant and Equipment
- 
+0
 1
 1
 5
@@ -1970,7 +1970,7 @@ ambient_pressure
 Ambient Pressure
 psi
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -1984,7 +1984,7 @@ analysis_type
  
  
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -1998,7 +1998,7 @@ casing_size
 Production Pump Casing Size
 inches
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2012,6 +2012,7 @@ conversion_subtype
 Subtype
  
 Geothermal Plant and Equipment
+99
 Unconstrained Single Flash|Constrained Single Flash|Unconstrained Dual Flash|Constrained Dual Flash
 0
 1
@@ -2026,6 +2027,7 @@ conversion_type
 Conversion Type
  
 Geothermal Plant and Equipment
+12
 Binary|Flash
 1
 1
@@ -2040,7 +2042,7 @@ decline_type
  
  
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2054,7 +2056,7 @@ delta_pressure_equip
 Pressure Difference Across Surface Equipment
 psi
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2068,7 +2070,7 @@ design_temp
 Plant Design Temperature
 'C
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2082,7 +2084,7 @@ excess_pressure_pump
 Excess Pressure at Pump Suction
 psi
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2096,10 +2098,11 @@ geotherm.conversion_type_name
 Conversion Plant Type
  
 Geothermal Plant and Equipment
- 
+0
 8
 1
 4
+1
 0
 Default
 geotherm.egs_design_temp_autoselect
@@ -2108,7 +2111,7 @@ geotherm.egs_design_temp_autoselect
  
  
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2122,7 +2125,7 @@ geotherm.egs_design_temp_input
 Enter Plant Design Temperature (EGS only)
 'C
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2136,11 +2139,11 @@ geotherm.errors1
 Messages:
  
 Geothermal Plant and Equipment
- 
+0
 8
 1
 4
- 
+0
 TextEntry
 geotherm.net_output
 3
@@ -2148,7 +2151,7 @@ geotherm.net_output
 Net Plant Output
 MW
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2162,7 +2165,7 @@ geotherm.plant_efficiency_used
 Actual Plant Efficiency
 w-hr/lb
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2176,7 +2179,7 @@ geotherm.total_flow_gpm
 Total Flow Rate
 gpm
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2190,7 +2193,7 @@ geotherm.total_flow_kg_per_s
 Total Flow Rate
 kg/s
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2204,7 +2207,7 @@ gross_output
 Gross Plant Output
 MW
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2218,7 +2221,7 @@ inj_well_diam
 Injection Well Diameter
 inches
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2232,7 +2235,7 @@ nameplate
 Plant nameplate
 kW
 Geothermal Plant and Equipment
- 
+0
 3
 1
 1
@@ -2246,7 +2249,7 @@ num_wells
 Exact number of wells
 wells
 Geothermal Plant and Equipment
- 
+0
 3
 1
 1
@@ -2260,7 +2263,7 @@ num_wells_getem
 Number of Wells in Analysis
 wells
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2274,7 +2277,7 @@ plant_efficiency_input
 Plant Efficiency
 %
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2288,7 +2291,7 @@ pump_depth
 Pump Depth
 ft
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2302,7 +2305,7 @@ pump_efficiency
 Pump Efficiency
 %
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2316,7 +2319,7 @@ pump_size_hp
 Pump Size
 hp
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2330,7 +2333,7 @@ pump_work
 Pump Work
 MW
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2344,7 +2347,7 @@ specified_pump_work_amount
 Specified Pump Work
 MW
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2358,7 +2361,7 @@ specify_pump_work
  
  
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2372,7 +2375,7 @@ system_capacity
 Nameplate
 kW
 Geothermal Plant and Equipment
- 
+0
 8
 1
 1
@@ -2386,7 +2389,7 @@ temp_decline_max
 Max. temp decline before reservoir replacement
 'C
 Geothermal Plant and Equipment
- 
+0
 0
 1
 1
@@ -2400,7 +2403,7 @@ temp_decline_rate
 Temperature decline rate
 %/yr
 Geothermal Plant and Equipment
- 
+0
 3
 1
 1
@@ -2414,6 +2417,7 @@ ui_calculations_only
  
  
 Geothermal Plant and Equipment
+1
 0
 8
 1
@@ -2428,7 +2432,7 @@ well_diameter
 Production Well Diameter
 inches
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2442,7 +2446,7 @@ well_flow_rate
 Production Well Flow Rate
 kg/s per well
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1
@@ -2456,7 +2460,7 @@ wet_bulb_temp
 Wet Bulb Temperature
 'C
 Geothermal Plant and Equipment
- 
+0
 2
 1
 1

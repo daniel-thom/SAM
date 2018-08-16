@@ -2777,7 +2777,7 @@ csp.gss.cost.bop
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2791,7 +2791,7 @@ csp.gss.cost.bop_mwe
 Balance of Plant
 MWe, Gross
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2805,7 +2805,7 @@ csp.gss.cost.bop_per_kwe
 Balance of Plant Cost per kWe
 $/kWe
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -2819,7 +2819,7 @@ csp.gss.cost.contingency
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2833,7 +2833,7 @@ csp.gss.cost.contingency_percent
 Contingency
  
 GSS Capital Costs
- 
+0
 2
 1
 1
@@ -2847,7 +2847,7 @@ csp.gss.cost.epc.fixed
 Fixed EPC Cost
 $
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -2861,7 +2861,7 @@ csp.gss.cost.epc.per_acre
 EPC Costs acre
 per acre
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -2875,7 +2875,7 @@ csp.gss.cost.epc.per_watt
 EPC Cost Wac
 per Wac
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -2889,7 +2889,7 @@ csp.gss.cost.epc.percent
 EPC Costs % direct
 % direct
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -2903,7 +2903,7 @@ csp.gss.cost.epc.total
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2917,7 +2917,7 @@ csp.gss.cost.fossil_backup
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2931,7 +2931,7 @@ csp.gss.cost.fossil_backup.cost_per_kwe
 Fossil Backup Cost per kWe
 $/kWe
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -2945,7 +2945,7 @@ csp.gss.cost.fossil_backup.mwe
 Fossil Backup
 MWe, Gross
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2959,7 +2959,7 @@ csp.gss.cost.installed_per_capacity
 Estimated total installed cost per net capacity ($/kW)
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2973,7 +2973,7 @@ csp.gss.cost.nameplate
 Nameplate
 MWe
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -2987,7 +2987,7 @@ csp.gss.cost.plm.fixed
 Fixed Land Cost
 $
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3001,7 +3001,7 @@ csp.gss.cost.plm.per_acre
 Land Costs acre
 per acre
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3015,7 +3015,7 @@ csp.gss.cost.plm.per_watt
 Land Cost Wac
 per Wac
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3029,7 +3029,7 @@ csp.gss.cost.plm.percent
 Land Costs % direct
 % direct
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3043,7 +3043,7 @@ csp.gss.cost.plm.total
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3057,7 +3057,7 @@ csp.gss.cost.power_plant
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3071,7 +3071,7 @@ csp.gss.cost.power_plant.cost_per_kwe
 Power Plant Cost per kWe
 $/kWe
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3085,7 +3085,7 @@ csp.gss.cost.power_plant.mwe
 Power Plant
 MWe, Gross
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3099,7 +3099,7 @@ csp.gss.cost.sales_tax.percent
 Sales Tax Percentage of Direct Cost
 %
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3113,7 +3113,7 @@ csp.gss.cost.sales_tax.total
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3127,7 +3127,7 @@ csp.gss.cost.sales_tax.value
 Sales Tax of
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3141,7 +3141,7 @@ csp.gss.cost.site_improvements
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3155,7 +3155,7 @@ csp.gss.cost.site_improvements.area
 Site Improvements
 m2
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3169,7 +3169,7 @@ csp.gss.cost.site_improvements.cost_per_m2
 Site Improvement Cost per m2
 $/m2
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3183,7 +3183,7 @@ csp.gss.cost.solar_field
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3197,7 +3197,7 @@ csp.gss.cost.solar_field.area
 Solar Field
 m2
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3211,7 +3211,7 @@ csp.gss.cost.solar_field.cost_per_m2
 Solar Field Cost per m2
 $/m2
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3225,7 +3225,7 @@ csp.gss.cost.storage
  
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3239,7 +3239,7 @@ csp.gss.cost.storage.cost_per_kwht
 Storage System Cost per kWht
 $/kWht
 GSS Capital Costs
- 
+0
 3
 1
 1
@@ -3253,7 +3253,7 @@ csp.gss.cost.storage.mwht
 Storage
 MWht
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3267,7 +3267,7 @@ csp.gss.cost.total_land_area
 Total Land Area
 acres
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3281,7 +3281,7 @@ system_use_lifetime_output
  
  
  
- 
+0
 8
 1
 1
@@ -3295,7 +3295,7 @@ system_use_recapitalization
  
  
  
- 
+0
 8
 1
 1
@@ -3309,7 +3309,7 @@ total_direct_cost
 Total direct cost
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3323,7 +3323,7 @@ total_indirect_cost
 Total indirect cost
  
 GSS Capital Costs
- 
+0
 8
 1
 1
@@ -3337,7 +3337,7 @@ total_installed_cost
 Total installed cost
  
 GSS Capital Costs
- 
+0
 8
 1
 1

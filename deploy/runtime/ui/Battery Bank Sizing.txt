@@ -724,7 +724,7 @@ batt_C_rate_max_charge_input
 Max C-rate of charge
 per/hour
 Battery
- 
+0
 2
 1
 1
@@ -738,7 +738,7 @@ batt_C_rate_max_discharge_input
 Max C-rate of discharge
 per/hour
 Battery
- 
+0
 2
 1
 1
@@ -752,7 +752,7 @@ batt_bank_ncells_serial
 Number of cells in series
  
 Battery
- 
+0
 3
 1
 1
@@ -766,7 +766,7 @@ batt_bank_nseries_stacks
 Number of stacks in series
  
 Battery
- 
+0
 2
 1
 1
@@ -780,7 +780,7 @@ batt_bank_nstrings
 Number of strings in parallel
  
 Battery
- 
+0
 3
 1
 1
@@ -794,7 +794,7 @@ batt_bank_power
 Desired bank power
 kW
 Battery
- 
+0
 2
 1
 1
@@ -808,7 +808,7 @@ batt_bank_power_dc_ac
 Battery power DC or AC input
  
 Battery
- 
+0
 1
 1
 1
@@ -822,7 +822,7 @@ batt_bank_size
 Desired bank capacity
 kWh
 Battery
- 
+0
 2
 1
 1
@@ -836,7 +836,7 @@ batt_bank_size_dc_ac
 Battery capacity DC or AC input
  
 Battery
- 
+0
 1
 1
 1
@@ -850,7 +850,7 @@ batt_bank_size_specify
 Bank capacity
 kWh
 Battery
- 
+0
 2
 1
 1
@@ -864,6 +864,7 @@ batt_size_choice
 Battery sizing option
  
 Battery
+39
 Specify desired bank size|Specify cells
 1
 1

@@ -560,7 +560,7 @@ analysis_period
 Agreement  period
 years
 Third Party Ownership
- 
+0
 2
 1
 1
@@ -574,7 +574,7 @@ inflation_rate
 Inflation rate
 %/year
 Third Party Ownership
- 
+0
 2
 1
 1
@@ -588,7 +588,7 @@ lease_escalation
 Lease price escalation rate
 %/year
 Third Party Ownership
- 
+0
 0
 1
 1
@@ -602,7 +602,7 @@ lease_or_ppa
  
  
 Third Party Ownership
- 
+0
 0
 1
 1
@@ -616,7 +616,7 @@ lease_price
 First year monthly lease price
 $/month
 Third Party Ownership
- 
+0
 0
 1
 1
@@ -630,7 +630,7 @@ nominal_discount_rate
 Nominal discount rate
 %/year
 Third Party Ownership
- 
+0
 8
 1
 1
@@ -644,7 +644,7 @@ ppa_escalation
 PPA price escalation rate
 %/year
 Third Party Ownership
- 
+0
 0
 1
 1
@@ -658,7 +658,7 @@ ppa_price
 First year PPA price
 $/kWh
 Third Party Ownership
- 
+0
 0
 1
 1
@@ -672,7 +672,7 @@ real_discount_rate
 Real discount rate
 %/year
 Third Party Ownership
- 
+0
 2
 1
 1

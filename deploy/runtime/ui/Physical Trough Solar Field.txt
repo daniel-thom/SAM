@@ -2793,7 +2793,7 @@ DISCARD_UNUSED_latitude
 Site latitude
 deg
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -2807,7 +2807,7 @@ FieldConfig
  
  
  
- 
+0
 8
 1
 1
@@ -2821,7 +2821,7 @@ Fluid
  
  
  
- 
+0
 8
 1
 1
@@ -2835,7 +2835,7 @@ HDR_rough
 Header pipe roughness
 m
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2849,7 +2849,7 @@ I_bn_des
 Irradiation at design
 W/m²
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2863,7 +2863,7 @@ Row_Distance
 Row spacing
 m
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2877,7 +2877,7 @@ SolarAz
 Initial condition for solar azimuth angle
  
  
- 
+0
 9
 1
 1
@@ -2891,7 +2891,7 @@ T_fp
 Freeze protection temp
 °C
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2905,7 +2905,7 @@ T_loop_in_des
 Design loop inlet temp
 °C
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2919,7 +2919,7 @@ T_loop_out
 Design loop outlet temp
 °C
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2933,7 +2933,7 @@ V_hdr_max
 Header design max flow velocity
 m/s
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2947,7 +2947,7 @@ V_hdr_min
 Header design min flow velocity
 m/s
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -2961,7 +2961,7 @@ accept_init
 In acceptance testing mode - require steady-state startup
  
  
- 
+0
 8
 1
 1
@@ -2975,7 +2975,7 @@ accept_loc
 In acceptance testing mode - temperature sensor location (1=hx,2=loop)
  
  
- 
+0
 8
 1
 1
@@ -2989,7 +2989,7 @@ accept_mode
 Acceptance testing mode? (1=yes, 0=no)
  
  
- 
+0
 8
 1
 1
@@ -3003,7 +3003,7 @@ azimuth
 Collector azimuth
 deg
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3017,6 +3017,7 @@ combo_FieldConfig
 Number of field subsections
  
 Physical Trough Solar Field
+13
 2|4|6|8|10|12
 2
 1
@@ -3031,6 +3032,7 @@ combo_feather
 Defocusing strategy
  
 Physical Trough Solar Field
+22
 Sequenced|Simultaneous
 3
 1
@@ -3045,6 +3047,7 @@ combo_htf_type
 Field HTF fluid
  
 Physical Trough Solar Field
+125
 Hitec Solar Salt|Caloria HT 43|Hitec XL|Therminol VP-1|Hitec|Dowtherm Q|Dowtherm RP|Therminol 59|Therminol 66|User-defined...
 2
 1
@@ -3059,7 +3062,7 @@ cspdtr_loop_hce_heat_loss
 Loop receiver heat loss
  
  
- 
+0
 9
 1
 1
@@ -3073,7 +3076,7 @@ eta_pump
 HTF pump efficiency
  
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3087,7 +3090,7 @@ field_fl_props
 User-defined HTF fluid
  
  
- 
+0
 0
 1
 3
@@ -3102,7 +3105,7 @@ field_htf_cp_avg
 field htf spec heat at avg T
 kJ/kg-K
  
- 
+0
 8
 1
 1
@@ -3116,7 +3119,7 @@ field_htf_max_operating_temp
 Field HTF max operating temp
 °C
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3130,7 +3133,7 @@ field_htf_min_operating_temp
 Field HTF min operating temp
 °C
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3144,7 +3147,7 @@ field_thermal_output
 Field thermal output
 MWt
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3158,7 +3161,7 @@ fixed_land_area
 Solar field area
 acres
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3172,7 +3175,7 @@ fluid_dens_inlet_temp
  
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3186,7 +3189,7 @@ fluid_dens_outlet_temp
  
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3200,7 +3203,7 @@ fthrctrl
 Defocusing strategy input
  
  
- 
+0
 8
 1
 1
@@ -3214,7 +3217,7 @@ fthrok
 Allow partial defocusing
  
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3228,7 +3231,7 @@ loop_optical_efficiency
 Loop optical efficiency
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3242,7 +3245,7 @@ m_dot_htfmax
 Max single loop flow rate
 kg/s
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3256,7 +3259,7 @@ m_dot_htfmin
 Min single loop flow rate
 kg/s
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3270,7 +3273,7 @@ max_field_flow_velocity
 Max field flow velocity
 m/s
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3284,7 +3287,7 @@ mc_bal_cold
 Cold piping thermal inertia
 kWht/K-MWt
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3298,7 +3301,7 @@ mc_bal_hot
 Hot piping thermal inertia
 kWht/K-MWt
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3312,7 +3315,7 @@ mc_bal_sca
 Field loop piping thermal inertia
 Wht/K-m
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3326,7 +3329,7 @@ min_field_flow_velocity
 Min field flow velocity
 m/s
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3340,7 +3343,7 @@ min_inner_diameter
 Minimum absorber inner diameter in loop
  
  
- 
+0
 9
 1
 1
@@ -3354,7 +3357,7 @@ nLoops
 Actual number of loops
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3368,7 +3371,7 @@ nSCA
 Number of assemblies per loop
  
  
- 
+0
 9
 1
 1
@@ -3382,7 +3385,7 @@ non_solar_field_land_area_multiplier
 Non-solar field land area multiplier
  
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3396,7 +3399,7 @@ radio_sm_or_area
 Solar field mode (0=SM, 1=area)
  
 Physical Trough Solar Field
- 
+0
 9
 1
 1
@@ -3410,7 +3413,7 @@ required_number_of_loops_for_SM1
 Required number of loops, SM=1
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3424,7 +3427,7 @@ sf_type
 Solar field type, 1 = trough, 2 = tower
 1/2
  
- 
+0
 9
 1
 1
@@ -3438,7 +3441,7 @@ single_loop_aperature
 Single loop aperture
 m²
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3452,7 +3455,7 @@ solar_mult
 Actual solar multiple
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3466,7 +3469,7 @@ specified_solar_multiple
 Solar multiple
  
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3480,7 +3483,7 @@ specified_total_aperture
 Field aperture
 m²
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3494,7 +3497,7 @@ theta_dep
 Deploy angle
 deg
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3508,7 +3511,7 @@ theta_stow
 Stow angle
 deg
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3522,7 +3525,7 @@ tilt
 Collector tilt
 deg
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3536,7 +3539,7 @@ total_aperture
 Total aperture reflective area
 m²
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3550,7 +3553,7 @@ total_land_area
 Total land area
 acres
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3564,7 +3567,7 @@ total_loop_conversion_efficiency
 Total loop conversion efficiency
  
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3578,7 +3581,7 @@ total_required_aperture_for_SM1
 Total required aperture, SM=1
 m²
 Physical Trough Solar Field
- 
+0
 8
 1
 1
@@ -3592,7 +3595,7 @@ track_mode
  
  
  
- 
+0
 8
 1
 1
@@ -3606,7 +3609,7 @@ trough_loop_control
 Configuration of collector assemblies in loop array
  
 Physical Trough Solar Field
- 
+0
 9
 1
 2
@@ -3621,7 +3624,7 @@ washing_frequency
 Washes per year
  
 Physical Trough Solar Field
- 
+0
 2
 1
 1
@@ -3635,7 +3638,7 @@ water_usage_per_wash
 Water usage per wash
 L/m²,aper.
 Physical Trough Solar Field
- 
+0
 2
 1
 1

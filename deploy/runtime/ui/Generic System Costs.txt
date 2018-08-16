@@ -2237,7 +2237,7 @@ fixed_plant_input
 Plant cost
 $
 Direct Capital Costs
- 
+0
 2
 1
 1
@@ -2251,7 +2251,7 @@ genericsys.cost.contingency
 Contingency
 Total
 Direct Capital Costs
- 
+0
 9
 1
 1
@@ -2265,7 +2265,7 @@ genericsys.cost.contingency_percent
 Contingency cost
 % of direct costs
 Direct Capital Costs
- 
+0
 2
 1
 1
@@ -2279,7 +2279,7 @@ genericsys.cost.epc.fixed
 Permitting EPC costs
 $
 Indirect Capital Costs
- 
+0
 1
 1
 1
@@ -2293,7 +2293,7 @@ genericsys.cost.epc.nonfixed
 Permitting EPC costs
 Calculated
 Indirect Capital Costs
- 
+0
 9
 1
 1
@@ -2307,7 +2307,7 @@ genericsys.cost.epc.percent
 Permitting EPC costs
 % of direct cost
 Indirect Capital Costs
- 
+0
 3
 1
 1
@@ -2321,7 +2321,7 @@ genericsys.cost.epc.total
 Permitting EPC costs
 Total
 Indirect Capital Costs
- 
+0
 9
 1
 1
@@ -2335,7 +2335,7 @@ genericsys.cost.installed_per_capacity
 Total installed cost per capacity
  
 Total Installed Costs
- 
+0
 8
 1
 1
@@ -2349,7 +2349,7 @@ genericsys.cost.per_watt
 Plant cost per capacity
 $/W
 Direct Capital Costs
- 
+0
 2
 1
 1
@@ -2363,7 +2363,7 @@ genericsys.cost.plant
 Fixed plant cost
 $
 Direct Capital Costs
- 
+0
 9
 1
 1
@@ -2377,7 +2377,7 @@ genericsys.cost.plant_scaled
 Non-fixed system cost
 $
 Direct Capital Costs
- 
+0
 9
 1
 1
@@ -2391,7 +2391,7 @@ genericsys.cost.plm.fixed
 Engineering EPC costs
 $
 Indirect Capital Costs
- 
+0
 1
 1
 1
@@ -2405,7 +2405,7 @@ genericsys.cost.plm.nonfixed
 Engineering EPC costs
 Calculated
 Indirect Capital Costs
- 
+0
 9
 1
 1
@@ -2419,7 +2419,7 @@ genericsys.cost.plm.percent
 Engineering EPC costs
 % of direct cost
 Indirect Capital Costs
- 
+0
 3
 1
 1
@@ -2433,7 +2433,7 @@ genericsys.cost.plm.total
 Engineering EPC costs
 Total
 Indirect Capital Costs
- 
+0
 9
 1
 1
@@ -2447,7 +2447,7 @@ genericsys.cost.sales_tax.percent
 Sales tax basis as percent of direct cost
 %
 Indirect Capital Costs
- 
+0
 2
 1
 1
@@ -2461,7 +2461,7 @@ genericsys.cost.sales_tax.total
 Sales tax
 Total
 Indirect Capital Costs
- 
+0
 9
 1
 1
@@ -2475,7 +2475,7 @@ genericsys.cost.sales_tax.value
 Sales tax rate
 %
 Indirect Capital Costs
- 
+0
 8
 1
 1
@@ -2489,7 +2489,7 @@ nameplate_capacity
 Nameplate capacity
 kW
 Direct Capital Costs
- 
+0
 8
 1
 1
@@ -2503,7 +2503,7 @@ system_use_lifetime_output
  
  
 Direct Capital Costs
- 
+0
 8
 1
 1
@@ -2517,7 +2517,7 @@ system_use_recapitalization
  
  
 Direct Capital Costs
- 
+0
 8
 1
 1
@@ -2531,7 +2531,7 @@ total_direct_cost
 Total direct cost
 $
 Direct Capital Costs
- 
+0
 9
 1
 1
@@ -2545,7 +2545,7 @@ total_indirect_cost
 Total indirect cost
 $
 Indirect Capital Costs
- 
+0
 9
 1
 1
@@ -2559,7 +2559,7 @@ total_installed_cost
 Total installed cost
 $
 Total Installed Costs
- 
+0
 9
 1
 1

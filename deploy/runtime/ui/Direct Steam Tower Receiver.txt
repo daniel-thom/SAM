@@ -2406,7 +2406,7 @@ Design_power
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2420,7 +2420,7 @@ H_rec
 Receiver height
 m
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2434,7 +2434,7 @@ P_b_in_init
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2448,7 +2448,7 @@ P_cond_init
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2462,7 +2462,7 @@ P_hp_in_des
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2476,7 +2476,7 @@ P_hp_out
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2490,7 +2490,7 @@ P_hp_out_des
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2504,7 +2504,7 @@ P_ref
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2518,7 +2518,7 @@ Q_rec_des
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2532,7 +2532,7 @@ THT
 Tower Height (MSPT)
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2546,7 +2546,7 @@ T_cold_ref
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2560,7 +2560,7 @@ T_fw_init
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2574,7 +2574,7 @@ T_hot
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2588,7 +2588,7 @@ T_hot_ref
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2602,7 +2602,7 @@ T_hp_out
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2616,7 +2616,7 @@ T_rh_out_des
 Reheater outlet temperature set point
 °C
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2630,7 +2630,7 @@ T_rh_target
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2644,7 +2644,7 @@ T_sh_out_des
 Superheater outlet temperature set point
 °C
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2658,7 +2658,7 @@ b_q_loss_flux
 Boiler heat loss (estimated)
 kW/m²
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -2672,7 +2672,7 @@ csp.dst.abs_rh
 Absorptivity of reheater tubes
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2686,7 +2686,7 @@ csp.dst.abs_sh
 Absorptivity of superheater tubes
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2700,7 +2700,7 @@ csp.dst.eff_b_ref
 Reference boiler efficiency
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -2714,7 +2714,7 @@ csp.dst.eff_rh_ref
 Reference reheater efficiency
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -2728,7 +2728,7 @@ csp.dst.eff_sh_ref
 Reference superheater efficiency
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -2742,7 +2742,7 @@ csp.dst.emis_rh
 Emissivity of reheater tubes
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2756,7 +2756,7 @@ csp.dst.emis_sh
 Emissivity of superheater tubes
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2770,7 +2770,7 @@ csp.dst.f_rec_max
 Max fraction of design thermal power
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2784,6 +2784,7 @@ csp.dst.flow_pattern
 Flow Pattern
  
 Direct Steam Power Tower Receiver
+3
 1|2
 2
 1
@@ -2798,6 +2799,7 @@ csp.dst.mat_boiler
 Boiler tube material
  
 Direct Steam Power Tower Receiver
+27
 Stainless AISI316|T91 Steel
 2
 1
@@ -2812,6 +2814,7 @@ csp.dst.mat_rh
 Reheater material
  
 Direct Steam Power Tower Receiver
+27
 Stainless AISI316|T91 Steel
 2
 1
@@ -2826,6 +2829,7 @@ csp.dst.mat_sh
 Superheater material
  
 Direct Steam Power Tower Receiver
+27
 Stainless AISI316|T91 Steel
 2
 1
@@ -2840,7 +2844,7 @@ csp.dst.max_b_flux
 Maximum boiler flux
 kWt/m²
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2854,7 +2858,7 @@ csp.dst.max_rh_flux
 Maximum reheater flux
 kWt/m²
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2868,7 +2872,7 @@ csp.dst.max_sh_flux
 Maximum superheater flux
 kWt/m²
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2882,7 +2886,7 @@ csp.dst.num_2panelgroups
 Number of groups of two panels
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2896,7 +2900,7 @@ csp.dst.solar_multiple
 Solar multiple
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -2910,7 +2914,7 @@ ct
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2924,7 +2928,7 @@ cycle_max_frac
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -2938,7 +2942,7 @@ d_rec
 Receiver diameter
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2952,7 +2956,7 @@ d_rh
 Outside diameter of reheater tubes
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2966,7 +2970,7 @@ d_sh
 Outside diameter of superheater tubes
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2980,7 +2984,7 @@ d_t_boiler
 Outside diameter of boiler tubes
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -2994,7 +2998,7 @@ delta_flux_hrs
 Hourly frequency in flux map lookup
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3008,7 +3012,7 @@ design_eff
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3022,7 +3026,7 @@ dni_des
 Design-point DNI
 W/m²
  
- 
+0
 2
 1
 1
@@ -3036,7 +3040,7 @@ f_h_b
 Fraction of receiver height to boiler
  
  
- 
+0
 0
 1
 1
@@ -3050,7 +3054,7 @@ f_h_rh
 Fraction of receiver height to reheater
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3064,7 +3068,7 @@ f_h_sh
 Fraction of receiver height to superheater
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3078,7 +3082,7 @@ f_mdot_rh_init
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3092,7 +3096,7 @@ f_mdotrh_des
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3106,7 +3110,7 @@ f_pb_cutoff
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3120,7 +3124,7 @@ f_pb_sb
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3134,7 +3138,7 @@ f_rec_min
 Min fraction of design thermal power
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3148,7 +3152,7 @@ flowtype
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3162,7 +3166,7 @@ flux_max
 Maximum equivalent flux
 kW/m2
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3176,7 +3180,7 @@ h_boiler
 Boiler height
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3190,7 +3194,7 @@ h_rh
 Reheater height
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3204,7 +3208,7 @@ h_sh
 Superheater height
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3218,7 +3222,7 @@ h_tower
 Tower height
 m
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3232,7 +3236,7 @@ hl_ffact
 Heat loss factor
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3246,7 +3250,7 @@ lhv_eff
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3260,7 +3264,7 @@ mat_boiler
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3274,7 +3278,7 @@ mat_rh
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3288,7 +3292,7 @@ mat_sh
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3302,7 +3306,7 @@ n_flux_days
 No. days in flux map lookup
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3316,7 +3320,7 @@ n_flux_x
 Receiver flux map resolution
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3330,7 +3334,7 @@ n_flux_y
 n_flux_y
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3344,7 +3348,7 @@ n_panels
 Number of panels
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3358,7 +3362,7 @@ p_cycle_design
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3372,7 +3376,7 @@ q_aux_max
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3386,7 +3390,7 @@ q_pb_design
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3400,7 +3404,7 @@ q_rec_des
 Receiver design thermal power
 MWt
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3414,7 +3418,7 @@ rec_absorptance
 Coating Absorptance
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3428,7 +3432,7 @@ rec_aspect
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3442,7 +3446,7 @@ rec_emis
 Coating Emittance
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3456,7 +3460,7 @@ rec_hl_perm2
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3470,7 +3474,7 @@ rec_htf
 Receiver HTF fluid type
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3484,7 +3488,7 @@ rec_qf_delay
 Receiver startup delay energy fraction
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3498,7 +3502,7 @@ rec_su_delay
 Receiver startup delay time
 hr
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3512,7 +3516,7 @@ ref_htf_flow
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3526,7 +3530,7 @@ rh_q_loss_flux
 Reheater heat loss (estimated)
 kW/m²
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3540,7 +3544,7 @@ sh_q_loss_flux
 Superheater heat loss (estimated)
 kW/m²
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3554,7 +3558,7 @@ t_standby_ini
  
  
 Direct Steam Power Tower Receiver
- 
+0
 8
 1
 1
@@ -3568,7 +3572,7 @@ th_rh
 Thickness of reheater tubes
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3582,7 +3586,7 @@ th_sh
 Thickness of superheater tubes
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3596,7 +3600,7 @@ th_t_boiler
 Thickness of boiler tubes
 m
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1
@@ -3610,7 +3614,7 @@ tower_technology
 Tower technology type (0=MSPT,1=DSG)
  
 Direct Steam Power Tower Receiver
- 
+0
 0
 1
 1
@@ -3624,7 +3628,7 @@ x_b_target
 Target boiler output steam quality
  
 Direct Steam Power Tower Receiver
- 
+0
 2
 1
 1

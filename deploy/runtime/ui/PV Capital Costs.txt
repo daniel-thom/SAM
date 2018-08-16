@@ -5047,7 +5047,7 @@ battery_energy
 Battery bank
 kWh dc
 Capital Costs
- 
+0
 8
 1
 1
@@ -5061,7 +5061,7 @@ battery_per_kWh
 Battery cost per kWh
 $/kWh
 Capital Costs
- 
+0
 3
 1
 1
@@ -5075,7 +5075,7 @@ battery_total
 Total battery cost
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -5089,7 +5089,7 @@ bos_equip_fixed
 Balance of system equipment, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5103,7 +5103,7 @@ bos_equip_perarea
 Balance of system equipment, area
 $/m2
 Capital Costs
- 
+0
 3
 1
 1
@@ -5117,7 +5117,7 @@ bos_equip_perwatt
 Balance of system equipment, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5131,7 +5131,7 @@ bos_equip_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5145,7 +5145,7 @@ contingency
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5159,7 +5159,7 @@ contingency_percent
 Contingency
 % of direct costs
 Capital Costs
- 
+0
 3
 1
 1
@@ -5173,7 +5173,7 @@ engr_fixed
 Engineering, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5187,7 +5187,7 @@ engr_per_watt
 Engineering, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5201,7 +5201,7 @@ engr_percent
 Engineering, percent of direct cost
 %
 Capital Costs
- 
+0
 3
 1
 1
@@ -5215,7 +5215,7 @@ engr_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5229,7 +5229,7 @@ grid_fixed
 Grid interconnection, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5243,7 +5243,7 @@ grid_per_watt
 Grid interconnection, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5257,7 +5257,7 @@ grid_percent
 Grid interconnection, percent of direct cost
 %
 Capital Costs
- 
+0
 3
 1
 1
@@ -5271,7 +5271,7 @@ grid_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5285,7 +5285,7 @@ install_labor_fixed
 Installation labor, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5299,7 +5299,7 @@ install_labor_perarea
 Installation labor, area
 $/m2
 Capital Costs
- 
+0
 3
 1
 1
@@ -5313,7 +5313,7 @@ install_labor_perwatt
 Installation labor, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5327,7 +5327,7 @@ install_labor_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5341,7 +5341,7 @@ install_margin_fixed
 Installer margin and overhead, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5355,7 +5355,7 @@ install_margin_perarea
 Installer margin and overhead, area
 $/m2
 Capital Costs
- 
+0
 3
 1
 1
@@ -5369,7 +5369,7 @@ install_margin_perwatt
 Installer margin and overhead, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5383,7 +5383,7 @@ install_margin_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5397,7 +5397,7 @@ installed_per_capacity
 Total installed cost per capacity
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5411,6 +5411,7 @@ inverter_costunits
 Inverter cost units
 0=$/Wac,1=$/Wdc,2=$/Unit
 Capital Costs
+18
 $/Wac|$/Wdc|$/Unit
 1
 1
@@ -5425,7 +5426,7 @@ inverter_num_units
 Inverter
 units
 Capital Costs
- 
+0
 8
 1
 1
@@ -5439,7 +5440,7 @@ inverter_power
  
 kWac/unit
 Capital Costs
- 
+0
 8
 1
 1
@@ -5453,7 +5454,7 @@ inverter_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5467,7 +5468,7 @@ inverterarray_power
  
 kWac
 Capital Costs
- 
+0
 8
 1
 1
@@ -5481,7 +5482,7 @@ land_area_value
 Land area
 acres
 Capital Costs
- 
+0
 8
 1
 1
@@ -5495,7 +5496,7 @@ land_fixed
 Land, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5509,7 +5510,7 @@ land_per_acre
 Land, per acre
 $/acre
 Capital Costs
- 
+0
 3
 1
 1
@@ -5523,7 +5524,7 @@ land_per_watt
 Land, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5537,7 +5538,7 @@ land_percent
 Land, percent of direct cost
 %
 Capital Costs
- 
+0
 3
 1
 1
@@ -5551,7 +5552,7 @@ land_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5565,7 +5566,7 @@ landprep_fixed
 Land preparation, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5579,7 +5580,7 @@ landprep_per_acre
 Land preparation, per acre
 $/acre
 Capital Costs
- 
+0
 3
 1
 1
@@ -5593,7 +5594,7 @@ landprep_per_watt
 Land preparation, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5607,7 +5608,7 @@ landprep_percent
 Land preparation, percent of direct cost
 %
 Capital Costs
- 
+0
 3
 1
 1
@@ -5621,7 +5622,7 @@ landprep_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5635,6 +5636,7 @@ module_costunits
 Module cost units
 0=$/Wdc,1=$/Unit
 Capital Costs
+12
 $/Wdc|$/Unit
 1
 1
@@ -5649,7 +5651,7 @@ module_num_units
 Module
 units
 Capital Costs
- 
+0
 8
 1
 1
@@ -5663,7 +5665,7 @@ module_power
  
 kWdc/unit
 Capital Costs
- 
+0
 8
 1
 1
@@ -5677,7 +5679,7 @@ module_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5691,7 +5693,7 @@ modulearray_area
  
 m2
 Capital Costs
- 
+0
 8
 1
 1
@@ -5705,7 +5707,7 @@ modulearray_power
  
 kWdc
 Capital Costs
- 
+0
 8
 1
 1
@@ -5719,7 +5721,7 @@ per_inverter
 Inverter Cost
 $/Wac or $/Unit
 Capital Costs
- 
+0
 3
 1
 1
@@ -5733,7 +5735,7 @@ per_module
 Module Cost
 $/Wdc or $/Unit
 Capital Costs
- 
+0
 3
 1
 1
@@ -5747,7 +5749,7 @@ permitting_fixed
 Permitting, fixed
 $
 Capital Costs
- 
+0
 3
 1
 1
@@ -5761,7 +5763,7 @@ permitting_per_watt
 Permitting, capacity
 $/Wdc
 Capital Costs
- 
+0
 3
 1
 1
@@ -5775,7 +5777,7 @@ permitting_percent
 Permitting, percent of direct cost
 %
 Capital Costs
- 
+0
 3
 1
 1
@@ -5789,7 +5791,7 @@ permitting_total
 Permitting, Environmental Studies
 $
 Capital Costs
- 
+0
 9
 1
 1
@@ -5803,7 +5805,7 @@ sales_tax_percent
 Sales tax basis, percent of direct cost
 %
 Capital Costs
- 
+0
 2
 1
 1
@@ -5817,7 +5819,7 @@ sales_tax_total
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5831,7 +5833,7 @@ sales_tax_value
 Sales tax rate
 %
 Capital Costs
- 
+0
 8
 1
 1
@@ -5845,7 +5847,7 @@ subtotal_direct
 Subtotal
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5859,7 +5861,7 @@ system_use_lifetime_output
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5873,7 +5875,7 @@ system_use_recapitalization
  
  
 Capital Costs
- 
+0
 8
 1
 1
@@ -5887,7 +5889,7 @@ total_direct_cost
 Total direct cost
  
 Capital Costs
- 
+0
 9
 1
 1
@@ -5901,7 +5903,7 @@ total_indirect_cost
 Total indirect cost
  
 Capital Costs
- 
+0
 9
 1
 1
@@ -5915,7 +5917,7 @@ total_installed_cost
 Total installed cost
  
 Capital Costs
- 
+0
 9
 1
 1

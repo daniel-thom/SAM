@@ -3204,7 +3204,7 @@ PC_T_corr
  
  
 GSS Power Block
- 
+0
 8
 1
 1
@@ -3218,7 +3218,7 @@ T_pcdes
 Power cycle design temperature
 'C
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3232,7 +3232,7 @@ W_dot_par_fixed
 Fixed parasitic
 MWe
  
- 
+0
 8
 1
 1
@@ -3246,7 +3246,7 @@ W_dot_part_load_des
 Design point part load parasitic
 MWe
  
- 
+0
 8
 1
 1
@@ -3260,7 +3260,7 @@ Wpar_prodD_coefs
  
  
 GSS Power Block
- 
+0
 8
 1
 2
@@ -3274,7 +3274,7 @@ Wpar_prodQ_coefs
  
  
 GSS Power Block
- 
+0
 8
 1
 2
@@ -3288,7 +3288,7 @@ Wpar_prodT_coefs
  
  
 GSS Power Block
- 
+0
 8
 1
 2
@@ -3302,7 +3302,7 @@ adjust
 Performance adjustment
  
 GSS Power Block
- 
+0
 1
 1
 5
@@ -3315,7 +3315,7 @@ csp.gss.pwrb.design_parasitic_load
 Total design point parasitic load
 MWe
 GSS Power Block
- 
+0
 8
 1
 1
@@ -3329,7 +3329,7 @@ csp.gss.pwrb.gross_net_conversion_factor
 Estimated gross to net conversion factor
  
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3343,7 +3343,7 @@ csp.gss.pwrb.nameplate
 Estimated net output at design (nameplate)
 MWe
 GSS Power Block
- 
+0
 8
 1
 1
@@ -3357,7 +3357,7 @@ csp.gss.pwrb.pl_eff_f0
 Part load eff adj F0
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3371,7 +3371,7 @@ csp.gss.pwrb.pl_eff_f1
 Part load eff adj F1
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3385,7 +3385,7 @@ csp.gss.pwrb.pl_eff_f2
 Part load eff adj F2
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3399,7 +3399,7 @@ csp.gss.pwrb.pl_eff_f3
 Part load eff adj F3
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3413,7 +3413,7 @@ csp.gss.pwrb.pl_eff_f4
 Part load eff adj F4
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3427,7 +3427,7 @@ csp.gss.pwrb.pl_par_design
 Design part load parasitic
  
 GSS Power Block
- 
+0
 11
 1
 1
@@ -3441,7 +3441,7 @@ csp.gss.pwrb.pl_par_f0
 Part load parasitic F0
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3455,7 +3455,7 @@ csp.gss.pwrb.pl_par_f1
 Part load parasitic F1
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3469,7 +3469,7 @@ csp.gss.pwrb.pl_par_f2
 Part load parasitic F2
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3483,7 +3483,7 @@ csp.gss.pwrb.pl_par_f3
 Part load parasitic F3
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3497,6 +3497,7 @@ csp.gss.pwrb.temp_corr_mode
 Temperature correction mode
  
 GSS Power Block
+17
 Wet bulb|Dry bulb
 2
 1
@@ -3511,7 +3512,7 @@ csp.gss.pwrb.temp_eff_f0
 Temp eff adj F0
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3525,7 +3526,7 @@ csp.gss.pwrb.temp_eff_f1
 Temp eff adj F1
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3539,7 +3540,7 @@ csp.gss.pwrb.temp_eff_f2
 Temp eff adj F2
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3553,7 +3554,7 @@ csp.gss.pwrb.temp_eff_f3
 Temp eff adj F3
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3567,7 +3568,7 @@ csp.gss.pwrb.temp_eff_f4
 Temp eff adj F4
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3581,7 +3582,7 @@ csp.gss.pwrb.temp_par_design
 Design temp parasitic
  
 GSS Power Block
- 
+0
 11
 1
 1
@@ -3595,7 +3596,7 @@ csp.gss.pwrb.temp_par_f0
 Temp parasitic F0
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3609,7 +3610,7 @@ csp.gss.pwrb.temp_par_f1
 Temp parasitic F1
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3623,7 +3624,7 @@ csp.gss.pwrb.temp_par_f2
 Temp parasitic F2
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3637,7 +3638,7 @@ csp.gss.pwrb.temp_par_f3
 Temp parasitic F3
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3651,7 +3652,7 @@ dni_par_design
 Design DNI parasitic
  
 GSS Power Block
- 
+0
 11
 1
 1
@@ -3665,7 +3666,7 @@ dni_par_f0
 DNI parasitic adj F0
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3679,7 +3680,7 @@ dni_par_f1
 DNI parasitic adj F1
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3693,7 +3694,7 @@ dni_par_f2
 DNI parasitic adj F2
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3707,7 +3708,7 @@ dni_par_f3
 DNI parasitic adj F3
  
 GSS Power Block
- 
+0
 3
 1
 1
@@ -3721,7 +3722,7 @@ etaQ_coefs
  
  
 GSS Power Block
- 
+0
 8
 1
 2
@@ -3735,7 +3736,7 @@ etaT_coefs
  
  
 GSS Power Block
- 
+0
 8
 1
 2
@@ -3749,7 +3750,7 @@ eta_des
 Reference conversion efficiency
  
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3763,7 +3764,7 @@ eta_lhv
 Boiler LHV efficiency
  
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3777,7 +3778,7 @@ f_Wpar_fixed
 Fixed parasitic fraction
 MWe/MWcap
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3791,7 +3792,7 @@ f_Wpar_prod
 Part load parasitic scalar
 MWe/MWe
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3805,7 +3806,7 @@ f_par_tot_des
  
  
  
- 
+0
 9
 1
 1
@@ -3819,7 +3820,7 @@ f_startup
 Power cycle startup energy
  
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3833,7 +3834,7 @@ f_wmax
 Max. over design operation
  
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3847,7 +3848,7 @@ f_wmin
 Minimum load
  
 GSS Power Block
- 
+0
 2
 1
 1
@@ -3861,7 +3862,7 @@ system_capacity
 System Capacity
 kW
 GSS Power Block
- 
+0
 8
 1
 1
@@ -3875,7 +3876,7 @@ w_des
 Design gross output
 MWe
 GSS Power Block
- 
+0
 2
 1
 1

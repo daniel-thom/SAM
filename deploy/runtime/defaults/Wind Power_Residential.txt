@@ -9,6 +9,7 @@ a_error_test_number
 a_error_test_string
 1
 4
+17
 "default err msg"
 access_road_entrances
 1
@@ -85,6 +86,7 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 anchor
 1
@@ -365,7 +367,7 @@ debt_fraction
 debt_message
 1
 4
- 
+0
 degradation
 1
 2
@@ -2192,6 +2194,7 @@ number_of_turbines
 obos_warning
 1
 4
+64
 Offshore BOS cost model failed with error: fail(nTurb, min=2): 1
 om_building_size
 1
@@ -2662,6 +2665,7 @@ reference_number_turbines
 reference_resource_file
 1
 4
+86
 C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
 reference_sales_tax_percent
 1
@@ -3051,6 +3055,7 @@ ur_desc_is_shown
 ur_description
 1
 4
+5
 empty
 ur_ec_is_shown
 1
@@ -3110,6 +3115,7 @@ ur_en_ts_sell_rate
 ur_end_date
 1
 4
+5
 empty
 ur_energy_history
 1
@@ -3150,6 +3156,7 @@ ur_monthly_min_charge
 ur_name
 1
 4
+5
 empty
 ur_nm_yearend_sell_rate
 1
@@ -3160,22 +3167,26 @@ ur_nm_yearend_sell_rate
 ur_phase_wiring
 1
 4
+9
 <invalid>
 ur_ratedata_filename
 1
 4
- 
+0
 ur_schedule_name
 1
 4
+5
 empty
 ur_source
 1
 4
+5
 empty
 ur_start_date
 1
 4
+5
 empty
 ur_ts_sell_rate
 1
@@ -3187,10 +3198,12 @@ ur_ts_sell_rate
 ur_uri
 1
 4
+5
 empty
 ur_voltage_category
 1
 4
+9
 <invalid>
 ur_voltage_max
 1
@@ -3213,6 +3226,7 @@ use_specific_wf_wind
 user_specified_wf_wind
 1
 4
+1
  
 utility_bill_data
 1
@@ -3314,6 +3328,7 @@ wind.turbine.max_tspeed_ratio
 wind.turbine.name_only
 1
 4
+1
 0
 wind.turbine.radio_list_or_design
 1
@@ -3348,7 +3363,7 @@ wind_climate.avg_wind_speed_closest_to_hub_ht
 wind_climate.msg
 1
 4
- 
+0
 wind_climate.msg_is_error
 1
 1
@@ -3358,6 +3373,7 @@ wind_climate.msg_is_error
 wind_climate.url_info
 1
 4
+5
 empty
 wind_farm_losses_percent
 1
@@ -3416,6 +3432,7 @@ wind_obos_shown
 wind_resource.city
 1
 4
+6
 city??
 wind_resource.closest_dir_meas_ht
 1
@@ -3432,10 +3449,12 @@ wind_resource.closest_speed_meas_ht
 wind_resource.country
 1
 4
+3
 USA
 wind_resource.description
 1
 4
+65
 Southern WY - flat lands (NREL AWS Truepower representative file)
 wind_resource.elev
 1
@@ -3446,6 +3465,7 @@ wind_resource.elev
 wind_resource.file
 1
 4
+86
 C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
 wind_resource.lat
 1
@@ -3462,10 +3482,12 @@ wind_resource.lat_requested
 wind_resource.location
 1
 4
+22
 WY Southern-Flat Lands
 wind_resource.location_id
 1
 4
+6
 loc_id
 wind_resource.lon
 1
@@ -3488,6 +3510,7 @@ wind_resource.requested_ht
 wind_resource.state
 1
 4
+2
 WY
 wind_resource.year
 1
@@ -3498,6 +3521,7 @@ wind_resource.year
 wind_resource_filename
 1
 4
+86
 C:\Projects\GitHub\NREL\ui_as_text\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
 wind_resource_model_choice
 1
@@ -3520,6 +3544,7 @@ wind_resource_turbulence_coeff
 wind_turbine_IEC_Class_from_lib
 1
 4
+1
 0
 wind_turbine_cut_out
 1
@@ -3566,7 +3591,7 @@ wind_turbine_max_cp
 wind_turbine_powercurve_err_msg
 1
 4
- 
+0
 wind_turbine_powercurve_hub_efficiency
 1
 2
@@ -3629,6 +3654,7 @@ wind_turbine_rotor_diameter_input
 wind_turbine_selection
 1
 4
+13
 SkyStream 2.4
 windfarm.farm.layout_angle
 1

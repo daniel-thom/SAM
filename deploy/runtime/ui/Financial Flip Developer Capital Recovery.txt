@@ -172,6 +172,7 @@ sponsor_cap_recovery_mode
 Developer capital recovery type (0=Time, 1=Full capital recovery)
  
 Developer Capital Recovery
+26
 Time|Full capital recovery
 3
 1
@@ -186,7 +187,7 @@ sponsor_cap_recovery_year
 Duration
 years
 Developer Capital Recovery
- 
+0
 2
 1
 1

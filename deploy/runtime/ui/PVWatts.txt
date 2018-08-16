@@ -1490,7 +1490,7 @@ ac_nameplate
 Rated inverter size
 kWac
 PVWatts
- 
+0
 8
 1
 1
@@ -1504,7 +1504,7 @@ adjust
 Performance adjustment factors
  
 PVWatts
- 
+0
 1
 1
 5
@@ -1517,6 +1517,7 @@ array_type
 Array type
  
 PVWatts
+84
 Fixed open rack|Fixed roof mount|1 Axis Tracking|1 Axis Backtracking|2 Axis Tracking
 2
 1
@@ -1531,7 +1532,7 @@ azimuth
 Azimuth
 degrees
 PVWatts
- 
+0
 2
 1
 1
@@ -1545,7 +1546,7 @@ dc_ac_ratio
 DC to AC ratio
  
 PVWatts
- 
+0
 2
 1
 1
@@ -1559,7 +1560,7 @@ en_user_spec_losses
  
  
 PVWatts
- 
+0
 8
 1
 1
@@ -1573,7 +1574,7 @@ gcr
 Ground coverage ratio
  
 PVWatts
- 
+0
 2
 1
 1
@@ -1587,7 +1588,7 @@ inv_eff
 Inverter efficiency
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1601,7 +1602,7 @@ loss_age
 Age
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1615,7 +1616,7 @@ loss_avail
 Availability
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1629,7 +1630,7 @@ loss_conn
 Connections
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1643,7 +1644,7 @@ loss_lid
 Light-induced degradation
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1657,7 +1658,7 @@ loss_mismatch
 Mismatch
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1671,7 +1672,7 @@ loss_nameplate
 Nameplate
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1685,7 +1686,7 @@ loss_shading
 Shading
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1699,7 +1700,7 @@ loss_snow
 Snow
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1713,7 +1714,7 @@ loss_soiling
 Soiling
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1727,7 +1728,7 @@ loss_wiring
 Wiring
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1741,7 +1742,7 @@ losses
 Total system losses
 %
 PVWatts
- 
+0
 8
 1
 1
@@ -1755,7 +1756,7 @@ losses_user
 User-specified total system losses
 %
 PVWatts
- 
+0
 2
 1
 1
@@ -1769,6 +1770,7 @@ module_type
 Module type
  
 PVWatts
+26
 Standard|Premium|Thin film
 2
 1
@@ -1783,7 +1785,7 @@ shading
 Edit shading losses
  
 PVWatts
- 
+0
 2
 1
 5
@@ -1796,7 +1798,7 @@ shading_3d_scene
  
  
  
- 
+0
 0
 1
 6
@@ -1808,7 +1810,7 @@ system_capacity
 System nameplate size
 kWdc
 PVWatts
- 
+0
 2
 1
 1
@@ -1822,7 +1824,7 @@ tilt
 Tilt
 degrees
 PVWatts
- 
+0
 2
 1
 1

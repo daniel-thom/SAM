@@ -239,7 +239,7 @@ batt_simple_chemistry
 Battery chemistry
  
 battery
- 
+0
 2
 1
 1
@@ -253,7 +253,7 @@ batt_simple_dispatch
 Battery dispatch
  
 battery
- 
+0
 2
 1
 1
@@ -267,6 +267,7 @@ batt_simple_enable
  
  
 battery
+19
 "Enable"| "Disable"
 2
 1
@@ -281,7 +282,7 @@ batt_simple_kw
 Battery power
 kW
 battery
- 
+0
 2
 1
 1
@@ -295,7 +296,7 @@ batt_simple_kwh
 Battery capacity
 kWh
  
- 
+0
 2
 1
 1
@@ -309,7 +310,7 @@ batt_simple_meter_position
 Battery meter position
 battery
  
- 
+0
 8
 1
 1

@@ -1025,7 +1025,7 @@ I_bn_des
 Design point DNI
 W/m²
 Phys Trough System Design
- 
+0
 2
 1
 1
@@ -1039,7 +1039,7 @@ SD_COPY_field_thermal_output
 Actual field thermal output
 MWt
  
- 
+0
 8
 1
 1
@@ -1053,7 +1053,7 @@ SD_COPY_nLoops
 Actual number of loops
  
 Phys Trough System Design
- 
+0
 8
 1
 1
@@ -1067,7 +1067,7 @@ SD_COPY_solar_mult
 Actual solar multiple
  
 Phys Trough System Design
- 
+0
 8
 1
 1
@@ -1081,7 +1081,7 @@ SD_COPY_total_aperture
 Total aperture reflective area
 m²
 Phys Trough System Design
- 
+0
 8
 1
 1
@@ -1095,7 +1095,7 @@ T_loop_in_des
 Loop inlet HTF temperature
 °C
 Phys Trough System Design
- 
+0
 2
 1
 1
@@ -1109,7 +1109,7 @@ T_loop_out
 Loop outlet HTF temperature
 °C
 Phys Trough System Design
- 
+0
 2
 1
 1
@@ -1123,7 +1123,7 @@ adjust
  
  
  
- 
+0
 1
 1
 5
@@ -1136,7 +1136,7 @@ pb_pump_coef
 Pumping power for HTF through heat sink
 kW/kg/s
 Phys Trough System Design
- 
+0
 2
 1
 1
@@ -1150,7 +1150,7 @@ q_pb_design
 Heat sink power
 MWt
 Phys Trough System Design
- 
+0
 2
 1
 1
@@ -1164,7 +1164,7 @@ specified_q_dot_rec_des
 Target receiver thermal power
 MWt
 Phys Trough System Design
- 
+0
 8
 1
 1
@@ -1178,7 +1178,7 @@ specified_solar_multiple
 Target solar multiple
  
 Phys Trough System Design
- 
+0
 2
 1
 1
@@ -1192,7 +1192,7 @@ system_capacity
 system capacity for financial models
 kWt
 Phys Trough System Design
- 
+0
 8
 1
 1
@@ -1206,7 +1206,7 @@ tshours
 Hours of storage at design point
 hours
 Phys Trough System Design
- 
+0
 2
 1
 1

@@ -491,7 +491,7 @@ federal_tax_rate
 Federal income tax rate
 %/year
 Tax and Insurance Rates
- 
+0
 2
 1
 2
@@ -505,7 +505,7 @@ insurance_rate
 Insurance rate (annual)
 % of installed cost
 Tax and Insurance Rates
- 
+0
 2
 1
 1
@@ -519,7 +519,7 @@ prop_tax_assessed_decline
 Annual decline
 %/year
 Tax and Insurance Rates
- 
+0
 2
 1
 1
@@ -533,7 +533,7 @@ prop_tax_cost_assessed_percent
 Assessed percentage
 % of installed cost
 Tax and Insurance Rates
- 
+0
 2
 1
 1
@@ -547,7 +547,7 @@ property_assessed_value
 Assessed value
  
 Tax and Insurance Rates
- 
+0
 8
 1
 1
@@ -561,7 +561,7 @@ property_tax_rate
 Property tax rate
 %/year
 Tax and Insurance Rates
- 
+0
 2
 1
 1
@@ -575,7 +575,7 @@ sales_tax_rate
 Sales tax
 % of total direct cost
 Tax and Insurance Rates
- 
+0
 2
 1
 1
@@ -589,7 +589,7 @@ state_tax_rate
 State income tax rate
 %/year
 Tax and Insurance Rates
- 
+0
 2
 1
 2

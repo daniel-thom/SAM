@@ -2503,7 +2503,7 @@ annual_peak
 Annual Peak
 kW
 Electric Load
- 
+0
 9
 1
 1
@@ -2517,7 +2517,7 @@ energy_1
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2531,7 +2531,7 @@ energy_10
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2545,7 +2545,7 @@ energy_11
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2559,7 +2559,7 @@ energy_12
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2573,7 +2573,7 @@ energy_2
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2587,7 +2587,7 @@ energy_3
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2601,7 +2601,7 @@ energy_4
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2615,7 +2615,7 @@ energy_5
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2629,7 +2629,7 @@ energy_6
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2643,7 +2643,7 @@ energy_7
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2657,7 +2657,7 @@ energy_8
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2671,7 +2671,7 @@ energy_9
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2685,7 +2685,7 @@ escal_input_hourly
 Load growth rate
 %/yr
 Electric Load
- 
+0
 2
 1
 2
@@ -2699,7 +2699,7 @@ load
 Electric load power
 kW
 Electric Load
- 
+0
 8
 1
 2
@@ -2713,7 +2713,7 @@ load_annual_total
 Annual electric load
 kWh
 Electric Load
- 
+0
 9
 1
 1
@@ -2727,7 +2727,7 @@ load_user_data
 Energy usage
 kW
 Electric Load
- 
+0
 0
 1
 2
@@ -2741,7 +2741,7 @@ normalize_to_utility_bill
  
  
 Electric Load
- 
+0
 0
 1
 1
@@ -2755,7 +2755,7 @@ peak_1
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2769,7 +2769,7 @@ peak_10
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2783,7 +2783,7 @@ peak_11
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2797,7 +2797,7 @@ peak_12
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2811,7 +2811,7 @@ peak_2
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2825,7 +2825,7 @@ peak_3
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2839,7 +2839,7 @@ peak_4
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2853,7 +2853,7 @@ peak_5
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2867,7 +2867,7 @@ peak_6
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2881,7 +2881,7 @@ peak_7
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2895,7 +2895,7 @@ peak_8
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2909,7 +2909,7 @@ peak_9
  
  
 Electric Load
- 
+0
 8
 1
 1
@@ -2923,7 +2923,7 @@ scale_factor
 Scaling factor (optional)
  
 Electric Load
- 
+0
 2
 1
 1
@@ -2937,7 +2937,7 @@ utility_bill_data
 Monthly energy usage
 kWh
 Electric Load
- 
+0
 0
 1
 2

@@ -1376,11 +1376,11 @@ dispatch_data_filename
 TOD factor inputs file
  
 Time of Delivery Factors
- 
+0
 1
 1
 4
- 
+0
 Default
 dispatch_factor1
 3
@@ -1388,6 +1388,7 @@ dispatch_factor1
 TOD factor 1
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|3
 3
 1
@@ -1402,6 +1403,7 @@ dispatch_factor2
 TOD factor  2
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|4
 3
 1
@@ -1416,6 +1418,7 @@ dispatch_factor3
 TOD factor  3
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|5
 3
 1
@@ -1430,6 +1433,7 @@ dispatch_factor4
 TOD factor  4
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|6
 3
 1
@@ -1444,6 +1448,7 @@ dispatch_factor5
 TOD factor 5
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|7
 3
 1
@@ -1458,6 +1463,7 @@ dispatch_factor6
 TOD factor  6
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|8
 3
 1
@@ -1472,6 +1478,7 @@ dispatch_factor7
 TOD factor  7
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|9
 3
 1
@@ -1486,6 +1493,7 @@ dispatch_factor8
 TOD factor  8
  
 Time of Delivery Factors
+28
 TOD Schedules and Factors|10
 3
 1
@@ -1500,6 +1508,7 @@ dispatch_factor9
 TOD factor  9
  
 Time of Delivery Factors
+28
 TOD Schedules and Factors|11
 3
 1
@@ -1514,7 +1523,7 @@ dispatch_factors_ts
 TOD factors by time step
  
 Time of Delivery Factors
- 
+0
 0
 1
 2
@@ -1529,6 +1538,7 @@ dispatch_sched_weekday
 TOD schedule weekday
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|0
 1
 1
@@ -1555,6 +1565,7 @@ dispatch_sched_weekend
 TOD schedule weekend
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|0
 1
 1
@@ -1581,7 +1592,7 @@ lib_dispatch_factor1
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1595,7 +1606,7 @@ lib_dispatch_factor2
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1609,7 +1620,7 @@ lib_dispatch_factor3
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1623,7 +1634,7 @@ lib_dispatch_factor4
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1637,7 +1648,7 @@ lib_dispatch_factor5
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1651,7 +1662,7 @@ lib_dispatch_factor6
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1665,7 +1676,7 @@ lib_dispatch_factor7
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1679,7 +1690,7 @@ lib_dispatch_factor8
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1693,7 +1704,7 @@ lib_dispatch_factor9
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 1
@@ -1707,7 +1718,7 @@ lib_dispatch_sched_weekday
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 3
@@ -1733,7 +1744,7 @@ lib_dispatch_sched_weekend
  
  
 Time of Delivery Factors
- 
+0
 0
 1
 3
@@ -1759,7 +1770,7 @@ ppa_multiplier_model
 TOD factor mode
  
 Time of Delivery Factors
- 
+0
 1
 1
 1
@@ -1773,10 +1784,12 @@ tod_library
 TOD factors and schedule library
  
 Time of Delivery Factors
+27
 TOD Schedules and Factors|0
 18
 1
 4
+16
 Uniform Dispatch
 Default
 

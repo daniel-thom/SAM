@@ -1,5 +1,5 @@
 1
-654
+660
 A_sf_UI
 1
 1
@@ -358,43 +358,44 @@ analysis_period
 analysis_period_warning
 1
 4
+12
 No messages.
 annual_beam
 1
 1
 1
 1
-7.647737
+8.004627
 annual_diffuse
 1
 1
 1
 1
-1.338606
+1.197277
 annual_global
 1
 1
 1
 1
-5.857389
+5.905351
 annual_snow
 1
 1
 1
 1
-0.000000
+inf
 annual_tdry
 1
 1
 1
 1
-19.750387
+18.539610
 annual_wspd
 1
 1
 1
 1
-4.900925
+2.737900
 aux_par
 1
 1
@@ -650,7 +651,8 @@ check_max_flux
 city
 1
 4
-Daggett
+1
+-
 cold_tank_Thtr
 1
 1
@@ -762,22 +764,27 @@ const_per_months5
 const_per_name1
 1
 4
+6
 Loan 1
 const_per_name2
 1
 4
+6
 Loan 2
 const_per_name3
 1
 4
+6
 Loan 3
 const_per_name4
 1
 4
+6
 Loan 4
 const_per_name5
 1
 4
+6
 Loan 5
 const_per_percent1
 1
@@ -962,7 +969,8 @@ cost_sf_fixed
 country
 1
 4
-USA
+1
+-
 csp.pt.cost.bop
 1
 1
@@ -1704,7 +1712,7 @@ disp_wlim_maxspec
 dispatch_data_filename
 1
 4
- 
+0
 dispatch_factor1
 1
 1
@@ -1831,7 +1839,7 @@ elev
 1
 1
 1
-588.000000
+641.000000
 epsilon
 1
 1
@@ -1951,7 +1959,8 @@ field_model_type
 file_name
 1
 4
-C:\SAM\2017.9.5\solar_resource\USA CA Daggett (TMY2).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\daggett_ca_34.864032_-116.888098_psmv3_60_tmy.csv
 flip_target_percent
 1
 1
@@ -11186,6 +11195,28 @@ ibi_uti_percent_tax_sta
 1
 1
 1.000000
+in_location
+1
+4
+66
+"Type a street address or latitude, longitude (skip for advanced)"
+in_location_list
+1
+4
+3
+|||
+in_location_options
+1
+1
+1
+1
+0.000000
+in_nsrdb_options
+1
+1
+1
+1
+0.000000
 inflation_rate
 1
 1
@@ -11383,11 +11414,11 @@ lat
 1
 1
 1
-34.866699
+34.849998
 lbl_csp
 1
 4
- 
+0
 lib_dispatch_factor1
 1
 1
@@ -11478,12 +11509,22 @@ lib_dispatch_sched_weekend
 6.000000 6.000000 6.000000 6.000000 6.000000 6.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
 6.000000 6.000000 6.000000 6.000000 6.000000 6.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 5.000000 
 
+library_folder_list
+1
+4
+2
+""
+library_paths
+1
+4
+2
+""
 lon
 1
 1
 1
 1
--116.782997
+-116.900002
 mat_tube
 1
 1
@@ -11511,14 +11552,17 @@ mera_cost3
 mera_name1
 1
 4
+21
 Replacement Reserve 1
 mera_name2
 1
 4
+21
 Replacement Reserve 2
 mera_name3
 1
 4
+21
 Replacement Reserve 3
 months_receivables_reserve
 1
@@ -11535,14 +11579,17 @@ months_working_reserve
 msg_des_par_diff
 1
 4
+254
 The value of each input highlighted below differs from the value used for calculations. You should either re-calculate with the new values, or change them back to the values used for the calculation to ensure that results are consistent with your inputs.
 msg_nan
 1
 4
+582
 When you run a simulation, SAM calculates design-point parameters and the cycle off-design performance, which can take a long time. To save time, you can do the calculations now using the "Calculate design point and off-design performance" button above and then check "Use calculated off-design performance" to use that solution in the simulation. Use the "Calculate design point without off-design performance" button to calculate design-point parameters and display the calculated values of "HTF cold temperature" and "Minimum turbine operation" that SAM will use for simulations.
 msg_off_des
 1
 4
+362
 To shorten simulation run time, check "Use calculated off-design performance for simulation" above. This will cause SAM to use stored off-design performance instead of running the calculation again  at the start the simulation. You can also check the box if you plan to run parametric simulations or run a series of simulations using the same power cycle design.
 n_azi
 1
@@ -12294,19 +12341,23 @@ site_spec_cost
 solar_data_file_name
 1
 4
-C:\SAM\2017.9.5\solar_resource\USA CA Daggett (TMY2).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\daggett_ca_34.864032_-116.888098_psmv3_60_tmy.csv
 solar_data_source
 1
 4
-TMY2
+5
+NSRDB
 solar_resource
 1
 4
-USA CA Daggett (TMY2)
+45
+daggett_ca_34.864032_-116.888098_psmv3_60_tmy
 solar_resource_file
 1
 4
-C:\SAM\2017.9.5\solar_resource\USA CA Daggett (TMY2).csv
+85
+F:\SAMDEV\sam\deploy\solar_resource\daggett_ca_34.864032_-116.888098_psmv3_60_tmy.csv
 solarm
 1
 1
@@ -12316,7 +12367,7 @@ solarm
 solution_mode_message
 1
 4
- 
+0
 sponsor_cap_recovery_mode
 1
 1
@@ -12344,7 +12395,8 @@ startup_time
 state
 1
 4
-CA
+1
+-
 state_tax_rate
 1
 2
@@ -12354,7 +12406,8 @@ state_tax_rate
 station_id
 1
 4
-23161
+6
+214257
 system_capacity
 1
 1
@@ -12478,6 +12531,7 @@ time_stop
 tod_library
 1
 4
+19
 Generic Summer Peak
 total_direct_cost
 1
@@ -12764,7 +12818,7 @@ ui_heliostat_height
 ui_msg
 1
 4
- 
+0
 ui_receiver_height
 1
 1
@@ -12793,7 +12847,7 @@ user_fluid
 user_specified_weather_file
 1
 4
- 
+0
 v_wind_max
 1
 1
