@@ -8,10 +8,7 @@ GroupBox
 7
 Name
 5
-<<<<<<< HEAD
-=======
 9
->>>>>>> develop
 GroupBox2
 X
 3
@@ -27,10 +24,7 @@ Height
 267
 Caption
 5
-<<<<<<< HEAD
-=======
 22
->>>>>>> develop
 Solar Resource Library
 Bold
 2
@@ -41,10 +35,7 @@ Hyperlink
 8
 Name
 5
-<<<<<<< HEAD
-=======
 10
->>>>>>> develop
 Hyperlink2
 X
 3
@@ -60,17 +51,11 @@ Height
 21
 Caption
 5
-<<<<<<< HEAD
-Go to SAM website Weather Page for information about NSRDB and PVGIS, and for links to other sources of solar resource data
-URL
-5
-=======
 123
 Go to SAM website Weather Page for information about NSRDB and PVGIS, and for links to other sources of solar resource data
 URL
 5
 33
->>>>>>> develop
 https://sam.nrel.gov/weather-data
 TabOrder
 3
@@ -81,10 +66,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 11
->>>>>>> develop
 annual_beam
 X
 3
@@ -112,17 +94,10 @@ Decimals
 2
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
- 
-=======
 0
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 1
@@ -150,10 +125,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 14
->>>>>>> develop
 annual_diffuse
 X
 3
@@ -181,17 +153,10 @@ Decimals
 2
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
- 
-=======
 0
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 1
@@ -219,10 +184,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 13
->>>>>>> develop
 annual_global
 X
 3
@@ -250,17 +212,10 @@ Decimals
 2
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
- 
-=======
 0
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 1
@@ -288,10 +243,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 11
->>>>>>> develop
 annual_snow
 X
 3
@@ -319,17 +271,10 @@ Decimals
 0
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
- 
-=======
 0
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 1
@@ -357,10 +302,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 11
->>>>>>> develop
 annual_tdry
 X
 3
@@ -388,17 +330,10 @@ Decimals
 1
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
- 
-=======
 0
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 1
@@ -426,10 +361,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 11
->>>>>>> develop
 annual_wspd
 X
 3
@@ -457,17 +389,10 @@ Decimals
 1
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
- 
-=======
 0
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 1
@@ -495,10 +420,7 @@ Button
 7
 Name
 5
-<<<<<<< HEAD
-=======
 12
->>>>>>> develop
 btn_download
 X
 3
@@ -514,10 +436,7 @@ Height
 24
 Caption
 5
-<<<<<<< HEAD
-=======
 30
->>>>>>> develop
 Download and add to library...
 TabOrder
 3
@@ -528,10 +447,7 @@ TextEntry
 10
 Name
 5
-<<<<<<< HEAD
-=======
 4
->>>>>>> develop
 city
 X
 3
@@ -547,10 +463,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
-=======
 9
->>>>>>> develop
 Your City
 Editable
 2
@@ -576,10 +489,7 @@ TextEntry
 10
 Name
 5
-<<<<<<< HEAD
-=======
 7
->>>>>>> develop
 country
 X
 3
@@ -595,10 +505,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
-=======
 3
->>>>>>> develop
 usa
 Editable
 2
@@ -618,8 +525,6 @@ BackColour
 TabOrder
 3
 7
-<<<<<<< HEAD
-=======
 Label
 
 1
@@ -665,17 +570,13 @@ AlignRight
 AlignTop
 2
 1
->>>>>>> develop
 Button
 
 1
 7
 Name
 5
-<<<<<<< HEAD
-=======
 15
->>>>>>> develop
 dview_for_solar
 X
 3
@@ -691,10 +592,7 @@ Height
 24
 Caption
 5
-<<<<<<< HEAD
-=======
 12
->>>>>>> develop
 View data...
 TabOrder
 3
@@ -705,10 +603,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 4
->>>>>>> develop
 elev
 X
 3
@@ -736,16 +631,10 @@ Decimals
 3
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
-=======
 0
 Suffix
 5
 2
->>>>>>> develop
  m
 ThousandsSep
 2
@@ -768,8 +657,6 @@ BackColour
 TabOrder
 3
 9
-<<<<<<< HEAD
-=======
 Label
 
 1
@@ -815,17 +702,13 @@ AlignRight
 AlignTop
 2
 1
->>>>>>> develop
 TextEntry
 
 1
 10
 Name
 5
-<<<<<<< HEAD
-=======
 11
->>>>>>> develop
 in_location
 X
 3
@@ -841,11 +724,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
- 
-=======
 0
->>>>>>> develop
 Editable
 2
 1
@@ -870,10 +749,7 @@ StringArray
 8
 Name
 5
-<<<<<<< HEAD
-=======
 16
->>>>>>> develop
 in_location_list
 X
 3
@@ -889,17 +765,11 @@ Height
 24
 Label
 5
-<<<<<<< HEAD
-Location List
-Description
-5
-=======
 13
 Location List
 Description
 5
 51
->>>>>>> develop
 Type or import a list of addresses or lat,lon pairs
 TabOrder
 3
@@ -910,10 +780,7 @@ RadioChoice
 10
 Name
 5
-<<<<<<< HEAD
-=======
 19
->>>>>>> develop
 in_location_options
 X
 3
@@ -950,10 +817,7 @@ Choice
 8
 Name
 5
-<<<<<<< HEAD
-=======
 16
->>>>>>> develop
 in_nsrdb_options
 X
 3
@@ -986,10 +850,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 3
->>>>>>> develop
 lat
 X
 3
@@ -1017,16 +878,10 @@ Decimals
 3
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
-=======
 0
 Suffix
 5
 3
->>>>>>> develop
  °N
 ThousandsSep
 2
@@ -1055,10 +910,7 @@ Label
 12
 Name
 5
-<<<<<<< HEAD
-=======
 7
->>>>>>> develop
 lbl_csp
 X
 3
@@ -1074,10 +926,7 @@ Height
 24
 Caption
 5
-<<<<<<< HEAD
-=======
 92
->>>>>>> develop
 SAM's CSP models use a different time convention than NREL NSRDB data. See Help for details.
 TextColour
 4
@@ -1100,8 +949,6 @@ AlignRight
 AlignTop
 2
 1
-<<<<<<< HEAD
-=======
 Label
 
 1
@@ -1147,17 +994,13 @@ AlignRight
 AlignTop
 2
 1
->>>>>>> develop
 MultilineText
 
 1
 10
 Name
 5
-<<<<<<< HEAD
-=======
 19
->>>>>>> develop
 library_folder_list
 X
 3
@@ -1173,10 +1016,7 @@ Height
 54
 Text
 5
-<<<<<<< HEAD
-=======
 38
->>>>>>> develop
 List of Solar Resource library folders
 Editable
 2
@@ -1202,10 +1042,7 @@ Numeric
 16
 Name
 5
-<<<<<<< HEAD
-=======
 3
->>>>>>> develop
 lon
 X
 3
@@ -1233,16 +1070,10 @@ Decimals
 3
 Prefix
 5
-<<<<<<< HEAD
- 
-Suffix
-5
-=======
 0
 Suffix
 5
 3
->>>>>>> develop
  °E
 ThousandsSep
 2
@@ -1271,10 +1102,7 @@ Divider
 9
 Name
 5
-<<<<<<< HEAD
-=======
 9
->>>>>>> develop
 object 22
 X
 3
@@ -1299,10 +1127,7 @@ Colour
 255
 Caption
 5
-<<<<<<< HEAD
-=======
 50
->>>>>>> develop
 Annual Averages Calculated from Weather File  Data
 Bold
 2
@@ -1313,22 +1138,14 @@ Divider
 9
 Name
 5
-<<<<<<< HEAD
-object 22
-=======
 11
 object 2236
->>>>>>> develop
 X
 3
 30
 Y
 3
-<<<<<<< HEAD
-624
-=======
 513
->>>>>>> develop
 Width
 3
 645
@@ -1346,12 +1163,8 @@ Colour
 255
 Caption
 5
-<<<<<<< HEAD
-Annual Averages Calculated from Weather File  Data
-=======
 29
 Header Data from Weather File
->>>>>>> develop
 Bold
 2
 1
@@ -1361,10 +1174,7 @@ GroupBox
 7
 Name
 5
-<<<<<<< HEAD
-=======
 8
->>>>>>> develop
 object 4
 X
 3
@@ -1380,10 +1190,7 @@ Height
 141
 Caption
 5
-<<<<<<< HEAD
-=======
 22
->>>>>>> develop
 Download Weather Files
 Bold
 2
@@ -1394,207 +1201,19 @@ GroupBox
 7
 Name
 5
-<<<<<<< HEAD
-object 4
-=======
 10
 object 423
->>>>>>> develop
 X
 3
 9
 Y
 3
-<<<<<<< HEAD
-279
-=======
 423
->>>>>>> develop
 Width
 3
 870
 Height
 3
-<<<<<<< HEAD
-141
-Caption
-5
-Download Weather Files
-Bold
-2
-1
-Label
-
-1
-12
-Name
-5
-object 7
-X
-3
-24
-Y
-3
-177
-Width
-3
-846
-Height
-3
-36
-Caption
-5
-SAM scans the following folders on your computer for valid weather files and adds them to your Solar Resource library. To use weather files stored on your computer, add folders containing the files.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-4294967295
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
-Label
-
-1
-12
-Name
-5
-object 7
-X
-3
-24
-Y
-3
-177
-Width
-3
-846
-Height
-3
-36
-Caption
-5
-SAM scans the following folders on your computer for valid weather files and adds them to your Solar Resource library. To use weather files stored on your computer, add folders containing the files.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-4294967295
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
-Label
-
-1
-12
-Name
-5
-object 7
-X
-3
-24
-Y
-3
-177
-Width
-3
-846
-Height
-3
-36
-Caption
-5
-SAM scans the following folders on your computer for valid weather files and adds them to your Solar Resource library. To use weather files stored on your computer, add folders containing the files.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-4294967295
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
-Label
-
-1
-12
-Name
-5
-object 7
-X
-3
-24
-Y
-3
-177
-Width
-3
-846
-Height
-3
-36
-Caption
-5
-SAM scans the following folders on your computer for valid weather files and adds them to your Solar Resource library. To use weather files stored on your computer, add folders containing the files.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-4294967295
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-=======
 306
 Caption
 5
@@ -1602,7 +1221,6 @@ Caption
 Weather Data Summary
 Bold
 2
->>>>>>> develop
 1
 Button
 
@@ -1610,10 +1228,7 @@ Button
 7
 Name
 5
-<<<<<<< HEAD
-=======
 15
->>>>>>> develop
 refresh_library
 X
 3
@@ -1629,10 +1244,7 @@ Height
 24
 Caption
 5
-<<<<<<< HEAD
-=======
 15
->>>>>>> develop
 Refresh library
 TabOrder
 3
@@ -1643,10 +1255,7 @@ TextEntry
 10
 Name
 5
-<<<<<<< HEAD
-=======
 20
->>>>>>> develop
 solar_data_file_name
 X
 3
@@ -1662,11 +1271,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
- 
-=======
 0
->>>>>>> develop
 Editable
 2
 0
@@ -1691,10 +1296,7 @@ Button
 7
 Name
 5
-<<<<<<< HEAD
-=======
 19
->>>>>>> develop
 solar_data_settings
 X
 3
@@ -1710,10 +1312,7 @@ Height
 24
 Caption
 5
-<<<<<<< HEAD
-=======
 34
->>>>>>> develop
 Add/remove weather file folders...
 TabOrder
 3
@@ -1724,10 +1323,7 @@ TextEntry
 10
 Name
 5
-<<<<<<< HEAD
-=======
 17
->>>>>>> develop
 solar_data_source
 X
 3
@@ -1743,10 +1339,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
-=======
 3
->>>>>>> develop
 src
 Editable
 2
@@ -1772,10 +1365,7 @@ Library
 7
 Name
 5
-<<<<<<< HEAD
-=======
 14
->>>>>>> develop
 solar_resource
 X
 3
@@ -1791,17 +1381,11 @@ Height
 126
 Library
 5
-<<<<<<< HEAD
-SolarResourceData
-Fields
-5
-=======
 17
 SolarResourceData
 Fields
 5
 69
->>>>>>> develop
 Name,Latitude,Longitude,Time zone,Elevation,Station ID,Source,Version
 TextEntry
 
@@ -1809,10 +1393,7 @@ TextEntry
 10
 Name
 5
-<<<<<<< HEAD
-=======
 5
->>>>>>> develop
 state
 X
 3
@@ -1828,10 +1409,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
-=======
 2
->>>>>>> develop
 AX
 Editable
 2
@@ -1857,10 +1435,7 @@ TextEntry
 10
 Name
 5
-<<<<<<< HEAD
-=======
 10
->>>>>>> develop
 station_id
 X
 3
@@ -1876,10 +1451,7 @@ Height
 24
 Text
 5
-<<<<<<< HEAD
-=======
 4
->>>>>>> develop
 wban
 Editable
 2
@@ -1899,8 +1471,6 @@ BackColour
 TabOrder
 3
 7
-<<<<<<< HEAD
-=======
 Label
 
 1
@@ -1946,17 +1516,13 @@ AlignRight
 AlignTop
 2
 1
->>>>>>> develop
 Numeric
 
 1
 16
 Name
 5
-<<<<<<< HEAD
-=======
 2
->>>>>>> develop
 tz
 X
 3
@@ -1984,18 +1550,11 @@ Decimals
 3
 Prefix
 5
-<<<<<<< HEAD
-GMT 
-Suffix
-5
- 
-=======
 4
 GMT 
 Suffix
 5
 0
->>>>>>> develop
 ThousandsSep
 2
 0
@@ -2417,11 +1976,7 @@ equations{'file_name'} = define() {
 equations{'library_folder_list'} = define() {
 	return ${library_paths};
 };	
-<<<<<<< HEAD
-13352
-=======
 13357
->>>>>>> develop
 
 on_load{'Solar Resource Data'} = define() {
 	on_change{'use_specific_weather_file'}();
@@ -2689,11 +2244,7 @@ nsrdb_get = define( )
 	download_ok = true;
 	folder = wfdownloaddir();
 	
-<<<<<<< HEAD
-	log_file = folder + '/sam_nsrdb_download_log.md';
-=======
 	log_file = folder + '/sam_nsrdb_download_log.txt';
->>>>>>> develop
 	if ( file_exists( log_file ) )
 		flog = open( log_file , 'a' );
 	else
@@ -2874,14 +2425,8 @@ nsrdb_get = define( )
 	else
 		msg = 'Download finished with errors.';
 		
-<<<<<<< HEAD
-	show_log = yesno( msg + '\nOpen log file?' );
-	if ( show_log )
-		browse( log_file );
-=======
 	/*show_log = yesno( msg + '\nOpen log file?' );
 	if ( show_log )
 		browse( log_file );*/
->>>>>>> develop
 	browse( path_only( log_file ) );
 };

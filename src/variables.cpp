@@ -746,7 +746,6 @@ void VarValue::Write_text(wxOutputStream &_O)
 		m_tab.Write_text(_O);
 		break;
 	case VV_STRING:
-<<<<<<< HEAD
 		x = m_str;
 		x.Replace("\r", "");
 		n = x.Len();
@@ -760,21 +759,6 @@ void VarValue::Write_text(wxOutputStream &_O)
 			}
 		}
 		out.PutChar('\n');
-=======
-		x = m_str;
-		x.Replace("\r", "");
-		n = x.Len();
-		out.Write32((wxUint32)n);
-		if (n > 0)
-		{
-			out.PutChar('\n');
-			for (size_t i = 0; i < n; i++)
-			{
-				out.PutChar(x[i]);
-			}
-		}
-		out.PutChar('\n');
->>>>>>> develop
 		break;
 	case VV_BINARY:
 		out.Write32(m_bin.GetDataLen());
@@ -843,7 +827,6 @@ bool VarValue::Read_text(wxInputStream &_I)
 		ok = ok && m_tab.Read_text(_I);
 		break;
 	case VV_STRING:
-<<<<<<< HEAD
 		n = in.Read32();
 		m_str.Clear();
 		if (n > 0)
@@ -851,15 +834,6 @@ bool VarValue::Read_text(wxInputStream &_I)
 			for (size_t i = 0; i < n; i++)
 				m_str.Append(in.GetChar());
 		}
-=======
-		n = in.Read32();
-		m_str.Clear();
-		if (n > 0)
-		{
-			for (size_t i = 0; i < n; i++)
-				m_str.Append(in.GetChar());
-		}
->>>>>>> develop
 		break;
 	case VV_BINARY:
 		len = in.Read32();
@@ -1478,7 +1452,6 @@ void VarInfo::Write_text(wxOutputStream &os)
 	{
 		x = wxJoin(IndexLabels, '|');
 	}
-<<<<<<< HEAD
 	size_t n = x.Len();
 	out.Write32((wxUint32)n);
 	if (n > 0)
@@ -1489,18 +1462,6 @@ void VarInfo::Write_text(wxOutputStream &os)
 			out.PutChar(x[i]);
 		}
 	}
-=======
-	size_t n = x.Len();
-	out.Write32((wxUint32)n);
-	if (n > 0)
-	{
-		out.PutChar('\n');
-		for (size_t i = 0; i < n; i++)
-		{
-			out.PutChar(x[i]);
-		}
-	}
->>>>>>> develop
 	out.PutChar('\n');
 	out.Write32(Flags);
 	out.PutChar('\n');
@@ -1525,7 +1486,6 @@ bool VarInfo::Read_text(wxInputStream &is)
 	Label = in.ReadWord();
 	Units = in.ReadWord();
 	Group = in.ReadWord();
-<<<<<<< HEAD
 	size_t n = in.Read32();
 	if (n > 0)
 	{
@@ -1534,16 +1494,6 @@ bool VarInfo::Read_text(wxInputStream &is)
 			x.Append(in.GetChar());
 		IndexLabels = wxSplit(x, '|');
 	}
-=======
-	size_t n = in.Read32();
-	if (n > 0)
-	{
-		wxString x;
-		for (size_t i = 0; i < n; i++)
-			x.Append(in.GetChar());
-		IndexLabels = wxSplit(x, '|');
-	}
->>>>>>> develop
 
 	Flags = in.Read32();
 	ok = ok && DefaultValue.Read_text(is);

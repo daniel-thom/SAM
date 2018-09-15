@@ -1,9 +1,5 @@
 1
-<<<<<<< HEAD
-1089
-=======
 1124
->>>>>>> develop
 A_aperture
 1
 2
@@ -57,15 +53,12 @@ DISCARD_UNUSED_latitude
 1
 1
 0.000000
-<<<<<<< HEAD
-=======
 DP_SGS
 1
 1
 1
 1
 0.000000
->>>>>>> develop
 D_2
 1
 3
@@ -106,8 +99,6 @@ D_5
 0.120000 0.120000 0.120000 0.120000 
 0.120000 0.120000 0.120000 0.120000 
 
-<<<<<<< HEAD
-=======
 D_cpnt
 1
 3
@@ -125,7 +116,6 @@ D_cpnt
 0.085000 0.063500 0.063500 0.063500 0.063500 0.063500 0.063500 0.063500 0.085000 0.085000 0.085000 
 0.085000 0.063500 0.085000 0.063500 0.085000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 
 
->>>>>>> develop
 D_p
 1
 3
@@ -309,8 +299,6 @@ I_bn_des
 1
 1
 950.000000
-<<<<<<< HEAD
-=======
 K_cpnt
 1
 3
@@ -328,7 +316,6 @@ K_cpnt
 0.050000 0.000000 0.420000 0.000000 0.600000 0.000000 0.600000 0.000000 0.150000 0.600000 0.000000 
 0.900000 0.000000 0.190000 0.000000 0.900000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 -1.000000 
 
->>>>>>> develop
 L_SCA
 1
 2
@@ -343,8 +330,6 @@ L_aperture
 4
 14.375000 14.375000 14.375000 14.375000 
 
-<<<<<<< HEAD
-=======
 L_cpnt
 1
 3
@@ -392,15 +377,12 @@ Min_rnr_xpans
 1
 1
 1.000000
->>>>>>> develop
 NUMTOU
 1
 1
 1
 1
 0.000000
-<<<<<<< HEAD
-=======
 N_hdr_per_xpan
 1
 1
@@ -413,7 +395,6 @@ N_max_hdr_diams
 1
 1
 10.000000
->>>>>>> develop
 PB_COPY_T_htf_cold_des
 1
 1
@@ -610,15 +591,12 @@ T_tank_cold_ini
 1
 1
 300.000000
-<<<<<<< HEAD
-=======
 T_tank_hot_inlet_min
 1
 1
 1
 1
 400.000000
->>>>>>> develop
 Tau_envelope
 1
 3
@@ -636,9 +614,6 @@ TrackingError
 4
 0.988000 0.988000 0.988000 0.988000 
 
-<<<<<<< HEAD
-V_hdr_max
-=======
 Type_cpnt
 1
 3
@@ -669,17 +644,12 @@ V_hdr_cold_min
 1
 2.000000
 V_hdr_hot_max
->>>>>>> develop
 1
 1
 1
 1
 3.000000
-<<<<<<< HEAD
-V_hdr_min
-=======
 V_hdr_hot_min
->>>>>>> develop
 1
 1
 1
@@ -691,15 +661,12 @@ V_tank_hot_ini
 1
 1
 1265.220703
-<<<<<<< HEAD
-=======
 V_tes_des
 1
 1
 1
 1
 1.850000
->>>>>>> develop
 W_aperture
 1
 2
@@ -821,11 +788,7 @@ annual_snow
 1
 1
 1
-<<<<<<< HEAD
-inf
-=======
 nan
->>>>>>> develop
 annual_tdry
 1
 1
@@ -865,15 +828,12 @@ bop_array
 5
 0.000000 1.000000 0.483000 0.517000 0.000000 
 
-<<<<<<< HEAD
-=======
 calc_design_pipe_vals
 1
 1
 1
 1
 1.000000
->>>>>>> develop
 cbi_fed_amount
 1
 1
@@ -3587,8 +3547,6 @@ cspdtr_loop_hce_heat_loss
 1
 1
 0.961737
-<<<<<<< HEAD
-=======
 custom_sf_pipe_sizes
 1
 1
@@ -3607,7 +3565,6 @@ custom_tes_p_loss
 1
 1
 0.000000
->>>>>>> develop
 cycle_cutoff_frac
 1
 1
@@ -4305,13 +4262,8 @@ field_thermal_output
 file_name
 1
 4
-<<<<<<< HEAD
-84
-F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
-=======
 111
 C:\Users\mboyd\Documents\SAM\sam_dev\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
->>>>>>> develop
 fixed_land_area
 1
 1
@@ -4372,15 +4324,12 @@ h_tank_min
 1
 1
 1.000000
-<<<<<<< HEAD
-=======
 has_hot_tank_bypass
 1
 1
 1
 1
 0.000000
->>>>>>> develop
 hce_2_is_shown
 1
 1
@@ -4732,15 +4681,6 @@ ibi_uti_percent_tax_sta
 in_location
 1
 4
-<<<<<<< HEAD
-66
-"Type a street address or latitude, longitude (skip for advanced)"
-in_location_list
-1
-4
-3
-|||
-=======
 64
 Type a street address or latitude, longitude (skip for advanced)
 in_location_list
@@ -4748,7 +4688,6 @@ in_location_list
 4
 74
 15458 Denver W Pkwy, Golden CO 804041|phoenix,az|45.5,-120.9|Manaus,Brazil
->>>>>>> develop
 in_location_options
 1
 1
@@ -4863,8 +4802,6 @@ itc_sta_percent_maxvalue
 1
 1
 99999996802856924650656260769173209088.000000
-<<<<<<< HEAD
-=======
 k_tes_loss_coeffs
 1
 2
@@ -4872,7 +4809,6 @@ k_tes_loss_coeffs
 11
 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
 
->>>>>>> develop
 lat
 1
 1
@@ -5331,21 +5267,11 @@ Schott PTR80
 library_folder_list
 1
 4
-<<<<<<< HEAD
-2
-""
-library_paths
-1
-4
-2
-""
-=======
 0
 library_paths
 1
 4
 0
->>>>>>> develop
 loan_moratorium
 1
 1
@@ -5517,8 +5443,6 @@ non_solar_field_land_area_multiplier
 1
 1
 1.400000
-<<<<<<< HEAD
-=======
 northsouth_field_sep
 1
 1
@@ -5537,7 +5461,6 @@ offset_xpan_hdr
 1
 1
 1.000000
->>>>>>> develop
 om_capacity
 1
 2
@@ -5954,8 +5877,6 @@ sca_4_is_shown
 1
 1
 1.000000
-<<<<<<< HEAD
-=======
 sf_hdr_diams
 1
 2
@@ -5992,15 +5913,12 @@ sf_rnr_wallthicks
 1
 1
 -1.000000
->>>>>>> develop
 sf_type
 1
 1
 1
 1
 1.000000
-<<<<<<< HEAD
-=======
 sgs_diams
 1
 2
@@ -6020,7 +5938,6 @@ sgs_wallthicks
 1
 1
 -1.000000
->>>>>>> develop
 show_CapitalCostSO
 1
 1
@@ -6060,13 +5977,8 @@ single_loop_aperature
 solar_data_file_name
 1
 4
-<<<<<<< HEAD
-84
-F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
-=======
 111
 C:\Users\mboyd\Documents\SAM\sam_dev\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
->>>>>>> develop
 solar_data_source
 1
 4
@@ -6086,13 +5998,8 @@ tucson_az_32.222607_-110.974711_psmv3_60_tmy
 solar_resource_file
 1
 4
-<<<<<<< HEAD
-84
-F:\SAMDEV\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
-=======
 111
 C:\Users\mboyd\Documents\SAM\sam_dev\sam\deploy\solar_resource\tucson_az_32.222607_-110.974711_psmv3_60_tmy.csv
->>>>>>> develop
 solution_mode_message
 1
 4
@@ -6197,15 +6104,12 @@ tank_pairs
 1
 1
 1.000000
-<<<<<<< HEAD
-=======
 tanks_in_parallel
 1
 1
 1
 1
 1.000000
->>>>>>> develop
 tc_fill
 1
 1

@@ -438,8 +438,6 @@ static void fcall_getsettings(lk::invoke_t &cxt)
     */
 }
 
-<<<<<<< HEAD
-=======
 static void fcall_setsettings(lk::invoke_t &cxt)
 {
 	LK_DOC("set_settings", "Sets a setting field for the current project", "(string:name, string:value):none");
@@ -450,7 +448,6 @@ static void fcall_setsettings(lk::invoke_t &cxt)
 
 }
 
->>>>>>> develop
 
 static void fcall_setting( lk::invoke_t &cxt )
 {
@@ -4321,11 +4318,8 @@ lk::fcall_t* invoke_general_funcs()
 		fcall_showsettings,
 		fcall_setting,
 		fcall_getsettings,
-<<<<<<< HEAD
-=======
 		fcall_setsettings,
 		fcall_rescanlibrary,
->>>>>>> develop
 		0 };
 	return (lk::fcall_t*)vec;
 }

@@ -488,7 +488,6 @@ bool Case::Read( wxInputStream &_i )
 bool Case::SaveDefaults( bool quiet )
 {
 	if (!m_config) return false;
-<<<<<<< HEAD
 #ifdef UI_BINARY
 	wxString file = SamApp::GetRuntimePath() + "/defaults/"
 		+ m_config->Technology + "_" + m_config->Financing;
@@ -496,15 +495,6 @@ bool Case::SaveDefaults( bool quiet )
 	wxString file = SamApp::GetRuntimePath() + "/defaults/"
 		+ m_config->Technology + "_" + m_config->Financing + ".txt";
 #endif
-=======
-#ifdef UI_BINARY
-	wxString file = SamApp::GetRuntimePath() + "/defaults/"
-		+ m_config->Technology + "_" + m_config->Financing;
-#else
-	wxString file = SamApp::GetRuntimePath() + "/defaults/"
-		+ m_config->Technology + "_" + m_config->Financing + ".txt";
-#endif
->>>>>>> develop
 	if ( !quiet && wxNO == wxMessageBox("Save defaults for configuration:\n\n" 
 		+ m_config->Technology + " / " + m_config->Financing, 
 		"Save Defaults", wxYES_NO) )
@@ -513,19 +503,11 @@ bool Case::SaveDefaults( bool quiet )
 	wxFFileOutputStream out(file);
 	if (!out.IsOk()) return false;
 
-<<<<<<< HEAD
 #ifdef UI_BINARY
 	m_vals.Write(out);
 #else
 	m_vals.Write_text(out);
 #endif
-=======
-#ifdef UI_BINARY
-	m_vals.Write(out);
-#else
-	m_vals.Write_text(out);
-#endif
->>>>>>> develop
 	wxLogStatus("Case: defaults saved for " + file);
 	return true;
 }
@@ -534,13 +516,6 @@ bool Case::LoadValuesFromExternalSource( wxInputStream &in,
 		LoadStatus *di, VarTable *oldvals, bool binary)
 {
 	VarTable vt;
-<<<<<<< HEAD
-#ifdef UI_BINARY
-	if (!vt.Read(in))
-#else
-	if (!vt.Read_text(in))
-#endif
-=======
 // All project files are assumed to be stored as binary
 	bool read_ok = true;
 	if (!binary) // text call from LoadDefaults
@@ -549,7 +524,6 @@ bool Case::LoadValuesFromExternalSource( wxInputStream &in,
 		read_ok = vt.Read(in);
 
 	if (!read_ok)
->>>>>>> develop
 	{
 		wxString e("Error reading inputs from external source");
 		if ( di ) di->error = e;
@@ -600,15 +574,6 @@ bool Case::LoadValuesFromExternalSource( wxInputStream &in,
 bool Case::LoadDefaults( wxString *pmsg )
 {
 	if (!m_config) return false;
-<<<<<<< HEAD
-#ifdef UI_BINARY
-	wxString file = SamApp::GetRuntimePath() + "/defaults/" 
-		+ m_config->Technology + "_" + m_config->Financing;
-#else
-	wxString file = SamApp::GetRuntimePath() + "/defaults/"
-		+ m_config->Technology + "_" + m_config->Financing + ".txt";
-#endif
-=======
 	bool binary = true;
 #ifdef UI_BINARY
 	wxString file = SamApp::GetRuntimePath() + "/defaults/" 
@@ -619,7 +584,6 @@ bool Case::LoadDefaults( wxString *pmsg )
 		+ m_config->Technology + "_" + m_config->Financing + ".txt";
 	binary = false;
 #endif
->>>>>>> develop
 	LoadStatus di;
 	wxString message;
 	bool ok = false;
@@ -669,19 +633,11 @@ bool Case::LoadDefaults( wxString *pmsg )
 			wxFFileOutputStream out( file );
 			if( out.IsOk() )
 			{
-<<<<<<< HEAD
 #ifdef UI_BINARY
 				m_vals.Write( out );
 #else
 				m_vals.Write_text(out);
 #endif
-=======
-#ifdef UI_BINARY
-				m_vals.Write( out );
-#else
-				m_vals.Write_text(out);
-#endif
->>>>>>> develop
 				wxMessageBox("Saved defaults for configuration.");
 			}
 			else
@@ -718,7 +674,6 @@ bool Case::SetConfiguration( const wxString &tech, const wxString &fin, bool sil
 
 	// load the default values for the current
 	// configuration from the external data file
-<<<<<<< HEAD
 #ifdef UI_BINARY
 	wxString file = SamApp::GetRuntimePath() + "/defaults/" 
 		+ m_config->Technology + "_" + m_config->Financing;
@@ -727,34 +682,16 @@ bool Case::SetConfiguration( const wxString &tech, const wxString &fin, bool sil
 		+ m_config->Technology + "_" + m_config->Financing + ".txt";
 #endif
 
-=======
-#ifdef UI_BINARY
-	wxString file = SamApp::GetRuntimePath() + "/defaults/" 
-		+ m_config->Technology + "_" + m_config->Financing;
-#else
-	wxString file = SamApp::GetRuntimePath() + "/defaults/"
-		+ m_config->Technology + "_" + m_config->Financing + ".txt";
-#endif
-
->>>>>>> develop
 	VarTable vt_defaults;
 	if ( wxFileExists(file))
 	{
 		wxFFileInputStream in(file);
 		if ( in.IsOk() )
-<<<<<<< HEAD
 #ifdef UI_BINARY
 			vt_defaults.Read( in );
 #else
 			vt_defaults.Read_text(in);
 #endif
-=======
-#ifdef UI_BINARY
-			vt_defaults.Read( in );
-#else
-			vt_defaults.Read_text(in);
-#endif
->>>>>>> develop
 	}
 
 	if ( vt_defaults.size() == 0 )

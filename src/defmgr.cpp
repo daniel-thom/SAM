@@ -60,19 +60,11 @@
 
 static wxString GetDefaultsFile( const wxString &t, const wxString &f )
 {	
-<<<<<<< HEAD
 #ifdef UI_BINARY
 	return SamApp::GetRuntimePath() + "/defaults/" + t + "_" + f;
 #else
 	return SamApp::GetRuntimePath() + "/defaults/" + t + "_" + f + ".txt";
 #endif
-=======
-#ifdef UI_BINARY
-	return SamApp::GetRuntimePath() + "/defaults/" + t + "_" + f;
-#else
-	return SamApp::GetRuntimePath() + "/defaults/" + t + "_" + f + ".txt";
-#endif
->>>>>>> develop
 }
 
 static wxString GetTypeStr( int type )
@@ -396,54 +388,11 @@ void DefaultsManager::OnPopupMenu( wxCommandEvent &evt )
 			if ( m_configList->IsSelected(i) )
 				m_configList->Check( i, evt.GetId() == ID_CHECK_SELECTED );
 		break;
-<<<<<<< HEAD
 	case ID_SAVE_BINARY:
 	case ID_SAVE_TEXT:
 		OnSaveAsType(evt);
 		break;
 	}
-=======
-	case ID_SAVE_BINARY:
-	case ID_SAVE_TEXT:
-		OnSaveAsType(evt);
-		break;
-	}
-}
-
-void DefaultsManager::OnSaveAsType(wxCommandEvent &evt)
-{
-	for (size_t i = 0; i < m_configList->GetCount(); i++)
-		if (m_configList->IsChecked(i))
-		{
-			wxString file(GetDefaultsFile(m_techList[i], m_finList[i]));
-			VarTable tab;
-			bool success = true;
-#ifdef UI_BINARY
-			if (!tab.Read(file))
-#else
-			if (!tab.Read_text(file))
-#endif
-			{
-				Log("file read error: " + file);
-				continue;
-			}
-			if (evt.GetId() == ID_SAVE_BINARY)
-			{
-				file = SamApp::GetRuntimePath() + "/defaults/" + m_techList[i] + "_" + m_finList[i];
-				success = tab.Write(file);
-			}
-			else if (evt.GetId() == ID_SAVE_TEXT)
-			{
-				file = SamApp::GetRuntimePath() + "/defaults/" + m_techList[i] + "_" + m_finList[i] + ".txt";
-				success = tab.Write_text(file);
-			}
-			else
-				Log(wxString::Format("invalid event ID: %d", evt.GetId()));
-
-			if (!success)
-				Log("file write error: " + file);
-		}
->>>>>>> develop
 }
 
 void DefaultsManager::OnSaveAsType(wxCommandEvent &evt)
@@ -489,15 +438,9 @@ void DefaultsManager::OnListRightClick( wxMouseEvent & )
 	menu.AppendSeparator();
 	menu.Append(ID_CHECK_ALL, "Check all");
 	menu.Append(ID_UNCHECK_ALL, "Uncheck all");
-<<<<<<< HEAD
 	menu.AppendSeparator();
 	menu.Append(ID_SAVE_BINARY, "Save checked as binary");
 	menu.Append(ID_SAVE_TEXT, "Save checked as text");
-=======
-	menu.AppendSeparator();
-	menu.Append(ID_SAVE_BINARY, "Save checked as binary");
-	menu.Append(ID_SAVE_TEXT, "Save checked as text");
->>>>>>> develop
 	PopupMenu( &menu );
 }
 
@@ -584,19 +527,11 @@ void DefaultsManager::OnModify( wxCommandEvent & )
 				
 		wxString file(GetDefaultsFile(m_techList[i], m_finList[i]));
 		VarTable tab;
-<<<<<<< HEAD
 #ifdef UI_BINARY
 		if (!tab.Read(file))
 #else
 		if (!tab.Read_text(file))
 #endif
-=======
-#ifdef UI_BINARY
-		if (!tab.Read(file))
-#else
-		if (!tab.Read_text(file))
-#endif
->>>>>>> develop
 		{
 			Log("file read error: " + file);
 			continue;
@@ -660,19 +595,11 @@ void DefaultsManager::OnModify( wxCommandEvent & )
 
 		if ( needs_write )
 		{
-<<<<<<< HEAD
 #ifdef UI_BINARY
 			if (!tab.Write(file))
 #else
 			if (!tab.Write_text(file))
 #endif
-=======
-#ifdef UI_BINARY
-			if (!tab.Write(file))
-#else
-			if (!tab.Write_text(file))
-#endif
->>>>>>> develop
 				Log("file write error: " + file );
 		}
 	}

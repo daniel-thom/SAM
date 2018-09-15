@@ -119,13 +119,8 @@ public:
 	
 	bool Write(const wxString &name);
 	bool Load(const wxString &name);
-<<<<<<< HEAD
 	bool Write_text(const wxString &name);
 	bool Load_text(const wxString &name);
-=======
-	bool Write_text(const wxString &name);
-	bool Load_text(const wxString &name);
->>>>>>> develop
 	void LoadFormList( const wxString &sel = wxEmptyString );
 	void LoadVarList( const wxString &sel = wxEmptyString );
 	wxUIFormDesigner *GetDesigner() { return m_uiFormEditor; }
