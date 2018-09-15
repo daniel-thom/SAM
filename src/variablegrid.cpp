@@ -477,8 +477,13 @@ wxString VariableGridData::GetTypeName(int row, int col)
 				return "GridCellVarValue";
 			else if (type == "DataArray")
 				return "GridCellVarValue";
+<<<<<<< HEAD
 			else if (type == "StringArray")
 				return "GridCellVarValue";
+=======
+			else if (type == "StringArray")
+				return "GridCellVarValue";
+>>>>>>> develop
 			else if (type == "DataMatrix")
 				return "GridCellVarValue";
 			else if (type == "ShadingFactors")

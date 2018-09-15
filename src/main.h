@@ -195,7 +195,11 @@ public:
 	bool Read(wxInputStream &is);
 
 	void Write_text(wxOutputStream &os, wxString &);
+<<<<<<< HEAD
 	bool Read_text(wxInputStream &is);
+=======
+	bool Read_text(wxInputStream &is, wxString &);
+>>>>>>> develop
 
 	wxUIFormData &Form() { return m_form; }
 	VarDatabase &Variables() { return m_vars; }

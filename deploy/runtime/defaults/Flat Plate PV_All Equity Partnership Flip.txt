@@ -1,5 +1,9 @@
 1
+<<<<<<< HEAD
 956
+=======
+960
+>>>>>>> develop
 6par_aisc
 1
 1
@@ -158,7 +162,11 @@ LeadAcid_q10_computed
 1
 1
 1
+<<<<<<< HEAD
 184.139999
+=======
+18451.664063
+>>>>>>> develop
 LeadAcid_q20
 1
 1
@@ -170,7 +178,11 @@ LeadAcid_q20_computed
 1
 1
 1
+<<<<<<< HEAD
 198.000000
+=======
+19840.500000
+>>>>>>> develop
 LeadAcid_qn
 1
 1
@@ -182,7 +194,11 @@ LeadAcid_qn_computed
 1
 1
 1
+<<<<<<< HEAD
 118.800003
+=======
+11904.299805
+>>>>>>> develop
 LeadAcid_tn
 1
 1
@@ -255,7 +271,11 @@ alpha_sc_calc
 1
 1
 1
+<<<<<<< HEAD
 0.040000
+=======
+0.061736
+>>>>>>> develop
 analysis_period
 1
 1
@@ -290,7 +310,11 @@ annual_snow
 1
 1
 1
+<<<<<<< HEAD
 inf
+=======
+nan
+>>>>>>> develop
 annual_tdry
 1
 1
@@ -308,7 +332,11 @@ array_area
 1
 1
 1
+<<<<<<< HEAD
 22.834000
+=======
+105160.359375
+>>>>>>> develop
 batt_C_rate
 1
 1
@@ -368,7 +396,11 @@ batt_Qfull_flow
 1
 1
 1
+<<<<<<< HEAD
 198.000000
+=======
+19840.500000
+>>>>>>> develop
 batt_Qnom
 1
 1
@@ -446,7 +478,11 @@ batt_bank_power
 1
 1
 1
+<<<<<<< HEAD
 5.000000
+=======
+500.000000
+>>>>>>> develop
 batt_bank_power_dc_ac
 1
 1
@@ -458,7 +494,11 @@ batt_bank_size
 1
 1
 1
+<<<<<<< HEAD
 10.000000
+=======
+1000.000000
+>>>>>>> develop
 batt_bank_size_dc_ac
 1
 1
@@ -551,7 +591,11 @@ batt_computed_bank_capacity
 1
 1
 1
+<<<<<<< HEAD
 9.979199
+=======
+999.961182
+>>>>>>> develop
 batt_computed_series
 1
 1
@@ -569,7 +613,11 @@ batt_computed_strings
 1
 1
 1
+<<<<<<< HEAD
 88.000000
+=======
+8818.000000
+>>>>>>> develop
 batt_computed_voltage
 1
 1
@@ -581,7 +629,11 @@ batt_current_charge_max
 1
 1
 1
+<<<<<<< HEAD
 99.000000
+=======
+9920.250000
+>>>>>>> develop
 batt_current_choice
 1
 1
@@ -593,7 +645,11 @@ batt_current_discharge_max
 1
 1
 1
+<<<<<<< HEAD
 99.000000
+=======
+9920.250000
+>>>>>>> develop
 batt_custom_dispatch
 1
 2
@@ -683,7 +739,11 @@ batt_dispatch_choice
 1
 1
 1
+<<<<<<< HEAD
 0.000000
+=======
+4.000000
+>>>>>>> develop
 batt_dispatch_update_frequency_hours
 1
 1
@@ -737,7 +797,11 @@ batt_height
 1
 1
 1
+<<<<<<< HEAD
 0.271028
+=======
+1.258857
+>>>>>>> develop
 batt_initial_SOC
 1
 1
@@ -749,7 +813,11 @@ batt_length
 1
 1
 1
+<<<<<<< HEAD
 0.271028
+=======
+1.258857
+>>>>>>> develop
 batt_lifetime_matrix
 1
 3
@@ -806,7 +874,11 @@ batt_mass
 1
 1
 1
+<<<<<<< HEAD
 50.571121
+=======
+5067.456543
+>>>>>>> develop
 batt_max_power
 1
 1
@@ -824,7 +896,11 @@ batt_meter_position
 1
 1
 1
+<<<<<<< HEAD
 0.000000
+=======
+1.000000
+>>>>>>> develop
 batt_minimum_SOC
 1
 1
@@ -842,19 +918,31 @@ batt_num_cells
 1
 1
 1
+<<<<<<< HEAD
 1232.000000
+=======
+123452.000000
+>>>>>>> develop
 batt_power_charge_max
 1
 1
 1
 1
+<<<<<<< HEAD
 4.989600
+=======
+499.980591
+>>>>>>> develop
 batt_power_discharge_max
 1
 1
 1
 1
+<<<<<<< HEAD
 4.989600
+=======
+499.980591
+>>>>>>> develop
 batt_pv_clipping_forecast
 1
 2
@@ -955,13 +1043,21 @@ batt_volume
 1
 1
 1
+<<<<<<< HEAD
 0.019909
+=======
+1.994935
+>>>>>>> develop
 batt_width
 1
 1
 1
 1
+<<<<<<< HEAD
 0.271028
+=======
+1.258857
+>>>>>>> develop
 battery_energy
 1
 1
@@ -985,7 +1081,11 @@ beta_oc_calc
 1
 1
 1
+<<<<<<< HEAD
 -0.250000
+=======
+-0.272702
+>>>>>>> develop
 bos_equip_fixed
 1
 1
@@ -1009,7 +1109,11 @@ bos_equip_total
 1
 1
 1
+<<<<<<< HEAD
 938.573975
+=======
+3999433.750000
+>>>>>>> develop
 cap_vs_temp
 1
 3
@@ -1169,19 +1273,31 @@ cec_a_ref
 1
 1
 1
+<<<<<<< HEAD
 2.420100
+=======
+2.577300
+>>>>>>> develop
 cec_adjust
 1
 1
 1
 1
+<<<<<<< HEAD
 5.010000
+=======
+23.049999
+>>>>>>> develop
 cec_alpha_sc
 1
 1
 1
 1
+<<<<<<< HEAD
 0.002492
+=======
+0.003735
+>>>>>>> develop
 cec_area
 1
 1
@@ -1211,7 +1327,11 @@ cec_beta_oc
 1
 1
 1
+<<<<<<< HEAD
 -0.169750
+=======
+-0.175620
+>>>>>>> develop
 cec_bifacial_ground_clearance_height
 1
 1
@@ -1235,13 +1355,21 @@ cec_eff
 1
 1
 1
+<<<<<<< HEAD
 20.552114
+=======
+19.015881
+>>>>>>> develop
 cec_gamma_r
 1
 1
 1
 1
+<<<<<<< HEAD
 -0.310000
+=======
+-0.386000
+>>>>>>> develop
 cec_gap_spacing
 1
 1
@@ -1265,13 +1393,21 @@ cec_i_l_ref
 1
 1
 1
+<<<<<<< HEAD
 6.237000
+=======
+6.054000
+>>>>>>> develop
 cec_i_mp_ref
 1
 1
 1
 1
+<<<<<<< HEAD
 5.850000
+=======
+5.670000
+>>>>>>> develop
 cec_i_o_ref
 1
 1
@@ -1283,7 +1419,11 @@ cec_i_sc_ref
 1
 1
 1
+<<<<<<< HEAD
 6.230000
+=======
+6.050000
+>>>>>>> develop
 cec_is_bifacial
 1
 1
@@ -1330,19 +1470,31 @@ cec_p_mp_ref
 1
 1
 1
+<<<<<<< HEAD
 335.204987
+=======
+310.149017
+>>>>>>> develop
 cec_r_s
 1
 1
 1
 1
+<<<<<<< HEAD
 0.499000
+=======
+0.308000
+>>>>>>> develop
 cec_r_sh_ref
 1
 1
 1
 1
+<<<<<<< HEAD
 457.119995
+=======
+499.929993
+>>>>>>> develop
 cec_standoff
 1
 1
@@ -1354,7 +1506,11 @@ cec_t_noct
 1
 1
 1
+<<<<<<< HEAD
 46.400002
+=======
+46.000000
+>>>>>>> develop
 cec_temp_corr_mode
 1
 1
@@ -1366,13 +1522,21 @@ cec_v_mp_ref
 1
 1
 1
+<<<<<<< HEAD
 57.299999
+=======
+54.700001
+>>>>>>> develop
 cec_v_oc_ref
 1
 1
 1
 1
+<<<<<<< HEAD
 67.900002
+=======
+64.400002
+>>>>>>> develop
 city
 1
 4
@@ -1383,7 +1547,11 @@ const_per_interest1
 1
 1
 1
+<<<<<<< HEAD
 66.568359
+=======
+283659.812500
+>>>>>>> develop
 const_per_interest2
 1
 1
@@ -1443,7 +1611,11 @@ const_per_interest_total
 1
 1
 1
+<<<<<<< HEAD
 66.568359
+=======
+283659.812500
+>>>>>>> develop
 const_per_months1
 1
 1
@@ -1540,7 +1712,11 @@ const_per_principal1
 1
 1
 1
+<<<<<<< HEAD
 6656.835938
+=======
+28365982.000000
+>>>>>>> develop
 const_per_principal2
 1
 1
@@ -1570,13 +1746,21 @@ const_per_principal_total
 1
 1
 1
+<<<<<<< HEAD
 6656.835938
+=======
+28365982.000000
+>>>>>>> develop
 const_per_total1
 1
 1
 1
 1
+<<<<<<< HEAD
 133.136719
+=======
+567319.625000
+>>>>>>> develop
 const_per_total2
 1
 1
@@ -1636,7 +1820,11 @@ construction_financing_cost
 1
 1
 1
+<<<<<<< HEAD
 133.136719
+=======
+567319.625000
+>>>>>>> develop
 contingency
 1
 1
@@ -1660,13 +1848,21 @@ cost_dev_fee_tax_liability
 1
 1
 1
+<<<<<<< HEAD
 78.983360
+=======
+336562.375000
+>>>>>>> develop
 cost_dev_fee_value
 1
 1
 1
 1
+<<<<<<< HEAD
 199.705078
+=======
+850979.437500
+>>>>>>> develop
 cost_equity_closing
 1
 1
@@ -2002,7 +2198,11 @@ desired_size
 1
 1
 1
+<<<<<<< HEAD
 4.000000
+=======
+20000.000000
+>>>>>>> develop
 developer_equity_percent
 1
 1
@@ -2117,7 +2317,11 @@ dispatch_manual_gridcharge
 2
 1
 6
+<<<<<<< HEAD
 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 
+=======
+0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 
+>>>>>>> develop
 
 dispatch_manual_percent_discharge
 1
@@ -2130,9 +2334,14 @@ dispatch_manual_percent_gridcharge
 1
 2
 1
+<<<<<<< HEAD
 2
 25.000000 0.000000 
 
+=======
+1
+0.000000
+>>>>>>> develop
 dispatch_manual_sched
 1
 3
@@ -2277,7 +2486,11 @@ engr_total
 1
 1
 1
+<<<<<<< HEAD
 422.358276
+=======
+1799745.250000
+>>>>>>> develop
 equip1_reserve_cost
 1
 1
@@ -2335,8 +2548,13 @@ federal_tax_rate
 file_name
 1
 4
+<<<<<<< HEAD
 85
 F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
+=======
+107
+C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
+>>>>>>> develop
 flip_target_percent
 1
 1
@@ -2354,7 +2572,11 @@ gamma_r_calc
 1
 1
 1
+<<<<<<< HEAD
 -1.039135
+=======
+-1.197175
+>>>>>>> develop
 grid_fixed
 1
 1
@@ -2378,7 +2600,11 @@ grid_total
 1
 1
 1
+<<<<<<< HEAD
 140.786087
+=======
+599915.000000
+>>>>>>> develop
 ibi_fed_amount
 1
 1
@@ -2728,7 +2954,11 @@ install_labor_total
 1
 1
 1
+<<<<<<< HEAD
 703.930481
+=======
+2999575.250000
+>>>>>>> develop
 install_margin_fixed
 1
 1
@@ -2752,7 +2982,11 @@ install_margin_total
 1
 1
 1
+<<<<<<< HEAD
 375.429565
+=======
+1599773.375000
+>>>>>>> develop
 installed_per_capacity
 1
 1
@@ -2794,13 +3028,21 @@ inv_cec_cg_eff_cec
 1
 1
 1
+<<<<<<< HEAD
 96.636307
+=======
+96.609367
+>>>>>>> develop
 inv_cec_cg_eff_euro
 1
 1
 1
 1
+<<<<<<< HEAD
 96.215385
+=======
+96.182014
+>>>>>>> develop
 inv_cec_cg_filename
 1
 4
@@ -3354,102 +3596,171 @@ inv_snl_ac_voltage
 1
 1
 1
+<<<<<<< HEAD
 240.000000
+=======
+342.000000
+>>>>>>> develop
 inv_snl_c0
 1
 1
 1
 1
+<<<<<<< HEAD
 -0.000003
+=======
+-0.000000
+>>>>>>> develop
 inv_snl_c1
 1
 1
 1
 1
+<<<<<<< HEAD
 -0.000051
+=======
+0.000015
+>>>>>>> develop
 inv_snl_c2
 1
 1
 1
 1
+<<<<<<< HEAD
 0.000984
+=======
+0.003180
+>>>>>>> develop
 inv_snl_c3
 1
 1
 1
 1
+<<<<<<< HEAD
 -0.001510
+=======
+0.000644
+>>>>>>> develop
 inv_snl_eff_cec
 1
 1
 1
 1
+<<<<<<< HEAD
 96.636932
+=======
+98.276009
+>>>>>>> develop
 inv_snl_eff_euro
 1
 1
 1
 1
+<<<<<<< HEAD
 96.216095
+=======
+98.122025
+>>>>>>> develop
 inv_snl_idcmax
 1
 1
 1
 1
+<<<<<<< HEAD
 18.000000
 inv_snl_inverter_name
 1
 4
 50
 SMA America: SB3800TL-US-22 (240V) 240V [CEC 2013]
+=======
+1600.000000
+inv_snl_inverter_name
+1
+4
+39
+SMA America: SC750CP-US 342V [CEC 2012]
+>>>>>>> develop
 inv_snl_mppt_hi
 1
 1
 1
 1
+<<<<<<< HEAD
 480.000000
+=======
+820.000000
+>>>>>>> develop
 inv_snl_mppt_low
 1
 1
 1
 1
+<<<<<<< HEAD
 250.000000
+=======
+545.000000
+>>>>>>> develop
 inv_snl_paco
 1
 1
 1
 1
+<<<<<<< HEAD
 3800.000000
+=======
+770000.000000
+>>>>>>> develop
 inv_snl_pdco
 1
 1
 1
 1
+<<<<<<< HEAD
 3928.114258
+=======
+785144.687500
+>>>>>>> develop
 inv_snl_pnt
 1
 1
 1
 1
+<<<<<<< HEAD
 0.990000
+=======
+364.700012
+>>>>>>> develop
 inv_snl_pso
 1
 1
 1
 1
+<<<<<<< HEAD
 19.451622
+=======
+1992.124756
+>>>>>>> develop
 inv_snl_vdcmax
 1
 1
 1
 1
+<<<<<<< HEAD
 600.000000
+=======
+1000.000000
+>>>>>>> develop
 inv_snl_vdco
 1
 1
 1
 1
+<<<<<<< HEAD
 398.496674
+=======
+617.789063
+>>>>>>> develop
 inv_tdc_cec_cg
 1
 3
@@ -3489,7 +3800,11 @@ inverter_count
 1
 1
 1
+<<<<<<< HEAD
 1.000000
+=======
+22.000000
+>>>>>>> develop
 inverter_model
 1
 1
@@ -3501,25 +3816,41 @@ inverter_num_units
 1
 1
 1
+<<<<<<< HEAD
 1.000000
+=======
+22.000000
+>>>>>>> develop
 inverter_power
 1
 1
 1
 1
+<<<<<<< HEAD
 3.800000
+=======
+770.000000
+>>>>>>> develop
 inverter_total
 1
 1
 1
 1
+<<<<<<< HEAD
 469.286987
+=======
+1999716.750000
+>>>>>>> develop
 inverterarray_power
 1
 1
 1
 1
+<<<<<<< HEAD
 3.800000
+=======
+16940.000000
+>>>>>>> develop
 irrad_mode
 1
 1
@@ -3615,7 +3946,11 @@ land_area_value
 1
 1
 1
+<<<<<<< HEAD
 0.018808
+=======
+86.617081
+>>>>>>> develop
 land_fixed
 1
 1
@@ -3645,7 +3980,11 @@ land_total
 1
 1
 1
+<<<<<<< HEAD
 140.786087
+=======
+599915.000000
+>>>>>>> develop
 landprep_fixed
 1
 1
@@ -3675,7 +4014,11 @@ landprep_total
 1
 1
 1
+<<<<<<< HEAD
 93.857391
+=======
+399943.343750
+>>>>>>> develop
 lat
 1
 1
@@ -3686,7 +4029,11 @@ layout_warning
 1
 4
 28
+<<<<<<< HEAD
 Actual DC/AC ratio is 1.23. 
+=======
+Actual DC/AC ratio is 1.18. 
+>>>>>>> develop
 lbl_csp
 1
 4
@@ -3784,6 +4131,7 @@ lib_dispatch_sched_weekend
 library_folder_list
 1
 4
+<<<<<<< HEAD
 2
 ""
 library_paths
@@ -3791,6 +4139,17 @@ library_paths
 4
 2
 ""
+=======
+77
+C:\Projects\SAM\Documentation\P50P90\2018.5.21_Trough_IPH_Paul\weather_files
+
+library_paths
+1
+4
+77
+C:\Projects\SAM\Documentation\P50P90\2018.5.21_Trough_IPH_Paul\weather_files
+
+>>>>>>> develop
 lon
 1
 1
@@ -3802,7 +4161,11 @@ mera_cost1
 1
 1
 1
+<<<<<<< HEAD
 1173.217407
+=======
+4999292.000000
+>>>>>>> develop
 mera_cost2
 1
 1
@@ -3870,25 +4233,41 @@ module_name
 1
 4
 24
+<<<<<<< HEAD
 SunPower SPR-X21-335-BLK
+=======
+SunPower SPR-E19-310-COM
+>>>>>>> develop
 module_num_units
 1
 1
 1
 1
+<<<<<<< HEAD
 14.000000
+=======
+64476.000000
+>>>>>>> develop
 module_power
 1
 1
 1
 1
+<<<<<<< HEAD
 0.335205
+=======
+0.310149
+>>>>>>> develop
 module_total
 1
 1
 1
 1
+<<<<<<< HEAD
 3003.436523
+=======
+12798187.000000
+>>>>>>> develop
 module_width
 1
 1
@@ -3900,19 +4279,31 @@ modulearray_area
 1
 1
 1
+<<<<<<< HEAD
 0.018808
+=======
+86.617081
+>>>>>>> develop
 modulearray_power
 1
 1
 1
 1
+<<<<<<< HEAD
 4.692870
+=======
+19997.167969
+>>>>>>> develop
 modules_per_string
 1
 1
 1
 1
+<<<<<<< HEAD
 7.000000
+=======
+12.000000
+>>>>>>> develop
 months_receivables_reserve
 1
 1
@@ -3930,13 +4321,21 @@ mppt_hi_inverter
 1
 1
 1
+<<<<<<< HEAD
 480.000000
+=======
+820.000000
+>>>>>>> develop
 mppt_low_inverter
 1
 1
 1
 1
+<<<<<<< HEAD
 250.000000
+=======
+545.000000
+>>>>>>> develop
 nominal_discount_rate
 1
 1
@@ -3954,7 +4353,11 @@ num_strings_total
 1
 1
 1
+<<<<<<< HEAD
 2.000000
+=======
+5373.000000
+>>>>>>> develop
 offset
 1
 1
@@ -4192,7 +4595,11 @@ permitting_total
 1
 1
 1
+<<<<<<< HEAD
 93.857391
+=======
+399943.343750
+>>>>>>> develop
 ppa_escalation
 1
 1
@@ -4234,7 +4641,11 @@ property_assessed_value
 1
 1
 1
+<<<<<<< HEAD
 6656.835938
+=======
+28365982.000000
+>>>>>>> develop
 property_tax_rate
 1
 1
@@ -4318,7 +4729,11 @@ pv.storage.p2.gridcharge
 1
 1
 1
+<<<<<<< HEAD
 1.000000
+=======
+0.000000
+>>>>>>> develop
 pv.storage.p3.charge
 1
 1
@@ -4431,7 +4846,11 @@ sales_tax_total
 1
 1
 1
+<<<<<<< HEAD
 274.532898
+=======
+1169834.250000
+>>>>>>> develop
 sales_tax_value
 1
 1
@@ -4663,7 +5082,11 @@ size_auto_or_manual
 1
 1
 1
+<<<<<<< HEAD
 1.000000
+=======
+0.000000
+>>>>>>> develop
 sky_model
 1
 1
@@ -5076,8 +5499,13 @@ snl_voco
 solar_data_file_name
 1
 4
+<<<<<<< HEAD
 85
 F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
+=======
+107
+C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
+>>>>>>> develop
 solar_data_source
 1
 4
@@ -5091,8 +5519,13 @@ phoenix_az_33.448377_-112.074037_psmv3_60_tmy
 solar_resource_file
 1
 4
+<<<<<<< HEAD
 85
 F:\SAMDEV\sam\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
+=======
+107
+C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv
+>>>>>>> develop
 solution_mode_message
 1
 4
@@ -5285,7 +5718,11 @@ strings_in_parallel
 1
 1
 1
+<<<<<<< HEAD
 2.000000
+=======
+5373.000000
+>>>>>>> develop
 subarray1_azimuth
 1
 1
@@ -5370,13 +5807,27 @@ subarray1_nstrings
 1
 1
 1
+<<<<<<< HEAD
 2.000000
+=======
+5373.000000
+subarray1_rear_irradiance_loss
+1
+1
+1
+1
+0.000000
+>>>>>>> develop
 subarray1_ref_nmodules
 1
 1
 1
 1
+<<<<<<< HEAD
 14.000000
+=======
+64476.000000
+>>>>>>> develop
 subarray1_rotlim
 1
 1
@@ -5412,7 +5863,11 @@ subarray1_tilt
 1
 1
 1
+<<<<<<< HEAD
 20.000000
+=======
+30.000000
+>>>>>>> develop
 subarray1_tilt_eq_lat
 1
 1
@@ -5522,6 +5977,15 @@ subarray2_nstrings
 1
 1
 0.000000
+<<<<<<< HEAD
+=======
+subarray2_rear_irradiance_loss
+1
+1
+1
+1
+0.000000
+>>>>>>> develop
 subarray2_ref_nmodules
 1
 1
@@ -5673,6 +6137,15 @@ subarray3_nstrings
 1
 1
 0.000000
+<<<<<<< HEAD
+=======
+subarray3_rear_irradiance_loss
+1
+1
+1
+1
+0.000000
+>>>>>>> develop
 subarray3_ref_nmodules
 1
 1
@@ -5824,6 +6297,15 @@ subarray4_nstrings
 1
 1
 0.000000
+<<<<<<< HEAD
+=======
+subarray4_rear_irradiance_loss
+1
+1
+1
+1
+0.000000
+>>>>>>> develop
 subarray4_ref_nmodules
 1
 1
@@ -5889,13 +6371,21 @@ subtotal_direct
 1
 1
 1
+<<<<<<< HEAD
 5490.657715
+=======
+23396686.000000
+>>>>>>> develop
 system_capacity
 1
 1
 1
 1
+<<<<<<< HEAD
 4.692870
+=======
+19997.167969
+>>>>>>> develop
 system_use_lifetime_output
 1
 1
@@ -5948,49 +6438,81 @@ total_area
 1
 1
 1
+<<<<<<< HEAD
 22.834000
+=======
+105160.359375
+>>>>>>> develop
 total_dc_inverter_capacity
 1
 1
 1
 1
+<<<<<<< HEAD
 3.928114
+=======
+17273.183594
+>>>>>>> develop
 total_direct_cost
 1
 1
 1
 1
+<<<<<<< HEAD
 5490.657715
+=======
+23396686.000000
+>>>>>>> develop
 total_indirect_cost
 1
 1
 1
 1
+<<<<<<< HEAD
 1166.178101
+=======
+4969296.000000
+>>>>>>> develop
 total_installed_cost
 1
 1
 1
 1
+<<<<<<< HEAD
 6656.835938
+=======
+28365982.000000
+>>>>>>> develop
 total_inverter_capacity
 1
 1
 1
 1
+<<<<<<< HEAD
 3.800000
+=======
+16940.000000
+>>>>>>> develop
 total_land_area
 1
 1
 1
 1
+<<<<<<< HEAD
 0.018808
+=======
+86.617081
+>>>>>>> develop
 total_modules
 1
 1
 1
 1
+<<<<<<< HEAD
 14.000000
+=======
+64476.000000
+>>>>>>> develop
 transformer_load_loss
 1
 1
@@ -6032,7 +6554,11 @@ ui_subarray1_nrows
 1
 1
 1
+<<<<<<< HEAD
 1.000000
+=======
+4605.428711
+>>>>>>> develop
 ui_subarray1_row_spacing
 1
 1
@@ -6132,19 +6658,31 @@ vdcmax_inverter
 1
 1
 1
+<<<<<<< HEAD
 600.000000
+=======
+1000.000000
+>>>>>>> develop
 vmp_string
 1
 1
 1
 1
+<<<<<<< HEAD
 401.100006
+=======
+656.400024
+>>>>>>> develop
 voc_string
 1
 1
 1
 1
+<<<<<<< HEAD
 475.300018
+=======
+772.800049
+>>>>>>> develop
 wf_nrecords
 1
 1

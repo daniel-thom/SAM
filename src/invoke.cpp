@@ -438,6 +438,19 @@ static void fcall_getsettings(lk::invoke_t &cxt)
     */
 }
 
+<<<<<<< HEAD
+=======
+static void fcall_setsettings(lk::invoke_t &cxt)
+{
+	LK_DOC("set_settings", "Sets a setting field for the current project", "(string:name, string:value):none");
+
+	wxString str = cxt.arg(0).as_string();
+	wxString buf = cxt.arg(1).as_string();
+	SamApp::Settings().Write(str, buf);
+
+}
+
+>>>>>>> develop
 
 static void fcall_setting( lk::invoke_t &cxt )
 {
@@ -3051,7 +3064,7 @@ void fcall_rescanlibrary( lk::invoke_t &cxt )
 		reloaded = Library::Load( wind_resource_db );
 	}
 
-	if ( reloaded != 0 )
+	if ( &cc != NULL && reloaded != 0 )
 	{
 		std::vector<wxUIObject*> objs = cc.InputPage()->GetObjects();
 		for( size_t i=0;i<objs.size();i++ )
@@ -4308,6 +4321,11 @@ lk::fcall_t* invoke_general_funcs()
 		fcall_showsettings,
 		fcall_setting,
 		fcall_getsettings,
+<<<<<<< HEAD
+=======
+		fcall_setsettings,
+		fcall_rescanlibrary,
+>>>>>>> develop
 		0 };
 	return (lk::fcall_t*)vec;
 }
@@ -4421,7 +4439,6 @@ lk::fcall_t* invoke_uicallback_funcs()
 		fcall_urdb_list_rates,
 		fcall_editscene3d,
 		fcall_showsettings,
-		fcall_rescanlibrary,
 		0 };
 	return (lk::fcall_t*)vec;
 }

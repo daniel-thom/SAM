@@ -49,7 +49,11 @@
 
 #include "private.h"
 #include <set>
+<<<<<<< HEAD
 #include <chrono>
+=======
+//#include <chrono>
+>>>>>>> develop
 
 #include <wx/wx.h>
 #include <wx/frame.h>
@@ -116,7 +120,14 @@ static SamApp::ver releases[] = {
 //intermediate version numbers are required in this list in order for the version upgrade script (versions.lk) to work correctly
 //please clarify the reason for the new version in a comment. Examples: public release, variable changes, internal release, public beta release, etc.
 //the top version should always be the current working version
+<<<<<<< HEAD
 	{ 2018, 8, 20 }, // Beta for testing - internal with no expiration.
+=======
+	{ 2018, 9, 13 }, // Beta for Webinar - expires 9/13/2019.
+		{ 2018, 9, 10 }, // Beta for Webinar - expires 9/10/2019.
+		{ 2018, 8, 29 }, // Beta for Bifacial - expires 8/29/2019.
+		{ 2018, 8, 20 }, // Beta for testing - internal with no expiration.
+>>>>>>> develop
 		{ 2018, 8, 13 }, // Beta for Bifacial - expires 8/13/2019
 		{ 2018, 7, 17 }, // Beta for Bifacial - expires 7/17/2019
 		{ 2018, 7, 11 }, // Beta for Bifacial - expires 7/11/2019
@@ -435,7 +446,7 @@ void MainWindow::ImportCases()
 		VersionUpgrade upgd;
 
 		{ // scope to show busy info dialog
-			wxBusyInfo info( "Upgrading project file to current SAM version..." );		
+//			wxBusyInfo info( "Upgrading project file to current SAM version..." );		
 			if ( !upgd.Run( prj ) )
 				wxMessageBox("Error upgrading older project file:\n\n", file );
 		}
@@ -981,7 +992,7 @@ bool MainWindow::LoadProject( const wxString &file )
 			(const char*)wxFileNameFromPath(file).c_str(), major, minor, micro),
 			"Notice", wxICON_INFORMATION, this);
 		
-		wxBusyInfo info( "Upgrading project file to current SAM version..." );
+//		wxBusyInfo info( "Upgrading project file to current SAM version..." );
 		
 		VersionUpgrade upgd;
 		upgd.Run( pf );		
@@ -1533,11 +1544,19 @@ void InputPageData::Write_text(wxOutputStream &os, wxString &ui_path)
 	}
 }
 
+<<<<<<< HEAD
 bool InputPageData::Read_text(wxInputStream &is)
 {
 	wxTextInputStream in(is, "\n", wxConvAuto(wxFONTENCODING_UTF8));
 	bool ok = true;
 	ok = ok && m_form.Read_text(is);
+=======
+bool InputPageData::Read_text(wxInputStream &is, wxString &ui_path)
+{
+	wxTextInputStream in(is, "\n", wxConvAuto(wxFONTENCODING_UTF8));
+	bool ok = true;
+	ok = ok && m_form.Read_text(is, ui_path);
+>>>>>>> develop
 	ok = ok && m_vars.Read_text(is);
 	m_eqnScript.Clear();
 	size_t n = in.Read32();
@@ -1622,6 +1641,7 @@ bool InputPageDatabase::LoadFileText(const wxString &file)
 	wxString name(ff.GetName());
 
 	InputPageData *pd = new InputPageData;
+<<<<<<< HEAD
 
 	bool ok = true;
 //	wxFFileInputStream is(file);
@@ -1630,6 +1650,16 @@ bool InputPageDatabase::LoadFileText(const wxString &file)
 	bool bff = is.IsOk();
 	bool bread = pd->Read_text(is);
 	if (!bff && !bread)
+=======
+	wxString ui_path = SamApp::GetRuntimePath() + "/ui/";
+	bool ok = true;
+//	wxFFileInputStream is(file);
+//	if (!is.IsOk() || !pd->Read_text(is))
+	wxFFileInputStream is(file, "r");
+	bool bff = is.IsOk();
+	bool bread = pd->Read_text(is, ui_path);
+	if (!bff && !bread)
+>>>>>>> develop
 		ok = false;
 
 	pd->Form().SetName(name);
@@ -2123,12 +2153,17 @@ void SamApp::Restart()
 	// reload all forms, variables, callbacks, equations
 	SamApp::InputPages().Clear();
 
+<<<<<<< HEAD
 	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+=======
+//	std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+>>>>>>> develop
 	size_t forms_loaded = 0;
 	wxDir dir( SamApp::GetRuntimePath() + "/ui" );
 	if ( dir.IsOpened() )
 	{
 		wxString file;
+<<<<<<< HEAD
 #ifdef UI_BINARY
 		bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
 #else
@@ -2137,6 +2172,16 @@ void SamApp::Restart()
 		while( has_more )
 		{
 #ifdef UI_BINARY
+=======
+#ifdef UI_BINARY
+		bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
+#else
+		bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
+#endif // UI_BINARY
+		while( has_more )
+		{
+#ifdef UI_BINARY
+>>>>>>> develop
 //			wxLogStatus("loading .ui: " + wxFileName(file).GetName());
 			if (!SamApp::InputPages().LoadFile(SamApp::GetRuntimePath() + "/ui/" + file))
 				wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
@@ -2152,6 +2197,7 @@ void SamApp::Restart()
 		}
 	}
 	dir.Close();
+<<<<<<< HEAD
 
 	auto end = std::chrono::system_clock::now();
 	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
@@ -2161,6 +2207,17 @@ void SamApp::Restart()
 #else	
 	wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 #endif
+=======
+
+//	auto end = std::chrono::system_clock::now();
+//	auto diff = std::chrono::duration_cast < std::chrono::milliseconds > (end - start).count();
+//	wxString ui_time(std::to_string(diff) + "ms ");
+//#ifdef UI_BINARY
+//	wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+//#else	
+//	wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+//#endif
+>>>>>>> develop
 
 	// reload configuration map
 	SamApp::Config().Clear();

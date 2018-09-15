@@ -106,11 +106,19 @@ public:
 	bool Read( wxInputStream & );
 	bool Read( const wxString &file );
 
+<<<<<<< HEAD
 	void Write_text(wxOutputStream &, size_t maxdim = 0); // MaxDim specifies the maximum allowable array or matrix dimension when writing.
 	bool Write_text(const wxString &file, size_t maxdim = 0);
 	bool Read_text(wxInputStream &);
 	bool Read_text(const wxString &file);
 
+=======
+	void Write_text(wxOutputStream &, size_t maxdim = 0); // MaxDim specifies the maximum allowable array or matrix dimension when writing.
+	bool Write_text(const wxString &file, size_t maxdim = 0);
+	bool Read_text(wxInputStream &);
+	bool Read_text(const wxString &file);
+
+>>>>>>> develop
 };
 
 class VarValue
@@ -140,9 +148,15 @@ public:
 	void Write(wxOutputStream &);
 	bool Read(wxInputStream &);
 
+<<<<<<< HEAD
 	void Write_text(wxOutputStream &);
 	bool Read_text(wxInputStream &);
 
+=======
+	void Write_text(wxOutputStream &);
+	bool Read_text(wxInputStream &);
+
+>>>>>>> develop
 	int Type() const;
 	wxString TypeAsString() const;
 	void ChangeType(int type);
@@ -208,6 +222,12 @@ public:
 
 	void Write(wxOutputStream &);
 	bool Read(wxInputStream &);
+<<<<<<< HEAD
+
+	void Write_text(wxOutputStream &);
+	bool Read_text(wxInputStream &);
+=======
+>>>>>>> develop
 
 	void Write_text(wxOutputStream &);
 	bool Read_text(wxInputStream &);
@@ -264,9 +284,15 @@ public:
 	void Write( wxOutputStream & );
 	bool Read( wxInputStream &, const wxString &page = wxEmptyString );
 	
+<<<<<<< HEAD
 	void Write_text(wxOutputStream &);
 	bool Read_text(wxInputStream &, const wxString &page = wxEmptyString);
 
+=======
+	void Write_text(wxOutputStream &);
+	bool Read_text(wxInputStream &, const wxString &page = wxEmptyString);
+
+>>>>>>> develop
 private:
 	
 	typedef unordered_map<wxString, wxArrayString, wxStringHash, wxStringEqual> StringArrayHash;

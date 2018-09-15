@@ -116,8 +116,13 @@ private:
 	void OnPopupMenu( wxCommandEvent &evt );
 	void OnListRightClick( wxMouseEvent &evt );
 
+<<<<<<< HEAD
 	void OnSaveAsType(wxCommandEvent &evt);
 
+=======
+	void OnSaveAsType(wxCommandEvent &evt);
+
+>>>>>>> develop
 	wxString LookupVariable();
 
 	DECLARE_EVENT_TABLE();

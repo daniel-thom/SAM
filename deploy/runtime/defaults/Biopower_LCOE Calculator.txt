@@ -47,37 +47,61 @@ annual_beam
 1
 1
 1
+<<<<<<< HEAD
 4.239551
+=======
+4.115986
+>>>>>>> develop
 annual_diffuse
 1
 1
 1
 1
+<<<<<<< HEAD
 1.492422
+=======
+1.667586
+>>>>>>> develop
 annual_global
 1
 1
 1
 1
+<<<<<<< HEAD
 3.727614
+=======
+3.845767
+>>>>>>> develop
 annual_snow
 1
 1
 1
 1
+<<<<<<< HEAD
 inf
+=======
+23.000000
+>>>>>>> develop
 annual_tdry
 1
 1
 1
 1
+<<<<<<< HEAD
 6.996444
+=======
+5.476575
+>>>>>>> develop
 annual_wspd
 1
 1
 1
 1
+<<<<<<< HEAD
 3.288470
+=======
+5.377249
+>>>>>>> develop
 biopwr.emissions.avoided_cred
 1
 1
@@ -1913,6 +1937,7 @@ capital_cost
 city
 1
 4
+<<<<<<< HEAD
 1
 -
 country
@@ -1920,17 +1945,35 @@ country
 4
 1
 -
+=======
+5
+Fargo
+country
+1
+4
+3
+USA
+>>>>>>> develop
 elev
 1
 1
 1
 1
+<<<<<<< HEAD
 280.000000
 file_name
 1
 4
 82
 F:\SAMDEV\sam\deploy\solar_resource\fargo_nd_46.877186_-96.789803_psmv3_60_tmy.csv
+=======
+274.000000
+file_name
+1
+4
+81
+C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\USA ND Fargo (TMY2).csv
+>>>>>>> develop
 fixed_charge_rate
 1
 1
@@ -1970,7 +2013,11 @@ lat
 1
 1
 1
+<<<<<<< HEAD
 46.889999
+=======
+46.900002
+>>>>>>> develop
 lbl_csp
 1
 4
@@ -1978,6 +2025,7 @@ lbl_csp
 library_folder_list
 1
 4
+<<<<<<< HEAD
 2
 ""
 library_paths
@@ -1985,11 +2033,23 @@ library_paths
 4
 2
 ""
+=======
+77
+C:\Projects\SAM\Documentation\P50P90\2018.5.21_Trough_IPH_Paul\weather_files
+
+library_paths
+1
+4
+77
+C:\Projects\SAM\Documentation\P50P90\2018.5.21_Trough_IPH_Paul\weather_files
+
+>>>>>>> develop
 lon
 1
 1
 1
 1
+<<<<<<< HEAD
 -96.779999
 solar_data_file_name
 1
@@ -2021,6 +2081,39 @@ station_id
 4
 6
 689436
+=======
+-96.800003
+solar_data_file_name
+1
+4
+81
+C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\USA ND Fargo (TMY2).csv
+solar_data_source
+1
+4
+4
+TMY2
+solar_resource
+1
+4
+19
+USA ND Fargo (TMY2)
+solar_resource_file
+1
+4
+81
+C:\Projects\GitHub\NREL\develop\SAM\deploy\solar_resource\USA ND Fargo (TMY2).csv
+state
+1
+4
+2
+ND
+station_id
+1
+4
+5
+14914
+>>>>>>> develop
 system_capacity
 1
 1

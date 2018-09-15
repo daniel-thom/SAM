@@ -47,7 +47,11 @@
 *  THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 *******************************************************************************************************/
 
+<<<<<<< HEAD
 #include <chrono>
+=======
+//#include <chrono>
+>>>>>>> develop
 
 #include <wx/splitter.h>
 #include <wx/notebook.h>
@@ -1205,6 +1209,7 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 
 	case ID_FORM_SAVE_ALL:
 	{
+<<<<<<< HEAD
 		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
 		size_t forms_saved = 0;
 		wxDir dir(SamApp::GetRuntimePath() + "/ui");
@@ -1264,6 +1269,67 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 		wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 	}
 	break;
+=======
+//		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_saved = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				wxLogStatus("saving UI .txt as binary: " + form_name);
+
+				if (!Write(form_name))
+					wxLogStatus(" --> error saving .txt as binary for " + form_name);
+				else
+					forms_saved++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+//		auto end = std::chrono::system_clock::now();
+//		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+//		wxString ui_time(std::to_string(diff) + "ms ");
+//		wxLogStatus(wxString::Format(" %d text ui forms saved as binary in %s", (int)forms_saved, (const char*)ui_time.c_str()));
+	}
+	break;
+
+	case ID_FORM_LOAD_ALL:
+	{
+//		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_loaded = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				wxLogStatus("loading .ui as binary: " + form_name);
+
+				if (!Load(form_name))
+					wxLogStatus(" --> error loading as binary for " + form_name);
+				else
+					forms_loaded++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+//		auto end = std::chrono::system_clock::now();
+//		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+//		wxString ui_time(std::to_string(diff) + "ms ");
+//		wxLogStatus(wxString::Format(" %d forms loaded as binary in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	}
+	break;
+>>>>>>> develop
 
 
 
@@ -1296,6 +1362,7 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 
 	case ID_FORM_SAVE_ALL_TEXT:
 	{
+<<<<<<< HEAD
 		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
 		size_t forms_saved = 0;
 		wxDir dir(SamApp::GetRuntimePath() + "/ui");
@@ -1364,6 +1431,76 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 		wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
 	}
 	break;
+=======
+//		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_saved = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.ui", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				if (!Load(form_name))
+				{
+					wxLogStatus(" --> error loading .ui for " + wxFileName(file).GetName());
+					continue;
+				}
+
+				SyncFormUIToDataBeforeWriting();
+
+
+				wxLogStatus("saving .ui as text: " + form_name);
+
+				if (!Write_text(form_name))
+					wxLogStatus(" --> error saving .ui as text for " + form_name);
+				else
+					forms_saved++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+//		auto end = std::chrono::system_clock::now();
+//		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+//		wxString ui_time(std::to_string(diff) + "ms ");
+//		wxLogStatus(wxString::Format(" %d binary ui forms saved as text in %s" , (int) forms_saved, (const char*)ui_time.c_str()));
+	}
+	break;
+
+	case ID_FORM_LOAD_ALL_TEXT:
+	{
+//		std::chrono::system_clock::time_point start = std::chrono::system_clock::now();
+		size_t forms_loaded = 0;
+		wxDir dir(SamApp::GetRuntimePath() + "/ui");
+		if (dir.IsOpened())
+		{
+			wxString file;
+			bool has_more = dir.GetFirst(&file, "*.txt", wxDIR_FILES);
+			while (has_more)
+			{
+				wxString form_name = wxFileName(file).GetName();
+				wxLogStatus("loading .txt as text: " + form_name);
+
+				if (!Load_text(form_name))
+					wxLogStatus(" --> error loading as text for " + form_name);
+				else
+					forms_loaded++;
+
+				has_more = dir.GetNext(&file);
+			}
+		}
+		dir.Close();
+
+//		auto end = std::chrono::system_clock::now();
+//		auto diff = std::chrono::duration_cast <std::chrono::milliseconds> (end - start).count();
+//		wxString ui_time(std::to_string(diff) + "ms ");
+//		wxLogStatus(wxString::Format(" %d forms loaded as text in %s", (int)forms_loaded, (const char*)ui_time.c_str()));
+	}
+	break;
+>>>>>>> develop
 
 
 
@@ -1879,14 +2016,23 @@ bool UIEditorPanel::Load_text(const wxString &name)
 	m_ipd.Clear();
 
 	bool ok = true;
+<<<<<<< HEAD
 	wxString ui_path = SamApp::GetRuntimePath() + "/ui/" + name;
 	wxString file = ui_path + ".txt";
+=======
+	wxString ui_path = SamApp::GetRuntimePath() + "/ui/" ;
+	wxString file = ui_path + name + ".txt";
+>>>>>>> develop
 
 	if (wxFileExists(file))
 	{
 		wxFFileInputStream ff(file, "r");
 		bool bff = ff.IsOk();
+<<<<<<< HEAD
 		bool bread = m_ipd.Read_text(ff);
+=======
+		bool bread = m_ipd.Read_text(ff, ui_path);
+>>>>>>> develop
 		if (bff && bread)
 		//	if (ff.IsOk() && m_ipd.Read_text(ff))
 		{
