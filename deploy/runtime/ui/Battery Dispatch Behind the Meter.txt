@@ -1,52 +1,7 @@
 Battery Dispatch Behind the Meter
 1001
-285
-15
-Label
-
-1
-12
-Name
-5
-20
-BatteryChargeOptions
-X
-3
-39
-Y
-3
-183
-Width
-3
-219
-Height
-3
-36
-Caption
-5
-74
-For all non-manual dispatch options, select how the battery can be charged
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
+232
+10
 GroupBox
 
 1
@@ -60,13 +15,13 @@ X
 9
 Y
 3
-6
+3
 Width
 3
 985
 Height
 3
-274
+226
 Caption
 5
 27
@@ -74,154 +29,6 @@ Storage Dispatch Controller
 Bold
 2
 1
-GroupBox
-
-1
-7
-Name
-5
-18
-GridPowerTargetBox
-X
-3
-312
-Y
-3
-33
-Width
-3
-670
-Height
-3
-106
-Caption
-5
-23
-Input grid power target
-Bold
-2
-1
-GroupBox
-
-1
-7
-Name
-5
-16
-InputDispatchBox
-X
-3
-312
-Y
-3
-153
-Width
-3
-670
-Height
-3
-106
-Caption
-5
-22
-Input battery dispatch
-Bold
-2
-1
-DataArray
-
-1
-9
-Name
-5
-20
-batt_custom_dispatch
-X
-3
-474
-Y
-3
-174
-Width
-3
-90
-Height
-3
-24
-Mode
-3
-1
-Label
-5
-29
-Battery custom dispatch input
-Description
-5
-156
-Custom battery dispatch allows a user to get the dispatch from another tool and input into SAM directly.  Power < 0 for charging, Power > 0 for discharging.
-TabOrder
-3
-4294967295
-CheckBox
-
-1
-8
-Name
-5
-29
-batt_dispatch_auto_can_charge
-X
-3
-75
-Y
-3
-249
-Width
-3
-201
-Height
-3
-24
-Caption
-5
-30
-Battery can charge from system
-State
-2
-1
-TabOrder
-3
-4294967295
-CheckBox
-
-1
-8
-Name
-5
-33
-batt_dispatch_auto_can_gridcharge
-X
-3
-75
-Y
-3
-225
-Width
-3
-183
-Height
-3
-24
-Caption
-5
-28
-Battery can charge from grid
-State
-2
-1
-TabOrder
-3
-4294967295
 RadioChoice
 
 1
@@ -241,17 +48,16 @@ Width
 246
 Height
 3
-108
+96
 Selection
 3
 0
 Items
 6
-5
+4
 Peak shaving: 1-day look ahead
 Peak shaving: 1-day look behind
-Input grid power target
-Input battery dispatch
+Automated grid power target
 Manual dispatch
 ShowCaptions
 2
@@ -268,24 +74,24 @@ Label
 12
 Name
 5
-19
-batt_dispatch_label
+23
+batt_manual_description
 X
 3
-624
+297
 Y
 3
-165
+45
 Width
 3
-345
+393
 Height
 3
-81
+117
 Caption
 5
-161
-Input a custom battery power dispatch (<0 for charging, >0 for discharging).  SAM will follow the dispatch within the operational limits of the system specified.
+282
+The manual dispatch model aims to minimize purchases from the grid.  It first tries to meet load with PV, then battery, then grid. Choose whether PV should meet the load or charge the battery below. Use the timing controls to constrain the battery controller.  See help for details.
 TextColour
 4
 0
@@ -307,42 +113,43 @@ AlignRight
 AlignTop
 2
 1
-Divider
+RadioChoice
 
 1
-9
+10
 Name
 5
-17
-batt_grid_options
+14
+batt_pv_choice
 X
 3
-36
+297
 Y
 3
-165
+162
 Width
 3
-231
+357
 Height
 3
-16
-Orientation
+54
+Selection
 3
 0
-Colour
-4
-120
-120
-120
-255
-Caption
-5
-12
-Grid options
-Bold
+Items
+6
+2
+PV meets load before charging battery
+PV charges battery before meeting load
+ShowCaptions
 2
 1
+Horizontal
+2
+0
+TabOrder
+3
+4294967295
 Choice
 
 1
@@ -353,10 +160,10 @@ Name
 batt_target_choice
 X
 3
-372
+717
 Y
 3
-54
+48
 Width
 3
 201
@@ -374,51 +181,6 @@ Selection
 TabOrder
 3
 4294967295
-Label
-
-1
-12
-Name
-5
-17
-batt_target_label
-X
-3
-621
-Y
-3
-48
-Width
-3
-345
-Height
-3
-81
-Caption
-5
-178
-Input the maximum grid power desired.  SAM will charge the battery if the electric load is less than the target, and discharge the battery if the load is greater than the target.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
 DataArray
 
 1
@@ -429,10 +191,10 @@ Name
 batt_target_power
 X
 3
-483
+828
 Y
 3
-111
+105
 Width
 3
 90
@@ -463,10 +225,10 @@ Name
 batt_target_power_monthly
 X
 3
-483
+828
 Y
 3
-84
+78
 Width
 3
 90
@@ -516,64 +278,108 @@ Choose Dispatch Model
 Bold
 2
 1
+Divider
 
-7
-batt_custom_dispatch
+1
+9
+Name
+5
+10
+object 218
+X
 3
-2
-Input battery dispatch
-kWdc
-Battery
+297
+Y
+3
+27
+Width
+3
+342
+Height
+3
+16
+Orientation
+3
 0
+Colour
+4
+120
+120
+120
+255
+Caption
+5
+23
+Manual dispatch options
+Bold
 2
 1
+Divider
+
+1
+9
+Name
+5
+9
+object 22
+X
+3
+660
+Y
+3
+27
+Width
+3
+306
+Height
+3
+16
+Orientation
+3
+0
+Colour
+4
+120
+120
+120
+255
+Caption
+5
+33
+Automated Grid Power Target Model
+Bold
 2
 1
-1
-0.000000
-DataArray
-batt_dispatch_auto_can_charge
-3
-1
-Battery can charge from grid?
- 
-Battery
-0
-3
-1
-1
-1
-1
-1.000000
-CheckBox
-batt_dispatch_auto_can_gridcharge
-3
-1
-Battery can charge from grid?
- 
-Battery
-0
-3
-1
-1
-1
-1
-1.000000
-CheckBox
+
+5
 batt_dispatch_choice
 3
 1
 Battery dispatch choice
  
 Battery
-131
-Peak shaving: 1-day look ahead|Peak shaving: 1-day look behind|Automated grid power target| Input battery dispatch| Manual dispatch
+106
+Peak shaving: 1-day look ahead|Peak shaving: 1-day look behind|Automated grid power target|Manual dispatch
 3
 1
 1
 1
 1
-3.000000
+3
+RadioChoice
+batt_pv_choice
+3
+1
+PV priority (0=load,1=battery)
+ 
+Battery
+0
+3
+1
+1
+1
+1
+0
 RadioChoice
 batt_target_choice
 3
@@ -587,13 +393,13 @@ Battery
 1
 1
 1
-0.000000
+0
 Choice
 batt_target_power
 3
 2
 Time series
-kWdc
+kW
 Battery
 0
 0
@@ -601,13 +407,13 @@ Battery
 2
 1
 1
-15.000000
+15
 DataArray
 batt_target_power_monthly
 3
 2
 Single or monthly
-kWdc
+kW
 Battery
 0
 0
@@ -615,11 +421,11 @@ Battery
 2
 1
 1
-0.000000
+0
 MonthlyFactor
 
 0
-1093
+3679
 on_load{'Battery Dispatch Behind the Meter'}=define()
 {	
 	toggle_dispatch();
@@ -631,6 +437,19 @@ on_load{'Battery Dispatch Behind the Meter'}=define()
 on_change{'batt_dispatch_choice'}=define(){toggle_dispatch();};
 on_change{'batt_target_choice'} = define(){toggle_dispatch_target();};
 
+function toggle_dispatch()
+{
+	mode = ${batt_dispatch_choice};
+	if (mode != 3)
+		enable_manual_inputs(false);
+	else
+	{
+		enable_manual_inputs(true);
+		toggle_discharge_percent();
+		toggle_gridcharge_percent();
+	}
+	toggle_dispatch_target();
+}
 function toggle_dispatch_target()
 {
 	mode = ${batt_dispatch_choice};
@@ -639,14 +458,23 @@ function toggle_dispatch_target()
 	else
 		enable_target_inputs(true);
 }
-
-function toggle_custom_dispatch()
+function toggle_discharge_percent()
 {
-	mode = ${batt_dispatch_choice};
-	if (mode != 3)
-		enable('batt_custom_dispatch', false);
-	else
-		enable('batt_custom_dispatch', true);
+	enable('batt_discharge_percent_1', (value('pv.storage.p1.discharge')==1));
+	enable('batt_discharge_percent_2', (value('pv.storage.p2.discharge')==1));
+	enable('batt_discharge_percent_3', (value('pv.storage.p3.discharge')==1));
+	enable('batt_discharge_percent_4', (value('pv.storage.p4.discharge')==1));
+	enable('batt_discharge_percent_5', (value('pv.storage.p5.discharge')==1));
+	enable('batt_discharge_percent_6', (value('pv.storage.p6.discharge')==1));
+}
+function toggle_gridcharge_percent()
+{
+	enable('batt_gridcharge_percent_1', (value('pv.storage.p1.gridcharge')==1));
+	enable('batt_gridcharge_percent_2', (value('pv.storage.p2.gridcharge')==1));
+	enable('batt_gridcharge_percent_3', (value('pv.storage.p3.gridcharge')==1));
+	enable('batt_gridcharge_percent_4', (value('pv.storage.p4.gridcharge')==1));
+	enable('batt_gridcharge_percent_5', (value('pv.storage.p5.gridcharge')==1));
+	enable('batt_gridcharge_percent_6', (value('pv.storage.p6.gridcharge')==1));
 }
 function enable_target_inputs(on_off)
 {
@@ -670,6 +498,46 @@ function enable_target_inputs(on_off)
 			enable('batt_target_power',true);
 			enable('batt_target_power_monthly',false);
 		}
+			
 	}
 }
+function enable_manual_inputs(on_off)
+{
+	enable('pv.storage.p1.gridcharge',on_off);
+	enable('pv.storage.p2.gridcharge',on_off);
+	enable('pv.storage.p3.gridcharge',on_off);
+	enable('pv.storage.p4.gridcharge',on_off);
+	enable('pv.storage.p5.gridcharge',on_off);
+	enable('pv.storage.p6.gridcharge',on_off);
+	enable('pv.storage.p1.charge',on_off);
+	enable('pv.storage.p2.charge',on_off);
+	enable('pv.storage.p3.charge',on_off);
+	enable('pv.storage.p4.charge',on_off);
+	enable('pv.storage.p5.charge',on_off);
+	enable('pv.storage.p6.charge',on_off);
+	enable('pv.storage.p1.discharge',on_off);
+	enable('pv.storage.p2.discharge',on_off);
+	enable('pv.storage.p3.discharge',on_off);
+	enable('pv.storage.p4.discharge',on_off);
+	enable('pv.storage.p5.discharge',on_off);
+	enable('pv.storage.p6.discharge',on_off);
+	enable('batt_discharge_percent_1',on_off);
+	enable('batt_discharge_percent_2',on_off);
+	enable('batt_discharge_percent_3',on_off);
+	enable('batt_discharge_percent_4',on_off);
+	enable('batt_discharge_percent_5',on_off);
+	enable('batt_discharge_percent_6',on_off);
+	enable('batt_gridcharge_percent_1',on_off);
+	enable('batt_gridcharge_percent_2',on_off);
+	enable('batt_gridcharge_percent_3',on_off);
+	enable('batt_gridcharge_percent_4',on_off);
+	enable('batt_gridcharge_percent_5',on_off);
+	enable('batt_gridcharge_percent_6',on_off);
+	enable('dispatch_manual_sched',on_off);
+	enable('dispatch_manual_sched_weekend',on_off);
 
+	if (on_off == false)
+		${batt_pv_choice} = 0;
+	
+	enable('batt_pv_choice',on_off);
+}

@@ -1,7 +1,7 @@
 PV Shading
-1043
-874
-77
+861
+881
+76
 GroupBox
 
 1
@@ -18,7 +18,7 @@ Y
 3
 Width
 3
-1028
+842
 Height
 3
 205
@@ -42,17 +42,17 @@ X
 6
 Y
 3
-309
+213
 Width
 3
-1026
+840
 Height
 3
-450
+264
 Caption
 5
-68
-Array Dimensions for Self Shading, Snow Losses, and Bifacial Modules
+49
+Array Dimensions for Self Shading and Snow Losses
 Bold
 2
 1
@@ -66,55 +66,10 @@ Name
 Label121112
 X
 3
-96
+42
 Y
 3
-360
-Width
-3
-200
-Height
-3
-21
-Caption
-5
-18
-Module orientation
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-1
-AlignTop
-2
-0
-Label
-
-1
-12
-Name
-5
-13
-Label12111245
-X
-3
-48
-Y
-3
-267
+540
 Width
 3
 200
@@ -152,6 +107,51 @@ Label
 12
 Name
 5
+13
+Label12111274
+X
+3
+42
+Y
+3
+564
+Width
+3
+200
+Height
+3
+21
+Caption
+5
+18
+Module orientation
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+0
+AlignRight
+2
+1
+AlignTop
+2
+0
+Label
+
+1
+12
+Name
+5
 11
 Label121113
 X
@@ -159,17 +159,17 @@ X
 12
 Y
 3
-387
+336
 Width
 3
-284
+311
 Height
 3
 21
 Caption
 5
-35
-Number of modules along side of row
+43
+Modules in subarray from System Design page
 TextColour
 4
 0
@@ -198,58 +198,13 @@ Label
 Name
 5
 13
-Label12111326
+Label12111366
 X
 3
-12
+39
 Y
 3
-411
-Width
-3
-284
-Height
-3
-21
-Caption
-5
-37
-Number of modules along bottom of row
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-1
-AlignTop
-2
-0
-Label
-
-1
-12
-Name
-5
-13
-Label12111327
-X
-3
-12
-Y
-3
-468
+312
 Width
 3
 284
@@ -288,13 +243,13 @@ Label
 Name
 5
 13
-Label12111328
+Label12111367
 X
 3
-12
+39
 Y
 3
-492
+288
 Width
 3
 284
@@ -303,8 +258,8 @@ Height
 21
 Caption
 5
-43
-Modules in subarray from System Design page
+37
+Number of modules along bottom of row
 TextColour
 4
 0
@@ -333,13 +288,58 @@ Label
 Name
 5
 13
-Label12111373
+Label12111368
 X
 3
-96
+39
 Y
 3
-567
+264
+Width
+3
+284
+Height
+3
+21
+Caption
+5
+35
+Number of modules along side of row
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+0
+AlignRight
+2
+1
+AlignTop
+2
+0
+Label
+
+1
+12
+Name
+5
+13
+Label12111371
+X
+3
+42
+Y
+3
+636
 Width
 3
 200
@@ -378,13 +378,13 @@ Label
 Name
 5
 13
-Label12111374
+Label12111372
 X
 3
-96
+42
 Y
 3
-543
+612
 Width
 3
 200
@@ -423,13 +423,13 @@ Label
 Name
 5
 13
-Label12111375
+Label12111373
 X
 3
-96
+42
 Y
 3
-519
+588
 Width
 3
 200
@@ -468,7 +468,7 @@ Label
 Name
 5
 13
-Label12111376
+Label12111375
 X
 3
 4294966932
@@ -546,7 +546,7 @@ X
 126
 Y
 3
-828
+846
 Width
 3
 289
@@ -753,10 +753,10 @@ Name
 module_area
 X
 3
-132
+624
 Y
 3
-720
+744
 Width
 3
 93
@@ -765,7 +765,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -812,10 +812,10 @@ Name
 module_aspect_ratio
 X
 3
-132
+624
 Y
 3
-639
+663
 Width
 3
 93
@@ -824,7 +824,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -871,10 +871,10 @@ Name
 module_length
 X
 3
-132
+624
 Y
 3
-666
+690
 Width
 3
 93
@@ -883,7 +883,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -930,10 +930,10 @@ Name
 module_width
 X
 3
-132
+624
 Y
 3
-693
+717
 Width
 3
 93
@@ -942,7 +942,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -992,7 +992,7 @@ X
 15
 Y
 3
-780
+798
 Width
 3
 828
@@ -1034,10 +1034,10 @@ Name
 object 12
 X
 3
-678
+492
 Y
 3
-636
+363
 Width
 3
 334
@@ -1093,7 +1093,7 @@ Divider
 Name
 5
 11
-object 2155
+object 2142
 X
 3
 312
@@ -1135,10 +1135,10 @@ X
 6
 Y
 3
-765
+783
 Width
 3
-1026
+846
 Height
 3
 96
@@ -1156,19 +1156,19 @@ GroupBox
 Name
 5
 10
-object 413
+object 469
 X
 3
 6
 Y
 3
-213
+483
 Width
 3
-1026
+843
 Height
 3
-90
+297
 Caption
 5
 54
@@ -1184,51 +1184,6 @@ Name
 5
 8
 object 7
-X
-3
-18
-Y
-3
-231
-Width
-3
-816
-Height
-3
-24
-Caption
-5
-80
-Self shading is shading of modules in the array by modules in a neighboring row.
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-1
-AlignRight
-2
-0
-AlignTop
-2
-1
-Label
-
-1
-12
-Name
-5
-10
-object 753
 X
 3
 15
@@ -1273,13 +1228,13 @@ Label
 Name
 5
 10
-object 756
+object 743
 X
 3
 12
 Y
 3
-330
+504
 Width
 3
 816
@@ -1288,8 +1243,8 @@ Height
 24
 Caption
 5
-127
-The product of number of modules along side and bottom and number of rows should be equal to the number of modules in subarray.
+80
+Self shading is shading of modules in the array by modules in a neighboring row.
 TextColour
 4
 0
@@ -1318,7 +1273,52 @@ Label
 Name
 5
 10
-object 757
+object 744
+X
+3
+12
+Y
+3
+231
+Width
+3
+816
+Height
+3
+24
+Caption
+5
+108
+The product of number of modules along side and bottom should be equal to the number of modules in subarray.
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+1
+AlignRight
+2
+0
+AlignTop
+2
+1
+Label
+
+1
+12
+Name
+5
+10
+object 745
 X
 3
 12
@@ -1363,7 +1363,7 @@ Label
 Name
 5
 10
-object 758
+object 746
 X
 3
 312
@@ -1411,13 +1411,13 @@ Name
 self_shading_diagram
 X
 3
-243
+42
 Y
 3
-636
+663
 Width
 3
-412
+427
 Height
 3
 112
@@ -1437,19 +1437,19 @@ Name
 subarray1_gcr_ref
 X
 3
-324
+264
 Y
 3
-543
+612
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1496,13 +1496,13 @@ Name
 subarray1_mod_orient
 X
 3
-324
+264
 Y
 3
-360
+564
 Width
 3
-98
+125
 Height
 3
 21
@@ -1528,7 +1528,7 @@ X
 324
 Y
 3
-411
+288
 Width
 3
 100
@@ -1537,7 +1537,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -1587,7 +1587,7 @@ X
 324
 Y
 3
-387
+264
 Width
 3
 100
@@ -1596,7 +1596,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -1646,7 +1646,7 @@ X
 324
 Y
 3
-492
+336
 Width
 3
 100
@@ -1655,7 +1655,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -1702,10 +1702,10 @@ Name
 subarray1_shade_mode
 X
 3
-315
+264
 Y
 3
-267
+540
 Width
 3
 125
@@ -1761,19 +1761,19 @@ Name
 subarray2_gcr_ref
 X
 3
-465
+411
 Y
 3
-543
+612
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1820,13 +1820,13 @@ Name
 subarray2_mod_orient
 X
 3
-465
+411
 Y
 3
-360
+564
 Width
 3
-104
+125
 Height
 3
 21
@@ -1849,10 +1849,10 @@ Name
 subarray2_nmodx
 X
 3
-465
+453
 Y
 3
-411
+288
 Width
 3
 100
@@ -1861,7 +1861,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -1908,10 +1908,10 @@ Name
 subarray2_nmody
 X
 3
-465
+453
 Y
 3
-387
+264
 Width
 3
 100
@@ -1920,7 +1920,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -1967,10 +1967,10 @@ Name
 subarray2_ref_nmodules
 X
 3
-465
+453
 Y
 3
-492
+336
 Width
 3
 100
@@ -1979,7 +1979,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2026,13 +2026,13 @@ Name
 subarray2_shade_mode
 X
 3
-462
+411
 Y
 3
-267
+540
 Width
 3
-128
+125
 Height
 3
 21
@@ -2085,19 +2085,19 @@ Name
 subarray3_gcr_ref
 X
 3
-609
+555
 Y
 3
-543
+612
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2144,13 +2144,13 @@ Name
 subarray3_mod_orient
 X
 3
-609
+555
 Y
 3
-360
+564
 Width
 3
-98
+125
 Height
 3
 21
@@ -2173,10 +2173,10 @@ Name
 subarray3_nmodx
 X
 3
-609
+591
 Y
 3
-411
+288
 Width
 3
 100
@@ -2185,7 +2185,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2232,10 +2232,10 @@ Name
 subarray3_nmody
 X
 3
-609
+591
 Y
 3
-387
+264
 Width
 3
 100
@@ -2244,7 +2244,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2291,10 +2291,10 @@ Name
 subarray3_ref_nmodules
 X
 3
-609
+591
 Y
 3
-492
+336
 Width
 3
 100
@@ -2303,7 +2303,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2350,13 +2350,13 @@ Name
 subarray3_shade_mode
 X
 3
-603
+555
 Y
 3
-267
+540
 Width
 3
-134
+125
 Height
 3
 21
@@ -2409,19 +2409,19 @@ Name
 subarray4_gcr_ref
 X
 3
-756
+705
 Y
 3
-543
+612
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2468,13 +2468,13 @@ Name
 subarray4_mod_orient
 X
 3
-756
+705
 Y
 3
-360
+564
 Width
 3
-101
+125
 Height
 3
 21
@@ -2497,10 +2497,10 @@ Name
 subarray4_nmodx
 X
 3
-756
+726
 Y
 3
-411
+288
 Width
 3
 100
@@ -2509,7 +2509,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2556,10 +2556,10 @@ Name
 subarray4_nmody
 X
 3
-756
+726
 Y
 3
-387
+264
 Width
 3
 100
@@ -2568,7 +2568,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2615,10 +2615,10 @@ Name
 subarray4_ref_nmodules
 X
 3
-756
+726
 Y
 3
-492
+336
 Width
 3
 100
@@ -2627,7 +2627,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2674,13 +2674,13 @@ Name
 subarray4_shade_mode
 X
 3
-753
+705
 Y
 3
-267
+540
 Width
 3
-119
+125
 Height
 3
 21
@@ -2723,42 +2723,6 @@ Subarray 4
 TabOrder
 3
 11
-Divider
-
-1
-9
-Name
-5
-21
-ui_calculated_divider
-X
-3
-57
-Y
-3
-441
-Width
-3
-810
-Height
-3
-16
-Orientation
-3
-0
-Colour
-4
-120
-120
-120
-255
-Caption
-5
-24
-Calculated System Layout
-Bold
-2
-1
 Label
 
 1
@@ -2769,16 +2733,16 @@ Name
 ui_msg_selfshad
 X
 3
-294
+12
 Y
 3
-597
+363
 Width
 3
-720
+474
 Height
 3
-30
+108
 Caption
 5
 0
@@ -2816,7 +2780,7 @@ X
 429
 Y
 3
-828
+846
 Width
 3
 414
@@ -2857,19 +2821,19 @@ Name
 ui_subarray1_length_side
 X
 3
-324
+264
 Y
 3
-519
+588
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2919,7 +2883,7 @@ X
 324
 Y
 3
-468
+312
 Width
 3
 100
@@ -2928,7 +2892,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2975,19 +2939,19 @@ Name
 ui_subarray1_row_spacing
 X
 3
-324
+264
 Y
 3
-567
+636
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3034,19 +2998,19 @@ Name
 ui_subarray2_length_side
 X
 3
-465
+411
 Y
 3
-519
+588
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3093,10 +3057,10 @@ Name
 ui_subarray2_nrows
 X
 3
-465
+453
 Y
 3
-468
+312
 Width
 3
 100
@@ -3105,7 +3069,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3152,19 +3116,19 @@ Name
 ui_subarray2_row_spacing
 X
 3
-465
+411
 Y
 3
-567
+636
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3211,19 +3175,19 @@ Name
 ui_subarray3_length_side
 X
 3
-609
+555
 Y
 3
-519
+588
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3270,10 +3234,10 @@ Name
 ui_subarray3_nrows
 X
 3
-609
+591
 Y
 3
-468
+312
 Width
 3
 100
@@ -3282,7 +3246,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3329,19 +3293,19 @@ Name
 ui_subarray3_row_spacing
 X
 3
-609
+555
 Y
 3
-567
+636
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3388,19 +3352,19 @@ Name
 ui_subarray4_length_side
 X
 3
-756
+705
 Y
 3
-519
+588
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3447,10 +3411,10 @@ Name
 ui_subarray4_nrows
 X
 3
-756
+726
 Y
 3
-468
+312
 Width
 3
 100
@@ -3459,7 +3423,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3506,19 +3470,19 @@ Name
 ui_subarray4_row_spacing
 X
 3
-756
+705
 Y
 3
-567
+636
 Width
 3
-100
+124
 Height
 3
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3569,7 +3533,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 module_area
 3
@@ -3583,7 +3547,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 module_aspect_ratio
 3
@@ -3597,7 +3561,7 @@ Module aspect ratio
 1
 1
 1
-1.700000
+1.7
 Default
 module_length
 3
@@ -3611,7 +3575,7 @@ m
 1
 1
 1
-1.000000
+1
 Default
 module_width
 3
@@ -3625,7 +3589,7 @@ m
 1
 1
 1
-0.000000
+0
 Default
 shading_3d_scene
 3
@@ -3651,7 +3615,7 @@ Shading and Snow
 1
 1
 1
-0.300000
+0.3
 Default
 subarray1_mod_orient
 3
@@ -3666,7 +3630,7 @@ Portrait| Landscape
 1
 1
 1
-0.000000
+0
 Choice
 subarray1_nmodx
 3
@@ -3680,7 +3644,7 @@ Shading and Snow
 1
 1
 1
-8.000000
+8
 Numeric
 subarray1_nmody
 3
@@ -3694,7 +3658,7 @@ Shading and Snow
 1
 1
 1
-2.000000
+2
 Numeric
 subarray1_ref_nmodules
 3
@@ -3708,7 +3672,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 subarray1_shade_mode
 3
@@ -3723,7 +3687,7 @@ None|Standard (Non-linear)|Thin film (Linear)
 1
 1
 1
-0.000000
+0
 Choice
 subarray1_shading
 3
@@ -3750,7 +3714,7 @@ Shading and Snow
 1
 1
 1
-0.300000
+0.3
 Default
 subarray2_mod_orient
 3
@@ -3765,7 +3729,7 @@ Portrait| Landscape
 1
 1
 1
-0.000000
+0
 Choice
 subarray2_nmodx
 3
@@ -3779,7 +3743,7 @@ Shading and Snow
 1
 1
 1
-8.000000
+8
 Numeric
 subarray2_nmody
 3
@@ -3793,7 +3757,7 @@ Shading and Snow
 1
 1
 1
-2.000000
+2
 Numeric
 subarray2_ref_nmodules
 3
@@ -3807,7 +3771,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 subarray2_shade_mode
 3
@@ -3822,7 +3786,7 @@ None|Standard (Non-linear)|Thin film (Linear)
 1
 1
 1
-0.000000
+0
 Choice
 subarray2_shading
 3
@@ -3849,7 +3813,7 @@ Shading and Snow
 1
 1
 1
-0.300000
+0.3
 Default
 subarray3_mod_orient
 3
@@ -3864,7 +3828,7 @@ Portrait| Landscape
 1
 1
 1
-0.000000
+0
 Choice
 subarray3_nmodx
 3
@@ -3878,7 +3842,7 @@ Shading and Snow
 1
 1
 1
-8.000000
+8
 Numeric
 subarray3_nmody
 3
@@ -3892,7 +3856,7 @@ Shading and Snow
 1
 1
 1
-2.000000
+2
 Numeric
 subarray3_ref_nmodules
 3
@@ -3906,7 +3870,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 subarray3_shade_mode
 3
@@ -3921,7 +3885,7 @@ None|Standard (Non-linear)|Thin film (Linear)
 1
 1
 1
-0.000000
+0
 Choice
 subarray3_shading
 3
@@ -3948,7 +3912,7 @@ Shading and Snow
 1
 1
 1
-0.300000
+0.3
 Default
 subarray4_mod_orient
 3
@@ -3963,7 +3927,7 @@ Portrait| Landscape
 1
 1
 1
-0.000000
+0
 Choice
 subarray4_nmodx
 3
@@ -3977,7 +3941,7 @@ Shading and Snow
 1
 1
 1
-8.000000
+8
 Numeric
 subarray4_nmody
 3
@@ -3991,7 +3955,7 @@ Shading and Snow
 1
 1
 1
-2.000000
+2
 Numeric
 subarray4_ref_nmodules
 3
@@ -4005,7 +3969,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 subarray4_shade_mode
 3
@@ -4020,7 +3984,7 @@ None|Standard (Non-linear)|Thin film (Linear)
 1
 1
 1
-0.000000
+0
 Choice
 subarray4_shading
 3
@@ -4047,7 +4011,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray1_nrows
 3
@@ -4061,7 +4025,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray1_row_spacing
 3
@@ -4075,7 +4039,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray2_length_side
 3
@@ -4089,7 +4053,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray2_nrows
 3
@@ -4103,7 +4067,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray2_row_spacing
 3
@@ -4117,7 +4081,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray3_length_side
 3
@@ -4131,7 +4095,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray3_nrows
 3
@@ -4145,7 +4109,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray3_row_spacing
 3
@@ -4159,7 +4123,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray4_length_side
 3
@@ -4173,7 +4137,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray4_nrows
 3
@@ -4187,7 +4151,7 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 ui_subarray4_row_spacing
 3
@@ -4201,10 +4165,10 @@ Shading and Snow
 1
 1
 1
-0.000000
+0
 Default
 
-3700
+3660
 equations{'ui_subarray1_length_side'} = define() {
 	o=${subarray1_mod_orient};
 	n=${subarray1_nmody};
@@ -4302,28 +4266,28 @@ return ?${module_model}
 };
 
 equations{ 'subarray1_ref_nmodules' } = define() {
-	return ${subarray1_nstrings} * ${subarray1_modules_per_string};
+	return ${subarray1_nstrings} * ${modules_per_string};
 };
 
 equations{ 'subarray2_ref_nmodules' } = define() {
 	if(${subarray2_enable} == 0)
 		return 0;
 	else
-		return ${subarray2_nstrings} * ${subarray2_modules_per_string};
+		return ${subarray2_nstrings} * ${modules_per_string};
 };
 
 equations{ 'subarray3_ref_nmodules' } = define() {
 	if(${subarray3_enable} == 0)
 		return 0;
 	else
-		return ${subarray3_nstrings} * ${subarray3_modules_per_string};
+		return ${subarray3_nstrings} * ${modules_per_string};
 };
 
 equations{ 'subarray4_ref_nmodules' } = define() {
 	if(${subarray4_enable} == 0)
 		return 0;
 	else
-		return ${subarray4_nstrings} * ${subarray4_modules_per_string};
+		return ${subarray4_nstrings} * ${modules_per_string};
 };
 
 equations{ 'subarray1_gcr_ref' } = define() {
@@ -4341,7 +4305,7 @@ equations{ 'subarray3_gcr_ref' } = define() {
 equations{ 'subarray4_gcr_ref' } = define() {
 	return ${subarray4_gcr};
 };
-7719
+7114
 //just run this function anytime anything relevant changes
 function input_enabling()
 {
@@ -4381,9 +4345,6 @@ function input_enabling()
 		en4 = false;
 		if( value("en_snow_model") == 1 ) en4 = true;
 		
-		// has bifacial module been entered?
-		en5 = is_bifacial();
-		
 		//display message self shading is enabled and nrows is not an integer
 		//or there is only one row
 		if (en3 == true ) {
@@ -4402,14 +4363,14 @@ function input_enabling()
 		enable(prefix + 'shading', en1);
 		enable(prefix + 'shade_mode', (en1 && en2));
 		if (en3) enable_module_area = true;
-		enable(prefix + 'mod_orient', (en1 && en2 && en3) || (en1 && en5));
-		enable('ui_' + prefix + 'length_side', (en1 && en2 && en3) || (en1 && en5));
-		enable('ui_' + prefix + 'nrows', (en1 && en2 && en3) || (en1 && en4) || (en1 && en5));
-		enable(prefix + 'ref_nmodules', (en1 && en2 && en3) || (en1 && en4) || (en1 && en5) );
-		enable(prefix + 'gcr_ref', (en1 && en2 && en3) || (en1 && en5));
-		enable('ui_' + prefix + 'row_spacing', (en1 && en2 && en3) || (en1 && en5));
-		enable(prefix + 'nmodx', (en1 && en2 && en3) || (en1 && en4) || (en1 && en5) );
-		enable(prefix + 'nmody', (en1 && en2 && en3) || (en1 && en4) || (en1 && en5) );
+		enable(prefix + 'mod_orient', en1 && en2 && en3);
+		enable('ui_' + prefix + 'length_side', en1 && en2 && en3);
+		enable('ui_' + prefix + 'nrows', (en1 && en2 && en3) || (en1 && en4) );
+		enable(prefix + 'ref_nmodules', (en1 && en2 && en3) || (en1 && en4) );
+		enable(prefix + 'gcr_ref', (en1 && en2 && en3));
+		enable('ui_' + prefix + 'row_spacing', (en1 && en2 && en3));
+		enable(prefix + 'nmodx', (en1 && en2 && en3) || (en1 && en4) );
+		enable(prefix + 'nmody', (en1 && en2 && en3) || (en1 && en4) );
 	}
 	enable('module_area', enable_module_area);
     if (msg!="") msg = msg + 'Adjust the number of modules to correct the problem.'; 
@@ -4563,32 +4524,8 @@ on_change{'edit_3d_scene'} = define() {
 			return;
 		}
 	}
-	elseif (x.ierr > 0)
+	else
 	{
 		msgbox('Internal error: ' + x.message);
 	}
-	else
-	{// dialog closed without applying 
-		return;
-	}
 };
-
-function is_bifacial()
-{	
-	module_model = value('module_model');
-	is_bifacial = false;
-	
-	if (module_model == 0){
-		is_bifacial = value('spe_is_bifacial');
-	}
-	else if (module_model == 1){
-		is_bifacial = value('cec_is_bifacial');
-	}
-	else if (module_model ==2){
-		is_bifacial = value('6par_is_bifacial');
-	}
-	
-	
-	return is_bifacial;
-
-}

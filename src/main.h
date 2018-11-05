@@ -51,7 +51,7 @@
 #define __sammain_h
 
 // to load binary ui forms and defaults uncomment following
-//#define UI_BINARY 1
+#define UI_BINARY 1
 
 #include <exception>
 #include <memory>

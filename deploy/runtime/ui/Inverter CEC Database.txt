@@ -1,7 +1,34 @@
 Inverter CEC Database
-995
-577
-24
+999
+719
+21
+GroupBox
+
+1
+7
+Name
+5
+9
+GroupBox4
+X
+3
+9
+Y
+3
+192
+Width
+3
+980
+Height
+3
+332
+Caption
+5
+36
+Efficiency Curve and Characteristics
+Bold
+2
+1
 Numeric
 
 1
@@ -15,7 +42,7 @@ X
 672
 Y
 3
-390
+366
 Width
 3
 100
@@ -24,7 +51,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -71,10 +98,10 @@ Name
 inv_snl_c0
 X
 3
-846
+840
 Y
 3
-438
+270
 Width
 3
 100
@@ -83,7 +110,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -130,10 +157,10 @@ Name
 inv_snl_c1
 X
 3
-846
+840
 Y
 3
-462
+294
 Width
 3
 100
@@ -142,7 +169,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -189,10 +216,10 @@ Name
 inv_snl_c2
 X
 3
-846
+840
 Y
 3
-486
+318
 Width
 3
 100
@@ -201,7 +228,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -248,10 +275,10 @@ Name
 inv_snl_c3
 X
 3
-846
+840
 Y
 3
-510
+342
 Width
 3
 100
@@ -260,7 +287,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -307,10 +334,10 @@ Name
 inv_snl_eff_cec
 X
 3
-855
+732
 Y
 3
-216
+213
 Width
 3
 100
@@ -319,7 +346,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -366,10 +393,10 @@ Name
 inv_snl_eff_euro
 X
 3
-855
+732
 Y
 3
-240
+237
 Width
 3
 100
@@ -378,7 +405,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -428,7 +455,7 @@ X
 672
 Y
 3
-438
+414
 Width
 3
 100
@@ -437,7 +464,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -515,7 +542,7 @@ X
 672
 Y
 3
-510
+486
 Width
 3
 100
@@ -524,7 +551,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -574,7 +601,7 @@ X
 672
 Y
 3
-462
+438
 Width
 3
 100
@@ -583,7 +610,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -626,65 +653,6 @@ Numeric
 16
 Name
 5
-16
-inv_snl_num_mppt
-X
-3
-570
-Y
-3
-216
-Width
-3
-100
-Height
-3
-21
-Value
-1
-0.000000
-Mode
-3
-0
-Format
-3
-0
-Decimals
-3
-3
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-4294967295
-Numeric
-
-1
-16
-Name
-5
 12
 inv_snl_paco
 X
@@ -692,7 +660,7 @@ X
 672
 Y
 3
-294
+270
 Width
 3
 100
@@ -701,7 +669,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -751,7 +719,7 @@ X
 672
 Y
 3
-318
+294
 Width
 3
 100
@@ -760,7 +728,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -810,7 +778,7 @@ X
 672
 Y
 3
-366
+342
 Width
 3
 100
@@ -819,7 +787,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -869,7 +837,7 @@ X
 672
 Y
 3
-342
+318
 Width
 3
 100
@@ -878,7 +846,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -928,7 +896,7 @@ X
 672
 Y
 3
-414
+390
 Width
 3
 100
@@ -937,7 +905,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -987,7 +955,7 @@ X
 672
 Y
 3
-486
+462
 Width
 3
 100
@@ -996,7 +964,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1040,157 +1008,13 @@ Label
 Name
 5
 8
-msg_mppt
-X
-3
-441
-Y
-3
-240
-Width
-3
-231
-Height
-3
-24
-Caption
-5
-31
-Number must be between 1 and 4.
-TextColour
-4
-255
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-1
-AlignRight
-2
-1
-AlignTop
-2
-0
-GroupBox
-
-1
-7
-Name
-5
-9
-msg_mppt2
-X
-3
-9
-Y
-3
-192
-Width
-3
-980
-Height
-3
-351
-Caption
-5
-36
-Efficiency Curve and Characteristics
-Bold
-2
-1
-Divider
-
-1
-9
-Name
-5
-9
-object 21
-X
-3
-456
-Y
-3
-273
-Width
-3
-315
-Height
-3
-16
-Orientation
-3
-0
-Colour
-4
-120
-120
-120
-255
-Caption
-5
-20
-Datasheet Parameters
-Bold
-2
-1
-Divider
-
-1
-9
-Name
-5
-10
-object 216
-X
-3
-819
-Y
-3
-417
-Width
-3
-162
-Height
-3
-16
-Orientation
-3
-0
-Colour
-4
-120
-120
-120
-255
-Caption
-5
-19
-Sandia Coefficients
-Bold
-2
-1
-Label
-
-1
-12
-Name
-5
-8
 object 7
 X
 3
 9
 Y
 3
-546
+528
 Width
 3
 978
@@ -1242,8 +1066,52 @@ Width
 Height
 3
 297
+Label
 
-18
+1
+12
+Name
+5
+34
+pv.inv.sandia.vdcmax_warning_label
+X
+3
+9
+Y
+3
+558
+Width
+3
+980
+Height
+3
+154
+Caption
+5
+0
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+1
+AlignRight
+2
+0
+AlignTop
+2
+1
+
+17
 inv_snl_ac_voltage
 3
 1
@@ -1256,7 +1124,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_c0
 3
@@ -1270,7 +1138,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_c1
 3
@@ -1284,7 +1152,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_c2
 3
@@ -1298,7 +1166,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_c3
 3
@@ -1312,7 +1180,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_eff_cec
 3
@@ -1326,7 +1194,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_eff_euro
 3
@@ -1340,7 +1208,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_idcmax
 3
@@ -1354,7 +1222,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_inverter_name
 3
@@ -1382,7 +1250,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_mppt_low
 3
@@ -1396,21 +1264,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
-Numeric
-inv_snl_num_mppt
-3
-1
-Number of MPPT inputs
- 
-PV Inverter (CEC Database)
 0
-0
-1
-1
-1
-1
-1.000000
 Numeric
 inv_snl_paco
 3
@@ -1424,7 +1278,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_pdco
 3
@@ -1438,7 +1292,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_pnt
 3
@@ -1452,7 +1306,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_pso
 3
@@ -1466,7 +1320,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_vdcmax
 3
@@ -1480,7 +1334,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_snl_vdco
 3
@@ -1494,7 +1348,7 @@ PV Inverter (CEC Database)
 1
 1
 1
-0.000000
+0
 Numeric
 
 1771
@@ -1550,7 +1404,7 @@ equations{ '$MIMO$ SandiaInverterEfficiencies' } = define()
 	${inv_snl_eff_cec} = cec_eff * 100;
 	${inv_snl_eff_euro} = euro_eff * 100;
 };
-3295
+3062
 function plot_inverter_curve()
 {
 	//assign specs
@@ -1637,25 +1491,13 @@ function plot_inverter_curve()
 	axis('y1', {'label'='Efficiency (%)', 'min'=70, 'max'=100});
 }
 
-function show_mppt_msg() {
-	show_msg = value('inv_snl_num_mppt') > 4 || value('inv_snl_num_mppt') < 1;
-	show( 'msg_mppt', show_msg );
-	refresh();
-}
-
 on_load{"Inverter CEC Database"} = define()
 {
 	plot_inverter_curve();
 	on_change{"inv_snl_inverter_name"}();
-	show_mppt_msg();
 };
 
 on_change{'inv_snl_inverter_name'} = define()
 {
 	plot_inverter_curve();
-};
-
-on_change{'inv_snl_num_mppt'} = define()
-{
-	show_mppt_msg();
 };

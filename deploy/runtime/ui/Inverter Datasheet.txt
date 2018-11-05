@@ -1,7 +1,7 @@
 Inverter Datasheet
-788
-524
-29
+787
+495
+28
 GroupBox
 
 1
@@ -42,7 +42,7 @@ X
 12
 Y
 3
-441
+411
 Width
 3
 764
@@ -75,7 +75,7 @@ Width
 764
 Height
 3
-127
+95
 Caption
 5
 16
@@ -96,7 +96,7 @@ X
 12
 Y
 3
-267
+237
 Width
 3
 764
@@ -123,7 +123,7 @@ X
 396
 Y
 3
-288
+258
 Width
 3
 131
@@ -213,7 +213,7 @@ X
 555
 Y
 3
-279
+249
 Width
 3
 209
@@ -348,7 +348,7 @@ X
 183
 Y
 3
-465
+435
 Width
 3
 153
@@ -375,7 +375,7 @@ X
 24
 Y
 3
-465
+435
 Width
 3
 153
@@ -411,7 +411,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -461,7 +461,7 @@ X
 378
 Y
 3
-465
+435
 Width
 3
 386
@@ -511,7 +511,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -607,7 +607,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -666,7 +666,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -725,7 +725,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -784,7 +784,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -827,65 +827,6 @@ Numeric
 16
 Name
 5
-15
-inv_ds_num_mppt
-X
-3
-594
-Y
-3
-228
-Width
-3
-100
-Height
-3
-21
-Value
-1
-0.000000
-Mode
-3
-0
-Format
-3
-0
-Decimals
-3
-3
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-4294967295
-Numeric
-
-1
-16
-Name
-5
 11
 inv_ds_paco
 X
@@ -902,7 +843,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -961,7 +902,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1011,7 +952,7 @@ X
 264
 Y
 3
-333
+303
 Width
 3
 100
@@ -1020,7 +961,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1070,7 +1011,7 @@ X
 396
 Y
 3
-333
+303
 Width
 3
 100
@@ -1079,7 +1020,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1129,7 +1070,7 @@ X
 264
 Y
 3
-309
+279
 Width
 3
 100
@@ -1138,7 +1079,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1188,7 +1129,7 @@ X
 396
 Y
 3
-309
+279
 Width
 3
 100
@@ -1197,7 +1138,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1256,7 +1197,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1315,7 +1256,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1365,7 +1306,7 @@ X
 12
 Y
 3
-396
+366
 Width
 3
 756
@@ -1398,7 +1339,7 @@ AlignTop
 2
 1
 
-18
+17
 inv_ds_ac_voltage
 3
 1
@@ -1411,7 +1352,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-240.000000
+240
 Numeric
 inv_ds_data_filename
 3
@@ -1437,7 +1378,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-1.000000
+1
 Default
 inv_ds_eff_peak_or_nom
 3
@@ -1451,7 +1392,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-96.000000
+96
 Numeric
 inv_ds_eff_type
 3
@@ -1465,7 +1406,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-0.000000
+0
 RadioChoice
 inv_ds_eff_weighted
 3
@@ -1479,7 +1420,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-96.000000
+96
 Numeric
 inv_ds_idcmax
 3
@@ -1493,7 +1434,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-18.000000
+18
 Numeric
 inv_ds_mppt_hi
 3
@@ -1507,7 +1448,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-480.000000
+480
 Numeric
 inv_ds_mppt_low
 3
@@ -1521,21 +1462,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-250.000000
-Numeric
-inv_ds_num_mppt
-3
-1
-Number of MPPT inputs
- 
-PV Inverter (Datasheet)
-0
-0
-1
-1
-1
-1
-1.000000
+250
 Numeric
 inv_ds_paco
 3
@@ -1549,7 +1476,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-4000.000000
+4000
 Numeric
 inv_ds_pdco
 3
@@ -1563,7 +1490,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_ds_pnt
 3
@@ -1577,7 +1504,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-1.000000
+1
 Numeric
 inv_ds_pnt_suggested
 3
@@ -1591,7 +1518,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_ds_pso
 3
@@ -1605,7 +1532,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_ds_pso_suggested
 3
@@ -1619,7 +1546,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-0.000000
+0
 Numeric
 inv_ds_vdcmax
 3
@@ -1633,7 +1560,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-600.000000
+600
 Numeric
 inv_ds_vdco
 3
@@ -1647,7 +1574,7 @@ PV Inverter (Datasheet)
 1
 1
 1
-310.000000
+310
 Numeric
 
 413

@@ -1,5 +1,5 @@
 1
-528
+518
 A_sf
 1
 1
@@ -53,19 +53,19 @@ T_htf_cold_des
 1
 1
 1
-319.04
+318.888
 T_htf_hot_des
 1
 1
 1
 1
-364.544
+364.385
 T_steam_sh_out_des
 1
 1
 1
 1
-334.544
+334.385
 V_wind_10
 1
 1
@@ -77,7 +77,7 @@ W_dot_solar_des
 1
 1
 1
-64.4768
+64.4556
 adjust
 1
 5
@@ -125,48 +125,42 @@ analysis_period_warning
 4
 12
 No messages.
-annual_albedo
-1
-1
-1
-1
-0
 annual_beam
 1
 1
 1
 1
-8.00463
+7.64774
 annual_diffuse
 1
 1
 1
 1
-1.19728
+1.33861
 annual_global
 1
 1
 1
 1
-5.90535
+5.85739
 annual_snow
 1
 1
 1
 1
-inf
+0
 annual_tdry
 1
 1
 1
 1
-18.5396
+19.7504
 annual_wspd
 1
 1
 1
 1
-2.7379
+4.90092
 bop_array
 1
 2
@@ -399,8 +393,8 @@ check_max_flux
 city
 1
 4
-1
--
+7
+Daggett
 const_per_interest1
 1
 1
@@ -717,8 +711,8 @@ cost_sf_fixed
 country
 1
 4
-1
--
+3
+USA
 csp.pt.cost.bop
 1
 1
@@ -814,13 +808,13 @@ csp.pt.cost.installed_per_capacity
 1
 1
 1
-1771.28
+1771.87
 csp.pt.cost.nameplate
 1
 1
 1
 1
-64.4768
+64.4556
 csp.pt.cost.plm.fixed
 1
 1
@@ -1024,13 +1018,13 @@ csp.pt.rec.htf_c_avg
 1
 1
 1
-1.49415
+1.49413
 csp.pt.rec.htf_t_avg
 1
 1
 1
 1
-341.792
+341.636
 csp.pt.rec.htf_type
 1
 1
@@ -1048,7 +1042,7 @@ csp.pt.rec.max_flow_to_rec
 1
 1
 1
-2647.46
+2647.9
 csp.pt.rec.max_oper_frac
 1
 1
@@ -1501,7 +1495,7 @@ elev
 1
 1
 1
-561
+588
 eps_wavelength
 1
 3
@@ -1587,7 +1581,7 @@ federal_tax_rate
 2
 1
 1
-21
+35
 field_control
 1
 1
@@ -1604,8 +1598,8 @@ field_fl_props
 file_name
 1
 4
-107
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
+105
+C:\Projects\GitHub\NREL\2017.9.5\SAM-private\build_vs2017\deploy\solar_resource\USA CA Daggett (TMY2).csv
 flip_target_percent
 1
 1
@@ -1635,7 +1629,7 @@ fossil_output
 1
 1
 1
-466.749
+465.221
 fossil_spec_cost
 1
 1
@@ -2007,7 +2001,7 @@ helio_positions
 94.8864 -317.812 
 574.991 144.806 
 32.0618 -330.121 
--0.052474 -331.674 
+-0.0524741 -331.674 
 113.46 149.619 
 -304.449 -243.692 
 -570.644 251.576 
@@ -2130,7 +2124,7 @@ helio_positions
 85.1115 -285.072 
 159.52 -271.146 
 28.7589 -296.113 
--0.047068 -297.506 
+-0.0470684 -297.506 
 256.666 -238.646 
 528.488 331.097 
 -28.7589 -296.113 
@@ -2236,7 +2230,7 @@ helio_positions
 -475.325 403.721 
 475.325 403.721 
 398.34 -99.8738 
--0.042149 -266.409 
+-0.0421485 -266.409 
 186.323 -231.935 
 51.2232 -261.438 
 -253.528 -213.848 
@@ -2503,8 +2497,8 @@ helio_positions
 -104.25 -199.524 
 335.71 488.755 
 -409.201 34.7029 
-389.927 -5.64475 
--389.927 -5.64475 
+389.927 -5.64476 
+-389.927 -5.64476 
 -148.691 605.653 
 409.201 34.7029 
 -294.158 -111.527 
@@ -2967,7 +2961,7 @@ helio_positions
 214.779 430.932 
 -301.841 278.463 
 -287.051 78.1759 
--238.04 3.25121 
+-238.04 3.25122 
 -48.7152 504.319 
 267.913 369.383 
 287.051 78.1759 
@@ -2978,7 +2972,7 @@ helio_positions
 196.707 -35.9949 
 301.841 278.463 
 -185.867 444.169 
-238.04 3.25121 
+238.04 3.25122 
 -12.1439 126.19 
 -287.977 324.013 
 -196.707 -35.9949 
@@ -3053,7 +3047,7 @@ helio_positions
 189.952 414.897 
 -277.738 273.746 
 103.397 -92.858 
--0 481.49 
+-1.20276e-13 481.49 
 31.7807 480.44 
 -199.711 -10.2388 
 262.531 315.796 
@@ -3085,7 +3079,7 @@ helio_positions
 133.645 436.303 
 102.001 -75.2816 
 274.934 152.9 
--5.56448 -114.438 
+-5.56447 -114.438 
 212.153 2.89765 
 -271.409 250.388 
 -266.685 131.867 
@@ -3183,7 +3177,7 @@ helio_positions
 -161.387 -25.4011 
 -28.6126 432.546 
 -216.806 298.919 
--0 433.491 
+-1.08286e-13 433.491 
 28.6126 432.546 
 -236.383 180.646 
 -146.397 -37.7013 
@@ -3239,7 +3233,7 @@ helio_positions
 219.736 225.129 
 67.5787 -76.8987 
 -205.076 120.903 
--0 389.968 
+-9.74141e-14 389.968 
 -4.37944 -90.0668 
 -67.5787 -76.8987 
 205.076 120.903 
@@ -3353,7 +3347,7 @@ helio_positions
 166.461 55.8265 
 -79.3709 322.037 
 -112.775 -20.2216 
-0 350.47 
+2.67506e-14 350.47 
 97.4339 -31.4153 
 -165.317 112.514 
 -168.15 149.679 
@@ -3403,7 +3397,7 @@ helio_positions
 147.368 170.178 
 143.328 48.0681 
 -143.328 48.0681 
-0 314.59 
+2.4012e-14 314.59 
 -27.2115 280.642 
 54.1689 276.705 
 -42.9842 294.385 
@@ -3416,11 +3410,11 @@ helio_positions
 -149.206 66.5461 
 149.206 66.5461 
 14.3728 297.159 
-0 281.958 
+2.15212e-14 281.958 
 63.7528 258.669 
 118.091 206.708 
 112.26 241.602 
-102.279 -4.3952 
+102.279 -4.39519 
 -152.76 86.5467 
 -38.4913 263.614 
 152.76 86.5467 
@@ -3429,7 +3423,7 @@ helio_positions
 88.7577 -15.9152 
 -114.094 10.4725 
 -96.3593 82.3792 
--102.279 -4.3952 
+-102.279 -4.39519 
 -149.001 151.05 
 -124.109 187.817 
 -88.7577 -15.9152 
@@ -3567,7 +3561,7 @@ helio_positions
 -35.4003 82.9339 
 -27.2033 98.6928 
 27.2033 98.6928 
-0 102.373 
+5.68286e-15 102.373 
 -12.0899 89.3591 
 12.0899 89.3591 
 
@@ -3859,34 +3853,6 @@ ibi_uti_percent_tax_sta
 1
 1
 1
-in_location
-1
-4
-64
-Type a street address or latitude, longitude (skip for advanced)
-in_location_list
-1
-4
-3
-|||
-in_location_options
-1
-1
-1
-1
-0
-in_nsrdb_options
-1
-1
-1
-1
-0
-in_time_step
-1
-1
-1
-1
-0
 inflation_rate
 1
 1
@@ -3899,12 +3865,6 @@ insurance_rate
 1
 1
 0.5
-is_advanced
-1
-1
-1
-1
-0
 is_iscc
 1
 1
@@ -4042,7 +4002,11 @@ lat
 1
 1
 1
-34.85
+34.8667
+lbl_csp
+1
+4
+0
 lib_dispatch_factor1
 1
 1
@@ -4133,15 +4097,6 @@ lib_dispatch_sched_weekend
 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
 6 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
 
-library_folder_list
-1
-4
-0
-library_paths
-1
-4
-2
-""
 loan_moratorium
 1
 1
@@ -4153,13 +4108,13 @@ lon
 1
 1
 1
--116.78
+-116.783
 m_dot_htf_max
 1
 1
 1
 1
-9.53087e+06
+9.53246e+06
 mat_tube
 1
 1
@@ -4171,7 +4126,7 @@ max_solar_design
 1
 1
 1
-184.332
+185.294
 mera_cost1
 1
 1
@@ -4270,7 +4225,7 @@ nameplate
 1
 1
 1
-64.4768
+64.4556
 ngcc_model
 1
 1
@@ -4702,7 +4657,7 @@ real_discount_rate
 1
 1
 1
-6.4
+8.2
 rec_absorptance
 1
 1
@@ -4858,7 +4813,7 @@ periods
 3
 1
 1
-0
+2.94273e-43
 show_CapitalCostSO
 1
 1
@@ -4882,7 +4837,7 @@ show_ReturnonEquity
 1
 1
 1
-1
+0
 show_construction_period
 1
 1
@@ -4898,27 +4853,23 @@ site_spec_cost
 solar_data_file_name
 1
 4
-107
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
-solar_data_file_name_load
-1
-4
-0
+105
+C:\Projects\GitHub\NREL\2017.9.5\SAM-private\build_vs2017\deploy\solar_resource\USA CA Daggett (TMY2).csv
 solar_data_source
 1
 4
-5
-NSRDB
+4
+TMY2
 solar_resource
 1
 4
-45
-daggett_ca_34.865371_-116.783023_psmv3_60_tmy
+21
+USA CA Daggett (TMY2)
 solar_resource_file
 1
 4
-107
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
+105
+C:\Projects\GitHub\NREL\2017.9.5\SAM-private\build_vs2017\deploy\solar_resource\USA CA Daggett (TMY2).csv
 solarm
 1
 1
@@ -4932,8 +4883,8 @@ solution_mode_message
 state
 1
 4
-1
--
+2
+CA
 state_tax_rate
 1
 2
@@ -4944,13 +4895,13 @@ station_id
 1
 4
 5
-91486
+23161
 system_capacity
 1
 1
 1
 1
-64476.8
+64455.6
 system_use_lifetime_output
 1
 1
@@ -4987,10 +4938,6 @@ th_tube
 1
 1
 1.25
-third_party_ownership_message
-1
-4
-0
 tod_library
 1
 4
@@ -5067,7 +5014,7 @@ ui_wacc
 1
 1
 1
-8.0565
+7.56825
 use_specific_weather_file
 1
 1

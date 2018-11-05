@@ -105,7 +105,7 @@ bos_cost_per_kw
 1
 1
 1
-15550.3
+330
 bos_cost_per_turbine
 1
 1
@@ -117,7 +117,7 @@ bos_cost_total
 1
 1
 1
-7.46413e+08
+1.584e+07
 bos_total_budgeted_cost
 1
 1
@@ -303,7 +303,7 @@ const_per_interest1
 1
 1
 1
-0
+738720
 const_per_interest2
 1
 1
@@ -363,7 +363,7 @@ const_per_interest_total
 1
 1
 1
-0
+738720
 const_per_months1
 1
 1
@@ -424,7 +424,7 @@ const_per_percent1
 1
 1
 1
-0
+100
 const_per_percent2
 1
 1
@@ -454,13 +454,13 @@ const_per_percent_total
 1
 1
 1
-0
+100
 const_per_principal1
 1
 1
 1
 1
-0
+7.3872e+07
 const_per_principal2
 1
 1
@@ -490,13 +490,13 @@ const_per_principal_total
 1
 1
 1
-0
+7.3872e+07
 const_per_total1
 1
 1
 1
 1
-0
+1.47744e+06
 const_per_total2
 1
 1
@@ -556,7 +556,7 @@ construction_financing_cost
 1
 1
 1
-0
+1.47744e+06
 construction_time
 1
 1
@@ -598,13 +598,13 @@ cost_dev_fee_tax_liability
 1
 1
 1
-6.17814e+06
+732219
 cost_dev_fee_value
 1
 1
 1
 1
-2.41333e+07
+2.21616e+06
 cost_equity_closing
 1
 1
@@ -1347,7 +1347,7 @@ biological_resource_study_met_tower_cost
 1
 1
 1.5e+06
-biological_resource_study_project_cost
+biological_resource_study_porject_cost
 1
 1
 1
@@ -1407,18 +1407,18 @@ marine_mammal_protection_act_compliance_cost
 1
 1
 500000
-met_tower_fabrication_install_cost
-1
-1
-1
-1
-11518
 migratory_bird_treaty_compliance_cost
 1
 1
 1
 1
 500000
+mmet_tower_fabrication_install_cost
+1
+1
+1
+1
+11518
 national_historic_preservation_act_compliance_cost
 1
 1
@@ -1507,7 +1507,7 @@ detailed_obos_electrical
 1
 5
 1
-32
+31
 array_cable_1_Cost_Rate
 1
 1
@@ -1616,12 +1616,6 @@ export_cable_mass
 1
 1
 71.9
-export_cable_substation_interface_cost
-1
-1
-1
-1
-57500
 export_cable_voltage
 1
 1
@@ -1704,7 +1698,7 @@ detailed_obos_general
 1
 5
 1
-15
+14
 capital_cost_year_0
 1
 1
@@ -1759,12 +1753,6 @@ install_contingency
 1
 1
 30
-insurance_during_construction
-1
-1
-1
-1
-1
 interest_during_construction
 1
 1
@@ -1858,7 +1846,7 @@ detailed_obos_substructure
 1
 5
 1
-22
+23
 fixed_mooring_length_for_drag_embedment_anchors
 1
 1
@@ -1918,7 +1906,7 @@ monopile_diameter
 1
 1
 1
-0.01
+-999
 monopile_embedment_length
 1
 1
@@ -1930,7 +1918,7 @@ monopile_length
 1
 1
 1
-0.01
+-999
 monopile_transition_piece_cost_rate
 1
 1
@@ -1942,13 +1930,19 @@ mooring_line_cost_rate
 1
 1
 1
-399
+-999
 mooring_line_diameter
 1
 1
 1
 1
-0.09
+-999
+number_install_seasons
+1
+1
+1
+1
+1
 scour_protection_material_cost
 1
 1
@@ -2280,7 +2274,7 @@ federal_tax_rate
 2
 1
 1
-21
+28
 flip_target_percent
 1
 1
@@ -2586,7 +2580,7 @@ install_type
 1
 1
 1
-1
+0
 insurance_cost
 1
 1
@@ -2917,7 +2911,7 @@ om_capacity
 2
 1
 1
-44
+51
 om_capacity_escal
 1
 1
@@ -3187,7 +3181,7 @@ property_assessed_value
 1
 1
 1
-8.04445e+08
+7.3872e+07
 property_tax_rate
 1
 1
@@ -3283,7 +3277,7 @@ real_discount_rate
 1
 1
 1
-6.4
+5.5
 reference_capacity
 1
 1
@@ -3299,8 +3293,8 @@ reference_number_turbines
 reference_resource_file
 1
 4
-83
-C:\Projects\GitHub\NREL\release\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
+105
+C:\Projects\GitHub\NREL\2017.9.5\SAM-private\build_vs2017\deploy\wind_resource\WY Southern-Flat Lands.srw
 reference_sales_tax_percent
 1
 1
@@ -3525,25 +3519,25 @@ total_installed_cost
 1
 1
 1
-8.04445e+08
+7.3872e+07
 total_installed_cost_per_kw
 1
 1
 1
 1
-16759.3
+1539
 total_obos_cost
 1
 1
 1
 1
-7.46413e+08
+4.22371e+08
 total_obos_cost_per_kw
 1
 1
 1
 1
-15550.3
+8799.4
 towerInstallMethod
 1
 1
@@ -3597,7 +3591,7 @@ turbine_cost_per_kw
 1
 1
 1
-1094
+1209
 turbine_cost_per_turbine
 1
 1
@@ -3828,7 +3822,7 @@ wind_obos_shown
 1
 1
 1
-1
+0
 wind_resource.city
 1
 4
@@ -3854,8 +3848,8 @@ USA
 wind_resource.description
 1
 4
-80
-Southern WY - flat lands (NREL AWS Truepower representative file),,,,,,,,,,,,,,,
+65
+Southern WY - flat lands (NREL AWS Truepower representative file)
 wind_resource.elev
 1
 1
@@ -3865,8 +3859,8 @@ wind_resource.elev
 wind_resource.file
 1
 4
-83
-C:\Projects\GitHub\NREL\release\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
+105
+C:\Projects\GitHub\NREL\2017.9.5\SAM-private\build_vs2017\deploy\wind_resource\WY Southern-Flat Lands.srw
 wind_resource.lat
 1
 1
@@ -3917,12 +3911,12 @@ wind_resource.year
 1
 1
 1
-1900
+0
 wind_resource_filename
 1
 4
-83
-C:\Projects\GitHub\NREL\release\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
+105
+C:\Projects\GitHub\NREL\2017.9.5\SAM-private\build_vs2017\deploy\wind_resource\WY Southern-Flat Lands.srw
 wind_resource_model_choice
 1
 1

@@ -347,7 +347,7 @@ void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 			{
 				out.WriteString(names[i]);
 				out.PutChar('\n');
-				v->Write_text(_O);
+				v->Write_text(_O,names[i]);
 
 				if (v->Type() == VV_BINARY)
 				{
@@ -417,7 +417,7 @@ void VarTable::Write_text(wxOutputStream &_O, size_t maxdim)
 			{
 				out.WriteString(names[i]);
 				out.PutChar('\n');
-				v->Write_text(_O);
+				v->Write_text(_O,names[i]);
 
 				if (v->Type() == VV_BINARY)
 				{
@@ -708,7 +708,7 @@ bool VarValue::Read(wxInputStream &_I)
 	return in.Read8() == code;
 }
 
-void VarValue::Write_text(wxOutputStream &_O)
+void VarValue::Write_text(wxOutputStream &_O, wxString &name)
 {
 	wxExtTextOutputStream out(_O, wxEOL_UNIX);
 	size_t n;
@@ -735,6 +735,10 @@ void VarValue::Write_text(wxOutputStream &_O)
 			for (size_t c = 0; c < m_val.ncols(); c++)
 			{
 				out.WriteDouble(m_val(r, c));
+				double x = m_val(r, c);
+				if ((x!=0) && (fabs(x) < 1e-6))
+					wxLogStatus("%s has value %g", (const char *)name.c_str(), x);
+
 				/*
 								wxString sd;
 				sd.Printf("%g", m_val(r, c));
@@ -1478,7 +1482,7 @@ void VarInfo::Write_text(wxOutputStream &os)
 	out.PutChar('\n');
 	out.Write32(Flags);
 	out.PutChar('\n');
-	DefaultValue.Write_text(os);
+	DefaultValue.Write_text(os, Label);
 	if (UIObject.Len() > 0)
 		out.WriteString(UIObject);
 	else

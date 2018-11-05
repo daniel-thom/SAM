@@ -1,7 +1,34 @@
 Battery Configuration
 1000
-151
-6
+357
+15
+GroupBox
+
+1
+7
+Name
+5
+27
+Additional equipment losses
+X
+3
+9
+Y
+3
+144
+Width
+3
+985
+Height
+3
+209
+Caption
+5
+26
+Ancillary Equipment Losses
+Bold
+2
+1
 GroupBox
 
 1
@@ -29,6 +56,42 @@ Power Converters
 Bold
 2
 1
+Divider
+
+1
+9
+Name
+5
+10
+Loss label
+X
+3
+78
+Y
+3
+225
+Width
+3
+306
+Height
+3
+16
+Orientation
+3
+0
+Colour
+4
+120
+120
+120
+255
+Caption
+5
+10
+Loss input
+Bold
+2
+1
 Numeric
 
 1
@@ -51,7 +114,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -147,7 +210,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -206,7 +269,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -243,6 +306,158 @@ BackColour
 TabOrder
 3
 4294967295
+RadioChoice
+
+1
+10
+Name
+5
+16
+batt_loss_choice
+X
+3
+102
+Y
+3
+243
+Width
+3
+582
+Height
+3
+33
+Selection
+3
+0
+Items
+6
+2
+Enter average loss by operating mode
+Enter time series
+ShowCaptions
+2
+1
+Horizontal
+2
+1
+TabOrder
+3
+4294967295
+DataArray
+
+1
+9
+Name
+5
+11
+batt_losses
+X
+3
+390
+Y
+3
+279
+Width
+3
+90
+Height
+3
+24
+Mode
+3
+1
+Label
+5
+21
+Battery system losses
+Description
+5
+63
+Battery system losses are power losses that apply system output
+TabOrder
+3
+4294967295
+MonthlyFactor
+
+1
+7
+Name
+5
+20
+batt_losses_charging
+X
+3
+192
+Y
+3
+276
+Width
+3
+90
+Height
+3
+24
+Description
+5
+17
+Single or monthly
+TabOrder
+3
+4294967295
+MonthlyFactor
+
+1
+7
+Name
+5
+23
+batt_losses_discharging
+X
+3
+192
+Y
+3
+300
+Width
+3
+90
+Height
+3
+24
+Description
+5
+17
+Single or monthly
+TabOrder
+3
+4294967295
+MonthlyFactor
+
+1
+7
+Name
+5
+16
+batt_losses_idle
+X
+3
+192
+Y
+3
+324
+Width
+3
+90
+Height
+3
+24
+Description
+5
+17
+Single or monthly
+TabOrder
+3
+4294967295
 Label
 
 1
@@ -251,6 +466,51 @@ Name
 5
 8
 object 7
+X
+3
+27
+Y
+3
+168
+Width
+3
+945
+Height
+3
+63
+Caption
+5
+303
+Specify additional hourly losses not captured by power conversion losses.  Such losses might include pumps, heaters, or other equipment required by the battery system.  For AC-connected batteries, the losses are applied on the AC side.  For DC-connected batteries, the losses are applied on the DC side.
+TextColour
+4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+1
+AlignRight
+2
+0
+AlignTop
+2
+1
+Label
+
+1
+12
+Name
+5
+10
+object 710
 X
 3
 30
@@ -288,8 +548,53 @@ AlignRight
 AlignTop
 2
 1
+Label
 
+1
+12
+Name
+5
+9
+object 77
+X
+3
+630
+Y
+3
+288
+Width
+3
+336
+Height
+3
+42
+Caption
+5
+83
+Operation losses will be applied whenenver the battery is at that operational mode.
+TextColour
 4
+0
+0
+0
+255
+Bold
+2
+0
+FontSize
+3
+0
+WordWrap
+2
+1
+AlignRight
+2
+0
+AlignTop
+2
+1
+
+9
 batt_ac_dc_efficiency
 3
 1
@@ -302,7 +607,7 @@ Battery
 1
 1
 1
-99.000000
+99
 Numeric
 batt_ac_or_dc
 3
@@ -316,7 +621,7 @@ Battery
 1
 1
 1
-1.000000
+1
 RadioChoice
 batt_dc_ac_efficiency
 3
@@ -330,7 +635,7 @@ Battery
 1
 1
 1
-99.000000
+99
 Numeric
 batt_dc_dc_efficiency
 3
@@ -344,28 +649,94 @@ Battery
 1
 1
 1
-99.000000
+99
 Numeric
+batt_loss_choice
+3
+1
+Choose to input single, monthly, or time-series losses
+kW
+Battery
+0
+1
+1
+1
+1
+1
+0
+RadioChoice
+batt_losses
+3
+2
+Time series
+kW
+Battery
+0
+0
+1
+2
+1
+1
+0
+DataArray
+batt_losses_charging
+3
+2
+Charging mode
+kW
+Battery
+0
+2
+1
+2
+1
+1
+0
+MonthlyFactor
+batt_losses_discharging
+3
+2
+Discharging mode
+kW
+Battery
+0
+0
+1
+2
+1
+1
+0
+MonthlyFactor
+batt_losses_idle
+3
+2
+Idle mode
+kW
+Battery
+0
+0
+1
+2
+1
+1
+0
+MonthlyFactor
 
 0
-540
+718
 on_load{'Battery Configuration'} = define()
 {
-	if (technology() == 'Generic System')
-	{
-		value('batt_ac_or_dc',1);
-		enable('batt_ac_or_dc',0);
-		enable('batt_dc_dc_efficiency', 0);
-	}
-	else
-		enable('batt_ac_or_dc',1);
-
 	check_configuration();
+	toggle_losses();
 	on_change{'batt_ac_or_dc'};
 };
 on_change{'batt_ac_or_dc'} = define()
 { 
 	check_configuration();
+};
+on_change{'batt_loss_choice'} = define()
+{
+	toggle_losses();
 };
 function check_configuration()
 {
@@ -374,3 +745,17 @@ function check_configuration()
 	enable('batt_ac_dc_efficiency', !isdc);
 	enable('batt_dc_ac_efficiency', !isdc);
 }
+
+function toggle_losses()
+{
+	mode = ${batt_loss_choice};
+	monthly = true;
+	if (mode == 1)
+		monthly = false;
+
+	enable('batt_losses_charging', monthly);
+	enable('batt_losses_discharging', monthly);
+	enable('batt_losses_idle', monthly);
+	enable('batt_losses', !monthly);
+}
+

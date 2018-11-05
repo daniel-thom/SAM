@@ -1,7 +1,7 @@
 PV Capital Costs
-828
-732
-103
+829
+707
+100
 GroupBox
 
 1
@@ -21,7 +21,7 @@ Width
 812
 Height
 3
-341
+314
 Caption
 5
 20
@@ -42,7 +42,7 @@ X
 9
 Y
 3
-348
+321
 Width
 3
 812
@@ -69,7 +69,7 @@ X
 9
 Y
 3
-636
+609
 Width
 3
 812
@@ -96,7 +96,7 @@ X
 306
 Y
 3
-366
+339
 Width
 3
 104
@@ -141,7 +141,7 @@ X
 432
 Y
 3
-366
+339
 Width
 3
 101
@@ -186,7 +186,7 @@ X
 552
 Y
 3
-366
+339
 Width
 3
 101
@@ -231,7 +231,7 @@ X
 432
 Y
 3
-141
+111
 Width
 3
 100
@@ -276,7 +276,7 @@ X
 309
 Y
 3
-141
+111
 Width
 3
 100
@@ -321,7 +321,7 @@ X
 69
 Y
 3
-165
+135
 Width
 3
 239
@@ -366,7 +366,7 @@ X
 69
 Y
 3
-189
+159
 Width
 3
 239
@@ -411,7 +411,7 @@ X
 69
 Y
 3
-213
+183
 Width
 3
 239
@@ -456,7 +456,7 @@ X
 69
 Y
 3
-390
+363
 Width
 3
 239
@@ -501,7 +501,7 @@ X
 69
 Y
 3
-414
+387
 Width
 3
 239
@@ -546,7 +546,7 @@ X
 69
 Y
 3
-438
+411
 Width
 3
 239
@@ -594,7 +594,7 @@ Y
 84
 Width
 3
-58
+64
 Height
 3
 21
@@ -602,51 +602,6 @@ Caption
 5
 8
 $/kWh dc
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-1
-AlignTop
-2
-0
-Label
-
-1
-12
-Name
-5
-21
-battery_cost_units_kw
-X
-3
-579
-Y
-3
-105
-Width
-3
-52
-Height
-3
-24
-Caption
-5
-7
-$/kW dc
 TextColour
 4
 0
@@ -690,7 +645,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -727,65 +682,6 @@ BackColour
 TabOrder
 3
 3
-Numeric
-
-1
-16
-Name
-5
-14
-battery_per_kW
-X
-3
-501
-Y
-3
-108
-Width
-3
-76
-Height
-3
-21
-Value
-1
-0.000000
-Mode
-3
-1
-Format
-3
-0
-Decimals
-3
-2
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-6
 Numeric
 
 1
@@ -808,7 +704,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -852,72 +748,13 @@ Numeric
 Name
 5
 13
-battery_power
-X
-3
-378
-Y
-3
-108
-Width
-3
-75
-Height
-3
-21
-Value
-1
-0.000000
-Mode
-3
-1
-Format
-3
-0
-Decimals
-3
-1
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-3
-Numeric
-
-1
-16
-Name
-5
-13
 battery_total
 X
 3
 681
 Y
 3
-105
+84
 Width
 3
 127
@@ -926,7 +763,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -977,7 +814,7 @@ X
 309
 Y
 3
-165
+135
 Width
 3
 100
@@ -986,7 +823,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1036,7 +873,7 @@ X
 552
 Y
 3
-165
+135
 Width
 3
 100
@@ -1045,7 +882,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1095,7 +932,7 @@ X
 432
 Y
 3
-165
+135
 Width
 3
 100
@@ -1104,7 +941,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1154,7 +991,7 @@ X
 681
 Y
 3
-165
+135
 Width
 3
 127
@@ -1163,7 +1000,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1214,7 +1051,7 @@ X
 681
 Y
 3
-282
+252
 Width
 3
 127
@@ -1223,7 +1060,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1274,7 +1111,7 @@ X
 486
 Y
 3
-282
+252
 Width
 3
 100
@@ -1283,7 +1120,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1333,7 +1170,7 @@ X
 552
 Y
 3
-414
+387
 Width
 3
 100
@@ -1342,7 +1179,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1392,7 +1229,7 @@ X
 432
 Y
 3
-414
+387
 Width
 3
 100
@@ -1401,7 +1238,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1451,7 +1288,7 @@ X
 309
 Y
 3
-414
+387
 Width
 3
 100
@@ -1460,7 +1297,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1510,7 +1347,7 @@ X
 681
 Y
 3
-414
+387
 Width
 3
 127
@@ -1519,7 +1356,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1570,7 +1407,7 @@ X
 552
 Y
 3
-438
+411
 Width
 3
 100
@@ -1579,7 +1416,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1629,7 +1466,7 @@ X
 432
 Y
 3
-438
+411
 Width
 3
 100
@@ -1638,7 +1475,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1688,7 +1525,7 @@ X
 309
 Y
 3
-438
+411
 Width
 3
 100
@@ -1697,7 +1534,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1747,7 +1584,7 @@ X
 681
 Y
 3
-438
+411
 Width
 3
 127
@@ -1756,7 +1593,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1807,7 +1644,7 @@ X
 309
 Y
 3
-189
+159
 Width
 3
 100
@@ -1816,7 +1653,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1866,7 +1703,7 @@ X
 552
 Y
 3
-189
+159
 Width
 3
 100
@@ -1875,7 +1712,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1925,7 +1762,7 @@ X
 432
 Y
 3
-189
+159
 Width
 3
 100
@@ -1934,7 +1771,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1984,7 +1821,7 @@ X
 681
 Y
 3
-189
+159
 Width
 3
 127
@@ -1993,7 +1830,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2044,7 +1881,7 @@ X
 309
 Y
 3
-213
+183
 Width
 3
 100
@@ -2053,7 +1890,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2103,7 +1940,7 @@ X
 552
 Y
 3
-213
+183
 Width
 3
 100
@@ -2112,7 +1949,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2162,7 +1999,7 @@ X
 432
 Y
 3
-213
+183
 Width
 3
 100
@@ -2171,7 +2008,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2221,7 +2058,7 @@ X
 681
 Y
 3
-213
+183
 Width
 3
 127
@@ -2230,7 +2067,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2281,7 +2118,7 @@ X
 684
 Y
 3
-687
+660
 Width
 3
 127
@@ -2290,7 +2127,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2383,7 +2220,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -2442,7 +2279,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2501,7 +2338,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2561,7 +2398,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2611,7 +2448,7 @@ X
 189
 Y
 3
-474
+447
 Width
 3
 100
@@ -2620,7 +2457,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2670,7 +2507,7 @@ X
 552
 Y
 3
-498
+471
 Width
 3
 100
@@ -2679,7 +2516,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2729,7 +2566,7 @@ X
 189
 Y
 3
-498
+471
 Width
 3
 100
@@ -2738,7 +2575,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2790,7 +2627,7 @@ X
 432
 Y
 3
-498
+471
 Width
 3
 100
@@ -2799,7 +2636,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2849,7 +2686,7 @@ X
 309
 Y
 3
-498
+471
 Width
 3
 100
@@ -2858,7 +2695,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2908,7 +2745,7 @@ X
 681
 Y
 3
-498
+471
 Width
 3
 127
@@ -2917,7 +2754,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2968,7 +2805,7 @@ X
 552
 Y
 3
-522
+495
 Width
 3
 100
@@ -2977,7 +2814,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3027,7 +2864,7 @@ X
 189
 Y
 3
-522
+495
 Width
 3
 100
@@ -3036,7 +2873,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3088,7 +2925,7 @@ X
 432
 Y
 3
-522
+495
 Width
 3
 100
@@ -3097,7 +2934,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3147,7 +2984,7 @@ X
 309
 Y
 3
-522
+495
 Width
 3
 100
@@ -3156,7 +2993,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3206,7 +3043,7 @@ X
 681
 Y
 3
-522
+495
 Width
 3
 127
@@ -3215,7 +3052,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3266,7 +3103,7 @@ X
 45
 Y
 3
-660
+633
 Width
 3
 350
@@ -3311,7 +3148,7 @@ X
 552
 Y
 3
-141
+111
 Width
 3
 100
@@ -3356,7 +3193,7 @@ X
 537
 Y
 3
-189
+159
 Width
 3
 12
@@ -3401,7 +3238,7 @@ X
 294
 Y
 3
-507
+480
 Width
 3
 12
@@ -3446,7 +3283,7 @@ X
 18
 Y
 3
-522
+495
 Width
 3
 169
@@ -3491,7 +3328,7 @@ X
 63
 Y
 3
-498
+471
 Width
 3
 124
@@ -3576,7 +3413,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -3635,7 +3472,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3694,7 +3531,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3754,7 +3591,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -3804,7 +3641,7 @@ X
 69
 Y
 3
-459
+432
 Width
 3
 582
@@ -3840,7 +3677,7 @@ X
 681
 Y
 3
-585
+558
 Width
 3
 127
@@ -3875,7 +3712,7 @@ X
 681
 Y
 3
-303
+273
 Width
 3
 127
@@ -3910,7 +3747,7 @@ X
 69
 Y
 3
-267
+237
 Width
 3
 738
@@ -3946,7 +3783,7 @@ X
 681
 Y
 3
-234
+204
 Width
 3
 127
@@ -3981,7 +3818,7 @@ X
 72
 Y
 3
-546
+519
 Width
 3
 579
@@ -4017,7 +3854,7 @@ X
 471
 Y
 3
-663
+636
 Width
 3
 210
@@ -4062,7 +3899,7 @@ X
 468
 Y
 3
-318
+288
 Width
 3
 210
@@ -4107,7 +3944,7 @@ X
 417
 Y
 3
-507
+480
 Width
 3
 12
@@ -4152,7 +3989,7 @@ X
 660
 Y
 3
-414
+387
 Width
 3
 12
@@ -4197,7 +4034,7 @@ X
 537
 Y
 3
-414
+387
 Width
 3
 12
@@ -4242,7 +4079,7 @@ X
 417
 Y
 3
-414
+387
 Width
 3
 12
@@ -4287,7 +4124,7 @@ X
 657
 Y
 3
-189
+159
 Width
 3
 12
@@ -4332,7 +4169,7 @@ X
 414
 Y
 3
-189
+159
 Width
 3
 12
@@ -4377,7 +4214,7 @@ X
 393
 Y
 3
-282
+252
 Width
 3
 90
@@ -4422,7 +4259,7 @@ X
 468
 Y
 3
-600
+573
 Width
 3
 210
@@ -4467,7 +4304,7 @@ X
 588
 Y
 3
-282
+252
 Width
 3
 90
@@ -4512,7 +4349,7 @@ X
 537
 Y
 3
-507
+480
 Width
 3
 12
@@ -4557,7 +4394,7 @@ X
 660
 Y
 3
-507
+480
 Width
 3
 12
@@ -4611,7 +4448,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -4670,7 +4507,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -4720,7 +4557,7 @@ X
 552
 Y
 3
-390
+363
 Width
 3
 100
@@ -4729,7 +4566,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -4779,7 +4616,7 @@ X
 432
 Y
 3
-390
+363
 Width
 3
 100
@@ -4788,7 +4625,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -4838,7 +4675,7 @@ X
 309
 Y
 3
-390
+363
 Width
 3
 100
@@ -4847,7 +4684,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -4897,7 +4734,7 @@ X
 681
 Y
 3
-390
+363
 Width
 3
 127
@@ -4906,7 +4743,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -4957,7 +4794,7 @@ X
 285
 Y
 3
-561
+534
 Width
 3
 100
@@ -4966,7 +4803,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5016,7 +4853,7 @@ X
 681
 Y
 3
-561
+534
 Width
 3
 127
@@ -5025,7 +4862,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5076,7 +4913,7 @@ X
 492
 Y
 3
-561
+534
 Width
 3
 100
@@ -5085,7 +4922,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5135,7 +4972,7 @@ X
 681
 Y
 3
-249
+219
 Width
 3
 127
@@ -5144,7 +4981,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5195,7 +5032,7 @@ X
 681
 Y
 3
-318
+288
 Width
 3
 127
@@ -5204,7 +5041,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5255,7 +5092,7 @@ X
 681
 Y
 3
-600
+573
 Width
 3
 127
@@ -5264,7 +5101,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5315,7 +5152,7 @@ X
 684
 Y
 3
-663
+636
 Width
 3
 127
@@ -5324,7 +5161,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -5363,12 +5200,12 @@ TabOrder
 3
 52
 
-64
+63
 battery_energy
 3
 1
-Battery pack
-kWh
+Battery bank
+kWh dc
 Capital Costs
 0
 8
@@ -5376,21 +5213,7 @@ Capital Costs
 1
 1
 1
-0.000000
-Numeric
-battery_per_kW
-3
-1
-Battery cost per kW
-$/kW
-Capital Costs
 0
-3
-1
-1
-1
-1
-600.000000
 Numeric
 battery_per_kWh
 3
@@ -5404,21 +5227,7 @@ Capital Costs
 1
 1
 1
-600.000000
-Numeric
-battery_power
-3
-1
-Battery power
-kW
-Capital Costs
-0
-8
-1
-1
-1
-1
-0.000000
+600
 Numeric
 battery_total
 3
@@ -5432,7 +5241,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 bos_equip_fixed
 3
@@ -5446,7 +5255,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 bos_equip_perarea
 3
@@ -5460,7 +5269,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 bos_equip_perwatt
 3
@@ -5474,7 +5283,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 bos_equip_total
 3
@@ -5488,7 +5297,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 contingency
 3
@@ -5502,7 +5311,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 contingency_percent
 3
@@ -5516,7 +5325,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 engr_fixed
 3
@@ -5530,7 +5339,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 engr_per_watt
 3
@@ -5544,7 +5353,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 engr_percent
 3
@@ -5558,7 +5367,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 engr_total
 3
@@ -5572,7 +5381,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 grid_fixed
 3
@@ -5586,7 +5395,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 grid_per_watt
 3
@@ -5600,7 +5409,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 grid_percent
 3
@@ -5614,7 +5423,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 grid_total
 3
@@ -5628,7 +5437,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_labor_fixed
 3
@@ -5642,7 +5451,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_labor_perarea
 3
@@ -5656,7 +5465,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_labor_perwatt
 3
@@ -5670,7 +5479,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_labor_total
 3
@@ -5684,7 +5493,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_margin_fixed
 3
@@ -5698,7 +5507,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_margin_perarea
 3
@@ -5712,7 +5521,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_margin_perwatt
 3
@@ -5726,7 +5535,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 install_margin_total
 3
@@ -5740,7 +5549,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 installed_per_capacity
 3
@@ -5754,7 +5563,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 inverter_costunits
 3
@@ -5769,7 +5578,7 @@ $/Wac|$/Wdc|$/Unit
 1
 1
 1
-0.000000
+0
 Choice
 inverter_num_units
 3
@@ -5783,7 +5592,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 inverter_power
 3
@@ -5797,7 +5606,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 inverter_total
 3
@@ -5811,7 +5620,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 inverterarray_power
 3
@@ -5825,7 +5634,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 land_area_value
 3
@@ -5839,7 +5648,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 land_fixed
 3
@@ -5853,7 +5662,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 land_per_acre
 3
@@ -5867,7 +5676,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 land_per_watt
 3
@@ -5881,7 +5690,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 land_percent
 3
@@ -5895,7 +5704,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 land_total
 3
@@ -5909,7 +5718,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 landprep_fixed
 3
@@ -5923,7 +5732,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 landprep_per_acre
 3
@@ -5937,7 +5746,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 landprep_per_watt
 3
@@ -5951,7 +5760,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 landprep_percent
 3
@@ -5965,7 +5774,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 landprep_total
 3
@@ -5979,7 +5788,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 module_costunits
 3
@@ -5994,7 +5803,7 @@ $/Wdc|$/Unit
 1
 1
 1
-0.000000
+0
 Choice
 module_num_units
 3
@@ -6008,7 +5817,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 module_power
 3
@@ -6022,7 +5831,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 module_total
 3
@@ -6036,7 +5845,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 modulearray_area
 3
@@ -6050,7 +5859,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Default
 modulearray_power
 3
@@ -6064,7 +5873,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 per_inverter
 3
@@ -6078,7 +5887,7 @@ Capital Costs
 1
 1
 1
-0.710000
+0.71
 Numeric
 per_module
 3
@@ -6092,7 +5901,7 @@ Capital Costs
 1
 1
 1
-4.840000
+4.84
 Numeric
 permitting_fixed
 3
@@ -6106,7 +5915,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 permitting_per_watt
 3
@@ -6120,7 +5929,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 permitting_percent
 3
@@ -6134,7 +5943,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 permitting_total
 3
@@ -6148,7 +5957,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 sales_tax_percent
 3
@@ -6162,7 +5971,7 @@ Capital Costs
 1
 1
 1
-100.000000
+100
 Numeric
 sales_tax_total
 3
@@ -6176,7 +5985,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 sales_tax_value
 3
@@ -6190,7 +5999,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 subtotal_direct
 3
@@ -6204,7 +6013,21 @@ Capital Costs
 1
 1
 1
-0.000000
+0
+Default
+system_use_lifetime_output
+3
+1
+ 
+ 
+Capital Costs
+0
+8
+1
+1
+1
+1
+0
 Default
 system_use_recapitalization
 3
@@ -6218,7 +6041,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Default
 total_direct_cost
 3
@@ -6232,7 +6055,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 total_indirect_cost
 3
@@ -6246,7 +6069,7 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 total_installed_cost
 3
@@ -6260,10 +6083,12 @@ Capital Costs
 1
 1
 1
-0.000000
+0
 Numeric
 
-5915
+5660
+
+
 equations{ 'engr_total' } = define() {
 	return ${engr_percent}/100*${total_direct_cost}
 			+ ${modulearray_power}*1000*${engr_per_watt} 
@@ -6360,7 +6185,7 @@ equations{ 'install_labor_total' } = define() {
 equations{ 'module_num_units' } = define() {
 	if ( technology() == "PVWatts" ) return 1;
 	elseif ( technology() == "PVWatts_battery" ) return 1;
-	else return ${total_modules};
+	else return ${modules_per_string}*${strings_in_parallel};
 };
 
 equations{ 'landprep_total' } = define() {
@@ -6436,15 +6261,21 @@ equations{ 'total_direct_cost' } = define() {
 		+${install_margin_total}
 		+${contingency}; };
 
+equations { 'system_use_lifetime_output' } = define () {
+	if( technology() == "PVWatts" )
+		return 0;
+	else
+		return ${pv_lifetime_simulation};
+	};
 equations { 'system_use_recapitalization' } = define () {
 	if( technology() == "PVWatts" )
 		return 0;
 	else
-		return ${system_use_lifetime_output};
+		return ${pv_lifetime_simulation};
 	};
 
 equations { 'battery_total' } = define () {
-	return ${battery_energy}*${battery_per_kWh} + ${battery_power}*${battery_per_kW};};
+	return ${battery_energy}*${battery_per_kWh};};
 	
 equations { 'battery_energy' } = define () {
 	if( technology() == "Flat Plate PV" )
@@ -6461,22 +6292,8 @@ equations { 'battery_energy' } = define () {
 	else
 		return 0;
 };
-equations { 'battery_power' } = define () {
-	if( technology() == "Flat Plate PV" )
-			return ?${en_batt}
-				[0,	${batt_power_discharge_max}];
-	else if ((technology() == "PVWatts" ) && 
-		  ( (financing() == 'Residential') || 
-			(financing() == 'Commercial') || 
-		    (financing() == 'Third Party')))
-		{
-			return ?${batt_simple_enable}
-				[0,	${batt_simple_kw}];
-		}
-	else
-		return 0;
-};
-1289
+
+1216
 on_load{"PV Capital Costs"}=define()
 {
 	f = financing();
@@ -6488,8 +6305,6 @@ on_load{"PV Capital Costs"}=define()
 	
 	show( "battery_energy", show_batt);
 	show( "battery_per_kWh", show_batt);
-	show( "battery_power", show_batt);
-	show( "battery_per_kW", show_batt);
 	show( "battery_cost_units", show_batt);
 	show( "battery_total", show_batt);
 		

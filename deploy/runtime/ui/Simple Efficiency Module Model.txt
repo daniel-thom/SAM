@@ -1,34 +1,7 @@
 Simple Efficiency Module Model
 564
-1054
-43
-GroupBox
-
-1
-7
-Name
-5
-13
-BifacialSpecs
-X
-3
-12
-Y
-3
-333
-Width
-3
-544
-Height
-3
-140
-Caption
-5
-23
-Bifacial Specifications
-Bold
-2
-1
+914
+38
 GroupBox
 
 1
@@ -66,10 +39,10 @@ Name
 GroupBox2
 X
 3
-9
+12
 Y
 3
-477
+339
 Width
 3
 545
@@ -89,14 +62,14 @@ GroupBox
 7
 Name
 5
-11
-GroupBox213
+10
+GroupBox27
 X
 3
 12
 Y
 3
-936
+795
 Width
 3
 546
@@ -123,7 +96,7 @@ X
 129
 Y
 3
-501
+366
 Width
 3
 113
@@ -168,7 +141,7 @@ X
 246
 Y
 3
-501
+366
 Width
 3
 98
@@ -258,7 +231,7 @@ X
 33
 Y
 3
-705
+570
 Width
 3
 494
@@ -303,7 +276,7 @@ X
 33
 Y
 3
-747
+612
 Width
 3
 494
@@ -348,7 +321,7 @@ X
 33
 Y
 3
-675
+540
 Width
 3
 494
@@ -438,7 +411,7 @@ X
 360
 Y
 3
-501
+366
 Width
 3
 164
@@ -483,7 +456,7 @@ X
 186
 Y
 3
-963
+822
 Width
 3
 153
@@ -510,7 +483,7 @@ X
 27
 Y
 3
-963
+822
 Width
 3
 153
@@ -537,7 +510,7 @@ X
 21
 Y
 3
-900
+759
 Width
 3
 531
@@ -568,7 +541,7 @@ X
 12
 Y
 3
-816
+675
 Width
 3
 546
@@ -595,7 +568,7 @@ X
 21
 Y
 3
-834
+693
 Width
 3
 531
@@ -649,7 +622,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -708,7 +681,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -767,7 +740,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -804,183 +777,6 @@ BackColour
 TabOrder
 3
 0
-Numeric
-
-1
-16
-Name
-5
-36
-spe_bifacial_ground_clearance_height
-X
-3
-207
-Y
-3
-426
-Width
-3
-90
-Height
-3
-24
-Value
-1
-0.000000
-Mode
-3
-1
-Format
-3
-1
-Decimals
-3
-3
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-4294967295
-Numeric
-
-1
-16
-Name
-5
-32
-spe_bifacial_transmission_factor
-X
-3
-207
-Y
-3
-378
-Width
-3
-90
-Height
-3
-24
-Value
-1
-0.000000
-Mode
-3
-1
-Format
-3
-1
-Decimals
-3
-3
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-4294967295
-Numeric
-
-1
-16
-Name
-5
-15
-spe_bifaciality
-X
-3
-207
-Y
-3
-402
-Width
-3
-90
-Height
-3
-24
-Value
-1
-0.000000
-Mode
-3
-1
-Format
-3
-1
-Decimals
-3
-3
-Prefix
-5
-0
-Suffix
-5
-0
-ThousandsSep
-2
-1
-Editable
-2
-1
-ForeColour
-4
-0
-0
-0
-255
-BackColour
-4
-255
-255
-255
-255
-TabOrder
-3
-4294967295
 Numeric
 
 1
@@ -1003,7 +799,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1053,7 +849,7 @@ X
 18
 Y
 3
-1011
+870
 Width
 3
 537
@@ -1094,7 +890,7 @@ X
 246
 Y
 3
-522
+387
 Width
 3
 100
@@ -1103,7 +899,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1153,7 +949,7 @@ X
 246
 Y
 3
-543
+408
 Width
 3
 100
@@ -1162,7 +958,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1212,7 +1008,7 @@ X
 246
 Y
 3
-564
+429
 Width
 3
 100
@@ -1221,7 +1017,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1271,7 +1067,7 @@ X
 246
 Y
 3
-585
+450
 Width
 3
 100
@@ -1280,7 +1076,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1330,7 +1126,7 @@ X
 246
 Y
 3
-606
+471
 Width
 3
 100
@@ -1339,7 +1135,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1389,7 +1185,7 @@ X
 246
 Y
 3
-639
+504
 Width
 3
 100
@@ -1398,7 +1194,7 @@ Height
 21
 Value
 1
-1.000000
+1
 Mode
 3
 1
@@ -1435,36 +1231,6 @@ BackColour
 TabOrder
 3
 0
-CheckBox
-
-1
-8
-Name
-5
-15
-spe_is_bifacial
-X
-3
-78
-Y
-3
-351
-Width
-3
-147
-Height
-3
-24
-Caption
-5
-18
-Module is bifacial
-State
-2
-0
-TabOrder
-3
-4294967295
 Choice
 
 1
@@ -1522,7 +1288,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1572,7 +1338,7 @@ X
 129
 Y
 3
-522
+387
 Width
 3
 100
@@ -1581,7 +1347,7 @@ Height
 21
 Value
 1
-200.000000
+200
 Mode
 3
 1
@@ -1631,7 +1397,7 @@ X
 129
 Y
 3
-543
+408
 Width
 3
 100
@@ -1640,7 +1406,7 @@ Height
 21
 Value
 1
-400.000000
+400
 Mode
 3
 1
@@ -1690,7 +1456,7 @@ X
 129
 Y
 3
-564
+429
 Width
 3
 100
@@ -1699,7 +1465,7 @@ Height
 21
 Value
 1
-600.000000
+600
 Mode
 3
 1
@@ -1749,7 +1515,7 @@ X
 129
 Y
 3
-585
+450
 Width
 3
 100
@@ -1758,7 +1524,7 @@ Height
 21
 Value
 1
-800.000000
+800
 Mode
 3
 1
@@ -1808,7 +1574,7 @@ X
 129
 Y
 3
-606
+471
 Width
 3
 100
@@ -1817,7 +1583,7 @@ Height
 21
 Value
 1
-1000.000000
+1000
 Mode
 3
 1
@@ -1867,7 +1633,7 @@ X
 363
 Y
 3
-522
+387
 Width
 3
 38
@@ -1916,7 +1682,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1975,7 +1741,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2034,7 +1800,7 @@ Height
 24
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2072,7 +1838,7 @@ TabOrder
 3
 3
 
-26
+22
 spe_a
 3
 1
@@ -2085,7 +1851,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-0.000000
+0
 Numeric
 spe_area
 3
@@ -2099,7 +1865,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-0.740740
+0.74074
 Numeric
 spe_b
 3
@@ -2113,50 +1879,8 @@ PV Module (Simple Efficiency)
 1
 1
 1
-0.000000
+0
 Numeric
-spe_bifacial_ground_clearance_height
-3
-1
-Ground clearance height
-m
-PV Module (Simple Efficiency)
-0
-2
-1
-1
-1
-1
-1.000000
-Default
-spe_bifacial_transmission_factor
-3
-1
-Transmission fraction
-[0-1]
-PV Module (Simple Efficiency)
-0
-2
-1
-1
-1
-1
-0.013000
-Default
-spe_bifaciality
-3
-1
-Bifaciality
-[0-1]
-PV Module (Simple Efficiency)
-0
-2
-1
-1
-1
-1
-0.650000
-Default
 spe_dT
 3
 1
@@ -2169,7 +1893,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-0.000000
+0
 Numeric
 spe_data_filename
 3
@@ -2181,7 +1905,8 @@ spe_data_filename
 0
 1
 4
-0
+9
+<invalid>
 TextEntry
 spe_eff0
 3
@@ -2195,7 +1920,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-13.500000
+13.5
 Numeric
 spe_eff1
 3
@@ -2209,7 +1934,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-13.500000
+13.5
 Numeric
 spe_eff2
 3
@@ -2223,7 +1948,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-13.500000
+13.5
 Numeric
 spe_eff3
 3
@@ -2237,7 +1962,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-13.500000
+13.5
 Numeric
 spe_eff4
 3
@@ -2251,7 +1976,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-13.500000
+13.5
 Numeric
 spe_fd
 3
@@ -2265,22 +1990,8 @@ PV Module (Simple Efficiency)
 1
 1
 1
-1.000000
+1
 Numeric
-spe_is_bifacial
-3
-1
- 
- 
-PV Module (Simple Efficiency)
-0
-2
-1
-1
-1
-1
-0.000000
-Default
 spe_module_structure
 3
 1
@@ -2294,7 +2005,7 @@ Glass/Cell/Polymer Sheet - Open Rack|Glass/Cell/Glass - Open Rack|Polymer/Thin F
 1
 1
 1
-0.000000
+0
 Choice
 spe_power
 3
@@ -2308,7 +2019,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-100.000000
+100
 Numeric
 spe_rad0
 3
@@ -2322,7 +2033,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-200.000000
+200
 Numeric
 spe_rad1
 3
@@ -2336,7 +2047,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-400.000000
+400
 Numeric
 spe_rad2
 3
@@ -2350,7 +2061,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-600.000000
+600
 Numeric
 spe_rad3
 3
@@ -2364,7 +2075,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-800.000000
+800
 Numeric
 spe_rad4
 3
@@ -2378,7 +2089,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-1000.000000
+1000
 Numeric
 spe_reference
 3
@@ -2392,7 +2103,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-4.000000
+4
 RadioChoice
 spe_temp_coeff
 3
@@ -2406,7 +2117,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
--0.500000
+-0.5
 Numeric
 spe_vmp
 3
@@ -2420,7 +2131,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-30.000000
+30
 Numeric
 spe_voc
 3
@@ -2434,7 +2145,7 @@ PV Module (Simple Efficiency)
 1
 1
 1
-36.000000
+36
 Numeric
 
 236
@@ -2448,23 +2159,9 @@ equations{ 'spe_power' } = define() {
 	${spe_eff4}/100*${spe_rad4}
 ] 
 	* ${spe_area}; };
-2056
-function toggle_spe_bifacial()
-{
-	enable('spe_bifaciality', value('spe_is_bifacial'));
-	enable('spe_bifacial_transmission_factor', value('spe_is_bifacial'));
-	enable('spe_bifacial_ground_clearance_height', value('spe_is_bifacial'));
-}
+1690
 on_load{'Simple Efficiency Module Model'} = define() {
-	
-	toggle_spe_bifacial();
-	
 	on_change{'spe_module_structure'} ();
-	on_change{'spe_is_bifacial'}();
-};
-
-on_change{'spe_is_bifacial'} = define() {
-	toggle_spe_bifacial();
 };
 
 on_change{'spe_module_structure'} = define() {

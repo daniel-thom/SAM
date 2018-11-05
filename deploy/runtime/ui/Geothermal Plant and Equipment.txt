@@ -1,35 +1,7 @@
 Geothermal Plant and Equipment
-909
-699
-43
-CheckBox
-
-1
-8
-Name
-5
-0
-X
-3
-0
-Y
-3
-0
-Width
-3
-0
-Height
-3
-0
-Caption
-5
-0
-State
-2
-0
-TabOrder
-3
-0
+826
+705
+41
 GroupBox
 
 1
@@ -226,7 +198,7 @@ Y
 87
 Width
 3
-185
+239
 Height
 3
 21
@@ -300,7 +272,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -396,7 +368,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -562,7 +534,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -621,7 +593,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -680,7 +652,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -727,7 +699,7 @@ Name
 geotherm.egs_design_temp_autoselect
 X
 3
-543
+558
 Y
 3
 159
@@ -769,7 +741,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -869,7 +841,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -928,7 +900,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -965,50 +937,6 @@ BackColour
 TabOrder
 3
 4294967295
-Label
-
-1
-12
-Name
-5
-22
-geotherm_flash_message
-X
-3
-252
-Y
-3
-87
-Width
-3
-267
-Height
-3
-24
-Caption
-5
-0
-TextColour
-4
-255
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-0
-AlignTop
-2
-0
 Numeric
 
 1
@@ -1031,7 +959,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1090,7 +1018,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1149,7 +1077,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1208,7 +1136,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 0
@@ -1267,7 +1195,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1356,7 +1284,7 @@ Label
 Name
 5
 9
-object 77
+object 74
 X
 3
 444
@@ -1416,7 +1344,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1475,7 +1403,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1534,7 +1462,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1593,7 +1521,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1652,7 +1580,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1711,7 +1639,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1800,7 +1728,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1859,7 +1787,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1918,7 +1846,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -1977,7 +1905,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2036,7 +1964,7 @@ Height
 21
 Value
 1
-0.000000
+0
 Mode
 3
 1
@@ -2074,7 +2002,7 @@ TabOrder
 3
 10
 
-38
+37
 adjust
 3
 5
@@ -2100,7 +2028,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-14.700000
+14.7
 Numeric
 analysis_type
 3
@@ -2114,7 +2042,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 RadioChoice
 casing_size
 3
@@ -2128,7 +2056,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-9.625000
+9.625
 Numeric
 conversion_subtype
 3
@@ -2143,7 +2071,7 @@ Unconstrained Single Flash|Constrained Single Flash|Unconstrained Dual Flash|Con
 1
 1
 1
-0.000000
+0
 Choice
 conversion_type
 3
@@ -2158,7 +2086,7 @@ Binary|Flash
 1
 1
 1
-0.000000
+0
 RadioChoice
 decline_type
 3
@@ -2172,7 +2100,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 RadioChoice
 delta_pressure_equip
 3
@@ -2186,7 +2114,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-25.000000
+25
 Numeric
 design_temp
 3
@@ -2200,7 +2128,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 excess_pressure_pump
 3
@@ -2214,22 +2142,8 @@ Geothermal Plant and Equipment
 1
 1
 1
-50.759998
+50.76
 Numeric
-gen
-3
-2
-System Generation Calculated
-kW
-Geothermal Plant and Equipment
-0
-1
-1
-2
-1
-1
-0.000000
-Default
 geotherm.conversion_type_name
 3
 4
@@ -2255,7 +2169,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-1.000000
+1
 CheckBox
 geotherm.egs_design_temp_input
 3
@@ -2269,7 +2183,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-200.000000
+200
 Numeric
 geotherm.errors1
 3
@@ -2295,7 +2209,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 geotherm.plant_efficiency_used
 3
@@ -2309,7 +2223,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 geotherm.total_flow_gpm
 3
@@ -2323,7 +2237,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Default
 geotherm.total_flow_kg_per_s
 3
@@ -2337,7 +2251,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Default
 gross_output
 3
@@ -2351,7 +2265,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 inj_well_diam
 3
@@ -2365,7 +2279,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-10.000000
+10
 Numeric
 nameplate
 3
@@ -2379,7 +2293,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-15000.000000
+15000
 Numeric
 num_wells
 3
@@ -2393,7 +2307,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-3.000000
+3
 Numeric
 num_wells_getem
 3
@@ -2407,7 +2321,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 plant_efficiency_input
 3
@@ -2421,7 +2335,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-95.000000
+95
 Numeric
 pump_depth
 3
@@ -2435,7 +2349,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 pump_efficiency
 3
@@ -2449,7 +2363,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-60.000000
+60
 Numeric
 pump_size_hp
 3
@@ -2463,7 +2377,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 pump_work
 3
@@ -2477,7 +2391,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 specified_pump_work_amount
 3
@@ -2491,7 +2405,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Numeric
 specify_pump_work
 3
@@ -2505,7 +2419,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 CheckBox
 system_capacity
 3
@@ -2519,7 +2433,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Default
 temp_decline_max
 3
@@ -2533,7 +2447,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-30.000000
+30
 Numeric
 temp_decline_rate
 3
@@ -2547,7 +2461,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.300000
+0.3
 Numeric
 ui_calculations_only
 3
@@ -2562,7 +2476,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-0.000000
+0
 Default
 well_diameter
 3
@@ -2576,7 +2490,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-10.000000
+10
 Numeric
 well_flow_rate
 3
@@ -2590,7 +2504,7 @@ Geothermal Plant and Equipment
 1
 1
 1
-70.000000
+70
 Numeric
 wet_bulb_temp
 3
@@ -2604,10 +2518,10 @@ Geothermal Plant and Equipment
 1
 1
 1
-15.000000
+15
 Numeric
 
-4667
+4668
 
 equations{ 'geotherm.total_flow_kg_per_s' } = define() {
 	return ${well_flow_rate} * ${num_wells_getem};
@@ -2635,6 +2549,7 @@ equations{ 'ui_calculations_only' } = define() {
 equations{ '$MIMO$ geothermal' } = define() {
     obj = ssc_create();
 	ssc_var( obj, 'ui_calculations_only', 1 ); // set to 1 so model only does UI calculations (much faster)
+
 	ssc_var( obj, 'system_capacity', ${nameplate} );
 	ssc_var( obj, 'adjust:constant', 0.0 );
 
@@ -2719,34 +2634,20 @@ equations{ 'system_capacity' } = define() {
 	return ${gross_output}*1000;}; // MW to kW
 //	return ${geotherm.net_output}*1000;}; // MW to kW > 100% with net output
 
-1092
+799
 function update_controls()
 {
-	flash_message();
-	show('geotherm_flash_message', ${conversion_type});
-
 	// enable/disable all the appropriate controls on the page according to
 	// the user's selections
-	enable('plant_efficiency_input', !${conversion_type});
-	enable("decline_type", ${resource_type} );
-	enable("nameplate", !${analysis_type} );
-	enable("num_wells", ${analysis_type} );
-	enable("conversion_subtype", ${conversion_type});
-	enable("specified_pump_work_amount", ${specify_pump_work} );
+	enable("decline_type", (${resource_type}!=0) );
+	enable("nameplate", (${analysis_type}==0) );
+	enable("num_wells", (${analysis_type}==1) );
+	enable("conversion_subtype", (${conversion_type}!=0) );
+	enable("specified_pump_work_amount", (${specify_pump_work}==1) );
 
 	// if this is a hydrothermal plant, set this to 'specify decline rate'
 	if (${resource_type}==0)
 		value("decline_type", 0);
-}
-
-function flash_message()
-{
-	message = '';
-	
-	if (${conversion_type})
-		message = 'Flash plant efficiency calculated internally';
-	
-	property( 'geotherm_flash_message','Caption',message );
 }
 
 on_load{"Geothermal Plant and Equipment"}=define() {
@@ -2764,3 +2665,4 @@ on_change{'analysis_type'} = define() {
 on_change{'specify_pump_work'} = define() {
 	update_controls();
 };
+

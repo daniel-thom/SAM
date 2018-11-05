@@ -140,7 +140,7 @@ public:
 	void Write(wxOutputStream &);
 	bool Read(wxInputStream &);
 
-	void Write_text(wxOutputStream &);
+	void Write_text(wxOutputStream &, wxString &);
 	bool Read_text(wxInputStream &);
 
 	int Type() const;

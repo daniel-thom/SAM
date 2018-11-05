@@ -111,7 +111,7 @@ bos_cost_per_kw
 1
 1
 1
-2996
+2995
 bos_cost_per_turbine
 1
 1
@@ -1435,7 +1435,7 @@ monopile_diameter
 1
 1
 1
-0.01
+-999
 monopile_embedment_length
 1
 1
@@ -1447,7 +1447,7 @@ monopile_length
 1
 1
 1
-0.01
+-999
 monopile_transition_piece_cost_rate
 1
 1
@@ -1459,13 +1459,13 @@ mooring_line_cost_rate
 1
 1
 1
-399
+-999
 mooring_line_diameter
 1
 1
 1
 1
-0.09
+-999
 scour_protection_material_cost
 1
 1
@@ -1702,7 +1702,7 @@ federal_tax_rate
 2
 1
 1
-20
+28
 foundation_cost
 1
 1
@@ -1996,7 +1996,7 @@ install_type
 1
 1
 1
-1
+0
 insurance_cost
 1
 1
@@ -2212,8 +2212,8 @@ number_of_turbines
 obos_warning
 1
 4
-64
-Offshore BOS cost model failed with error: fail(nTurb, min=2): 1
+52
+Offshore BOS model requires a minimum of 2 turbines.
 om_building_size
 1
 1
@@ -2243,7 +2243,7 @@ om_capacity
 2
 1
 1
-37
+51
 om_capacity_escal
 1
 1
@@ -2679,8 +2679,8 @@ reference_number_turbines
 reference_resource_file
 1
 4
-83
-C:\Projects\GitHub\NREL\release\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
+56
+C:\SAM\2017.9.5\wind_resource\WY Southern-Flat Lands.srw
 reference_sales_tax_percent
 1
 1
@@ -2920,7 +2920,7 @@ turbine_cost_per_kw
 1
 1
 1
-4393
+2765
 turbine_cost_per_turbine
 1
 1
@@ -2968,7 +2968,7 @@ ui_wacc
 1
 1
 1
-5.58
+5.022
 ur_annual_min_charge
 1
 1
@@ -3448,7 +3448,7 @@ wind_obos_shown
 1
 1
 1
-1
+0
 wind_resource.city
 1
 4
@@ -3474,8 +3474,8 @@ USA
 wind_resource.description
 1
 4
-80
-Southern WY - flat lands (NREL AWS Truepower representative file),,,,,,,,,,,,,,,
+65
+Southern WY - flat lands (NREL AWS Truepower representative file)
 wind_resource.elev
 1
 1
@@ -3485,8 +3485,8 @@ wind_resource.elev
 wind_resource.file
 1
 4
-83
-C:\Projects\GitHub\NREL\release\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
+56
+C:\SAM\2017.9.5\wind_resource\WY Southern-Flat Lands.srw
 wind_resource.lat
 1
 1
@@ -3537,12 +3537,12 @@ wind_resource.year
 1
 1
 1
-1900
+0
 wind_resource_filename
 1
 4
-83
-C:\Projects\GitHub\NREL\release\SAM\deploy\wind_resource\WY Southern-Flat Lands.srw
+56
+C:\SAM\2017.9.5\wind_resource\WY Southern-Flat Lands.srw
 wind_resource_model_choice
 1
 1
