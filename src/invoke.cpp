@@ -2044,43 +2044,75 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 		lon = spd.GetLongitude();
 	}
 
-	//Create URL for weather file download
-	wxString url;
-	url = SamApp::WebApi("windtoolkit");
-	url.Replace("<YEAR>", spd.GetYear(), 1);
-	url.Replace("<LAT>", wxString::Format( "%lg", lat), 1);
-	url.Replace("<LON>", wxString::Format( "%lg", lon), 1);
-	url.Replace("<SAMAPIKEY>", wxString(sam_api_key) );
 
-	//Download the weather file
-	wxEasyCurl curl;
-	bool ok = curl.Get(url, "Downloading data from wind toolkit...", SamApp::Window() );	//true won't let it return to code unless it's done downloading
-	// would like to put some code here to tell it not to download and to give an error if hits 404 Not Found
+	wxArrayString hh = spd.GetHubHeights();
 
-	if ( !ok )
-	{
-		wxMessageBox("Failed to download data from web service.");
-		return;
-	}
+	wxString location;
+	location.Printf("lat%.2lf_lon%.2lf_", lat, lon);
+	location = location + year;
+	wxString filename;
 
 	//Create a folder to put the weather file in
 	wxString wfdir;
 	wfdir = ::wxGetUserHome() + "/SAM Downloaded Weather Files";
 	if (!wxDirExists(wfdir)) wxFileName::Mkdir(wfdir, 511, ::wxPATH_MKDIR_FULL);
 
-	//Create the filename
-	wxString location;
-	location.Printf("lat%.2lf_lon%.2lf_", lat, lon);
-	location = location + year;
-	wxString filename = wfdir + "/" + location + ".srw";
-	
-	//write data to file
-	if (!curl.WriteDataToFile(filename))
+	wxArrayString wfs;
+
+	//Create URL for each hub height file download
+	wxString url;
+	bool ok;
+
+	for (size_t i = 0; i < hh.Count(); i++)
 	{
-		wxMessageBox("Failed to download the closest WIND toolkit weather file from NREL for your location. The NREL service might be down- please try again later.");
-		return;
+
+		url = SamApp::WebApi("windtoolkit");
+		url.Replace("<YEAR>", year);
+		url.Replace("<HUBHEIGHT>", hh[i].Left(hh[i].Len()-1));
+		url.Replace("<LAT>", wxString::Format("%lg", lat));
+		url.Replace("<LON>", wxString::Format("%lg", lon));
+//		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
+		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
+
+
+
+		//Download the weather file
+		wxEasyCurl curl;
+
+//		ok = curl.Get(url, "Downloading data from wind toolkit...", SamApp::Window());	//true won't let it return to code unless it's done downloading
+		ok = curl.Get(url, "", SamApp::Window());	//true won't let it return to code unless it's done downloading
+		// would like to put some code here to tell it not to download and to give an error if hits 404 Not Found
+
+		if (!ok)
+		{
+			wxMessageBox("Failed to download data from web service.");
+			wxMessageBox("URL=" + url);
+			return;
+		}
+		else
+			wxMessageBox("get okay");
+
+
+		//Create the filename
+		filename = wfdir + "/" + location + ".srw";
+
+		//write data to file
+		if (!curl.WriteDataToFile(filename))
+		{
+			wxMessageBox("Failed to download the closest WIND toolkit weather file from NREL for your location. The NREL service might be down- please try again later.");
+			return;
+		}
+		wfs.Add(filename);
 	}
-	
+
+	// combine downloaded weather files into one if multiple hub heights
+	if (wfs.Count() > 1)
+	{
+
+	}
+	else
+		filename = wfs[0];
+
 	//Return the downloaded filename
 	cxt.result().assign(filename);
 }
