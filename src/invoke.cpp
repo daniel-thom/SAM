@@ -2049,7 +2049,7 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 
 	wxString location;
 	location.Printf("lat%.2lf_lon%.2lf_", lat, lon);
-	location = location + year;
+	location = location + "_" + year;
 	wxString filename;
 
 	//Create a folder to put the weather file in
@@ -2063,6 +2063,12 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 	wxString url;
 	bool ok;
 
+	wxCSVData csv;
+
+	//Download the weather file
+	wxEasyCurl curl;
+
+
 	for (size_t i = 0; i < hh.Count(); i++)
 	{
 
@@ -2075,12 +2081,8 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
 
 
-
-		//Download the weather file
-		wxEasyCurl curl;
-
-//		ok = curl.Get(url, "Downloading data from wind toolkit...", SamApp::Window());	//true won't let it return to code unless it's done downloading
-		ok = curl.Get(url, "", SamApp::Window());	//true won't let it return to code unless it's done downloading
+		ok = curl.Get(url, "Downloading data from wind toolkit...", SamApp::Window());	//true won't let it return to code unless it's done downloading
+//		ok = curl.Get(url, "", SamApp::Window());	//true won't let it return to code unless it's done downloading
 		// would like to put some code here to tell it not to download and to give an error if hits 404 Not Found
 
 		if (!ok)
@@ -2094,7 +2096,7 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 
 
 		//Create the filename
-		filename = wfdir + "/" + location + ".srw";
+		filename = wfdir + "/" + location + "_" + hh[i] + ".srw";
 
 		//write data to file
 		if (!curl.WriteDataToFile(filename))
@@ -2102,9 +2104,54 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			wxMessageBox("Failed to download the closest WIND toolkit weather file from NREL for your location. The NREL service might be down- please try again later.");
 			return;
 		}
+		if (!csv.ReadFile(filename))
+		{
+			wxMessageBox(wxString::Format("Failed to read downloaded weather file %s.", filename));
+			return;
+		}
+		double press, temp;
+		// Pressure 2nd column or check header row 3 with labels row 4 units and row 5 hub heights
+		// Switch speed and direction cheaders
+		wxString speed;
+		// header label
+		speed = csv(2, 3);
+		csv(2, 3) = csv(2, 2);
+		csv(2, 2) = speed;
+		// header units
+		speed = csv(3, 3);
+		csv(3, 3) = csv(3, 2);
+		csv(3, 2) = speed;
+		for (size_t j = 5; j < csv.NumRows(); j++)
+		{
+			// pressure Pa to atm
+			if (!csv(j, 1).ToDouble(&press))
+			{
+				wxMessageBox(wxString::Format("Failed to convert from Pa to atm for (row, col) = (%d, 1) for file %s.",(int)j, filename));
+				return;
+			}
+			press *= 9.86923e-6; // Pascals to atm 1 Pa = 9.86923e-6 atm
+			csv(j, 1) = wxString::FromDouble(press);
+			// temperature K to C
+			if (!csv(j, 0).ToDouble(&temp))
+			{
+				wxMessageBox(wxString::Format("Failed to convert from K to C for (row, col) = (%d, 0) for file %s.", (int)j, filename));
+				return;
+			}
+			temp -= 273.15; // Kelvin to Celcius 0 K = -273.15 C
+			csv(j, 0) = wxString::FromDouble(temp);
+			// switch speed and direction columns - wind weather file reader only handles Temp, Press, Speed, Direction
+			speed = csv(j, 3);
+			csv(j, 3) = csv(j, 2); // set speed equal direction
+			csv(j, 2) = speed; // set direction column equal speed
+		}
+		if (!csv.WriteFile(filename))
+		{
+			wxMessageBox(wxString::Format("Failed to write downloaded weather file %s.", filename));
+			return;
+		}
 		wfs.Add(filename);
 	}
-
+	 
 	// combine downloaded weather files into one if multiple hub heights
 	if (wfs.Count() > 1)
 	{
