@@ -2057,16 +2057,20 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 	wfdir = ::wxGetUserHome() + "/SAM Downloaded Weather Files";
 	if (!wxDirExists(wfdir)) wxFileName::Mkdir(wfdir, 511, ::wxPATH_MKDIR_FULL);
 
+
 	wxArrayString wfs;
 
 	//Create URL for each hub height file download
 	wxString url;
 	bool ok;
 
-	wxCSVData csv;
+	wxCSVData csv_main, csv;
 
 	//Download the weather file
 	wxEasyCurl curl;
+
+	//Create the filename
+	filename = wfdir + "/" + location;
 
 
 	for (size_t i = 0; i < hh.Count(); i++)
@@ -2077,7 +2081,6 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 		url.Replace("<HUBHEIGHT>", hh[i].Left(hh[i].Len()-1));
 		url.Replace("<LAT>", wxString::Format("%lg", lat));
 		url.Replace("<LON>", wxString::Format("%lg", lon));
-//		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
 		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
 
 
@@ -2091,14 +2094,12 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			wxMessageBox("URL=" + url);
 			return;
 		}
-		else
-			wxMessageBox("get okay");
+//		else
+//			wxMessageBox("get okay");
 
-
-		//Create the filename
-		filename = wfdir + "/" + location + "_" + hh[i] + ".srw";
 
 		//write data to file
+		/*
 		if (!curl.WriteDataToFile(filename))
 		{
 			wxMessageBox("Failed to download the closest WIND toolkit weather file from NREL for your location. The NREL service might be down- please try again later.");
@@ -2109,6 +2110,14 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			wxMessageBox(wxString::Format("Failed to read downloaded weather file %s.", filename));
 			return;
 		}
+		*/
+		wxString srw_api_data = curl.GetDataAsString();
+		if (!csv.ReadString(srw_api_data))
+		{
+			wxMessageBox(wxString::Format("Failed to read downloaded weather file %s.", filename));
+			return;
+		}
+
 		double press, temp;
 		// Pressure 2nd column or check header row 3 with labels row 4 units and row 5 hub heights
 		// Switch speed and direction cheaders
@@ -2144,21 +2153,26 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			csv(j, 3) = csv(j, 2); // set speed equal direction
 			csv(j, 2) = speed; // set direction column equal speed
 		}
-		if (!csv.WriteFile(filename))
+		if (i == 0)
+			csv_main.Copy(csv);
+		else
 		{
-			wxMessageBox(wxString::Format("Failed to write downloaded weather file %s.", filename));
-			return;
+			// add header (row 2), units (row 3) and hub heights (row 4)
+			// add data (rows 5 through end of data)
+			for (size_t j = 2; j < csv.NumRows() && j < csv_main.NumRows(); j++)
+				for (size_t k = 0; k < 4; k++)
+					csv_main(j, i * 4 + k) = csv(j, k);
 		}
-		wfs.Add(filename);
+		filename += "_" + hh[i];
 	}
-	 
-	// combine downloaded weather files into one if multiple hub heights
-	if (wfs.Count() > 1)
-	{
 
+	// write out combined hub height file 
+	filename += ".srw";
+	if (!csv_main.WriteFile(filename))
+	{
+		wxMessageBox(wxString::Format("Failed to write downloaded weather file %s.", filename));
+		return;
 	}
-	else
-		filename = wfs[0];
 
 	//Return the downloaded filename
 	cxt.result().assign(filename);
