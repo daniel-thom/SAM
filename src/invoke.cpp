@@ -2085,7 +2085,6 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 
 
 		ok = curl.Get(url, "Downloading data from wind toolkit...", SamApp::Window());	//true won't let it return to code unless it's done downloading
-//		ok = curl.Get(url, "", SamApp::Window());	//true won't let it return to code unless it's done downloading
 		// would like to put some code here to tell it not to download and to give an error if hits 404 Not Found
 
 		if (!ok)
@@ -2094,23 +2093,6 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			wxMessageBox("URL=" + url);
 			return;
 		}
-//		else
-//			wxMessageBox("get okay");
-
-
-		//write data to file
-		/*
-		if (!curl.WriteDataToFile(filename))
-		{
-			wxMessageBox("Failed to download the closest WIND toolkit weather file from NREL for your location. The NREL service might be down- please try again later.");
-			return;
-		}
-		if (!csv.ReadFile(filename))
-		{
-			wxMessageBox(wxString::Format("Failed to read downloaded weather file %s.", filename));
-			return;
-		}
-		*/
 		wxString srw_api_data = curl.GetDataAsString();
 		if (!csv.ReadString(srw_api_data))
 		{
