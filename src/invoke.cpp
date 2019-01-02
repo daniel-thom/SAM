@@ -2066,54 +2066,14 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 
 	wxCSVData csv_main, csv;
 
-	//Download the weather file
-	std::vector<wxEasyCurl*> curls;
-	wxArrayString urls;
 	//Create the filename
 	filename = wfdir + "/" + location;
 
-
-	for (size_t i = 0; i < hh.Count(); i++)
-	{
-		url = SamApp::WebApi("windtoolkit");
-		url.Replace("<YEAR>", year);
-		url.Replace("<HUBHEIGHT>", hh[i].Left(hh[i].Len()-1));
-		url.Replace("<LAT>", wxString::Format("%lg", lat));
-		url.Replace("<LON>", wxString::Format("%lg", lon));
-		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
-
-		urls.push_back(url);
-
-		curls.push_back(new wxEasyCurl());
-		curls[i]->Start(url);
-//		while (curls[i]->IsStarted())
-//			Sleep(50);
-//		curls[i].Wait();
-		
-	}
-	// testing
-	wxString urls_csv = wxJoin(urls, ',');
-	csv_main.ReadString(urls_csv);
-	csv_main.WriteFile(filename + "URLS.csv");
-	// Wait until downloads are finished
-	bool finished = false;
-	while (!finished)
-	{
-		finished = true;
-		for (size_t i = 0; i < curls.size(); i++)
-			finished &= curls[i]->IsFinished();
-	}
-	for (size_t i = 0; i < curls.size(); i++)
-		if (!curls[i]->Ok() || curls[i]->GetDataAsString().Find("Request Rejected") != wxNOT_FOUND)
-		{
-			curls[i]->Get(url, wxString::Format("Re-downloading data from wind toolkit for %d url %s", (int)i, (const char *)urls[i].c_str()), SamApp::Window());
-		}
+	wxEasyCurl curl;
 
 
 	for (size_t i = 0; i < hh.Count(); i++)
 	{
-		/* Synchronous operation
-
 		url = SamApp::WebApi("windtoolkit");
 		url.Replace("<YEAR>", year);
 		url.Replace("<HUBHEIGHT>", hh[i].Left(hh[i].Len()-1));
@@ -2132,16 +2092,6 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			return;
 		}
 		wxString srw_api_data = curl.GetDataAsString();
-		if (!csv.ReadString(srw_api_data))
-		{
-			wxMessageBox(wxString::Format("Failed to read downloaded weather file %s.", filename));
-			return;
-		}
-
-		*/
-
-		wxString srw_api_data = curls[i]->GetDataAsString();
-//		delete curls[i];
 		if (!csv.ReadString(srw_api_data))
 		{
 			wxMessageBox(wxString::Format("Failed to read downloaded weather file %s.", filename));
