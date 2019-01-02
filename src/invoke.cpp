@@ -2068,7 +2068,7 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 
 	//Download the weather file
 	std::vector<wxEasyCurl*> curls;
-
+	wxArrayString urls;
 	//Create the filename
 	filename = wfdir + "/" + location;
 
@@ -2081,14 +2081,20 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 		url.Replace("<LAT>", wxString::Format("%lg", lat));
 		url.Replace("<LON>", wxString::Format("%lg", lon));
 		url.Replace("<SAMAPIKEY>", wxString(sam_api_key));
-		wxEasyCurl curl;
+
+		urls.push_back(url);
 
 		curls.push_back(new wxEasyCurl());
 		curls[i]->Start(url);
 //		while (curls[i]->IsStarted())
 //			Sleep(50);
 //		curls[i].Wait();
+		
 	}
+	// testing
+	wxString urls_csv = wxJoin(urls, ',');
+	csv_main.ReadString(urls_csv);
+	csv_main.WriteFile(filename + "URLS.csv");
 	// Wait until downloads are finished
 	bool finished = false;
 	while (!finished)
@@ -2098,9 +2104,9 @@ void fcall_windtoolkit(lk::invoke_t &cxt)
 			finished &= curls[i]->IsFinished();
 	}
 	for (size_t i = 0; i < curls.size(); i++)
-		if (!curls[i]->Ok())
+		if (!curls[i]->Ok() || curls[i]->GetDataAsString().Find("Request Rejected") != wxNOT_FOUND)
 		{
-			curls[i]->Start
+			curls[i]->Get(url, wxString::Format("Re-downloading data from wind toolkit for %d url %s", (int)i, (const char *)urls[i].c_str()), SamApp::Window());
 		}
 
 
