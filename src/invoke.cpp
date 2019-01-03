@@ -3143,6 +3143,101 @@ void fcall_rescanlibrary( lk::invoke_t &cxt )
 	}
 }
 
+void fcall_librarygetcurrentselection(lk::invoke_t &cxt)
+{
+	LK_DOC("librarygetcurrentselection", "Return the text of the current selection for the library specified", "(string:libraryctrlname):string");
+	UICallbackContext &cc = *(UICallbackContext*)cxt.user_data();
+	lk_string ret_val = "";
+
+	wxString name(cxt.arg(0).as_string().Lower());
+	if (&cc != NULL)
+	{
+		std::vector<wxUIObject*> objs = cc.InputPage()->GetObjects();
+		for (size_t i = 0; i < objs.size(); i++)
+			if (LibraryCtrl *lc = objs[i]->GetNative<LibraryCtrl>())
+			{
+				if (objs[i]->GetName().Lower() == name)
+				{
+					ret_val = lc->GetEntrySelection();
+					break;
+				}
+			}
+	}
+	cxt.result().assign(ret_val);
+}
+
+void fcall_librarygetfiltertext(lk::invoke_t &cxt)
+{
+	LK_DOC("librarygetfiltertext", "Return the text of the search string for the library on the", "(string:libraryctrlname):string");
+	UICallbackContext &cc = *(UICallbackContext*)cxt.user_data();
+	lk_string ret_val = "";
+
+	wxString name(cxt.arg(0).as_string().Lower());
+	if (&cc != NULL)
+	{
+		std::vector<wxUIObject*> objs = cc.InputPage()->GetObjects();
+		for (size_t i = 0; i < objs.size(); i++)
+			if (LibraryCtrl *lc = objs[i]->GetNative<LibraryCtrl>())
+			{
+				if (objs[i]->GetName().Lower() == name)
+				{
+					ret_val = lc->GetFilterText();
+					break;
+				}
+			}
+	}
+	cxt.result().assign(ret_val);
+}
+
+
+void fcall_librarygetnumbermatches(lk::invoke_t &cxt)
+{
+	LK_DOC("librarygetnumbermatches", "Return the number of library items matching the search string for the library specified", "(string:libraryctrlname):number");
+	UICallbackContext &cc = *(UICallbackContext*)cxt.user_data();
+	double ret_val = 0;
+
+	wxString name(cxt.arg(0).as_string().Lower());
+	if (&cc != NULL)
+	{
+		std::vector<wxUIObject*> objs = cc.InputPage()->GetObjects();
+		for (size_t i = 0; i < objs.size(); i++)
+			if (LibraryCtrl *lc = objs[i]->GetNative<LibraryCtrl>())
+			{
+				if (objs[i]->GetName().Lower() == name)
+				{
+					ret_val = (double)lc->GetNumberMatches();
+					break;
+				}
+			}
+	}
+	cxt.result().assign(ret_val);
+}
+
+
+void fcall_librarynotifytext(lk::invoke_t &cxt)
+{
+	LK_DOC("librarynotifytext", "Gets or sets the notify string for the library specified", "(string:libraryctrlname, [string:notifytext]):string");
+	UICallbackContext &cc = *(UICallbackContext*)cxt.user_data();
+	wxString ret_val = "";
+
+	wxString name(cxt.arg(0).as_string().Lower());
+	if (&cc != NULL)
+	{
+		std::vector<wxUIObject*> objs = cc.InputPage()->GetObjects();
+		for (size_t i = 0; i < objs.size(); i++)
+			if (LibraryCtrl *lc = objs[i]->GetNative<LibraryCtrl>())
+			{
+				if (objs[i]->GetName().Lower() == name)
+				{
+					if (cxt.arg_count() == 2)
+						lc->SetNotifyText(cxt.arg(1).as_string());
+					ret_val = lc->GetNotifyText();
+					break;
+				}
+			}
+	}
+	cxt.result().assign(ret_val);
+}
 
 // threading ported over from lk to use lhs
 
@@ -4393,6 +4488,10 @@ lk::fcall_t* invoke_general_funcs()
 		fcall_getsettings,
 		fcall_setsettings,
 		fcall_rescanlibrary,
+		fcall_librarygetcurrentselection,
+		fcall_librarygetfiltertext,
+		fcall_librarygetnumbermatches,
+		fcall_librarynotifytext,
 		0 };
 	return (lk::fcall_t*)vec;
 }
