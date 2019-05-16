@@ -2,33 +2,6 @@ Financial Capacity Payments
 480
 401
 14
-GroupBox
-
-1
-7
-Name
-5
-27
-cp_eleigible_capacity_group
-X
-3
-36
-Y
-3
-252
-Width
-3
-348
-Height
-3
-90
-Caption
-5
-17
-Eligible Capacity
-Bold
-2
-1
 RadioChoice
 
 1
@@ -66,6 +39,33 @@ Horizontal
 TabOrder
 3
 4294967295
+GroupBox
+
+1
+7
+Name
+5
+26
+cp_eligible_capacity_group
+X
+3
+36
+Y
+3
+252
+Width
+3
+348
+Height
+3
+90
+Caption
+5
+17
+Eligible Capacity
+Bold
+2
+1
 Numeric
 
 1
@@ -292,7 +292,7 @@ Y
 273
 Width
 3
-72
+90
 Height
 3
 24
@@ -594,7 +594,7 @@ Fixed annual amount
 $
 Capacity Payment
 0
-0
+1
 1
 1
 1
@@ -608,7 +608,7 @@ Fixed monthly amount
 $
 Capacity Payment
 0
-0
+1
 1
 1
 1
@@ -622,7 +622,7 @@ Fixed percent of nameplate
 %
 Capacity Payment
 0
-0
+1
 1
 1
 1
@@ -689,16 +689,17 @@ Capacity Payment
 SchedNumeric
 
 0
-509
+521
 function update_page()
 {
-	fixed_amount = (value("cp_payment_type") == 1);
+	fixed_payment = (value("cp_payment_type") == 1);
 	show("cp_fixed_monthly_units",!fixed_payment);
 	show("cp_fixed_annual_units",!fixed_payment);
-	show("cp_eleigible_capacity_group",!fixed_payment);
+	show("cp_eligible_capacity_group",!fixed_payment);
 	show("cp_eligible_capacity",!fixed_payment);
 	show("cp_fixed_percent_nameplate",!fixed_payment);
 	show("cp_variable_percent_nameplate",!fixed_payment);
+	refresh();
 }
 
 on_load{"Financial Capacity Payments"}=define()
