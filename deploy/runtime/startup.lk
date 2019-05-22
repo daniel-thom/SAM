@@ -337,11 +337,13 @@ function setup_single_owner_pages(degradation)
                {'name'='Financial Return on Equity', 'caption'='Return on Equity','collapsible'=true,'collapsible_var'='show_ReturnonEquity', 'collapsed_by_default'=true}  ]], 
            { 'sidebar'='Financial Parameters', 'help'='fin_single_owner' }  );
  // addpage( [[ 'Financial TOD Factors' ]], { 'sidebar'='Time of Delivery Factors', 'help'='tod_factors' });
- 	addpage( [[ {'name' = 'Financial Solution Mode Single Owner', 'caption' = 'PPA Revenue'}, 'Financial TOD Factors'], 
-			 [{ 'name'='Financial Grid', 'caption' = 'Ancillary Services'} , 'Financial Capacity Payments']], 
+ 	addpage( [[ {'name' = 'Financial Solution Mode Single Owner', 'caption' = 'PPA Project'}, 'Financial TOD Factors'], 
+//			 [{ 'name'='Financial Grid', 'caption' = 'Merchant Generator'} , 'Financial Capacity Payments']], 
+			 [{ 'name'='Financial Capacity Payments', 'caption' = 'Merchant Generator'} ]], 
 			{ 'sidebar'='Revenue Parameters', 'help'='revenue_model', 'exclusive_var'='revenue_model' } );
-
-/*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
+  addpage( [[ 'Financial Grid']],
+           { 'sidebar'='Grid', 'help'='financial_grid' } );					
+           /*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
 			[ {'name'='Financial TOD Factors Timestep', 'caption'='TOD Factors by Time Step' }],],
            {  'sidebar'='Time of Delivery Factors','help'='tod_factors', 'exclusive_var'='ppa_multiplier_model' } );*/
            

@@ -1,6 +1,6 @@
 Financial Grid
-424
-144
+749
+304
 3
 Numeric
 
