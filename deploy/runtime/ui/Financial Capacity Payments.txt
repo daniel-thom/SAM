@@ -142,14 +142,14 @@ Y
 192
 Width
 3
-60
+84
 Height
 3
 24
 Caption
 5
-3
-/MW
+9
+/MW/month
 TextColour
 4
 0
@@ -247,14 +247,14 @@ Y
 168
 Width
 3
-60
+86
 Height
 3
 24
 Caption
 5
-3
-/MW
+8
+/MW/year
 TextColour
 4
 0
@@ -400,7 +400,7 @@ Selection
 Items
 6
 2
-Energy basis ($/MW)
+Capacity basis ($/MW)
 Fixed Amount ($)
 ShowCaptions
 2
@@ -650,8 +650,8 @@ cp_payment_type
 Payment Type
  
 Capacity Payment
-25
-Energy basis|Fixed amount
+27
+Capacity basis|Fixed amount
 1
 1
 1

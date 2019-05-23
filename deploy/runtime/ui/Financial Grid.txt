@@ -1,7 +1,30 @@
 Financial Grid
-749
-304
+466
+286
+4
+LossAdjustment
+
+1
+6
+Name
+5
+16
+grid_curtailment
+X
 3
+126
+Y
+3
+117
+Width
+3
+270
+Height
+3
+73
+TabOrder
+3
+4294967295
 Numeric
 
 1
@@ -136,10 +159,10 @@ Y
 12
 Width
 3
-396
+416
 Height
 3
-110
+248
 Caption
 5
 4
@@ -148,7 +171,20 @@ Bold
 2
 1
 
-2
+3
+grid_curtailment
+3
+5
+Curtailment
+ 
+Financial Grid
+0
+0
+1
+5
+1
+0
+LossAdjustment
 grid_curtailment_price
 3
 1
