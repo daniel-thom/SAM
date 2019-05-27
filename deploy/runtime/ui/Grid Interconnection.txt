@@ -81,8 +81,8 @@ Height
 87
 Caption
 5
-174
-The grid interconnection limit is a negotiated limit beyond which the system is not allowed to export.  AC electricity above the grid interconnection limit will be curtailed.
+195
+The grid interconnection limit is a negotiated limit beyond which the system is not allowed to export.  AC electricity above the grid interconnection limit will be curtailed with no compensation.
 TextColour
 4
 0

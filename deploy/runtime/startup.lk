@@ -119,14 +119,14 @@ function setup_pvwatts_battery_pages()
 {
 	addpage( [[ 'Solar Resource Data' ]], { 'sidebar'='Location and Resource', 'help'='pv_location_and_resource' } );
 	addpage( [[ 'PVWatts', "Battery Model Simple"]], { 'sidebar'='System Design', 'help'='pvwatts_system_design' } );
-		addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//		addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 //	addpage( [[ 'PVWatts']], { 'sidebar'='System Design', 'help'='pvwatts_system_design' } );
 }
 function setup_pvwatts_pages()
 {
 	addpage( [[ 'Solar Resource Data' ]], { 'sidebar'='Location and Resource', 'help'='pv_location_and_resource' } );
 	addpage( [[ 'PVWatts']], { 'sidebar'='System Design', 'help'='pvwatts_system_design' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 //	addpage( [[ 'PVWatts']], { 'sidebar'='System Design', 'help'='pvwatts_system_design' } );
 }
 function setup_flat_plate_pv_pages()
@@ -150,7 +150,7 @@ function setup_flat_plate_pv_pages()
 	addpage( [ ['PV System Design', {'name'='PV Subarray Voltage Mismatch', 'collapsible'=true, 'collapsible_var' = 'mismatch_shown'}] ], { 'sidebar'='System Design', 'help'='pv_system_design' } );
 	addpage( [ ['PV Shading'] ], { 'sidebar'='Shading and Layout', 'help'='pv_shading' } );
 	addpage( [ ['PV Losses'] ], { 'sidebar'='Losses', 'help'='pv_losses' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
     addpage( [[ {'name'='Lifetime System', 'caption'='PV simulation over one year'}],
 			[ {'name'='Lifetime PV', 'caption'='PV simulation over analysis period' }],],
            {  'sidebar'='Lifetime','help'='lifetime', 'exclusive_var'='system_use_lifetime_output' } );
@@ -176,6 +176,8 @@ function setup_residential_pages( mode, degradation ) // mode determines whether
               { 'name'='Financial Tax Credits','caption'='Tax Credits','collapsible'=true,'collapsible_var'='show_tax_credits', 'collapsed_by_default'=false },
               { 'name'='Financial Cash Incentives','caption'='Direct Cash Incentives','collapsible'=true,'collapsible_var'='show_cash_incentives', 'collapsed_by_default'=false } ]], 
            { 'sidebar'='Incentives','help'='incentives' } );
+  setup_grid_page();
+
   setup_utility_rate();
   setup_elec_load_page( mode );
 }
@@ -209,6 +211,8 @@ function setup_thirdparty_pages( load, degradation ) // FOR NOW, THIRD PARTY OWN
   
   addpage( [[ 'Financial Third Party Ownership']],
            { 'sidebar'='Financial Parameters', 'help'='fin_thirdparty'} );
+  setup_grid_page();
+
   setup_utility_rate();
   setup_elec_load_page( load ); // BELPE IS VALID FOR BOTH PVWATTS AND PV DETAILED, but not generic system
 }
@@ -244,8 +248,15 @@ function setup_commercial_pages( mode, degradation ) // mode determines whether 
               { 'name'='Financial Tax Credits','caption'='Tax Credits','collapsible'=true,'collapsible_var'='show_tax_credits', 'collapsed_by_default'=false },
               { 'name'='Financial Cash Incentives','caption'='Direct Cash Incentives','collapsible'=true,'collapsible_var'='show_cash_incentives', 'collapsed_by_default'=false } ]],
 		   { 'sidebar'='Incentives', 'help'='incentives' } );
-  setup_utility_rate();
+ setup_grid_page();
+ setup_utility_rate();
   setup_elec_load_page( mode );
+}
+
+function setup_grid_page()
+{
+  addpage( [[ 'Grid Interconnection', 'Grid Curtailment']],
+           { 'sidebar'='Grid', 'help'='financial_grid' } );					
 }
 
 function setup_utility_rate()
@@ -284,6 +295,7 @@ function setup_commercial_ppa_pages(degradation)
               {'name'='Financial Construction Financing','caption'='Construction Financing','collapsible'=true,'collapsible_var'='show_construction_period', 'collapsed_by_default'=false}, 
               {'name'='Financial Depreciation Simple','caption'='Depreciation','collapsible'=true,'collapsible_var'='show_depreciation', 'collapsed_by_default'=false } ]],
            { 'sidebar'='Financial Parameters', 'help'='fin_ipp_and_commercial_ppa' }  );
+  setup_grid_page();
   addpage( [[ 'Financial DSIRE Download',
 		       { 'name'='Financial Tax Credits','caption'='Tax Credits','collapsible'=true,'collapsible_var'='show_tax_credits', 'collapsed_by_default'=false },
                { 'name'='Financial Cash Incentives','caption'='Direct Cash Incentives','collapsible'=true,'collapsible_var'='show_cash_incentives', 'collapsed_by_default'=false } ]], 
@@ -315,6 +327,7 @@ function setup_independent_power_producer_pages(degradation)
 		      { 'name'='Financial Tax Credits','caption'='Tax Credits','collapsible'=true,'collapsible_var'='show_tax_credits', 'collapsed_by_default'=false },
               { 'name'='Financial Cash Incentives','caption'='Direct Cash Incentives','collapsible'=true,'collapsible_var'='show_cash_incentives', 'collapsed_by_default'=false } ]], 
            { 'sidebar'='Incentives','help'='incentives' } );
+  setup_grid_page();
   addpage( [[ 'Financial TOD Factors' ]], { 'sidebar'='Time of Delivery Factors', 'help'='tod_factors' });
 /*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
 			[ {'name'='Financial TOD Factors Timestep', 'caption'='TOD Factors by Time Step' }],],
@@ -346,8 +359,7 @@ function setup_single_owner_pages(degradation)
 //			{ 'sidebar'='Revenue Parameters', 'help'='revenue_model', 'exclusive_var'='revenue_model' } );
   addpage( [[ 'Financial Curtailment Price', 'Financial Capacity Payments','Financial Solution Mode Single Owner', 'Financial TOD Factors']], 
             { 'sidebar'='Revenue', 'help'='financial_revenue' } );					
-  addpage( [[ 'Financial Grid']],
-           { 'sidebar'='Grid', 'help'='financial_grid' } );					
+  setup_grid_page();
 //  addpage( [[ 'Financial Capacity Payments']],
 //           { 'sidebar'='Capacity Payments', 'help'='financial_capcacity_payments' } );					
            /*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
@@ -380,8 +392,7 @@ function setup_merchant_plant_pages(degradation)
            { 'sidebar'='Financial Parameters', 'help'='fin_single_owner' }  );
   addpage( [[ 'Financial Capacity Payments','Financial Energy Capacity', 'Financial Other Ancillary Services']], 
             { 'sidebar'='Revenue', 'help'='financial_revenue' } );					
-  addpage( [[ 'Financial Grid']],
-           { 'sidebar'='Grid', 'help'='financial_grid' } );					
+  setup_grid_page();
   addpage( [[ 'Financial Tax Credits','Financial Cash Incentives']],
            { 'sidebar'='Incentives', 'help'='incentives' } );					
   addpage( [['Financial Depreciation Detailed' ]], 
@@ -412,6 +423,7 @@ function setup_host_developer_pages(mode, degradation)
                {'name'='Financial Return on Equity', 'caption'='Return on Equity','collapsible'=true,'collapsible_var'='show_ReturnonEquity', 'collapsed_by_default'=true}  ]], 
            { 'sidebar'='Financial Parameters', 'help'='fin_single_owner' }  );
   addpage( [[ 'Financial TOD Factors' ]], { 'sidebar'='Time of Delivery Factors', 'help'='tod_factors' });
+  setup_grid_page();
            
   addpage( [[ 'Financial Tax Credits','Financial Cash Incentives']],
            { 'sidebar'='Incentives', 'help'='incentives' } );					
@@ -445,6 +457,7 @@ function setup_leveraged_partnership_flip_pages(degradation)
 /*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
 			[ {'name'='Financial TOD Factors Timestep', 'caption'='TOD Factors by Time Step' }],],
            {  'sidebar'='Time of Delivery Factors','help'='tod_factors', 'exclusive_var'='ppa_multiplier_model' } );*/
+  setup_grid_page();
   addpage( [[ 'Financial Tax Credits',
               'Financial Cash Incentives']],
            { 'sidebar'='Incentives', 'help'='incentives' } );					
@@ -474,6 +487,7 @@ function setup_all_equity_partnership_flip_pages(degradation)
 /*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
 			[ {'name'='Financial TOD Factors Timestep', 'caption'='TOD Factors by Time Step' }],],
            {  'sidebar'='Time of Delivery Factors','help'='tod_factors', 'exclusive_var'='ppa_multiplier_model' } );*/
+  setup_grid_page();
   addpage( [[ 'Financial Tax Credits',
               'Financial Cash Incentives']],
            { 'sidebar'='Incentives', 'help'='incentives' } );					
@@ -502,6 +516,7 @@ function setup_sale_leaseback_pages(degradation)
 /*    addpage( [[ {'name'='Financial TOD Factors', 'caption'='TOD Factors by Schedule'}],
 			[ {'name'='Financial TOD Factors Timestep', 'caption'='TOD Factors by Time Step' }],],
            {  'sidebar'='Time of Delivery Factors','help'='tod_factors', 'exclusive_var'='ppa_multiplier_model' } );*/
+  setup_grid_page();
   addpage( [[ 'Financial Tax Credits',
               'Financial Cash Incentives']],
            { 'sidebar'='Incentives', 'help'='incentives' } );					
@@ -517,7 +532,7 @@ function setup_windpower_pages()
 	//addpage( [[ 'Wind Siting Considerations' ]], { 'sidebar'='Siting Considerations' } );
 	addpage( [[ 'Wind Turbine Design' ]], { 'sidebar'='Wind Turbine', 'help'='wind_turbine' } );
 	addpage( [[ 'Wind Farm Specifications' ]], { 'sidebar'='Wind Farm', 'help'='wind_farm' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 
 }
 
@@ -550,7 +565,7 @@ function setup_fuel_cell_pages_btm()
 	addpage( [[ {'name'='Lifetime System', 'caption'='Simulation over one year'}],
 			[ {'name'='Lifetime PV', 'caption'='Simulation over analysis period' }],],
            {  'sidebar'='Lifetime','help'='lifetime', 'exclusive_var'='system_use_lifetime_output' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 }
 
 function setup_fuel_cell_pages_fom()
@@ -575,7 +590,7 @@ function setup_fuel_cell_pages_fom()
 	addpage( [[ {'name'='Lifetime System', 'caption'='Simulation over one year'}],
 			[ {'name'='Lifetime PV', 'caption'='Simulation over analysis period' }],],
            {  'sidebar'='Lifetime','help'='lifetime', 'exclusive_var'='system_use_lifetime_output' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 }
 
 
@@ -650,7 +665,7 @@ function setup_geothermal_power_pages()
 	addpage( [[ 'Geothermal Resource' ]], { 'sidebar'='Geothermal Resource', 'help'='geo_geothermal_resource' } );
 	addpage( [[ 'Geothermal Plant and Equipment' ]], { 'sidebar'='Plant and Equipment', 'help'='geo_plant_equipment' } );
 	addpage( [[ 'Geothermal Power Block' ]], { 'sidebar'='Power Block', 'help'='geo_power_block' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 }
 
 
@@ -1174,7 +1189,7 @@ function setup_generic_system_pages()
     addpage( [[ {'name'='Lifetime System', 'caption'='Simulation over one year'}],
 			[ {'name'='Lifetime Generic', 'caption'='Simulation over analysis period' }],],
            {  'sidebar'='Lifetime','help'='lifetime', 'exclusive_var'='system_use_lifetime_output' } );
-	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
+//	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
 }
 
 setconfig( 'Generic System', 'Residential' );	
