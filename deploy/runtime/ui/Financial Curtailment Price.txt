@@ -1,6 +1,6 @@
 Financial Curtailment Price
-598
-169
+518
+131
 2
 Numeric
 
@@ -21,7 +21,7 @@ Width
 90
 Height
 3
-30
+24
 Value
 1
 0
@@ -77,10 +77,10 @@ Y
 6
 Width
 3
-553
+481
 Height
 3
-131
+111
 Caption
 5
 24

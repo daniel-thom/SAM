@@ -148,8 +148,8 @@ Height
 24
 Caption
 5
-9
-/MW/month
+8
+/MW/year
 TextColour
 4
 0
@@ -253,8 +253,8 @@ Height
 24
 Caption
 5
-8
-/MW/year
+9
+/MW/month
 TextColour
 4
 0
