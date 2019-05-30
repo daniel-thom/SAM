@@ -198,11 +198,14 @@ cashflow{ 'Single Owner' } = define()
  
 	cfline( "PRODUCTION (AC KWH)", -1); 
 	cfline( 'cf_energy_net', 0); // no decimal places with thousands separator 
+	cfline( "CURTAILMENT (AC KWH)", -1); 
+	cfline( 'cf_energy_curtailed', 0); // no decimal places with thousands separator 
  
 	cfline( '' ); // spacer with no shading 
 	cfline( "REVENUES", -1); // header with shading 
 	cfline( 'cf_ppa_price' , -2 ); // generic formatting to show all significant digits 
 	cfline( 'cf_energy_value', 0); 
+	cfline( 'cf_curtailment_value', 0); 
 	tech= technology();
 	if (tech == "Fuel Cell")
 		cfline( 'cf_thermal_value', 0);  
