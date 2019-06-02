@@ -1,27 +1,36 @@
 Grid Curtailment
-846
-195
+834
+152
 3
-LossAdjustment
+DataArray
 
 1
-6
+9
 Name
 5
 16
 grid_curtailment
 X
 3
-111
+141
 Y
 3
-60
+90
 Width
 3
-270
+90
 Height
 3
-73
+24
+Mode
+3
+0
+Label
+5
+0
+Description
+5
+0
 TabOrder
 3
 4294967295
@@ -35,20 +44,20 @@ Name
 grid_interconnection_label
 X
 3
-417
+30
 Y
 3
-54
+33
 Width
 3
-354
+782
 Height
 3
-87
+41
 Caption
 5
-163
-The grid curtailment is a negotiated schedule.  AC electricity during grid curtailment will be curtailed and will be compensated per the revenue curtailment price.
+194
+The grid curtailment is a negotiated schedule.  System production during grid curtailment will be curtailed by the specified percentage and will be compensated per the revenue curtailment price.
 TextColour
 4
 0
@@ -89,7 +98,7 @@ Width
 812
 Height
 3
-160
+120
 Caption
 5
 16
@@ -101,17 +110,18 @@ Bold
 1
 grid_curtailment
 3
-5
+2
 Curtailment
- 
+ %
 Financial Grid
 0
-0
+2
 1
-5
+2
+1
 1
 0
-LossAdjustment
+DataArray
 
 0
 0

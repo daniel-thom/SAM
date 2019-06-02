@@ -375,7 +375,7 @@ Bold
 DataMatrix
 
 1
-22
+23
 Name
 5
 29
@@ -447,6 +447,9 @@ HideColumn
 ShowColumn
 3
 4294967295
+ColorMap
+2
+0
 Label
 
 1
@@ -635,7 +638,7 @@ Bold
 DataMatrix
 
 1
-22
+23
 Name
 5
 20
@@ -707,6 +710,9 @@ HideColumn
 ShowColumn
 3
 4294967295
+ColorMap
+2
+0
 Label
 
 1
