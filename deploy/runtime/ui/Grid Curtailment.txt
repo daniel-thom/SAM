@@ -24,7 +24,7 @@ Height
 24
 Mode
 3
-0
+1
 Label
 5
 0
