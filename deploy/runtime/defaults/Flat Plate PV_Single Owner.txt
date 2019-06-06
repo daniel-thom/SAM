@@ -1,5 +1,5 @@
 1
-1047
+1049
 6par_aisc
 1
 1
@@ -1763,6 +1763,12 @@ cp_payment_amount
 1
 1
 0
+cp_payment_esc
+1
+1
+1
+1
+1
 cp_payment_type
 1
 1
@@ -2482,6 +2488,12 @@ grid_curtailment_price
 1
 1
 0.01
+grid_curtailment_price_esc
+1
+1
+1
+1
+1
 grid_fixed
 1
 1
