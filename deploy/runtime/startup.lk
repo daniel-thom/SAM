@@ -154,11 +154,11 @@ function setup_flat_plate_pv_pages()
 	addpage( [ ['PV Shading'] ], { 'sidebar'='Shading and Layout', 'help'='pv_shading' } );
 	addpage( [ ['PV Losses'] ], { 'sidebar'='Losses', 'help'='pv_losses' } );
 //	addpage( [ ['Grid Interconnection'] ], { 'sidebar'='Grid', 'help'='pv_losses' } );
-	setup_grid_page();
 
     addpage( [[ {'name'='Lifetime System', 'caption'='PV simulation over one year'}],
 			[ {'name'='Lifetime PV', 'caption'='PV simulation over analysis period' }],],
            {  'sidebar'='Lifetime','help'='lifetime', 'exclusive_var'='system_use_lifetime_output' } );
+
 	
 }
 
@@ -750,8 +750,9 @@ addpage( [ ['Inverter CEC Database', 'Inverter Temp Derate CEC DB'],
 addpage( [ ['PV System Design', {'name'='PV Subarray Voltage Mismatch', 'collapsible'=true, 'collapsible_var' = 'mismatch_shown'}] ], { 'sidebar'='System Design', 'help'='pv_system_design' } );
 addpage( [ ['PV Shading'] ], { 'sidebar'='Shading and Layout', 'help'='pv_shading' } );
 addpage( [ ['PV Losses'] ], { 'sidebar'='Losses', 'help'='pv_losses' } );
-setmodules( ['pvsamv1', 'lcoefcr'] );
+setup_grid_page();
 setup_lcoefcr_pages();
+setmodules( ['pvsamv1', 'lcoefcr'] );
 
 setconfig( 'Flat Plate PV', 'None' );
 //no financials is a special case of PV with no lifetime inputs, so do not use setup_flat_plate_pv_pages()
@@ -770,12 +771,14 @@ addpage( [ ['Inverter CEC Database', 'Inverter Temp Derate CEC DB'],
 addpage( [ ['PV System Design', {'name'='PV Subarray Voltage Mismatch', 'collapsible'=true, 'collapsible_var' = 'mismatch_shown'}] ], { 'sidebar'='System Design', 'help'='pv_system_design' } );
 addpage( [ ['PV Shading'] ], { 'sidebar'='Shading and Layout', 'help'='pv_shading' } );
 addpage( [ ['PV Losses'] ], { 'sidebar'='Losses', 'help'='pv_losses' } );
+setup_grid_page();
 setmodules( ['pvsamv1'] );
 
 setconfig( 'Flat Plate PV', 'Residential' );
 setmodules( ['belpe', 'pvsamv1', 'grid', 'utilityrate5', 'cashloan']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_behind_the_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_residential_pages( LOAD_BELPE , LIFETIME_PV ); //includes building load calculator
 
@@ -784,6 +787,7 @@ setconfig( 'Flat Plate PV', 'Third Party' );
 setmodules( ['belpe', 'pvsamv1', 'grid', 'utilityrate5', 'thirdpartyownership']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_behind_the_meter();
+setup_grid_page();
 setup_thirdparty_pages( LOAD_BELPE, LIFETIME_PV ); //includes building load calculator by default in this function
 
 
@@ -791,6 +795,7 @@ setconfig( 'Flat Plate PV', 'Host Developer' );
 setmodules( ['pvsamv1', 'utilityrate5', 'grid', 'host_developer']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_behind_the_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_host_developer_pages( LOAD_SIMPLE, LIFETIME_PV ); //includes building load calculator by default in this function
 
@@ -799,6 +804,7 @@ setconfig( 'Flat Plate PV', 'Commercial' );
 setmodules( ['pvsamv1', 'grid', 'utilityrate5', 'cashloan']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_behind_the_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_commercial_pages( LOAD_SIMPLE, LIFETIME_PV ); //belpe not valid for commercial
 
@@ -806,6 +812,7 @@ setconfig( 'Flat Plate PV', 'Commercial PPA' );
 setmodules( ['pvsamv1', 'grid', 'ippppa']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_commercial_ppa_pages( LIFETIME_PV );
 
@@ -813,6 +820,7 @@ setconfig( 'Flat Plate PV', 'Independent Power Producer' );
 setmodules( ['pvsamv1', 'grid', 'ippppa']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_independent_power_producer_pages( LIFETIME_PV );
 
@@ -820,6 +828,7 @@ setconfig( 'Flat Plate PV', 'Leveraged Partnership Flip' );
 setmodules( ['pvsamv1', 'grid', 'levpartflip']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_leveraged_partnership_flip_pages( LIFETIME_PV );
 
@@ -827,6 +836,7 @@ setconfig( 'Flat Plate PV', 'All Equity Partnership Flip' );
 setmodules( ['pvsamv1', 'grid', 'equpartflip']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_all_equity_partnership_flip_pages( LIFETIME_PV );
 
@@ -834,6 +844,7 @@ setconfig( 'Flat Plate PV', 'Sale Leaseback' );
 setmodules( ['pvsamv1', 'grid', 'saleleaseback']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_sale_leaseback_pages( LIFETIME_PV );
 
@@ -841,6 +852,7 @@ setconfig( 'Flat Plate PV', 'Single Owner' );
 setmodules( ['pvsamv1', 'grid', 'utilityrate5', 'singleowner']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_single_owner_pages( LIFETIME_PV );
 //addpage( [[ 'Financial Capacity Payments' ]], { 'sidebar'='Ancillary Services', 'help'='ancillary_services' });
@@ -850,6 +862,7 @@ setconfig( 'Flat Plate PV', 'Merchant Plant' );
 setmodules( ['pvsamv1', 'utilityrate5', 'singleowner']);
 setup_flat_plate_pv_pages();
 setup_battery_pages_front_of_meter();
+setup_grid_page();
 addpage( [[ 'PV Capital Costs','O and M Costs' ]], { 'sidebar'='System Costs', 'help'='pv_system_costs' } );
 setup_merchant_plant_pages( LIFETIME_PV );
 setup_utility_rate_optional();

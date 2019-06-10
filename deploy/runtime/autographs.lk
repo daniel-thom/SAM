@@ -30,21 +30,19 @@ function host_developer_graphs()
 
 function ppa_revenue_graphs()
 {
-	agraph( 'npv_ppa_revenue,npv_curtailment_revenue,npv_capacity_revenue,npv_thermal_value,npv_salvage_value,npv_fed_pbi_income,npv_sta_pbi_income,npv_uti_pbi_income,npv_oth_pbi_income', 'NPV of Revenue Components', '', '', -1, false, true, 'right', 1 );
-/*
-	cfline( 'cf_energy_value', 0); 
-	cfline( 'cf_curtailment_value', 0); 
-	cfline( 'cf_capacity_payment', 0); 
-	tech= technology();
-	if (tech == "Fuel Cell")
-		cfline( 'cf_thermal_value', 0);  
-	cfline("plus PBI if available for debt service:", -1, 0); // label with no shading 
-	if (value('pbi_fed_for_ds')==1)cfline('cf_pbi_total_fed',0); 
-	if (value('pbi_sta_for_ds')==1)cfline('cf_pbi_total_sta',0); 
-	if (value('pbi_uti_for_ds')==1)cfline( 'cf_pbi_total_uti',0); 
-	if (value('pbi_oth_for_ds')==1)cfline('cf_pbi_total_oth',0); 
-	cfline( 'cf_net_salvage_value', 0); 
-*/
+    tech = technology();
+    fin = financing(); 
+
+	columns = 'npv_ppa_revenue,npv_curtailment_revenue,npv_capacity_revenue,';
+	if (tech == "Fuel Cell") columns += 'npv_thermal_value,';
+	if (value('pbi_fed_for_ds')==1) columns += 'npv_fed_pbi_income,';
+	if (value('pbi_sta_for_ds')==1) columns += 'npv_sta_pbi_income,';
+	if (value('pbi_uti_for_ds')==1) columns += 'npv_uti_pbi_income,';
+	if (value('pbi_oth_for_ds')==1) columns += 'npv_oth_pbi_income,';
+	columns += 'npv_salvage_value';
+
+	
+	agraph( columns, 'NPV of Revenue Components', '', '$', -1, false, true, 'right',1);
 }
 
 function ppa_financial_graphs()
