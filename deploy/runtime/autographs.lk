@@ -42,7 +42,7 @@ function ppa_revenue_graphs()
 	columns += 'npv_salvage_value';
 
 	
-	agraph( columns, 'NPV of Revenue Components', '', '$', -1, false, true, 'right',1);
+	agraph( columns, 'NPV of Revenue Components', '', '$', 50, false, true, 'right',1);
 }
 
 function ppa_financial_graphs()
