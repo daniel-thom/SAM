@@ -735,8 +735,8 @@ equations{ 'cp_battery_nameplate' } = define() {
 	else 
 		return 0;
 };
-561
-function update_page()
+824
+function capacity_payments_ctrl_refresh()
 {
 	fixed_payment = (value("cp_payment_type") == 1);
 	show("cp_payment_units",!fixed_payment);
@@ -749,15 +749,24 @@ function update_page()
 	show("cp_system_nameplate",!fixed_payment);
 	show("cp_battery_nameplate",!fixed_payment);
 	
+	cp_payment = value("cp_payment_amount");
+	show_escalation = (#cp_payment < 2);
+	enable("cp_payment_esc",show_escalation);
+
 	refresh();
 }
 
 on_load{"Financial Capacity Payments"}=define()
 {
-	update_page();
+	capacity_payments_ctrl_refresh();
 };	
 
 on_change{"cp_payment_type"}=define()
 {
-	update_page();
+	capacity_payments_ctrl_refresh();
+};	
+
+on_change{"cp_payment_amount"}=define()
+{
+	capacity_payments_ctrl_refresh();
 };	

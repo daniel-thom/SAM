@@ -543,10 +543,10 @@ MultilineText
 1
 
 
-1018
+1326
 on_load{'Financial Solution Mode Single Owner'} = define()
 {
-  on_change{'ppa_soln_mode'}();
+	soln_mode_single_owner_ctrl_refresh();
   	txt1 = display_message();
 	property('solution_mode_message','caption',txt1);	
 	txt2 = tpo_message();
@@ -556,10 +556,12 @@ on_load{'Financial Solution Mode Single Owner'} = define()
 
 on_change{'ppa_soln_mode'} = define()
 {
-  is_specify_irr = ( value('ppa_soln_mode') == 0 );
-  enable( 'flip_target_percent', is_specify_irr );
-  //enable( 'flip_target_year', is_specify_irr );
-  enable( 'ppa_price_input', !is_specify_irr );
+	soln_mode_single_owner_ctrl_refresh();
+};
+
+on_change{'ppa_price_input'} = define()
+{
+	soln_mode_single_owner_ctrl_refresh();
 };
 
 on_change{'flip_target_year'} = define () {
@@ -581,4 +583,15 @@ function tpo_message()
 	if ( financing() == 'Host Developer' )
 		msg = "IRR is the developer's internal rate of return.";
 	return msg;
+}
+
+function soln_mode_single_owner_ctrl_refresh()
+{
+    is_specify_irr = ( value('ppa_soln_mode') == 0 );
+    enable( 'flip_target_percent', is_specify_irr );
+    //enable( 'flip_target_year', is_specify_irr );
+    enable( 'ppa_price_input', !is_specify_irr );
+    
+	show_escalation = (#${ppa_price_input} < 2);
+	enable("ppa_escalation",(show_escalation || is_specify_irr));
 }

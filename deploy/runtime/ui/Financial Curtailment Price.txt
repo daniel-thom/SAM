@@ -231,24 +231,27 @@ Financial Curtailment Price
 Numeric
 
 0
-385
-function update_page()
+543
+function curtailment_price_ctrl_refresh()
 {
 	show_escalation = (#${grid_curtailment_price} < 2);
-
+	// show/hide example
+	/*
 	show("grid_curtailment_group",show_escalation);
 	show("grid_curtailment_label",show_escalation);
 	show("grid_curtailment_price_esc",show_escalation);
-	
 	refresh();
+	*/
+	// enable disable
+	enable("grid_curtailment_price_esc",show_escalation);
 }
 
 on_load{"Financial Curtailment Price"}=define()
 {
-	update_page();
+	curtailment_price_ctrl_refresh();
 };	
 
 on_change{"grid_curtailment_price"}=define()
 {
-	update_page();
+	curtailment_price_ctrl_refresh();
 };	
