@@ -1731,15 +1731,14 @@ cp_nameplate_percentage
 1
 2
 1
-2
-50 25 
-
+1
+50
 cp_payment_amount
 1
 2
 1
 1
-10
+5000
 cp_payment_esc
 1
 1
@@ -2449,9 +2448,8 @@ grid_curtailment_price
 1
 2
 1
-5
-10 20 30 40 50 
-
+1
+0.01
 grid_curtailment_price_esc
 1
 1
@@ -4206,7 +4204,7 @@ pbi_fed_amount
 2
 1
 1
-0.004
+0
 pbi_fed_escal
 1
 1
@@ -4218,7 +4216,7 @@ pbi_fed_for_ds
 1
 1
 1
-1
+0
 pbi_fed_tax_fed
 1
 1
@@ -4242,7 +4240,7 @@ pbi_oth_amount
 2
 1
 1
-0.001
+0
 pbi_oth_escal
 1
 1
@@ -4254,7 +4252,7 @@ pbi_oth_for_ds
 1
 1
 1
-1
+0
 pbi_oth_tax_fed
 1
 1
@@ -4278,7 +4276,7 @@ pbi_sta_amount
 2
 1
 1
-0.003
+0
 pbi_sta_escal
 1
 1
@@ -4290,7 +4288,7 @@ pbi_sta_for_ds
 1
 1
 1
-1
+0
 pbi_sta_tax_fed
 1
 1
@@ -4314,7 +4312,7 @@ pbi_uti_amount
 2
 1
 1
-0.002
+0
 pbi_uti_escal
 1
 1
@@ -4326,7 +4324,7 @@ pbi_uti_for_ds
 1
 1
 1
-1
+0
 pbi_uti_tax_fed
 1
 1
@@ -4397,9 +4395,8 @@ ppa_price_input
 1
 2
 1
-25
-0.03 0.0303 0.030603 0.030909 0.0312181 0.0315303 0.0318456 0.0321641 0.0324857 0.0328106 0.0331387 0.0334701 0.0338048 0.0341428 0.0344842 0.0348291 0.0351774 0.0355291 0.0358844 0.0362433 0.0366057 0.0369718 0.0373415 0.0377149 0.038092 
-
+1
+0.003
 ppa_soln_mode
 1
 1
