@@ -2100,8 +2100,8 @@ field_control
 file_name
 1
 4
-109
-C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
 flip_target_percent
 1
 1
@@ -9030,8 +9030,8 @@ site_spec_cost
 solar_data_file_name
 1
 4
-109
-C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
 solar_data_file_name_load
 1
 4
@@ -9050,8 +9050,8 @@ daggett_ca_34.865371_-116.783023_psmv3_60_tmy
 solar_resource_file
 1
 4
-109
-C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\daggett_ca_34.865371_-116.783023_psmv3_60_tmy.csv
 solution_mode_message
 1
 4

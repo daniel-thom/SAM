@@ -904,8 +904,8 @@ federal_tax_rate
 file_name
 1
 4
-109
-C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
 h_slot_gap
 1
 1
@@ -1834,8 +1834,8 @@ slope_ns
 solar_data_file_name
 1
 4
-109
-C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
 solar_data_file_name_load
 1
 4
@@ -1854,8 +1854,8 @@ phoenix_az_33.450495_-111.983688_psmv3_60_tmy
 solar_resource_file
 1
 4
-109
-C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
 state
 1
 4

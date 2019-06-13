@@ -1262,8 +1262,8 @@ field_thermal_output
 file_name
 1
 4
-106
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
+116
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
 fixed_charge_rate
 1
 1
@@ -1406,8 +1406,8 @@ sh_eps_HCE4
 solar_data_file_name
 1
 4
-106
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
+116
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
 solar_data_file_name_load
 1
 4
@@ -1425,8 +1425,8 @@ tucson_az_32.116521_-110.933042_psmv3_60_tmy
 solar_resource_file
 1
 4
-106
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
+116
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
 solarm
 1
 1
@@ -1532,7 +1532,7 @@ ui_ireal
 1
 1
 1
-0.02439
+0.0243902
 ui_lbl_cff_msg
 1
 4
@@ -1572,7 +1572,7 @@ ui_wacc
 1
 1
 1
-0.004878
+0.00487805
 use_specific_weather_file
 1
 1

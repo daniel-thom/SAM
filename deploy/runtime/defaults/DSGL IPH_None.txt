@@ -1188,8 +1188,8 @@ field_thermal_output
 file_name
 1
 4
-106
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
+116
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
 heat_sink_dP_frac
 1
 1
@@ -1320,8 +1320,8 @@ sh_eps_HCE4
 solar_data_file_name
 1
 4
-106
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
+116
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
 solar_data_file_name_load
 1
 4
@@ -1339,8 +1339,8 @@ tucson_az_32.116521_-110.933042_psmv3_60_tmy
 solar_resource_file
 1
 4
-106
-C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
+116
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv
 solarm
 1
 1
