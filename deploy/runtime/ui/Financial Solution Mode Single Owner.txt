@@ -1,6 +1,6 @@
 Financial Solution Mode Single Owner
-859
-132
+878
+141
 10
 GroupBox
 
@@ -12,7 +12,7 @@ Name
 GroupBox1
 X
 3
-0
+12
 Y
 3
 3
@@ -39,7 +39,7 @@ Name
 GroupBox2
 X
 3
-570
+573
 Y
 3
 18
@@ -66,10 +66,10 @@ Name
 flip_target_percent
 X
 3
-312
+315
 Y
 3
-27
+21
 Width
 3
 60
@@ -125,10 +125,10 @@ Name
 flip_target_year
 X
 3
-489
+492
 Y
 3
-27
+21
 Width
 3
 60
@@ -184,7 +184,7 @@ Name
 object 7
 X
 3
-579
+582
 Y
 3
 63
@@ -229,7 +229,7 @@ Name
 ppa_escalation
 X
 3
-723
+726
 Y
 3
 39
@@ -288,7 +288,7 @@ Name
 ppa_price_input
 X
 3
-309
+312
 Y
 3
 48
@@ -327,7 +327,7 @@ Name
 ppa_soln_mode
 X
 3
-21
+24
 Y
 3
 24
@@ -364,7 +364,7 @@ Name
 solution_mode_message
 X
 3
-18
+21
 Y
 3
 75
@@ -408,7 +408,7 @@ Name
 third_party_ownership_message
 X
 3
-18
+21
 Y
 3
 99

@@ -1,6 +1,6 @@
 Financial Curtailment Price
-755
-127
+754
+131
 5
 GroupBox
 
