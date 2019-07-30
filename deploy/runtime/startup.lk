@@ -381,7 +381,7 @@ function setup_merchant_plant_pages(degradation)
               {'name'='Financial Reserve Accounts', 'caption'='Reserve Accounts','collapsible'=true,'collapsible_var'='show_ReserveAccounts'},
                {'name'='Financial Return on Equity', 'caption'='Return on Equity','collapsible'=true,'collapsible_var'='show_ReturnonEquity', 'collapsed_by_default'=true}  ]], 
            { 'sidebar'='Financial Parameters', 'help'='fin_single_owner' }  );
-  addpage( [[ 'Financial Capacity Payments','Financial Energy Capacity', 'Financial Other Ancillary Services']], 
+  addpage( [[ 'Financial Merchant Plant', 'Financial Capacity Payments']], 
             { 'sidebar'='Revenue', 'help'='financial_revenue' } );					
   addpage( [[ 'Financial Tax Credits','Financial Cash Incentives']],
            { 'sidebar'='Incentives', 'help'='incentives' } );					

@@ -1,6 +1,6 @@
 Financial Curtailment Price
-754
-131
+774
+126
 5
 GroupBox
 
@@ -188,7 +188,7 @@ Y
 9
 Width
 3
-727
+752
 Height
 3
 109
