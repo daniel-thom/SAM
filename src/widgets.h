@@ -209,6 +209,49 @@ private:
 };
 
 
+
+#define EVT_DATALIFETIMEBUTTON(id, func)  EVT_BUTTON(id, func)
+
+enum {
+	DATA_LIFETIME_MONTHLY,
+	DATA_LIFETIME_DAILY,
+	DATA_LIFETIME_HOURLY,
+	DATA_LIFETIME_SUBHOURLY,
+	DATA_LIFETIME_ANNUAL,
+	DATA_LIFETIME_WEEKLY,
+	DATA_LIFETIME_ANY
+};
+
+class AFDataLifetimeButton : public wxButton
+{
+public:
+	AFDataLifetimeButton(wxWindow *parent, int id, const wxPoint &pos = wxDefaultPosition, const wxSize &size = wxDefaultSize);
+
+	void Set(const std::vector<double> &data);
+	void Get(std::vector<double> &data);
+	std::vector<double> Get() const { return mData; }
+
+	void SetDataLabel(const wxString &s);
+	wxString GetDataLabel();
+
+	void SetDescription(const wxString &s) { m_description = s; }
+	wxString GetDescription() { return m_description; }
+
+	void SetMode(int mode);
+	int GetMode();
+
+	void OnPressed(wxCommandEvent &evt);
+private:
+	wxString mDataLabel;
+	int mMode;
+	std::vector<double> mData;
+	wxString m_description;
+
+	DECLARE_EVENT_TABLE();
+};
+
+
+
 #define EVT_DATAARRAYBUTTON(id, func)  EVT_BUTTON(id, func)
 
 enum {

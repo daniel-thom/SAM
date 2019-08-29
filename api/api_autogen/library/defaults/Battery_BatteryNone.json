@@ -1,0 +1,24 @@
+{
+	"defaults": {
+		"Simulation": {
+		},
+		"Battery": {
+		},
+		"System": {
+		},
+		"ElectricLoad": {
+		},
+		"Common": {
+		},
+		"Inverter": {
+		},
+		"PV": {
+		},
+		"FuelCell": {
+		},
+		"ElectricityRate": {
+		},
+		"TimeOfDelivery": {
+		}
+	}
+}

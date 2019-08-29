@@ -1832,6 +1832,335 @@ void AFDataArrayButton::OnPressed(wxCommandEvent &evt)
 
 
 
+enum { ILDD_GRID = wxID_HIGHEST + 945, ILDD_CHANGENUMROWS, ILDD_COPY, ILDD_PASTE, ILDD_IMPORT, ILDD_EXPORT };
+
+class AFDataLifetimeDialog : public wxDialog
+{
+private:
+	wxString mLabel;
+	int mMode;
+	std::vector<double> mData;
+	wxExtGridCtrl *Grid;
+	AFFloatArrayTable *GridTable;
+	wxStaticText *ModeLabel;
+	wxStaticText *Description;
+	wxButton *ButtonChangeRows;
+
+public:
+	AFDataLifetimeDialog(wxWindow *parent, const wxString &title, const wxString &desc, const wxString &collabel)
+		: wxDialog(parent, wxID_ANY, title, wxDefaultPosition, wxScaleSize(430, 510),
+			wxDEFAULT_DIALOG_STYLE | wxRESIZE_BORDER)
+	{
+		mLabel = collabel;
+
+		GridTable = NULL;
+		mMode = DATA_ARRAY_8760_MULTIPLES;
+
+		wxButton *btn = NULL;
+		Grid = new wxExtGridCtrl(this, ILDD_GRID);
+		Grid->DisableDragCell();
+		//Grid->DisableDragColSize();
+		Grid->DisableDragRowSize();
+		Grid->DisableDragColMove();
+		Grid->DisableDragGridSize();
+		Grid->SetRowLabelAlignment(wxALIGN_LEFT, wxALIGN_CENTER);
+
+		wxBoxSizer *szh_top1 = new wxBoxSizer(wxHORIZONTAL);
+		btn = new wxButton(this, ILDD_COPY, "Copy");
+		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		btn = new wxButton(this, ILDD_PASTE, "Paste");
+		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		btn = new wxButton(this, ILDD_IMPORT, "Import");
+		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		btn = new wxButton(this, ILDD_EXPORT, "Export");
+		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		szh_top1->AddStretchSpacer();
+
+		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
+		ButtonChangeRows = new wxButton(this, ILDD_CHANGENUMROWS, "Number of Values...");
+		szh_top2->Add(ButtonChangeRows, 0, wxALL | wxEXPAND, 1);
+		ModeLabel = new wxStaticText(this, -1, "");
+		szh_top2->AddSpacer(3);
+		szh_top2->Add(ModeLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szh_top2->AddStretchSpacer();
+
+		wxBoxSizer *szv_main = new wxBoxSizer(wxVERTICAL);
+		// reverse order per Paul email 2/10/15
+		szv_main->Add(szh_top2, 0, wxALL | wxEXPAND, 4);
+		szv_main->Add(szh_top1, 0, wxALL | wxEXPAND, 4);
+		szv_main->Add(Grid, 1, wxALL | wxEXPAND, 4);
+		Description = 0;
+		if (!desc.IsEmpty())
+		{
+			Description = new wxStaticText(this, wxID_ANY, desc);
+			Description->Wrap(350);
+			szv_main->Add(Description, 0, wxALL, 10);
+		}
+		szv_main->Add(CreateButtonSizer(wxOK | wxCANCEL), 0, wxALL | wxEXPAND, 10);
+
+		SetMode(DATA_LIFETIME_HOURLY);
+
+		SetSizer(szv_main);
+	}
+
+	void SetMode(int m)
+	{
+		mMode = m;
+		wxString l;
+		if (mMode == DATA_LIFETIME_HOURLY)
+		{
+			ModeLabel->SetLabel("Hourly Values (8760)");
+			ButtonChangeRows->Hide();
+		}
+		else if (mMode == DATA_LIFETIME_SUBHOURLY)
+		{
+			ModeLabel->SetLabel("Subhourly Values (8760x1/TS)");
+			ButtonChangeRows->SetLabel("Change time step...");
+			ButtonChangeRows->Show();
+		}
+		else
+		{
+			ModeLabel->SetLabel("");
+			ButtonChangeRows->SetLabel("Number of values...");
+			ButtonChangeRows->Show();
+		}
+	}
+
+	int GetMode()
+	{
+		return mMode;
+	}
+
+	void SetData(const std::vector<double> &data)
+	{
+		mData = data;
+
+		if (GridTable) GridTable->SetArray(NULL);
+		Grid->SetTable(NULL);
+
+		GridTable = new AFFloatArrayTable(&mData, mMode, mLabel);
+		GridTable->SetAttrProvider(new wxExtGridCellAttrProvider);
+
+		Grid->SetTable(GridTable, true);
+		Grid->SetColSize(0, (int)(130 * wxGetScreenHDScale()));
+
+		Grid->Layout();
+		Grid->Refresh();
+	}
+
+	void GetData(std::vector<double> &data)
+	{
+		data = mData;
+	}
+
+	void SetDataLabel(const wxString &s)
+	{
+		mLabel = s;
+	}
+
+	wxString GetDataLabel()
+	{
+		return mLabel;
+	}
+
+	void OnCommand(wxCommandEvent &evt)
+	{
+		if (evt.GetId() == ILDD_CHANGENUMROWS)
+		{
+			long l = 0;
+			if (mMode == DATA_LIFETIME_SUBHOURLY)
+			{
+				int nmult = mData.size() / 8760;
+				double tmstp = nmult != 0 ? 1.0 / ((double)nmult) : 1.0;
+
+				wxString result = wxGetTextFromUser("Enter time step (minutes):", "Edit Table",
+					wxString::Format("%lg", tmstp * 60), this);
+
+				if (result.IsEmpty())
+					return;
+
+				tmstp = wxAtof(result) / 60.0;
+				if (tmstp > 0 && (int)(1.0 / tmstp) > 0)
+				{
+					l = 8760 * (int)(1.0 / tmstp);
+				}
+				else
+				{
+					wxMessageBox("Invalid time step.");
+					return;
+				}
+			}
+			else
+			{
+				wxString result = wxGetTextFromUser("Enter number of data rows", "Edit Table",
+					wxString::Format("%d", Grid->GetNumberRows()), this);
+				if (result.IsEmpty()) return;
+
+				if (!result.ToLong(&l))
+					return;
+			}
+
+			if (l > 0)
+			{
+				if (mMode == DATA_LIFETIME_HOURLY)
+				{
+					l = 8760;
+				}
+				else if (mMode == DATA_LIFETIME_SUBHOURLY)
+				{
+					int nmult = l / 8760;
+					l = nmult * 8760;
+					if (l < 8760) l = 8760;
+				}
+
+				Grid->ResizeGrid(l, 1);
+			}
+			else
+				wxMessageBox("Invalid number of rows or non-numeric entry.");
+		}
+		else if (evt.GetId() == ILDD_COPY)
+			Grid->Copy(true);
+		else if (evt.GetId() == ILDD_PASTE)
+			Grid->Paste(wxExtGridCtrl::PASTE_ALL);
+		else if (evt.GetId() == ILDD_IMPORT)
+		{
+			wxFileDialog dlg(this, "Select data file to import");
+			if (dlg.ShowModal() != wxID_OK) return;
+			FILE *fp = fopen(dlg.GetPath().c_str(), "r");
+			if (!fp)
+			{
+				wxMessageBox("Could not open file for reading:\n\n" + dlg.GetPath());
+				return;
+			}
+
+			std::vector<double> arr;
+			arr.reserve(mData.size());
+
+			char buf[128];
+			fgets(buf, 127, fp); // skip header line
+
+			bool error = false;
+			for (int i = 0; i < (int)mData.size(); i++)
+			{
+				if (fgets(buf, 127, fp) == NULL)
+				{
+					wxMessageBox(wxString::Format("Data file does not contain %d data value lines, only %d found.\n\nNote that the first line in the file is considered a header label and is ignored.", mData.size(), i));
+					error = true;
+					break;
+				}
+
+				arr.push_back((double)atof(buf));
+			}
+
+			if (!error) SetData(arr);
+
+			fclose(fp);
+		}
+		else if (evt.GetId() == ILDD_EXPORT)
+		{
+			wxFileDialog dlg(this, "Select data file to export to", wxEmptyString, wxEmptyString, "*.*", wxFD_SAVE | wxFD_OVERWRITE_PROMPT);
+			if (dlg.ShowModal() != wxID_OK) return;
+
+			FILE *fp = fopen(dlg.GetPath().c_str(), "w");
+			if (!fp)
+			{
+				wxMessageBox("Could not open file for writing.");
+				return;
+			}
+
+			fprintf(fp, "Exported Data (%d)\n", (int)mData.size());
+			for (size_t i = 0; i < mData.size(); i++)
+				fprintf(fp, "%g\n", mData[i]);
+			fclose(fp);
+		}
+	}
+
+	DECLARE_EVENT_TABLE();
+};
+
+BEGIN_EVENT_TABLE(AFDataLifetimeDialog, wxDialog)
+EVT_BUTTON(ILDD_COPY, AFDataLifetimeDialog::OnCommand)
+EVT_BUTTON(ILDD_PASTE, AFDataLifetimeDialog::OnCommand)
+EVT_BUTTON(ILDD_IMPORT, AFDataLifetimeDialog::OnCommand)
+EVT_BUTTON(ILDD_EXPORT, AFDataLifetimeDialog::OnCommand)
+EVT_BUTTON(ILDD_CHANGENUMROWS, AFDataLifetimeDialog::OnCommand)
+END_EVENT_TABLE()
+
+BEGIN_EVENT_TABLE(AFDataLifetimeButton, wxButton)
+EVT_BUTTON(wxID_ANY, AFDataLifetimeButton::OnPressed)
+END_EVENT_TABLE()
+
+AFDataLifetimeButton::AFDataLifetimeButton(wxWindow *parent, int id, const wxPoint &pos, const wxSize &size)
+	: wxButton(parent, id, "Edit data...", pos, size)
+{
+	mData.resize(8760, 0.0);
+	mMode = DATA_LIFETIME_HOURLY;
+}
+
+void AFDataLifetimeButton::Get(std::vector<double> &data)
+{
+	data = mData;
+}
+void AFDataLifetimeButton::Set(const std::vector<double> &data)
+{
+	if (mMode == DATA_LIFETIME_HOURLY)
+	{
+		if (data.size() != 8760)
+		{
+			mData.resize(8760, -999.0);
+			return;
+		}
+	}
+	else if (mMode == DATA_LIFETIME_SUBHOURLY)
+	{
+		int nmult = data.size() / 8760;
+		if (nmult * 8760 != (int)data.size())
+		{
+			mData.resize(8760, -998.0);
+			return;
+		}
+	}
+
+	mData = data;
+}
+void AFDataLifetimeButton::SetDataLabel(const wxString &s)
+{
+	mDataLabel = s;
+}
+wxString AFDataLifetimeButton::GetDataLabel()
+{
+	return mDataLabel;
+}
+
+void AFDataLifetimeButton::SetMode(int mode)
+{
+	mMode = mode;
+}
+
+int AFDataLifetimeButton::GetMode()
+{
+	return mMode;
+}
+
+void AFDataLifetimeButton::OnPressed(wxCommandEvent &evt)
+{
+	AFDataLifetimeDialog dlg(this, "Edit Data", m_description, mDataLabel);
+
+	dlg.SetDataLabel(mDataLabel);
+	dlg.SetMode(mMode);
+	dlg.SetData(mData);
+
+	if (dlg.ShowModal() == wxID_OK)
+	{
+		dlg.GetData(mData);
+		evt.Skip(); // allow event to propagate indicating underlying value changed
+	}
+}
+
+
+
+
+
 
 
 

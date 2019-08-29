@@ -1,0 +1,12 @@
+{
+	"defaults": {
+		"Lifetime": {
+		},
+		"Grid": {
+		},
+		"Common": {
+		},
+		"LossAdjustments": {
+		}
+	}
+}

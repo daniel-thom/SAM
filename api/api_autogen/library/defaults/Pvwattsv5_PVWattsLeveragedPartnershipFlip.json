@@ -1,0 +1,25 @@
+{
+	"defaults": {
+		"Lifetime": {
+			"analysis_period": 25,
+			"system_use_lifetime_output": 0
+		},
+		"LocationAndResource": {
+			"solar_resource_file": "C:\Projects\GitHub\NREL\fuel_cell\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv"
+		},
+		"SystemDesign": {
+			"array_type": 0,
+			"azimuth": 180,
+			"dc_ac_ratio": 1.2,
+			"gcr": 0.4,
+			"inv_eff": 96,
+			"losses": 14.0757,
+			"module_type": 0,
+			"system_capacity": 20000,
+			"tilt": 33
+		},
+		"AdjustmentFactors": {
+			"constant": 0
+		}
+	}
+}
