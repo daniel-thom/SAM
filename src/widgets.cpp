@@ -1854,7 +1854,7 @@ public:
 		mLabel = collabel;
 
 		GridTable = NULL;
-		mMode = DATA_ARRAY_8760_MULTIPLES;
+		mMode = DATA_LIFETIME_MONTHLY;
 
 		wxButton *btn = NULL;
 		Grid = new wxExtGridCtrl(this, ILDD_GRID);

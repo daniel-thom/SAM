@@ -1495,6 +1495,8 @@ void UIEditorPanel::OnCommand( wxCommandEvent &evt )
 						vi = m_ipd.Variables().Create(name, VV_STRING);
 					else if (type == "DataArray")
 						vi = m_ipd.Variables().Create(name, VV_ARRAY);
+					else if (type == "DataLifetime")
+						vi = m_ipd.Variables().Create(name, VV_ARRAY);
 					else if (type == "StringArray")
 						vi = m_ipd.Variables().Create(name, VV_STRING);
 					else if (type == "DataMatrix")

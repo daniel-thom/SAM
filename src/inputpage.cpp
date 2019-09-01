@@ -545,6 +545,11 @@ bool ActiveInputPage::DataExchange( wxUIObject *obj, VarValue &val, DdxDir dir )
 		if (dir == VAR_TO_OBJ) da->Set(val.Array());
 		else val.Set(da->Get());
 	}
+	else if (AFDataLifetimeButton *dl = obj->GetNative<AFDataLifetimeButton>())
+	{
+	if (dir == VAR_TO_OBJ) dl->Set(val.Array());
+	else val.Set(dl->Get());
+	}
 	else if (AFStringArrayButton *sa = obj->GetNative<AFStringArrayButton>())
 	{
 		if (dir == VAR_TO_OBJ) sa->Set(val.String());

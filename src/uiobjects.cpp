@@ -501,6 +501,51 @@ public:
 };
 
 
+
+class wxUIDataLifetimeObject : public wxUIObject
+{
+public:
+	wxUIDataLifetimeObject() {
+		//	DATA_LIFETIME_MONTHLY,DATA_LIFETIME_DAILY,DATA_LIFETIME_HOURLY,DATA_LIFETIME_SUBHOURLY,DATA_LIFETIME_ANNUAL,DATA_LIFETIME_WEEKLY
+		AddProperty("Mode", new wxUIProperty(0, "Monthly,Daily,Hourly,Subhourly,Annual,Weekly,Variable Length"));
+		AddProperty("Label", new wxUIProperty(wxString("")));
+		AddProperty("Description", new wxUIProperty(wxString("")));
+		AddProperty("TabOrder", new wxUIProperty((int)-1));
+	}
+	virtual wxString GetTypeName() { return "DataLifetime"; }
+	virtual wxUIObject *Duplicate() { wxUIObject *o = new wxUIDataLifetimeObject; o->Copy(this); return o; }
+	virtual bool IsNativeObject() { return true; }
+	virtual bool DrawDottedOutline() { return false; }
+	virtual wxWindow *CreateNative(wxWindow *parent) {
+		AFDataLifetimeButton *da = new AFDataLifetimeButton(parent, wxID_ANY);
+		da->SetMode(Property("Mode").GetInteger());
+		da->SetDescription(Property("Description").GetString());
+		da->SetDataLabel(Property("Label").GetString());
+		return AssignNative(da);
+	}
+	virtual void Draw(wxWindow *win, wxDC &dc, const wxRect &geom)
+	{
+		wxRendererNative::Get().DrawPushButton(win, dc, geom);
+		dc.SetFont(*wxNORMAL_FONT);
+		dc.SetTextForeground(*wxBLACK);
+		wxString label("Data Lifetime...");
+		int x, y;
+		dc.GetTextExtent(label, &x, &y);
+		dc.DrawText(label, geom.x + geom.width / 2 - x / 2, geom.y + geom.height / 2 - y / 2);
+	}
+	virtual void OnPropertyChanged(const wxString &id, wxUIProperty *p)
+	{
+		if (AFDataLifetimeButton *da = GetNative<AFDataLifetimeButton>())
+		{
+			if (id == "Mode") da->SetMode(p->GetInteger());
+			if (id == "Label") da->SetDataLabel(p->GetString());
+			if (id == "Description") da->SetDescription(p->GetString());
+		}
+	}
+
+};
+
+
 class wxUIDataMatrixObject : public wxUIObject
 {
 public:
@@ -779,6 +824,7 @@ void RegisterUIObjectsForSAM()
 	wxUIObjectTypeProvider::Register( new wxUIPlotObject );
 	wxUIObjectTypeProvider::Register( new wxUISearchListBoxObject );
 	wxUIObjectTypeProvider::Register(new wxUIDataArrayObject);
+	wxUIObjectTypeProvider::Register(new wxUIDataLifetimeObject);
 	wxUIObjectTypeProvider::Register(new wxUIStringArrayObject);
 	wxUIObjectTypeProvider::Register(new wxUIDataMatrixObject);
 	wxUIObjectTypeProvider::Register(new wxUIShadingFactorsObject);

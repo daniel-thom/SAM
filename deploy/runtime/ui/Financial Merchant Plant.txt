@@ -1,11 +1,46 @@
 Financial Merchant Plant
 784
 520
-26
+25
+DataLifetime
+
+1
+10
+Name
+5
+22
+mp_energy_market_price
+X
+3
+171
+Y
+3
+42
+Width
+3
+90
+Height
+3
+24
+Tool Tip
+5
+0
+Mode
+3
+0
+Label
+5
+0
+Description
+5
+0
+TabOrder
+3
+4294967295
 Divider
 
 1
-9
+10
 Name
 5
 9
@@ -22,6 +57,9 @@ Width
 Height
 3
 16
+Tool Tip
+5
+0
 Orientation
 3
 0
@@ -41,7 +79,7 @@ Bold
 Divider
 
 1
-9
+10
 Name
 5
 10
@@ -58,6 +96,9 @@ Width
 Height
 3
 16
+Tool Tip
+5
+0
 Orientation
 3
 0
@@ -77,7 +118,7 @@ Bold
 Divider
 
 1
-9
+10
 Name
 5
 10
@@ -94,6 +135,9 @@ Width
 Height
 3
 16
+Tool Tip
+5
+0
 Orientation
 3
 0
@@ -113,7 +157,7 @@ Bold
 Divider
 
 1
-9
+10
 Name
 5
 10
@@ -130,6 +174,9 @@ Width
 Height
 3
 16
+Tool Tip
+5
+0
 Orientation
 3
 0
@@ -149,7 +196,7 @@ Bold
 GroupBox
 
 1
-7
+8
 Name
 5
 8
@@ -166,6 +213,9 @@ Width
 Height
 3
 387
+Tool Tip
+5
+0
 Caption
 5
 32
@@ -176,7 +226,7 @@ Bold
 GroupBox
 
 1
-7
+8
 Name
 5
 10
@@ -193,6 +243,9 @@ Width
 Height
 3
 96
+Tool Tip
+5
+0
 Caption
 5
 21
@@ -203,7 +256,7 @@ Bold
 Label
 
 1
-12
+13
 Name
 5
 8
@@ -220,6 +273,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -248,7 +304,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -265,6 +321,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -293,52 +352,7 @@ AlignTop
 Label
 
 1
-12
-Name
-5
-10
-object 712
-X
-3
-171
-Y
-3
-42
-Width
-3
-156
-Height
-3
-24
-Caption
-5
-27
-Steve's amazing new widget!
-TextColour
-4
-255
-0
-128
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-0
-AlignTop
-2
-0
-Label
-
-1
-12
+13
 Name
 5
 10
@@ -355,6 +369,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -383,7 +400,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -400,6 +417,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -428,7 +448,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -445,6 +465,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -473,7 +496,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -490,6 +513,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -518,7 +544,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -535,6 +561,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -563,7 +592,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -580,6 +609,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -608,7 +640,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -625,6 +657,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -653,7 +688,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -670,6 +705,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -698,7 +736,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -715,6 +753,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -743,7 +784,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -760,6 +801,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -788,7 +832,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -805,6 +849,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -833,7 +880,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -850,6 +897,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -878,7 +928,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 10
@@ -895,6 +945,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -923,52 +976,7 @@ AlignTop
 Label
 
 1
-12
-Name
-5
-9
-object 75
-X
-3
-65
-Y
-3
-42
-Width
-3
-100
-Height
-3
-24
-Caption
-5
-12
-Energy price
-TextColour
-4
-0
-0
-0
-255
-Bold
-2
-0
-FontSize
-3
-0
-WordWrap
-2
-0
-AlignRight
-2
-1
-AlignTop
-2
-0
-Label
-
-1
-12
+13
 Name
 5
 9
@@ -985,6 +993,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -1013,7 +1024,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 9
@@ -1030,6 +1041,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 16
@@ -1058,7 +1072,7 @@ AlignTop
 Label
 
 1
-12
+13
 Name
 5
 9
@@ -1075,6 +1089,9 @@ Width
 Height
 3
 24
+Tool Tip
+5
+0
 Caption
 5
 27
@@ -1241,7 +1258,7 @@ Merchant Plant Revenue
 1
 1
 0
-Default
+DataLifetime
 
 0
 0
