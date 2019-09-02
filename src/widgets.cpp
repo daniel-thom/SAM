@@ -1832,7 +1832,7 @@ void AFDataArrayButton::OnPressed(wxCommandEvent &evt)
 
 
 
-enum { ILDD_GRID = wxID_HIGHEST + 945, ILDD_CHANGENUMROWS, ILDD_COPY, ILDD_PASTE, ILDD_IMPORT, ILDD_EXPORT };
+enum { ILDD_GRID = wxID_HIGHEST + 945, ILDD_CHANGENUMROWS, ILDD_MODEOPTIONS, ILDD_TIMESTEPS, ILDD_SINGLEVALUE, ILDD_COPY, ILDD_PASTE, ILDD_IMPORT, ILDD_EXPORT };
 
 class AFDataLifetimeDialog : public wxDialog
 {
@@ -1842,16 +1842,20 @@ private:
 	std::vector<double> mData;
 	wxExtGridCtrl *Grid;
 	AFFloatArrayTable *GridTable;
-	wxStaticText *ModeLabel;
 	wxStaticText *Description;
+	wxStaticText *InputLabel, *TimestepsLabel;
 	wxButton *ButtonChangeRows;
+	wxStaticText *ModeLabel;
+	wxComboBox *ModeOptions;
+	wxComboBox *Timesteps;
+	wxNumericCtrl *SingleValue;
 
 public:
-	AFDataLifetimeDialog(wxWindow *parent, const wxString &title, const wxString &desc, const wxString &collabel)
+	AFDataLifetimeDialog(wxWindow *parent, const wxString &title, const wxString &desc, const wxString &inputLabel, const bool &optannual = false, const bool &optweekly=false)
 		: wxDialog(parent, wxID_ANY, title, wxDefaultPosition, wxScaleSize(430, 510),
 			wxDEFAULT_DIALOG_STYLE | wxRESIZE_BORDER)
 	{
-		mLabel = collabel;
+		mLabel = inputLabel;
 
 		GridTable = NULL;
 		mMode = DATA_LIFETIME_MONTHLY;
@@ -1865,15 +1869,56 @@ public:
 		Grid->DisableDragGridSize();
 		Grid->SetRowLabelAlignment(wxALIGN_LEFT, wxALIGN_CENTER);
 
-		wxBoxSizer *szh_top1 = new wxBoxSizer(wxHORIZONTAL);
+		wxBoxSizer *szh_btns = new wxBoxSizer(wxHORIZONTAL);
+		wxBoxSizer *szv_copypaste = new wxBoxSizer(wxVERTICAL);
 		btn = new wxButton(this, ILDD_COPY, "Copy");
-		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		szv_copypaste->Add(btn, 0, wxALL | wxEXPAND, 1);
 		btn = new wxButton(this, ILDD_PASTE, "Paste");
-		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
-		btn = new wxButton(this, ILDD_IMPORT, "Import");
-		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		szv_copypaste->Add(btn, 0, wxALL | wxEXPAND, 1);
+		wxBoxSizer *szv_exportimport = new wxBoxSizer(wxVERTICAL);
 		btn = new wxButton(this, ILDD_EXPORT, "Export");
-		szh_top1->Add(btn, 0, wxALL | wxEXPAND, 1);
+		szv_exportimport->Add(btn, 0, wxALL | wxEXPAND, 1);
+		btn = new wxButton(this, ILDD_IMPORT, "Import");
+		szv_exportimport->Add(btn, 0, wxALL | wxEXPAND, 1);
+		szh_btns->Add(szv_copypaste);
+		szh_btns->Add(szv_exportimport);
+		szh_btns->AddStretchSpacer();
+
+
+		wxBoxSizer *szh_top4 = new wxBoxSizer(wxHORIZONTAL);
+		wxArrayString timestepmin;
+		timestepmin.Add(" 1");
+		timestepmin.Add(" 5");
+		timestepmin.Add("10");
+		timestepmin.Add("15");
+		timestepmin.Add("20");
+		timestepmin.Add("30");
+		Timesteps = new wxComboBox(this, ILDD_TIMESTEPS, "Timesteps", wxDefaultPosition, wxDefaultSize, timestepmin);
+		TimestepsLabel = new wxStaticText(this, -1, "Select timestep minutes");
+		szh_top4->Add(TimestepsLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szh_top4->AddSpacer(3);
+		szh_top4->Add(Timesteps, 0, wxALL | wxEXPAND, 1);
+		szh_top4->AddStretchSpacer();
+
+		wxBoxSizer *szh_top3 = new wxBoxSizer(wxHORIZONTAL);
+		wxArrayString modes;
+		modes.Add("Monthly");
+		modes.Add("Daily");
+		modes.Add("Hourly");
+		modes.Add("Subhourly");
+		modes.Add("User specified");
+		if (optannual)	modes.Add("Annual");
+		if (optweekly) modes.Add("Weekly");
+		ModeOptions = new wxComboBox(this, ILDD_MODEOPTIONS, "Mode", wxDefaultPosition, wxDefaultSize, modes);
+		szh_top3->Add(new wxStaticText(this, -1, "Mode"), 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szh_top3->AddSpacer(3);
+		szh_top3->Add(ModeOptions, 0, wxALL | wxEXPAND, 1);
+		szh_top3->AddStretchSpacer();
+
+		wxBoxSizer *szh_top1 = new wxBoxSizer(wxHORIZONTAL);
+		InputLabel = new wxStaticText(this, wxID_ANY, mLabel);
+		szh_top1->AddSpacer(3);
+		szh_top1->Add(InputLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top1->AddStretchSpacer();
 
 		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
@@ -1884,23 +1929,38 @@ public:
 		szh_top2->Add(ModeLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top2->AddStretchSpacer();
 
-		wxBoxSizer *szv_main = new wxBoxSizer(wxVERTICAL);
-		// reverse order per Paul email 2/10/15
-		szv_main->Add(szh_top2, 0, wxALL | wxEXPAND, 4);
-		szv_main->Add(szh_top1, 0, wxALL | wxEXPAND, 4);
-		szv_main->Add(Grid, 1, wxALL | wxEXPAND, 4);
+		wxBoxSizer *szh_singlevalue = new wxBoxSizer(wxHORIZONTAL);
+		SingleValue = new wxNumericCtrl(this, ILDD_SINGLEVALUE);
+		szh_singlevalue->Add(new wxStaticText(this, -1, "Enter single value"), 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szh_singlevalue->AddSpacer(3);
+		szh_singlevalue->Add(SingleValue, 0, wxALL | wxEXPAND, 1);
+		szh_singlevalue->AddStretchSpacer();
+
+		wxBoxSizer *szv_main_vert = new wxBoxSizer(wxVERTICAL);
+		szv_main_vert->Add(szh_top1, 0, wxALL | wxEXPAND, 4);
+		szv_main_vert->Add(szh_top2, 0, wxALL | wxEXPAND, 4);
+		szv_main_vert->Add(szh_top3, 0, wxALL | wxEXPAND, 4);
+		szv_main_vert->Add(szh_top4, 0, wxALL | wxEXPAND, 4);
+		szv_main_vert->Add(szh_btns, 0, wxALL | wxEXPAND, 4);
+		szv_main_vert->Add(new wxStaticText(this, -1, "_____________________"), 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szv_main_vert->Add(szh_singlevalue, 0, wxALL | wxEXPAND, 4);
+		szv_main_vert->AddStretchSpacer();
+		szv_main_vert->Add(CreateButtonSizer(wxOK | wxCANCEL), 0, wxALL | wxEXPAND, 10);
 		Description = 0;
 		if (!desc.IsEmpty())
 		{
 			Description = new wxStaticText(this, wxID_ANY, desc);
 			Description->Wrap(350);
-			szv_main->Add(Description, 0, wxALL, 10);
+			szv_main_vert->Add(Description, 0, wxALL, 10);
 		}
-		szv_main->Add(CreateButtonSizer(wxOK | wxCANCEL), 0, wxALL | wxEXPAND, 10);
 
-		SetMode(DATA_LIFETIME_HOURLY);
+		wxBoxSizer *szh_main = new wxBoxSizer(wxHORIZONTAL);
+		szh_main->Add(szv_main_vert, 0, wxALL | wxEXPAND, 4);
+		szh_main->Add(Grid, 1, wxALL | wxEXPAND, 4);
 
-		SetSizer(szv_main);
+		SetMode(DATA_LIFETIME_MONTHLY);
+
+		SetSizer(szh_main);
 	}
 
 	void SetMode(int m)
@@ -1924,6 +1984,8 @@ public:
 			ButtonChangeRows->SetLabel("Number of values...");
 			ButtonChangeRows->Show();
 		}
+		TimestepsLabel->Show((mMode == DATA_LIFETIME_SUBHOURLY));
+		Timesteps->Show((mMode == DATA_LIFETIME_SUBHOURLY));
 	}
 
 	int GetMode()
@@ -1956,6 +2018,7 @@ public:
 	void SetDataLabel(const wxString &s)
 	{
 		mLabel = s;
+		InputLabel->SetLabel(s);
 	}
 
 	wxString GetDataLabel()
@@ -2018,6 +2081,8 @@ public:
 			else
 				wxMessageBox("Invalid number of rows or non-numeric entry.");
 		}
+		else if (evt.GetId() == ILDD_MODEOPTIONS)
+			SetMode(ModeOptions->GetSelection());
 		else if (evt.GetId() == ILDD_COPY)
 			Grid->Copy(true);
 		else if (evt.GetId() == ILDD_PASTE)
@@ -2084,6 +2149,7 @@ EVT_BUTTON(ILDD_PASTE, AFDataLifetimeDialog::OnCommand)
 EVT_BUTTON(ILDD_IMPORT, AFDataLifetimeDialog::OnCommand)
 EVT_BUTTON(ILDD_EXPORT, AFDataLifetimeDialog::OnCommand)
 EVT_BUTTON(ILDD_CHANGENUMROWS, AFDataLifetimeDialog::OnCommand)
+EVT_COMBOBOX(ILDD_MODEOPTIONS, AFDataLifetimeDialog::OnCommand)
 END_EVENT_TABLE()
 
 BEGIN_EVENT_TABLE(AFDataLifetimeButton, wxButton)
@@ -2094,7 +2160,7 @@ AFDataLifetimeButton::AFDataLifetimeButton(wxWindow *parent, int id, const wxPoi
 	: wxButton(parent, id, "Edit data...", pos, size)
 {
 	mData.resize(8760, 0.0);
-	mMode = DATA_LIFETIME_HOURLY;
+	mMode = DATA_LIFETIME_MONTHLY;
 }
 
 void AFDataLifetimeButton::Get(std::vector<double> &data)

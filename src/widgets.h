@@ -237,6 +237,9 @@ public:
 	void SetDescription(const wxString &s) { m_description = s; }
 	wxString GetDescription() { return m_description; }
 
+	void SetAnalysisPeriod(const int &p) { m_analysisperiod = p; }
+	int GetAnalysisPeriod() { return m_analysisperiod; }
+
 	void SetMode(int mode);
 	int GetMode();
 
@@ -244,6 +247,7 @@ public:
 private:
 	wxString mDataLabel;
 	int mMode;
+	int m_analysisperiod;
 	std::vector<double> mData;
 	wxString m_description;
 
