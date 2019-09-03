@@ -1,7 +1,172 @@
 Financial Merchant Plant
-784
-520
-25
+773
+638
+30
+CheckBox
+
+1
+9
+Name
+5
+18
+mp_enable_ancserv1
+X
+3
+60
+Y
+3
+186
+Width
+3
+189
+Height
+3
+24
+Tool Tip
+5
+0
+Caption
+5
+27
+Enable ancillary service #1
+State
+2
+0
+TabOrder
+3
+4294967295
+CheckBox
+
+1
+9
+Name
+5
+18
+mp_enable_ancserv2
+X
+3
+60
+Y
+3
+300
+Width
+3
+189
+Height
+3
+24
+Tool Tip
+5
+0
+Caption
+5
+27
+Enable ancillary service #2
+State
+2
+0
+TabOrder
+3
+4294967295
+CheckBox
+
+1
+9
+Name
+5
+18
+mp_enable_ancserv3
+X
+3
+60
+Y
+3
+414
+Width
+3
+189
+Height
+3
+24
+Tool Tip
+5
+0
+Caption
+5
+27
+Enable ancillary service #3
+State
+2
+0
+TabOrder
+3
+4294967295
+CheckBox
+
+1
+9
+Name
+5
+18
+mp_enable_ancserv4
+X
+3
+60
+Y
+3
+531
+Width
+3
+189
+Height
+3
+24
+Tool Tip
+5
+0
+Caption
+5
+27
+Enable ancillary service #4
+State
+2
+0
+TabOrder
+3
+4294967295
+CheckBox
+
+1
+9
+Name
+5
+31
+mp_enable_energy_market_revenue
+X
+3
+60
+Y
+3
+39
+Width
+3
+189
+Height
+3
+24
+Tool Tip
+5
+0
+Caption
+5
+28
+Enable energy market revenue
+State
+2
+0
+TabOrder
+3
+4294967295
 DataLifetime
 
 1
@@ -12,10 +177,10 @@ Name
 mp_energy_market_price
 X
 3
-171
+195
 Y
 3
-42
+66
 Width
 3
 90
@@ -54,7 +219,7 @@ X
 36
 Y
 3
-414
+507
 Width
 3
 348
@@ -93,7 +258,7 @@ X
 36
 Y
 3
-327
+393
 Width
 3
 348
@@ -132,7 +297,7 @@ X
 36
 Y
 3
-240
+279
 Width
 3
 348
@@ -168,10 +333,10 @@ Name
 object 214
 X
 3
-36
+33
 Y
 3
-153
+165
 Width
 3
 348
@@ -210,13 +375,13 @@ X
 12
 Y
 3
-126
+141
 Width
 3
 752
 Height
 3
-387
+483
 Tool Tip
 5
 0
@@ -246,7 +411,7 @@ Width
 752
 Height
 3
-96
+117
 Tool Tip
 5
 0
@@ -267,10 +432,10 @@ Name
 object 7
 X
 3
-171
+195
 Y
 3
-351
+444
 Width
 3
 156
@@ -315,10 +480,10 @@ Name
 object 711
 X
 3
-171
+195
 Y
 3
-69
+93
 Width
 3
 156
@@ -363,10 +528,10 @@ Name
 object 713
 X
 3
-66
+90
 Y
 3
-69
+93
 Width
 3
 100
@@ -411,10 +576,10 @@ Name
 object 714
 X
 3
-171
+195
 Y
 3
-204
+243
 Width
 3
 156
@@ -459,10 +624,10 @@ Name
 object 715
 X
 3
-66
+90
 Y
 3
-264
+330
 Width
 3
 100
@@ -507,10 +672,10 @@ Name
 object 716
 X
 3
-66
+90
 Y
 3
-291
+357
 Width
 3
 100
@@ -555,10 +720,10 @@ Name
 object 717
 X
 3
-171
+195
 Y
 3
-264
+330
 Width
 3
 156
@@ -603,10 +768,10 @@ Name
 object 718
 X
 3
-171
+195
 Y
 3
-291
+357
 Width
 3
 156
@@ -651,10 +816,10 @@ Name
 object 719
 X
 3
-66
+90
 Y
 3
-351
+444
 Width
 3
 100
@@ -699,10 +864,10 @@ Name
 object 720
 X
 3
-66
+90
 Y
 3
-378
+471
 Width
 3
 100
@@ -747,10 +912,10 @@ Name
 object 721
 X
 3
-171
+195
 Y
 3
-378
+471
 Width
 3
 156
@@ -795,10 +960,10 @@ Name
 object 722
 X
 3
-66
+90
 Y
 3
-438
+558
 Width
 3
 100
@@ -843,10 +1008,10 @@ Name
 object 723
 X
 3
-66
+90
 Y
 3
-465
+585
 Width
 3
 100
@@ -891,10 +1056,10 @@ Name
 object 724
 X
 3
-171
+195
 Y
 3
-438
+558
 Width
 3
 156
@@ -939,10 +1104,10 @@ Name
 object 725
 X
 3
-171
+195
 Y
 3
-465
+585
 Width
 3
 156
@@ -987,10 +1152,10 @@ Name
 object 76
 X
 3
-66
+90
 Y
 3
-177
+216
 Width
 3
 100
@@ -1035,10 +1200,10 @@ Name
 object 77
 X
 3
-66
+90
 Y
 3
-204
+243
 Width
 3
 100
@@ -1083,10 +1248,10 @@ Name
 object 79
 X
 3
-171
+195
 Y
 3
-177
+216
 Width
 3
 156
@@ -1122,7 +1287,7 @@ AlignTop
 2
 0
 
-10
+15
 mp_ancserv1_capability_price
 3
 2
@@ -1235,6 +1400,76 @@ Merchant Plant Revenue
 1
 0
 Default
+mp_enable_ancserv1
+3
+1
+Enable ancillary service #1
+ 
+Merchant Plant Revenue
+0
+3
+1
+1
+1
+1
+0
+Default
+mp_enable_ancserv2
+3
+1
+Enable ancillary service #2
+ 
+Merchant Plant Revenue
+0
+3
+1
+1
+1
+1
+0
+Default
+mp_enable_ancserv3
+3
+1
+Enable ancillary service #3
+ 
+Merchant Plant Revenue
+0
+3
+1
+1
+1
+1
+0
+Default
+mp_enable_ancserv4
+3
+1
+Enable ancillary service #4
+ 
+Merchant Plant Revenue
+0
+3
+1
+1
+1
+1
+0
+Default
+mp_enable_energy_market_revenue
+3
+1
+Enable energy market revenue
+ 
+Merchant Plant Revenue
+0
+3
+1
+1
+1
+1
+1
+Default
 mp_energy_market_cleared_capacity
 3
 2
@@ -1265,7 +1500,63 @@ Merchant Plant Revenue
 DataLifetime
 
 0
-130
+1584
+function energy_market_inputs()
+{
+	enable('mp_energy_market_price', value('mp_enable_energy_market_revenue'));
+	enable('mp_energy_market_cleared_capacity', value('mp_enable_energy_market_revenue'));
+}
+
+function energy_ancserv1_inputs()
+{
+	enable('mp_ancserv1_capability_price', value('mp_enable_ancserv1'));
+	enable('mp_ancserv1_cleared_capacity', value('mp_enable_ancserv1'));
+}
+
+function energy_ancserv2_inputs()
+{
+	enable('mp_ancserv2_capability_price', value('mp_enable_ancserv2'));
+	enable('mp_ancserv2_cleared_capacity', value('mp_enable_ancserv2'));
+}
+
+function energy_ancserv3_inputs()
+{
+	enable('mp_ancserv3_capability_price', value('mp_enable_ancserv3'));
+	enable('mp_ancserv3_cleared_capacity', value('mp_enable_ancserv3'));
+}
+
+function energy_ancserv4_inputs()
+{
+	enable('mp_ancserv4_capability_price', value('mp_enable_ancserv4'));
+	enable('mp_ancserv4_cleared_capacity', value('mp_enable_ancserv4'));
+}
+
 on_load{'Financial Merchant Plant'} = define() {
 	property("mp_energy_market_price","AnalysisPeriod",value("analysis_period"));
+	energy_market_inputs();
+	energy_ancserv1_inputs();
+	energy_ancserv2_inputs();
+	energy_ancserv3_inputs();
+	energy_ancserv4_inputs();
+	refresh();
+};
+
+on_change{'mp_enable_energy_market_revenue'} = define() {
+	energy_market_inputs();
+};
+
+on_change{'mp_enable_ancserv1'} = define() {
+	energy_ancserv1_inputs();
+};
+
+on_change{'mp_enable_ancserv2'} = define() {
+	energy_ancserv2_inputs();
+};
+
+on_change{'mp_enable_ancserv3'} = define() {
+	energy_ancserv3_inputs();
+};
+
+on_change{'mp_enable_ancserv4'} = define() {
+	energy_ancserv4_inputs();
 };
