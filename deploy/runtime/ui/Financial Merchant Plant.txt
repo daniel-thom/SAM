@@ -363,7 +363,7 @@ Name
 object 713
 X
 3
-65
+66
 Y
 3
 69
@@ -379,7 +379,7 @@ Tool Tip
 Caption
 5
 16
-Capacity cleared
+Cleared capacity
 TextColour
 4
 0
@@ -523,7 +523,7 @@ Tool Tip
 Caption
 5
 16
-Capacity cleared
+Cleared capacity
 TextColour
 4
 0
@@ -715,7 +715,7 @@ Tool Tip
 Caption
 5
 16
-Capacity cleared
+Cleared capacity
 TextColour
 4
 0
@@ -859,7 +859,7 @@ Tool Tip
 Caption
 5
 16
-Capacity cleared
+Cleared capacity
 TextColour
 4
 0
@@ -1051,7 +1051,7 @@ Tool Tip
 Caption
 5
 16
-Capacity cleared
+Cleared capacity
 TextColour
 4
 0
@@ -1137,10 +1137,10 @@ Merchant Plant Revenue
 1
 0
 Default
-mp_ancserv1_capacity_cleared
+mp_ancserv1_cleared_capacity
 3
 2
-Ancillary service #1 capacity cleared
+Ancillary service #1 cleared capacity
 % of nameplate
 Merchant Plant Revenue
 0
@@ -1165,10 +1165,10 @@ Merchant Plant Revenue
 1
 0
 Default
-mp_ancserv2_capacity_cleared
+mp_ancserv2_cleared_capacity
 3
 2
-Ancillary service #2 capacity cleared
+Ancillary service #2 cleared capacity
 % of nameplate
 Merchant Plant Revenue
 0
@@ -1193,10 +1193,10 @@ Merchant Plant Revenue
 1
 0
 Default
-mp_ancserv3_capacity_cleared
+mp_ancserv3_cleared_capacity
 3
 2
-Ancillary service #3 capacity cleared
+Ancillary service #3 cleared capacity
 % of nameplate
 Merchant Plant Revenue
 0
@@ -1221,10 +1221,10 @@ Merchant Plant Revenue
 1
 0
 Default
-mp_ancserv4_capacity_cleared
+mp_ancserv4_cleared_capacity
 3
 2
-Ancillary service #4 capacity cleared
+Ancillary service #4 cleared capacity
 % of nameplate
 Merchant Plant Revenue
 0
@@ -1235,10 +1235,10 @@ Merchant Plant Revenue
 1
 0
 Default
-mp_energy_market_capacity_cleared
+mp_energy_market_cleared_capacity
 3
 2
-Energy Market Capacity Cleared
+Energy market cleared capacity
 % of nameplate
 Merchant Plant Revenue
 0
