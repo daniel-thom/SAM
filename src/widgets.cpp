@@ -1830,6 +1830,171 @@ void AFDataArrayButton::OnPressed(wxCommandEvent &evt)
 
 
 
+class AFDataLifetimeTable : public wxGridTableBase
+{
+	std::vector<double> *d_arr;
+	int mode;
+	wxString label;
+
+public:
+	AFDataLifetimeTable(std::vector<double> *da, int _mode, const wxString &_label)
+	{
+		label = _label;
+		mode = _mode;
+		d_arr = da;
+	}
+
+	void SetArray(std::vector<double> *da)
+	{
+		d_arr = da;
+	}
+
+	virtual int GetNumberRows()
+	{
+		if (!d_arr) return 0;
+
+		return (int)d_arr->size();
+	}
+
+	virtual int GetNumberCols()
+	{
+		return 1;
+	}
+
+	virtual bool IsEmptyCell(int, int)
+	{
+		return false;
+	}
+
+	virtual wxString GetValue(int row, int)
+	{
+		if (d_arr && row >= 0 && row < (int)d_arr->size())
+			return wxString::Format("%g", d_arr->at(row));
+		else
+			return "-0.0";
+	}
+
+	virtual void SetValue(int row, int, const wxString& value)
+	{
+		if (d_arr && row >= 0 && row < (int)d_arr->size())
+			d_arr->at(row) = wxAtof(value);
+	}
+
+	virtual wxString GetRowLabelValue(int row)
+	{
+		if (d_arr && mode == DATA_ARRAY_8760_MULTIPLES)
+		{
+			int nmult = d_arr->size() / 8760;
+			if (nmult != 0)
+			{
+				double step = 1.0 / ((double)nmult);
+				double tm = step * (row + 1);
+				double frac = tm - ((double)(int)tm);
+				if (frac == 0.0)
+					return wxString::Format("%lg", tm);
+				else
+					return wxString::Format("   .%lg", frac * 60);
+			}
+		}
+
+		return wxString::Format("%d", row + 1);
+	}
+
+	virtual wxString GetColLabelValue(int)
+	{
+		return label.IsEmpty() ? "Value" : label;
+	}
+
+	virtual wxString GetTypeName(int, int)
+	{
+		return wxGRID_VALUE_STRING;
+	}
+
+	virtual bool CanGetValueAs(int, int, const wxString& typeName)
+	{
+		return typeName == wxGRID_VALUE_STRING;
+	}
+
+	virtual bool CanSetValueAs(int, int, const wxString& typeName)
+	{
+		return typeName == wxGRID_VALUE_STRING;
+	}
+
+	virtual bool AppendRows(size_t nrows)
+	{
+		if (d_arr && nrows > 0)
+		{
+			if (d_arr->size() + nrows > d_arr->capacity())
+				d_arr->reserve(d_arr->size() + nrows);
+
+			for (size_t i = 0; i < nrows; i++)
+				d_arr->push_back(0.0);
+
+
+			if (GetView())
+			{
+				wxGridTableMessage msg(this,
+					wxGRIDTABLE_NOTIFY_ROWS_APPENDED,
+					nrows);
+
+				GetView()->ProcessTableMessage(msg);
+			}
+		}
+
+		return true;
+	}
+
+	virtual bool InsertRows(size_t pos, size_t nrows)
+	{
+
+		if (!d_arr) return true;
+
+		if (pos > d_arr->size()) pos = d_arr->size();
+
+		for (int i = 0; i < (int)nrows; i++)
+		{
+			d_arr->insert(d_arr->begin(), 0.0);
+		}
+
+		if (GetView())
+		{
+			wxGridTableMessage msg(this,
+				wxGRIDTABLE_NOTIFY_ROWS_INSERTED,
+				pos,
+				nrows);
+
+			GetView()->ProcessTableMessage(msg);
+		}
+
+		return true;
+	}
+
+	virtual bool DeleteRows(size_t pos, size_t nrows)
+	{
+		if (!d_arr) return true;
+
+		if (nrows > d_arr->size() - pos)
+			nrows = d_arr->size() - pos;
+
+		//applog("2 Delete Rows[ %d %d ] RowCount %d\n", pos, nrows, Stage->ElementList.size());
+		d_arr->erase(d_arr->begin() + pos, d_arr->begin() + pos + nrows);
+
+		if (GetView())
+		{
+			//	applog("RowCount Post Delete %d :: %d\n", Stage->ElementList.size(), this->GetNumberRows());
+			wxGridTableMessage msg(this,
+				wxGRIDTABLE_NOTIFY_ROWS_DELETED,
+				pos,
+				nrows);
+
+			GetView()->ProcessTableMessage(msg);
+		}
+
+		return true;
+	}
+};
+
+
 
 
 enum { ILDD_GRID = wxID_HIGHEST + 945, ILDD_CHANGENUMROWS, ILDD_MODEOPTIONS, ILDD_TIMESTEPS, ILDD_SINGLEVALUE, ILDD_COPY, ILDD_PASTE, ILDD_IMPORT, ILDD_EXPORT };
@@ -1839,16 +2004,18 @@ class AFDataLifetimeDialog : public wxDialog
 private:
 	wxString mLabel;
 	int mMode;
+	int mAnalysisPeriod;
 	std::vector<double> mData;
 	wxExtGridCtrl *Grid;
-	AFFloatArrayTable *GridTable;
-	wxStaticText *Description;
+	AFDataLifetimeTable *GridTable;
+	wxStaticText *Description, *AnalysisPeriodLabel;
 	wxStaticText *InputLabel, *TimestepsLabel;
-	wxButton *ButtonChangeRows;
-	wxStaticText *ModeLabel;
+//	wxButton *ButtonChangeRows;
+//	wxStaticText *ModeLabel;
 	wxComboBox *ModeOptions;
 	wxComboBox *Timesteps;
 	wxNumericCtrl *SingleValue;
+	wxNumericCtrl *AnalysisPeriodValue;
 
 public:
 	AFDataLifetimeDialog(wxWindow *parent, const wxString &title, const wxString &desc, const wxString &inputLabel, const bool &optannual = false, const bool &optweekly=false)
@@ -1921,12 +2088,23 @@ public:
 		szh_top1->Add(InputLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top1->AddStretchSpacer();
 
+/*
 		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
 		ButtonChangeRows = new wxButton(this, ILDD_CHANGENUMROWS, "Number of Values...");
 		szh_top2->Add(ButtonChangeRows, 0, wxALL | wxEXPAND, 1);
 		ModeLabel = new wxStaticText(this, -1, "");
 		szh_top2->AddSpacer(3);
 		szh_top2->Add(ModeLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szh_top2->AddStretchSpacer();
+*/
+		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
+		AnalysisPeriodValue = new wxNumericCtrl(this, wxID_ANY);
+		AnalysisPeriodValue->Enable(false);
+		szh_top2->Add(SingleValue, 0, wxALL | wxEXPAND, 1);
+		AnalysisPeriodLabel = new wxStaticText(this, -1, "Analysis period");
+		szh_top2->Add(AnalysisPeriodLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szh_top2->AddSpacer(3);
+		szh_top2->Add(AnalysisPeriodValue, 0, wxALL | wxEXPAND, 1);
 		szh_top2->AddStretchSpacer();
 
 		wxBoxSizer *szh_singlevalue = new wxBoxSizer(wxHORIZONTAL);
@@ -1966,26 +2144,40 @@ public:
 	void SetMode(int m)
 	{
 		mMode = m;
-		wxString l;
-		if (mMode == DATA_LIFETIME_HOURLY)
+		size_t l;
+		switch (mMode)
 		{
-			ModeLabel->SetLabel("Hourly Values (8760)");
-			ButtonChangeRows->Hide();
+		case DATA_LIFETIME_HOURLY:
+		{
+			//			ModeLabel->SetLabel("Hourly Values (8760)");
+			//			ButtonChangeRows->Hide();
+			l = mAnalysisPeriod * 8760;
+			Grid->ResizeGrid(l, 1);
+			break;
 		}
-		else if (mMode == DATA_LIFETIME_SUBHOURLY)
+		case DATA_LIFETIME_SUBHOURLY:
 		{
-			ModeLabel->SetLabel("Subhourly Values (8760x1/TS)");
-			ButtonChangeRows->SetLabel("Change time step...");
-			ButtonChangeRows->Show();
+			//			ModeLabel->SetLabel("Subhourly Values (8760x1/TS)");
+			//			ButtonChangeRows->SetLabel("Change time step...");
+			//			ButtonChangeRows->Show();
+			double ts = std::stod(Timesteps->GetValue().ToStdString());
+			l = mAnalysisPeriod * 8760 * (60 / ts);
+			Grid->ResizeGrid(l, 1);
+			break;
 		}
-		else
+		default: // monthly
 		{
-			ModeLabel->SetLabel("");
-			ButtonChangeRows->SetLabel("Number of values...");
-			ButtonChangeRows->Show();
+			//	ModeLabel->SetLabel("");
+			//	ButtonChangeRows->SetLabel("Number of values...");
+			//	ButtonChangeRows->Show();
+			l = mAnalysisPeriod * 12;
+			Grid->ResizeGrid(l, 1);
+			break;
+		}
 		}
 		TimestepsLabel->Show((mMode == DATA_LIFETIME_SUBHOURLY));
 		Timesteps->Show((mMode == DATA_LIFETIME_SUBHOURLY));
+		Layout();
 	}
 
 	int GetMode()
@@ -2000,7 +2192,7 @@ public:
 		if (GridTable) GridTable->SetArray(NULL);
 		Grid->SetTable(NULL);
 
-		GridTable = new AFFloatArrayTable(&mData, mMode, mLabel);
+		GridTable = new AFDataLifetimeTable(&mData, mMode, mLabel);
 		GridTable->SetAttrProvider(new wxExtGridCellAttrProvider);
 
 		Grid->SetTable(GridTable, true);
@@ -2024,6 +2216,17 @@ public:
 	wxString GetDataLabel()
 	{
 		return mLabel;
+	}
+
+	void SetAnalysisPeriod(const int &p)
+	{
+		mAnalysisPeriod = p;
+		AnalysisPeriodValue->SetValue((double)p);
+	}
+
+	int GetAnalysisPeriod()
+	{
+		return mAnalysisPeriod;
 	}
 
 	void OnCommand(wxCommandEvent &evt)
@@ -2215,6 +2418,7 @@ void AFDataLifetimeButton::OnPressed(wxCommandEvent &evt)
 	dlg.SetDataLabel(mDataLabel);
 	dlg.SetMode(mMode);
 	dlg.SetData(mData);
+	dlg.SetAnalysisPeriod(mAnalysisPeriod);
 
 	if (dlg.ShowModal() == wxID_OK)
 	{

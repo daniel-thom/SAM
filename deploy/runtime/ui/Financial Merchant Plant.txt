@@ -5,7 +5,7 @@ Financial Merchant Plant
 DataLifetime
 
 1
-10
+11
 Name
 5
 22
@@ -30,13 +30,17 @@ Mode
 0
 Label
 5
-0
+19
+Energy Market Price
 Description
 5
 0
 TabOrder
 3
 4294967295
+AnalysisPeriod
+3
+25
 Divider
 
 1
@@ -1261,4 +1265,7 @@ Merchant Plant Revenue
 DataLifetime
 
 0
-0
+130
+on_load{'Financial Merchant Plant'} = define() {
+	property("mp_energy_market_price","AnalysisPeriod",value("analysis_period"));
+};
