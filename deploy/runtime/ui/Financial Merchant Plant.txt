@@ -1141,7 +1141,7 @@ mp_ancserv1_cleared_capacity
 3
 2
 Ancillary service #1 cleared capacity
-% of nameplate
+MW
 Merchant Plant Revenue
 0
 2
@@ -1169,7 +1169,7 @@ mp_ancserv2_cleared_capacity
 3
 2
 Ancillary service #2 cleared capacity
-% of nameplate
+MW
 Merchant Plant Revenue
 0
 2
@@ -1197,7 +1197,7 @@ mp_ancserv3_cleared_capacity
 3
 2
 Ancillary service #3 cleared capacity
-% of nameplate
+MW
 Merchant Plant Revenue
 0
 2
@@ -1225,7 +1225,7 @@ mp_ancserv4_cleared_capacity
 3
 2
 Ancillary service #4 cleared capacity
-% of nameplate
+MW
 Merchant Plant Revenue
 0
 2
@@ -1239,7 +1239,7 @@ mp_energy_market_cleared_capacity
 3
 2
 Energy market cleared capacity
-% of nameplate
+MW
 Merchant Plant Revenue
 0
 2
