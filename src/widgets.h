@@ -213,13 +213,13 @@ private:
 #define EVT_DATALIFETIMEBUTTON(id, func)  EVT_BUTTON(id, func)
 
 enum {
+	DATA_LIFETIME_SINGLEVALUE,
 	DATA_LIFETIME_MONTHLY,
 	DATA_LIFETIME_DAILY,
 	DATA_LIFETIME_HOURLY,
 	DATA_LIFETIME_SUBHOURLY,
 	DATA_LIFETIME_ANNUAL,
-	DATA_LIFETIME_WEEKLY,
-	DATA_LIFETIME_ANY
+	DATA_LIFETIME_WEEKLY
 };
 
 class AFDataLifetimeButton : public wxButton
@@ -234,22 +234,25 @@ public:
 	void SetDataLabel(const wxString &s);
 	wxString GetDataLabel();
 
-	void SetDescription(const wxString &s) { m_description = s; }
-	wxString GetDescription() { return m_description; }
+	void SetDescription(const wxString &s) { mDescription = s; }
+	wxString GetDescription() { return mDescription; }
 
-	void SetAnalysisPeriod(const int &p) { mAnalysisPeriod = p; }
-	int GetAnalysisPeriod() { return mAnalysisPeriod; }
+	void SetAnalysisPeriod(const size_t &p) { mAnalysisPeriod = p; }
+	size_t GetAnalysisPeriod() { return mAnalysisPeriod; }
 
-	void SetMode(int mode);
-	int GetMode();
+	void SetAnnualEnabled(const bool &e) { mAnnualEnabled = e; }
+	bool GetAnnualEnabled() { return mAnnualEnabled; }
+
+	void SetWeeklyEnabled(const bool &e) { mWeeklyEnabled = e; }
+	bool GetWeeklyEnabled() { return mWeeklyEnabled; }
 
 	void OnPressed(wxCommandEvent &evt);
 private:
 	wxString mDataLabel;
-	int mMode;
-	int mAnalysisPeriod;
+	size_t mAnalysisPeriod;
 	std::vector<double> mData;
-	wxString m_description;
+	wxString mDescription;
+	bool mAnnualEnabled, mWeeklyEnabled;
 
 	DECLARE_EVENT_TABLE();
 };

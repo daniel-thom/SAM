@@ -506,12 +506,12 @@ class wxUIDataLifetimeObject : public wxUIObject
 {
 public:
 	wxUIDataLifetimeObject() {
-		//	DATA_LIFETIME_MONTHLY,DATA_LIFETIME_DAILY,DATA_LIFETIME_HOURLY,DATA_LIFETIME_SUBHOURLY,DATA_LIFETIME_ANNUAL,DATA_LIFETIME_WEEKLY
-		AddProperty("Mode", new wxUIProperty(0, "Monthly,Daily,Hourly,Subhourly,Annual,Weekly"));
 		AddProperty("Label", new wxUIProperty(wxString("")));
 		AddProperty("Description", new wxUIProperty(wxString("")));
 		AddProperty("TabOrder", new wxUIProperty((int)-1));
 		AddProperty("AnalysisPeriod", new wxUIProperty((int)25));
+		AddProperty("AnnualEnabled", new wxUIProperty(false));
+		AddProperty("WeeklyEnabled", new wxUIProperty(false));
 	}
 	virtual wxString GetTypeName() { return "DataLifetime"; }
 	virtual wxUIObject *Duplicate() { wxUIObject *o = new wxUIDataLifetimeObject; o->Copy(this); return o; }
@@ -519,10 +519,11 @@ public:
 	virtual bool DrawDottedOutline() { return false; }
 	virtual wxWindow *CreateNative(wxWindow *parent) {
 		AFDataLifetimeButton *da = new AFDataLifetimeButton(parent, wxID_ANY);
-		da->SetMode(Property("Mode").GetInteger());
 		da->SetDescription(Property("Description").GetString());
 		da->SetDataLabel(Property("Label").GetString());
 		da->SetAnalysisPeriod(Property("AnalysisPeriod").GetInteger());
+		da->SetAnnualEnabled(Property("AnnualEnabled").GetBoolean());
+		da->SetWeeklyEnabled(Property("WeeklyEnabled").GetBoolean());
 		return AssignNative(da);
 	}
 	virtual void Draw(wxWindow *win, wxDC &dc, const wxRect &geom)
@@ -539,10 +540,11 @@ public:
 	{
 		if (AFDataLifetimeButton *da = GetNative<AFDataLifetimeButton>())
 		{
-			if (id == "Mode") da->SetMode(p->GetInteger());
 			if (id == "AnalysisPeriod") da->SetAnalysisPeriod(p->GetInteger());
 			if (id == "Label") da->SetDataLabel(p->GetString());
 			if (id == "Description") da->SetDescription(p->GetString());
+			if (id == "AnnualEnabled") da->SetAnnualEnabled(p->GetBoolean());
+			if (id == "WeeklyEnabled") da->SetWeeklyEnabled(p->GetBoolean());
 		}
 	}
 

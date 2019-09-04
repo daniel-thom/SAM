@@ -1617,6 +1617,7 @@ public:
 
 		Grid->Layout();
 		Grid->Refresh();
+
 	}
 
 	void GetData(std::vector<double> &data)
@@ -1882,7 +1883,8 @@ public:
 
 	virtual wxString GetRowLabelValue(int row)
 	{
-		if (d_arr && mode == DATA_ARRAY_8760_MULTIPLES)
+		/* TODO - setup row labels based on year and mode 
+		if (d_arr && mode == DATA_LIFETIME_SUBHOURLY)
 		{
 			int nmult = d_arr->size() / 8760;
 			if (nmult != 0)
@@ -1896,7 +1898,7 @@ public:
 					return wxString::Format("   .%lg", frac * 60);
 			}
 		}
-
+		*/
 		return wxString::Format("%d", row + 1);
 	}
 
@@ -2025,8 +2027,6 @@ public:
 		mLabel = inputLabel;
 
 		GridTable = NULL;
-		mMode = DATA_LIFETIME_MONTHLY;
-
 		wxButton *btn = NULL;
 		Grid = new wxExtGridCtrl(this, ILDD_GRID);
 		Grid->DisableDragCell();
@@ -2060,7 +2060,7 @@ public:
 		timestepmin.Add("15");
 		timestepmin.Add("20");
 		timestepmin.Add("30");
-		Timesteps = new wxComboBox(this, ILDD_TIMESTEPS, "Timesteps", wxDefaultPosition, wxDefaultSize, timestepmin);
+		Timesteps = new wxComboBox(this, ILDD_TIMESTEPS, "30", wxDefaultPosition, wxDefaultSize, timestepmin);
 		TimestepsLabel = new wxStaticText(this, -1, "Select timestep minutes");
 		szh_top4->Add(TimestepsLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top4->AddSpacer(3);
@@ -2069,14 +2069,14 @@ public:
 
 		wxBoxSizer *szh_top3 = new wxBoxSizer(wxHORIZONTAL);
 		wxArrayString modes;
+		modes.Add("Single Value");
 		modes.Add("Monthly");
 		modes.Add("Daily");
 		modes.Add("Hourly");
 		modes.Add("Subhourly");
-		modes.Add("User specified");
 		if (optannual)	modes.Add("Annual");
 		if (optweekly) modes.Add("Weekly");
-		ModeOptions = new wxComboBox(this, ILDD_MODEOPTIONS, "Mode", wxDefaultPosition, wxDefaultSize, modes);
+		ModeOptions = new wxComboBox(this, ILDD_MODEOPTIONS, "Monthly", wxDefaultPosition, wxDefaultSize, modes);
 		szh_top3->Add(new wxStaticText(this, -1, "Mode"), 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top3->AddSpacer(3);
 		szh_top3->Add(ModeOptions, 0, wxALL | wxEXPAND, 1);
@@ -2100,7 +2100,6 @@ public:
 		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
 		AnalysisPeriodValue = new wxNumericCtrl(this, wxID_ANY);
 		AnalysisPeriodValue->Enable(false);
-		szh_top2->Add(SingleValue, 0, wxALL | wxEXPAND, 1);
 		AnalysisPeriodLabel = new wxStaticText(this, -1, "Analysis period");
 		szh_top2->Add(AnalysisPeriodLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top2->AddSpacer(3);
@@ -2120,7 +2119,7 @@ public:
 		szv_main_vert->Add(szh_top3, 0, wxALL | wxEXPAND, 4);
 		szv_main_vert->Add(szh_top4, 0, wxALL | wxEXPAND, 4);
 		szv_main_vert->Add(szh_btns, 0, wxALL | wxEXPAND, 4);
-		szv_main_vert->Add(new wxStaticText(this, -1, "_____________________"), 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
+		szv_main_vert->Add(new wxStaticText(this, -1, "_____________________"), 0, wxALL, 3);
 		szv_main_vert->Add(szh_singlevalue, 0, wxALL | wxEXPAND, 4);
 		szv_main_vert->AddStretchSpacer();
 		szv_main_vert->Add(CreateButtonSizer(wxOK | wxCANCEL), 0, wxALL | wxEXPAND, 10);
@@ -2134,9 +2133,7 @@ public:
 
 		wxBoxSizer *szh_main = new wxBoxSizer(wxHORIZONTAL);
 		szh_main->Add(szv_main_vert, 0, wxALL | wxEXPAND, 4);
-		szh_main->Add(Grid, 1, wxALL | wxEXPAND, 4);
-
-		SetMode(DATA_LIFETIME_MONTHLY);
+		szh_main->Add(Grid, 3, wxALL | wxEXPAND);
 
 		SetSizer(szh_main);
 	}
@@ -2147,36 +2144,53 @@ public:
 		size_t l;
 		switch (mMode)
 		{
-		case DATA_LIFETIME_HOURLY:
+		case DATA_LIFETIME_MONTHLY:
 		{
-			//			ModeLabel->SetLabel("Hourly Values (8760)");
-			//			ButtonChangeRows->Hide();
+			l = mAnalysisPeriod * 12;
+			Grid->ResizeGrid(l, 1);
+			break;
+		}
+		case DATA_LIFETIME_DAILY: // assume 365
+		{
+			l = mAnalysisPeriod * 365;
+			Grid->ResizeGrid(l, 1);
+			break;
+		}
+		case DATA_LIFETIME_HOURLY: // assume 8760
+		{
 			l = mAnalysisPeriod * 8760;
 			Grid->ResizeGrid(l, 1);
 			break;
 		}
-		case DATA_LIFETIME_SUBHOURLY:
+		case DATA_LIFETIME_SUBHOURLY: // assume 8760 * timesteps per hour
 		{
-			//			ModeLabel->SetLabel("Subhourly Values (8760x1/TS)");
-			//			ButtonChangeRows->SetLabel("Change time step...");
-			//			ButtonChangeRows->Show();
 			double ts = std::stod(Timesteps->GetValue().ToStdString());
 			l = mAnalysisPeriod * 8760 * (60 / ts);
 			Grid->ResizeGrid(l, 1);
 			break;
 		}
-		default: // monthly
+		case DATA_LIFETIME_ANNUAL: 
 		{
-			//	ModeLabel->SetLabel("");
-			//	ButtonChangeRows->SetLabel("Number of values...");
-			//	ButtonChangeRows->Show();
-			l = mAnalysisPeriod * 12;
+			l = mAnalysisPeriod;
 			Grid->ResizeGrid(l, 1);
+			break;
+		}
+		case DATA_LIFETIME_WEEKLY: // assume 52 weeks or 364 days?
+		{
+			l = mAnalysisPeriod * 8760 / (24 * 7);
+			Grid->ResizeGrid(l, 1);
+			break;
+		}
+		default: // single value - no grid resize
+		{
 			break;
 		}
 		}
 		TimestepsLabel->Show((mMode == DATA_LIFETIME_SUBHOURLY));
 		Timesteps->Show((mMode == DATA_LIFETIME_SUBHOURLY));
+		SingleValue->Enable((mMode == DATA_LIFETIME_SINGLEVALUE));
+		Grid->Enable((mMode != DATA_LIFETIME_SINGLEVALUE));
+		ModeOptions->SetSelection(mMode);
 		Layout();
 	}
 
@@ -2197,9 +2211,56 @@ public:
 
 		Grid->SetTable(GridTable, true);
 		Grid->SetColSize(0, (int)(130 * wxGetScreenHDScale()));
-
 		Grid->Layout();
 		Grid->Refresh();
+
+		// determine mode from data
+		size_t dataSize = mData.size();
+		if (dataSize < 1)
+		{
+			mData.push_back(0.0);
+			dataSize = 1;
+		}
+		if (dataSize == 1)
+			mMode = DATA_LIFETIME_SINGLEVALUE;
+		else if (dataSize == (mAnalysisPeriod))
+			mMode = DATA_LIFETIME_ANNUAL;
+		else if (dataSize == (mAnalysisPeriod * 12))
+			mMode = DATA_LIFETIME_MONTHLY;
+		else if (dataSize == (mAnalysisPeriod * 8760 / (24 * 7)))
+			mMode = DATA_LIFETIME_WEEKLY;
+		else if (dataSize == (mAnalysisPeriod * 365))
+			mMode = DATA_LIFETIME_DAILY;
+		else if (dataSize == (mAnalysisPeriod * 8760))
+			mMode = DATA_LIFETIME_HOURLY;
+		else
+		{
+			mMode = DATA_LIFETIME_SUBHOURLY;
+			size_t stepsPerHour = dataSize / (mAnalysisPeriod * 8760);
+			switch (stepsPerHour)
+			{
+			case 2: // 30 minute
+				Timesteps->SetSelection(5);
+				break;
+			case 3: // 20 minute
+				Timesteps->SetSelection(4);
+				break;
+			case 4: // 15 minute
+				Timesteps->SetSelection(3);
+				break;
+			case 6: // 10 minute
+				Timesteps->SetSelection(2);
+				break;
+			case 12: // 5 minute
+				Timesteps->SetSelection(1);
+				break;
+			default: // 1 minute
+				Timesteps->SetSelection(0);
+				break;
+			}
+		}
+
+		SetMode(mMode);
 	}
 
 	void GetData(std::vector<double> &data)
@@ -2222,6 +2283,7 @@ public:
 	{
 		mAnalysisPeriod = p;
 		AnalysisPeriodValue->SetValue((double)p);
+		SetMode(mMode);
 	}
 
 	int GetAnalysisPeriod()
@@ -2362,8 +2424,8 @@ END_EVENT_TABLE()
 AFDataLifetimeButton::AFDataLifetimeButton(wxWindow *parent, int id, const wxPoint &pos, const wxSize &size)
 	: wxButton(parent, id, "Edit data...", pos, size)
 {
-	mData.resize(8760, 0.0);
-	mMode = DATA_LIFETIME_MONTHLY;
+	mAnalysisPeriod = 25;
+	mData.resize(12*mAnalysisPeriod, 0.0);
 }
 
 void AFDataLifetimeButton::Get(std::vector<double> &data)
@@ -2372,24 +2434,6 @@ void AFDataLifetimeButton::Get(std::vector<double> &data)
 }
 void AFDataLifetimeButton::Set(const std::vector<double> &data)
 {
-	if (mMode == DATA_LIFETIME_HOURLY)
-	{
-		if (data.size() != 8760)
-		{
-			mData.resize(8760, -999.0);
-			return;
-		}
-	}
-	else if (mMode == DATA_LIFETIME_SUBHOURLY)
-	{
-		int nmult = data.size() / 8760;
-		if (nmult * 8760 != (int)data.size())
-		{
-			mData.resize(8760, -998.0);
-			return;
-		}
-	}
-
 	mData = data;
 }
 void AFDataLifetimeButton::SetDataLabel(const wxString &s)
@@ -2401,24 +2445,14 @@ wxString AFDataLifetimeButton::GetDataLabel()
 	return mDataLabel;
 }
 
-void AFDataLifetimeButton::SetMode(int mode)
-{
-	mMode = mode;
-}
-
-int AFDataLifetimeButton::GetMode()
-{
-	return mMode;
-}
 
 void AFDataLifetimeButton::OnPressed(wxCommandEvent &evt)
 {
-	AFDataLifetimeDialog dlg(this, "Edit Data", m_description, mDataLabel);
-
-	dlg.SetDataLabel(mDataLabel);
-	dlg.SetMode(mMode);
-	dlg.SetData(mData);
+	AFDataLifetimeDialog dlg(this, "Edit Data", mDescription, mDataLabel, mAnnualEnabled, mWeeklyEnabled);
 	dlg.SetAnalysisPeriod(mAnalysisPeriod);
+	dlg.SetData(mData);
+	dlg.SetDataLabel(mDataLabel);
+
 
 	if (dlg.ShowModal() == wxID_OK)
 	{

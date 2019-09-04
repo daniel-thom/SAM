@@ -2316,8 +2316,8 @@ federal_tax_rate
 file_name
 1
 4
-83
-C:\Code\sam\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
 gamma_r_calc
 1
 1
@@ -3739,11 +3739,9 @@ lib_is_bifacial
 library_folder_list
 1
 4
-265
+125
 C:\Users\sjanz\SAM Downloaded Weather Files
-C:\Projects\SAM\Documentation\PV\TransientThermalModel\MeasuredData\SouthernCompany\sample_Will
-C:/Projects/SAM/Documentation/GitHub/Issues/SAM_176/snow_issue
-C:/Projects/SAM/Documentation/GitHub/Issues/SAM_176/snow_issue
+C:\Projects\SAM\Documentation\P50P90\2018.5.21_Trough_IPH_Paul\P50 P90 AZ PHOENIX
 library_paths
 1
 4
@@ -3970,8 +3968,9 @@ mp_energy_market_price
 1
 2
 1
-1
-0
+300
+1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 
+
 mppt_hi_inverter
 1
 1
@@ -5129,8 +5128,8 @@ snl_voco
 solar_data_file_name
 1
 4
-83
-C:\Code\sam\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
 solar_data_file_name_load
 1
 4
@@ -5149,8 +5148,8 @@ phoenix_az_33.450495_-111.983688_psmv3_60_tmy
 solar_resource_file
 1
 4
-83
-C:\Code\sam\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
+117
+C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\phoenix_az_33.450495_-111.983688_psmv3_60_tmy.csv
 spe_a
 1
 1
