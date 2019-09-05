@@ -240,6 +240,12 @@ public:
 	void SetAnalysisPeriod(const size_t &p) { mAnalysisPeriod = p; }
 	size_t GetAnalysisPeriod() { return mAnalysisPeriod; }
 
+	void SetMinPerHour(const size_t &p) { mMinPerHour = p; }
+	size_t GetmMinPerHour() { return mMinPerHour; }
+
+	void SetMode(const size_t &p) { mMode = p; }
+	size_t GetMode() { return mMode; }
+
 	void SetAnnualEnabled(const bool &e) { mAnnualEnabled = e; }
 	bool GetAnnualEnabled() { return mAnnualEnabled; }
 
@@ -249,7 +255,7 @@ public:
 	void OnPressed(wxCommandEvent &evt);
 private:
 	wxString mDataLabel;
-	size_t mAnalysisPeriod;
+	size_t mAnalysisPeriod, mMinPerHour, mMode;
 	std::vector<double> mData;
 	wxString mDescription;
 	bool mAnnualEnabled, mWeeklyEnabled;

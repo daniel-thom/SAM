@@ -1999,21 +1999,18 @@ public:
 
 
 
-enum { ILDD_GRID = wxID_HIGHEST + 945, ILDD_CHANGENUMROWS, ILDD_MODEOPTIONS, ILDD_TIMESTEPS, ILDD_SINGLEVALUE, ILDD_COPY, ILDD_PASTE, ILDD_IMPORT, ILDD_EXPORT };
+enum { ILDD_GRID = wxID_HIGHEST + 945, ILDD_MODEOPTIONS, ILDD_TIMESTEPS, ILDD_SINGLEVALUE, ILDD_COPY, ILDD_PASTE, ILDD_IMPORT, ILDD_EXPORT };
 
 class AFDataLifetimeDialog : public wxDialog
 {
 private:
 	wxString mLabel;
-	int mMode;
-	int mAnalysisPeriod;
+	size_t mAnalysisPeriod, mMinPerHour, mMode;
 	std::vector<double> mData;
 	wxExtGridCtrl *Grid;
 	AFDataLifetimeTable *GridTable;
 	wxStaticText *Description, *AnalysisPeriodLabel;
 	wxStaticText *InputLabel, *TimestepsLabel;
-//	wxButton *ButtonChangeRows;
-//	wxStaticText *ModeLabel;
 	wxComboBox *ModeOptions;
 	wxComboBox *Timesteps;
 	wxNumericCtrl *SingleValue;
@@ -2088,15 +2085,6 @@ public:
 		szh_top1->Add(InputLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
 		szh_top1->AddStretchSpacer();
 
-/*
-		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
-		ButtonChangeRows = new wxButton(this, ILDD_CHANGENUMROWS, "Number of Values...");
-		szh_top2->Add(ButtonChangeRows, 0, wxALL | wxEXPAND, 1);
-		ModeLabel = new wxStaticText(this, -1, "");
-		szh_top2->AddSpacer(3);
-		szh_top2->Add(ModeLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
-		szh_top2->AddStretchSpacer();
-*/
 		wxBoxSizer *szh_top2 = new wxBoxSizer(wxHORIZONTAL);
 		AnalysisPeriodValue = new wxNumericCtrl(this, wxID_ANY);
 		AnalysisPeriodValue->Enable(false);
@@ -2133,7 +2121,7 @@ public:
 
 		wxBoxSizer *szh_main = new wxBoxSizer(wxHORIZONTAL);
 		szh_main->Add(szv_main_vert, 0, wxALL | wxEXPAND, 4);
-		szh_main->Add(Grid, 3, wxALL | wxEXPAND);
+		szh_main->Add(Grid, 3, wxALL | wxEXPAND, 4);
 
 		SetSizer(szh_main);
 	}
@@ -2164,8 +2152,9 @@ public:
 		}
 		case DATA_LIFETIME_SUBHOURLY: // assume 8760 * timesteps per hour
 		{
-			double ts = std::stod(Timesteps->GetValue().ToStdString());
-			l = mAnalysisPeriod * 8760 * (60 / ts);
+			// error handling
+			mMinPerHour = std::stoul(Timesteps->GetValue().ToStdString());
+			l = mAnalysisPeriod * 8760 * (60 / mMinPerHour);
 			Grid->ResizeGrid(l, 1);
 			break;
 		}
@@ -2279,74 +2268,34 @@ public:
 		return mLabel;
 	}
 
-	void SetAnalysisPeriod(const int &p)
+	void SetAnalysisPeriod(const size_t &p)
 	{
 		mAnalysisPeriod = p;
 		AnalysisPeriodValue->SetValue((double)p);
-		SetMode(mMode);
+//		SetMode(mMode);
 	}
 
-	int GetAnalysisPeriod()
+	size_t GetAnalysisPeriod()
 	{
 		return mAnalysisPeriod;
 	}
 
+	void SetMinPerHour(const size_t &p)
+	{
+		mMinPerHour = p;
+	}
+
+	size_t GetMinPerHour()
+	{
+		return mMinPerHour;
+	}
+
+
 	void OnCommand(wxCommandEvent &evt)
 	{
-		if (evt.GetId() == ILDD_CHANGENUMROWS)
-		{
-			long l = 0;
-			if (mMode == DATA_LIFETIME_SUBHOURLY)
-			{
-				int nmult = mData.size() / 8760;
-				double tmstp = nmult != 0 ? 1.0 / ((double)nmult) : 1.0;
-
-				wxString result = wxGetTextFromUser("Enter time step (minutes):", "Edit Table",
-					wxString::Format("%lg", tmstp * 60), this);
-
-				if (result.IsEmpty())
-					return;
-
-				tmstp = wxAtof(result) / 60.0;
-				if (tmstp > 0 && (int)(1.0 / tmstp) > 0)
-				{
-					l = 8760 * (int)(1.0 / tmstp);
-				}
-				else
-				{
-					wxMessageBox("Invalid time step.");
-					return;
-				}
-			}
-			else
-			{
-				wxString result = wxGetTextFromUser("Enter number of data rows", "Edit Table",
-					wxString::Format("%d", Grid->GetNumberRows()), this);
-				if (result.IsEmpty()) return;
-
-				if (!result.ToLong(&l))
-					return;
-			}
-
-			if (l > 0)
-			{
-				if (mMode == DATA_LIFETIME_HOURLY)
-				{
-					l = 8760;
-				}
-				else if (mMode == DATA_LIFETIME_SUBHOURLY)
-				{
-					int nmult = l / 8760;
-					l = nmult * 8760;
-					if (l < 8760) l = 8760;
-				}
-
-				Grid->ResizeGrid(l, 1);
-			}
-			else
-				wxMessageBox("Invalid number of rows or non-numeric entry.");
-		}
-		else if (evt.GetId() == ILDD_MODEOPTIONS)
+		if (evt.GetId() == ILDD_MODEOPTIONS)
+			SetMode(ModeOptions->GetSelection());
+		else if (evt.GetId() == ILDD_TIMESTEPS)
 			SetMode(ModeOptions->GetSelection());
 		else if (evt.GetId() == ILDD_COPY)
 			Grid->Copy(true);
@@ -2413,8 +2362,8 @@ EVT_BUTTON(ILDD_COPY, AFDataLifetimeDialog::OnCommand)
 EVT_BUTTON(ILDD_PASTE, AFDataLifetimeDialog::OnCommand)
 EVT_BUTTON(ILDD_IMPORT, AFDataLifetimeDialog::OnCommand)
 EVT_BUTTON(ILDD_EXPORT, AFDataLifetimeDialog::OnCommand)
-EVT_BUTTON(ILDD_CHANGENUMROWS, AFDataLifetimeDialog::OnCommand)
 EVT_COMBOBOX(ILDD_MODEOPTIONS, AFDataLifetimeDialog::OnCommand)
+EVT_COMBOBOX(ILDD_TIMESTEPS, AFDataLifetimeDialog::OnCommand)
 END_EVENT_TABLE()
 
 BEGIN_EVENT_TABLE(AFDataLifetimeButton, wxButton)
@@ -2425,6 +2374,8 @@ AFDataLifetimeButton::AFDataLifetimeButton(wxWindow *parent, int id, const wxPoi
 	: wxButton(parent, id, "Edit data...", pos, size)
 {
 	mAnalysisPeriod = 25;
+	mMinPerHour = 30;
+	mMode = DATA_LIFETIME_MONTHLY;
 	mData.resize(12*mAnalysisPeriod, 0.0);
 }
 
@@ -2435,6 +2386,48 @@ void AFDataLifetimeButton::Get(std::vector<double> &data)
 void AFDataLifetimeButton::Set(const std::vector<double> &data)
 {
 	mData = data;
+	// resize based on potentially new analysis period and current mode
+	size_t newSize = mAnalysisPeriod;
+	switch (mMode)
+	{
+	case DATA_LIFETIME_MONTHLY:
+	{
+		newSize = mAnalysisPeriod * 12;
+		break;
+	}
+	case DATA_LIFETIME_DAILY: // assume 365
+	{
+		newSize = mAnalysisPeriod * 365;
+		break;
+	}
+	case DATA_LIFETIME_HOURLY: // assume 8760
+	{
+		newSize = mAnalysisPeriod * 8760;
+		break;
+	}
+	case DATA_LIFETIME_SUBHOURLY: // assume 8760 * timesteps per hour
+	{
+		newSize = mAnalysisPeriod * 8760 * (60 / mMinPerHour);
+		break;
+	}
+	case DATA_LIFETIME_ANNUAL:
+	{
+		newSize = mAnalysisPeriod;
+		break;
+	}
+	case DATA_LIFETIME_WEEKLY: // assume 52 weeks or 364 days?
+	{
+		newSize = mAnalysisPeriod * 8760 / (24 * 7);
+		break;
+	}
+	default: // single value - no grid resize
+	{
+		newSize = 1;
+		break;
+	}
+	}
+	if (mData.size() != newSize)
+		mData.resize(newSize);
 }
 void AFDataLifetimeButton::SetDataLabel(const wxString &s)
 {
@@ -2448,6 +2441,49 @@ wxString AFDataLifetimeButton::GetDataLabel()
 
 void AFDataLifetimeButton::OnPressed(wxCommandEvent &evt)
 {
+	// resize based on potentially new analysis period and current mode
+	size_t newSize = mAnalysisPeriod;
+	switch (mMode)
+	{
+	case DATA_LIFETIME_MONTHLY:
+	{
+		newSize = mAnalysisPeriod * 12;
+		break;
+	}
+	case DATA_LIFETIME_DAILY: // assume 365
+	{
+		newSize = mAnalysisPeriod * 365;
+		break;
+	}
+	case DATA_LIFETIME_HOURLY: // assume 8760
+	{
+		newSize = mAnalysisPeriod * 8760;
+		break;
+	}
+	case DATA_LIFETIME_SUBHOURLY: // assume 8760 * timesteps per hour
+	{
+		newSize = mAnalysisPeriod * 8760 * (60 / mMinPerHour);
+		break;
+	}
+	case DATA_LIFETIME_ANNUAL:
+	{
+		newSize = mAnalysisPeriod;
+		break;
+	}
+	case DATA_LIFETIME_WEEKLY: // assume 52 weeks or 364 days?
+	{
+		newSize = mAnalysisPeriod * 8760 / (24 * 7);
+		break;
+	}
+	default: // single value - no grid resize
+	{
+		newSize = 1;
+		break;
+	}
+	}
+	if (mData.size() != newSize)
+		mData.resize(newSize);
+
 	AFDataLifetimeDialog dlg(this, "Edit Data", mDescription, mDataLabel, mAnnualEnabled, mWeeklyEnabled);
 	dlg.SetAnalysisPeriod(mAnalysisPeriod);
 	dlg.SetData(mData);
@@ -2457,6 +2493,8 @@ void AFDataLifetimeButton::OnPressed(wxCommandEvent &evt)
 	if (dlg.ShowModal() == wxID_OK)
 	{
 		dlg.GetData(mData);
+		mMode = dlg.GetMode();
+		mMinPerHour = dlg.GetMinPerHour();
 		evt.Skip(); // allow event to propagate indicating underlying value changed
 	}
 }
