@@ -1,8 +1,8 @@
 Financial Merchant Plant
 773
 638
-21
-DataLifetime
+22
+DataLifetimeArray
 
 1
 12
@@ -44,7 +44,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -86,7 +86,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -128,7 +128,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -170,7 +170,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -212,7 +212,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -254,7 +254,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -296,7 +296,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -503,7 +503,52 @@ State
 TabOrder
 3
 4294967295
-DataLifetime
+DataLifetimeMatrix
+
+1
+13
+Name
+5
+16
+mp_energy_market
+X
+3
+399
+Y
+3
+36
+Width
+3
+90
+Height
+3
+24
+Tool Tip
+5
+0
+ColumnLabels
+5
+34
+Cleared capacity (MW),Price ($/MW)
+Label
+5
+0
+Description
+5
+0
+TabOrder
+3
+4294967295
+AnalysisPeriod
+3
+25
+AnnualEnabled
+2
+0
+WeeklyEnabled
+2
+0
+DataLifetimeArray
 
 1
 12
@@ -545,7 +590,7 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetime
+DataLifetimeArray
 
 1
 12
@@ -804,7 +849,7 @@ Bold
 2
 1
 
-15
+16
 mp_ancserv1_capability_price
 3
 2
@@ -987,6 +1032,20 @@ Merchant Plant Revenue
 1
 1
 CheckBox
+mp_energy_market
+3
+3
+ 
+ 
+ 
+0
+2
+1
+3
+1
+1
+0
+DataLifetimeMatrix
 mp_energy_market_cleared_capacity
 3
 2
@@ -1014,10 +1073,10 @@ Merchant Plant Revenue
 1
 1
 0
-DataLifetime
+DataLifetimeArray
 
 0
-2354
+2427
 function energy_market_inputs()
 {
 	enable('mp_energy_market_price', value('mp_enable_energy_market_revenue'));
@@ -1049,6 +1108,7 @@ function energy_ancserv4_inputs()
 }
 
 on_load{'Financial Merchant Plant'} = define() {
+	property("mp_energy_market","AnalysisPeriod",value("analysis_period"));
 	property("mp_energy_market_price","AnalysisPeriod",value("analysis_period"));
 	property("mp_energy_market_cleared_capacity","AnalysisPeriod",value("analysis_period"));
 	property("mp_ancserv1_capability_price","AnalysisPeriod",value("analysis_period"));

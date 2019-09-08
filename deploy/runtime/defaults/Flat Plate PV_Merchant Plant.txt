@@ -1,5 +1,5 @@
 1
-1023
+1024
 6par_aisc
 1
 1
@@ -3958,6 +3958,12 @@ mp_enable_energy_market_revenue
 1
 1
 1
+mp_energy_market
+1
+3
+1
+1
+0
 mp_energy_market_cleared_capacity
 1
 2

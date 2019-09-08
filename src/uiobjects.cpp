@@ -556,6 +556,7 @@ class wxUIDataLifetimeMatrixObject : public wxUIObject
 {
 public:
 	wxUIDataLifetimeMatrixObject() {
+		AddProperty("ColumnLabels", new wxUIProperty(wxString("")));
 		AddProperty("Label", new wxUIProperty(wxString("")));
 		AddProperty("Description", new wxUIProperty(wxString("")));
 		AddProperty("TabOrder", new wxUIProperty((int)-1));
@@ -571,6 +572,7 @@ public:
 		AFDataLifetimeMatrixButton *da = new AFDataLifetimeMatrixButton(parent, wxID_ANY);
 		da->SetDescription(Property("Description").GetString());
 		da->SetDataLabel(Property("Label").GetString());
+		da->SetColumnLabels(Property("ColumnLabels").GetString());
 		da->SetAnalysisPeriod(Property("AnalysisPeriod").GetInteger());
 		da->SetAnnualEnabled(Property("AnnualEnabled").GetBoolean());
 		da->SetWeeklyEnabled(Property("WeeklyEnabled").GetBoolean());
@@ -592,6 +594,7 @@ public:
 		{
 			if (id == "AnalysisPeriod") da->SetAnalysisPeriod(p->GetInteger());
 			if (id == "Label") da->SetDataLabel(p->GetString());
+			if (id == "ColumnLabels") da->SetColumnLabels(p->GetString());
 			if (id == "Description") da->SetDescription(p->GetString());
 			if (id == "AnnualEnabled") da->SetAnnualEnabled(p->GetBoolean());
 			if (id == "WeeklyEnabled") da->SetWeeklyEnabled(p->GetBoolean());

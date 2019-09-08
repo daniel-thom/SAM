@@ -52,6 +52,7 @@
 #include <wx/tokenzr.h>
 #include <wx/renderer.h>
 #include <wx/statline.h>
+#include <wx/arrstr.h>
 
 #include <wex/uiform.h>
 #include <wex/extgrid.h>
@@ -2504,33 +2505,33 @@ void AFDataLifetimeArrayButton::OnPressed(wxCommandEvent &evt)
 
 class AFDataLifetimeMatrixTable : public wxGridTableBase
 {
-	matrix_t<double> *d_arr;
+	matrix_t<double> *d_mat;
 	int mode;
-	wxString label;
+	wxArrayString columnLabels;
 
 public:
-	AFDataLifetimeMatrixTable(matrix_t<double> *da, int _mode, const wxString &_label)
+	AFDataLifetimeMatrixTable(matrix_t<double> *dm, int _mode, const wxArrayString &_columnLabels)
 	{
-		label = _label;
+		columnLabels = _columnLabels;
 		mode = _mode;
-		d_arr = da;
+		d_mat = dm;
 	}
 
-	void SetArray(matrix_t<double> *da)
+	void SetMatrix(matrix_t<double> *dm)
 	{
-		d_arr = da;
+		d_mat = dm;
 	}
 
 	virtual int GetNumberRows()
 	{
-		if (!d_arr) return 0;
+		if (!d_mat) return 0;
 
-		return (int)d_arr->nrows();
+		return (int)d_mat->nrows();
 	}
 
 	virtual int GetNumberCols()
 	{
-		return 1;
+		return (int)d_mat->ncols();
 	}
 
 	virtual bool IsEmptyCell(int, int)
@@ -2540,16 +2541,16 @@ public:
 
 	virtual wxString GetValue(int row, int col)
 	{
-		if (d_arr && row >= 0 && row < (int)d_arr->nrows() && col < (int)d_arr->ncols())
-			return wxString::Format("%g", d_arr->at(row, col));
+		if (d_mat && row >= 0 && row < (int)d_mat->nrows() && col < (int)d_mat->ncols())
+			return wxString::Format("%g", d_mat->at(row, col));
 		else
 			return "-0.0";
 	}
 
 	virtual void SetValue(int row, int col, const wxString& value)
 	{
-		if (d_arr && row >= 0 && row < (int)d_arr->nrows() && col < (int)d_arr->ncols())
-			d_arr->at(row, col) = wxAtof(value);
+		if (d_mat && row >= 0 && row < (int)d_mat->nrows() && col < (int)d_mat->ncols())
+			d_mat->at(row, col) = wxAtof(value);
 	}
 
 	virtual wxString GetRowLabelValue(int row)
@@ -2573,9 +2574,12 @@ public:
 		return wxString::Format("%d", row + 1);
 	}
 
-	virtual wxString GetColLabelValue(int)
+	virtual wxString GetColLabelValue(int col)
 	{
-		return label.IsEmpty() ? "Value" : label;
+		wxString label = "Value";
+		if (col > -1 && col < columnLabels.GetCount())
+			label = columnLabels[col];
+		return label;
 	}
 
 	virtual wxString GetTypeName(int, int)
@@ -2595,14 +2599,14 @@ public:
 
 	virtual bool AppendRows(size_t nrows)
 	{
-		if (d_arr && nrows > 0)
+		if (d_mat && nrows > 0)
 		{
-			if (d_arr->nrows() + nrows > d_arr->nrows())
-				d_arr->resize(d_arr->nrows() + nrows, d_arr->ncols());
+			if (d_mat->nrows() + nrows > d_mat->nrows())
+				d_mat->resize(d_mat->nrows() + nrows, d_mat->ncols());
 
 			for (size_t i = 0; i < nrows; i++)
-				for (size_t j = 0; j < d_arr->ncols(); j++)
-					d_arr->at(i,j) =0.0;
+				for (size_t j = 0; j < d_mat->ncols(); j++)
+					d_mat->at(i,j) =0.0;
 
 
 			if (GetView())
@@ -2617,18 +2621,22 @@ public:
 
 		return true;
 	}
-	/*
+	
 	virtual bool InsertRows(size_t pos, size_t nrows)
 	{
 
-		if (!d_arr) return true;
+		if (!d_mat) return true;
 
-		if (pos > d_arr->size()) pos = d_arr->size();
+		if (pos > d_mat->nrows()) pos = d_mat->nrows();
 
-		for (int i = 0; i < (int)nrows; i++)
-		{
-			d_arr->insert(d_arr->begin(), 0.0);
-		}
+		d_mat->resize_preserve(d_mat->nrows()+nrows, d_mat->ncols(), 0.0);
+
+		for (size_t i = pos + nrows; i < d_mat->nrows(); i++)
+			for (size_t j = 0; j < d_mat->ncols(); j++)
+				d_mat->at(i, j) = d_mat->at(i-nrows,j);
+		for (size_t i = pos; i < pos + nrows - 1; i++)
+			for (size_t j = 0; j < d_mat->ncols(); j++)
+				d_mat->at(i, j) = 0.0;
 
 		if (GetView())
 		{
@@ -2645,13 +2653,16 @@ public:
 
 	virtual bool DeleteRows(size_t pos, size_t nrows)
 	{
-		if (!d_arr) return true;
+		if (!d_mat) return true;
 
-		if (nrows > d_arr->size() - pos)
-			nrows = d_arr->size() - pos;
+		if (nrows > d_mat->nrows() - pos)
+			nrows = d_mat->nrows() - pos;
 
-		//applog("2 Delete Rows[ %d %d ] RowCount %d\n", pos, nrows, Stage->ElementList.size());
-		d_arr->erase(d_arr->begin() + pos, d_arr->begin() + pos + nrows);
+		for (size_t i = pos; i + nrows < d_mat->nrows() && i < pos + nrows; i++)
+			for (size_t j = 0; j < d_mat->ncols(); j++)
+				d_mat->at(i, j) = d_mat->at(i + nrows, j);
+
+		d_mat->resize_preserve(d_mat->nrows() - nrows, d_mat->ncols(), 0.0);
 
 		if (GetView())
 		{
@@ -2666,7 +2677,7 @@ public:
 
 		return true;
 	}
-	*/
+	
 };
 
 
@@ -2678,7 +2689,8 @@ class AFDataLifetimeMatrixDialog : public wxDialog
 {
 private:
 	wxString mLabel;
-	size_t mAnalysisPeriod, mMinPerHour, mMode;
+	wxArrayString mColumnLabels;
+	size_t mAnalysisPeriod, mMinPerHour, mMode, mNumCols;
 	matrix_t<double> mData;
 	wxExtGridCtrl *Grid;
 	AFDataLifetimeMatrixTable *GridTable;
@@ -2690,12 +2702,15 @@ private:
 	wxNumericCtrl *AnalysisPeriodValue;
 
 public:
-	AFDataLifetimeMatrixDialog(wxWindow *parent, const wxString &title, const wxString &desc, const wxString &inputLabel, const bool &optannual = false, const bool &optweekly = false)
+	AFDataLifetimeMatrixDialog(wxWindow *parent, const wxString &title, const wxString &desc, const wxString &inputLabel, const wxString &columnLabels, const bool &optannual = false, const bool &optweekly = false)
 		: wxDialog(parent, wxID_ANY, title, wxDefaultPosition, wxScaleSize(430, 510),
 			wxDEFAULT_DIALOG_STYLE | wxRESIZE_BORDER)
 	{
 		mLabel = inputLabel;
-
+		mColumnLabels = wxSplit(columnLabels, ',');
+		mNumCols = mColumnLabels.Count();
+		if (mNumCols < 1) mNumCols = 1;
+		
 		GridTable = NULL;
 		wxButton *btn = NULL;
 		Grid = new wxExtGridCtrl(this, ILDM_GRID);
@@ -2808,19 +2823,19 @@ public:
 		case DATA_LIFETIME_MATRIX_MONTHLY:
 		{
 			l = mAnalysisPeriod * 12;
-			Grid->ResizeGrid(l, 1);
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		case DATA_LIFETIME_MATRIX_DAILY: // assume 365
 		{
 			l = mAnalysisPeriod * 365;
-			Grid->ResizeGrid(l, 1);
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		case DATA_LIFETIME_MATRIX_HOURLY: // assume 8760
 		{
 			l = mAnalysisPeriod * 8760;
-			Grid->ResizeGrid(l, 1);
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		case DATA_LIFETIME_MATRIX_SUBHOURLY: // assume 8760 * timesteps per hour
@@ -2828,19 +2843,19 @@ public:
 			// error handling
 			mMinPerHour = std::stoul(Timesteps->GetValue().ToStdString());
 			l = mAnalysisPeriod * 8760 * (60 / mMinPerHour);
-			Grid->ResizeGrid(l, 1);
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		case DATA_LIFETIME_MATRIX_ANNUAL:
 		{
 			l = mAnalysisPeriod;
-			Grid->ResizeGrid(l, 1);
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		case DATA_LIFETIME_MATRIX_WEEKLY: // assume 52 weeks or 364 days?
 		{
 			l = mAnalysisPeriod * 8760 / (24 * 7);
-			Grid->ResizeGrid(l, 1);
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		default: // single value - no grid resize
@@ -2865,10 +2880,10 @@ public:
 	{
 		mData = data;
 
-		if (GridTable) GridTable->SetArray(NULL);
+		if (GridTable) GridTable->SetMatrix(NULL);
 		Grid->SetTable(NULL);
 
-		GridTable = new AFDataLifetimeMatrixTable(&mData, mMode, mLabel);
+		GridTable = new AFDataLifetimeMatrixTable(&mData, mMode, mColumnLabels);
 		GridTable->SetAttrProvider(new wxExtGridCellAttrProvider);
 
 		Grid->SetTable(GridTable, true);
@@ -3049,7 +3064,7 @@ AFDataLifetimeMatrixButton::AFDataLifetimeMatrixButton(wxWindow *parent, int id,
 	mAnalysisPeriod = 25;
 	mMinPerHour = 30;
 	mMode = DATA_LIFETIME_MATRIX_MONTHLY;
-	mData.resize(12 * mAnalysisPeriod, 0.0);
+	mData.resize_preserve(12 * mAnalysisPeriod, 2, 0.0);
 }
 
 void AFDataLifetimeMatrixButton::Get(matrix_t<double> &data)
@@ -3111,6 +3126,15 @@ wxString AFDataLifetimeMatrixButton::GetDataLabel()
 	return mDataLabel;
 }
 
+void AFDataLifetimeMatrixButton::SetColumnLabels(const wxString &s)
+{
+	mColumnLabels = s;
+}
+wxString AFDataLifetimeMatrixButton::GetColumnLabels()
+{
+	return mColumnLabels;
+}
+
 
 void AFDataLifetimeMatrixButton::OnPressed(wxCommandEvent &evt)
 {
@@ -3155,9 +3179,9 @@ void AFDataLifetimeMatrixButton::OnPressed(wxCommandEvent &evt)
 	}
 	}
 	if (mData.nrows() != newSize)
-		mData.resize(newSize, mData.ncols());
+		mData.resize_preserve(newSize, mData.ncols(), 0.0);
 
-	AFDataLifetimeMatrixDialog dlg(this, "Edit Data", mDescription, mDataLabel, mAnnualEnabled, mWeeklyEnabled);
+	AFDataLifetimeMatrixDialog dlg(this, "Edit Data", mDescription, mDataLabel, mColumnLabels, mAnnualEnabled, mWeeklyEnabled);
 	dlg.SetAnalysisPeriod(mAnalysisPeriod);
 	dlg.SetData(mData);
 	dlg.SetDataLabel(mDataLabel);

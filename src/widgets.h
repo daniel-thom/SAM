@@ -288,6 +288,9 @@ public:
 	void SetDataLabel(const wxString &s);
 	wxString GetDataLabel();
 
+	void SetColumnLabels(const wxString &s);
+	wxString GetColumnLabels();
+
 	void SetDescription(const wxString &s) { mDescription = s; }
 	wxString GetDescription() { return mDescription; }
 
@@ -309,6 +312,7 @@ public:
 	void OnPressed(wxCommandEvent &evt);
 private:
 	wxString mDataLabel;
+	wxString mColumnLabels;
 	size_t mAnalysisPeriod, mMinPerHour, mMode;
 	matrix_t<double> mData;
 	wxString mDescription;
