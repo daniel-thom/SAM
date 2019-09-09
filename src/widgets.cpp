@@ -2602,12 +2602,7 @@ public:
 		if (d_mat && nrows > 0)
 		{
 			if (d_mat->nrows() + nrows > d_mat->nrows())
-				d_mat->resize(d_mat->nrows() + nrows, d_mat->ncols());
-
-			for (size_t i = 0; i < nrows; i++)
-				for (size_t j = 0; j < d_mat->ncols(); j++)
-					d_mat->at(i,j) =0.0;
-
+				d_mat->resize_preserve(d_mat->nrows() + nrows, d_mat->ncols(), 0.0);
 
 			if (GetView())
 			{
@@ -2621,7 +2616,29 @@ public:
 
 		return true;
 	}
-	
+
+
+	virtual bool AppendCols(size_t ncols)
+	{
+		if (d_mat && ncols > 0)
+		{
+			if (d_mat->ncols() + ncols > d_mat->ncols())
+				d_mat->resize_preserve(d_mat->nrows(), d_mat->ncols() + ncols, 0.0);
+
+			if (GetView())
+			{
+				wxGridTableMessage msg(this,
+					wxGRIDTABLE_NOTIFY_COLS_APPENDED,
+					ncols);
+
+				GetView()->ProcessTableMessage(msg);
+			}
+		}
+
+		return true;
+	}
+
+
 	virtual bool InsertRows(size_t pos, size_t nrows)
 	{
 
@@ -2644,6 +2661,35 @@ public:
 				wxGRIDTABLE_NOTIFY_ROWS_INSERTED,
 				pos,
 				nrows);
+
+			GetView()->ProcessTableMessage(msg);
+		}
+
+		return true;
+	}
+
+	virtual bool InsertCols(size_t pos, size_t ncols)
+	{
+
+		if (!d_mat) return true;
+
+		if (pos > d_mat->ncols()) pos = d_mat->ncols();
+
+		d_mat->resize_preserve(d_mat->nrows(), d_mat->ncols()+ ncols, 0.0);
+
+		for (size_t i = 0; i < d_mat->nrows(); i++)
+			for (size_t j = pos+ncols; j < d_mat->ncols(); j++)
+				d_mat->at(i, j) = d_mat->at(i, j - ncols);
+		for (size_t i = 0; i < d_mat->nrows(); i++)
+			for (size_t j = pos; j < pos + ncols - 1; j++)
+				d_mat->at(i, j) = 0.0;
+
+		if (GetView())
+		{
+			wxGridTableMessage msg(this,
+				wxGRIDTABLE_NOTIFY_COLS_INSERTED,
+				pos,
+				ncols);
 
 			GetView()->ProcessTableMessage(msg);
 		}
@@ -2677,7 +2723,33 @@ public:
 
 		return true;
 	}
-	
+
+	virtual bool DeleteCols(size_t pos, size_t ncols)
+	{
+		if (!d_mat) return true;
+
+		if (ncols > d_mat->ncols() - pos)
+			ncols = d_mat->ncols() - pos;
+
+		for (size_t i = 0; i < d_mat->nrows(); i++)
+			for (size_t j = pos; j < j + ncols < d_mat->ncols() && j < pos + ncols; j++)
+				d_mat->at(i, j) = d_mat->at(i, j+ncols);
+
+		d_mat->resize_preserve(d_mat->nrows(), d_mat->ncols() - ncols, 0.0);
+
+		if (GetView())
+		{
+			//	applog("RowCount Post Delete %d :: %d\n", Stage->ElementList.size(), this->GetNumberRows());
+			wxGridTableMessage msg(this,
+				wxGRIDTABLE_NOTIFY_COLS_DELETED,
+				pos,
+				ncols);
+
+			GetView()->ProcessTableMessage(msg);
+		}
+
+		return true;
+	}
 };
 
 

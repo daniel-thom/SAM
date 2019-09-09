@@ -1,21 +1,21 @@
 Financial Merchant Plant
-773
-638
-22
-DataLifetimeArray
+778
+410
+16
+DataLifetimeMatrix
 
 1
-12
+13
 Name
 5
-28
-mp_ancserv1_capability_price
+19
+mp_ancserv1_revenue
 X
 3
-318
+267
 Y
 3
-213
+138
 Width
 3
 90
@@ -25,10 +25,14 @@ Height
 Tool Tip
 5
 0
+ColumnLabels
+5
+34
+Cleared capacity (MW),Price ($/MW)
 Label
 5
-37
-Ancillary service #1 capability price
+28
+Ancillary service #1 revenue
 Description
 5
 0
@@ -44,20 +48,20 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetimeArray
+DataLifetimeMatrix
 
 1
-12
+13
 Name
 5
-28
-mp_ancserv1_cleared_capacity
+19
+mp_ancserv2_revenue
 X
 3
-318
+267
 Y
 3
-243
+201
 Width
 3
 90
@@ -67,10 +71,14 @@ Height
 Tool Tip
 5
 0
+ColumnLabels
+5
+34
+Cleared capacity (MW),Price ($/MW)
 Label
 5
-37
-Ancillary service #1 cleared capacity
+28
+Ancillary service #2 revenue
 Description
 5
 0
@@ -86,20 +94,20 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetimeArray
+DataLifetimeMatrix
 
 1
-12
+13
 Name
 5
-28
-mp_ancserv2_capability_price
+19
+mp_ancserv3_revenue
 X
 3
-318
+267
 Y
 3
-327
+267
 Width
 3
 90
@@ -109,10 +117,14 @@ Height
 Tool Tip
 5
 0
+ColumnLabels
+5
+34
+Cleared capacity (MW),Price ($/MW)
 Label
 5
-37
-Ancillary service #2 capability price
+28
+Ancillary service #3 revenue
 Description
 5
 0
@@ -128,20 +140,20 @@ AnnualEnabled
 WeeklyEnabled
 2
 0
-DataLifetimeArray
+DataLifetimeMatrix
 
 1
-12
+13
 Name
 5
-28
-mp_ancserv2_cleared_capacity
+19
+mp_ancserv4_revenue
 X
 3
-318
+267
 Y
 3
-357
+330
 Width
 3
 90
@@ -151,178 +163,14 @@ Height
 Tool Tip
 5
 0
+ColumnLabels
+5
+34
+Cleared capacity (MW),Price ($/MW)
 Label
-5
-37
-Ancillary service #2 cleared capacity
-Description
-5
-0
-TabOrder
-3
-4294967295
-AnalysisPeriod
-3
-25
-AnnualEnabled
-2
-0
-WeeklyEnabled
-2
-0
-DataLifetimeArray
-
-1
-12
-Name
 5
 28
-mp_ancserv3_capability_price
-X
-3
-318
-Y
-3
-432
-Width
-3
-90
-Height
-3
-24
-Tool Tip
-5
-0
-Label
-5
-37
-Ancillary service #3 capability price
-Description
-5
-0
-TabOrder
-3
-4294967295
-AnalysisPeriod
-3
-25
-AnnualEnabled
-2
-0
-WeeklyEnabled
-2
-0
-DataLifetimeArray
-
-1
-12
-Name
-5
-28
-mp_ancserv3_cleared_capacity
-X
-3
-318
-Y
-3
-462
-Width
-3
-90
-Height
-3
-24
-Tool Tip
-5
-0
-Label
-5
-37
-Ancillary service #3 cleared capacity
-Description
-5
-0
-TabOrder
-3
-4294967295
-AnalysisPeriod
-3
-25
-AnnualEnabled
-2
-0
-WeeklyEnabled
-2
-0
-DataLifetimeArray
-
-1
-12
-Name
-5
-28
-mp_ancserv4_capability_price
-X
-3
-318
-Y
-3
-558
-Width
-3
-90
-Height
-3
-24
-Tool Tip
-5
-0
-Label
-5
-37
-Ancillary service #4 capability price
-Description
-5
-0
-TabOrder
-3
-4294967295
-AnalysisPeriod
-3
-25
-AnnualEnabled
-2
-0
-WeeklyEnabled
-2
-0
-DataLifetimeArray
-
-1
-12
-Name
-5
-28
-mp_ancserv4_cleared_capacity
-X
-3
-318
-Y
-3
-588
-Width
-3
-90
-Height
-3
-24
-Tool Tip
-5
-0
-Label
-5
-37
-Ancillary service #4 cleared capacity
+Ancillary service #4 revenue
 Description
 5
 0
@@ -351,7 +199,7 @@ X
 60
 Y
 3
-186
+138
 Width
 3
 189
@@ -384,7 +232,7 @@ X
 60
 Y
 3
-300
+201
 Width
 3
 189
@@ -417,7 +265,7 @@ X
 60
 Y
 3
-414
+267
 Width
 3
 189
@@ -450,7 +298,7 @@ X
 60
 Y
 3
-531
+330
 Width
 3
 189
@@ -509,14 +357,14 @@ DataLifetimeMatrix
 13
 Name
 5
-16
-mp_energy_market
+24
+mp_energy_market_revenue
 X
 3
-399
+267
 Y
 3
-36
+39
 Width
 3
 90
@@ -532,91 +380,8 @@ ColumnLabels
 Cleared capacity (MW),Price ($/MW)
 Label
 5
-0
-Description
-5
-0
-TabOrder
-3
-4294967295
-AnalysisPeriod
-3
-25
-AnnualEnabled
-2
-0
-WeeklyEnabled
-2
-0
-DataLifetimeArray
-
-1
-12
-Name
-5
-33
-mp_energy_market_cleared_capacity
-X
-3
-318
-Y
-3
-96
-Width
-3
-90
-Height
-3
-24
-Tool Tip
-5
-0
-Label
-5
-30
-Energy market cleared capacity
-Description
-5
-0
-TabOrder
-3
-4294967295
-AnalysisPeriod
-3
-25
-AnnualEnabled
-2
-0
-WeeklyEnabled
-2
-0
-DataLifetimeArray
-
-1
-12
-Name
-5
-22
-mp_energy_market_price
-X
-3
-318
-Y
-3
-66
-Width
-3
-90
-Height
-3
-24
-Tool Tip
-5
-0
-Label
-5
-19
-Energy Market Price
+21
+Energy market revenue
 Description
 5
 0
@@ -642,10 +407,10 @@ Name
 object 21
 X
 3
-36
+39
 Y
 3
-507
+303
 Width
 3
 348
@@ -681,10 +446,10 @@ Name
 object 211
 X
 3
-36
+39
 Y
 3
-393
+243
 Width
 3
 348
@@ -720,10 +485,10 @@ Name
 object 213
 X
 3
-36
+39
 Y
 3
-279
+177
 Width
 3
 348
@@ -759,10 +524,10 @@ Name
 object 214
 X
 3
-33
+39
 Y
 3
-165
+117
 Width
 3
 348
@@ -801,13 +566,13 @@ X
 12
 Y
 3
-141
+90
 Width
 3
 752
 Height
 3
-483
+305
 Tool Tip
 5
 0
@@ -837,7 +602,7 @@ Width
 752
 Height
 3
-117
+67
 Tool Tip
 5
 0
@@ -849,119 +614,67 @@ Bold
 2
 1
 
-16
-mp_ancserv1_capability_price
+10
+mp_ancserv1_revenue
 3
-2
-Ancillary service #1 capability price
-$/MW
+3
+Ancillary service #1 revenue
+Cleared capacity (MW),Price ($/MW)
 Merchant Plant Revenue
 0
-2
-1
-2
-1
-1
-0
-Default
-mp_ancserv1_cleared_capacity
 3
+1
+3
+1
 2
-Ancillary service #1 cleared capacity
-MW
+0 0 
+
+DataLifetimeMatrix
+mp_ancserv2_revenue
+3
+3
+Ancillary service #2 revenue
+Cleared capacity (MW),Price ($/MW)
 Merchant Plant Revenue
 0
-2
-1
-2
-1
-1
-0
-Default
-mp_ancserv2_capability_price
 3
+1
+3
+1
 2
-Ancillary service #2 capability price
-$/MW
+0 0 
+
+DataLifetimeMatrix
+mp_ancserv3_revenue
+3
+3
+Ancillary service #3 revenue
+Cleared capacity (MW),Price ($/MW)
 Merchant Plant Revenue
 0
-2
-1
-2
-1
-1
-0
-Default
-mp_ancserv2_cleared_capacity
 3
+1
+3
+1
 2
-Ancillary service #2 cleared capacity
-MW
+0 0 
+
+DataLifetimeMatrix
+mp_ancserv4_revenue
+3
+3
+Ancillary service #4 revenue
+Cleared capacity (MW),Price ($/MW)
 Merchant Plant Revenue
 0
-2
-1
-2
-1
-1
-0
-Default
-mp_ancserv3_capability_price
 3
-2
-Ancillary service #3 capability price
-$/MW
-Merchant Plant Revenue
-0
-2
 1
-2
-1
-1
-0
-Default
-mp_ancserv3_cleared_capacity
 3
-2
-Ancillary service #3 cleared capacity
-MW
-Merchant Plant Revenue
-0
-2
 1
 2
-1
-1
-0
-Default
-mp_ancserv4_capability_price
-3
-2
-Ancillary service #4 capability price
-$/MW
-Merchant Plant Revenue
-0
-2
-1
-2
-1
-1
-0
-Default
-mp_ancserv4_cleared_capacity
-3
-2
-Ancillary service #4 cleared capacity
-MW
-Merchant Plant Revenue
-0
-2
-1
-2
-1
-1
-0
-Default
+0 0 
+
+DataLifetimeMatrix
 mp_enable_ancserv1
 3
 1
@@ -1032,117 +745,59 @@ Merchant Plant Revenue
 1
 1
 CheckBox
-mp_energy_market
+mp_energy_market_revenue
 3
 3
- 
- 
- 
+Energy market revenue
+Cleared capacity (MW),Price ($/MW)
+Merchant Plant Revenue
 0
+3
+1
+3
+1
 2
-1
-3
-1
-1
-0
+0 0 
+
 DataLifetimeMatrix
-mp_energy_market_cleared_capacity
-3
-2
-Energy market cleared capacity
-MW
-Merchant Plant Revenue
-0
-2
-1
-2
-1
-1
-0
-Default
-mp_energy_market_price
-3
-2
-Energy Market Price
-$/MW
-Merchant Plant Revenue
-0
-2
-1
-2
-1
-1
-0
-DataLifetimeArray
 
 0
-2427
-function energy_market_inputs()
+1272
+function update_merchant_plant_inputs()
 {
-	enable('mp_energy_market_price', value('mp_enable_energy_market_revenue'));
-	enable('mp_energy_market_cleared_capacity', value('mp_enable_energy_market_revenue'));
-}
-
-function energy_ancserv1_inputs()
-{
-	enable('mp_ancserv1_capability_price', value('mp_enable_ancserv1'));
-	enable('mp_ancserv1_cleared_capacity', value('mp_enable_ancserv1'));
-}
-
-function energy_ancserv2_inputs()
-{
-	enable('mp_ancserv2_capability_price', value('mp_enable_ancserv2'));
-	enable('mp_ancserv2_cleared_capacity', value('mp_enable_ancserv2'));
-}
-
-function energy_ancserv3_inputs()
-{
-	enable('mp_ancserv3_capability_price', value('mp_enable_ancserv3'));
-	enable('mp_ancserv3_cleared_capacity', value('mp_enable_ancserv3'));
-}
-
-function energy_ancserv4_inputs()
-{
-	enable('mp_ancserv4_capability_price', value('mp_enable_ancserv4'));
-	enable('mp_ancserv4_cleared_capacity', value('mp_enable_ancserv4'));
+	enable('mp_energy_market_revenue', value('mp_enable_energy_market_revenue'));
+	enable('mp_ancserv1_revenue', value('mp_enable_ancserv1'));
+	enable('mp_ancserv2_revenue', value('mp_enable_ancserv2'));
+	enable('mp_ancserv3_revenue', value('mp_enable_ancserv3'));
+	enable('mp_ancserv4_revenue', value('mp_enable_ancserv4'));
 }
 
 on_load{'Financial Merchant Plant'} = define() {
-	property("mp_energy_market","AnalysisPeriod",value("analysis_period"));
-	property("mp_energy_market_price","AnalysisPeriod",value("analysis_period"));
-	property("mp_energy_market_cleared_capacity","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv1_capability_price","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv1_cleared_capacity","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv2_capability_price","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv2_cleared_capacity","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv3_capability_price","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv3_cleared_capacity","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv4_capability_price","AnalysisPeriod",value("analysis_period"));
-	property("mp_ancserv4_cleared_capacity","AnalysisPeriod",value("analysis_period"));
-	energy_market_inputs();
-	energy_ancserv1_inputs();
-	energy_ancserv2_inputs();
-	energy_ancserv3_inputs();
-	energy_ancserv4_inputs();
+	property("mp_energy_market_revenue","AnalysisPeriod",value("analysis_period"));
+	property("mp_ancserv1_revenue","AnalysisPeriod",value("analysis_period"));
+	property("mp_ancserv2_revenue","AnalysisPeriod",value("analysis_period"));
+	property("mp_ancserv3_revenue","AnalysisPeriod",value("analysis_period"));
+	property("mp_ancserv4_revenue","AnalysisPeriod",value("analysis_period"));
+	update_merchant_plant_inputs();
 	refresh();
 };
 
 on_change{'mp_enable_energy_market_revenue'} = define() {
-	energy_market_inputs();
+	update_merchant_plant_inputs();
 };
 
 on_change{'mp_enable_ancserv1'} = define() {
-	energy_ancserv1_inputs();
+	update_merchant_plant_inputs();
 };
 
 on_change{'mp_enable_ancserv2'} = define() {
-	energy_ancserv2_inputs();
+	update_merchant_plant_inputs();
 };
 
 on_change{'mp_enable_ancserv3'} = define() {
-	energy_ancserv3_inputs();
+	update_merchant_plant_inputs();
 };
 
 on_change{'mp_enable_ancserv4'} = define() {
-	energy_ancserv4_inputs();
+	update_merchant_plant_inputs();
 };
