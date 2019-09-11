@@ -2884,6 +2884,8 @@ public:
 		szh_main->Add(Grid, 3, wxALL | wxEXPAND, 4);
 
 		SetSizer(szh_main);
+		SetSizeHints(wxSize(800, 800));
+//		Layout();
 	}
 
 	void SetMode(int m)
@@ -2940,7 +2942,19 @@ public:
 		SingleValue->Enable((mMode == DATA_LIFETIME_MATRIX_SINGLEVALUE));
 		Grid->Enable((mMode != DATA_LIFETIME_MATRIX_SINGLEVALUE));
 		ModeOptions->SetSelection(mMode);
-		Layout();
+
+		Grid->AutoSize();
+		Grid->Layout();
+		Grid->Refresh();
+//		Fit();
+		GetSizer()->Layout();
+		Move(GetPosition().x+1,GetPosition().y+1);
+//		Layout();
+//		Refresh();
+//		Update();
+		//		FitInside();
+	//	Fit(); // entire screen height - set max height
+		
 	}
 
 	int GetMode()
@@ -2959,9 +2973,12 @@ public:
 		GridTable->SetAttrProvider(new wxExtGridCellAttrProvider);
 
 		Grid->SetTable(GridTable, true);
-		Grid->SetColSize(0, (int)(130 * wxGetScreenHDScale()));
-		Grid->Layout();
-		Grid->Refresh();
+		// can use max text width from column labels
+	//	for (size_t ic=0; ic<Grid->GetNumberCols(); ic++)
+	//		Grid->SetColSize(ic, (int)(140 * wxGetScreenHDScale()));
+
+
+//		Grid->SetColSize(0, (int)(130 * wxGetScreenHDScale()));
 
 		// determine mode from data
 		size_t dataSize = mData.nrows();

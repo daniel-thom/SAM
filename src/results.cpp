@@ -1084,15 +1084,16 @@ void ResultsViewer::Setup( Simulation *sim )
 		
 
 		if (!m_depreciationTable->IsShown())
-		{
 			m_cf_splitter->Unsplit();
-		}
+		else
+			m_cf_splitter->Move(m_cf_splitter->GetPosition().x + 1, m_cf_splitter->GetPosition().y + 1);
 
 		m_depreciationTable->Thaw();
 	}
 
 	if ( m_cashflow.size() > 0 ) ShowPage( PAGE_CASH_FLOW );
 	else HidePage( PAGE_CASH_FLOW );
+
 
 	CreateAutoGraphs();
 
@@ -1456,8 +1457,18 @@ void ResultsViewer::SavePerspective( StringHash &map )
 void ResultsViewer::LoadPerspective( StringHash &map )
 {
 	int nnav = wxAtoi( map["navigation"] );
-	if ( nnav >= 0 && nnav < (int)GetPageCount() )
-		SetSelection( nnav );
+	if (nnav >= 0 && nnav < (int)GetPageCount())
+	{
+		SetSelection(nnav);
+		if (nnav == PAGE_CASH_FLOW)
+		{ // force resize of splitter window when vash flow and depreciation tables shown
+			wxSize sz = GetSize();
+			sz.SetWidth(sz.GetWidth() + 1);
+			SetSize(sz);
+			sz.SetWidth(sz.GetWidth() - 1);
+			SetSize(sz);
+		}
+	}
 }
 
 
