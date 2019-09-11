@@ -2770,7 +2770,6 @@ private:
 	wxStaticText *InputLabel, *TimestepsLabel;
 	wxComboBox *ModeOptions;
 	wxComboBox *Timesteps;
-	wxNumericCtrl *SingleValue;
 	wxNumericCtrl *AnalysisPeriodValue;
 
 public:
@@ -2854,12 +2853,6 @@ public:
 		szh_top2->Add(AnalysisPeriodValue, 0, wxALL | wxEXPAND, 1);
 		szh_top2->AddStretchSpacer();
 
-		wxBoxSizer *szh_singlevalue = new wxBoxSizer(wxHORIZONTAL);
-		SingleValue = new wxNumericCtrl(this, ILDM_SINGLEVALUE);
-		szh_singlevalue->Add(new wxStaticText(this, -1, "Enter single value"), 0, wxALL | wxALIGN_CENTER_VERTICAL, 3);
-		szh_singlevalue->AddSpacer(3);
-		szh_singlevalue->Add(SingleValue, 0, wxALL | wxEXPAND, 1);
-		szh_singlevalue->AddStretchSpacer();
 
 		wxBoxSizer *szv_main_vert = new wxBoxSizer(wxVERTICAL);
 		szv_main_vert->Add(szh_top1, 0, wxALL | wxEXPAND, 4);
@@ -2867,8 +2860,6 @@ public:
 		szv_main_vert->Add(szh_top3, 0, wxALL | wxEXPAND, 4);
 		szv_main_vert->Add(szh_top4, 0, wxALL | wxEXPAND, 4);
 		szv_main_vert->Add(szh_btns, 0, wxALL | wxEXPAND, 4);
-		szv_main_vert->Add(new wxStaticText(this, -1, "_____________________"), 0, wxALL, 3);
-		szv_main_vert->Add(szh_singlevalue, 0, wxALL | wxEXPAND, 4);
 		szv_main_vert->AddStretchSpacer();
 		szv_main_vert->Add(CreateButtonSizer(wxOK | wxCANCEL), 0, wxALL | wxEXPAND, 10);
 		Description = 0;
@@ -2884,14 +2875,14 @@ public:
 		szh_main->Add(Grid, 3, wxALL | wxEXPAND, 4);
 
 		SetSizer(szh_main);
-		SetSizeHints(wxSize(800, 800));
-//		Layout();
+		SetSizeHints(wxSize(1000, 800));
 	}
 
 	void SetMode(int m)
 	{
 		mMode = m;
 		size_t l;
+	//	Grid->Freeze();
 		switch (mMode)
 		{
 		case DATA_LIFETIME_MATRIX_MONTHLY:
@@ -2934,27 +2925,23 @@ public:
 		}
 		default: // single value - no grid resize
 		{
+			l = 1;
+			Grid->ResizeGrid(l, mNumCols);
 			break;
 		}
 		}
 		TimestepsLabel->Show((mMode == DATA_LIFETIME_MATRIX_SUBHOURLY));
 		Timesteps->Show((mMode == DATA_LIFETIME_MATRIX_SUBHOURLY));
-		SingleValue->Enable((mMode == DATA_LIFETIME_MATRIX_SINGLEVALUE));
-		Grid->Enable((mMode != DATA_LIFETIME_MATRIX_SINGLEVALUE));
 		ModeOptions->SetSelection(mMode);
 
-		Grid->AutoSize();
+//		Grid->AutoSize();
 		Grid->Layout();
 		Grid->Refresh();
-//		Fit();
-		GetSizer()->Layout();
-		Move(GetPosition().x+1,GetPosition().y+1);
-//		Layout();
-//		Refresh();
-//		Update();
-		//		FitInside();
-	//	Fit(); // entire screen height - set max height
-		
+//		GetSizer()->Layout();
+//		Grid->Thaw();
+		Layout();
+//		Move(GetPosition().x - 1, GetPosition().y - 1);
+		//	Fit(); // entire screen height - set max height
 	}
 
 	int GetMode()
@@ -2974,8 +2961,8 @@ public:
 
 		Grid->SetTable(GridTable, true);
 		// can use max text width from column labels
-	//	for (size_t ic=0; ic<Grid->GetNumberCols(); ic++)
-	//		Grid->SetColSize(ic, (int)(140 * wxGetScreenHDScale()));
+		for (size_t ic=0; ic<Grid->GetNumberCols(); ic++)
+			Grid->SetColSize(ic, (int)(140 * wxGetScreenHDScale()));
 
 
 //		Grid->SetColSize(0, (int)(130 * wxGetScreenHDScale()));
@@ -3027,6 +3014,9 @@ public:
 		}
 
 		SetMode(mMode);
+		Move(GetPosition().x + 1, GetPosition().y + 1);
+		Move(GetPosition().x - 1, GetPosition().y - 1);
+
 	}
 
 	void GetData(matrix_t<double> &data)
