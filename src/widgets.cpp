@@ -2577,7 +2577,7 @@ public:
 	virtual wxString GetColLabelValue(int col)
 	{
 		wxString label = "Value";
-		if (col > -1 && col < columnLabels.GetCount())
+		if (col > -1 && col < (int)columnLabels.GetCount())
 			label = columnLabels[col];
 		return label;
 	}
@@ -2704,7 +2704,7 @@ public:
 		if (nrows > d_mat->nrows() - pos)
 			nrows = d_mat->nrows() - pos;
 
-		for (size_t i = pos; i + nrows < d_mat->nrows() && i < pos + nrows; i++)
+		for (size_t i = pos; (i + nrows) < d_mat->nrows() && i < (pos + nrows); i++)
 			for (size_t j = 0; j < d_mat->ncols(); j++)
 				d_mat->at(i, j) = d_mat->at(i + nrows, j);
 
@@ -2732,7 +2732,7 @@ public:
 			ncols = d_mat->ncols() - pos;
 
 		for (size_t i = 0; i < d_mat->nrows(); i++)
-			for (size_t j = pos; j < j + ncols < d_mat->ncols() && j < pos + ncols; j++)
+			for (size_t j = pos; (j + ncols) < d_mat->ncols() && j < (pos + ncols); j++)
 				d_mat->at(i, j) = d_mat->at(i, j+ncols);
 
 		d_mat->resize_preserve(d_mat->nrows(), d_mat->ncols() - ncols, 0.0);
@@ -2961,7 +2961,7 @@ public:
 
 		Grid->SetTable(GridTable, true);
 		// can use max text width from column labels
-		for (size_t ic=0; ic<Grid->GetNumberCols(); ic++)
+		for (size_t ic=0; ic<(size_t)Grid->GetNumberCols(); ic++)
 			Grid->SetColSize(ic, (int)(140 * wxGetScreenHDScale()));
 
 
@@ -4717,12 +4717,12 @@ void AFMonthByHourFactorCtrl::OnGridCellChange(wxGridEvent &evt)
 	if ( r < 0 || c < 0 )
 	{
 		// paste event
-		for( int r=0;r<mGrid->GetNumberRows();r++ )
+		for( int ir=0;ir<mGrid->GetNumberRows();ir++ )
 		{
-			for( int c=0;c<mGrid->GetNumberCols();c++ )
+			for( int ic=0;ic<mGrid->GetNumberCols();ic++ )
 			{
-				mData.at(r,c) = wxAtof( mGrid->GetCellValue(r,c) );
-				UpdateCell(r,c);
+				mData.at(ir,ic) = wxAtof( mGrid->GetCellValue(ir,ic) );
+				UpdateCell(ir,ic);
 			}
 		}
 	}
