@@ -177,6 +177,12 @@ TimeOfDelivery Group
 .. autoclass:: PySAM.Pvsamv1.Pvsamv1.TimeOfDelivery
 	:members:
 
+Resilience Group
+==============
+
+.. autoclass:: PySAM.Pvsamv1.Pvsamv1.Resilience
+	:members:
+
 AdjustmentFactors Group
 ==============
 

@@ -70,6 +70,7 @@ class Battery(object):
 	batt_h_to_ambient = float
 	batt_height = float
 	batt_initial_SOC = float
+	batt_inverter_efficiency_cutoff = float
 	batt_length = float
 	batt_lifetime_matrix = tuple
 	batt_look_ahead_hours = float
@@ -83,13 +84,16 @@ class Battery(object):
 	batt_meter_position = float
 	batt_minimum_SOC = float
 	batt_minimum_modetime = float
-	batt_power_charge_max = float
-	batt_power_discharge_max = float
+	batt_power_charge_max_kwac = float
+	batt_power_charge_max_kwdc = float
+	batt_power_discharge_max_kwac = float
+	batt_power_discharge_max_kwdc = float
 	batt_pv_clipping_forecast = tuple
 	batt_pv_dc_forecast = tuple
 	batt_replacement_capacity = float
 	batt_replacement_option = float
 	batt_replacement_schedule = tuple
+	batt_replacement_schedule_percent = tuple
 	batt_resistance = float
 	batt_room_temperature_celsius = tuple
 	batt_target_choice = float
@@ -219,6 +223,8 @@ class ElectricityRate(object):
 	ur_ec_sched_weekday = tuple
 	ur_ec_sched_weekend = tuple
 	ur_ec_tou_mat = tuple
+	ur_en_ts_sell_rate = float
+	ur_ts_buy_rate = tuple
 
 
 class TimeOfDelivery(object):
@@ -284,6 +290,10 @@ class Outputs(object):
 	batt_qmax = tuple
 	batt_qmaxI = tuple
 	batt_qmax_thermal = tuple
+	batt_revenue_charge = tuple
+	batt_revenue_clipcharge = tuple
+	batt_revenue_discharge = tuple
+	batt_revenue_gridcharge = tuple
 	batt_system_loss = tuple
 	batt_temperature = tuple
 	batt_to_grid = tuple

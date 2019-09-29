@@ -757,6 +757,18 @@ Battery_set_batt_initial_SOC(BatteryObject *self, PyObject *value, void *closure
 }
 
 static PyObject *
+Battery_get_batt_inverter_efficiency_cutoff(BatteryObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Battery_Battery_batt_inverter_efficiency_cutoff_nget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_inverter_efficiency_cutoff(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Battery_Battery_batt_inverter_efficiency_cutoff_nset, self->data_ptr);
+}
+
+static PyObject *
 Battery_get_batt_length(BatteryObject *self, void *closure)
 {
 	return PySAM_double_getter(SAM_Battery_Battery_batt_length_nget, self->data_ptr);
@@ -913,27 +925,51 @@ Battery_set_batt_minimum_modetime(BatteryObject *self, PyObject *value, void *cl
 }
 
 static PyObject *
-Battery_get_batt_power_charge_max(BatteryObject *self, void *closure)
+Battery_get_batt_power_charge_max_kwac(BatteryObject *self, void *closure)
 {
-	return PySAM_double_getter(SAM_Battery_Battery_batt_power_charge_max_nget, self->data_ptr);
+	return PySAM_double_getter(SAM_Battery_Battery_batt_power_charge_max_kwac_nget, self->data_ptr);
 }
 
 static int
-Battery_set_batt_power_charge_max(BatteryObject *self, PyObject *value, void *closure)
+Battery_set_batt_power_charge_max_kwac(BatteryObject *self, PyObject *value, void *closure)
 {
-	return PySAM_double_setter(value, SAM_Battery_Battery_batt_power_charge_max_nset, self->data_ptr);
+	return PySAM_double_setter(value, SAM_Battery_Battery_batt_power_charge_max_kwac_nset, self->data_ptr);
 }
 
 static PyObject *
-Battery_get_batt_power_discharge_max(BatteryObject *self, void *closure)
+Battery_get_batt_power_charge_max_kwdc(BatteryObject *self, void *closure)
 {
-	return PySAM_double_getter(SAM_Battery_Battery_batt_power_discharge_max_nget, self->data_ptr);
+	return PySAM_double_getter(SAM_Battery_Battery_batt_power_charge_max_kwdc_nget, self->data_ptr);
 }
 
 static int
-Battery_set_batt_power_discharge_max(BatteryObject *self, PyObject *value, void *closure)
+Battery_set_batt_power_charge_max_kwdc(BatteryObject *self, PyObject *value, void *closure)
 {
-	return PySAM_double_setter(value, SAM_Battery_Battery_batt_power_discharge_max_nset, self->data_ptr);
+	return PySAM_double_setter(value, SAM_Battery_Battery_batt_power_charge_max_kwdc_nset, self->data_ptr);
+}
+
+static PyObject *
+Battery_get_batt_power_discharge_max_kwac(BatteryObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Battery_Battery_batt_power_discharge_max_kwac_nget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_power_discharge_max_kwac(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Battery_Battery_batt_power_discharge_max_kwac_nset, self->data_ptr);
+}
+
+static PyObject *
+Battery_get_batt_power_discharge_max_kwdc(BatteryObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Battery_Battery_batt_power_discharge_max_kwdc_nget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_power_discharge_max_kwdc(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Battery_Battery_batt_power_discharge_max_kwdc_nset, self->data_ptr);
 }
 
 static PyObject *
@@ -994,6 +1030,18 @@ static int
 Battery_set_batt_replacement_schedule(BatteryObject *self, PyObject *value, void *closure)
 {
 	return PySAM_array_setter(value, SAM_Battery_Battery_batt_replacement_schedule_aset, self->data_ptr);
+}
+
+static PyObject *
+Battery_get_batt_replacement_schedule_percent(BatteryObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Battery_Battery_batt_replacement_schedule_percent_aget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_replacement_schedule_percent(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_array_setter(value, SAM_Battery_Battery_batt_replacement_schedule_percent_aset, self->data_ptr);
 }
 
 static PyObject *
@@ -1348,6 +1396,9 @@ static PyGetSetDef Battery_getset[] = {
 {"batt_initial_SOC", (getter)Battery_get_batt_initial_SOC,(setter)Battery_set_batt_initial_SOC,
 	PyDoc_STR("*float*: Initial state-of-charge [%]"),
  	NULL},
+{"batt_inverter_efficiency_cutoff", (getter)Battery_get_batt_inverter_efficiency_cutoff,(setter)Battery_set_batt_inverter_efficiency_cutoff,
+	PyDoc_STR("*float*: Inverter efficiency at which to cut battery charge or discharge off [%]"),
+ 	NULL},
 {"batt_length", (getter)Battery_get_batt_length,(setter)Battery_set_batt_length,
 	PyDoc_STR("*float*: Battery length [m]"),
  	NULL},
@@ -1387,11 +1438,17 @@ static PyGetSetDef Battery_getset[] = {
 {"batt_minimum_modetime", (getter)Battery_get_batt_minimum_modetime,(setter)Battery_set_batt_minimum_modetime,
 	PyDoc_STR("*float*: Minimum time at charge state [min]"),
  	NULL},
-{"batt_power_charge_max", (getter)Battery_get_batt_power_charge_max,(setter)Battery_set_batt_power_charge_max,
-	PyDoc_STR("*float*: Maximum charge power [kW]"),
+{"batt_power_charge_max_kwac", (getter)Battery_get_batt_power_charge_max_kwac,(setter)Battery_set_batt_power_charge_max_kwac,
+	PyDoc_STR("*float*: Maximum charge power (AC) [kWac]"),
  	NULL},
-{"batt_power_discharge_max", (getter)Battery_get_batt_power_discharge_max,(setter)Battery_set_batt_power_discharge_max,
-	PyDoc_STR("*float*: Maximum discharge power [kW]"),
+{"batt_power_charge_max_kwdc", (getter)Battery_get_batt_power_charge_max_kwdc,(setter)Battery_set_batt_power_charge_max_kwdc,
+	PyDoc_STR("*float*: Maximum charge power (DC) [kWdc]"),
+ 	NULL},
+{"batt_power_discharge_max_kwac", (getter)Battery_get_batt_power_discharge_max_kwac,(setter)Battery_set_batt_power_discharge_max_kwac,
+	PyDoc_STR("*float*: Maximum discharge power (AC) [kWac]"),
+ 	NULL},
+{"batt_power_discharge_max_kwdc", (getter)Battery_get_batt_power_discharge_max_kwdc,(setter)Battery_set_batt_power_discharge_max_kwdc,
+	PyDoc_STR("*float*: Maximum discharge power (DC) [kWdc]"),
  	NULL},
 {"batt_pv_clipping_forecast", (getter)Battery_get_batt_pv_clipping_forecast,(setter)Battery_set_batt_pv_clipping_forecast,
 	PyDoc_STR("*sequence*: PV clipping forecast [kW]\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
@@ -1407,6 +1464,9 @@ static PyGetSetDef Battery_getset[] = {
  	NULL},
 {"batt_replacement_schedule", (getter)Battery_get_batt_replacement_schedule,(setter)Battery_set_batt_replacement_schedule,
 	PyDoc_STR("*sequence*: Battery bank replacements per year (user specified) [number/year]\n\n*Required*: if batt_replacement_option=2"),
+ 	NULL},
+{"batt_replacement_schedule_percent", (getter)Battery_get_batt_replacement_schedule_percent,(setter)Battery_set_batt_replacement_schedule_percent,
+	PyDoc_STR("*sequence*: Percentage of battery capacity to replace in year [%]\n\n*Required*: if batt_replacement_option=2"),
  	NULL},
 {"batt_resistance", (getter)Battery_get_batt_resistance,(setter)Battery_set_batt_resistance,
 	PyDoc_STR("*float*: Internal resistance [Ohm]"),
@@ -2505,6 +2565,30 @@ ElectricityRate_set_ur_ec_tou_mat(ElectricityRateObject *self, PyObject *value, 
 		return PySAM_matrix_setter(value, SAM_Battery_ElectricityRate_ur_ec_tou_mat_mset, self->data_ptr);
 }
 
+static PyObject *
+ElectricityRate_get_ur_en_ts_sell_rate(ElectricityRateObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Battery_ElectricityRate_ur_en_ts_sell_rate_nget, self->data_ptr);
+}
+
+static int
+ElectricityRate_set_ur_en_ts_sell_rate(ElectricityRateObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Battery_ElectricityRate_ur_en_ts_sell_rate_nset, self->data_ptr);
+}
+
+static PyObject *
+ElectricityRate_get_ur_ts_buy_rate(ElectricityRateObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Battery_ElectricityRate_ur_ts_buy_rate_aget, self->data_ptr);
+}
+
+static int
+ElectricityRate_set_ur_ts_buy_rate(ElectricityRateObject *self, PyObject *value, void *closure)
+{
+	return PySAM_array_setter(value, SAM_Battery_ElectricityRate_ur_ts_buy_rate_aset, self->data_ptr);
+}
+
 static PyGetSetDef ElectricityRate_getset[] = {
 {"en_electricity_rates", (getter)ElectricityRate_get_en_electricity_rates,(setter)ElectricityRate_set_en_electricity_rates,
 	PyDoc_STR("*float*: Enable Electricity Rates [0/1]\n\n*Options*: 0=EnableElectricityRates,1=NoRates"),
@@ -2517,6 +2601,12 @@ static PyGetSetDef ElectricityRate_getset[] = {
  	NULL},
 {"ur_ec_tou_mat", (getter)ElectricityRate_get_ur_ec_tou_mat,(setter)ElectricityRate_set_ur_ec_tou_mat,
 	PyDoc_STR("*sequence[sequence]*: Energy rates table\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
+ 	NULL},
+{"ur_en_ts_sell_rate", (getter)ElectricityRate_get_ur_en_ts_sell_rate,(setter)ElectricityRate_set_ur_en_ts_sell_rate,
+	PyDoc_STR("*float*: Enable time step sell rates [0/1]\n\n*Constraints*: BOOLEAN\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
+ 	NULL},
+{"ur_ts_buy_rate", (getter)ElectricityRate_get_ur_ts_buy_rate,(setter)ElectricityRate_set_ur_ts_buy_rate,
+	PyDoc_STR("*sequence*: Time step buy rates [0/1]\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
  	NULL},
 	{NULL}  /* Sentinel */
 };
@@ -3022,6 +3112,30 @@ Outputs_get_batt_qmax_thermal(OutputsObject *self, void *closure)
 }
 
 static PyObject *
+Outputs_get_batt_revenue_charge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Battery_Outputs_batt_revenue_charge_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_clipcharge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Battery_Outputs_batt_revenue_clipcharge_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_discharge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Battery_Outputs_batt_revenue_discharge_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_gridcharge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Battery_Outputs_batt_revenue_gridcharge_aget, self->data_ptr);
+}
+
+static PyObject *
 Outputs_get_batt_system_loss(OutputsObject *self, void *closure)
 {
 	return PySAM_array_getter(SAM_Battery_Outputs_batt_system_loss_aget, self->data_ptr);
@@ -3252,6 +3366,18 @@ static PyGetSetDef Outputs_getset[] = {
  	NULL},
 {"batt_qmax_thermal", (getter)Outputs_get_batt_qmax_thermal,(setter)0,
 	PyDoc_STR("*sequence*: Battery maximum charge at temperature [Ah]"),
+ 	NULL},
+{"batt_revenue_charge", (getter)Outputs_get_batt_revenue_charge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to charge from system [$/kWh]"),
+ 	NULL},
+{"batt_revenue_clipcharge", (getter)Outputs_get_batt_revenue_clipcharge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to charge from clipped [$/kWh]"),
+ 	NULL},
+{"batt_revenue_discharge", (getter)Outputs_get_batt_revenue_discharge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to discharge [$/kWh]"),
+ 	NULL},
+{"batt_revenue_gridcharge", (getter)Outputs_get_batt_revenue_gridcharge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to charge from grid [$/kWh]"),
  	NULL},
 {"batt_system_loss", (getter)Outputs_get_batt_system_loss,(setter)0,
 	PyDoc_STR("*sequence*: Electricity loss from battery ancillary equipment [kW]"),

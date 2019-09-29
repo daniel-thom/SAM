@@ -713,6 +713,7 @@ class Battery(object):
 	batt_h_to_ambient = float
 	batt_height = float
 	batt_initial_SOC = float
+	batt_inverter_efficiency_cutoff = float
 	batt_length = float
 	batt_lifetime_matrix = tuple
 	batt_look_ahead_hours = float
@@ -726,13 +727,16 @@ class Battery(object):
 	batt_meter_position = float
 	batt_minimum_SOC = float
 	batt_minimum_modetime = float
-	batt_power_charge_max = float
-	batt_power_discharge_max = float
+	batt_power_charge_max_kwac = float
+	batt_power_charge_max_kwdc = float
+	batt_power_discharge_max_kwac = float
+	batt_power_discharge_max_kwdc = float
 	batt_pv_clipping_forecast = tuple
 	batt_pv_dc_forecast = tuple
 	batt_replacement_capacity = float
 	batt_replacement_option = float
 	batt_replacement_schedule = tuple
+	batt_replacement_schedule_percent = tuple
 	batt_resistance = float
 	batt_room_temperature_celsius = tuple
 	batt_target_choice = float
@@ -827,6 +831,8 @@ class ElectricityRate(object):
 	ur_ec_sched_weekday = tuple
 	ur_ec_sched_weekend = tuple
 	ur_ec_tou_mat = tuple
+	ur_en_ts_sell_rate = float
+	ur_ts_buy_rate = tuple
 
 
 class TimeOfDelivery(object):
@@ -846,6 +852,24 @@ class TimeOfDelivery(object):
 	dispatch_tod_factors = tuple
 	ppa_multiplier_model = float
 	ppa_price_input = tuple
+
+
+class Resilience(object):
+	def assign(self): 
+		pass
+
+	def export(self) -> Dict[Dict]
+		pass
+
+	def __init__(self, *args, **kwargs): 
+		pass
+
+
+	avg_critical_load = float
+	present_worth_factor = float
+	resilience_hrs_avg = float
+	resilience_hrs_max = float
+	resilience_hrs_min = float
 
 
 class AdjustmentFactors(object):
@@ -970,6 +994,7 @@ class Outputs(object):
 	annual_subarray4_dc_nameplate_loss = float
 	annual_subarray4_dc_tracking_loss = float
 	annual_subarray4_dc_wiring_loss = float
+	annual_total_loss_percent = float
 	annual_transmission_loss = float
 	annual_transmission_loss_percent = float
 	annual_xfmr_loss_percent = float
@@ -1004,6 +1029,10 @@ class Outputs(object):
 	batt_qmax = tuple
 	batt_qmaxI = tuple
 	batt_qmax_thermal = tuple
+	batt_revenue_charge = tuple
+	batt_revenue_clipcharge = tuple
+	batt_revenue_discharge = tuple
+	batt_revenue_gridcharge = tuple
 	batt_system_loss = tuple
 	batt_temperature = tuple
 	batt_to_grid = tuple
@@ -1057,6 +1086,7 @@ class Outputs(object):
 	monthly_pv_to_load = tuple
 	monthly_snow_loss = tuple
 	nameplate_dc_rating = float
+	outage_durations = tuple
 	performance_ratio = float
 	poa_beam_eff = tuple
 	poa_beam_nom = tuple
@@ -1066,9 +1096,11 @@ class Outputs(object):
 	poa_rear = tuple
 	poa_shaded = tuple
 	poa_shaded_soiled = tuple
+	probs_of_surviving = tuple
 	pv_to_batt = tuple
 	pv_to_grid = tuple
 	pv_to_load = tuple
+	resilience_hrs = tuple
 	shadedb_subarray1_shade_frac = tuple
 	shadedb_subarray2_shade_frac = tuple
 	shadedb_subarray3_shade_frac = tuple
@@ -1249,6 +1281,7 @@ class Pvsamv1(object):
 	FuelCell = FuelCell
 	ElectricityRate = ElectricityRate
 	TimeOfDelivery = TimeOfDelivery
+	Resilience = Resilience
 	AdjustmentFactors = AdjustmentFactors
 	Outputs = Outputs
 

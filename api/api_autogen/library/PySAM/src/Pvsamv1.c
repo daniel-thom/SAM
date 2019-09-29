@@ -5,6 +5,8 @@
 
 #include "PySAM_utils.h"
 
+#include "Pvsamv1_eqns.c"
+
 
 /*
  * SolarResource Group
@@ -8839,6 +8841,18 @@ Battery_set_batt_initial_SOC(BatteryObject *self, PyObject *value, void *closure
 }
 
 static PyObject *
+Battery_get_batt_inverter_efficiency_cutoff(BatteryObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_inverter_efficiency_cutoff_nget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_inverter_efficiency_cutoff(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_inverter_efficiency_cutoff_nset, self->data_ptr);
+}
+
+static PyObject *
 Battery_get_batt_length(BatteryObject *self, void *closure)
 {
 	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_length_nget, self->data_ptr);
@@ -8995,27 +9009,51 @@ Battery_set_batt_minimum_modetime(BatteryObject *self, PyObject *value, void *cl
 }
 
 static PyObject *
-Battery_get_batt_power_charge_max(BatteryObject *self, void *closure)
+Battery_get_batt_power_charge_max_kwac(BatteryObject *self, void *closure)
 {
-	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_power_charge_max_nget, self->data_ptr);
+	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_power_charge_max_kwac_nget, self->data_ptr);
 }
 
 static int
-Battery_set_batt_power_charge_max(BatteryObject *self, PyObject *value, void *closure)
+Battery_set_batt_power_charge_max_kwac(BatteryObject *self, PyObject *value, void *closure)
 {
-	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_power_charge_max_nset, self->data_ptr);
+	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_power_charge_max_kwac_nset, self->data_ptr);
 }
 
 static PyObject *
-Battery_get_batt_power_discharge_max(BatteryObject *self, void *closure)
+Battery_get_batt_power_charge_max_kwdc(BatteryObject *self, void *closure)
 {
-	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_power_discharge_max_nget, self->data_ptr);
+	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_power_charge_max_kwdc_nget, self->data_ptr);
 }
 
 static int
-Battery_set_batt_power_discharge_max(BatteryObject *self, PyObject *value, void *closure)
+Battery_set_batt_power_charge_max_kwdc(BatteryObject *self, PyObject *value, void *closure)
 {
-	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_power_discharge_max_nset, self->data_ptr);
+	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_power_charge_max_kwdc_nset, self->data_ptr);
+}
+
+static PyObject *
+Battery_get_batt_power_discharge_max_kwac(BatteryObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_power_discharge_max_kwac_nget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_power_discharge_max_kwac(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_power_discharge_max_kwac_nset, self->data_ptr);
+}
+
+static PyObject *
+Battery_get_batt_power_discharge_max_kwdc(BatteryObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Battery_batt_power_discharge_max_kwdc_nget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_power_discharge_max_kwdc(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Battery_batt_power_discharge_max_kwdc_nset, self->data_ptr);
 }
 
 static PyObject *
@@ -9076,6 +9114,18 @@ static int
 Battery_set_batt_replacement_schedule(BatteryObject *self, PyObject *value, void *closure)
 {
 	return PySAM_array_setter(value, SAM_Pvsamv1_Battery_batt_replacement_schedule_aset, self->data_ptr);
+}
+
+static PyObject *
+Battery_get_batt_replacement_schedule_percent(BatteryObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Battery_batt_replacement_schedule_percent_aget, self->data_ptr);
+}
+
+static int
+Battery_set_batt_replacement_schedule_percent(BatteryObject *self, PyObject *value, void *closure)
+{
+	return PySAM_array_setter(value, SAM_Pvsamv1_Battery_batt_replacement_schedule_percent_aset, self->data_ptr);
 }
 
 static PyObject *
@@ -9439,6 +9489,9 @@ static PyGetSetDef Battery_getset[] = {
 {"batt_initial_SOC", (getter)Battery_get_batt_initial_SOC,(setter)Battery_set_batt_initial_SOC,
 	PyDoc_STR("*float*: Initial state-of-charge [%]"),
  	NULL},
+{"batt_inverter_efficiency_cutoff", (getter)Battery_get_batt_inverter_efficiency_cutoff,(setter)Battery_set_batt_inverter_efficiency_cutoff,
+	PyDoc_STR("*float*: Inverter efficiency at which to cut battery charge or discharge off [%]"),
+ 	NULL},
 {"batt_length", (getter)Battery_get_batt_length,(setter)Battery_set_batt_length,
 	PyDoc_STR("*float*: Battery length [m]"),
  	NULL},
@@ -9478,11 +9531,17 @@ static PyGetSetDef Battery_getset[] = {
 {"batt_minimum_modetime", (getter)Battery_get_batt_minimum_modetime,(setter)Battery_set_batt_minimum_modetime,
 	PyDoc_STR("*float*: Minimum time at charge state [min]"),
  	NULL},
-{"batt_power_charge_max", (getter)Battery_get_batt_power_charge_max,(setter)Battery_set_batt_power_charge_max,
-	PyDoc_STR("*float*: Maximum charge power [kW]"),
+{"batt_power_charge_max_kwac", (getter)Battery_get_batt_power_charge_max_kwac,(setter)Battery_set_batt_power_charge_max_kwac,
+	PyDoc_STR("*float*: Maximum charge power (AC) [kWac]"),
  	NULL},
-{"batt_power_discharge_max", (getter)Battery_get_batt_power_discharge_max,(setter)Battery_set_batt_power_discharge_max,
-	PyDoc_STR("*float*: Maximum discharge power [kW]"),
+{"batt_power_charge_max_kwdc", (getter)Battery_get_batt_power_charge_max_kwdc,(setter)Battery_set_batt_power_charge_max_kwdc,
+	PyDoc_STR("*float*: Maximum charge power (DC) [kWdc]"),
+ 	NULL},
+{"batt_power_discharge_max_kwac", (getter)Battery_get_batt_power_discharge_max_kwac,(setter)Battery_set_batt_power_discharge_max_kwac,
+	PyDoc_STR("*float*: Maximum discharge power (AC) [kWac]"),
+ 	NULL},
+{"batt_power_discharge_max_kwdc", (getter)Battery_get_batt_power_discharge_max_kwdc,(setter)Battery_set_batt_power_discharge_max_kwdc,
+	PyDoc_STR("*float*: Maximum discharge power (DC) [kWdc]"),
  	NULL},
 {"batt_pv_clipping_forecast", (getter)Battery_get_batt_pv_clipping_forecast,(setter)Battery_set_batt_pv_clipping_forecast,
 	PyDoc_STR("*sequence*: PV clipping forecast [kW]\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
@@ -9498,6 +9557,9 @@ static PyGetSetDef Battery_getset[] = {
  	NULL},
 {"batt_replacement_schedule", (getter)Battery_get_batt_replacement_schedule,(setter)Battery_set_batt_replacement_schedule,
 	PyDoc_STR("*sequence*: Battery bank replacements per year (user specified) [number/year]\n\n*Required*: if batt_replacement_option=2"),
+ 	NULL},
+{"batt_replacement_schedule_percent", (getter)Battery_get_batt_replacement_schedule_percent,(setter)Battery_set_batt_replacement_schedule_percent,
+	PyDoc_STR("*sequence*: Percentage of battery capacity to replace in year [%]\n\n*Required*: if batt_replacement_option=2"),
  	NULL},
 {"batt_resistance", (getter)Battery_get_batt_resistance,(setter)Battery_set_batt_resistance,
 	PyDoc_STR("*float*: Internal resistance [Ohm]"),
@@ -10233,6 +10295,30 @@ ElectricityRate_set_ur_ec_tou_mat(ElectricityRateObject *self, PyObject *value, 
 		return PySAM_matrix_setter(value, SAM_Pvsamv1_ElectricityRate_ur_ec_tou_mat_mset, self->data_ptr);
 }
 
+static PyObject *
+ElectricityRate_get_ur_en_ts_sell_rate(ElectricityRateObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_ElectricityRate_ur_en_ts_sell_rate_nget, self->data_ptr);
+}
+
+static int
+ElectricityRate_set_ur_en_ts_sell_rate(ElectricityRateObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_ElectricityRate_ur_en_ts_sell_rate_nset, self->data_ptr);
+}
+
+static PyObject *
+ElectricityRate_get_ur_ts_buy_rate(ElectricityRateObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_ElectricityRate_ur_ts_buy_rate_aget, self->data_ptr);
+}
+
+static int
+ElectricityRate_set_ur_ts_buy_rate(ElectricityRateObject *self, PyObject *value, void *closure)
+{
+	return PySAM_array_setter(value, SAM_Pvsamv1_ElectricityRate_ur_ts_buy_rate_aset, self->data_ptr);
+}
+
 static PyGetSetDef ElectricityRate_getset[] = {
 {"en_electricity_rates", (getter)ElectricityRate_get_en_electricity_rates,(setter)ElectricityRate_set_en_electricity_rates,
 	PyDoc_STR("*float*: Enable Electricity Rates [0/1]\n\n*Options*: 0=EnableElectricityRates,1=NoRates"),
@@ -10245,6 +10331,12 @@ static PyGetSetDef ElectricityRate_getset[] = {
  	NULL},
 {"ur_ec_tou_mat", (getter)ElectricityRate_get_ur_ec_tou_mat,(setter)ElectricityRate_set_ur_ec_tou_mat,
 	PyDoc_STR("*sequence[sequence]*: Energy rates table\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
+ 	NULL},
+{"ur_en_ts_sell_rate", (getter)ElectricityRate_get_ur_en_ts_sell_rate,(setter)ElectricityRate_set_ur_en_ts_sell_rate,
+	PyDoc_STR("*float*: Enable time step sell rates [0/1]\n\n*Constraints*: BOOLEAN\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
+ 	NULL},
+{"ur_ts_buy_rate", (getter)ElectricityRate_get_ur_ts_buy_rate,(setter)ElectricityRate_set_ur_ts_buy_rate,
+	PyDoc_STR("*sequence*: Time step buy rates [0/1]\n\n*Required*: if en_batt=1&batt_meter_position=1&batt_dispatch_choice=2"),
  	NULL},
 	{NULL}  /* Sentinel */
 };
@@ -10481,6 +10573,189 @@ static PyTypeObject TimeOfDelivery_Type = {
 		TimeOfDelivery_methods,         /*tp_methods*/
 		0,                          /*tp_members*/
 		TimeOfDelivery_getset,          /*tp_getset*/
+		0,                          /*tp_base*/
+		0,                          /*tp_dict*/
+		0,                          /*tp_descr_get*/
+		0,                          /*tp_descr_set*/
+		0,                          /*tp_dictofnset*/
+		0,                          /*tp_init*/
+		0,                          /*tp_alloc*/
+		0,             /*tp_new*/
+		0,                          /*tp_free*/
+		0,                          /*tp_is_gc*/
+};
+
+
+/*
+ * Resilience Group
+ */ 
+
+typedef struct {
+	PyObject_HEAD
+	SAM_Pvsamv1   data_ptr;
+} ResilienceObject;
+
+static PyTypeObject Resilience_Type;
+
+static PyObject *
+Resilience_new(SAM_Pvsamv1 data_ptr)
+{
+	PyObject* new_obj = Resilience_Type.tp_alloc(&Resilience_Type,0);
+
+	ResilienceObject* Resilience_obj = (ResilienceObject*)new_obj;
+
+	Resilience_obj->data_ptr = data_ptr;
+
+	return new_obj;
+}
+
+/* Resilience methods */
+
+static PyObject *
+Resilience_assign(ResilienceObject *self, PyObject *args)
+{
+	PyObject* dict;
+	if (!PyArg_ParseTuple(args, "O:assign", &dict)){
+		return NULL;
+	}
+
+	if (!PySAM_assign_from_dict(self->data_ptr, dict, "Pvsamv1", "Resilience")){
+		return NULL;
+	}
+
+	Py_INCREF(Py_None);
+	return Py_None;
+}
+
+static PyObject *
+Resilience_export(ResilienceObject *self, PyObject *args)
+{
+	PyTypeObject* tp = &Resilience_Type;
+	PyObject* dict = PySAM_export_to_dict((PyObject *) self, tp);
+	return dict;
+}
+
+static PyMethodDef Resilience_methods[] = {
+		{"assign",            (PyCFunction)Resilience_assign,  METH_VARARGS,
+			PyDoc_STR("assign() -> None\n Assign attributes from dictionary\n\n``Resilience_vals = { var: val, ...}``")},
+		{"export",            (PyCFunction)Resilience_export,  METH_VARARGS,
+			PyDoc_STR("export() -> dict\n Export attributes into dictionary")},
+		{NULL,              NULL}           /* sentinel */
+};
+
+static PyObject *
+Resilience_get_avg_critical_load(ResilienceObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Resilience_avg_critical_load_nget, self->data_ptr);
+}
+
+static int
+Resilience_set_avg_critical_load(ResilienceObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Resilience_avg_critical_load_nset, self->data_ptr);
+}
+
+static PyObject *
+Resilience_get_present_worth_factor(ResilienceObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Resilience_present_worth_factor_nget, self->data_ptr);
+}
+
+static int
+Resilience_set_present_worth_factor(ResilienceObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Resilience_present_worth_factor_nset, self->data_ptr);
+}
+
+static PyObject *
+Resilience_get_resilience_hrs_avg(ResilienceObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Resilience_resilience_hrs_avg_nget, self->data_ptr);
+}
+
+static int
+Resilience_set_resilience_hrs_avg(ResilienceObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Resilience_resilience_hrs_avg_nset, self->data_ptr);
+}
+
+static PyObject *
+Resilience_get_resilience_hrs_max(ResilienceObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Resilience_resilience_hrs_max_nget, self->data_ptr);
+}
+
+static int
+Resilience_set_resilience_hrs_max(ResilienceObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Resilience_resilience_hrs_max_nset, self->data_ptr);
+}
+
+static PyObject *
+Resilience_get_resilience_hrs_min(ResilienceObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Resilience_resilience_hrs_min_nget, self->data_ptr);
+}
+
+static int
+Resilience_set_resilience_hrs_min(ResilienceObject *self, PyObject *value, void *closure)
+{
+	return PySAM_double_setter(value, SAM_Pvsamv1_Resilience_resilience_hrs_min_nset, self->data_ptr);
+}
+
+static PyGetSetDef Resilience_getset[] = {
+{"avg_critical_load", (getter)Resilience_get_avg_critical_load,(setter)Resilience_set_avg_critical_load,
+	PyDoc_STR("*float*: Average critical load during an outage [kWh]\n\n*Constraints*: MIN=0"),
+ 	NULL},
+{"present_worth_factor", (getter)Resilience_get_present_worth_factor,(setter)Resilience_set_present_worth_factor,
+	PyDoc_STR("*float*: Present worth factor used in assessed avoided outage costs"),
+ 	NULL},
+{"resilience_hrs_avg", (getter)Resilience_get_resilience_hrs_avg,(setter)Resilience_set_resilience_hrs_avg,
+	PyDoc_STR("*float*: Average consecutive hours survived [hr]\n\n*Constraints*: MIN=0"),
+ 	NULL},
+{"resilience_hrs_max", (getter)Resilience_get_resilience_hrs_max,(setter)Resilience_set_resilience_hrs_max,
+	PyDoc_STR("*float*: Maximum consecutive hours survived [hr]\n\n*Constraints*: MIN=0"),
+ 	NULL},
+{"resilience_hrs_min", (getter)Resilience_get_resilience_hrs_min,(setter)Resilience_set_resilience_hrs_min,
+	PyDoc_STR("*float*: Minimum consecutive hours survived [hr]\n\n*Constraints*: MIN=0"),
+ 	NULL},
+	{NULL}  /* Sentinel */
+};
+
+static PyTypeObject Resilience_Type = {
+		/* The ob_type field must be initialized in the module init function
+		 * to be portable to Windows without using C++. */
+		PyVarObject_HEAD_INIT(NULL, 0)
+		"Pvsamv1.Resilience",             /*tp_name*/
+		sizeof(ResilienceObject),          /*tp_basicsize*/
+		0,                          /*tp_itemsize*/
+		/* methods */
+		0,    /*tp_dealloc*/
+		0,                          /*tp_print*/
+		(getattrfunc)0,             /*tp_getattr*/
+		0,                          /*tp_setattr*/
+		0,                          /*tp_reserved*/
+		0,                          /*tp_repr*/
+		0,                          /*tp_as_number*/
+		0,                          /*tp_as_sequence*/
+		0,                          /*tp_as_mapping*/
+		0,                          /*tp_hash*/
+		0,                          /*tp_call*/
+		0,                          /*tp_str*/
+		0,                          /*tp_getattro*/
+		0,                          /*tp_setattro*/
+		0,                          /*tp_as_buffer*/
+		Py_TPFLAGS_DEFAULT,         /*tp_flags*/
+		0,                          /*tp_doc*/
+		0,                          /*tp_traverse*/
+		0,                          /*tp_clear*/
+		0,                          /*tp_richcompare*/
+		0,                          /*tp_weaklistofnset*/
+		0,                          /*tp_iter*/
+		0,                          /*tp_iternext*/
+		Resilience_methods,         /*tp_methods*/
+		0,                          /*tp_members*/
+		Resilience_getset,          /*tp_getset*/
 		0,                          /*tp_base*/
 		0,                          /*tp_dict*/
 		0,                          /*tp_descr_get*/
@@ -11098,6 +11373,12 @@ Outputs_get_annual_subarray4_dc_wiring_loss(OutputsObject *self, void *closure)
 }
 
 static PyObject *
+Outputs_get_annual_total_loss_percent(OutputsObject *self, void *closure)
+{
+	return PySAM_double_getter(SAM_Pvsamv1_Outputs_annual_total_loss_percent_nget, self->data_ptr);
+}
+
+static PyObject *
 Outputs_get_annual_transmission_loss(OutputsObject *self, void *closure)
 {
 	return PySAM_double_getter(SAM_Pvsamv1_Outputs_annual_transmission_loss_nget, self->data_ptr);
@@ -11299,6 +11580,30 @@ static PyObject *
 Outputs_get_batt_qmax_thermal(OutputsObject *self, void *closure)
 {
 	return PySAM_array_getter(SAM_Pvsamv1_Outputs_batt_qmax_thermal_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_charge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_batt_revenue_charge_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_clipcharge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_batt_revenue_clipcharge_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_discharge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_batt_revenue_discharge_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_batt_revenue_gridcharge(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_batt_revenue_gridcharge_aget, self->data_ptr);
 }
 
 static PyObject *
@@ -11620,6 +11925,12 @@ Outputs_get_nameplate_dc_rating(OutputsObject *self, void *closure)
 }
 
 static PyObject *
+Outputs_get_outage_durations(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_outage_durations_aget, self->data_ptr);
+}
+
+static PyObject *
 Outputs_get_performance_ratio(OutputsObject *self, void *closure)
 {
 	return PySAM_double_getter(SAM_Pvsamv1_Outputs_performance_ratio_nget, self->data_ptr);
@@ -11674,6 +11985,12 @@ Outputs_get_poa_shaded_soiled(OutputsObject *self, void *closure)
 }
 
 static PyObject *
+Outputs_get_probs_of_surviving(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_probs_of_surviving_aget, self->data_ptr);
+}
+
+static PyObject *
 Outputs_get_pv_to_batt(OutputsObject *self, void *closure)
 {
 	return PySAM_array_getter(SAM_Pvsamv1_Outputs_pv_to_batt_aget, self->data_ptr);
@@ -11689,6 +12006,12 @@ static PyObject *
 Outputs_get_pv_to_load(OutputsObject *self, void *closure)
 {
 	return PySAM_array_getter(SAM_Pvsamv1_Outputs_pv_to_load_aget, self->data_ptr);
+}
+
+static PyObject *
+Outputs_get_resilience_hrs(OutputsObject *self, void *closure)
+{
+	return PySAM_array_getter(SAM_Pvsamv1_Outputs_resilience_hrs_aget, self->data_ptr);
 }
 
 static PyObject *
@@ -12781,6 +13104,9 @@ static PyGetSetDef Outputs_getset[] = {
 {"annual_subarray4_dc_wiring_loss", (getter)Outputs_get_annual_subarray4_dc_wiring_loss,(setter)0,
 	PyDoc_STR("*float*: Subarray 4 DC wiring loss [kWh]"),
  	NULL},
+{"annual_total_loss_percent", (getter)Outputs_get_annual_total_loss_percent,(setter)0,
+	PyDoc_STR("*float*: PV System Loss, from Nominal POA to Net AC [kWh]"),
+ 	NULL},
 {"annual_transmission_loss", (getter)Outputs_get_annual_transmission_loss,(setter)0,
 	PyDoc_STR("*float*: Transmission loss [kWh]"),
  	NULL},
@@ -12882,6 +13208,18 @@ static PyGetSetDef Outputs_getset[] = {
  	NULL},
 {"batt_qmax_thermal", (getter)Outputs_get_batt_qmax_thermal,(setter)0,
 	PyDoc_STR("*sequence*: Battery maximum charge at temperature [Ah]"),
+ 	NULL},
+{"batt_revenue_charge", (getter)Outputs_get_batt_revenue_charge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to charge from system [$/kWh]"),
+ 	NULL},
+{"batt_revenue_clipcharge", (getter)Outputs_get_batt_revenue_clipcharge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to charge from clipped [$/kWh]"),
+ 	NULL},
+{"batt_revenue_discharge", (getter)Outputs_get_batt_revenue_discharge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to discharge [$/kWh]"),
+ 	NULL},
+{"batt_revenue_gridcharge", (getter)Outputs_get_batt_revenue_gridcharge,(setter)0,
+	PyDoc_STR("*sequence*: Revenue to charge from grid [$/kWh]"),
  	NULL},
 {"batt_system_loss", (getter)Outputs_get_batt_system_loss,(setter)0,
 	PyDoc_STR("*sequence*: Electricity loss from battery ancillary equipment [kW]"),
@@ -13042,6 +13380,9 @@ static PyGetSetDef Outputs_getset[] = {
 {"nameplate_dc_rating", (getter)Outputs_get_nameplate_dc_rating,(setter)0,
 	PyDoc_STR("*float*: System nameplate DC rating [kW]"),
  	NULL},
+{"outage_durations", (getter)Outputs_get_outage_durations,(setter)0,
+	PyDoc_STR("*sequence*: List of hours survived from 1 to resilience_hrs_max [hr]"),
+ 	NULL},
 {"performance_ratio", (getter)Outputs_get_performance_ratio,(setter)0,
 	PyDoc_STR("*float*: Performance ratio"),
  	NULL},
@@ -13069,6 +13410,9 @@ static PyGetSetDef Outputs_getset[] = {
 {"poa_shaded_soiled", (getter)Outputs_get_poa_shaded_soiled,(setter)0,
 	PyDoc_STR("*sequence*: Array POA front-side total radiation after shading and soiling [kW]"),
  	NULL},
+{"probs_of_surviving", (getter)Outputs_get_probs_of_surviving,(setter)0,
+	PyDoc_STR("*sequence*: Probability of surviving corresponding to outage_durations [%]"),
+ 	NULL},
 {"pv_to_batt", (getter)Outputs_get_pv_to_batt,(setter)0,
 	PyDoc_STR("*sequence*: Electricity to battery from PV [kW]"),
  	NULL},
@@ -13077,6 +13421,9 @@ static PyGetSetDef Outputs_getset[] = {
  	NULL},
 {"pv_to_load", (getter)Outputs_get_pv_to_load,(setter)0,
 	PyDoc_STR("*sequence*: Electricity to load from PV [kW]"),
+ 	NULL},
+{"resilience_hrs", (getter)Outputs_get_resilience_hrs,(setter)0,
+	PyDoc_STR("*sequence*: Hours survived for outages starting at each time step [hr]"),
  	NULL},
 {"shadedb_subarray1_shade_frac", (getter)Outputs_get_shadedb_subarray1_shade_frac,(setter)0,
 	PyDoc_STR("*sequence*: Subarray 1 Partial external shading DC factor [frac]"),
@@ -13659,6 +14006,10 @@ newPvsamv1Object(void* data_ptr)
 	PyDict_SetItemString(attr_dict, "TimeOfDelivery", TimeOfDelivery_obj);
 	Py_DECREF(TimeOfDelivery_obj);
 
+	PyObject* Resilience_obj = Resilience_new(self->data_ptr);
+	PyDict_SetItemString(attr_dict, "Resilience", Resilience_obj);
+	Py_DECREF(Resilience_obj);
+
 	PyObject* AdjustmentFactorsModule = PyImport_ImportModule("AdjustmentFactors");
 
 	PyObject* data_cap = PyCapsule_New(self->data_ptr, NULL, NULL);
@@ -14080,6 +14431,13 @@ Pvsamv1Module_exec(PyObject *m)
 				"TimeOfDelivery",
 				(PyObject*)&TimeOfDelivery_Type);
 	Py_DECREF(&TimeOfDelivery_Type);
+
+	/// Add the Resilience type object to Pvsamv1_Type
+	if (PyType_Ready(&Resilience_Type) < 0) { goto fail; }
+	PyDict_SetItemString(Pvsamv1_Type.tp_dict,
+				"Resilience",
+				(PyObject*)&Resilience_Type);
+	Py_DECREF(&Resilience_Type);
 
 	/// Add the Outputs type object to Pvsamv1_Type
 	if (PyType_Ready(&Outputs_Type) < 0) { goto fail; }
