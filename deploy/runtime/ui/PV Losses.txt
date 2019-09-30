@@ -51,8 +51,8 @@ Height
 124
 Caption
 5
-38
-Availability and Scheduled Maintenance
+28
+Curtailment and Availability
 Bold
 2
 1
@@ -1520,8 +1520,8 @@ Height
 105
 Caption
 5
-219
-Availability and scheduled maintenance losses reduce the system output to represent system outages or other events. Availability and scheduled maintenance losses may be applied either on the DC or AC side of the system.
+199
+Curtailment and availability losses reduce the system output to represent system outages or other events. Curtailment and availability losses may be applied either on the DC or AC side of the system.
 TextColour
 4
 0

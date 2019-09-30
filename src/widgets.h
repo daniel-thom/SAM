@@ -56,6 +56,7 @@
 #include <wx/panel.h>
 #include <wx/button.h>
 #include <wx/grid.h>
+#include <wx/stattext.h>
 
 #include <wex/numeric.h>
 
@@ -388,6 +389,54 @@ private:
 
 
 
+
+class wxVerticalLabel : public wxPanel
+{
+public:
+	wxVerticalLabel(wxWindow* parent,
+		wxWindowID id,
+		const wxString& label,
+		const wxPoint& pos = wxDefaultPosition,
+		const wxSize& size = wxDefaultSize,
+		long style = 0,
+		const wxString& name = wxStaticTextNameStr);
+	virtual ~wxVerticalLabel();
+	void SetLabel(const wxString &label);
+	wxString const &GetLabel() { return m_Label; }
+
+protected:
+	void OnPaint(wxPaintEvent& );
+
+private:
+	void UpdateSize();
+	wxString m_Label;
+};
+
+
+class wxHorizontalLabel : public wxPanel
+{
+public:
+	wxHorizontalLabel(wxWindow* parent,
+		wxWindowID id,
+		const wxString& label,
+		const wxPoint& pos = wxDefaultPosition,
+		const wxSize& size = wxDefaultSize,
+		long style = 0,
+		const wxString& name = wxStaticTextNameStr);
+	virtual ~wxHorizontalLabel();
+	void SetLabel(const wxString &label);
+	wxString const &GetLabel() { return m_Label; }
+
+protected:
+	void OnPaint(wxPaintEvent& );
+
+private:
+	void UpdateSize();
+	wxString m_Label;
+};
+
+
+
 class wxExtGridCtrl;
  
 /*
@@ -514,7 +563,9 @@ public:
 		const wxString &rowlabels = wxEmptyString,
 		const wxString &choices = wxEmptyString,
 		const int &choice_col = -1,
-		bool bottombuttons = false);
+		bool bottombuttons = false,
+		const wxString &horizontalLabel = wxEmptyString,
+		const wxString &vericalLabel = wxEmptyString);
 
 	void SetData(const matrix_t<double> &mat);
 	void GetData(matrix_t<double> &mat);
@@ -536,6 +587,9 @@ public:
 
 	void ShowRows(bool b);
 	bool ShowRows();
+
+	void ShowButtons(bool b);
+	bool ShowButtons();
 
 	void ShowRowLabels(bool b);
 	bool ShowRowLabels();
@@ -564,6 +618,9 @@ public:
 
 	void SetNumColsLabel(const wxString &numColsLabel);
 	wxString GetNumColsLabel();
+
+	void SetR0C0Label(const wxString &R0C0Label);
+	wxString GetR0C0Label();
 
 	void PasteAppendRows(bool b);
 	bool PasteAppendRows();
@@ -604,7 +661,10 @@ private:
 	wxNumericCtrl *m_numRows, *m_numCols;
 	wxExtGridCtrl *m_grid;
 	wxStaticText *m_caption, *m_labelCols, *m_labelRows;
+	wxHorizontalLabel *m_horizontalLabel;
+	wxVerticalLabel *m_verticalLabel;
 	wxButton *m_btnImport, *m_btnExport, *m_btnCopy, *m_btnPaste;
+	bool m_showButtons;
 	bool m_showrows;
 	bool m_showRowLabels;
 	wxString m_rowLabels;
@@ -746,6 +806,31 @@ private:
 
 	DECLARE_EVENT_TABLE();
 };
+
+BEGIN_DECLARE_EVENT_TYPES()
+	DECLARE_EVENT_TYPE(wxEVT_TOOLTIPCTRL_CHANGE, 0)
+END_DECLARE_EVENT_TYPES()
+#define EVT_TOOLTIPCTRL(id,func) EVT_COMMAND(id, wxEVT_TOOLTIPCTRL_CHANGE, func)
+
+
+class AFToolTipCtrl : public wxPanel
+{
+	wxBitmap m_image;
+public:
+	AFToolTipCtrl(wxWindow* parent);
+
+	void paintEvent(wxPaintEvent & evt);
+	void paintNow();
+
+	void render(wxDC& dc);
+
+	void mouseDown(wxMouseEvent& event);
+
+	DECLARE_EVENT_TABLE()
+
+	
+};
+
 
 #endif
 

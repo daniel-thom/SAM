@@ -67,6 +67,7 @@
 #endif
 
 #include "widgets.h"
+#include "../resource/info24.cpng"
 
 /******************************* AFSchedNumeric **********************************/
 enum { IDAFSN_NUMERIC=wxID_HIGHEST + 321, IDAFSN_SBUTTON };
@@ -3498,7 +3499,86 @@ void AFStringArrayButton::OnPressed(wxCommandEvent &evt)
 
 
 
+wxVerticalLabel::wxVerticalLabel(wxWindow* parent,
+	wxWindowID id,
+	const wxString& label,
+	const wxPoint& pos,
+	const wxSize& size,
+	long style,
+	const wxString& name)
+	: wxPanel(parent, id, pos, size, style, name),
+	m_Label(label)
+{
+	SetBackgroundStyle(wxBG_STYLE_PAINT);
+	UpdateSize();
+	Connect(GetId(), wxEVT_PAINT, wxPaintEventHandler(wxVerticalLabel::OnPaint));
+}
 
+wxVerticalLabel::~wxVerticalLabel()
+{
+
+}
+
+void wxVerticalLabel::SetLabel(const wxString &label)
+{
+	m_Label = label;
+	UpdateSize();
+}
+
+void wxVerticalLabel::UpdateSize()
+{
+	wxSize size = GetTextExtent(m_Label);
+	this->SetMinSize(wxSize(size.y, size.x + 5));
+}
+
+void wxVerticalLabel::OnPaint(wxPaintEvent& )
+{
+	wxAutoBufferedPaintDC dc(this);
+	dc.Clear();
+	wxSize size = GetMinSize();
+	dc.DrawRotatedText(m_Label, 0, size.y, 90);
+}
+
+
+wxHorizontalLabel::wxHorizontalLabel(wxWindow* parent,
+	wxWindowID id,
+	const wxString& label,
+	const wxPoint& pos,
+	const wxSize& size,
+	long style,
+	const wxString& name)
+	: wxPanel(parent, id, pos, size, style, name),
+	m_Label(label)
+{
+	SetBackgroundStyle(wxBG_STYLE_PAINT);
+	UpdateSize();
+	Connect(GetId(), wxEVT_PAINT, wxPaintEventHandler(wxHorizontalLabel::OnPaint));
+}
+
+wxHorizontalLabel::~wxHorizontalLabel()
+{
+
+}
+
+void wxHorizontalLabel::SetLabel(const wxString &label)
+{
+	m_Label = label;
+	UpdateSize();
+}
+
+void wxHorizontalLabel::UpdateSize()
+{
+	wxSize size = GetTextExtent(m_Label);
+	this->SetMinSize(wxSize(size.x, size.y));
+}
+
+void wxHorizontalLabel::OnPaint(wxPaintEvent& )
+{
+	wxAutoBufferedPaintDC dc(this);
+	dc.Clear();
+	wxSize size = GetMinSize();
+	dc.DrawText(m_Label, 0, 0);
+}
 
 
 
@@ -3536,7 +3616,9 @@ const wxString &collabels,
 const wxString &rowlabels,
 const wxString &choices,
 const int &choice_col,
-bool bottombuttons)
+bool bottombuttons, 
+const wxString &horizontalLabel,
+const wxString &verticalLabel)
 : wxPanel(parent, id, pos, sz)
 {
 	m_pasteappendrows = false;
@@ -3558,6 +3640,18 @@ bool bottombuttons)
 	m_colY1 = 1.0;
 
 	m_minVal = m_maxVal = 0.0f;
+	m_caption = new wxStaticText(this, wxID_ANY, "");
+	wxFont f(wxFontInfo(10).Bold(true).Family(wxFONTFAMILY_DEFAULT));
+	m_horizontalLabel = new wxHorizontalLabel(this, wxID_ANY, horizontalLabel);
+	m_horizontalLabel->SetBackgroundColour(*wxWHITE);
+	m_horizontalLabel->SetForegroundColour(*wxBLACK);
+	m_horizontalLabel->SetFont(f);
+	m_horizontalLabel->SetLabel(horizontalLabel);
+	m_verticalLabel = new wxVerticalLabel(this, wxID_ANY, verticalLabel);
+	m_verticalLabel->SetBackgroundColour(*wxWHITE);
+	m_verticalLabel->SetForegroundColour(*wxBLACK);
+	m_verticalLabel->SetFont(f);
+	m_verticalLabel->SetLabel(verticalLabel);
 
 	m_data.resize_fill(8, 6, 0.0f);
 
@@ -3604,17 +3698,25 @@ bool bottombuttons)
 		v_tb_sizer->Add(m_btnExport, 0, wxALL | wxEXPAND, 2);
 		v_tb_sizer->Add(m_btnCopy, 0, wxALL | wxEXPAND, 2);
 		v_tb_sizer->Add(m_btnPaste, 0, wxALL | wxEXPAND, 2);
-//		v_tb_sizer->Add(m_labelRows, 0, wxALL | wxALIGN_CENTER_VERTICAL, 2);
 		v_tb_sizer->Add(m_labelRows, 0, wxALL, 2);
 		v_tb_sizer->Add(m_numRows, 0, wxALL | wxEXPAND, 2);
-//		v_tb_sizer->Add(m_labelCols, 0, wxALL | wxALIGN_CENTER_VERTICAL, 2);
 		v_tb_sizer->Add(m_labelCols, 0, wxALL , 2);
 		v_tb_sizer->Add(m_numCols, 0, wxALL | wxEXPAND, 2);
 		v_tb_sizer->AddStretchSpacer();
 
 		wxBoxSizer *h_sizer = new wxBoxSizer(wxHORIZONTAL);
 		h_sizer->Add(v_tb_sizer, 0, wxALL | wxEXPAND, 1);
-		h_sizer->Add(m_grid, 1, wxALL | wxEXPAND, 1);
+		if (!verticalLabel.IsEmpty())
+			h_sizer->Add(m_verticalLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 2);
+		if (!horizontalLabel.IsEmpty())
+		{
+			wxBoxSizer *v_lb_sizer = new wxBoxSizer(wxVERTICAL);
+			v_lb_sizer->Add(m_horizontalLabel, 0, wxALL | wxALIGN_CENTER_HORIZONTAL, 2);
+			v_lb_sizer->Add(m_grid, 1, wxALL | wxEXPAND, 1);
+			h_sizer->Add(v_lb_sizer, 1, wxALL | wxEXPAND, 1);
+		}
+		else
+			h_sizer->Add(m_grid, 1, wxALL | wxEXPAND, 1);
 
 		SetSizer(h_sizer);
 	}
@@ -3640,7 +3742,17 @@ bool bottombuttons)
 
 		wxBoxSizer *v_sizer = new wxBoxSizer(wxVERTICAL);
 		v_sizer->Add(h_tb_sizer, 0, wxALL | wxEXPAND, 1);
-		v_sizer->Add(m_grid, 1, wxALL | wxEXPAND, 1);
+		if (!horizontalLabel.IsEmpty())
+			v_sizer->Add(m_horizontalLabel, 0, wxALL | wxALIGN_CENTER_HORIZONTAL, 2);
+		if (!verticalLabel.IsEmpty())
+		{
+			wxBoxSizer *h_lb_sizer = new wxBoxSizer(wxHORIZONTAL);
+			h_lb_sizer->Add(m_verticalLabel, 0, wxALL | wxALIGN_CENTER_VERTICAL, 2);
+			h_lb_sizer->Add(m_grid, 1, wxALL | wxEXPAND, 1);
+			v_sizer->Add(h_lb_sizer, 1, wxALL | wxEXPAND, 1);
+		}
+		else
+			v_sizer->Add(m_grid, 1, wxALL | wxEXPAND, 1);
 
 		wxBoxSizer *h_bb_sizer = new wxBoxSizer(wxHORIZONTAL);
 		if (bottombuttons)
@@ -3661,6 +3773,14 @@ bool bottombuttons)
 		m_caption->Show(false);
 	else
 		m_caption->Show(true);
+	if (m_horizontalLabel->GetLabel().Length() == 0)
+		m_horizontalLabel->Show(false);
+	else
+		m_horizontalLabel->Show(true);
+	if (m_verticalLabel->GetLabel().Length() == 0)
+		m_verticalLabel->Show(false);
+	else
+		m_verticalLabel->Show(true);
 
 	MatrixToGrid();
 }
@@ -3767,6 +3887,31 @@ bool AFDataMatrixCtrl::ShowCols()
 	return m_showcols;
 }
 
+void AFDataMatrixCtrl::ShowButtons(bool b)
+{
+	m_showButtons = b;
+	m_btnCopy->Show(m_showButtons);
+	m_btnPaste->Show(m_showButtons);
+	m_btnImport->Show(m_showButtons);
+	m_btnExport->Show(m_showButtons);
+	this->Layout();
+}
+
+bool AFDataMatrixCtrl::ShowButtons()
+{
+	return m_showButtons;
+}
+
+void AFDataMatrixCtrl::SetR0C0Label(const wxString &R0C0Label)
+{
+	m_grid->SetRowLabelValue(-1, R0C0Label);
+}
+
+wxString AFDataMatrixCtrl::GetR0C0Label()
+{
+	return m_grid->GetCellValue(0, 0);
+}
+
 void AFDataMatrixCtrl::ShowRows(bool b)
 {
 	m_showrows = b;
@@ -3870,6 +4015,7 @@ void AFDataMatrixCtrl::SetData(const matrix_t<double> &mat)
 	m_gridTable->SetMatrix(&m_data);
 	MatrixToGrid();
 }
+
 
 void AFDataMatrixCtrl::NormalizeToLimits()
 {
@@ -4160,6 +4306,7 @@ void AFDataMatrixCtrl::MatrixToGrid()
 	m_labelCols->SetLabel(m_numColsLabel);
 
 	UpdateColorMap();
+
 
 	Layout();
 	m_grid->Thaw();
@@ -4959,5 +5106,43 @@ void AFMonthByHourFactorCtrl::DispatchEvent()
 	wxCommandEvent change(wxEVT_AFMonthByHourFactorCtrl_CHANGE, this->GetId() );
 	change.SetEventObject( this );
 	GetEventHandler()->ProcessEvent(change);
+}
+
+
+BEGIN_EVENT_TABLE(AFToolTipCtrl, wxPanel)
+	EVT_LEFT_DOWN(AFToolTipCtrl::mouseDown)
+	EVT_PAINT(AFToolTipCtrl::paintEvent)
+END_EVENT_TABLE()
+
+DEFINE_EVENT_TYPE(wxEVT_TOOLTIPCTRL_CHANGE)
+
+AFToolTipCtrl::AFToolTipCtrl(wxWindow* parent) :
+	wxPanel(parent)
+{
+	m_image = wxBITMAP_PNG_FROM_DATA(info24);
+}
+
+void AFToolTipCtrl::mouseDown(wxMouseEvent& ) 
+{
+	wxCommandEvent change(wxEVT_TOOLTIPCTRL_CHANGE, this->GetId());
+	change.SetEventObject(this);
+	GetEventHandler()->ProcessEvent(change);
+}
+
+void AFToolTipCtrl::paintEvent(wxPaintEvent & )
+{
+	wxPaintDC dc(this);
+	render(dc);
+}
+
+void AFToolTipCtrl::paintNow()
+{
+	wxClientDC dc(this);
+	render(dc);
+}
+
+void AFToolTipCtrl::render(wxDC&  dc)
+{
+	dc.DrawBitmap(m_image, 0, 0, false);
 }
 

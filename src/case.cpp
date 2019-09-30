@@ -510,6 +510,11 @@ bool Case::SaveDefaults( bool quiet )
 	wxFFileOutputStream out(file);
 	if (!out.IsOk()) return false;
 
+
+	// set default library_folder_list blank
+	VarValue *vv = m_vals.Get("library_folder_list");
+	if (vv)	vv->Set("x");
+
 #ifdef UI_BINARY
 	m_vals.Write(out);
 #else
