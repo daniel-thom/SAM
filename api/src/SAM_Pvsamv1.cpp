@@ -3134,39 +3134,9 @@ SAM_EXPORT void SAM_Pvsamv1_TimeOfDelivery_ppa_multiplier_model_nset(SAM_Pvsamv1
 	});
 }
 
-SAM_EXPORT void SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_aset(SAM_Pvsamv1 ptr, double* arr, int length, SAM_error *err){
+SAM_EXPORT void SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err){
 	translateExceptions(err, [&]{
-		ssc_data_set_array(ptr, "ppa_price_input", arr, length);
-	});
-}
-
-SAM_EXPORT void SAM_Pvsamv1_Resilience_avg_critical_load_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "avg_critical_load", number);
-	});
-}
-
-SAM_EXPORT void SAM_Pvsamv1_Resilience_present_worth_factor_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "present_worth_factor", number);
-	});
-}
-
-SAM_EXPORT void SAM_Pvsamv1_Resilience_resilience_hrs_avg_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "resilience_hrs_avg", number);
-	});
-}
-
-SAM_EXPORT void SAM_Pvsamv1_Resilience_resilience_hrs_max_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "resilience_hrs_max", number);
-	});
-}
-
-SAM_EXPORT void SAM_Pvsamv1_Resilience_resilience_hrs_min_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "resilience_hrs_min", number);
+		ssc_data_set_number(ptr, "ppa_price_input", number);
 	});
 }
 
@@ -8934,67 +8904,11 @@ SAM_EXPORT double SAM_Pvsamv1_TimeOfDelivery_ppa_multiplier_model_nget(SAM_Pvsam
 
 
 
-SAM_EXPORT double* SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err){
-	double* result = nullptr;
+SAM_EXPORT double SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_nget(SAM_Pvsamv1 ptr, SAM_error *err){
+	double result;
 	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "ppa_price_input", length);
-	if (!result)
+	if (!ssc_data_get_number(ptr, "ppa_price_input", &result))
 		make_access_error("SAM_Pvsamv1", "ppa_price_input");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Pvsamv1_Resilience_avg_critical_load_nget(SAM_Pvsamv1 ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "avg_critical_load", &result))
-		make_access_error("SAM_Pvsamv1", "avg_critical_load");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Pvsamv1_Resilience_present_worth_factor_nget(SAM_Pvsamv1 ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "present_worth_factor", &result))
-		make_access_error("SAM_Pvsamv1", "present_worth_factor");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Pvsamv1_Resilience_resilience_hrs_avg_nget(SAM_Pvsamv1 ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "resilience_hrs_avg", &result))
-		make_access_error("SAM_Pvsamv1", "resilience_hrs_avg");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Pvsamv1_Resilience_resilience_hrs_max_nget(SAM_Pvsamv1 ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "resilience_hrs_max", &result))
-		make_access_error("SAM_Pvsamv1", "resilience_hrs_max");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Pvsamv1_Resilience_resilience_hrs_min_nget(SAM_Pvsamv1 ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "resilience_hrs_min", &result))
-		make_access_error("SAM_Pvsamv1", "resilience_hrs_min");
 	});
 	return result;
 }
@@ -10002,17 +9916,6 @@ SAM_EXPORT double SAM_Pvsamv1_Outputs_annual_subarray4_dc_wiring_loss_nget(SAM_P
 	translateExceptions(err, [&]{
 	if (!ssc_data_get_number(ptr, "annual_subarray4_dc_wiring_loss", &result))
 		make_access_error("SAM_Pvsamv1", "annual_subarray4_dc_wiring_loss");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Pvsamv1_Outputs_annual_total_loss_percent_nget(SAM_Pvsamv1 ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "annual_total_loss_percent", &result))
-		make_access_error("SAM_Pvsamv1", "annual_total_loss_percent");
 	});
 	return result;
 }
@@ -11100,18 +11003,6 @@ SAM_EXPORT double SAM_Pvsamv1_Outputs_nameplate_dc_rating_nget(SAM_Pvsamv1 ptr, 
 
 
 
-SAM_EXPORT double* SAM_Pvsamv1_Outputs_outage_durations_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "outage_durations", length);
-	if (!result)
-		make_access_error("SAM_Pvsamv1", "outage_durations");
-	});
-	return result;
-}
-
-
-
 SAM_EXPORT double SAM_Pvsamv1_Outputs_performance_ratio_nget(SAM_Pvsamv1 ptr, SAM_error *err){
 	double result;
 	translateExceptions(err, [&]{
@@ -11219,18 +11110,6 @@ SAM_EXPORT double* SAM_Pvsamv1_Outputs_poa_shaded_soiled_aget(SAM_Pvsamv1 ptr, i
 
 
 
-SAM_EXPORT double* SAM_Pvsamv1_Outputs_probs_of_surviving_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "probs_of_surviving", length);
-	if (!result)
-		make_access_error("SAM_Pvsamv1", "probs_of_surviving");
-	});
-	return result;
-}
-
-
-
 SAM_EXPORT double* SAM_Pvsamv1_Outputs_pv_to_batt_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err){
 	double* result = nullptr;
 	translateExceptions(err, [&]{
@@ -11261,18 +11140,6 @@ SAM_EXPORT double* SAM_Pvsamv1_Outputs_pv_to_load_aget(SAM_Pvsamv1 ptr, int* len
 	result = ssc_data_get_array(ptr, "pv_to_load", length);
 	if (!result)
 		make_access_error("SAM_Pvsamv1", "pv_to_load");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double* SAM_Pvsamv1_Outputs_resilience_hrs_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "resilience_hrs", length);
-	if (!result)
-		make_access_error("SAM_Pvsamv1", "resilience_hrs");
 	});
 	return result;
 }

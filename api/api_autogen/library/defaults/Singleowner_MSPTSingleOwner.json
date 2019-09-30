@@ -258,7 +258,7 @@
 		},
 		"PPAPrice": {
 			"ppa_escalation": 1,
-			"ppa_price_input": [0.130000]
+			"ppa_price_input": 0.13
 		},
 		"ConstructionFinancing": {
 			"construction_financing_cost": 3.36733e+07
@@ -290,19 +290,6 @@
 			"pbi_uti_for_ds": 0
 		},
 		"FuelCell": {
-		},
-		"CapacityPayments": {
-			"cp_battery_nameplate": 0,
-			"cp_capacity_payment_amount": [0],
-			"cp_capacity_payment_esc": 0,
-			"cp_capacity_payment_type": 0,
-			"cp_system_nameplate": 103.5
-		},
-		"FinancialGrid": {
-			"grid_curtailment_price": [0.000000],
-			"grid_curtailment_price_esc": 0
-		},
-		"Common": {
 		}
 	}
 }

@@ -1022,7 +1022,7 @@ extern "C"
 	 * constraints: None
 	 * required if: en_batt=1&batt_meter_position=1&batt_dispatch_choice=2
 	 */
-	SAM_EXPORT void SAM_Battery_TimeOfDelivery_ppa_price_input_aset(SAM_Battery ptr, double* arr, int length, SAM_error *err);
+	SAM_EXPORT void SAM_Battery_TimeOfDelivery_ppa_price_input_nset(SAM_Battery ptr, double number, SAM_error *err);
 
 
 	/**
@@ -1308,7 +1308,7 @@ extern "C"
 
 	SAM_EXPORT double SAM_Battery_TimeOfDelivery_ppa_multiplier_model_nget(SAM_Battery ptr, SAM_error *err);
 
-	SAM_EXPORT double* SAM_Battery_TimeOfDelivery_ppa_price_input_aget(SAM_Battery ptr, int* length, SAM_error *err);
+	SAM_EXPORT double SAM_Battery_TimeOfDelivery_ppa_price_input_nget(SAM_Battery ptr, SAM_error *err);
 
 
 	/**

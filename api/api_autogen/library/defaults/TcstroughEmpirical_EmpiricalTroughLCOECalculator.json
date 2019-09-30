@@ -2,7 +2,6 @@
 	"defaults": {
 		"Weather": {
 			"azimuth": 0,
-			"file_name": "C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv",
 			"tilt": 0,
 			"track_mode": 1
 		},
@@ -153,7 +152,7 @@
 			"ChtfPar": 9.65338,
 			"ChtfParPF": 1,
 			"CtOpF": 1,
-			"CtPar": 1.89199,
+			"CtPar": 1.892,
 			"CtParF0": -0.036,
 			"CtParF1": 0.242,
 			"CtParF2": 0.794,

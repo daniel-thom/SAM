@@ -22,7 +22,6 @@
 			"design_temp": 200,
 			"eta_ref": 0.17,
 			"excess_pressure_pump": 50,
-			"file_name": "C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\blythe_ca_33.617773_-114.588261_psmv3_60_tmy.csv",
 			"fracture_angle": 15,
 			"fracture_aperature": 0.0004,
 			"fracture_width": 175,

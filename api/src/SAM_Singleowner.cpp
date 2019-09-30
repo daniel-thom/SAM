@@ -974,6 +974,12 @@ SAM_EXPORT void SAM_Singleowner_Battery_en_batt_nset(SAM_Singleowner ptr, double
 	});
 }
 
+SAM_EXPORT void SAM_Singleowner_Battery_en_electricity_rates_nset(SAM_Singleowner ptr, double number, SAM_error *err){
+	translateExceptions(err, [&]{
+		ssc_data_set_number(ptr, "en_electricity_rates", number);
+	});
+}
+
 SAM_EXPORT void SAM_Singleowner_Battery_grid_to_batt_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err){
 	translateExceptions(err, [&]{
 		ssc_data_set_array(ptr, "grid_to_batt", arr, length);
@@ -1460,9 +1466,9 @@ SAM_EXPORT void SAM_Singleowner_PPAPrice_ppa_escalation_nset(SAM_Singleowner ptr
 	});
 }
 
-SAM_EXPORT void SAM_Singleowner_PPAPrice_ppa_price_input_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err){
+SAM_EXPORT void SAM_Singleowner_PPAPrice_ppa_price_input_nset(SAM_Singleowner ptr, double number, SAM_error *err){
 	translateExceptions(err, [&]{
-		ssc_data_set_array(ptr, "ppa_price_input", arr, length);
+		ssc_data_set_number(ptr, "ppa_price_input", number);
 	});
 }
 
@@ -1613,60 +1619,6 @@ SAM_EXPORT void SAM_Singleowner_FuelCell_fuelcell_replacement_option_nset(SAM_Si
 SAM_EXPORT void SAM_Singleowner_FuelCell_fuelcell_replacement_schedule_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err){
 	translateExceptions(err, [&]{
 		ssc_data_set_array(ptr, "fuelcell_replacement_schedule", arr, length);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_battery_nameplate_nset(SAM_Singleowner ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "cp_battery_nameplate", number);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_credit_percent_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_array(ptr, "cp_capacity_credit_percent", arr, length);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_payment_amount_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_array(ptr, "cp_capacity_payment_amount", arr, length);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_payment_esc_nset(SAM_Singleowner ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "cp_capacity_payment_esc", number);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_payment_type_nset(SAM_Singleowner ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "cp_capacity_payment_type", number);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_system_nameplate_nset(SAM_Singleowner ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "cp_system_nameplate", number);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_FinancialGrid_grid_curtailment_price_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_array(ptr, "grid_curtailment_price", arr, length);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_FinancialGrid_grid_curtailment_price_esc_nset(SAM_Singleowner ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "grid_curtailment_price_esc", number);
-	});
-}
-
-SAM_EXPORT void SAM_Singleowner_Common_annual_energy_pre_curtailment_ac_nset(SAM_Singleowner ptr, double number, SAM_error *err){
-	translateExceptions(err, [&]{
-		ssc_data_set_number(ptr, "annual_energy_pre_curtailment_ac", number);
 	});
 }
 
@@ -3424,6 +3376,17 @@ SAM_EXPORT double SAM_Singleowner_Battery_en_batt_nget(SAM_Singleowner ptr, SAM_
 
 
 
+SAM_EXPORT double SAM_Singleowner_Battery_en_electricity_rates_nget(SAM_Singleowner ptr, SAM_error *err){
+	double result;
+	translateExceptions(err, [&]{
+	if (!ssc_data_get_number(ptr, "en_electricity_rates", &result))
+		make_access_error("SAM_Singleowner", "en_electricity_rates");
+	});
+	return result;
+}
+
+
+
 SAM_EXPORT double* SAM_Singleowner_Battery_grid_to_batt_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
 	double* result = nullptr;
 	translateExceptions(err, [&]{
@@ -4325,11 +4288,10 @@ SAM_EXPORT double SAM_Singleowner_PPAPrice_ppa_escalation_nget(SAM_Singleowner p
 
 
 
-SAM_EXPORT double* SAM_Singleowner_PPAPrice_ppa_price_input_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
+SAM_EXPORT double SAM_Singleowner_PPAPrice_ppa_price_input_nget(SAM_Singleowner ptr, SAM_error *err){
+	double result;
 	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "ppa_price_input", length);
-	if (!result)
+	if (!ssc_data_get_number(ptr, "ppa_price_input", &result))
 		make_access_error("SAM_Singleowner", "ppa_price_input");
 	});
 	return result;
@@ -4614,108 +4576,6 @@ SAM_EXPORT double* SAM_Singleowner_FuelCell_fuelcell_replacement_schedule_aget(S
 
 
 
-SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_battery_nameplate_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "cp_battery_nameplate", &result))
-		make_access_error("SAM_Singleowner", "cp_battery_nameplate");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double* SAM_Singleowner_CapacityPayments_cp_capacity_credit_percent_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "cp_capacity_credit_percent", length);
-	if (!result)
-		make_access_error("SAM_Singleowner", "cp_capacity_credit_percent");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double* SAM_Singleowner_CapacityPayments_cp_capacity_payment_amount_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "cp_capacity_payment_amount", length);
-	if (!result)
-		make_access_error("SAM_Singleowner", "cp_capacity_payment_amount");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_capacity_payment_esc_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "cp_capacity_payment_esc", &result))
-		make_access_error("SAM_Singleowner", "cp_capacity_payment_esc");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_capacity_payment_type_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "cp_capacity_payment_type", &result))
-		make_access_error("SAM_Singleowner", "cp_capacity_payment_type");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_system_nameplate_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "cp_system_nameplate", &result))
-		make_access_error("SAM_Singleowner", "cp_system_nameplate");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double* SAM_Singleowner_FinancialGrid_grid_curtailment_price_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "grid_curtailment_price", length);
-	if (!result)
-		make_access_error("SAM_Singleowner", "grid_curtailment_price");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_FinancialGrid_grid_curtailment_price_esc_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "grid_curtailment_price_esc", &result))
-		make_access_error("SAM_Singleowner", "grid_curtailment_price_esc");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Common_annual_energy_pre_curtailment_ac_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "annual_energy_pre_curtailment_ac", &result))
-		make_access_error("SAM_Singleowner", "annual_energy_pre_curtailment_ac");
-	});
-	return result;
-}
-
-
-
 SAM_EXPORT double SAM_Singleowner_Outputs_adjusted_installed_cost_nget(SAM_Singleowner ptr, SAM_error *err){
 	double result;
 	translateExceptions(err, [&]{
@@ -4862,36 +4722,12 @@ SAM_EXPORT double* SAM_Singleowner_Outputs_cf_battery_replacement_cost_schedule_
 
 
 
-SAM_EXPORT double* SAM_Singleowner_Outputs_cf_capacity_payment_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "cf_capacity_payment", length);
-	if (!result)
-		make_access_error("SAM_Singleowner", "cf_capacity_payment");
-	});
-	return result;
-}
-
-
-
 SAM_EXPORT double* SAM_Singleowner_Outputs_cf_cash_for_ds_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
 	double* result = nullptr;
 	translateExceptions(err, [&]{
 	result = ssc_data_get_array(ptr, "cf_cash_for_ds", length);
 	if (!result)
 		make_access_error("SAM_Singleowner", "cf_cash_for_ds");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double* SAM_Singleowner_Outputs_cf_curtailment_value_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "cf_curtailment_value", length);
-	if (!result)
-		make_access_error("SAM_Singleowner", "cf_curtailment_value");
 	});
 	return result;
 }
@@ -5048,18 +4884,6 @@ SAM_EXPORT double* SAM_Singleowner_Outputs_cf_effective_tax_frac_aget(SAM_Single
 	result = ssc_data_get_array(ptr, "cf_effective_tax_frac", length);
 	if (!result)
 		make_access_error("SAM_Singleowner", "cf_effective_tax_frac");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double* SAM_Singleowner_Outputs_cf_energy_curtailed_aget(SAM_Singleowner ptr, int* length, SAM_error *err){
-	double* result = nullptr;
-	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "cf_energy_curtailed", length);
-	if (!result)
-		make_access_error("SAM_Singleowner", "cf_energy_curtailed");
 	});
 	return result;
 }
@@ -10638,28 +10462,6 @@ SAM_EXPORT double SAM_Singleowner_Outputs_npv_annual_costs_nget(SAM_Singleowner 
 
 
 
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_capacity_revenue_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_capacity_revenue", &result))
-		make_access_error("SAM_Singleowner", "npv_capacity_revenue");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_curtailment_revenue_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_curtailment_revenue", &result))
-		make_access_error("SAM_Singleowner", "npv_curtailment_revenue");
-	});
-	return result;
-}
-
-
-
 SAM_EXPORT double SAM_Singleowner_Outputs_npv_energy_nom_nget(SAM_Singleowner ptr, SAM_error *err){
 	double result;
 	translateExceptions(err, [&]{
@@ -10682,77 +10484,11 @@ SAM_EXPORT double SAM_Singleowner_Outputs_npv_energy_real_nget(SAM_Singleowner p
 
 
 
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_fed_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_fed_pbi_income", &result))
-		make_access_error("SAM_Singleowner", "npv_fed_pbi_income");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_oth_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_oth_pbi_income", &result))
-		make_access_error("SAM_Singleowner", "npv_oth_pbi_income");
-	});
-	return result;
-}
-
-
-
 SAM_EXPORT double SAM_Singleowner_Outputs_npv_ppa_revenue_nget(SAM_Singleowner ptr, SAM_error *err){
 	double result;
 	translateExceptions(err, [&]{
 	if (!ssc_data_get_number(ptr, "npv_ppa_revenue", &result))
 		make_access_error("SAM_Singleowner", "npv_ppa_revenue");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_salvage_value_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_salvage_value", &result))
-		make_access_error("SAM_Singleowner", "npv_salvage_value");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_sta_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_sta_pbi_income", &result))
-		make_access_error("SAM_Singleowner", "npv_sta_pbi_income");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_thermal_value_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_thermal_value", &result))
-		make_access_error("SAM_Singleowner", "npv_thermal_value");
-	});
-	return result;
-}
-
-
-
-SAM_EXPORT double SAM_Singleowner_Outputs_npv_uti_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err){
-	double result;
-	translateExceptions(err, [&]{
-	if (!ssc_data_get_number(ptr, "npv_uti_pbi_income", &result))
-		make_access_error("SAM_Singleowner", "npv_uti_pbi_income");
 	});
 	return result;
 }

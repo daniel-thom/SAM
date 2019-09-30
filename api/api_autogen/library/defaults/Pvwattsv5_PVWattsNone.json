@@ -4,7 +4,6 @@
 			"system_use_lifetime_output": 0
 		},
 		"LocationAndResource": {
-			"solar_resource_file": "C:\Projects\GitHub\NREL\release\SAM\deploy\solar_resource\phoenix_az_33.448377_-112.074037_psmv3_60_tmy.csv"
 		},
 		"SystemDesign": {
 			"array_type": 0,

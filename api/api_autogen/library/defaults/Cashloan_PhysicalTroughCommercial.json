@@ -154,7 +154,7 @@
 		"Cashloan": {
 			"annual_energy_value": [0],
 			"salvage_percentage": 0,
-			"total_installed_cost": 5.62201e+08
+			"total_installed_cost": 5.62202e+08
 		},
 		"SystemOutput": {
 			"degradation": [0.000000],

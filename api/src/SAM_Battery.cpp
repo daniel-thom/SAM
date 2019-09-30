@@ -734,9 +734,9 @@ SAM_EXPORT void SAM_Battery_TimeOfDelivery_ppa_multiplier_model_nset(SAM_Battery
 	});
 }
 
-SAM_EXPORT void SAM_Battery_TimeOfDelivery_ppa_price_input_aset(SAM_Battery ptr, double* arr, int length, SAM_error *err){
+SAM_EXPORT void SAM_Battery_TimeOfDelivery_ppa_price_input_nset(SAM_Battery ptr, double number, SAM_error *err){
 	translateExceptions(err, [&]{
-		ssc_data_set_array(ptr, "ppa_price_input", arr, length);
+		ssc_data_set_number(ptr, "ppa_price_input", number);
 	});
 }
 
@@ -2063,11 +2063,10 @@ SAM_EXPORT double SAM_Battery_TimeOfDelivery_ppa_multiplier_model_nget(SAM_Batte
 
 
 
-SAM_EXPORT double* SAM_Battery_TimeOfDelivery_ppa_price_input_aget(SAM_Battery ptr, int* length, SAM_error *err){
-	double* result = nullptr;
+SAM_EXPORT double SAM_Battery_TimeOfDelivery_ppa_price_input_nget(SAM_Battery ptr, SAM_error *err){
+	double result;
 	translateExceptions(err, [&]{
-	result = ssc_data_get_array(ptr, "ppa_price_input", length);
-	if (!result)
+	if (!ssc_data_get_number(ptr, "ppa_price_input", &result))
 		make_access_error("SAM_Battery", "ppa_price_input");
 	});
 	return result;

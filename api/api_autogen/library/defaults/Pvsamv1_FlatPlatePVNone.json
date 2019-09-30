@@ -360,8 +360,6 @@
 		},
 		"TimeOfDelivery": {
 		},
-		"Resilience": {
-		},
 		"AdjustmentFactors": {
 			"constant": 0,
 			"dc_constant": 0

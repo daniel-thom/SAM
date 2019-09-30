@@ -1,7 +1,6 @@
 {
 	"defaults": {
 		"Weather": {
-			"file_name": "C:\Projects\GitHub\NREL\AncillaryServices\SAM\deploy\solar_resource\tucson_az_32.116521_-110.933042_psmv3_60_tmy.csv"
 		},
 		"Solarfield": {
 			"A_aperture": [

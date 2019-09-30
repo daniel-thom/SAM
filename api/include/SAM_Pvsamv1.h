@@ -4302,52 +4302,7 @@ extern "C"
 	 * constraints: None
 	 * required if: en_batt=1&batt_meter_position=1&batt_dispatch_choice=2
 	 */
-	SAM_EXPORT void SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_aset(SAM_Pvsamv1 ptr, double* arr, int length, SAM_error *err);
-
-
-	//
-	// Resilience parameters
-	//
-
-	/**
-	 * Set avg_critical_load: Average critical load during an outage [kWh]
-	 * options: None
-	 * constraints: MIN=0
-	 * required if: None
-	 */
-	SAM_EXPORT void SAM_Pvsamv1_Resilience_avg_critical_load_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err);
-
-	/**
-	 * Set present_worth_factor: Present worth factor used in assessed avoided outage costs
-	 * options: None
-	 * constraints: None
-	 * required if: None
-	 */
-	SAM_EXPORT void SAM_Pvsamv1_Resilience_present_worth_factor_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err);
-
-	/**
-	 * Set resilience_hrs_avg: Average consecutive hours survived [hr]
-	 * options: None
-	 * constraints: MIN=0
-	 * required if: None
-	 */
-	SAM_EXPORT void SAM_Pvsamv1_Resilience_resilience_hrs_avg_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err);
-
-	/**
-	 * Set resilience_hrs_max: Maximum consecutive hours survived [hr]
-	 * options: None
-	 * constraints: MIN=0
-	 * required if: None
-	 */
-	SAM_EXPORT void SAM_Pvsamv1_Resilience_resilience_hrs_max_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err);
-
-	/**
-	 * Set resilience_hrs_min: Minimum consecutive hours survived [hr]
-	 * options: None
-	 * constraints: MIN=0
-	 * required if: None
-	 */
-	SAM_EXPORT void SAM_Pvsamv1_Resilience_resilience_hrs_min_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err);
+	SAM_EXPORT void SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_nset(SAM_Pvsamv1 ptr, double number, SAM_error *err);
 
 
 	/**
@@ -5513,22 +5468,7 @@ extern "C"
 
 	SAM_EXPORT double SAM_Pvsamv1_TimeOfDelivery_ppa_multiplier_model_nget(SAM_Pvsamv1 ptr, SAM_error *err);
 
-	SAM_EXPORT double* SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
-
-
-	/**
-	 * Resilience Getters
-	 */
-
-	SAM_EXPORT double SAM_Pvsamv1_Resilience_avg_critical_load_nget(SAM_Pvsamv1 ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Pvsamv1_Resilience_present_worth_factor_nget(SAM_Pvsamv1 ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Pvsamv1_Resilience_resilience_hrs_avg_nget(SAM_Pvsamv1 ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Pvsamv1_Resilience_resilience_hrs_max_nget(SAM_Pvsamv1 ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Pvsamv1_Resilience_resilience_hrs_min_nget(SAM_Pvsamv1 ptr, SAM_error *err);
+	SAM_EXPORT double SAM_Pvsamv1_TimeOfDelivery_ppa_price_input_nget(SAM_Pvsamv1 ptr, SAM_error *err);
 
 
 	/**
@@ -5717,8 +5657,6 @@ extern "C"
 
 	SAM_EXPORT double SAM_Pvsamv1_Outputs_annual_subarray4_dc_wiring_loss_nget(SAM_Pvsamv1 ptr, SAM_error *err);
 
-	SAM_EXPORT double SAM_Pvsamv1_Outputs_annual_total_loss_percent_nget(SAM_Pvsamv1 ptr, SAM_error *err);
-
 	SAM_EXPORT double SAM_Pvsamv1_Outputs_annual_transmission_loss_nget(SAM_Pvsamv1 ptr, SAM_error *err);
 
 	SAM_EXPORT double SAM_Pvsamv1_Outputs_annual_transmission_loss_percent_nget(SAM_Pvsamv1 ptr, SAM_error *err);
@@ -5901,8 +5839,6 @@ extern "C"
 
 	SAM_EXPORT double SAM_Pvsamv1_Outputs_nameplate_dc_rating_nget(SAM_Pvsamv1 ptr, SAM_error *err);
 
-	SAM_EXPORT double* SAM_Pvsamv1_Outputs_outage_durations_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
-
 	SAM_EXPORT double SAM_Pvsamv1_Outputs_performance_ratio_nget(SAM_Pvsamv1 ptr, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Pvsamv1_Outputs_poa_beam_eff_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
@@ -5921,15 +5857,11 @@ extern "C"
 
 	SAM_EXPORT double* SAM_Pvsamv1_Outputs_poa_shaded_soiled_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
 
-	SAM_EXPORT double* SAM_Pvsamv1_Outputs_probs_of_surviving_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
-
 	SAM_EXPORT double* SAM_Pvsamv1_Outputs_pv_to_batt_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Pvsamv1_Outputs_pv_to_grid_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Pvsamv1_Outputs_pv_to_load_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
-
-	SAM_EXPORT double* SAM_Pvsamv1_Outputs_resilience_hrs_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Pvsamv1_Outputs_shadedb_subarray1_shade_frac_aget(SAM_Pvsamv1 ptr, int* length, SAM_error *err);
 

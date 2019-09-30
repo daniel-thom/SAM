@@ -1312,6 +1312,14 @@ extern "C"
 	SAM_EXPORT void SAM_Singleowner_Battery_en_batt_nset(SAM_Singleowner ptr, double number, SAM_error *err);
 
 	/**
+	 * Set en_electricity_rates: Enable electricity rates for grid purchase [0/1]
+	 * options: None
+	 * constraints: None
+	 * required if: ?=0
+	 */
+	SAM_EXPORT void SAM_Singleowner_Battery_en_electricity_rates_nset(SAM_Singleowner ptr, double number, SAM_error *err);
+
+	/**
 	 * Set grid_to_batt: Electricity to battery from grid [kW]
 	 * options: None
 	 * constraints: None
@@ -2018,9 +2026,9 @@ extern "C"
 	 * Set ppa_price_input: PPA price in first year [$/kWh]
 	 * options: None
 	 * constraints: None
-	 * required if: *
+	 * required if: ?=10
 	 */
-	SAM_EXPORT void SAM_Singleowner_PPAPrice_ppa_price_input_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err);
+	SAM_EXPORT void SAM_Singleowner_PPAPrice_ppa_price_input_nset(SAM_Singleowner ptr, double number, SAM_error *err);
 
 
 	//
@@ -2251,93 +2259,6 @@ extern "C"
 	 * required if: None
 	 */
 	SAM_EXPORT void SAM_Singleowner_FuelCell_fuelcell_replacement_schedule_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err);
-
-
-	//
-	// CapacityPayments parameters
-	//
-
-	/**
-	 * Set cp_battery_nameplate: Battery nameplate [MW]
-	 * options: None
-	 * constraints: MIN=0
-	 * required if: cp_payment_type=1
-	 */
-	SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_battery_nameplate_nset(SAM_Singleowner ptr, double number, SAM_error *err);
-
-	/**
-	 * Set cp_capacity_credit_percent: Capacity credit (eligible portion of nameplate) [%]
-	 * options: None
-	 * constraints: None
-	 * required if: cp_payment_type=1
-	 */
-	SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_credit_percent_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err);
-
-	/**
-	 * Set cp_capacity_payment_amount: Capacity payment amount [$ or $/MW]
-	 * options: None
-	 * constraints: None
-	 * required if: *
-	 */
-	SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_payment_amount_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err);
-
-	/**
-	 * Set cp_capacity_payment_esc: Capacity payment escalation [%/year]
-	 * options: None
-	 * constraints: None
-	 * required if: *
-	 */
-	SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_payment_esc_nset(SAM_Singleowner ptr, double number, SAM_error *err);
-
-	/**
-	 * Set cp_capacity_payment_type: Capacity payment type
-	 * options: 0=Energy basis,1=Fixed amount
-	 * constraints: INTEGER,MIN=0,MAX=1
-	 * required if: *
-	 */
-	SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_capacity_payment_type_nset(SAM_Singleowner ptr, double number, SAM_error *err);
-
-	/**
-	 * Set cp_system_nameplate: System nameplate [MW]
-	 * options: None
-	 * constraints: MIN=0
-	 * required if: cp_payment_type=1
-	 */
-	SAM_EXPORT void SAM_Singleowner_CapacityPayments_cp_system_nameplate_nset(SAM_Singleowner ptr, double number, SAM_error *err);
-
-
-	//
-	// FinancialGrid parameters
-	//
-
-	/**
-	 * Set grid_curtailment_price: Curtailment price [$/kWh]
-	 * options: None
-	 * constraints: None
-	 * required if: ?=0
-	 */
-	SAM_EXPORT void SAM_Singleowner_FinancialGrid_grid_curtailment_price_aset(SAM_Singleowner ptr, double* arr, int length, SAM_error *err);
-
-	/**
-	 * Set grid_curtailment_price_esc: Curtailment price escalation [%]
-	 * options: None
-	 * constraints: None
-	 * required if: ?=0
-	 */
-	SAM_EXPORT void SAM_Singleowner_FinancialGrid_grid_curtailment_price_esc_nset(SAM_Singleowner ptr, double number, SAM_error *err);
-
-
-	//
-	// Common parameters
-	//
-
-	/**
-	 * Set annual_energy_pre_curtailment_ac: Annual Energy AC pre-curtailment (year 1) [kWh]
-	 * options: None
-	 * constraints: None
-	 * required if: ?=0
-	 */
-	SAM_EXPORT void SAM_Singleowner_Common_annual_energy_pre_curtailment_ac_nset(SAM_Singleowner ptr, double number, SAM_error *err);
 
 
 	/**
@@ -2678,6 +2599,8 @@ extern "C"
 
 	SAM_EXPORT double SAM_Singleowner_Battery_en_batt_nget(SAM_Singleowner ptr, SAM_error *err);
 
+	SAM_EXPORT double SAM_Singleowner_Battery_en_electricity_rates_nget(SAM_Singleowner ptr, SAM_error *err);
+
 	SAM_EXPORT double* SAM_Singleowner_Battery_grid_to_batt_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
 
@@ -2895,7 +2818,7 @@ extern "C"
 
 	SAM_EXPORT double SAM_Singleowner_PPAPrice_ppa_escalation_nget(SAM_Singleowner ptr, SAM_error *err);
 
-	SAM_EXPORT double* SAM_Singleowner_PPAPrice_ppa_price_input_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
+	SAM_EXPORT double SAM_Singleowner_PPAPrice_ppa_price_input_nget(SAM_Singleowner ptr, SAM_error *err);
 
 
 	/**
@@ -2979,39 +2902,6 @@ extern "C"
 
 
 	/**
-	 * CapacityPayments Getters
-	 */
-
-	SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_battery_nameplate_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double* SAM_Singleowner_CapacityPayments_cp_capacity_credit_percent_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
-
-	SAM_EXPORT double* SAM_Singleowner_CapacityPayments_cp_capacity_payment_amount_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_capacity_payment_esc_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_capacity_payment_type_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_CapacityPayments_cp_system_nameplate_nget(SAM_Singleowner ptr, SAM_error *err);
-
-
-	/**
-	 * FinancialGrid Getters
-	 */
-
-	SAM_EXPORT double* SAM_Singleowner_FinancialGrid_grid_curtailment_price_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_FinancialGrid_grid_curtailment_price_esc_nget(SAM_Singleowner ptr, SAM_error *err);
-
-
-	/**
-	 * Common Getters
-	 */
-
-	SAM_EXPORT double SAM_Singleowner_Common_annual_energy_pre_curtailment_ac_nget(SAM_Singleowner ptr, SAM_error *err);
-
-
-	/**
 	 * Outputs Getters
 	 */
 
@@ -3041,11 +2931,7 @@ extern "C"
 
 	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_battery_replacement_cost_schedule_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
-	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_capacity_payment_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
-
 	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_cash_for_ds_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
-
-	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_curtailment_value_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_debt_balance_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
@@ -3072,8 +2958,6 @@ extern "C"
 	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_ebitda_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_effective_tax_frac_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
-
-	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_energy_curtailed_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
 	SAM_EXPORT double* SAM_Singleowner_Outputs_cf_energy_net_aget(SAM_Singleowner ptr, int* length, SAM_error *err);
 
@@ -4057,27 +3941,11 @@ extern "C"
 
 	SAM_EXPORT double SAM_Singleowner_Outputs_npv_annual_costs_nget(SAM_Singleowner ptr, SAM_error *err);
 
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_capacity_revenue_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_curtailment_revenue_nget(SAM_Singleowner ptr, SAM_error *err);
-
 	SAM_EXPORT double SAM_Singleowner_Outputs_npv_energy_nom_nget(SAM_Singleowner ptr, SAM_error *err);
 
 	SAM_EXPORT double SAM_Singleowner_Outputs_npv_energy_real_nget(SAM_Singleowner ptr, SAM_error *err);
 
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_fed_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_oth_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err);
-
 	SAM_EXPORT double SAM_Singleowner_Outputs_npv_ppa_revenue_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_salvage_value_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_sta_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_thermal_value_nget(SAM_Singleowner ptr, SAM_error *err);
-
-	SAM_EXPORT double SAM_Singleowner_Outputs_npv_uti_pbi_income_nget(SAM_Singleowner ptr, SAM_error *err);
 
 	SAM_EXPORT double SAM_Singleowner_Outputs_ppa_nget(SAM_Singleowner ptr, SAM_error *err);
 
